@@ -2,36 +2,13 @@
 
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import { RotateCcw, Twitter, Linkedin, Briefcase, GraduationCap } from "lucide-react";
-import type { DiagnosticResult, CareerType } from "@/types";
+import { RotateCcw, Twitter, Linkedin, ArrowRight } from "lucide-react";
+import { useRouter } from "next/navigation";
+import type { DiagnosticResult } from "@/types";
 import { RadarChart } from "@/components/radar-chart";
 import { Roadmap } from "@/components/roadmap";
 import { CertificateCard } from "@/components/certificate-card";
-
-const JOB_CHANGE_TYPES: CareerType[] = [
-    'ENDANGERED_WORKER',
-    'LEGACY_KEEPER',
-    'GIG_SURVIVOR',
-];
-
-const ROUTE_CTA = {
-    career: {
-        label: "AI時代の市場価値をエージェントに無料相談する",
-        url: "[あなたの転職ASPリンクに後で書き換え]",
-        icon: Briefcase,
-        gradient: "from-cyan-400 via-blue-500 to-indigo-600",
-        shadowColor: "rgba(0, 200, 255, 0.4)",
-        hoverShadow: "rgba(0, 200, 255, 0.6)",
-    },
-    reskill: {
-        label: "3ヶ月でAIマスターになる実践講座を見る",
-        url: "[あなたの講座ASPリンクに後で書き換え]",
-        icon: GraduationCap,
-        gradient: "from-amber-400 via-yellow-500 to-orange-500",
-        shadowColor: "rgba(255, 200, 0, 0.4)",
-        hoverShadow: "rgba(255, 200, 0, 0.6)",
-    },
-};
+import { CTA_CONTENT } from "@/lib/constants";
 
 interface ResultScreenProps {
     result: DiagnosticResult;
@@ -39,17 +16,14 @@ interface ResultScreenProps {
 }
 
 export function ResultScreen({ result, onRestart }: ResultScreenProps) {
+    const router = useRouter();
+
     const survivalScore = useMemo(() => {
         const { tech, human, autonomy } = result.radarChart;
         return Math.round((tech + human + autonomy) / 3);
     }, [result]);
 
-    const routeType = useMemo(() => {
-        return JOB_CHANGE_TYPES.includes(result.type) ? "career" : "reskill";
-    }, [result]);
-
-    const ctaConfig = ROUTE_CTA[routeType];
-    const CtaIcon = ctaConfig.icon;
+    const dynamicCTA = CTA_CONTENT[result.type];
 
     return (
         <motion.div
@@ -141,17 +115,15 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                     transition={{ delay: 0.85 }}
                     className="mb-8"
                 >
-                    <motion.a
-                        href={ctaConfig.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={`relative block w-full py-5 px-8 rounded-2xl bg-gradient-to-r ${ctaConfig.gradient} text-white font-bold text-center text-lg overflow-hidden group`}
+                    <motion.button
+                        onClick={() => router.push(`/comparison?type=${result.type}`)}
+                        className="relative block w-full py-6 px-8 rounded-2xl bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 text-white font-bold text-center overflow-hidden group"
                         style={{
-                            boxShadow: `0 0 30px ${ctaConfig.shadowColor}`,
+                            boxShadow: '0 0 30px rgba(251, 146, 60, 0.5)',
                         }}
                         whileHover={{
                             scale: 1.02,
-                            boxShadow: `0 0 50px ${ctaConfig.hoverShadow}`,
+                            boxShadow: '0 0 50px rgba(251, 146, 60, 0.7)',
                         }}
                         whileTap={{ scale: 0.98 }}
                     >
@@ -181,13 +153,16 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                             }}
                         />
 
-                        <span className="relative flex items-center justify-center gap-3">
-                            <CtaIcon className="w-6 h-6 group-hover:scale-110 transition-transform" />
-                            <span>{ctaConfig.label}</span>
-                        </span>
-                    </motion.a>
+                        <div className="relative flex flex-col items-center justify-center gap-2">
+                            <span className="flex items-center justify-center gap-3 text-lg md:text-xl">
+                                <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
+                                <span>{dynamicCTA.cta}</span>
+                            </span>
+                            <span className="text-sm text-white/90 font-normal">{dynamicCTA.subtext}</span>
+                        </div>
+                    </motion.button>
                     <p className="text-center text-xs text-muted-foreground mt-3">
-                        ※ 完全無料・登録30秒で完了
+                        ※ あなた専用の厳選ルートを表示します
                     </p>
                 </motion.div>
 

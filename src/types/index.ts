@@ -55,3 +55,21 @@ export interface UserData {
     result: DiagnosticResult;
     timestamp: Date;
 }
+
+export interface DynamicCTA {
+    cta: string;
+    subtext: string;
+}
+
+export interface Route {
+    name: string;
+    url: string;
+    merits: string[];
+    demerits: string[];
+    sommelierComment: string;
+}
+
+export interface SommelierRecommendation {
+    overview: string;
+    routes: Route[];
+}
