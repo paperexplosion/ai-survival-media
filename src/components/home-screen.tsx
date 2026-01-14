@@ -71,6 +71,44 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                 ))}
             </motion.div>
 
+            <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.8 }}
+                className="mb-6 flex items-center gap-4"
+            >
+                <motion.div
+                    animate={{
+                        scale: [1, 1.05, 1],
+                        boxShadow: [
+                            "0 0 20px rgba(6, 182, 212, 0.3)",
+                            "0 0 40px rgba(6, 182, 212, 0.6)",
+                            "0 0 20px rgba(6, 182, 212, 0.3)"
+                        ]
+                    }}
+                    transition={{ duration: 2, repeat: Infinity }}
+                    className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500/20 via-cyan-400/20 to-cyan-500/20 rounded-2xl border-2 border-cyan-400"
+                >
+                    <div className="w-3 h-3 rounded-full bg-cyan-400 animate-pulse shadow-lg shadow-cyan-400/50" />
+                    <span className="text-xl font-black text-cyan-300 drop-shadow-lg">完全無料</span>
+                </motion.div>
+                <motion.div
+                    animate={{
+                        scale: [1, 1.05, 1],
+                        boxShadow: [
+                            "0 0 20px rgba(168, 85, 247, 0.3)",
+                            "0 0 40px rgba(168, 85, 247, 0.6)",
+                            "0 0 20px rgba(168, 85, 247, 0.3)"
+                        ]
+                    }}
+                    transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
+                    className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-500/20 via-purple-400/20 to-purple-500/20 rounded-2xl border-2 border-purple-400"
+                >
+                    <div className="w-3 h-3 rounded-full bg-purple-400 animate-pulse shadow-lg shadow-purple-400/50" />
+                    <span className="text-xl font-black text-purple-300 drop-shadow-lg">登録不要</span>
+                </motion.div>
+            </motion.div>
+
             <motion.button
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -85,22 +123,6 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                     3分で運命を診断する
                 </div>
             </motion.button>
-
-            <motion.div
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.1 }}
-                className="mt-8 flex items-center gap-3"
-            >
-                <div className="flex items-center gap-2 px-5 py-2.5 glass rounded-full border border-neon-cyan/30">
-                    <div className="w-2 h-2 rounded-full bg-neon-cyan animate-pulse" />
-                    <span className="text-sm font-medium text-neon-cyan">完全無料</span>
-                </div>
-                <div className="flex items-center gap-2 px-5 py-2.5 glass rounded-full border border-neon-purple/30">
-                    <div className="w-2 h-2 rounded-full bg-neon-purple animate-pulse" />
-                    <span className="text-sm font-medium text-neon-purple">登録不要</span>
-                </div>
-            </motion.div>
         </motion.div>
     )
 }
