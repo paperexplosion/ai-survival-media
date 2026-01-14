@@ -35,9 +35,9 @@ export default function BlogPage() {
                     transition={{ delay: 0.2 }}
                     className="text-center mb-12"
                 >
-                    <p className="text-neon-cyan text-sm font-mono mb-4 tracking-wider">INTELLIGENCE BLOG</p>
+                    <p className="text-neon-cyan text-sm font-mono mb-4 tracking-wider">未来予測メディア</p>
                     <h1 className="text-3xl md:text-5xl font-black mb-4 bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent">
-                        AI時代を生き抜く知性
+                        AIサバイバル・インテリジェンス
                     </h1>
                     <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
                         変化の時代に必要な洞察と戦略をお届けします
