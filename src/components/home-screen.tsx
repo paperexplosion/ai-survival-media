@@ -1,13 +1,16 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Cpu, Zap, Shield, TrendingUp } from "lucide-react"
+import { Cpu, Zap, Shield, TrendingUp, BookOpen } from "lucide-react"
+import { useRouter } from "next/navigation"
 
 interface HomeScreenProps {
     onStart: () => void
 }
 
 export function HomeScreen({ onStart }: HomeScreenProps) {
+    const router = useRouter()
+
     return (
         <motion.div
             initial={{ opacity: 0 }}
@@ -140,6 +143,21 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                     3分で運命を診断する
                 </motion.div>
             </motion.button>
+
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1.1 }}
+                className="mt-8"
+            >
+                <button
+                    onClick={() => router.push("/blog")}
+                    className="flex items-center gap-2 px-6 py-3 glass rounded-full hover:bg-white/5 transition-all group"
+                >
+                    <BookOpen className="w-5 h-5 text-neon-purple group-hover:scale-110 transition-transform" />
+                    <span className="text-foreground">AI時代を生き抜く知性ブログ</span>
+                </button>
+            </motion.div>
         </motion.div>
     )
 }
