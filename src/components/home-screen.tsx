@@ -152,10 +152,11 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
             >
                 <button
                     onClick={() => router.push("/blog")}
-                    className="flex items-center gap-2 px-6 py-3 glass rounded-full hover:bg-white/5 transition-all group"
+                    className="flex flex-col items-center gap-1 px-6 py-4 glass rounded-2xl hover:bg-white/5 transition-all group"
                 >
-                    <BookOpen className="w-5 h-5 text-neon-purple group-hover:scale-110 transition-transform" />
-                    <span className="text-foreground">未来予測メディア　AIサバイバル・インテリジェンス</span>
+                    <BookOpen className="w-5 h-5 text-neon-purple group-hover:scale-110 transition-transform mb-1" />
+                    <span className="text-sm text-neon-cyan font-bold">未来予測レポート</span>
+                    <span className="text-base font-black text-foreground">AIサバイバル・インテリジェンス</span>
                 </button>
             </motion.div>
         </motion.div>
