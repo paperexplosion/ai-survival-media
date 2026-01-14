@@ -2,7 +2,7 @@
 
 import { useParams, useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import { ArrowLeft, Calendar, Clock, Sparkles } from "lucide-react";
+import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import { getBlogPost, getAllBlogPosts } from "@/lib/blog-posts";
 import { Suspense } from "react";
 import { AffiliateCard } from "@/components/affiliate-card";
@@ -97,10 +97,6 @@ function BlogPostContent() {
                                 formattedText = formattedText.replace(regex, '<mark class="bg-gradient-to-r from-neon-cyan/20 to-neon-purple/20 text-neon-cyan px-1 rounded">$1</mark>');
                             });
 
-                            const shouldShowImage = (post.slug === 'post-03' && index === 1) ||
-                                                   (post.slug === 'post-04' && index === 1) ||
-                                                   (post.slug === 'post-05' && index === 0);
-
                             return (
                                 <motion.div
                                     key={index}
@@ -114,25 +110,6 @@ function BlogPostContent() {
                                         {section.section}
                                     </h2>
                                     <div className="blog-body text-muted-foreground leading-relaxed whitespace-pre-line" dangerouslySetInnerHTML={{ __html: formattedText }} />
-
-                                    {shouldShowImage && (
-                                        <div className="my-8 rounded-2xl overflow-hidden border border-white/10">
-                                            <div className="aspect-video bg-gradient-to-br from-slate-800 via-slate-900 to-slate-800 flex items-center justify-center relative">
-                                                <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAgTSAwIDIwIEwgNDAgMjAgTSAyMCAwIEwgMjAgNDAgTSAwIDMwIEwgNDAgMzAgTSAzMCAwIEwgMzAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-40"></div>
-                                                <div className="relative text-center px-8">
-                                                    <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-r from-neon-cyan to-neon-purple flex items-center justify-center">
-                                                        <Sparkles className="w-10 h-10 text-white" />
-                                                    </div>
-                                                    <p className="text-sm text-muted-foreground italic">
-                                                        {post.slug === 'post-03' && 'AIと人間が共生する未来のクリエイティブ・オフィス'}
-                                                        {post.slug === 'post-04' && '会社という盾の内側で王国を築くビジネスパーソン'}
-                                                        {post.slug === 'post-05' && '決断の瞬間：AI時代を生き抜く当事者たち'}
-                                                    </p>
-                                                    <p className="text-xs text-muted-foreground/60 mt-2">Image placeholder - 実装時にMidjourneyなどで生成した画像に差し替え可能</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    )}
 
                                     {post.affiliates?.filter(aff => aff.position === index + 1).map((affiliate, affIndex) => (
                                         <AffiliateCard
@@ -205,12 +182,6 @@ function BlogPostContent() {
                         />
 
                         <div className="relative">
-                            <div className="flex justify-center mb-6">
-                                <div className="w-16 h-16 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 flex items-center justify-center">
-                                    <Sparkles className="w-8 h-8 text-white" />
-                                </div>
-                            </div>
-
                             <h3 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">
                                 あなたのAI時代サバイバル確率は？
                             </h3>
