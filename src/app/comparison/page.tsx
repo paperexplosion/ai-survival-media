@@ -2,7 +2,7 @@
 
 import { useSearchParams, useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import { ArrowLeft, ExternalLink, CheckCircle2, XCircle, Sparkles } from "lucide-react";
+import { ArrowLeft, ExternalLink, CheckCircle2, XCircle, Sparkles, KeyRound, List } from "lucide-react";
 import { CareerType } from "@/types";
 import { SOMMELIER_RECOMMENDATIONS, CAREER_TYPES_DATA } from "@/lib/constants";
 import { Suspense } from "react";
@@ -163,16 +163,22 @@ function ComparisonContent() {
                 >
                     <button
                         onClick={() => router.push(`/comparison/more-options?type=${type}`)}
-                        className="px-8 py-4 glass rounded-2xl border border-dashed border-amber-500/30 hover:border-amber-500/60 hover:bg-amber-500/5 transition-all group"
+                        className="w-full max-w-2xl mx-auto py-5 px-8 rounded-2xl bg-gradient-to-r from-blue-900 via-purple-900 to-blue-900 hover:from-blue-800 hover:via-purple-800 hover:to-blue-800 transition-all duration-300 group relative overflow-hidden shadow-xl hover:shadow-2xl hover:shadow-purple-500/50"
                     >
-                        <div className="flex items-center justify-center gap-3">
-                            <div className="w-8 h-8 rounded-full bg-amber-500/10 flex items-center justify-center group-hover:bg-amber-500/20 transition-colors">
-                                <span className="text-amber-400 text-lg">🔍</span>
+                        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
+                        <div className="relative flex items-center justify-center gap-4">
+                            <div className="w-10 h-10 rounded-full bg-amber-400/20 flex items-center justify-center group-hover:bg-amber-400/30 transition-all group-hover:scale-110">
+                                <KeyRound className="w-5 h-5 text-amber-300" />
                             </div>
-                            <div className="text-left">
-                                <p className="text-sm text-amber-400 font-bold">もっと他の選択肢も見る</p>
-                                <p className="text-xs text-muted-foreground">ソムリエの裏リスト</p>
+                            <div className="text-center">
+                                <p className="text-lg font-black text-amber-200 group-hover:text-amber-100 transition-colors">
+                                    もっと他の選択肢も見る
+                                </p>
+                                <p className="text-sm text-purple-200/80 group-hover:text-purple-100 transition-colors font-semibold">
+                                    ソムリエの裏リスト
+                                </p>
                             </div>
+                            <List className="w-5 h-5 text-amber-300 group-hover:scale-110 transition-transform" />
                         </div>
                     </button>
 
