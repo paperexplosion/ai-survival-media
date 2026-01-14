@@ -3,8 +3,9 @@
 import { useParams, useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { ArrowLeft, Calendar, Clock, Sparkles } from "lucide-react";
-import { getBlogPost } from "@/lib/blog-posts";
+import { getBlogPost, getAllBlogPosts } from "@/lib/blog-posts";
 import { Suspense } from "react";
+import { AffiliateCard } from "@/components/affiliate-card";
 
 function BlogPostContent() {
     const params = useParams();
@@ -58,7 +59,7 @@ function BlogPostContent() {
                         <span className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold mb-4">
                             {post.category}
                         </span>
-                        <h1 className="text-3xl md:text-5xl font-black mb-6 bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent leading-tight">
+                        <h1 className="blog-heading text-3xl md:text-5xl font-black mb-6 bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent leading-tight">
                             {post.title}
                         </h1>
                         <div className="flex items-center gap-6 text-sm text-muted-foreground mb-8">
@@ -78,12 +79,17 @@ function BlogPostContent() {
                     </div>
 
                     <div className="prose prose-invert prose-lg max-w-none mb-12">
-                        <div className="text-lg text-muted-foreground leading-relaxed mb-8 p-6 rounded-xl bg-white/5 border border-white/10">
+                        <div className="blog-body text-lg text-muted-foreground leading-relaxed mb-8 p-6 rounded-xl bg-white/5 border border-white/10">
                             {post.lead}
                         </div>
 
                         {post.content.map((section, index) => {
-                            const keywords = ['審美眼', '強化外骨格', '平均点の洪水', 'DX事務エバンジェリスト', '翻訳力', '想像力', '調整', '処理', 'インテリジェンス'];
+                            const keywords = [
+                                '審美眼', '強化外骨格', '平均点の洪水', 'DX事務エバンジェリスト',
+                                '翻訳力', '想像力', '調整', '処理', 'インテリジェンス',
+                                '軍資金供給源', '決断の格差', '王国', '偵察機', '共生',
+                                '分母', '分子', '当事者', '観測者'
+                            ];
                             let formattedText = section.text;
 
                             keywords.forEach(keyword => {
@@ -91,7 +97,9 @@ function BlogPostContent() {
                                 formattedText = formattedText.replace(regex, '<mark class="bg-gradient-to-r from-neon-cyan/20 to-neon-purple/20 text-neon-cyan px-1 rounded">$1</mark>');
                             });
 
-                            const shouldShowImage = post.slug === 'post-03' && index === 1;
+                            const shouldShowImage = (post.slug === 'post-03' && index === 1) ||
+                                                   (post.slug === 'post-04' && index === 1) ||
+                                                   (post.slug === 'post-05' && index === 0);
 
                             return (
                                 <motion.div
@@ -101,11 +109,11 @@ function BlogPostContent() {
                                     transition={{ delay: 0.3 + index * 0.1 }}
                                     className="mb-8"
                                 >
-                                    <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
+                                    <h2 className="blog-heading text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
                                         <span className="w-2 h-2 rounded-full bg-neon-cyan"></span>
                                         {section.section}
                                     </h2>
-                                    <div className="text-muted-foreground leading-relaxed whitespace-pre-line" dangerouslySetInnerHTML={{ __html: formattedText }} />
+                                    <div className="blog-body text-muted-foreground leading-relaxed whitespace-pre-line" dangerouslySetInnerHTML={{ __html: formattedText }} />
 
                                     {shouldShowImage && (
                                         <div className="my-8 rounded-2xl overflow-hidden border border-white/10">
@@ -115,17 +123,67 @@ function BlogPostContent() {
                                                     <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-r from-neon-cyan to-neon-purple flex items-center justify-center">
                                                         <Sparkles className="w-10 h-10 text-white" />
                                                     </div>
-                                                    <p className="text-sm text-muted-foreground italic">AIと人間が共生する未来のクリエイティブ・オフィス</p>
+                                                    <p className="text-sm text-muted-foreground italic">
+                                                        {post.slug === 'post-03' && 'AIと人間が共生する未来のクリエイティブ・オフィス'}
+                                                        {post.slug === 'post-04' && '会社という盾の内側で王国を築くビジネスパーソン'}
+                                                        {post.slug === 'post-05' && '決断の瞬間：AI時代を生き抜く当事者たち'}
+                                                    </p>
                                                     <p className="text-xs text-muted-foreground/60 mt-2">Image placeholder - 実装時にMidjourneyなどで生成した画像に差し替え可能</p>
                                                 </div>
                                             </div>
                                         </div>
                                     )}
+
+                                    {post.affiliates?.filter(aff => aff.position === index + 1).map((affiliate, affIndex) => (
+                                        <AffiliateCard
+                                            key={affIndex}
+                                            title={affiliate.title}
+                                            description={affiliate.description}
+                                            url={affiliate.url}
+                                            label={affiliate.label}
+                                        />
+                                    ))}
                                 </motion.div>
                             );
                         })}
                     </div>
                 </motion.article>
+
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.6 }}
+                    className="mb-12"
+                >
+                    <h3 className="text-xl font-bold mb-6 text-foreground">Intelligence Reports おすすめ記事</h3>
+                    <div className="grid md:grid-cols-2 gap-6">
+                        {getAllBlogPosts()
+                            .filter(p => p.slug !== post.slug)
+                            .slice(0, 2)
+                            .map((relatedPost) => (
+                                <motion.div
+                                    key={relatedPost.slug}
+                                    onClick={() => router.push(`/blog/${relatedPost.slug}`)}
+                                    className="glass rounded-2xl p-6 neon-border hover:bg-white/5 transition-all cursor-pointer group"
+                                    whileHover={{ scale: 1.02 }}
+                                >
+                                    <span className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold mb-3">
+                                        {relatedPost.category}
+                                    </span>
+                                    <h4 className="text-lg font-bold mb-2 text-foreground group-hover:text-neon-cyan transition-colors">
+                                        {relatedPost.title}
+                                    </h4>
+                                    <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
+                                        {relatedPost.lead}
+                                    </p>
+                                    <div className="flex items-center gap-2 text-neon-cyan text-sm font-bold">
+                                        <span>続きを読む</span>
+                                        <ArrowLeft className="w-4 h-4 rotate-180 group-hover:translate-x-1 transition-transform" />
+                                    </div>
+                                </motion.div>
+                            ))}
+                    </div>
+                </motion.div>
 
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
