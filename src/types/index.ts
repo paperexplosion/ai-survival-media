@@ -64,6 +64,8 @@ export interface DynamicCTA {
 export interface Route {
     name: string;
     url: string;
+    affiliateUrl?: string;
+    trackingImageUrl?: string;
     merits: string[];
     demerits: string[];
     sommelierComment: string;

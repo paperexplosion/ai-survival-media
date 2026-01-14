@@ -140,15 +140,27 @@ function ComparisonContent() {
                                 </div>
 
                                 <a
-                                    href={route.url}
+                                    href={route.affiliateUrl || route.url}
                                     target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="block w-full py-3 px-4 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 text-white font-bold text-center hover:shadow-lg hover:shadow-orange-500/50 transition-all group-hover:scale-105"
+                                    rel={route.affiliateUrl ? "nofollow noreferrer" : "noopener noreferrer"}
+                                    {...(route.affiliateUrl ? { attributionsrc: "" } : {})}
+                                    className="block w-full py-3 px-4 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 text-white font-bold text-center hover:shadow-lg hover:shadow-orange-500/50 transition-all group-hover:scale-105 relative"
                                 >
                                     <span className="flex items-center justify-center gap-2">
                                         <span>詳細を確認する</span>
                                         <ExternalLink className="w-4 h-4" />
                                     </span>
+                                    {route.trackingImageUrl && (
+                                        <img
+                                            src={route.trackingImageUrl}
+                                            width="1"
+                                            height="1"
+                                            style={{ border: "none" }}
+                                            loading="lazy"
+                                            alt=""
+                                            className="absolute opacity-0 pointer-events-none"
+                                        />
+                                    )}
                                 </a>
                             </motion.div>
                         ))}

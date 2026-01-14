@@ -151,6 +151,8 @@ export const SOMMELIER_RECOMMENDATIONS: Record<CareerType, SommelierRecommendati
             {
                 name: 'MyVision',
                 url: '#',
+                affiliateUrl: '//af.moshimo.com/af/c/click?a_id=5337702&p_id=5922&pc_id=16500&pl_id=75690',
+                trackingImageUrl: '//i.moshimo.com/af/i/impression?a_id=5337702&p_id=5922&pc_id=16500&pl_id=75690',
                 merits: ['コンサル転職に特化、創業者が内情を熟知', '書類通過率90%', '年収1500万超案件保有'],
                 demerits: ['未経験にはハードルが高い', '選考対策が非常に厳しい'],
                 sommelierComment: 'あなたの錬金術をコンサル用語に正しく翻訳し、最高値で売るための最短ルートだ。'
@@ -203,6 +205,8 @@ export const SOMMELIER_RECOMMENDATIONS: Record<CareerType, SommelierRecommendati
             {
                 name: 'MyVision',
                 url: '#',
+                affiliateUrl: '//af.moshimo.com/af/c/click?a_id=5337702&p_id=5922&pc_id=16500&pl_id=75690',
+                trackingImageUrl: '//i.moshimo.com/af/i/impression?a_id=5337702&p_id=5922&pc_id=16500&pl_id=75690',
                 merits: ['戦略コンサルへの最短距離、戦略立案の内情を知るアドバイザー', 'ポストコンサル案件に強い', '選考対策の質が圧倒的'],
                 demerits: ['地頭の良さを厳しく問われる', '激務な案件も含まれる'],
                 sommelierComment: '戦略コンサルへの最短距離。あなたの軍師としての資質を正当に評価してくれる。'
@@ -215,11 +219,13 @@ export const SOMMELIER_RECOMMENDATIONS: Record<CareerType, SommelierRecommendati
                 sommelierComment: '実務の沼から抜け出し、参謀としての地位を確立するならここが適任だ。'
             },
             {
-                name: 'M&Aキャリア',
+                name: 'コトラ（KOTORA）',
                 url: '#',
-                merits: ['M&A、平均年収1000万超', '企業の買収・売却という究極の戦場', '未経験から挑戦可能'],
-                demerits: ['成果主義が極めて強い', '専門知識の習得が必須'],
-                sommelierComment: '戦略家にとっての最高峰。あなたの決断が数億、数十億の価値を生む世界。'
+                affiliateUrl: '//af.moshimo.com/af/c/click?a_id=5337707&p_id=3316&pc_id=7865&pl_id=47212',
+                trackingImageUrl: '//i.moshimo.com/af/i/impression?a_id=5337707&p_id=3316&pc_id=7865&pl_id=47212',
+                merits: ['プロフェッショナル職特化', 'コンサル・金融に圧倒的強み', '価値観マッチング'],
+                demerits: ['成果主義が極めて強い', '専門性の高さが求められる'],
+                sommelierComment: '単なる求人紹介ではなく、プロとしての「価値観」で組織とマッチングさせる。軍師としてのキャリアを長期で預けるに足る。'
             }
         ]
     },
