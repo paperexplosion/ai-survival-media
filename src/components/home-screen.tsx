@@ -155,7 +155,7 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                     className="flex items-center gap-2 px-6 py-3 glass rounded-full hover:bg-white/5 transition-all group"
                 >
                     <BookOpen className="w-5 h-5 text-neon-purple group-hover:scale-110 transition-transform" />
-                    <span className="text-foreground">AIサバイバル・インテリジェンス</span>
+                    <span className="text-foreground">未来予測メディア　AIサバイバル・インテリジェンス</span>
                 </button>
             </motion.div>
         </motion.div>

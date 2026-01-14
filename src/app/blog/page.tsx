@@ -35,10 +35,12 @@ export default function BlogPage() {
                     transition={{ delay: 0.2 }}
                     className="text-center mb-12"
                 >
-                    <p className="text-neon-cyan text-sm font-mono mb-4 tracking-wider">未来予測メディア</p>
-                    <h1 className="text-3xl md:text-5xl font-black mb-4 bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent">
-                        AIサバイバル・インテリジェンス
-                    </h1>
+                    <div className="mb-4">
+                        <p className="text-2xl md:text-3xl font-bold text-neon-cyan mb-2">未来予測メディア</p>
+                        <h1 className="text-4xl md:text-6xl font-black bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent">
+                            AIサバイバル・インテリジェンス
+                        </h1>
+                    </div>
                     <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
                         変化の時代に必要な洞察と戦略をお届けします
                     </p>
