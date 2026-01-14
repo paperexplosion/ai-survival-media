@@ -113,15 +113,32 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.9 }}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
+                whileHover={{ scale: 1.08, y: -4 }}
+                whileTap={{ scale: 0.98 }}
                 onClick={onStart}
                 className="relative group"
             >
-                <div className="absolute inset-0 bg-gradient-to-r from-neon-blue to-neon-purple rounded-full blur-lg opacity-70 group-hover:opacity-100 transition-opacity animate-glow" />
-                <div className="relative px-10 py-5 bg-gradient-to-r from-neon-blue to-neon-purple rounded-full text-primary-foreground font-bold text-lg tracking-wide">
+                <motion.div
+                    animate={{
+                        opacity: [0.7, 1, 0.7],
+                        scale: [1, 1.15, 1],
+                    }}
+                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                    className="absolute inset-0 bg-gradient-to-r from-neon-blue to-neon-purple rounded-full blur-2xl"
+                />
+                <motion.div
+                    animate={{
+                        boxShadow: [
+                            "0 0 30px rgba(59, 130, 246, 0.5), 0 0 60px rgba(168, 85, 247, 0.3)",
+                            "0 0 50px rgba(59, 130, 246, 0.8), 0 0 100px rgba(168, 85, 247, 0.6)",
+                            "0 0 30px rgba(59, 130, 246, 0.5), 0 0 60px rgba(168, 85, 247, 0.3)"
+                        ]
+                    }}
+                    transition={{ duration: 2, repeat: Infinity }}
+                    className="relative px-14 py-6 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 bg-[length:200%_100%] rounded-full text-white font-black text-2xl tracking-wide shadow-2xl border-2 border-white/20 animate-gradient"
+                >
                     3分で運命を診断する
-                </div>
+                </motion.div>
             </motion.button>
         </motion.div>
     )

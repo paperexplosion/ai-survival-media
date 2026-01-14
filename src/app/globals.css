@@ -97,4 +97,17 @@
   .neon-text {
     @apply drop-shadow-[0_0_10px_rgba(0,212,255,0.8)];
   }
+
+  .animate-gradient {
+    animation: gradient 3s ease infinite;
+  }
+
+  @keyframes gradient {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
 }
