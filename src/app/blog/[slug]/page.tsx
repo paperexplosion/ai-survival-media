@@ -82,23 +82,48 @@ function BlogPostContent() {
                             {post.lead}
                         </div>
 
-                        {post.content.map((section, index) => (
-                            <motion.div
-                                key={index}
-                                initial={{ opacity: 0, y: 20 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.3 + index * 0.1 }}
-                                className="mb-8"
-                            >
-                                <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
-                                    <span className="w-2 h-2 rounded-full bg-neon-cyan"></span>
-                                    {section.section}
-                                </h2>
-                                <div className="text-muted-foreground leading-relaxed whitespace-pre-line">
-                                    {section.text}
-                                </div>
-                            </motion.div>
-                        ))}
+                        {post.content.map((section, index) => {
+                            const keywords = ['審美眼', '強化外骨格', '平均点の洪水', 'DX事務エバンジェリスト', '翻訳力', '想像力', '調整', '処理', 'インテリジェンス'];
+                            let formattedText = section.text;
+
+                            keywords.forEach(keyword => {
+                                const regex = new RegExp(`(${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'g');
+                                formattedText = formattedText.replace(regex, '<mark class="bg-gradient-to-r from-neon-cyan/20 to-neon-purple/20 text-neon-cyan px-1 rounded">$1</mark>');
+                            });
+
+                            const shouldShowImage = post.slug === 'post-03' && index === 1;
+
+                            return (
+                                <motion.div
+                                    key={index}
+                                    initial={{ opacity: 0, y: 20 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: 0.3 + index * 0.1 }}
+                                    className="mb-8"
+                                >
+                                    <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
+                                        <span className="w-2 h-2 rounded-full bg-neon-cyan"></span>
+                                        {section.section}
+                                    </h2>
+                                    <div className="text-muted-foreground leading-relaxed whitespace-pre-line" dangerouslySetInnerHTML={{ __html: formattedText }} />
+
+                                    {shouldShowImage && (
+                                        <div className="my-8 rounded-2xl overflow-hidden border border-white/10">
+                                            <div className="aspect-video bg-gradient-to-br from-slate-800 via-slate-900 to-slate-800 flex items-center justify-center relative">
+                                                <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAgTSAwIDIwIEwgNDAgMjAgTSAyMCAwIEwgMjAgNDAgTSAwIDMwIEwgNDAgMzAgTSAzMCAwIEwgMzAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-40"></div>
+                                                <div className="relative text-center px-8">
+                                                    <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-r from-neon-cyan to-neon-purple flex items-center justify-center">
+                                                        <Sparkles className="w-10 h-10 text-white" />
+                                                    </div>
+                                                    <p className="text-sm text-muted-foreground italic">AIと人間が共生する未来のクリエイティブ・オフィス</p>
+                                                    <p className="text-xs text-muted-foreground/60 mt-2">Image placeholder - 実装時にMidjourneyなどで生成した画像に差し替え可能</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )}
+                                </motion.div>
+                            );
+                        })}
                     </div>
                 </motion.article>
 
