@@ -73,3 +73,13 @@ export interface SommelierRecommendation {
     overview: string;
     routes: Route[];
 }
+
+export interface HiddenOption {
+    name: string;
+    feature: string;
+    url: string;
+}
+
+export interface HiddenList {
+    options: HiddenOption[];
+}

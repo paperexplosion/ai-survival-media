@@ -1,4 +1,4 @@
-import { Question, DiagnosticResult, CareerType, AffiliateLink, DynamicCTA, SommelierRecommendation } from '@/types';
+import { Question, DiagnosticResult, CareerType, AffiliateLink, DynamicCTA, SommelierRecommendation, HiddenList } from '@/types';
 
 export const QUESTIONS: Question[] = [
     {
@@ -579,5 +579,176 @@ export const CAREER_TYPES_DATA: Record<CareerType, Omit<DiagnosticResult, 'radar
             '興味のある分野のオンライン講座を一つ受講し始める。',
         ],
         recommendations: [COMMON_LINKS.chatgpt, COMMON_LINKS.coursera_ai, COMMON_LINKS.udemy_comm],
+    },
+};
+
+export const HIDDEN_LISTS: Record<CareerType, HiddenList> = {
+    DATA_ALCHEMIST: {
+        options: [
+            { name: 'ビズリーチ', feature: 'ハイクラス転職の定番、スカウト型で年収1000万超も狙える', url: '#' },
+            { name: 'リクルートダイレクトスカウト', feature: '大手リクルート運営、ハイクラス特化で安心感', url: '#' },
+            { name: 'JACリクルートメント', feature: '外資・グローバル企業に強い、コンサルタントの質が高い', url: '#' },
+            { name: 'doda', feature: '求人数最大級、幅広い業界をカバー', url: '#' },
+            { name: 'Green', feature: 'IT/Web業界特化、カジュアル面談が気軽', url: '#' },
+            { name: 'Wantedly', feature: 'ベンチャー・スタートアップに強い、企業文化を重視', url: '#' },
+            { name: 'リクルートエージェント', feature: '転職支援実績No.1、非公開求人多数', url: '#' },
+            { name: 'type転職エージェント', feature: '首都圏のIT・営業職に強い、丁寧なサポート', url: '#' },
+            { name: 'エンワールド', feature: '外資系・グローバル企業専門、年収800万以上', url: '#' },
+            { name: 'ロバート・ウォルターズ', feature: 'バイリンガル求人特化、高年収案件多数', url: '#' },
+        ]
+    },
+    ENDANGERED_WORKER: {
+        options: [
+            { name: 'Udemy', feature: '実務スキルを短期習得、買い切り型で安価', url: '#' },
+            { name: 'クラウドワークス', feature: '副業・在宅ワークの定番、実績を積める', url: '#' },
+            { name: 'ランサーズ', feature: 'フリーランス案件豊富、認定制度あり', url: '#' },
+            { name: 'ココナラ', feature: 'スキルを商品化、副業として始めやすい', url: '#' },
+            { name: 'テックアカデミー', feature: 'プログラミング学習、現役エンジニアがメンター', url: '#' },
+            { name: 'DMM WEBCAMP', feature: '転職保証付きプログラミングスクール', url: '#' },
+            { name: 'SHElikes', feature: '女性向けキャリアスクール、全32種のコース', url: '#' },
+            { name: 'ストアカ', feature: 'スキルシェア、対面・オンライン講座多数', url: '#' },
+            { name: 'Schoo', feature: 'ビジネススキル学習、生放送授業が無料', url: '#' },
+            { name: 'グロービス学び放題', feature: 'MBAの知識を定額で、ビジネス基礎から学べる', url: '#' },
+        ]
+    },
+    AI_MASTER: {
+        options: [
+            { name: 'ビズリーチ', feature: 'エグゼクティブ層向け、年収1000万超の求人多数', url: '#' },
+            { name: 'リクルートダイレクトスカウト', feature: 'ハイクラス特化、大手企業のスカウト', url: '#' },
+            { name: 'アサイン', feature: '20-30代ハイエンド層特化、コンサル転職に強い', url: '#' },
+            { name: 'コトラ', feature: '金融・コンサル・IT特化、業界特化型', url: '#' },
+            { name: 'ムービン', feature: 'コンサル転職専門、内定率が高い', url: '#' },
+            { name: 'アンテロープ', feature: 'コンサル・ポストコンサル特化', url: '#' },
+            { name: 'プロコミット', feature: 'ベンチャー・スタートアップの幹部候補', url: '#' },
+            { name: 'キープレイヤーズ', feature: 'スタートアップ転職、創業者との直接面談', url: '#' },
+            { name: 'エンワールド', feature: '外資系ハイクラス、グローバル人材', url: '#' },
+            { name: 'クライス&カンパニー', feature: 'マネージャー・経営幹部案件に強い', url: '#' },
+        ]
+    },
+    REALITY_BRIDGER: {
+        options: [
+            { name: 'クリエイターズマッチ', feature: 'クリエイター特化、ポートフォリオ重視', url: '#' },
+            { name: 'マスメディアン', feature: '広告・Web・マスコミ業界特化', url: '#' },
+            { name: 'レバテッククリエイター', feature: 'Web・ゲーム業界のクリエイター案件', url: '#' },
+            { name: 'ワークポート', feature: 'IT・クリエイティブ職に強い', url: '#' },
+            { name: 'Cinematoday', feature: '映像クリエイター特化、業界人脈豊富', url: '#' },
+            { name: 'TechStars Agent', feature: 'IT・Web・ゲーム業界専門', url: '#' },
+            { name: 'シリコンスタジオエージェント', feature: 'ゲーム・映像業界専門', url: '#' },
+            { name: 'パソナキャリア', feature: 'クリエイティブ職のサポートが手厚い', url: '#' },
+            { name: 'ギークリー', feature: 'IT・Web・ゲーム業界特化', url: '#' },
+            { name: 'マイナビクリエイター', feature: 'Web・ゲーム業界専門、ポートフォリオ作成支援', url: '#' },
+        ]
+    },
+    DIGITAL_ARTISAN: {
+        options: [
+            { name: 'レバテックフリーランス', feature: '高単価案件多数、エージェントのサポート充実', url: '#' },
+            { name: 'ギークスジョブ', feature: 'フリーランスITエンジニア特化、平均年収800万超', url: '#' },
+            { name: 'PE-BANK', feature: 'フリーランス案件、マージン率公開', url: '#' },
+            { name: 'フォスターフリーランス', feature: 'IT案件特化、非公開案件多数', url: '#' },
+            { name: 'Midworks', feature: '正社員並みの保障、フリーランス向け', url: '#' },
+            { name: 'クラウドテック', feature: 'リモート案件豊富、福利厚生充実', url: '#' },
+            { name: 'ITプロパートナーズ', feature: '週2-3日からOK、柔軟な働き方', url: '#' },
+            { name: 'テクフリ', feature: '高単価・直請け案件多数', url: '#' },
+            { name: 'フリエン', feature: '友人紹介で報酬、案件の質が高い', url: '#' },
+            { name: 'テックビズフリーランス', feature: '独立サポート充実、税務・確定申告も支援', url: '#' },
+        ]
+    },
+    INNOVATION_ARCHITECT: {
+        options: [
+            { name: 'テックアカデミー', feature: 'プログラミングスクール、転職サポート付き', url: '#' },
+            { name: 'RUNTEQ', feature: 'Web系開発企業が運営、実務レベルのスキル習得', url: '#' },
+            { name: 'DIVE INTO CODE', feature: '機械学習・Webエンジニア育成、就職達成プログラム', url: '#' },
+            { name: 'CodeCamp', feature: 'マンツーマンレッスン、現役エンジニア講師', url: '#' },
+            { name: 'tech boost', feature: 'エンジニアのキャリア支援、メンタリング充実', url: '#' },
+            { name: 'GEEK JOB', feature: '無料プログラミング学習、就職支援付き', url: '#' },
+            { name: 'Aidemy', feature: 'AI・データサイエンス特化', url: '#' },
+            { name: 'PyQ', feature: 'Python学習プラットフォーム', url: '#' },
+            { name: 'Progate', feature: 'プログラミング初学者向け、ゲーム感覚で学べる', url: '#' },
+            { name: 'ドットインストール', feature: '動画で学ぶプログラミング', url: '#' },
+        ]
+    },
+    COMMUNITY_WEAVER: {
+        options: [
+            { name: 'パソナキャリア', feature: '女性の転職に強い、ワークライフバランス重視', url: '#' },
+            { name: 'リブズキャリア', feature: 'キャリア女性特化、リモートワーク案件多数', url: '#' },
+            { name: 'type女性の転職エージェント', feature: '女性向けサポート、面接メイク指導も', url: '#' },
+            { name: 'MS-Japan', feature: '管理部門・士業特化', url: '#' },
+            { name: 'ワークポート', feature: 'IT・営業職に強い、未経験転職サポート', url: '#' },
+            { name: 'マイナビエージェント', feature: '20-30代の転職に強い、サポートが丁寧', url: '#' },
+            { name: 'Spring転職エージェント', feature: 'アデコ運営、グローバル企業に強い', url: '#' },
+            { name: 'ランスタッド', feature: '外資・グローバル企業、年収800万以上', url: '#' },
+            { name: 'エンエージェント', feature: '性格診断付き、適性を重視した転職支援', url: '#' },
+            { name: 'ハタラクティブ', feature: '20代特化、未経験からの正社員就職', url: '#' },
+        ]
+    },
+    SUSTAINABLE_STRATEGIST: {
+        options: [
+            { name: 'MOS（Microsoft Office Specialist）', feature: 'Office系資格の定番、事務職で有利', url: '#' },
+            { name: '日商簿記', feature: '経理・財務の基本資格', url: '#' },
+            { name: 'TOEIC', feature: '英語力の証明、グローバル企業で評価', url: '#' },
+            { name: 'ITパスポート', feature: 'IT基礎知識の国家資格', url: '#' },
+            { name: '秘書検定', feature: 'ビジネスマナー・接遇スキルの証明', url: '#' },
+            { name: 'ビジネス実務法務検定', feature: '法務知識、コンプライアンス対応', url: '#' },
+            { name: 'ファイナンシャルプランナー（FP）', feature: '金融・保険業界で有利', url: '#' },
+            { name: '中小企業診断士', feature: '経営コンサルの国家資格', url: '#' },
+            { name: '宅地建物取引士', feature: '不動産業界必須の国家資格', url: '#' },
+            { name: 'Google デジタルワークショップ', feature: 'デジタルマーケティングの基礎、無料', url: '#' },
+        ]
+    },
+    GIG_SURVIVOR: {
+        options: [
+            { name: 'SKIMA', feature: 'イラスト・デザイン販売、クリエイター向け', url: '#' },
+            { name: 'note', feature: 'コンテンツ販売、記事・マガジン収益化', url: '#' },
+            { name: 'BASE', feature: 'ネットショップ作成、手数料が安い', url: '#' },
+            { name: 'STORES', feature: 'ネットショップ・予約システム', url: '#' },
+            { name: 'pixiv FANBOX', feature: 'クリエイター支援、ファンからの定期収入', url: '#' },
+            { name: 'Patreon', feature: '海外クリエイター支援プラットフォーム', url: '#' },
+            { name: 'Vimeo', feature: '動画販売・配信プラットフォーム', url: '#' },
+            { name: 'Udemy講師', feature: '動画講座を販売、不労所得化', url: '#' },
+            { name: 'Kindle出版', feature: '電子書籍セルフ出版、印税収入', url: '#' },
+            { name: 'Brain', feature: 'デジタルコンテンツ販売、アフィリエイト機能', url: '#' },
+        ]
+    },
+    ETHICAL_GUARDIAN: {
+        options: [
+            { name: 'Coursera', feature: '世界トップ大学の講座、認定証あり', url: '#' },
+            { name: 'edX', feature: 'MITやハーバード大の講座、無料受講可', url: '#' },
+            { name: 'gacco', feature: '日本の大学講座、無料で学べる', url: '#' },
+            { name: 'Schoo', feature: '生放送授業、ビジネススキル全般', url: '#' },
+            { name: 'Skillshare', feature: 'クリエイティブ系スキル、定額見放題', url: '#' },
+            { name: 'LinkedIn Learning', feature: 'ビジネス・IT系講座、LinkedIn連携', url: '#' },
+            { name: 'Pluralsight', feature: 'IT・テクノロジー特化、エンジニア向け', url: '#' },
+            { name: 'Khan Academy', feature: '無料教育プラットフォーム、数学・科学', url: '#' },
+            { name: 'TED-Ed', feature: '教育動画、短時間で学べる', url: '#' },
+            { name: 'Google Skillshop', feature: 'Google製品の無料トレーニング', url: '#' },
+        ]
+    },
+    LEGACY_KEEPER: {
+        options: [
+            { name: 'キャリアコーチング協会', feature: '認定コーチとの面談、自己理解を深める', url: '#' },
+            { name: 'ストレングスファインダー', feature: '強み診断、自分の才能を発見', url: '#' },
+            { name: 'グッドポイント診断（リクナビNEXT）', feature: '無料の強み診断、転職活動に活用', url: '#' },
+            { name: 'キャリアインデックス', feature: '複数の転職サイトを一括検索', url: '#' },
+            { name: 'VIEW', feature: 'AIキャリア診断、適職を提案', url: '#' },
+            { name: 'ミイダス', feature: '市場価値診断、年収査定', url: '#' },
+            { name: 'ASSIGN', feature: 'AIキャリアシミュレーション', url: '#' },
+            { name: 'カイゴジョブ', feature: '介護業界特化、資格取得支援', url: '#' },
+            { name: 'ナース人材バンク', feature: '看護師転職、病院情報が豊富', url: '#' },
+            { name: 'ファーマキャリア', feature: '薬剤師転職、オーダーメイド求人', url: '#' },
+        ]
+    },
+    GLOBAL_NOMAD: {
+        options: [
+            { name: 'DMM英会話', feature: 'オンライン英会話、24時間レッスン可能', url: '#' },
+            { name: 'レアジョブ', feature: '業界最大手、ビジネス英語に強い', url: '#' },
+            { name: 'Cambly', feature: 'ネイティブ講師、予約不要で即レッスン', url: '#' },
+            { name: 'EF English Live', feature: 'グループ・マンツーマン併用、24時間対応', url: '#' },
+            { name: 'ベルリッツ', feature: 'ビジネス英語特化、対面・オンライン', url: '#' },
+            { name: 'プログリット', feature: '英語コーチング、短期集中で成果', url: '#' },
+            { name: 'トライズ', feature: '1年で英語習得、専属コンサルタント', url: '#' },
+            { name: 'スタディサプリENGLISH', feature: 'アプリで学習、隙間時間に最適', url: '#' },
+            { name: 'Duolingo', feature: 'ゲーム感覚で語学学習、無料', url: '#' },
+            { name: 'Rosetta Stone', feature: '母国語を使わない学習法、多言語対応', url: '#' },
+        ]
     },
 };

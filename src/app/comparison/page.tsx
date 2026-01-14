@@ -159,8 +159,23 @@ function ComparisonContent() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.9 }}
-                    className="text-center"
+                    className="text-center space-y-6"
                 >
+                    <button
+                        onClick={() => router.push(`/comparison/more-options?type=${type}`)}
+                        className="px-8 py-4 glass rounded-2xl border border-dashed border-amber-500/30 hover:border-amber-500/60 hover:bg-amber-500/5 transition-all group"
+                    >
+                        <div className="flex items-center justify-center gap-3">
+                            <div className="w-8 h-8 rounded-full bg-amber-500/10 flex items-center justify-center group-hover:bg-amber-500/20 transition-colors">
+                                <span className="text-amber-400 text-lg">🔍</span>
+                            </div>
+                            <div className="text-left">
+                                <p className="text-sm text-amber-400 font-bold">もっと他の選択肢も見る</p>
+                                <p className="text-xs text-muted-foreground">ソムリエの裏リスト</p>
+                            </div>
+                        </div>
+                    </button>
+
                     <button
                         onClick={() => router.back()}
                         className="px-8 py-3 glass rounded-full hover:bg-white/5 transition-all"
