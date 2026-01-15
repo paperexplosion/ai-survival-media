@@ -14,7 +14,7 @@ export default function Navigation() {
     { label: 'ホーム', path: '/', icon: null },
     { label: 'レポート', path: '/blog', icon: BookOpen },
     { label: '診断', path: '/diagnosis', icon: Target },
-    { label: 'About', path: '/about', icon: null },
+    { label: 'Profile', path: '/about', icon: null },
   ];
 
   return (
