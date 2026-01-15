@@ -23,17 +23,37 @@ export default function Home() {
             className="max-w-5xl mx-auto text-center"
           >
             <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.2 }}
-              className="inline-block mb-6"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.2, duration: 0.6 }}
+              className="mb-12"
             >
-              <span className="px-4 py-2 rounded-full bg-gradient-to-r from-neon-cyan/20 to-neon-purple/20 text-neon-cyan text-sm font-bold border border-neon-cyan/30">
-                AI時代のサバイバル・インテリジェンス
-              </span>
+              <div className="relative inline-block">
+                <motion.div
+                  className="absolute inset-0 blur-3xl bg-gradient-to-r from-pink-500 via-red-500 to-orange-500 opacity-50"
+                  animate={{
+                    opacity: [0.3, 0.6, 0.3],
+                    scale: [1, 1.1, 1],
+                  }}
+                  transition={{
+                    duration: 3,
+                    repeat: Infinity,
+                  }}
+                />
+                <div className="relative">
+                  <h2 className="text-3xl md:text-5xl lg:text-7xl font-black mb-3 leading-tight">
+                    <span className="block bg-gradient-to-r from-pink-400 via-red-400 to-orange-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(251,113,133,0.5)]">
+                      未来予測レポート
+                    </span>
+                  </h2>
+                  <p className="text-4xl md:text-6xl lg:text-8xl font-black bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent leading-tight drop-shadow-[0_0_40px_rgba(34,211,238,0.6)]">
+                    AI時代のサバイバル・インテリジェンス
+                  </p>
+                </div>
+              </div>
             </motion.div>
 
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-8 leading-[1.1] tracking-tight">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-8 leading-[1.1] tracking-tight">
               <span className="block text-white">未来は予測するものではない。</span>
               <span className="block bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent">
                 生き抜くものだ。
@@ -80,15 +100,37 @@ export default function Home() {
                 </span>
               </motion.button>
 
-              <button
+              <motion.button
                 onClick={() => {
                   document.getElementById('reports')?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="px-8 py-4 rounded-full bg-white/5 hover:bg-white/10 text-white font-bold text-lg border border-white/20 transition-all flex items-center gap-2"
+                className="group relative px-8 py-4 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-rose-500 text-white font-bold text-lg overflow-hidden"
+                style={{
+                  boxShadow: '0 0 40px rgba(244, 63, 94, 0.6)',
+                }}
+                whileHover={{
+                  scale: 1.05,
+                  boxShadow: '0 0 60px rgba(244, 63, 94, 0.8)',
+                }}
+                whileTap={{ scale: 0.98 }}
               >
-                <BookOpen className="w-5 h-5" />
-                レポートを読む
-              </button>
+                <motion.div
+                  className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -skew-x-12"
+                  animate={{
+                    translateX: ['-200%', '200%'],
+                  }}
+                  transition={{
+                    duration: 3,
+                    repeat: Infinity,
+                    repeatDelay: 2,
+                    delay: 1.5,
+                  }}
+                />
+                <span className="relative flex items-center gap-2">
+                  <BookOpen className="w-5 h-5" />
+                  レポートを読む
+                </span>
+              </motion.button>
             </motion.div>
 
             <motion.p
