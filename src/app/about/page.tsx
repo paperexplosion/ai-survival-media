@@ -259,7 +259,7 @@ export default function AboutPage() {
                             <div className="h-px flex-1 bg-gradient-to-r from-transparent via-neon-purple/50 to-transparent"></div>
                         </div>
                         <h2 className="text-3xl md:text-4xl font-black text-white text-center mb-4 drop-shadow-lg">
-                            あなたが手にするのは、未来を記述する「ペン」である
+                            手にすべきは、未来を記述する「ペン」である
                         </h2>
                     </div>
 
@@ -291,10 +291,10 @@ export default function AboutPage() {
                         transition={{ delay: 2.6 }}
                         className="mt-12 bg-white/5 backdrop-blur-2xl rounded-3xl p-8 md:p-12 border border-white/10"
                     >
-                        <p className="text-slate-50 text-xl leading-relaxed text-center font-light italic">
+                        <p className="text-slate-50 text-xl leading-relaxed text-center font-light">
                             私は、あなたに「AIの使い方」を教えたいのではない。<br className="hidden md:block" />
                             AIという魔法の杖を手にしたあなたが、<br className="hidden md:block" />
-                            <span className="text-neon-cyan font-bold not-italic drop-shadow-lg">いかにして自らの人生の「絶対的な著者」であり続けるか。</span><br className="hidden md:block" />
+                            <span className="text-neon-cyan font-bold drop-shadow-lg">いかにして自らの人生の「絶対的な著者」であり続けるか。</span><br className="hidden md:block" />
                             そのための武器を、ここに置いておく。
                         </p>
                     </motion.div>
@@ -321,10 +321,10 @@ export default function AboutPage() {
 
                         <div className="space-y-6 text-slate-50 leading-relaxed">
                             <p>
-                                28年にわたり、「言葉」と「物語」が人・組織・社会に与える影響を多角的にリサーチし、実践を続けてきた。メディア編集、マーケティングリサーチ、人間心理分析、ビジュアルデザインなど、多領域を横断するキャリアの中で一貫して追い求めてきたのは、「人間は、いかにして情報の海から自らの物語を救い出すか」という問いである。
+                                29年にわたり、「言葉」と「物語」が人・組織・社会に与える影響を多角的にリサーチし、実践を続けてきた。メディア編集者、マーケティングリサーチ、人間心理分析、ビジュアルデザイン、現代紙芝居など、多領域を横断するキャリアの中で一貫して追い求めてきたのは、「人間は、いかにして情報の海から自らの物語を救い出すか」という問いである。
                             </p>
                             <p>
-                                現在は、ストーリーテリングリサーチおよびドキュメンタリーマーケティングの専門家として、ハイクラス人材のキャリア再構築や、AI時代の生存戦略の策定に従事。AIという巨大な鏡を介して、個人の内側に眠る「代替不能なナラティブ」を言語化し、市場価値へと変換する技術を提唱している。
+                                現在は、ストーリーテリングの専門家として、ストーリーテリングリサーチ、ドキュメンタリーストーリーテリング、ナラティブアナリティクスに従事。AI時代の生存戦略を策定する知の伴走者として、AIという巨大な鏡を介して個人の内側に眠る「代替不能なナラティブ」を言語化し、その存在を唯一無二の価値へと変換する技術を提唱している。
                             </p>
                         </div>
                     </div>
