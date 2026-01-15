@@ -61,7 +61,7 @@ export default function Home() {
 
             <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
               2026年、AI時代という光と闇が、未知なる物語の幕を開ける。<br />
-              変わりゆく世界のルールを『進化の機会』へと転換し、新しい世界の地平を拓く。
+              変わりゆく世界のルールを『進化の機会』と解釈し、新世界の地平を拓く。
             </p>
 
             <motion.div
