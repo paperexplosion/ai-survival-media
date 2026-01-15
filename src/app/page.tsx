@@ -41,8 +41,8 @@ export default function Home() {
                   }}
                 />
                 <div className="relative">
-                  <h2 className="text-3xl md:text-5xl lg:text-7xl font-black mb-3 leading-tight">
-                    <span className="inline-block bg-blue-950 px-6 py-3 rounded-lg">
+                  <h2 className="text-xl md:text-3xl lg:text-5xl font-black mb-3 leading-tight">
+                    <span className="inline-block bg-blue-950 px-4 py-2 rounded-lg">
                       <span className="bg-gradient-to-r from-gray-300 via-gray-100 to-gray-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(200,200,200,0.5)]">
                         未来予測レポート
                       </span>
