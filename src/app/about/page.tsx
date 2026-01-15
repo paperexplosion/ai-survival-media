@@ -93,7 +93,7 @@ export default function AboutPage() {
                                     className="relative py-8 px-6 md:px-12"
                                 >
                                     <div className="absolute top-0 left-0 text-6xl text-neon-cyan/30 font-serif">"</div>
-                                    <p className="text-xl md:text-2xl text-slate-50 italic font-light leading-relaxed relative z-10">
+                                    <p className="text-xl md:text-2xl text-slate-50 font-light leading-relaxed relative z-10">
                                         記述される現実から、記述する意志へ
                                     </p>
                                     <div className="absolute bottom-0 right-0 text-6xl text-neon-cyan/30 font-serif">"</div>
