@@ -59,9 +59,9 @@ export default function Home() {
               <span className="block text-white">未来を予測し、今を生き抜く</span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
+            <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
               2026年、AI時代という光と闇が、未知なる物語の幕を開ける。<br />
-              変わりゆく世界のルールを『進化の機会』と解釈し、新世界の地平を拓く。
+              変わりゆく世界のルールを『進化の機会』へと転換し、新世界の地平を拓く。
             </p>
 
             <motion.div
