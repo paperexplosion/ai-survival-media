@@ -36,13 +36,13 @@ export default function BlogPage() {
                     className="text-center mb-12"
                 >
                     <div className="mb-4">
-                        <p className="text-2xl md:text-3xl font-bold text-neon-cyan mb-2">未来予測レポート</p>
+                        <p className="text-2xl md:text-3xl font-bold text-neon-cyan mb-2">未来予測レポート - 全記事</p>
                         <h1 className="text-4xl md:text-6xl font-black bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent">
                             AIサバイバル・インテリジェンス
                         </h1>
                     </div>
                     <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                        変化の時代に必要な洞察と戦略をお届けします
+                        AI時代を生き抜くための全{posts.length}件のレポートを閲覧できます
                     </p>
                 </motion.div>
 

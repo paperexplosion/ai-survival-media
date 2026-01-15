@@ -8,7 +8,8 @@ import { ArrowRight, BookOpen, Clock, Sparkles, Target } from 'lucide-react';
 
 export default function Home() {
   const router = useRouter();
-  const posts = getAllBlogPosts();
+  const allPosts = getAllBlogPosts();
+  const posts = allPosts.slice(0, 10);
 
   return (
     <main className="min-h-screen relative overflow-hidden bg-[#0f172a] text-foreground font-sans selection:bg-neon-cyan/30 pt-20">
@@ -159,7 +160,7 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             {posts.map((post, index) => (
               <motion.article
                 key={post.slug}
@@ -206,6 +207,33 @@ export default function Home() {
               </motion.article>
             ))}
           </div>
+
+          {allPosts.length > 10 && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              className="text-center mb-16"
+            >
+              <motion.button
+                onClick={() => router.push('/blog')}
+                className="group inline-flex items-center gap-3 px-8 py-4 rounded-full bg-white/5 border-2 border-neon-cyan/50 text-neon-cyan font-bold text-lg hover:bg-neon-cyan/10 hover:border-neon-cyan transition-all duration-300"
+                whileHover={{
+                  scale: 1.05,
+                  boxShadow: '0 0 30px rgba(34, 211, 238, 0.4)',
+                }}
+                whileTap={{ scale: 0.98 }}
+              >
+                <BookOpen className="w-5 h-5" />
+                <span>全ての記事を見る</span>
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </motion.button>
+              <p className="text-gray-400 text-sm mt-4">
+                全{allPosts.length}件のレポートを閲覧できます
+              </p>
+            </motion.div>
+          )}
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
