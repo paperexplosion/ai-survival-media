@@ -53,7 +53,7 @@ export default function Home() {
               </div>
             </motion.div>
 
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-8 leading-[1.1] tracking-tight">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-black mb-8 leading-[1.1] tracking-tight">
               <span className="block text-white">未来は予測するものではない。</span>
               <span className="block bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent">
                 生き抜くものだ。
