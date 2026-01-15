@@ -55,7 +55,7 @@ export default function Home() {
 
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-black mb-8 leading-[1.1] tracking-tight">
               <span className="block text-white">未来は予測するものではない。</span>
-              <span className="block bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent">
+              <span className="block text-white">
                 生き抜くものだ。
               </span>
             </h1>
@@ -104,13 +104,13 @@ export default function Home() {
                 onClick={() => {
                   document.getElementById('reports')?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="group relative px-8 py-4 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-rose-500 text-white font-bold text-lg overflow-hidden"
+                className="group relative px-8 py-4 rounded-full bg-gradient-to-r from-cyan-400 via-blue-500 to-blue-900 text-white font-bold text-lg overflow-hidden"
                 style={{
-                  boxShadow: '0 0 40px rgba(244, 63, 94, 0.6)',
+                  boxShadow: '0 0 40px rgba(34, 211, 238, 0.6)',
                 }}
                 whileHover={{
                   scale: 1.05,
-                  boxShadow: '0 0 60px rgba(244, 63, 94, 0.8)',
+                  boxShadow: '0 0 60px rgba(34, 211, 238, 0.8)',
                 }}
                 whileTap={{ scale: 0.98 }}
               >
