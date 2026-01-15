@@ -56,15 +56,12 @@ export default function Home() {
             </motion.div>
 
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-black mb-8 leading-[1.1] tracking-tight">
-              <span className="block text-white">未来は予測するものではない。</span>
-              <span className="block text-white">
-                生き抜くものだ。
-              </span>
+              <span className="block text-white">未来を予測し、今を生き抜く</span>
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
-              2026年、AI革命の波が全ての職業を襲う。<br />
-              あなたの市場価値は、今この瞬間に再定義されている。
+              2026年、AI時代という光と闇が、未知なる物語の幕を開ける。<br />
+              変わりゆく世界のルールを『進化の機会』へと転換し、新しい世界の地平を拓く。
             </p>
 
             <motion.div
