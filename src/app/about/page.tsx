@@ -123,6 +123,9 @@ export default function AboutPage() {
                         <p className="text-slate-50 text-lg leading-relaxed mb-8">
                             この認識こそが、SZが20数年にわたり、情報の海を泳ぎ続けてたどり着いた唯一の解である。単なる編集、単なるリサーチ、単なるマーケティング。それらはすべて、巨大な「ストーリーテリング」という装置の断片に過ぎない。
                         </p>
+                        <p className="text-slate-50 text-lg leading-relaxed mb-8">
+                            そして、そのストーリーテリングはAIとの共生、共創という時代を突き進んでいる。
+                        </p>
                     </motion.div>
                 </motion.div>
 
@@ -169,7 +172,7 @@ export default function AboutPage() {
                         </div>
 
                         <p className="text-slate-50 text-lg leading-relaxed">
-                            これらの知の巨人たちが示した「人間存在への問い」に対し、SZは<span className="text-neon-cyan font-bold">「ストーリーテリング・アナリシス（物語分析）」</span>という手法で応えようとしている。
+                            これらの知の巨人たちが示した「人間存在への問い」に対し、SZは<span className="text-neon-cyan font-bold">「ナラティブ・アナリシス（物語分析）」</span>という手法で応えようとしている。
                         </p>
                     </div>
                 </motion.section>
@@ -241,7 +244,7 @@ export default function AboutPage() {
                             SZが提供するのは、単なる情報ではない。AIという巨大な鏡を使い、あなたが「自分自身の物語」を再定義するための知的ソリューションである。
                         </p>
                         <p className="text-slate-50 text-lg leading-relaxed">
-                            AIに問い、AIに論破させ、AIの隙間に自分だけの「解」を差し込む。このプロセスを繰り返すことで、あなたはAIが模倣できない「独自の文脈（ナラティブ）」を持つ存在へと変貌する。ストーリーテリング・アナリシスの技術をキャリアに適用することは、冷徹なデータの中に、あなたという「唯一無二の変数」を再投入することを意味する。
+                            AIに問い、AIに論破させ、AIの隙間に自分だけの「解」を差し込む。このプロセスを繰り返すことで、あなたはAIが模倣できない「独自の文脈（ナラティブ）」を持つ存在へと変貌する。ナラティブ・アナリシスの技術をキャリアに適用することは、冷徹なデータの中に、あなたという「唯一無二の変数」を再投入することを意味する。
                         </p>
                     </div>
                 </motion.section>
