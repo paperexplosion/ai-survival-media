@@ -82,8 +82,8 @@ export default function AboutPage() {
                             <p className="text-sm md:text-base text-neon-cyan font-bold mb-4 tracking-wider uppercase">
                                 The Mind
                             </p>
-                            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent mb-8 leading-tight">
-                                About the Narrative<br />Architect: SZ
+                            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-8 leading-tight">
+                                Philosophy: Narrative<br />Architect SZ
                             </h1>
                             <div className="max-w-3xl mx-auto space-y-6">
                                 <motion.blockquote
@@ -143,7 +143,7 @@ export default function AboutPage() {
                         </h2>
                     </div>
 
-                    <div className="glass rounded-3xl p-8 md:p-12 neon-border mb-8">
+                    <div className="bg-black/60 backdrop-blur-xl rounded-3xl p-8 md:p-12 neon-border mb-8">
                         <p className="text-gray-100 text-lg leading-relaxed mb-8">
                             1990年代後半から、メディア、リサーチ、人間心理、そしてデザインの境界線上を歩んできた。その歩みは、常に先人たちの巨大な足跡を辿る旅でもあった。
                         </p>
@@ -160,10 +160,10 @@ export default function AboutPage() {
                                     initial={{ opacity: 0, x: -20 }}
                                     animate={{ opacity: 1, x: 0 }}
                                     transition={{ delay: 1.2 + index * 0.1 }}
-                                    className="bg-white/5 rounded-xl p-6 border border-white/10 hover:border-neon-purple/50 transition-all"
+                                    className="bg-black/40 backdrop-blur-md rounded-xl p-6 border border-white/20 hover:border-neon-purple/70 transition-all"
                                 >
                                     <p className="text-neon-cyan font-bold mb-2">{thinker.name}</p>
-                                    <p className="text-gray-200 text-sm">{thinker.insight}</p>
+                                    <p className="text-white text-sm">{thinker.insight}</p>
                                 </motion.div>
                             ))}
                         </div>
@@ -189,10 +189,10 @@ export default function AboutPage() {
                         <h2 className="text-3xl md:text-4xl font-black text-white text-center mb-8">
                             アルゴリズムの静かなる独裁
                         </h2>
-                        <p className="text-center text-gray-200 text-lg">私たちが直面している課題</p>
+                        <p className="text-center text-white text-lg font-bold">私たちが直面している課題</p>
                     </div>
 
-                    <div className="bg-gradient-to-br from-red-900/20 via-orange-900/20 to-red-900/20 rounded-3xl p-8 md:p-12 border border-red-500/30">
+                    <div className="bg-black/60 backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-red-500/50">
                         <p className="text-gray-100 text-lg leading-relaxed mb-6">
                             社会は今、かつてない危機に直面している。それはAIに仕事を奪われるといった単純な話ではない。私たちが自らの人生を語るための「言葉」や「思考のプロセス」さえもが、AIの最適解という名の「記号」に置き換わり、人間が自らの物語の主導権（ナラティブ・オーナーシップ）を失いつつあることだ。
                         </p>
@@ -221,19 +221,19 @@ export default function AboutPage() {
                                     initial={{ opacity: 0, y: 30 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ delay: 1.8 + index * 0.1 }}
-                                    className="glass rounded-2xl p-8 neon-border hover:bg-white/5 transition-all group"
+                                    className="bg-black/60 backdrop-blur-xl rounded-2xl p-8 neon-border hover:bg-black/70 transition-all group"
                                 >
                                     <div className="w-12 h-12 rounded-full bg-gradient-to-r from-neon-cyan to-neon-purple flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                                         <Icon className="w-6 h-6 text-white" />
                                     </div>
                                     <h3 className="text-xl font-bold text-white mb-4">{principle.title}</h3>
-                                    <p className="text-gray-200 leading-relaxed">{principle.description}</p>
+                                    <p className="text-gray-100 leading-relaxed">{principle.description}</p>
                                 </motion.div>
                             );
                         })}
                     </div>
 
-                    <div className="glass rounded-3xl p-8 md:p-12 neon-border">
+                    <div className="bg-black/60 backdrop-blur-xl rounded-3xl p-8 md:p-12 neon-border">
                         <h3 className="text-2xl font-bold text-white mb-6 text-center">
                             あなたの「違和感」を、市場価値へ転換する
                         </h3>
@@ -270,7 +270,7 @@ export default function AboutPage() {
                                 initial={{ opacity: 0, x: -30 }}
                                 animate={{ opacity: 1, x: 0 }}
                                 transition={{ delay: 2.2 + index * 0.1 }}
-                                className="glass rounded-2xl p-8 neon-border hover:border-neon-purple/50 transition-all group"
+                                className="bg-black/60 backdrop-blur-xl rounded-2xl p-8 neon-border hover:border-neon-purple/70 transition-all group"
                             >
                                 <div className="flex items-start gap-4">
                                     <div className="w-8 h-8 rounded-full bg-gradient-to-r from-neon-purple to-neon-cyan flex items-center justify-center flex-shrink-0 mt-1 group-hover:scale-110 transition-transform">
@@ -278,7 +278,7 @@ export default function AboutPage() {
                                     </div>
                                     <div>
                                         <h3 className="text-xl font-bold text-white mb-3">{benefit.title}</h3>
-                                        <p className="text-gray-200 leading-relaxed">{benefit.description}</p>
+                                        <p className="text-gray-100 leading-relaxed">{benefit.description}</p>
                                     </div>
                                 </div>
                             </motion.div>
@@ -289,7 +289,7 @@ export default function AboutPage() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 2.6 }}
-                        className="mt-12 bg-gradient-to-br from-neon-cyan/10 via-neon-purple/10 to-neon-blue/10 rounded-3xl p-8 md:p-12 border border-white/20"
+                        className="mt-12 bg-black/60 backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-neon-cyan/50"
                     >
                         <p className="text-white text-xl leading-relaxed text-center font-light italic">
                             私は、あなたに「AIの使い方」を教えたいのではない。<br className="hidden md:block" />
@@ -308,7 +308,7 @@ export default function AboutPage() {
                 >
                     <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-12"></div>
 
-                    <div className="glass rounded-3xl p-8 md:p-12 neon-border">
+                    <div className="bg-black/60 backdrop-blur-xl rounded-3xl p-8 md:p-12 neon-border">
                         <div className="flex items-center gap-4 mb-8">
                             <div className="w-16 h-16 rounded-full bg-gradient-to-r from-neon-cyan to-neon-purple flex items-center justify-center flex-shrink-0">
                                 <span className="text-white font-black text-2xl">SZ</span>
@@ -321,13 +321,10 @@ export default function AboutPage() {
 
                         <div className="space-y-6 text-gray-100 leading-relaxed">
                             <p>
-                                29年にわたり、「言葉」と「物語」が人・組織・社会に与える影響を多角的にリサーチし、実践を続けてきた。メディア編集、マーケティングリサーチ、人間心理分析、ビジュアルデザインなど、多領域を横断するキャリアの中で一貫して追い求めてきたのは、「人間は、いかにして情報の海から自らの物語を救い出すか」という問いである。
+                                28年にわたり、「言葉」と「物語」が人・組織・社会に与える影響を多角的にリサーチし、実践を続けてきた。メディア編集、マーケティングリサーチ、人間心理分析、ビジュアルデザインなど、多領域を横断するキャリアの中で一貫して追い求めてきたのは、「人間は、いかにして情報の海から自らの物語を救い出すか」という問いである。
                             </p>
                             <p>
-                                現在は、ストーリーテリングリサーチおよびドキュメンタリーマーケティングの専門家として、人材のキャリア再構築や、AI時代の生存戦略の策定に従事。AIという巨大な鏡を介して、個人の内側に眠る「代替不能なナラティブ」を言語化し、市場価値へと変換する技術を提唱している。
-                            </p>
-                            <p className="text-white font-bold">
-                                知の巨人たちが築いた「地の積層」を掘り起こし、AI時代の新たなサバイバル・ガイドを記述することが、現在のSZの主要なミッションである。
+                                現在は、ストーリーテリングリサーチおよびドキュメンタリーマーケティングの専門家として、ハイクラス人材のキャリア再構築や、AI時代の生存戦略の策定に従事。AIという巨大な鏡を介して、個人の内側に眠る「代替不能なナラティブ」を言語化し、市場価値へと変換する技術を提唱している。
                             </p>
                         </div>
                     </div>
