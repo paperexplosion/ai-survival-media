@@ -42,7 +42,7 @@ export default function Home() {
                 />
                 <div className="relative">
                   <h2 className="text-3xl md:text-5xl lg:text-7xl font-black mb-3 leading-tight">
-                    <span className="block bg-gradient-to-r from-pink-400 via-red-400 to-orange-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(251,113,133,0.5)]">
+                    <span className="block bg-gradient-to-r from-gray-300 via-gray-100 to-gray-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(200,200,200,0.5)]">
                       未来予測レポート
                     </span>
                   </h2>
