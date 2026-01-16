@@ -169,30 +169,6 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.9 }}
-                    className="mb-12"
-                >
-                    <h3 className="text-xl font-bold mb-6 text-center text-foreground">推奨リソース</h3>
-                    <div className="grid gap-4 md:grid-cols-3">
-                        {result.recommendations.map((rec, i) => (
-                            <a
-                                key={i}
-                                href={rec.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="glass p-4 rounded-xl hover:bg-white/5 transition-colors group block"
-                            >
-                                <div className="text-xs text-neon-purple font-bold mb-1">{rec.category}</div>
-                                <div className="font-bold mb-1 group-hover:text-neon-cyan transition-colors">{rec.title}</div>
-                                <div className="text-xs text-muted-foreground">{rec.description}</div>
-                            </a>
-                        ))}
-                    </div>
-                </motion.div>
-
-                <motion.div
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1 }}
                     className="flex flex-wrap justify-center gap-4"
                 >
