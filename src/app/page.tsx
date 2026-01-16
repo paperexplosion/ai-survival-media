@@ -9,7 +9,7 @@ import { ArrowRight, BookOpen, Clock, Sparkles, Target } from 'lucide-react';
 export default function Home() {
   const router = useRouter();
   const allPosts = getAllBlogPosts();
-  const posts = allPosts.slice(0, 10);
+  const posts = allPosts.slice(0, 9);
 
   return (
     <main className="min-h-screen relative overflow-hidden bg-[#0f172a] text-foreground font-sans selection:bg-neon-cyan/30 pt-20">
@@ -208,7 +208,7 @@ export default function Home() {
             ))}
           </div>
 
-          {allPosts.length > 10 && (
+          {allPosts.length > 9 && (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
