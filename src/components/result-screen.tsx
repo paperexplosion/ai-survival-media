@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import { RotateCcw, Twitter, Linkedin, ArrowRight } from "lucide-react";
+import { RotateCcw, ArrowRight, Instagram, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import type { DiagnosticResult } from "@/types";
 import { RadarChart } from "@/components/radar-chart";
@@ -190,21 +190,18 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                         }}
                         className="flex items-center gap-2 px-6 py-3 glass rounded-full hover:bg-neon-blue/20 transition-all group"
                     >
-                        <Twitter className="w-5 h-5 text-neon-blue group-hover:scale-110 transition-transform" />
+                        <X className="w-5 h-5 text-neon-blue group-hover:scale-110 transition-transform" />
                         <span className="text-foreground">シェア</span>
                     </button>
 
                     <button
                         onClick={() => {
-                            window.open(
-                                `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}`,
-                                "_blank",
-                            );
+                            window.open("https://www.instagram.com/", "_blank");
                         }}
-                        className="flex items-center gap-2 px-6 py-3 glass rounded-full hover:bg-neon-purple/20 transition-all group"
+                        className="flex items-center gap-2 px-6 py-3 glass rounded-full hover:bg-pink-500/20 transition-all group"
                     >
-                        <Linkedin className="w-5 h-5 text-neon-purple group-hover:scale-110 transition-transform" />
-                        <span className="text-foreground">LinkedIn</span>
+                        <Instagram className="w-5 h-5 text-pink-500 group-hover:scale-110 transition-transform" />
+                        <span className="text-foreground">Instagram</span>
                     </button>
 
                     <button

@@ -75,7 +75,7 @@ function ComparisonContent() {
                             <Sparkles className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                            <h2 className="text-xl font-bold text-foreground mb-2">ソムリエ・鈴木の眼</h2>
+                            <h2 className="text-xl font-bold text-foreground mb-2">AI専門家の目</h2>
                             <p className="text-base text-muted-foreground leading-relaxed">{recommendation.overview}</p>
                         </div>
                     </div>
@@ -135,7 +135,7 @@ function ComparisonContent() {
                                 </div>
 
                                 <div className="mb-6 p-4 rounded-lg bg-amber-500/10 border border-amber-500/20">
-                                    <p className="text-xs text-amber-300 font-bold mb-1">ソムリエの一言</p>
+                                    <p className="text-xs text-amber-300 font-bold mb-1">AI専門家の一言</p>
                                     <p className="text-sm text-muted-foreground leading-relaxed">{route.sommelierComment}</p>
                                 </div>
 
@@ -187,7 +187,7 @@ function ComparisonContent() {
                                     もっと他の選択肢も見る
                                 </p>
                                 <p className="text-sm text-purple-200/80 group-hover:text-purple-100 transition-colors font-semibold">
-                                    ソムリエの裏リスト
+                                    AI専門家の裏リスト
                                 </p>
                             </div>
                             <List className="w-5 h-5 text-amber-300 group-hover:scale-110 transition-transform" />
