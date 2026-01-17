@@ -33,7 +33,7 @@ export function Roadmap({ actionPlan }: RoadmapProps) {
                             <div className="absolute inset-x-0 -bottom-px h-px bg-gradient-to-r from-transparent via-neon-cyan/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
 
                             <h4 className="font-semibold text-foreground mb-1 flex items-center gap-2">
-                                <span className="text-neon-cyan">Month {index + 1}</span>
+                                <span className="text-neon-cyan">{index + 1}ヶ月目</span>
                                 <ArrowRight className="w-4 h-4 text-muted-foreground" />
                             </h4>
                             <p className="text-sm text-muted-foreground leading-relaxed">
