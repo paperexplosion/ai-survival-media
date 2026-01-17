@@ -36,7 +36,7 @@ function ResultsContent() {
     const searchParams = useSearchParams();
     const router = useRouter();
 
-    const typeParam = searchParams.get("type");
+    const typeParam = searchParams.get("type") || searchParams.get("jobId");
 
     const isValidType = useMemo(() => {
         return typeParam && VALID_TYPES.includes(typeParam as CareerType);
