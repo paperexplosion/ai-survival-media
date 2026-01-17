@@ -59,7 +59,6 @@ function ResultsContent() {
             title: data.title,
             description: data.description,
             actionPlan: data.actionPlan,
-            recommendations: data.recommendations,
             radarChart: TYPE_RADAR_DEFAULTS[type],
         };
     }, [isValidType, typeParam]);

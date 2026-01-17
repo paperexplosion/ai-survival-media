@@ -64,6 +64,5 @@ export function calculateDiagnosis(responses: UserResponse[]): DiagnosticResult 
             autonomy: normAutonomy,
         },
         actionPlan: data.actionPlan,
-        recommendations: data.recommendations,
     };
 }

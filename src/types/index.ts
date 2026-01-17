@@ -45,7 +45,6 @@ export interface DiagnosticResult {
         autonomy: number;
     };
     actionPlan: string[];
-    recommendations: AffiliateLink[];
 }
 
 export interface UserData {
