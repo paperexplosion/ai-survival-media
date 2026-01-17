@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import { RotateCcw, ArrowRight, Instagram, X } from "lucide-react";
+import { RotateCcw, ArrowRight, Instagram } from "lucide-react";
 import { useRouter } from "next/navigation";
 import type { DiagnosticResult } from "@/types";
 import { RadarChart } from "@/components/radar-chart";
@@ -188,9 +188,15 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                             const text = `AI時代のキャリア診断結果: 私は「${result.title}」タイプ！2030年サバイバル確率${survivalScore}% 🚀`;
                             window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, "_blank");
                         }}
-                        className="flex items-center gap-2 px-6 py-3 glass rounded-full hover:bg-neon-blue/20 transition-all group"
+                        className="flex items-center gap-2 px-6 py-3 glass rounded-full hover:bg-black/80 transition-all group"
                     >
-                        <X className="w-5 h-5 text-neon-blue group-hover:scale-110 transition-transform" />
+                        <svg
+                            viewBox="0 0 24 24"
+                            className="w-5 h-5 fill-white group-hover:scale-110 transition-transform"
+                            aria-hidden="true"
+                        >
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
                         <span className="text-foreground">シェア</span>
                     </button>
 
