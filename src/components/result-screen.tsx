@@ -8,7 +8,7 @@ import type { DiagnosticResult } from "@/types";
 import { RadarChart } from "@/components/radar-chart";
 import { Roadmap } from "@/components/roadmap";
 import { CertificateCard } from "@/components/certificate-card";
-import { CTA_CONTENT } from "@/lib/constants";
+import { CTA_CONTENT, SOMMELIER_DATA } from "@/lib/constants";
 
 interface ResultScreenProps {
     result: DiagnosticResult;
@@ -107,6 +107,17 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                 >
                     <h3 className="text-xl font-bold mb-6 text-foreground">3ヶ月ロードマップ</h3>
                     <Roadmap actionPlan={result.actionPlan} />
+                </motion.div>
+
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.82 }}
+                    className="bg-slate-900/60 border border-slate-700/50 rounded-3xl p-8 mb-8"
+                >
+                    <h3 className="text-xl font-bold mb-6 text-neon-cyan">The Sommelier&apos;s Narrative Analysis</h3>
+                    <h4 className="text-lg font-semibold mb-4 text-slate-200">{SOMMELIER_DATA[result.type].title}</h4>
+                    <p className="text-slate-300 leading-relaxed whitespace-pre-wrap">{SOMMELIER_DATA[result.type].content}</p>
                 </motion.div>
 
                 <motion.div

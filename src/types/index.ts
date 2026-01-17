@@ -85,3 +85,8 @@ export interface HiddenOption {
 export interface HiddenList {
     options: HiddenOption[];
 }
+
+export interface SommelierAnalysis {
+    title: string;
+    content: string;
+}
