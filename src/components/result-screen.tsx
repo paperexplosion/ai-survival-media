@@ -188,7 +188,7 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                             const text = `AI時代のキャリア診断結果: 私は「${result.title}」タイプ！2030年サバイバル確率${survivalScore}% 🚀`;
                             window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, "_blank");
                         }}
-                        className="flex items-center gap-2 px-6 py-3 glass rounded-full hover:bg-black/80 transition-all group"
+                        className="flex items-center gap-2 px-6 py-3 bg-black/80 rounded-full hover:bg-black transition-all group"
                     >
                         <svg
                             viewBox="0 0 24 24"
@@ -197,25 +197,25 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                         >
                             <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                         </svg>
-                        <span className="text-foreground">シェア</span>
+                        <span className="text-white">シェア</span>
                     </button>
 
                     <button
                         onClick={() => {
                             window.open("https://www.instagram.com/", "_blank");
                         }}
-                        className="flex items-center gap-2 px-6 py-3 glass rounded-full hover:bg-pink-500/20 transition-all group"
+                        className="flex items-center gap-2 px-6 py-3 bg-pink-500/70 rounded-full hover:bg-pink-500/90 transition-all group"
                     >
-                        <Instagram className="w-5 h-5 text-pink-500 group-hover:scale-110 transition-transform" />
-                        <span className="text-foreground">Instagram</span>
+                        <Instagram className="w-5 h-5 text-white group-hover:scale-110 transition-transform" />
+                        <span className="text-white">Instagram</span>
                     </button>
 
                     <button
                         onClick={onRestart}
-                        className="flex items-center gap-2 px-6 py-3 glass rounded-full hover:bg-neon-cyan/20 transition-all group"
+                        className="flex items-center gap-2 px-6 py-3 bg-neon-cyan/70 rounded-full hover:bg-neon-cyan/90 transition-all group"
                     >
-                        <RotateCcw className="w-5 h-5 text-neon-cyan group-hover:rotate-180 transition-transform duration-500" />
-                        <span className="text-foreground">もう一度診断</span>
+                        <RotateCcw className="w-5 h-5 text-white group-hover:rotate-180 transition-transform duration-500" />
+                        <span className="text-white">もう一度診断</span>
                     </button>
                 </motion.div>
             </div>
