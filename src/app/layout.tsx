@@ -49,10 +49,10 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head>
-        {/* Google AdSense - Replace with your actual Ad Client ID */}
+        {/* Google AdSense */}
         <script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2731207449068887"
           crossOrigin="anonymous"
         />
         {/* Google Analytics - Replace with your actual Measurement ID */}
