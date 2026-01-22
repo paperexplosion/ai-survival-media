@@ -144,29 +144,36 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.9 + index * 0.1 }}
-                                className="glass rounded-2xl p-6 neon-border hover:shadow-2xl transition-all duration-300"
+                                className="relative rounded-2xl p-6 neon-border hover:shadow-2xl transition-all duration-300 overflow-hidden"
+                                style={{
+                                    background: 'linear-gradient(135deg, rgba(20, 20, 30, 0.95) 0%, rgba(30, 30, 50, 0.95) 100%)',
+                                    backdropFilter: 'blur(10px)',
+                                }}
                             >
-                                <h3 className="text-xl font-bold mb-4 text-foreground">{item.name}</h3>
-                                <p className="text-white/90 leading-relaxed mb-6 whitespace-pre-wrap">
-                                    {item.sommelierAnalysis}
-                                </p>
-                                <motion.a
-                                    href={item.affiliateUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-neon-cyan to-neon-blue rounded-full text-white font-semibold hover:shadow-lg hover:shadow-neon-cyan/50 transition-all duration-300 group"
-                                    whileHover={{ scale: 1.05 }}
-                                    whileTap={{ scale: 0.95 }}
-                                    onClick={() => {
-                                        if (item.trackingImageUrl) {
-                                            const img = new Image();
-                                            img.src = item.trackingImageUrl;
-                                        }
-                                    }}
-                                >
-                                    <span>ソムリエの提案に従い公式サイトを見る</span>
-                                    <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                                </motion.a>
+                                <div className="absolute inset-0 bg-gradient-to-br from-neon-cyan/5 via-neon-purple/5 to-neon-blue/5" />
+                                <div className="relative z-10">
+                                    <h3 className="text-xl font-bold mb-4 text-neon-cyan">{item.name}</h3>
+                                    <p className="text-gray-100 leading-relaxed mb-6 whitespace-pre-wrap text-[15px]">
+                                        {item.sommelierAnalysis}
+                                    </p>
+                                    <motion.a
+                                        href={item.affiliateUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-neon-cyan to-neon-blue rounded-full text-white font-semibold hover:shadow-lg hover:shadow-neon-cyan/50 transition-all duration-300 group"
+                                        whileHover={{ scale: 1.05 }}
+                                        whileTap={{ scale: 0.95 }}
+                                        onClick={() => {
+                                            if (item.trackingImageUrl) {
+                                                const img = new Image();
+                                                img.src = item.trackingImageUrl;
+                                            }
+                                        }}
+                                    >
+                                        <span>ソムリエの提案に従い公式サイトを見る</span>
+                                        <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                                    </motion.a>
+                                </div>
                             </motion.div>
                         ))}
                     </div>
