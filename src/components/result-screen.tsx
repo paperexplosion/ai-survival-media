@@ -2,13 +2,14 @@
 
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import { RotateCcw, ArrowRight, Instagram } from "lucide-react";
+import { RotateCcw, Instagram, ExternalLink } from "lucide-react";
 import { useRouter } from "next/navigation";
 import type { DiagnosticResult } from "@/types";
 import { RadarChart } from "@/components/radar-chart";
 import { Roadmap } from "@/components/roadmap";
 import { CertificateCard } from "@/components/certificate-card";
 import { CTA_CONTENT, SOMMELIER_DATA } from "@/lib/constants";
+import { getAffiliateCatalogByJobType } from "@/lib/affiliate-catalog";
 
 interface ResultScreenProps {
     result: DiagnosticResult;
@@ -24,6 +25,7 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
     }, [result]);
 
     const dynamicCTA = CTA_CONTENT[result.type];
+    const affiliateCatalog = getAffiliateCatalogByJobType(result.type);
 
     return (
         <motion.div
@@ -124,57 +126,50 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.85 }}
-                    className="mb-8"
+                    className="mb-12"
                 >
-                    <motion.button
-                        onClick={() => router.push(`/comparison?type=${result.type}`)}
-                        className="relative block w-full py-6 px-8 rounded-2xl bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 text-white font-bold text-center overflow-hidden group"
-                        style={{
-                            boxShadow: '0 0 30px rgba(251, 146, 60, 0.5)',
-                        }}
-                        whileHover={{
-                            scale: 1.02,
-                            boxShadow: '0 0 50px rgba(251, 146, 60, 0.7)',
-                        }}
-                        whileTap={{ scale: 0.98 }}
-                    >
-                        <motion.div
-                            className="absolute inset-0 bg-white/20"
-                            animate={{
-                                opacity: [0, 0.3, 0],
-                                scale: [1, 1.05, 1],
-                            }}
-                            transition={{
-                                duration: 2,
-                                repeat: Infinity,
-                                ease: "easeInOut",
-                            }}
-                        />
+                    <div className="text-center mb-8">
+                        <h2 className="text-2xl md:text-3xl font-bold mb-3 bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent">
+                            AI時代の進化のカタログ
+                        </h2>
+                        <p className="text-muted-foreground">
+                            {result.title}に最適化された進化ルート
+                        </p>
+                    </div>
 
-                        <motion.div
-                            className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -skew-x-12 translate-x-[-200%]"
-                            animate={{
-                                translateX: ["−200%", "200%"],
-                            }}
-                            transition={{
-                                duration: 3,
-                                repeat: Infinity,
-                                repeatDelay: 2,
-                                ease: "easeInOut",
-                            }}
-                        />
-
-                        <div className="relative flex flex-col items-center justify-center gap-2">
-                            <span className="flex items-center justify-center gap-3 text-lg md:text-xl">
-                                <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
-                                <span>{dynamicCTA.cta}</span>
-                            </span>
-                            <span className="text-sm text-white/90 font-normal">{dynamicCTA.subtext}</span>
-                        </div>
-                    </motion.button>
-                    <p className="text-center text-xs text-muted-foreground mt-3">
-                        ※ あなた専用の厳選ルートを表示します
-                    </p>
+                    <div className="space-y-6">
+                        {affiliateCatalog.map((item, index) => (
+                            <motion.div
+                                key={item.id}
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.9 + index * 0.1 }}
+                                className="glass rounded-2xl p-6 neon-border hover:shadow-2xl transition-all duration-300"
+                            >
+                                <h3 className="text-xl font-bold mb-4 text-foreground">{item.name}</h3>
+                                <p className="text-white/90 leading-relaxed mb-6 whitespace-pre-wrap">
+                                    {item.sommelierAnalysis}
+                                </p>
+                                <motion.a
+                                    href={item.affiliateUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-neon-cyan to-neon-blue rounded-full text-white font-semibold hover:shadow-lg hover:shadow-neon-cyan/50 transition-all duration-300 group"
+                                    whileHover={{ scale: 1.05 }}
+                                    whileTap={{ scale: 0.95 }}
+                                    onClick={() => {
+                                        if (item.trackingImageUrl) {
+                                            const img = new Image();
+                                            img.src = item.trackingImageUrl;
+                                        }
+                                    }}
+                                >
+                                    <span>ソムリエの提案に従い公式サイトを見る</span>
+                                    <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                                </motion.a>
+                            </motion.div>
+                        ))}
+                    </div>
                 </motion.div>
 
                 <motion.div
