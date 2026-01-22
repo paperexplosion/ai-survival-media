@@ -128,14 +128,44 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                     transition={{ delay: 0.85 }}
                     className="mb-12"
                 >
-                    <div className="text-center mb-8">
-                        <h2 className="text-2xl md:text-3xl font-bold mb-3 bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent">
-                            AI時代の進化のカタログ
-                        </h2>
-                        <p className="text-muted-foreground">
-                            {result.title}に最適化された進化ルート
-                        </p>
-                    </div>
+                    <motion.div
+                        className="relative overflow-hidden rounded-3xl p-8 mb-10 neon-border"
+                        style={{
+                            background: 'linear-gradient(135deg, rgba(6, 182, 212, 0.1) 0%, rgba(168, 85, 247, 0.1) 50%, rgba(59, 130, 246, 0.1) 100%)',
+                            backdropFilter: 'blur(20px)',
+                        }}
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: 0.85, duration: 0.5 }}
+                    >
+                        <div className="absolute inset-0 bg-gradient-to-br from-neon-cyan/10 via-transparent to-neon-purple/10 animate-pulse" style={{ animationDuration: '3s' }} />
+                        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-1 bg-gradient-to-r from-transparent via-neon-cyan to-transparent" />
+                        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1/2 h-1 bg-gradient-to-r from-transparent via-neon-purple to-transparent" />
+
+                        <div className="relative z-10 text-center">
+                            <div className="inline-block mb-4">
+                                <div className="flex items-center justify-center gap-3 mb-2">
+                                    <div className="w-12 h-0.5 bg-gradient-to-r from-transparent to-neon-cyan" />
+                                    <svg className="w-6 h-6 text-neon-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                    </svg>
+                                    <div className="w-12 h-0.5 bg-gradient-to-l from-transparent to-neon-cyan" />
+                                </div>
+                            </div>
+
+                            <h2 className="text-3xl md:text-5xl font-black mb-4 tracking-tight">
+                                <span className="bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(6,182,212,0.5)]">
+                                    AI時代の進化のカタログ
+                                </span>
+                            </h2>
+
+                            <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-neon-cyan/20 via-neon-purple/20 to-neon-blue/20 border border-neon-cyan/30">
+                                <p className="text-gray-200 font-semibold text-sm md:text-base">
+                                    <span className="text-neon-cyan">{result.title}</span>に最適化された進化ルート
+                                </p>
+                            </div>
+                        </div>
+                    </motion.div>
 
                     <div className="space-y-6">
                         {affiliateCatalog.map((item, index) => (
