@@ -9,39 +9,34 @@ export interface AffiliateCatalogItem {
 
 export const AFFILIATE_CATALOG: AffiliateCatalogItem[] = [
     // AI_MASTER
-    { targetType: "AI_MASTER", service: "テックゴー", title: "徹底した並走の『テックゴー』で、高年収を実現する「トップティア・エンジニア」へと進化する", url: "https://af.moshimo.com/af/c/click?a_id=5337696&p_id=6722&pc_id=19209&pl_id=90843" },
-    { targetType: "AI_MASTER", service: "GLOBIS学び放題", title: "膨大な知識を駆使する『GLOBIS学び放題』で、経営と技術を統合する「ビジネスAI戦略家」へと進化する", url: "https://t.felmat.net/fmcl?ak=O2859R.1.X74604L.K133474M" },
-    { targetType: "AI_MASTER", service: "PyQ", title: "Pythonを極める『PyQ』で、AI開発の核心に到達する「Pythonマスター」へと進化する", url: "https://t.felmat.net/fmcl?ak=B3155R.1.U82374E.K133474M" },
+    { targetType: "AI_MASTER", service: "MyVision", title: "最高峰の対策を誇る『MyVision』で、戦略コンサルへの切符を掴む「エリート軍師」へと進化する", url: "https://af.moshimo.com/af/c/click?a_id=5337702&p_id=5922&pc_id=16500&pl_id=75690" },
+    { targetType: "AI_MASTER", service: "東京AIスクール", title: "横断的スキルの『東京AIスクール』で、AIを顎で使う「次世代の指揮官」へと進化する", url: "https://t.felmat.net/fmcl?ak=O116760.2.2146204_1.K133474M" },
+    { targetType: "AI_MASTER", service: "コトラ", title: "プロに寄り添う『コトラ』で、年収2,000万超えのハイクラス層へと進化する", url: "https://af.moshimo.com/af/c/click?a_id=5337707&p_id=3316&pc_id=7865&pl_id=47212" },
 
     // DATA_ALCHEMIST
-    { targetType: "DATA_ALCHEMIST", service: "Schoo", title: "多様な領域を網羅する『Schoo』で、データを経営判断に繋げる「ビジネス錬金術師」へと進化する", url: "https://t.felmat.net/fmcl?ak=M2858B.1.P74601J.K133474M" },
-    { targetType: "DATA_ALCHEMIST", service: "Aidemy", title: "AIとデータを極める『Aidemy』で、機械学習と数理を操る「データサイエンティスト」へと進化する", url: "https://t.felmat.net/fmcl?ak=V2960D.1.M81779E.K133474M" },
-    { targetType: "DATA_ALCHEMIST", service: "DataCamp", title: "実践重視の『DataCamp』で、グローバルに通用する「データエンジニア」へと進化する", url: "https://datacamp.pxf.io/c/5968227/1012793/13294" },
+    { targetType: "DATA_ALCHEMIST", service: "MyVision", title: "独自求人を武器にする『MyVision』で、コンサルファームの核心を突く「ハイエンド分析官」へと進化する", url: "https://af.moshimo.com/af/c/click?a_id=5337702&p_id=5922&pc_id=16500&pl_id=75690" },
+    { targetType: "DATA_ALCHEMIST", service: "明光キャリア(ハイクラス)", title: "戦略の核心を突く『明光キャリア』で、ハイエンド・データアナリストへと進化する", url: "https://t.felmat.net/fmcl?ak=N10191F.1.Y145579R.K133474M" },
 
     // DIGITAL_ARTISAN
-    { targetType: "DIGITAL_ARTISAN", service: "SHElikes", title: "多彩なスキルの『SHElikes』で、仕事を自分で創る「マルチクリエイター」へと進化する", url: "https://t.felmat.net/fmcl?ak=H2861S.1.C76026F.K133474M" },
-    { targetType: "DIGITAL_ARTISAN", service: "WeRuby", title: "女子大生特化の『WeRuby』で、今からキャリアを築く「未来のWeb職人」へと進化する", url: "https://t.felmat.net/fmcl?ak=W3527Y.1.C70231Q.K133474M" },
-    { targetType: "DIGITAL_ARTISAN", service: "クリエイターズファクトリー", title: "現場と繋がる『クリエイターズファクトリー』で、Web制作の全てを制する「実践的Webクリエイター」へと進化する", url: "https://t.felmat.net/fmcl?ak=J3153O.1.K82371B.K133474M" },
+    { targetType: "DIGITAL_ARTISAN", service: "RareTECH", title: "本質を極める『RareTECH』で、AIに代替不可能な「希少型エンジニア」へと進化する", url: "https://t.felmat.net/fmcl?ak=H9198H.1.E1354486.K133474M" },
+    { targetType: "DIGITAL_ARTISAN", service: "SAPテンショク", title: "システムを守る『SAPテンショク』で、世界標準を支える「絶対的技術者」へと進化する", url: "https://t.felmat.net/fmcl?ak=N10547R.1.X1485041.K133474M" },
+    { targetType: "DIGITAL_ARTISAN", service: "SAPフリーランスバンク", title: "システムを守る『SAPフリーランスバンク』で、絶対的技術者へと進化する", url: "https://t.felmat.net/fmcl?ak=R10331F.1.H146814T.K133474M" },
 
     // ENDANGERED_WORKER
-    { targetType: "ENDANGERED_WORKER", service: "ジッセン!オンライン", title: "マーケティングを学ぶ『ジッセン!オンライン』で、売る力を手に入れる「デジタルマーケター」へと進化する", url: "https://t.felmat.net/fmcl?ak=X2959N.1.L81776Q.K133474M" },
-    { targetType: "ENDANGERED_WORKER", service: "ビジネスYouTuber講座", title: "動画で伝える『ビジネスYouTuber講座』で、影響力を持つ「ビジネスインフルエンサー」へと進化する", url: "https://t.felmat.net/fmcl?ak=L3154A.1.Z82372V.K133474M" },
-    { targetType: "ENDANGERED_WORKER", service: "MENTA", title: "知を繋ぐ『MENTA』で、教える側へ回る「知識のハブ」へと進化する", url: "https://t.felmat.net/fmcl?ak=V3528D.1.270234A.K133474M" },
+    { targetType: "ENDANGERED_WORKER", service: "AI×Webマーケ(DXUP)", title: "経産省補助金対象の『DXUP』で、事務作業を自動化する「AI効率化マスター」へと進化する", url: "https://t.felmat.net/fmcl?ak=W11267M.1.E1551635.K133474M" },
+    { targetType: "ENDANGERED_WORKER", service: "DMM WEBCAMP", title: "本気で変わるための『DMM WEBCAMP』で、未来を創る「エンジニア」へと進化する", url: "https://t.felmat.net/fmcl?ak=I1787O.1.O36364V.K133474M" },
+    { targetType: "ENDANGERED_WORKER", service: "GeekSalon", title: "才能を開花させる『GeekSalon』で、アプリ開発を極める「若きイノベーター」へと進化する", url: "https://t.felmat.net/fmcl?ak=J3522B.1.N68754X.K133474M" },
+    { targetType: "ENDANGERED_WORKER", service: "はじめてのプログラミング", title: "初心者向けの『はじめてのプログラミング』で、技術を武器にする「実践型エンジニア」へと進化する", url: "https://t.felmat.net/fmcl?ak=J16536.1.P1238878.K133474M" },
 
     // INNOVATION_ARCHITECT
-    { targetType: "INNOVATION_ARCHITECT", service: "レバテックフリーランス", title: "自由を掴む『レバテックフリーランス』で、年収を自ら決める「独立エンジニア」へと進化する", url: "https://t.felmat.net/fmcl?ak=B87207.1.A130962S.K133474M" },
-    { targetType: "INNOVATION_ARCHITECT", service: "Workship", title: "多彩な案件の『Workship』で、自由なペースで稼ぐ「デジタルフリーランサー」へと進化する", url: "https://af.moshimo.com/af/c/click?a_id=5337710&p_id=4870&pc_id=14215&pl_id=65776" },
-    { targetType: "INNOVATION_ARCHITECT", service: "フリーランスダイレクト", title: "高単価に挑む『フリーランスダイレクト』で、企業と直取引する「独立系プロ」へと進化する", url: "https://t.felmat.net/fmcl?ak=I11623M.1.G159879N.K133474M" },
+    { targetType: "INNOVATION_ARCHITECT", service: "デジレカ", title: "現場主義の『デジレカ』で、仕組みを設計し社会を動かす「マーケティング建築家」へと進化する", url: "https://t.felmat.net/fmcl?ak=D109718.1.4152406S.K133474M" },
+    { targetType: "INNOVATION_ARCHITECT", service: "foRPro", title: "最高峰を繋ぐ『foRPro』で、高単価を主導する「独立系ハイエンドコンサルタント」へと進化する", url: "https://t.felmat.net/fmcl?ak=Q6627F.1.Q106776G.K133474M" },
 
     // ETHICAL_GUARDIAN
-    { targetType: "ETHICAL_GUARDIAN", service: "グリーンエンジニア転職", title: "地球を守る『グリーンエンジニア転職』で、環境技術を主導する「グリーンテック戦士」へと進化する", url: "https://t.felmat.net/fmcl?ak=D10591Y.1.4148884G.K133474M" },
-    { targetType: "ETHICAL_GUARDIAN", service: "ベイズチャンス", title: "社会的な企業を選ぶ『ベイズチャンス』で、使命を果たす「倫理的プロフェッショナル」へと進化する", url: "https://t.felmat.net/fmcl?ak=Z10186R.1.N145576C.K133474M" },
-    { targetType: "ETHICAL_GUARDIAN", service: "サステナブル・ラボ", title: "AI倫理を学ぶ『サステナブル・ラボ』で、未来への責任を担う「倫理的AI専門家」へと進化する", url: "https://t.felmat.net/fmcl?ak=A10188D.1.G145578P.K133474M" },
+    { targetType: "ETHICAL_GUARDIAN", service: "セキュリティプロ", title: "正義を貫く『セキュリティプロ』で、社会の安全を担保する「倫理的守護者」へと進化する", url: "https://t.felmat.net/fmcl?ak=A11624B.1.U159881F.K133474M" },
 
     // SUSTAINABLE_STRATEGIST
-    { targetType: "SUSTAINABLE_STRATEGIST", service: "システムフォレスト", title: "長期志向の『システムフォレスト』で、時代を超える仕組みを創る「戦略的システムビルダー」へと進化する", url: "https://t.felmat.net/fmcl?ak=F10189W.1.9145580I.K133474M" },
-    { targetType: "SUSTAINABLE_STRATEGIST", service: "doda(グリーン)", title: "環境に寄り添う『doda(グリーン)』で、社会貢献と収入を得る「サステナブルキャリアビルダー」へと進化する", url: "https://t.felmat.net/fmcl?ak=O69905.1.R22968Y.K133474M" },
-    { targetType: "SUSTAINABLE_STRATEGIST", service: "パーソルキャリアコンサルティング", title: "専門性を追求する『パーソルキャリアコンサルティング』で、時代を見据える「戦略的キャリアデザイナー」へと進化する", url: "https://t.felmat.net/fmcl?ak=K10190B.1.I145582V.K133474M" },
+    { targetType: "SUSTAINABLE_STRATEGIST", service: "ファイナンシャルアカデミー", title: "本質を授ける『ファイナンシャルアカデミー』で、一生困らない「永続の戦略家」へと進化する", url: "https://t.felmat.net/fmcl?ak=C2839G.1.K620327.K133474M" },
 
     // LEGACY_KEEPER
     { targetType: "LEGACY_KEEPER", service: "ツギノシゴト", title: "安定した技術を支える『ツギノシゴト』で、現場で信頼を築く「安定のプロ」へと進化する", url: "https://t.felmat.net/fmcl?ak=X97674.1.61412369.K133474M" },
