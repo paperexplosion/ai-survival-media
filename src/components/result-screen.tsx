@@ -182,9 +182,8 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                             >
                                 <div className="absolute inset-0 bg-gradient-to-br from-neon-cyan/5 via-neon-purple/5 to-neon-blue/5" />
                                 <div className="relative z-10">
-                                    <h3 className="text-xl font-bold mb-4 leading-relaxed">
-                                        <span className="text-gray-300 font-medium">{item.description}、</span>
-                                        <span className="text-neon-cyan">{item.name}</span>
+                                    <h3 className="text-xl font-bold mb-4 leading-relaxed text-gray-100">
+                                        {item.title}
                                     </h3>
                                     <p className="text-gray-100 leading-relaxed mb-6 whitespace-pre-wrap text-[15px]">
                                         {item.sommelierAnalysis}
