@@ -221,7 +221,7 @@ function BlogPostContent() {
                                         ease: "easeInOut",
                                     }}
                                 />
-                                <span className="relative">12ジョブ診断を始める</span>
+                                <span className="relative">あなたの未来を診断する</span>
                             </motion.button>
 
                             <p className="text-xs text-muted-foreground mt-4">

@@ -96,7 +96,7 @@ export default function Home() {
                 />
                 <span className="relative flex items-center gap-2">
                   <Target className="w-5 h-5" />
-                  12ジョブ診断を始める
+                  あなたの未来を診断する
                 </span>
               </motion.button>
 
