@@ -169,10 +169,10 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
 
                     <div className="space-y-6">
                         {affiliateCatalog.map((item, index) => {
-                            const isMoshimoLink = item.url.includes('moshimo.com');
+                            const isAffiliateLink = item.url.includes('moshimo.com') || item.url.includes('rentracks.jp');
                             return (
                                 <motion.div
-                                    key={item.service}
+                                    key={`${item.service}-${index}`}
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ delay: 0.9 + index * 0.1 }}
@@ -194,7 +194,7 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                                             href={item.url}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            {...(isMoshimoLink && { referrerPolicy: "no-referrer-when-downgrade" as const })}
+                                            {...(isAffiliateLink && { referrerPolicy: "no-referrer-when-downgrade" as const })}
                                             className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-neon-cyan to-neon-blue rounded-full text-white font-semibold hover:shadow-lg hover:shadow-neon-cyan/50 transition-all duration-300 group"
                                             whileHover={{ scale: 1.05 }}
                                             whileTap={{ scale: 0.95 }}
