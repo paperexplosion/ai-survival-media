@@ -112,37 +112,47 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                 </motion.div>
             </motion.div>
 
-            <motion.button
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.9 }}
-                whileHover={{ scale: 1.08, y: -4 }}
-                whileTap={{ scale: 0.98 }}
-                onClick={onStart}
-                className="relative group"
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1.0 }}
+                className="flex flex-col items-center gap-3"
             >
-                <motion.div
-                    animate={{
-                        opacity: [0.7, 1, 0.7],
-                        scale: [1, 1.15, 1],
-                    }}
-                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                    className="absolute inset-0 bg-gradient-to-r from-neon-blue to-neon-purple rounded-full blur-2xl"
-                />
-                <motion.div
-                    animate={{
-                        boxShadow: [
-                            "0 0 30px rgba(59, 130, 246, 0.5), 0 0 60px rgba(168, 85, 247, 0.3)",
-                            "0 0 50px rgba(59, 130, 246, 0.8), 0 0 100px rgba(168, 85, 247, 0.6)",
-                            "0 0 30px rgba(59, 130, 246, 0.5), 0 0 60px rgba(168, 85, 247, 0.3)"
-                        ]
-                    }}
-                    transition={{ duration: 2, repeat: Infinity }}
-                    className="relative px-14 py-6 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 bg-[length:200%_100%] rounded-full text-white font-black text-2xl tracking-wide shadow-2xl border-2 border-white/20 animate-gradient"
+                <p className="text-sm text-muted-foreground/80 tracking-wide">
+                    診断時間は180秒、この診断があなたの未来の道を照らす
+                </p>
+                <motion.button
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: 0.9 }}
+                    whileHover={{ scale: 1.08, y: -4 }}
+                    whileTap={{ scale: 0.98 }}
+                    onClick={onStart}
+                    className="relative group"
                 >
-                    3分で運命を診断する
-                </motion.div>
-            </motion.button>
+                    <motion.div
+                        animate={{
+                            opacity: [0.7, 1, 0.7],
+                            scale: [1, 1.15, 1],
+                        }}
+                        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                        className="absolute inset-0 bg-gradient-to-r from-neon-blue to-neon-purple rounded-full blur-2xl"
+                    />
+                    <motion.div
+                        animate={{
+                            boxShadow: [
+                                "0 0 30px rgba(59, 130, 246, 0.5), 0 0 60px rgba(168, 85, 247, 0.3)",
+                                "0 0 50px rgba(59, 130, 246, 0.8), 0 0 100px rgba(168, 85, 247, 0.6)",
+                                "0 0 30px rgba(59, 130, 246, 0.5), 0 0 60px rgba(168, 85, 247, 0.3)"
+                            ]
+                        }}
+                        transition={{ duration: 2, repeat: Infinity }}
+                        className="relative px-14 py-6 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 bg-[length:200%_100%] rounded-full text-white font-black text-2xl tracking-wide shadow-2xl border-2 border-white/20 animate-gradient"
+                    >
+                        あなたの「進化」の未来を診断する
+                    </motion.div>
+                </motion.button>
+            </motion.div>
 
             <motion.div
                 initial={{ opacity: 0 }}
