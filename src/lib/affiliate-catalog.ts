@@ -1,336 +1,69 @@
 import { CareerType } from '@/types';
 
 export interface AffiliateCatalogItem {
-    id: string;
-    jobTypes: CareerType[];
-    name: string;
+    targetType: CareerType;
+    service: string;
     title: string;
-    description: string;
-    sommelierAnalysis: string;
-    affiliateUrl: string;
-    trackingImageUrl?: string;
+    url: string;
 }
 
 export const AFFILIATE_CATALOG: AffiliateCatalogItem[] = [
-    {
-        id: 'myvision_master',
-        jobTypes: ['AI_MASTER', 'DATA_ALCHEMIST', 'COMMUNITY_WEAVER'],
-        name: 'MyVision',
-        title: '圧倒的な実績を誇る『MyVision』で、戦略コンサルへの切符を掴む「エリート軍師」へと進化する',
-        description: '書類通過率90%の実績を誇る戦略コンサル転職特化エージェント',
-        sommelierAnalysis: '戦略コンサル転職における最短経路。書類通過率90%という数字が示すのは、あなたの錬金術を正しくコンサル用語に翻訳し、年収1,500万を「最低ライン」として交渉する力だ。創業者が戦略ファーム出身で内情を熟知しているがゆえに、面接対策は容赦なく厳しい。しかし、その厳しさこそが市場価値を正当に評価される扉を開く。データを武器にする者が、組織を動かす参謀として君臨するための最適解がここにある。',
-        affiliateUrl: '//af.moshimo.com/af/c/click?a_id=5337702&p_id=5922&pc_id=16500&pl_id=75690',
-        trackingImageUrl: '//i.moshimo.com/af/i/impression?a_id=5337702&p_id=5922&pc_id=16500&pl_id=75690'
-    },
-    {
-        id: 'axis_master',
-        jobTypes: ['AI_MASTER', 'DATA_ALCHEMIST', 'COMMUNITY_WEAVER'],
-        name: 'AXIS Agent',
-        title: 'DX案件に強い『AXIS Agent』で、外資系DXの最前線に立つ「DXリーダー」へと進化する',
-        description: 'IT上流工程と外資系DX案件に強い、非公開求人77%の転職エージェント',
-        sommelierAnalysis: 'IT上流工程と外資系DX中枢への独自ネットワークを保有。非公開求人77%という数字は、表に出ない「AI戦略室」の椅子がここにあることを意味する。実務作業者の沼から抜け出し、組織全体を動かす参謀として地位を確立するなら、ここが最適解だ。3年間の長期サポートは単なる転職支援ではなく、キャリア設計の伴走者を得ることに等しい。30代以上のプロフェッショナルが、次のステージへ駆け上がるための信頼できる橋渡し役となる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'kotora_master',
-        jobTypes: ['AI_MASTER'],
-        name: 'コトラ（KOTORA）',
-        title: 'プロフェッショナルに寄り添う『コトラ（KOTORA）』で、年収2,000万超えの「ハイクラス層」へと進化する',
-        description: 'コンサル・金融など年収2,000万超を狙うプロフェッショナル転職エージェント',
-        sommelierAnalysis: 'コンサル・金融といったプロフェッショナル職に圧倒的な強みを持つ。単なる求人紹介ではなく、あなたの「価値観」と「志向性」で組織とマッチングさせる独自の手法を持つ。成果主義が極めて強い世界だが、軍師としてのキャリアを長期で預けるに足る信頼性がここにはある。年収2,000万超の世界で勝負するための最後の関門であり、プロフェッショナルとしての矜持を保ちながら、最高峰の舞台へと駆け上がる道筋を提供してくれる。',
-        affiliateUrl: '//af.moshimo.com/af/c/click?a_id=5337707&p_id=3316&pc_id=7865&pl_id=47212',
-        trackingImageUrl: '//i.moshimo.com/af/i/impression?a_id=5337707&p_id=3316&pc_id=7865&pl_id=47212'
-    },
-    {
-        id: 'lhh_alchemist',
-        jobTypes: ['DATA_ALCHEMIST', 'SUSTAINABLE_STRATEGIST'],
-        name: 'LHH転職',
-        title: 'グローバルな翼を持つ『LHH転職』で、年収を100万以上アップさせる「グローバル人材」へと進化する',
-        description: '世界60拠点のネットワークで平均101万円の年収アップを実現するグローバル転職エージェント',
-        sommelierAnalysis: '世界60拠点のグローバルネットワークが、日本の狭い物差しではなく世界標準であなたの市場価値を再定義する。平均101万円の年収アップ実績は、データを金に変える錬金術が正当に評価された結果だ。英語力が一定以上求められるが、それは国境を越えたキャリアの入場券に過ぎない。360度式コンサルティングにより、あなたの強みを多角的に分析し、グローバル市場で最も高く評価される場所へと導く。ドライと感じる対応の裏には、冷徹なまでの実力主義がある。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'famm_bridger',
-        jobTypes: ['REALITY_BRIDGER', 'ENDANGERED_WORKER', 'GIG_SURVIVOR', 'GLOBAL_NOMAD'],
-        name: 'Famm',
-        title: 'ママにも優しい『Famm』で、最短1ヶ月で「Webデザイナー」へと進化する',
-        description: '1ヶ月完結＋卒業後5件の案件保証でWebデザイナーデビューを支援するスクール',
-        sommelierAnalysis: 'Webデザイン1ヶ月完結、そして卒業後5件の案件保証という具体的な実績支援。実績ゼロの不安を物理的な「仕事」で強制的に上書きし、プロへの一歩を固める。高度な開発スキルは学べないが、まず必要なのは「1円を稼ぐ成功体験」だ。脱出への恐怖を消し、独立への最初の手応えを掴むことができる。未経験特化の設計により挫折を防ぎ、ノマドとしての自活体験を最短で手に入れる。会社という檻から抜け出すための、最初の武器となる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'digihack_bridger',
-        jobTypes: ['REALITY_BRIDGER', 'ENDANGERED_WORKER', 'GIG_SURVIVOR'],
-        name: 'デジハク',
-        title: '実践重視の『デジハク』で、場所を選ばず稼ぐ「動画編集クリエイター」へと進化する',
-        description: '300本以上の教材とマンツーマン添削で動画編集スキルを習得できるオンラインスクール',
-        sommelierAnalysis: '動画編集300本以上の教材とマンツーマン添削による徹底サポート。市場が拡大し続ける動画領域で、会社に依存しない自由への切符をその手で掴み取ることができる。PCスペックと継続的な制作体力が必要だが、あなたの感性を市場価値のある商用動画に変換する現役プロの並走者がここにいる。実案件紹介もあり、学習と実践の橋渡しが完璧だ。AIと動画の相乗効果で「稼ぐ表現者」へ。今ある表現力に動画という武器を加え、複数の収益源を構築できる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'meikara_bridger',
-        jobTypes: ['REALITY_BRIDGER', 'DIGITAL_ARTISAN', 'GIG_SURVIVOR'],
-        name: 'メイカラ',
-        title: 'AIを駆使する『メイカラ』で、多能工として生き抜く「次世代クリエイター」へと進化する',
-        description: '生成AI×デザイン×ライティングの掛け算で多能工を目指すクリエイター育成スクール',
-        sommelierAnalysis: '生成AIを核にした統合学習環境。デザイン×ライティング×AIの掛け算で、独占的な表現者の地位を築く。伝統的な手法のみを学びたい者には不向きだが、AIというチート級の武器を使いこなし、替えの効かない多能工になる最速ルートがここにある。コミュニティの質も高く、協業による多角的な収益源の構築が可能だ。複数のスキルを掛け合わせることで、サバイバル能力を極大化し、誰にも真似できない唯一無二の個人ブランドを確立できる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'dmm_ai_camp',
-        jobTypes: ['ENDANGERED_WORKER', 'DIGITAL_ARTISAN', 'COMMUNITY_WEAVER'],
-        name: 'DMM 生成AI CAMP',
-        title: '最先端を学ぶ『DMM 生成AI CAMP』で、AIを武器にする「実践的職人」へと進化する',
-        description: '現役エンジニアから学び、事務作業をAIで自動化する実践スキルを習得できるスクール',
-        sommelierAnalysis: '現役エンジニアから直接学び、事務作業をAIで自動化する実践スキルを習得。ツールに使われず、AIの本質を深く理解し、企業の課題を解決する真の職人を目指せる。ビジネス活用に特化したカリキュラムにより、即戦力化を実現する。浮いた時間で次の稼ぎを構築し、生存率を飛躍的に高めることができる。リーダー自らがAIの限界を知ることが、真の「AI共生組織」を設計する力となる。自己学習の覚悟があれば、チームの生産性を劇的に向上させる方法論を手に入れられる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'anycrew_artisan',
-        jobTypes: ['DIGITAL_ARTISAN'],
-        name: 'Anycrew',
-        title: '信頼をベースにした『Anycrew』で、週1日から自由に稼ぐ「複業家」へと進化する',
-        description: '週1日から稼働可能な信頼ベースの高品質副業案件マッチングプラットフォーム',
-        sommelierAnalysis: '週1日から稼働可能な信頼ベースの副業案件プラットフォーム。あなたのプロンプト魔術を、まずは副業という実戦の場で現金に変える第一歩だ。案件倍率が高い場合もあるが、それは質の高いクライアントと出会える証である。リモート案件が多数あり、自己管理能力を武器に変えられる。企業との信頼関係を構築しながら、複数の収益源を持つ現代の魔術師として、本業を超える報酬を手にする道筋が見える。まずは週1から、あなたの言葉の力を市場で試すことができる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'raretech_architect',
-        jobTypes: ['INNOVATION_ARCHITECT'],
-        name: 'RareTECH',
-        title: '本質を極める『RareTECH』で、高単価案件を支配する「希少型エンジニア」へと進化する',
-        description: 'React/Python等のモダン技術スタックで高単価案件に直結するプログラミングスクール',
-        sommelierAnalysis: 'React/Python等のモダン技術スタックに特化した圧倒的学習密度。卒業生の案件単価の高さが、この教育の質を雄弁に証明している。学習難易度は極めて高く、覚悟がなければ確実に挫折する。だが、本気で「創る側」に回り、自分のプロダクトで世界をハックするなら、ここ以外の選択肢はない。作業者で終わるか、アイデアを形にする筆を極めるか。その分岐点で、妥協を許さない高精細な技術教育があなたを待っている。高単価案件への直結路を手に入れることができる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'divepro_architect',
-        jobTypes: ['INNOVATION_ARCHITECT'],
-        name: 'ディープロ',
-        title: 'AIに特化した『ディープロ』で、AI・機械学習を攻略する「AIエンジニア」へと進化する',
-        description: 'Python特化でAI・機械学習エンジニアへの最短ルートを提供するプログラミングスクール',
-        sommelierAnalysis: 'Python特化でAI・機械学習エンジニアへの登竜門。実践的な開発プロジェクトと徹底した現場主義が、未経験からでもAI開発の深部へ潜り込む最短ルートを提供する。英語ドキュメント読解が必要だが、それはグローバルな技術情報に直接アクセスする力を意味する。AIの心臓部であるPythonを掴むことで、機械学習の本質に触れ、単なる利用者ではなく開発者として、AI時代の中核を担う人材へと変貌する。プログラミング未経験者には厳しい初期負荷だが、それを乗り越えた先に見える景色は別次元だ。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'potepan_architect',
-        jobTypes: ['INNOVATION_ARCHITECT', 'GLOBAL_NOMAD'],
-        name: 'ポテパンフリーランス',
-        title: '高単価を実現する『ポテパンフリーランス』で、自由を謳歌する「独立エンジニア」へと進化する',
-        description: '平均単価80万円の高単価案件を継続的にサポートするフリーランスエンジニア向けエージェント',
-        sommelierAnalysis: '平均単価80万円の高単価案件と、稼働後も続く継続的なサポート体制。スキルは既に十分、あとは適切な「値付け」だけだ。会社員の年収を数ヶ月で超える世界へようこそ。実務経験が一定以上必要とされるが、市場価値をシビアに問われる場でこそ、あなたの真価が証明される。Ruby/Rails等のモダン環境で、フリーランスとしての自由を掴み取ることができる。海外で暮らすための強力な資金源を確保し、場所を選ばない働き方を実現する。組織の枠を超えた、圧倒的な報酬を手にすることができる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'posiwill_weaver',
-        jobTypes: ['COMMUNITY_WEAVER', 'ETHICAL_GUARDIAN', 'LEGACY_KEEPER'],
-        name: 'ポジウィル',
-        title: '自分を深く知る『ポジウィル』で、納得感のある未来を描く「キャリア自律者」へと進化する',
-        description: '20-30代の「どう生きたいか」を徹底的に棚卸しするキャリア伴走サービス',
-        sommelierAnalysis: '20-30代の迷いに特化した伴走者が、「どう生きたいか」の徹底的な棚卸しを行う。転職ありきではない深い自己分析により、AI時代だからこそ必要なあなた自身の揺るぎない指針を明確にする。動けないのは意志が弱いからではない。現在地が見えていないだけだ。プロとの濃密な対話で人生の地図を描き、観察を確信に、迷いを自信に変えることができる。枠が埋まりやすく、精神的負荷も伴うが、深い自己受容を経て、部下を導くための揺るぎない背中を作ることができる。費用は自己投資として必要だが、それ以上の価値がある。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'studying_strategist',
-        jobTypes: ['SUSTAINABLE_STRATEGIST', 'ETHICAL_GUARDIAN', 'LEGACY_KEEPER'],
-        name: 'スタディング',
-        title: '効率を極めた『スタディング』で、AIの力で難関を突破する「戦略的学習者」へと進化する',
-        description: 'AIが学習をアシストする業界最安値クラスのオンライン資格取得支援サービス',
-        sommelierAnalysis: 'AIが学習をアシストする業界最安値クラスの資格取得支援。IT・会計資格を爆速で取得し、効率化のプロとしての最初の証明を手に入れることができる。スマホ1台で完結するため、通勤時間や昼休みといったスキマ時間で着実にスキルを磨ける。リスクを負わずに自分の価値を証明するカード（資格）を持つことができる。何かを学んでいるという事実が不安を消し、自信を生む。手を動かせば恐怖は消える。AI効率学習で気づかなかった「得意」を掘り起こし、モチベーション維持の自己管理さえできれば、確実にキャリアの選択肢が広がる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'majicari_strategist',
-        jobTypes: ['SUSTAINABLE_STRATEGIST', 'LEGACY_KEEPER'],
-        name: 'マジキャリ',
-        title: '内定にコミットする『マジキャリ』で、価値を言語化し成功を掴む「転職成功者」へと進化する',
-        description: '内定率100%の実績と10年以上のノウハウで事務スキルの言語化に強い転職支援サービス',
-        sommelierAnalysis: '内定率100％の安心転職コースと、10年以上の支援ノウハウによる徹底したキャリア棚卸し。事務スキルの言語化に強く、「事務＝誰でもできる」という世間の誤解を完全に解体する。あなたの効率化スキルと調整力に正当な値を付ける場所だ。費用対効果を出すには本人の本気での自己開示と努力が必須となるが、時には厳しいフィードバックもある。しかし、その厳しさこそが迷いを「具体的な内定」という確かな解決策に変え、プロのノウハウで確実に一歩前へ進ませる原動力となる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'nativecamp_guardian',
-        jobTypes: ['ETHICAL_GUARDIAN', 'GLOBAL_NOMAD'],
-        name: 'ネイティブキャンプ',
-        title: '壁のない『ネイティブキャンプ』で、境界なき対話力を得る「世界市民」へと進化する',
-        description: 'レッスン回数無制限・24時間受講可能で世界140ヶ国以上の講師と学べるオンライン英会話',
-        sommelierAnalysis: 'レッスン回数無制限、24時間いつでも即受講可能。世界140ヶ国以上の講師との対話により、英語の海に完全に浸かり言葉の壁を破壊できる。最後の信頼は「肉声」に宿る。AI情報を一次情報（英語）で直接取得し、翻訳の歪みなく理解する力が生き残りの鍵だ。予約が必要な人気講師もいるが、自己流になりやすい点には注意が必要。しかし、回線状況に左右されることも含め、それらは世界中の人間と繋がるための小さな代償に過ぎない。AIを使いこなすための英語力もここで手に入れることができる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'lifeshift_lab_survivor',
-        jobTypes: ['GIG_SURVIVOR'],
-        name: 'ライフシフトラボ AIコース',
-        title: '40代からの逆転を支える『ライフシフトラボ AIコース』で、組織に依存しない「キャリア自律者」へと進化する',
-        description: '40-50代のキャリア自律に特化し、組織経験をAIでレバレッジする複業・独立支援サービス',
-        sommelierAnalysis: '組織を捨てた傭兵にとって、スキル資産の蓄積は生存に直結する最優先課題だ。これまでの現場経験とノウハウをAIで圧倒的にレバレッジし、一人で一個師団並みの戦力を保持できる。組織という盾を捨てた以上、頼れるのは自らの武装のみだ。AIという時代最強の相棒を完全に従え、フリーランスとしての生存率を劇的に引き上げることができる。40-50代のキャリア自律に特化し、複業・独立支援の実績が豊富。過去の経験を無駄にせず、AIで増幅させる方法論がここにある。組織なき荒野を生き抜く力を手に入れることができる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'bizreach_master',
-        jobTypes: ['AI_MASTER', 'COMMUNITY_WEAVER'],
-        name: 'ビズリーチ',
-        title: '選ばれた人のための『ビズリーチ』で、スカウトを呼び込み年収1,000万超を実現する「選ばれし者」へと進化する',
-        description: '年収1,000万超を狙うスカウト型ハイクラス転職プラットフォーム',
-        sommelierAnalysis: 'ハイクラス転職の揺るぎない定番、スカウト型で年収1,000万超を確実に狙える舞台。エグゼクティブ層向けの非公開求人が豊富で、あなたの市場価値を最大化する最高の舞台だ。企業の経営層や人事責任者からの直接スカウトは、あなたの戦略的思考と実績が正当に評価されている動かぬ証拠。自ら動かずとも、待つだけで複数の最高値オファーが提示される。受動的でありながら圧倒的な成果を生む転職体験が、ここでは当たり前のように実現する。年収2,000万超の世界も視野に入る。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'wantedly_architect',
-        jobTypes: ['INNOVATION_ARCHITECT'],
-        name: 'Wantedly',
-        title: '共感を呼ぶ『Wantedly』で、最高のチームで働く「共創リーダー」へと進化する',
-        description: '「何を成し遂げたいか」「誰と働きたいか」で選ぶ、志向性重視の転職を実現する転職マッチングプラットフォーム',
-        sommelierAnalysis: 'ベンチャー・スタートアップに圧倒的に強く、企業文化とビジョンを最重視したマッチングプラットフォーム。給与条件よりも「何を成し遂げたいか」「誰と働きたいか」で選ぶ、志向性重視の転職を実現する。0→1を生み出す破壊と創造の最前線で、あなたの設計力と構想力を存分に試すことができる。カジュアル面談で企業の本質を見極められる。給与交渉は後回しになっても構わない。情熱が金銭的報酬を上回る瞬間が、ここには確かに存在する。未来を創る側に回りたいなら、ここから始めることができる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'pasona_weaver',
-        jobTypes: ['COMMUNITY_WEAVER'],
-        name: 'パソナキャリア',
-        title: '女性を輝かせる『パソナキャリア』で、生活の調和を手に入れる「ワークライフバランス実践者」へと進化する',
-        description: '女性の転職とワークライフバランスに圧倒的な強みを持つ転職エージェント',
-        sommelierAnalysis: '女性の転職とワークライフバランスに圧倒的な強みを持ち、キャリアと人生の調和を最重視する。共感力を最大の武器にするあなたにとって、組織の人間関係の質と働きやすさは絶対に譲れない条件だ。丁寧で手厚いサポートと、長期的な視点でのキャリア設計が、あなたの「人を繋ぐ力」を最大限に発揮できる理想的な環境へと確実に導く。クリエイティブ職のサポートにも定評があり、あなたの共感という名の高度な演算能力が、正当に評価される組織と出会える。人間関係を資産に変えることができる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'udemy_worker',
-        jobTypes: ['ENDANGERED_WORKER', 'ETHICAL_GUARDIAN'],
-        name: 'Udemy',
-        title: '知を即戦力にする『Udemy』で、最先端を走り続ける「知的探究者」へと進化する',
-        description: '実務スキルを短期間で習得できる買い切り型オンライン学習プラットフォーム',
-        sommelierAnalysis: '実務スキルを短期間で習得できる買い切り型オンライン学習プラットフォーム。AIに背中を焼かれる前に、まず一つの確実なスキルを手に入れることができる。安価で始められるため、経済的リスクを最小限に抑えながら学びの習慣を着実に構築できる。プログラミング、デザイン、マーケティング、データ分析など、多岐にわたるコースから選択可能だ。恐怖を具体的な行動に変える最初の一歩として、今日この瞬間から手を動かすことができる。セールも頻繁に開催され、1,000円台から学習を開始できる。迷っている時間はない。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'techacademy_architect',
-        jobTypes: ['INNOVATION_ARCHITECT'],
-        name: 'テックアカデミー',
-        title: 'メンターが伴走する『テックアカデミー』で、確実に技術を武器にする「実践型エンジニア」へと進化する',
-        description: '現役エンジニアがマンツーマンで徹底サポートする転職保証付きプログラミングスクール',
-        sommelierAnalysis: '現役エンジニアがマンツーマンでメンターとして徹底的に並走するプログラミングスクール。転職サポート付きで、スキル習得から実際の就職まで一気通貫で支援する。学習難易度は決して低くないが、それは市場が真に求める実務レベルのスキルを妥協なく習得するための必然だ。週2回のメンタリングにより、挫折を防ぎながら着実に技術力を積み上げられる。中途半端な知識では通用しない。本物のエンジニアとして、創る側に回るための確かな技術力を身につけることができる。転職成功率も高く、実力主義の世界への切符となる。',
-        affiliateUrl: '#'
-    },
-    {
-        id: 'financial_academy',
-        jobTypes: ['SUSTAINABLE_STRATEGIST'],
-        name: 'ファイナンシャルアカデミー',
-        title: '本質的な教養を授ける『ファイナンシャルアカデミー』で、不安を払拭した「永続の戦略家」へと進化する',
-        description: '長期的な資産形成と金融教養を体系的に学べる総合マネースクール',
-        sommelierAnalysis: '長期的な影響を考慮する戦略家にとって、お金の教養は持続可能な人生を支えるOSだ。労働収入だけに依存せず、賢く資産を守り育てるための「正しいルール」を身体に刻み込め。AIによる激変に怯える必要はない。資本主義の本質を理解し、盤石な資産戦略を手に入れれば、不透明な未来は確信ある盤面へと変わる。長期戦を心穏やかに楽しむための知性を、今ここで手に入れろ。',
-        affiliateUrl: 'https://t.felmat.net/fmcl?ak=C2839G.1.K620327.K133474M'
-    },
-    {
-        id: 'tsuginoshigoto',
-        jobTypes: ['LEGACY_KEEPER'],
-        name: 'ツギノシゴト',
-        title: '安定した技術を支える『ツギノシゴト』で、現場で信頼を築く「安定のプロ」へと進化する',
-        description: '安定志向の製造業・技術職に特化した転職支援サービス',
-        sommelierAnalysis: '保守のプロとしての第一歩、あるいは確実なスライド。安定を求めるあなたにとって、無理のない現場選びは生存戦略の核心だ。あなたの「維持する力」を必要としている場所は必ずある。過度な変化に自分をすり減らすのではなく、着実に技術を積み上げ、社会の歯車として機能する喜びを確保しろ。理想の職場が見つかるまで伴走するパートナーと共に、あなたの安住の地を確定させるべきだ。',
-        affiliateUrl: 'https://t.felmat.net/fmcl?ak=X97674.1.61412369.K133474M'
-    },
-    {
-        id: 'lifeshiftlab_ai',
-        jobTypes: ['GIG_SURVIVOR'],
-        name: 'ライフシフトラボAI',
-        title: '経験を武器にする『ライフシフトラボAI』で、自由を掴む「独立複業家」へと進化する',
-        description: '45歳以上のキャリア自律とAI活用スキル習得に特化した複業・独立支援プログラム',
-        sommelierAnalysis: '複数のプロジェクトを渡り歩く傭兵にとって、スキル資産の蓄積は生存に直結する課題だ。『ライフシフトラボAI』は、45歳からでもAI活用を資産化し、「労働力の切り売り」を脱する道を示す。これまでの現場経験をAIでレバレッジし、一人で一個師団並みの戦力を保持しろ。組織を捨てた以上、頼れるのは自らの武装のみだ。AIという最強の相棒を従え、生存率を劇的に引き上げろ。',
-        affiliateUrl: 'https://t.felmat.net/fmcl?ak=S11073Y.1.V153398Z.K133474M'
-    },
-    {
-        id: 'dmm_webcamp',
-        jobTypes: ['ENDANGERED_WORKER'],
-        name: 'DMM WEBCAMP',
-        title: '本気で変わるための『DMM WEBCAMP』で、未来を創る「エンジニア」へと進化する',
-        description: '短期集中でエンジニア転職を実現する転職保証付きプログラミングスクール',
-        sommelierAnalysis: 'AIや自動化の波に飲み込まれるリスクを自覚しろ。背中を焼かれるのを待つのは愚策だ。火を操る「創る側」へ転身する決断を今すぐ下せ。『DMM WEBCAMP』の短期集中カリキュラムは、新しい時代の切符を手にするための最短ルートだ。現状維持という最大のリスクを捨て、市場から求められるエンジニアとして人生をリセットしろ。生存を望むなら、一刻も早くこの扉を叩くべきだ。',
-        affiliateUrl: 'https://t.felmat.net/fmcl?ak=I1787O.1.O36364V.K133474M'
-    },
-    {
-        id: 'geeksalon',
-        jobTypes: ['ENDANGERED_WORKER'],
-        name: 'GeekSalon',
-        title: '若き才能を開花させる『GeekSalon』で、アプリ開発を極める「若きイノベーター」へと進化する',
-        description: '大学生限定のアプリ開発コミュニティ型プログラミングスクール',
-        sommelierAnalysis: '若いうちからAIに代替される側に回ってはならない。今の作業が「誰にでもできるもの」であるなら、その寿命はあと数年だ。手遅れになる前に、作る側の視点であるアプリ開発を身体に馴染ませろ。学生という特権を使い、最前線のコミュニティで技術を磨く。それがAIに背中を焼かれないための、唯一にして最強の防御策となる。未来の自分に感謝される選択を、今、この瞬間に行え。',
-        affiliateUrl: 'https://t.felmat.net/fmcl?ak=J3522B.1.N68754X.K133474M'
-    },
-    {
-        id: 'forpro',
-        jobTypes: ['INNOVATION_ARCHITECT'],
-        name: 'foRPro',
-        title: '最高峰の案件を繋ぐ『foRPro』で、高単価を主導する「独立系ハイエンドコンサルタント」へと進化する',
-        description: '高単価フリーランスコンサルタント案件に特化したマッチングプラットフォーム',
-        sommelierAnalysis: '現在と未来を俯瞰し、新しい仕組みを設計する建築家。そんなあなたには、フリーランスのコンサルタントとして、企業の変革をリードする役割が相応しい。複数の領域を横断する知識を武器に、高単価プロジェクトで自身の設計力を証明しろ。特定の組織に縛られず、俯瞰した視点から最適解を提示する。その設計力が正当に評価されるフィールドへ、今すぐ身を投じるべきだ。',
-        affiliateUrl: 'https://t.felmat.net/fmcl?ak=A11624B.1.U159881F.K133474M'
-    },
-    {
-        id: 'daini_shinsotsu_neo',
-        jobTypes: ['LEGACY_KEEPER'],
-        name: '第二新卒エージェントneo',
-        title: '正社員就職を叶える『第二新卒エージェントneo』で、確かな足場を固め直す「キャリア再起者」へと進化する',
-        description: '既卒・第二新卒・フリーターの正社員就職を手厚くサポートする転職エージェント',
-        sommelierAnalysis: '一度立ち止まった経験は、保守と維持の重要性を知る者の強みとなる。安定を求めるあなたにとって、再出発の地選びは慎重であるべきだ。既卒・フリーターからの脱却を支援するこの場は、あなたの「継続する意志」を正当に評価する企業へと繋ぐ。過度な競争ではなく、一歩ずつ着実にキャリアを積み上げ、社会の不可欠な歯車として機能する喜びを確保しろ。確かな土台を、ここから築き直せ。',
-        affiliateUrl: 'https://t.felmat.net/fmcl?ak=C106421.1.71492275.K133474M'
-    },
-    {
-        id: 'tecgate_expert',
-        jobTypes: ['GIG_SURVIVOR'],
-        name: 'Tecgateエキスパート',
-        title: '実力を報酬に変える『Tecgateエキスパート』で、最高報酬を勝ち取る「トップティア・フリーランス」へと進化する',
-        description: 'ハイクラスITフリーランス向けの高単価案件特化型エージェント',
-        sommelierAnalysis: '腕一本で戦場を渡り歩く傭兵にとって、情報の質は生死を分ける。ハイクラスなフリーランス案件に特化したこの場は、あなたの実力を正当な報酬へと変換する。スキルを安売りせず、常に市場の最前線に身を置くことで、あなたの「サバイバル能力」はさらに研ぎ澄まされる。良質な案件を次々と攻略し、組織に属さぬ自由の価値を証明し続けろ。ここには、あなたが戦い続けるための糧がある。',
-        affiliateUrl: 'https://t.felmat.net/fmcl?ak=P87208.1.B130963O.K133474M'
-    },
-    {
-        id: 'webcoach_video',
-        jobTypes: ['GLOBAL_NOMAD'],
-        name: 'WEBCOACH (動画編集)',
-        title: '場所を選ばない『WEBCOACH (動画編集)』で、国境も場所も超えて働く「自由な遊牧民」へと進化する',
-        description: '場所を選ばない働き方を実現する動画編集スキル習得スクール',
-        sommelierAnalysis: '視覚言語は、国境を超える。GLOBAL_NOMADを目指すなら、映像制作ほど強力な武器はない。PC一台で世界中のクライアントと繋がり、言葉の壁を超えて価値を届けろ。単なるツールの操作に留まらず、心を動かす演出術を学ぶ。その技術が、あなたを特定の場所から解放し、地球上のどこにいても生きていける自由を保証する。旅をしながら稼ぐ、その理想を現実にするための最終兵器を手にしろ。',
-        affiliateUrl: 'https://t.felmat.net/fmcl?ak=R11291Y.1.K1554149.K133474M'
-    },
-    {
-        id: 'meiko_career_highclass',
-        jobTypes: ['DATA_ALCHEMIST'],
-        name: '明光キャリア（ハイクラス）',
-        title: '戦略の核心を突く『明光キャリア（ハイクラス）』で、企業の運命を握る「ハイエンド・データアナリスト」へと進化する',
-        description: '高度なデータ分析・戦略案件に特化したハイクラス転職エージェント',
-        sommelierAnalysis: '数字を愛し、データを支配する者にとって、高度な戦略案件は最高の遊び場だ。ハイクラスな面談を通じ、あなたの分析力と構築力が最大化されるフィールドを厳選しろ。一般の求人には出回らない、難易度の高い課題こそがあなたの魔術を輝かせる。自身の専門性を極限まで高め、データから価値を精製する唯一無二の存在として、その頭脳に見合う報酬と地位を勝ち取り続けろ。',
-        affiliateUrl: 'https://t.felmat.net/fmcl?ak=N10191F.1.Y145579R.K133474M'
-    },
-    {
-        id: 'sap_freelance_bank',
-        jobTypes: ['DIGITAL_ARTISAN'],
-        name: 'SAPフリーランスバンク',
-        title: 'システムを守る『SAPフリーランスバンク』で、世界標準を支える「絶対的技術者」へと進化する',
-        description: 'SAP技術者専門のフリーランス案件紹介サービス',
-        sommelierAnalysis: '基幹システムという巨大な城の守り手。SAPに特化したその専門性は、AI時代においても揺るぎない城壁となる。フリーランスとして独立し、その希少な技術を市場に直接提供しろ。ここでは職人としての腕がそのまま報酬に直結する。ニッチでありながら不可欠な領域を支配することは、サバイバルにおける究極の安定策だ。あなたの深掘りした技術が、最も高く評価される場所で戦え。',
-        affiliateUrl: 'https://t.felmat.net/fmcl?ak=R10331F.1.H146814T.K133474M'
-    },
-    {
-        id: 'security_pro_guardian',
-        jobTypes: ['ETHICAL_GUARDIAN'],
-        name: 'セキュリティプロ',
-        title: '正義を貫く『セキュリティプロ』で、社会の安全を担保する「倫理的守護者」へと進化する',
-        description: 'セキュリティエンジニア専門のフリーランス案件マッチングサービス',
-        sommelierAnalysis: '進化するAIがもたらすリスクから社会を隔離しろ。ETHICAL_GUARDIANの矜持を持つあなたには、システムの脆弱性を監視し、正義を担保する役割が相応しい。これは単なる技術職ではなく、デジタル社会の倫理を司る守護者だ。フリーランスとして独立した視点を持ち、組織に忖度せずリスクを指摘する。あなたの誠実さと技術力が、最も必要とされている。信頼を形にする仕事を、今すぐ選べ。',
-        affiliateUrl: 'https://t.felmat.net/fmcl?ak=A11624B.1.U159881F.K133474M'
-    },
-    {
-        id: 'engineer_shukatu',
-        jobTypes: ['COMMUNITY_WEAVER'],
-        name: 'エンジニア就活',
-        title: '未来を切り拓く『エンジニア就活』で、ITの最前線でキャリアを開始する「次世代エンジニア」へと進化する',
-        description: '新卒・若手エンジニアの就職活動を支援する特化型就活サービス',
-        sommelierAnalysis: '人と技術を繋ぐ。コミュニティの編み手としての第一歩を、ITの最前線で踏み出せ。若いうちからテクノロジーを理解し、あなたの「人たらし」の資質と掛け合わせれば、誰にも真似できないキャリアが拓ける。技術を理解し、人間を動かす。その二律背反を両立させる存在こそ、これからの社会で最も希求される触媒だ。この架け橋としての立ち位置を確保し、コミュニティの核として成長しろ。',
-        affiliateUrl: 'https://t.felmat.net/fmcl?ak=D11609B.2.N146203_7.K133474M'
-    }
+    // AI_MASTER
+    { targetType: "AI_MASTER", service: "テックゴー", title: "徹底した並走の『テックゴー』で、高年収を実現する「トップティア・エンジニア」へと進化する", url: "https://af.moshimo.com/af/c/click?a_id=5337696&p_id=6722&pc_id=19209&pl_id=90843" },
+    { targetType: "AI_MASTER", service: "GLOBIS学び放題", title: "膨大な知識を駆使する『GLOBIS学び放題』で、経営と技術を統合する「ビジネスAI戦略家」へと進化する", url: "https://t.felmat.net/fmcl?ak=O2859R.1.X74604L.K133474M" },
+    { targetType: "AI_MASTER", service: "PyQ", title: "Pythonを極める『PyQ』で、AI開発の核心に到達する「Pythonマスター」へと進化する", url: "https://t.felmat.net/fmcl?ak=B3155R.1.U82374E.K133474M" },
+
+    // DATA_ALCHEMIST
+    { targetType: "DATA_ALCHEMIST", service: "Schoo", title: "多様な領域を網羅する『Schoo』で、データを経営判断に繋げる「ビジネス錬金術師」へと進化する", url: "https://t.felmat.net/fmcl?ak=M2858B.1.P74601J.K133474M" },
+    { targetType: "DATA_ALCHEMIST", service: "Aidemy", title: "AIとデータを極める『Aidemy』で、機械学習と数理を操る「データサイエンティスト」へと進化する", url: "https://t.felmat.net/fmcl?ak=V2960D.1.M81779E.K133474M" },
+    { targetType: "DATA_ALCHEMIST", service: "DataCamp", title: "実践重視の『DataCamp』で、グローバルに通用する「データエンジニア」へと進化する", url: "https://datacamp.pxf.io/c/5968227/1012793/13294" },
+
+    // DIGITAL_ARTISAN
+    { targetType: "DIGITAL_ARTISAN", service: "SHElikes", title: "多彩なスキルの『SHElikes』で、仕事を自分で創る「マルチクリエイター」へと進化する", url: "https://t.felmat.net/fmcl?ak=H2861S.1.C76026F.K133474M" },
+    { targetType: "DIGITAL_ARTISAN", service: "WeRuby", title: "女子大生特化の『WeRuby』で、今からキャリアを築く「未来のWeb職人」へと進化する", url: "https://t.felmat.net/fmcl?ak=W3527Y.1.C70231Q.K133474M" },
+    { targetType: "DIGITAL_ARTISAN", service: "クリエイターズファクトリー", title: "現場と繋がる『クリエイターズファクトリー』で、Web制作の全てを制する「実践的Webクリエイター」へと進化する", url: "https://t.felmat.net/fmcl?ak=J3153O.1.K82371B.K133474M" },
+
+    // ENDANGERED_WORKER
+    { targetType: "ENDANGERED_WORKER", service: "ジッセン!オンライン", title: "マーケティングを学ぶ『ジッセン!オンライン』で、売る力を手に入れる「デジタルマーケター」へと進化する", url: "https://t.felmat.net/fmcl?ak=X2959N.1.L81776Q.K133474M" },
+    { targetType: "ENDANGERED_WORKER", service: "ビジネスYouTuber講座", title: "動画で伝える『ビジネスYouTuber講座』で、影響力を持つ「ビジネスインフルエンサー」へと進化する", url: "https://t.felmat.net/fmcl?ak=L3154A.1.Z82372V.K133474M" },
+    { targetType: "ENDANGERED_WORKER", service: "MENTA", title: "知を繋ぐ『MENTA』で、教える側へ回る「知識のハブ」へと進化する", url: "https://t.felmat.net/fmcl?ak=V3528D.1.270234A.K133474M" },
+
+    // INNOVATION_ARCHITECT
+    { targetType: "INNOVATION_ARCHITECT", service: "レバテックフリーランス", title: "自由を掴む『レバテックフリーランス』で、年収を自ら決める「独立エンジニア」へと進化する", url: "https://t.felmat.net/fmcl?ak=B87207.1.A130962S.K133474M" },
+    { targetType: "INNOVATION_ARCHITECT", service: "Workship", title: "多彩な案件の『Workship』で、自由なペースで稼ぐ「デジタルフリーランサー」へと進化する", url: "https://af.moshimo.com/af/c/click?a_id=5337710&p_id=4870&pc_id=14215&pl_id=65776" },
+    { targetType: "INNOVATION_ARCHITECT", service: "フリーランスダイレクト", title: "高単価に挑む『フリーランスダイレクト』で、企業と直取引する「独立系プロ」へと進化する", url: "https://t.felmat.net/fmcl?ak=I11623M.1.G159879N.K133474M" },
+
+    // ETHICAL_GUARDIAN
+    { targetType: "ETHICAL_GUARDIAN", service: "グリーンエンジニア転職", title: "地球を守る『グリーンエンジニア転職』で、環境技術を主導する「グリーンテック戦士」へと進化する", url: "https://t.felmat.net/fmcl?ak=D10591Y.1.4148884G.K133474M" },
+    { targetType: "ETHICAL_GUARDIAN", service: "ベイズチャンス", title: "社会的な企業を選ぶ『ベイズチャンス』で、使命を果たす「倫理的プロフェッショナル」へと進化する", url: "https://t.felmat.net/fmcl?ak=Z10186R.1.N145576C.K133474M" },
+    { targetType: "ETHICAL_GUARDIAN", service: "サステナブル・ラボ", title: "AI倫理を学ぶ『サステナブル・ラボ』で、未来への責任を担う「倫理的AI専門家」へと進化する", url: "https://t.felmat.net/fmcl?ak=A10188D.1.G145578P.K133474M" },
+
+    // SUSTAINABLE_STRATEGIST
+    { targetType: "SUSTAINABLE_STRATEGIST", service: "システムフォレスト", title: "長期志向の『システムフォレスト』で、時代を超える仕組みを創る「戦略的システムビルダー」へと進化する", url: "https://t.felmat.net/fmcl?ak=F10189W.1.9145580I.K133474M" },
+    { targetType: "SUSTAINABLE_STRATEGIST", service: "doda(グリーン)", title: "環境に寄り添う『doda(グリーン)』で、社会貢献と収入を得る「サステナブルキャリアビルダー」へと進化する", url: "https://t.felmat.net/fmcl?ak=O69905.1.R22968Y.K133474M" },
+    { targetType: "SUSTAINABLE_STRATEGIST", service: "パーソルキャリアコンサルティング", title: "専門性を追求する『パーソルキャリアコンサルティング』で、時代を見据える「戦略的キャリアデザイナー」へと進化する", url: "https://t.felmat.net/fmcl?ak=K10190B.1.I145582V.K133474M" },
+
+    // LEGACY_KEEPER
+    { targetType: "LEGACY_KEEPER", service: "ツギノシゴト", title: "安定した技術を支える『ツギノシゴト』で、現場で信頼を築く「安定のプロ」へと進化する", url: "https://t.felmat.net/fmcl?ak=X97674.1.61412369.K133474M" },
+    { targetType: "LEGACY_KEEPER", service: "第二新卒neo", title: "正社員を叶える『第二新卒neo』で、確かな足場を固め直す「キャリア再起者」へと進化する", url: "https://t.felmat.net/fmcl?ak=C106421.1.71492275.K133474M" },
+    { targetType: "LEGACY_KEEPER", service: "明光キャリア(エンジニア)", title: "現場に強い『明光キャリア』で、次元を超えて価値を生む「現実架橋者」へと進化する", url: "https://t.felmat.net/fmcl?ak=A10591E.1.6148885Q.K133474M" },
+
+    // GIG_SURVIVOR
+    { targetType: "GIG_SURVIVOR", service: "テックゴー", title: "徹底した並走の『テックゴー』で、高年収を実現する「トップティア・エンジニア」へと進化する", url: "https://af.moshimo.com/af/c/click?a_id=5337696&p_id=6722&pc_id=19209&pl_id=90843" },
+    { targetType: "GIG_SURVIVOR", service: "ライフシフトラボAI", title: "経験を武器にする『ライフシフトラボAI』で、自由を掴む「独立複業家」へと進化する", url: "https://t.felmat.net/fmcl?ak=S11073Y.1.V153398Z.K133474M" },
+    { targetType: "GIG_SURVIVOR", service: "Wannabe Academy", title: "多角的な『Wannabe Academy』で、動画×マーケを操る「次世代クリエイター」へと進化する", url: "https://t.felmat.net/fmcl?ak=A8360X.1.I127674B.K133474M" },
+
+    // GLOBAL_NOMAD
+    { targetType: "GLOBAL_NOMAD", service: "WEBCOACH(動画編集)", title: "場所を選ばない『WEBCOACH』で、国境も場所も超えて働く「自由な遊牧民」へと進化する", url: "https://t.felmat.net/fmcl?ak=R11291Y.1.K1554149.K133474M" },
+    { targetType: "GLOBAL_NOMAD", service: "WEBCOACH(SNS)", title: "時代を掴む『WEBCOACH』で、国境も場所も超えて働く「自由な遊牧民」へと進化する", url: "https://t.felmat.net/fmcl?ak=D11508T.1.8158693F.K133474M" },
+    { targetType: "GLOBAL_NOMAD", service: "WEBCOACH(マーケ)", title: "攻めのスキルの『WEBCOACH』で、国境も場所も超えて働く「自由な遊牧民」へと進化する", url: "https://t.felmat.net/fmcl?ak=Z11290T.1.1155412V.K133474M" },
+
+    // COMMUNITY_WEAVER
+    { targetType: "COMMUNITY_WEAVER", service: "エンジニア就活", title: "未来を切り拓く『エンジニア就活』で、ITの最前線を開始する「次世代エンジニア」へと進化する", url: "https://t.felmat.net/fmcl?ak=D11609B.2.N146203_7.K133474M" },
+    { targetType: "COMMUNITY_WEAVER", service: "NewMA", title: "信頼を繋ぐ『NewMA』で、心の領域で最高峰を目指す「M&Aプロ」へと進化する", url: "https://t.felmat.net/fmcl?ak=E96148.1.A139731Q.K133474M" },
+    { targetType: "COMMUNITY_WEAVER", service: "MyVision", title: "選考対策を極めた『MyVision』で、キャリアの熱量を最大化する「コンサル戦略家」へと進化する", url: "https://af.moshimo.com/af/c/click?a_id=5337702&p_id=5922&pc_id=16500&pl_id=75690" }
 ];
 
 export function getAffiliateCatalogByJobType(jobType: CareerType): AffiliateCatalogItem[] {
-    return AFFILIATE_CATALOG.filter(item => item.jobTypes.includes(jobType));
+    return AFFILIATE_CATALOG.filter(item => item.targetType === jobType);
 }

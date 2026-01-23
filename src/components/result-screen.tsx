@@ -170,7 +170,7 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                     <div className="space-y-6">
                         {affiliateCatalog.map((item, index) => (
                             <motion.div
-                                key={item.id}
+                                key={item.service}
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.9 + index * 0.1 }}
@@ -182,25 +182,16 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                             >
                                 <div className="absolute inset-0 bg-gradient-to-br from-neon-cyan/5 via-neon-purple/5 to-neon-blue/5" />
                                 <div className="relative z-10">
-                                    <h3 className="text-xl font-bold mb-4 leading-relaxed text-gray-100">
+                                    <h3 className="text-xl font-bold mb-6 leading-relaxed text-gray-100">
                                         {item.title}
                                     </h3>
-                                    <p className="text-gray-100 leading-relaxed mb-6 whitespace-pre-wrap text-[15px]">
-                                        {item.sommelierAnalysis}
-                                    </p>
                                     <motion.a
-                                        href={item.affiliateUrl}
+                                        href={item.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-neon-cyan to-neon-blue rounded-full text-white font-semibold hover:shadow-lg hover:shadow-neon-cyan/50 transition-all duration-300 group"
                                         whileHover={{ scale: 1.05 }}
                                         whileTap={{ scale: 0.95 }}
-                                        onClick={() => {
-                                            if (item.trackingImageUrl) {
-                                                const img = new Image();
-                                                img.src = item.trackingImageUrl;
-                                            }
-                                        }}
                                     >
                                         <span>ソムリエの提案に従い公式サイトを見る</span>
                                         <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
