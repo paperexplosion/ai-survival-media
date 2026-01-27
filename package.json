@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/generate-blog-data.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/generate-blog-data.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -42,6 +44,7 @@
     "cmdk": "^1.1.1",
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.25.0",
+    "gray-matter": "^4.0.3",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.562.0",
     "next": "^14.2.15",

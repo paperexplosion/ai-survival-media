@@ -107,14 +107,53 @@ Value: your-site-name.netlify.app
 - `src/app/` - Next.js App Router ページ
 - `src/components/` - Reactコンポーネント
 - `src/lib/` - ユーティリティ関数、定数
+- `src/content/blog/` - ブログ記事（Markdown形式）
 - `supabase/migrations/` - データベースマイグレーション
+- `scripts/` - ビルドスクリプト
+
+## ブログ記事の管理
+
+### 記事の追加方法
+
+ブログ記事はMarkdown形式で管理されています。
+
+1. `src/content/blog/` ディレクトリに新しい `.md` ファイルを作成
+2. Frontmatterでメタデータを記述
+3. `##` 見出しでセクションを分割
+
+**テンプレート例：**
+
+```markdown
+---
+title: "記事のタイトル"
+lead: "記事の要約文"
+date: "2026-01-27"
+readTime: "8分"
+category: "AI時代のキャリア"
+---
+
+## セクション1
+
+本文をここに書きます。
+
+## セクション2
+
+次のセクションです。
+```
+
+詳細は `src/content/blog/README.md` を参照してください。
+
+### ビルドプロセス
+
+- `npm run dev` または `npm run build` 実行時に、自動的にMarkdownファイルからJSONファイルが生成されます
+- 記事を追加・編集した後は、開発サーバーを再起動してください
 
 ## 主要機能
 
 - **職業タイプ診断** - 12の職業タイプを診断
 - **パーソナライズされた結果** - レーダーチャート、アクションプラン
 - **ソムリエ推薦** - キャリアタイプ別の最適なサービス提案
-- **ブログ機能** - AI時代の戦略レポート
+- **ブログ機能** - AI時代の戦略レポート（Markdown管理）
 
 ## 技術スタック
 
