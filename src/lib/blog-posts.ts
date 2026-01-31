@@ -29,5 +29,7 @@ export function getBlogPost(slug: string): BlogPost | undefined {
 }
 
 export function getAllBlogPosts(): BlogPost[] {
-    return BLOG_POSTS.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    return BLOG_POSTS
+        .filter(post => post.date && post.slug !== 'README')
+        .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }

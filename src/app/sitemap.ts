@@ -6,12 +6,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogPosts = getAllBlogPosts();
 
-  const blogUrls = blogPosts.map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(post.date),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
+  const blogUrls = blogPosts
+    .filter((post) => post.date && post.slug !== 'README')
+    .map((post) => ({
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: new Date(post.date),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    }));
 
   return [
     {

@@ -1,5 +1,47 @@
 [
   {
+    "slug": "README",
+    "title": "",
+    "lead": "",
+    "date": "",
+    "readTime": "",
+    "category": "",
+    "content": [
+      {
+        "section": "新しい記事の追加方法",
+        "text": "1. このディレクトリ（`/src/content/blog/`）に新しい `.md` ファイルを作成します\n2. ファイル名は記事のスラッグになります（例: `my-new-article.md` → `/blog/my-new-article`）\n3. 以下のテンプレートを使用してください：\n\n```markdown\n---\ntitle: \"記事のタイトル\"\nlead: \"記事の要約文。一覧ページで表示されます。\"\ndate: \"2026-01-27\"\nreadTime: \"8分\"\ncategory: \"AI時代のキャリア\"\naffiliates:\n  - title: \"アフィリエイトリンクのタイトル（任意）\"\n    description: \"サービスの説明\"\n    url: \"https://example.com/affiliate-link\"\n    label: \"詳細を見る\"\n    position: 1\n---"
+      },
+      {
+        "section": "セクション1の見出し",
+        "text": "セクション1の本文をここに書きます。\n\n段落は空行で区切ります。"
+      },
+      {
+        "section": "セクション2の見出し",
+        "text": "セクション2の本文をここに書きます。"
+      },
+      {
+        "section": "セクション3の見出し",
+        "text": "最後のセクションです。\n```"
+      },
+      {
+        "section": "Frontmatterフィールド",
+        "text": "- `title`: 記事のタイトル（必須）\n- `lead`: リード文・要約（必須）\n- `date`: 公開日（YYYY-MM-DD形式、必須）\n- `readTime`: 読了時間（例: \"8分\"、必須）\n- `category`: カテゴリ名（必須）\n- `affiliates`: アフィリエイトリンクの配列（任意）\n  - `title`: リンクのタイトル\n  - `description`: 説明文\n  - `url`: リンク先URL\n  - `label`: ボタンのラベル\n  - `position`: 表示位置（セクション番号）"
+      },
+      {
+        "section": "記事の本文",
+        "text": "- 見出しは `##` で記述（`#` は使用しない）\n- 各見出しがセクションとして扱われます\n- Markdownの標準的な記法が使用できます"
+      },
+      {
+        "section": "ビルドプロセス",
+        "text": "1. `npm run dev` または `npm run build` を実行すると、自動的に `scripts/generate-blog-data.mjs` が実行されます\n2. このスクリプトがすべての `.md` ファイルを読み取り、`src/lib/blog-posts-data.json` を生成します\n3. アプリケーションはこのJSONファイルを読み込んで記事を表示します"
+      },
+      {
+        "section": "注意事項",
+        "text": "- 記事を追加・編集した後は、開発サーバーを再起動するか、ビルドを実行してください\n- ファイル名に使用できるのは英数字、ハイフン、アンダースコアのみです\n- 日本語のファイル名は避けてください"
+      }
+    ]
+  },
+  {
     "slug": "ai-interview-storytelling",
     "title": "面接で「AIとの共生」をどう語るか？市場価値を2倍にするストーリー構成案",
     "lead": "「AIを使って効率化できます」——この回答は、ハイクラスの面接では「不採用」への最短距離だ。なぜなら、そんなことはAIそのものが既に証明しているからだ。 面接官が知りたいのは、AIという巨大な潮流の中で、あなたが「人間として」どう舵を取り、どのような未来を構想しているかという、あなただけのドキュメンタリーである。ストーリーテリングの技術を用い、あなたの市場価値を瞬時に2倍に引き上げる「AI共生型キャリア」の語り方を提示する。",
