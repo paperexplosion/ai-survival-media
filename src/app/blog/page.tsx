@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { ArrowLeft, Calendar, Clock, ArrowRight } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { getAllBlogPosts } from "@/lib/blog-posts";
+import { convertGoogleDriveUrl } from "@/lib/google-drive-utils";
+import Image from "next/image";
 
 export default function BlogPage() {
     const router = useRouter();
@@ -57,6 +59,17 @@ export default function BlogPage() {
                             className="glass rounded-3xl p-8 neon-border hover:bg-white/5 transition-all cursor-pointer group"
                         >
                             <div className="flex flex-col md:flex-row md:items-start gap-6">
+                                {post.image && (
+                                    <div className="w-full md:w-64 h-48 relative rounded-xl overflow-hidden flex-shrink-0">
+                                        <Image
+                                            src={convertGoogleDriveUrl(post.image)}
+                                            alt={post.title}
+                                            fill
+                                            className="object-cover group-hover:scale-105 transition-transform duration-300"
+                                            unoptimized
+                                        />
+                                    </div>
+                                )}
                                 <div className="flex-1">
                                     <div className="flex items-center gap-4 mb-3">
                                         <span className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold">

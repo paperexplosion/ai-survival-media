@@ -74,13 +74,17 @@ function getAllMarkdownFiles() {
         const { data, content } = matter(fileContent);
 
         const slug = filename.replace('.md', '');
+        const wordCount = content.split(/\s+/).length;
+        const readTime = Math.ceil(wordCount / 400);
 
         posts.push({
             slug,
             title: data.title || '',
             lead: data.lead || '',
             date: data.date || '',
+            readTime: `${readTime}分`,
             category: data.category || '',
+            image: data.image || undefined,
             content: parseMarkdownContent(content),
             affiliates: data.affiliates || undefined
         });

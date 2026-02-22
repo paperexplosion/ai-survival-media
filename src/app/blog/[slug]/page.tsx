@@ -7,6 +7,8 @@ import { getBlogPost, getAllBlogPosts } from "@/lib/blog-posts";
 import { Suspense } from "react";
 import { AffiliateCard } from "@/components/affiliate-card";
 import { parseMarkdownToHtml } from "@/lib/markdown-parser";
+import { convertGoogleDriveUrl } from "@/lib/google-drive-utils";
+import Image from "next/image";
 
 function BlogPostContent() {
     const params = useParams();
@@ -63,6 +65,17 @@ function BlogPostContent() {
                         <h1 className="blog-heading text-3xl md:text-5xl font-black mb-6 bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent leading-tight">
                             {post.title}
                         </h1>
+                        {post.image && (
+                            <div className="w-full h-64 md:h-96 relative rounded-xl overflow-hidden mb-6">
+                                <Image
+                                    src={convertGoogleDriveUrl(post.image)}
+                                    alt={post.title}
+                                    fill
+                                    className="object-cover"
+                                    unoptimized
+                                />
+                            </div>
+                        )}
                         <div className="flex items-center gap-6 text-sm text-muted-foreground mb-8">
                             <span className="flex items-center gap-2">
                                 <Calendar className="w-4 h-4" />
