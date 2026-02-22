@@ -16,9 +16,11 @@ function parseDateString(dateStr: string): string {
 export function parseMarkdownToHtml(text: string): string {
   let html = text;
 
-  html = html.replace(/###\s*【事実:\s*(.+?)（(.+?)／(.+?)）】/g, (match, japaneseTitle, englishTitle, date) => {
+  html = html.replace(/###\s*\[【事実:\s*(.+?)（(.+?)／(.+?)）】\]\(([^)]+)\)/g, (match, japaneseTitle, englishTitle, date, url) => {
     return `<div class="mb-6 mt-8">
-      <h3 class="text-2xl font-bold text-neon-cyan mb-2">${japaneseTitle.trim()}</h3>
+      <h3 class="text-2xl font-bold mb-2">
+        <a href="${url.trim()}" target="_blank" rel="noopener noreferrer" class="text-neon-cyan hover:text-neon-blue transition-colors">${japaneseTitle.trim()}</a>
+      </h3>
       <div class="text-sm text-muted-foreground">${englishTitle.trim()} / ${date.trim()}</div>
     </div>`;
   });
