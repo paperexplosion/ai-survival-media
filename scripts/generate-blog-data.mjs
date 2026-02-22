@@ -66,7 +66,6 @@ function getAllMarkdownFiles() {
             title: data.title || '',
             lead: data.lead || '',
             date: data.date || '',
-            readTime: data.readTime || '',
             category: data.category || '',
             content: parseMarkdownContent(content),
             affiliates: data.affiliates || undefined
