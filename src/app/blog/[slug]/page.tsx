@@ -6,6 +6,7 @@ import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import { getBlogPost, getAllBlogPosts } from "@/lib/blog-posts";
 import { Suspense } from "react";
 import { AffiliateCard } from "@/components/affiliate-card";
+import { parseMarkdownToHtml } from "@/lib/markdown-parser";
 
 function BlogPostContent() {
     const params = useParams();
@@ -97,11 +98,12 @@ function BlogPostContent() {
                                 '主観的な選択', 'GAFA', 'AIスタートアップ', 'レガシーの維持管理',
                                 '歴史の傍観者', 'プロット', '修繕係', '脱獄', '一本足打法'
                             ];
-                            let formattedText = section.text;
+
+                            let parsedHtml = parseMarkdownToHtml(section.text);
 
                             keywords.forEach(keyword => {
                                 const regex = new RegExp(`(${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'g');
-                                formattedText = formattedText.replace(regex, '<mark class="bg-gradient-to-r from-neon-cyan/20 to-neon-purple/20 text-neon-cyan px-1 rounded">$1</mark>');
+                                parsedHtml = parsedHtml.replace(regex, '<mark class="bg-gradient-to-r from-neon-cyan/20 to-neon-purple/20 text-neon-cyan px-1 rounded">$1</mark>');
                             });
 
                             return (
@@ -112,11 +114,13 @@ function BlogPostContent() {
                                     transition={{ delay: 0.3 + index * 0.1 }}
                                     className="mb-8"
                                 >
-                                    <h2 className="blog-heading text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
-                                        <span className="w-2 h-2 rounded-full bg-neon-cyan"></span>
-                                        {section.section}
-                                    </h2>
-                                    <div className="blog-body text-muted-foreground leading-relaxed whitespace-pre-line" dangerouslySetInnerHTML={{ __html: formattedText }} />
+                                    {section.section && (
+                                        <h2 className="blog-heading text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
+                                            <span className="w-2 h-2 rounded-full bg-neon-cyan"></span>
+                                            {section.section}
+                                        </h2>
+                                    )}
+                                    <div className="blog-body text-muted-foreground leading-relaxed" dangerouslySetInnerHTML={{ __html: parsedHtml }} />
 
                                     {post.affiliates?.filter(aff => aff.position === index + 1).map((affiliate, affIndex) => (
                                         <AffiliateCard
