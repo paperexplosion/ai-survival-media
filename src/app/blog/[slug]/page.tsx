@@ -102,8 +102,15 @@ function BlogPostContent() {
                             let parsedHtml = parseMarkdownToHtml(section.text);
 
                             keywords.forEach(keyword => {
-                                const regex = new RegExp(`(${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'g');
-                                parsedHtml = parsedHtml.replace(regex, '<mark class="bg-gradient-to-r from-neon-cyan/20 to-neon-purple/20 text-neon-cyan px-1 rounded">$1</mark>');
+                                const escapedKeyword = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                                const regex = new RegExp(`(?<![>])\\b(${escapedKeyword})\\b(?![^<]*>)`, 'g');
+                                parsedHtml = parsedHtml.replace(regex, (match, p1, offset, string) => {
+                                    const before = string.slice(Math.max(0, offset - 50), offset);
+                                    if (before.lastIndexOf('<') > before.lastIndexOf('>')) {
+                                        return match;
+                                    }
+                                    return `<mark class="bg-gradient-to-r from-neon-cyan/20 to-neon-purple/20 text-neon-cyan px-1 rounded">${p1}</mark>`;
+                                });
                             });
 
                             return (
