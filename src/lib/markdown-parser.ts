@@ -16,12 +16,17 @@ function parseDateString(dateStr: string): string {
 export function parseMarkdownToHtml(text: string): string {
   let html = text;
 
+  const articleMetadata = new Map<string, { englishTitle: string; url: string }>();
+
   html = html.replace(/###\s*\[【事実:\s*(.+?)（(.+?)／(.+?)）】\]\(([^)]+)\)/g, (match, japaneseTitle, englishTitle, date, url) => {
-    return `<div class="mb-6 mt-8">
-      <h3 class="text-2xl font-bold mb-2">
-        <a href="${url.trim()}" target="_blank" rel="noopener noreferrer" class="text-neon-cyan hover:text-neon-blue transition-colors">${japaneseTitle.trim()}</a>
-      </h3>
-      <div class="text-sm text-muted-foreground">${englishTitle.trim()} / ${date.trim()}</div>
+    const key = japaneseTitle.trim();
+    articleMetadata.set(key, {
+      englishTitle: englishTitle.trim(),
+      url: url.trim()
+    });
+
+    return `<div class="mb-6 mt-8" data-article-title="${key}">
+      <h3 class="text-2xl font-bold mb-2">【事実: ${japaneseTitle.trim()}（${date.trim()}）】</h3>
     </div>`;
   });
 
@@ -33,7 +38,27 @@ export function parseMarkdownToHtml(text: string): string {
   html = html.replace(/-\s*\*\*事実概要\*\*:\s*(.+)/g, '<div class="mb-3"><strong>事実概要:</strong> $1</div>');
   html = html.replace(/-\s*\*\*編集長の眼:\*\*\s*(.+)/g, '<div class="mb-3"><strong>編集長の眼:</strong> $1</div>');
 
-  html = html.replace(/※末尾に\s*\[引用元[：:]\s*([^\]]+)\]\(([^)]+)\)/g, '<div class="mt-4"><a href="$2" target="_blank" rel="noopener noreferrer" class="text-neon-cyan hover:text-neon-blue underline transition-colors font-bold">引用元: $1</a></div>');
+  html = html.replace(/※末尾に\s*\[引用元[：:]\s*([^\]]+)\]\(([^)]+)\)/g, (match, mediaName, url) => {
+    let replacementHtml = `<div class="mt-4 text-sm text-muted-foreground">`;
+
+    let matched = false;
+    const entries = Array.from(articleMetadata.entries());
+    for (const [key, metadata] of entries) {
+      const articleSection = html.split(`data-article-title="${key}"`)[1];
+      if (articleSection && articleSection.indexOf(match) !== -1) {
+        replacementHtml += `<a href="${metadata.url}" target="_blank" rel="noopener noreferrer" class="text-neon-cyan hover:text-neon-blue underline transition-colors font-bold">引用元: ${metadata.englishTitle}</a>`;
+        matched = true;
+        break;
+      }
+    }
+
+    if (!matched) {
+      replacementHtml += `<a href="${url}" target="_blank" rel="noopener noreferrer" class="text-neon-cyan hover:text-neon-blue underline transition-colors font-bold">引用元: ${mediaName}</a>`;
+    }
+
+    replacementHtml += `</div>`;
+    return replacementHtml;
+  });
 
   html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-neon-cyan hover:text-neon-blue underline transition-colors">$1</a>');
 
