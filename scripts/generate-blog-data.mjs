@@ -28,7 +28,16 @@ function parseMarkdownContent(markdownContent) {
             }
             currentSection = line.replace('## ', '').trim();
             currentText = [];
-        } else if (currentSection) {
+        } else if (line.startsWith('### ')) {
+            if (currentSection) {
+                sections.push({
+                    section: currentSection,
+                    text: currentText.join('\n').trim()
+                });
+            }
+            currentSection = line.replace('### ', '').trim();
+            currentText = [];
+        } else {
             currentText.push(line);
         }
     }
@@ -36,6 +45,11 @@ function parseMarkdownContent(markdownContent) {
     if (currentSection) {
         sections.push({
             section: currentSection,
+            text: currentText.join('\n').trim()
+        });
+    } else if (currentText.length > 0) {
+        sections.push({
+            section: '',
             text: currentText.join('\n').trim()
         });
     }
