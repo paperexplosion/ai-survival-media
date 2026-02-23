@@ -8,7 +8,6 @@ import { Suspense } from "react";
 import { AffiliateCard } from "@/components/affiliate-card";
 import { parseMarkdownToHtml } from "@/lib/markdown-parser";
 import { convertGoogleDriveUrl } from "@/lib/google-drive-utils";
-import Image from "next/image";
 
 function BlogPostContent() {
     const params = useParams();
@@ -66,12 +65,11 @@ function BlogPostContent() {
                             {post.title}
                         </h1>
                         {post.image && (
-                            <div className="w-full h-64 md:h-96 relative rounded-xl overflow-hidden mb-6">
-                                <Image
+                            <div className="w-full h-64 md:h-96 rounded-xl overflow-hidden mb-6">
+                                <img
                                     src={convertGoogleDriveUrl(post.image)}
                                     alt={post.title}
-                                    fill
-                                    className="object-cover"
+                                    className="object-cover w-full h-full"
                                 />
                             </div>
                         )}

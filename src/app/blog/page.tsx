@@ -5,7 +5,6 @@ import { ArrowLeft, Calendar, Clock, ArrowRight } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { getAllBlogPosts } from "@/lib/blog-posts";
 import { convertGoogleDriveUrl } from "@/lib/google-drive-utils";
-import Image from "next/image";
 
 export default function BlogPage() {
     const router = useRouter();
@@ -60,12 +59,11 @@ export default function BlogPage() {
                         >
                             <div className="flex flex-col md:flex-row md:items-start gap-6">
                                 {post.image && (
-                                    <div className="w-full md:w-64 h-48 relative rounded-xl overflow-hidden flex-shrink-0">
-                                        <Image
+                                    <div className="w-full md:w-64 h-48 rounded-xl overflow-hidden flex-shrink-0">
+                                        <img
                                             src={convertGoogleDriveUrl(post.image)}
                                             alt={post.title}
-                                            fill
-                                            className="object-cover group-hover:scale-105 transition-transform duration-300"
+                                            className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
                                         />
                                     </div>
                                 )}
