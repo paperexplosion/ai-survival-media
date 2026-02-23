@@ -72,7 +72,6 @@ function BlogPostContent() {
                                     alt={post.title}
                                     fill
                                     className="object-cover"
-                                    unoptimized
                                 />
                             </div>
                         )}
