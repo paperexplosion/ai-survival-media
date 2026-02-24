@@ -22,12 +22,12 @@ export default function Home() {
           {latestPost?.image && (
             <>
               <div
-                className="absolute inset-0 -mx-6 bg-cover bg-center opacity-20 blur-sm"
+                className="absolute inset-0 -mx-6 bg-cover bg-center opacity-30 blur-md"
                 style={{
-                  backgroundImage: `url(${convertGoogleDriveUrl(latestPost.image)})`,
+                  backgroundImage: `url(${latestPost.image})`,
                 }}
               />
-              <div className="absolute inset-0 -mx-6 bg-gradient-to-b from-[#0f172a]/70 via-[#0f172a]/80 to-[#0f172a]" />
+              <div className="absolute inset-0 -mx-6 bg-gradient-to-b from-[#0f172a]/60 via-[#0f172a]/70 to-[#0f172a]" />
             </>
           )}
           <motion.div
