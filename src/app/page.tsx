@@ -183,7 +183,7 @@ export default function Home() {
                   </div>
 
                   <h3 className="text-xl md:text-2xl font-bold text-white mb-4 leading-tight group-hover:text-neon-cyan transition-colors">
-                    {post.title}
+                    {post.title.replace(/<br\s*\/?>/gi, '｜')}
                   </h3>
 
                   <p className="text-gray-400 text-sm leading-relaxed line-clamp-3 mb-6">

@@ -89,7 +89,7 @@ export default function BlogPage() {
                                     </div>
 
                                     <h2 className="text-2xl md:text-3xl font-bold mb-4 text-foreground group-hover:text-neon-cyan transition-colors">
-                                        {post.title}
+                                        {post.title.replace(/<br\s*\/?>/gi, '｜')}
                                     </h2>
 
                                     <p className="text-muted-foreground leading-relaxed mb-4 line-clamp-3">

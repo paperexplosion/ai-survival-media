@@ -62,7 +62,7 @@ function BlogPostContent() {
                             {post.category}
                         </span>
                         <h1 className="blog-heading text-3xl md:text-5xl font-black mb-6 bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent leading-tight">
-                            {post.title}
+                            {post.title.replace(/<br\s*\/?>/gi, '｜')}
                         </h1>
                         {post.image && (
                             <div className="w-full h-64 md:h-96 rounded-xl overflow-hidden mb-6">
@@ -134,7 +134,7 @@ function BlogPostContent() {
                                     {section.section && (
                                         <h2 className="blog-heading text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
                                             <span className="w-2 h-2 rounded-full bg-neon-cyan"></span>
-                                            {section.section}
+                                            {section.section.replace(/<br\s*\/?>/gi, '｜')}
                                         </h2>
                                     )}
                                     <div className="blog-body text-muted-foreground leading-relaxed" dangerouslySetInnerHTML={{ __html: parsedHtml }} />
@@ -176,7 +176,7 @@ function BlogPostContent() {
                                         {relatedPost.category}
                                     </span>
                                     <h4 className="text-lg font-bold mb-2 text-foreground group-hover:text-neon-cyan transition-colors">
-                                        {relatedPost.title}
+                                        {relatedPost.title.replace(/<br\s*\/?>/gi, '｜')}
                                     </h4>
                                     <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
                                         {relatedPost.lead}
