@@ -47,7 +47,7 @@ export default function BlogPage() {
                     </p>
                 </motion.div>
 
-                <div className="space-y-6">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {posts.map((post, index) => (
                         <motion.article
                             key={post.slug}
@@ -55,46 +55,44 @@ export default function BlogPage() {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.3 + index * 0.1 }}
                             onClick={() => router.push(`/blog/${post.slug}`)}
-                            className="glass rounded-3xl p-8 neon-border hover:bg-white/5 transition-all cursor-pointer group"
+                            className="group cursor-pointer bg-white/5 backdrop-blur-sm rounded-2xl overflow-hidden border border-white/10 hover:border-neon-cyan/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(34,211,238,0.3)]"
                         >
-                            <div className="flex flex-col md:flex-row md:items-start gap-6">
-                                {post.image && (
-                                    <div className="w-full md:w-64 h-48 rounded-xl overflow-hidden flex-shrink-0">
-                                        <img
-                                            src={convertGoogleDriveUrl(post.image)}
-                                            alt={post.title}
-                                            className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
-                                        />
-                                    </div>
-                                )}
-                                <div className="flex-1">
-                                    <div className="flex items-center gap-4 mb-3">
-                                        <span className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold">
-                                            {post.category}
-                                        </span>
-                                        <div className="flex items-center gap-4 text-sm text-muted-foreground">
-                                            <span className="flex items-center gap-1">
-                                                <Calendar className="w-4 h-4" />
-                                                {new Date(post.date).toLocaleDateString('ja-JP', {
-                                                    year: 'numeric',
-                                                    month: 'long',
-                                                    day: 'numeric'
-                                                })}
-                                            </span>
-                                        </div>
-                                    </div>
+                            {post.image && (
+                                <div className="w-full h-48 md:h-64 overflow-hidden">
+                                    <img
+                                        src={convertGoogleDriveUrl(post.image)}
+                                        alt={post.title}
+                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                                    />
+                                </div>
+                            )}
+                            <div className="p-6">
+                                <div className="flex items-center gap-3 mb-3">
+                                    <span className="px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold border border-neon-cyan/30">
+                                        {post.category}
+                                    </span>
+                                </div>
 
-                                    <h2 className="text-2xl md:text-3xl font-bold mb-4 text-foreground group-hover:text-neon-cyan transition-colors">
-                                        {post.title.replace(/<br\s*\/?>/gi, '｜')}
-                                    </h2>
+                                <h2 className="text-xl md:text-2xl font-bold mb-3 text-white leading-tight group-hover:text-neon-cyan transition-colors">
+                                    {post.title.replace(/<br\s*\/?>/gi, '｜')}
+                                </h2>
 
-                                    <p className="text-muted-foreground leading-relaxed mb-4 line-clamp-3">
-                                        {post.lead}
-                                    </p>
+                                <p className="text-gray-400 text-sm leading-relaxed line-clamp-3 mb-4">
+                                    {post.lead}
+                                </p>
 
-                                    <div className="flex items-center gap-2 text-neon-cyan font-bold group-hover:gap-4 transition-all">
+                                <div className="flex items-center justify-between">
+                                    <span className="text-xs text-gray-500 flex items-center gap-1">
+                                        <Calendar className="w-3 h-3" />
+                                        {new Date(post.date).toLocaleDateString('ja-JP', {
+                                            year: 'numeric',
+                                            month: 'long',
+                                            day: 'numeric'
+                                        })}
+                                    </span>
+                                    <div className="flex items-center gap-2 text-neon-cyan text-sm font-bold group-hover:gap-3 transition-all">
                                         <span>続きを読む</span>
-                                        <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                                        <ArrowRight className="w-4 h-4" />
                                     </div>
                                 </div>
                             </div>

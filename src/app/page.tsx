@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { getAllBlogPosts } from '@/lib/blog-posts';
+import { convertGoogleDriveUrl } from '@/lib/google-drive-utils';
 import { ArrowRight, BookOpen, Sparkles, Target } from 'lucide-react';
 
 export default function Home() {
@@ -171,6 +172,15 @@ export default function Home() {
                 onClick={() => router.push(`/blog/${post.slug}`)}
                 className="group cursor-pointer bg-white/5 backdrop-blur-sm rounded-2xl overflow-hidden border border-white/10 hover:border-neon-cyan/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(34,211,238,0.3)]"
               >
+                {post.image && (
+                  <div className="w-full h-40 overflow-hidden">
+                    <img
+                      src={convertGoogleDriveUrl(post.image)}
+                      alt={post.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                )}
                 <div className="p-6 md:p-8">
                   <div className="flex items-center gap-3 mb-4">
                     <span className="px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold border border-neon-cyan/30">
