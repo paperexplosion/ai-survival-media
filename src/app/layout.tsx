@@ -12,10 +12,11 @@ export const metadata: Metadata = {
   description: '2026年、AI革命の波が全ての職業を襲う。12の職業タイプ診断で、あなたのAI時代サバイバル戦略を明らかにします。',
   icons: {
     icon: [
+      { url: '/icon', type: 'image/png' },
       { url: '/favicon.svg', type: 'image/svg+xml' },
     ],
     apple: [
-      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+      { url: '/apple-icon', sizes: '180x180', type: 'image/png' },
     ],
   },
   openGraph: {
