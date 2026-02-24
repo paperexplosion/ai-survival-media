@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://ai-survival.org'),
   title: 'AIサバイバル・インテリジェンス | AI時代を生き抜く戦略',
   description: '2026年、AI革命の波が全ての職業を襲う。12の職業タイプ診断で、あなたのAI時代サバイバル戦略を明らかにします。',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
   openGraph: {
     title: 'AIサバイバル・インテリジェンス',
     description: 'AI時代を生き抜くための戦略的インテリジェンス',
