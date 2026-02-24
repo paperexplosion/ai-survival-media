@@ -4,7 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { getAllBlogPosts } from '@/lib/blog-posts';
-import { ArrowRight, BookOpen, Clock, Sparkles, Target } from 'lucide-react';
+import { ArrowRight, BookOpen, Sparkles, Target } from 'lucide-react';
 
 export default function Home() {
   const router = useRouter();
@@ -175,10 +175,6 @@ export default function Home() {
                   <div className="flex items-center gap-3 mb-4">
                     <span className="px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold border border-neon-cyan/30">
                       {post.category}
-                    </span>
-                    <span className="flex items-center gap-1 text-xs text-gray-400">
-                      <Clock className="w-3 h-3" />
-                      {post.readTime}
                     </span>
                   </div>
 

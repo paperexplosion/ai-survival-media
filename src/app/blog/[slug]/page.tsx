@@ -2,7 +2,7 @@
 
 import { useParams, useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import { ArrowLeft, Calendar, Clock } from "lucide-react";
+import { ArrowLeft, Calendar } from "lucide-react";
 import { getBlogPost, getAllBlogPosts } from "@/lib/blog-posts";
 import { Suspense } from "react";
 import { AffiliateCard } from "@/components/affiliate-card";
@@ -81,10 +81,6 @@ function BlogPostContent() {
                                     month: 'long',
                                     day: 'numeric'
                                 })}
-                            </span>
-                            <span className="flex items-center gap-2">
-                                <Clock className="w-4 h-4" />
-                                {post.readTime}
                             </span>
                         </div>
                     </div>

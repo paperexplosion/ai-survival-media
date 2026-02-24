@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowLeft, Calendar, Clock, ArrowRight } from "lucide-react";
+import { ArrowLeft, Calendar, ArrowRight } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { getAllBlogPosts } from "@/lib/blog-posts";
 import { convertGoogleDriveUrl } from "@/lib/google-drive-utils";
@@ -80,10 +80,6 @@ export default function BlogPage() {
                                                     month: 'long',
                                                     day: 'numeric'
                                                 })}
-                                            </span>
-                                            <span className="flex items-center gap-1">
-                                                <Clock className="w-4 h-4" />
-                                                {post.readTime}
                                             </span>
                                         </div>
                                     </div>
