@@ -11,18 +11,30 @@ export default function Home() {
   const router = useRouter();
   const allPosts = getAllBlogPosts();
   const posts = allPosts.slice(0, 9);
+  const latestPost = allPosts[0];
 
   return (
     <main className="min-h-screen relative overflow-hidden bg-[#0f172a] text-foreground font-sans selection:bg-neon-cyan/30 pt-20">
       <div className="fixed inset-0 bg-[url('/grid.svg')] bg-center opacity-5 pointer-events-none" />
 
       <div className="relative z-10">
-        <section className="container mx-auto px-6 pt-20 pb-16 md:pt-32 md:pb-24">
+        <section className="container mx-auto px-6 pt-20 pb-16 md:pt-32 md:pb-24 relative">
+          {latestPost?.image && (
+            <>
+              <div
+                className="absolute inset-0 -mx-6 bg-cover bg-center opacity-20 blur-sm"
+                style={{
+                  backgroundImage: `url(${convertGoogleDriveUrl(latestPost.image)})`,
+                }}
+              />
+              <div className="absolute inset-0 -mx-6 bg-gradient-to-b from-[#0f172a]/70 via-[#0f172a]/80 to-[#0f172a]" />
+            </>
+          )}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-5xl mx-auto text-center"
+            className="max-w-5xl mx-auto text-center relative z-10"
           >
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
