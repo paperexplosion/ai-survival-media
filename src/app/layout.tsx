@@ -101,7 +101,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-[#0f172a] text-white min-h-screen`}>
         <Navigation />
         {children}
         <Footer />

@@ -17,9 +17,9 @@ function BlogPostContent() {
 
     if (!post) {
         return (
-            <div className="min-h-screen py-12 px-6 flex items-center justify-center">
+            <div className="min-h-screen py-12 px-6 flex items-center justify-center bg-[#0f172a]">
                 <div className="text-center">
-                    <h1 className="text-2xl font-bold mb-4">記事が見つかりません</h1>
+                    <h1 className="text-2xl font-bold mb-4 text-white">記事が見つかりません</h1>
                     <button
                         onClick={() => router.push("/blog")}
                         className="px-6 py-3 bg-gradient-to-r from-neon-cyan to-neon-purple rounded-full text-white font-bold"
@@ -37,7 +37,7 @@ function BlogPostContent() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="min-h-screen py-12 px-6 relative z-10 pt-32"
+            className="min-h-screen py-12 px-6 relative z-10 pt-32 bg-[#0f172a]"
         >
             <div className="max-w-4xl mx-auto">
                 <motion.button
@@ -269,10 +269,10 @@ function BlogPostContent() {
 export default function BlogPostPage() {
     return (
         <Suspense fallback={
-            <div className="min-h-screen flex items-center justify-center">
+            <div className="min-h-screen flex items-center justify-center bg-[#0f172a]">
                 <div className="text-center">
                     <div className="w-16 h-16 border-4 border-neon-cyan border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-                    <p className="text-muted-foreground">読み込み中...</p>
+                    <p className="text-gray-300">読み込み中...</p>
                 </div>
             </div>
         }>

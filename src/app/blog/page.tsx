@@ -16,7 +16,7 @@ export default function BlogPage() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="min-h-screen py-12 px-6 relative z-10 pt-32"
+            className="min-h-screen py-12 px-6 relative z-10 pt-32 bg-[#0f172a]"
         >
             <div className="max-w-5xl mx-auto">
                 <motion.button

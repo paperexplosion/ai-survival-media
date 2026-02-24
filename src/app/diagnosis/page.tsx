@@ -44,7 +44,7 @@ export default function DiagnosisPage() {
   };
 
   return (
-    <main className="min-h-screen relative overflow-hidden bg-background text-foreground font-sans selection:bg-neon-purple/30 pt-20">
+    <main className="min-h-screen relative overflow-hidden bg-[#0f172a] text-white font-sans selection:bg-neon-purple/30 pt-20">
       <div className="fixed top-[-20%] left-[-10%] w-[50%] h-[50%] bg-neon-purple/20 blur-[120px] rounded-full pointer-events-none mix-blend-screen animate-pulse" />
       <div className="fixed bottom-[-20%] right-[-10%] w-[50%] h-[50%] bg-neon-cyan/20 blur-[120px] rounded-full pointer-events-none mix-blend-screen animate-pulse" style={{ animationDelay: '2s' }} />
 

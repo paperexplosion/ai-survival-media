@@ -26,7 +26,7 @@ const VALID_TYPES = Object.keys(CAREER_TYPES_DATA) as CareerType[];
 
 function LoadingScreen() {
     return (
-        <div className="flex items-center justify-center min-h-screen">
+        <div className="flex items-center justify-center min-h-screen bg-[#0f172a]">
             <div className="text-neon-cyan text-lg animate-pulse">読み込み中...</div>
         </div>
     );
@@ -80,7 +80,7 @@ function ResultsContent() {
 
 export default function ResultsPage() {
     return (
-        <main className="min-h-screen relative overflow-hidden bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans selection:bg-neon-purple/30">
+        <main className="min-h-screen relative overflow-hidden bg-[#0f172a] text-white font-sans selection:bg-neon-purple/30">
             <div className="fixed top-[-20%] left-[-10%] w-[50%] h-[50%] bg-neon-purple/20 blur-[120px] rounded-full pointer-events-none mix-blend-screen animate-pulse" />
             <div className="fixed bottom-[-20%] right-[-10%] w-[50%] h-[50%] bg-neon-cyan/20 blur-[120px] rounded-full pointer-events-none mix-blend-screen animate-pulse" style={{ animationDelay: "2s" }} />
             <div className="fixed inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] pointer-events-none opacity-20" />
