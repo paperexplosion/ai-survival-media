@@ -22,7 +22,7 @@ export default function Home() {
           {latestPost?.image && (
             <>
               <div
-                className="absolute inset-0 -mx-6 bg-cover bg-center opacity-70"
+                className="absolute inset-0 -mx-6 bg-cover bg-center opacity-80"
                 style={{
                   backgroundImage: `url(${latestPost.image})`,
                 }}
