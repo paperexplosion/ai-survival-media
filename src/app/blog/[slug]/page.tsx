@@ -10,6 +10,7 @@ import { parseMarkdownToHtml } from "@/lib/markdown-parser";
 import { convertGoogleDriveUrl } from "@/lib/google-drive-utils";
 import JobAgentBlock from "@/components/job-agent-block";
 import ReskillingBlock from "@/components/reskilling-block";
+import DiagnosisCTABanner from "@/components/diagnosis-cta-banner";
 
 function BlogPostContent() {
     const params = useParams();
@@ -91,6 +92,8 @@ function BlogPostContent() {
                         <div className="blog-body text-lg text-muted-foreground leading-relaxed mb-8 p-6 rounded-xl bg-white/5 border border-white/10">
                             {post.lead}
                         </div>
+
+                        <DiagnosisCTABanner />
 
                         {post.content.map((section, index) => {
                             const keywords = [
