@@ -6,28 +6,23 @@ export default function DiagnosisCTABanner() {
   const router = useRouter();
 
   return (
-    <div className="my-12 bg-[#080808] border-l-4 border-[#cc0000] p-8 rounded-r-xl relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-[#cc0000]/5 to-transparent" />
-
-      <div className="relative">
-        <h3 className="text-2xl md:text-3xl font-bold mb-3 text-white">
-          あなたのAI時代サバイバル確率は？
-        </h3>
-        <p className="text-gray-300 mb-6 leading-relaxed">
-          12の職業タイプ診断で、あなたの現在地と生存戦略を明らかにします。わずか3分で、AI時代を生き抜くための具体的なロードマップを手に入れましょう。
-        </p>
-
-        <div className="flex flex-col items-start gap-2">
-          <button
-            onClick={() => router.push('/diagnosis')}
-            className="bg-[#cc0000] hover:bg-[#aa0000] text-white font-bold py-4 px-8 rounded-lg transition-all duration-200 hover:shadow-[0_0_20px_rgba(204,0,0,0.5)]"
-          >
-            あなたの未来を診断する
-          </button>
+    <div className="my-8 p-5 rounded-xl bg-gradient-to-br from-amber-500/5 via-orange-500/5 to-amber-500/5 border border-amber-500/20">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="flex-1">
+          <p className="text-sm text-gray-400 mb-1">
+            あなたのAI時代適応度は？
+          </p>
           <p className="text-xs text-gray-500">
-            無料・3分で完了
+            3分で診断・具体的なロードマップを提示
           </p>
         </div>
+
+        <button
+          onClick={() => router.push('/diagnosis')}
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 text-white font-bold text-sm hover:shadow-lg hover:shadow-amber-500/30 transition-all whitespace-nowrap"
+        >
+          無料診断を受ける
+        </button>
       </div>
     </div>
   );
