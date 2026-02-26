@@ -5,6 +5,7 @@ import { ArrowLeft, Calendar, ArrowRight } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { getAllBlogPosts } from "@/lib/blog-posts";
 import { convertGoogleDriveUrl } from "@/lib/google-drive-utils";
+import DiagnosisCTABanner from "@/components/diagnosis-cta-banner";
 
 export default function BlogPage() {
     const router = useRouter();
@@ -49,54 +50,68 @@ export default function BlogPage() {
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {posts.map((post, index) => (
-                        <motion.article
-                            key={post.slug}
-                            initial={{ opacity: 0, y: 30 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.3 + index * 0.1 }}
-                            onClick={() => router.push(`/blog/${post.slug}`)}
-                            className="group cursor-pointer bg-white/5 backdrop-blur-sm rounded-2xl overflow-hidden border border-white/10 hover:border-neon-cyan/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(34,211,238,0.3)]"
-                        >
-                            {post.image && (
-                                <div className="w-full h-48 md:h-64 overflow-hidden">
-                                    <img
-                                        src={convertGoogleDriveUrl(post.image)}
-                                        alt={post.title}
-                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                                    />
-                                </div>
-                            )}
-                            <div className="p-6">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <span className="px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold border border-neon-cyan/30">
-                                        {post.category}
-                                    </span>
-                                </div>
+                        <>
+                            <motion.article
+                                key={post.slug}
+                                initial={{ opacity: 0, y: 30 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.3 + index * 0.1 }}
+                                onClick={() => router.push(`/blog/${post.slug}`)}
+                                className="group cursor-pointer bg-white/5 backdrop-blur-sm rounded-2xl overflow-hidden border border-white/10 hover:border-neon-cyan/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(34,211,238,0.3)]"
+                            >
+                                {post.image && (
+                                    <div className="w-full h-48 md:h-64 overflow-hidden">
+                                        <img
+                                            src={convertGoogleDriveUrl(post.image)}
+                                            alt={post.title}
+                                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                                        />
+                                    </div>
+                                )}
+                                <div className="p-6">
+                                    <div className="flex items-center gap-3 mb-3">
+                                        <span className="px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold border border-neon-cyan/30">
+                                            {post.category}
+                                        </span>
+                                    </div>
 
-                                <h2 className="text-xl md:text-2xl font-bold mb-3 text-white leading-tight group-hover:text-neon-cyan transition-colors">
-                                    {post.title.replace(/<br\s*\/?>/gi, '｜')}
-                                </h2>
+                                    <h2 className="text-xl md:text-2xl font-bold mb-3 text-white leading-tight group-hover:text-neon-cyan transition-colors">
+                                        {post.title.replace(/<br\s*\/?>/gi, '｜')}
+                                    </h2>
 
-                                <p className="text-gray-400 text-sm leading-relaxed line-clamp-3 mb-4">
-                                    {post.lead}
-                                </p>
+                                    <p className="text-gray-400 text-sm leading-relaxed line-clamp-3 mb-4">
+                                        {post.lead}
+                                    </p>
 
-                                <div className="flex items-center justify-between">
-                                    <span className="text-xs text-gray-500 flex items-center gap-1">
-                                        <Calendar className="w-3 h-3" />
-                                        {new Date(post.date).toLocaleDateString('ja-JP', {
-                                            year: 'numeric',
-                                            month: 'long',
-                                            day: 'numeric'
-                                        })}
-                                    </span>
-                                    <div className="flex items-center gap-2 text-neon-cyan text-sm font-bold group-hover:gap-3 transition-all">
-                                        <span>続きを読む</span>
-                                        <ArrowRight className="w-4 h-4" />
+                                    <div className="flex items-center justify-between">
+                                        <span className="text-xs text-gray-500 flex items-center gap-1">
+                                            <Calendar className="w-3 h-3" />
+                                            {new Date(post.date).toLocaleDateString('ja-JP', {
+                                                year: 'numeric',
+                                                month: 'long',
+                                                day: 'numeric'
+                                            })}
+                                        </span>
+                                        <div className="flex items-center gap-2 text-neon-cyan text-sm font-bold group-hover:gap-3 transition-all">
+                                            <span>続きを読む</span>
+                                            <ArrowRight className="w-4 h-4" />
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </motion.article>
+                            </motion.article>
+
+                            {index === 3 && (
+                                <motion.div
+                                    key="cta-banner"
+                                    initial={{ opacity: 0, y: 30 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: 0.3 + (index + 1) * 0.1 }}
+                                    className="md:col-span-2 lg:col-span-3"
+                                >
+                                    <DiagnosisCTABanner />
+                                </motion.div>
+                            )}
+                        </>
                     ))}
                 </div>
 
