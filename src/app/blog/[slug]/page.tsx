@@ -8,6 +8,8 @@ import { Suspense } from "react";
 import { AffiliateCard } from "@/components/affiliate-card";
 import { parseMarkdownToHtml } from "@/lib/markdown-parser";
 import { convertGoogleDriveUrl } from "@/lib/google-drive-utils";
+import JobAgentBlock from "@/components/job-agent-block";
+import ReskillingBlock from "@/components/reskilling-block";
 
 function BlogPostContent() {
     const params = useParams();
@@ -149,6 +151,9 @@ function BlogPostContent() {
                         })}
                     </div>
                 </motion.article>
+
+                <JobAgentBlock />
+                <ReskillingBlock />
 
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
