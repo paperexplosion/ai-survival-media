@@ -125,31 +125,44 @@ function BlogPostContent() {
                             });
 
                             return (
-                                <motion.div
-                                    key={index}
-                                    initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                    transition={{ delay: 0.3 + index * 0.1 }}
-                                    className="mb-8"
-                                >
-                                    {section.section && (
-                                        <h2 className="blog-heading text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
-                                            <span className="w-2 h-2 rounded-full bg-neon-cyan"></span>
-                                            {section.section.replace(/<br\s*\/?>/gi, '｜')}
-                                        </h2>
-                                    )}
-                                    <div className="blog-body text-muted-foreground leading-relaxed" dangerouslySetInnerHTML={{ __html: parsedHtml }} />
+                                <>
+                                    <motion.div
+                                        key={index}
+                                        initial={{ opacity: 0, y: 20 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: 0.3 + index * 0.1 }}
+                                        className="mb-8"
+                                    >
+                                        {section.section && (
+                                            <h2 className="blog-heading text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
+                                                <span className="w-2 h-2 rounded-full bg-neon-cyan"></span>
+                                                {section.section.replace(/<br\s*\/?>/gi, '｜')}
+                                            </h2>
+                                        )}
+                                        <div className="blog-body text-muted-foreground leading-relaxed" dangerouslySetInnerHTML={{ __html: parsedHtml }} />
 
-                                    {post.affiliates?.filter(aff => aff.position === index + 1).map((affiliate, affIndex) => (
-                                        <AffiliateCard
-                                            key={affIndex}
-                                            title={affiliate.title}
-                                            description={affiliate.description}
-                                            url={affiliate.url}
-                                            label={affiliate.label}
-                                        />
-                                    ))}
-                                </motion.div>
+                                        {post.affiliates?.filter(aff => aff.position === index + 1).map((affiliate, affIndex) => (
+                                            <AffiliateCard
+                                                key={affIndex}
+                                                title={affiliate.title}
+                                                description={affiliate.description}
+                                                url={affiliate.url}
+                                                label={affiliate.label}
+                                            />
+                                        ))}
+                                    </motion.div>
+
+                                    {index === 3 && (
+                                        <motion.div
+                                            key={`cta-${index}`}
+                                            initial={{ opacity: 0, y: 20 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            transition={{ delay: 0.3 + (index + 1) * 0.1 }}
+                                        >
+                                            <DiagnosisCTABanner />
+                                        </motion.div>
+                                    )}
+                                </>
                             );
                         })}
                     </div>
