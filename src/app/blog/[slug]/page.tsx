@@ -192,47 +192,51 @@ function BlogPostContent() {
                         {getAllBlogPosts()
                             .filter(p => p.slug !== post.slug)
                             .slice(0, 8)
-                            .map((relatedPost, idx) => {
+                            .flatMap((relatedPost, idx) => {
                                 const shouldShowAffiliate = (idx === 1 || idx === 5);
                                 const shouldShowDiagnosis = idx === 3 || idx === 7;
                                 const affiliateIndex = idx === 1 ? 0 : 1;
 
-                                return (
-                                    <>
-                                        <motion.div
-                                            key={relatedPost.slug}
-                                            onClick={() => router.push(`/blog/${relatedPost.slug}`)}
-                                            className="glass rounded-2xl p-6 neon-border hover:bg-white/5 transition-all cursor-pointer group"
-                                            whileHover={{ scale: 1.02 }}
-                                        >
-                                            <span className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold mb-3">
-                                                {relatedPost.category}
-                                            </span>
-                                            <h4 className="text-lg font-bold mb-2 text-foreground group-hover:text-neon-cyan transition-colors">
-                                                {relatedPost.title.replace(/<br\s*\/?>/gi, '｜')}
-                                            </h4>
-                                            <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
-                                                {relatedPost.lead}
-                                            </p>
-                                            <div className="flex items-center gap-2 text-neon-cyan text-sm font-bold">
-                                                <span>続きを読む</span>
-                                                <ArrowLeft className="w-4 h-4 rotate-180 group-hover:translate-x-1 transition-transform" />
-                                            </div>
-                                        </motion.div>
+                                const elements = [
+                                    <motion.div
+                                        key={relatedPost.slug}
+                                        onClick={() => router.push(`/blog/${relatedPost.slug}`)}
+                                        className="glass rounded-2xl p-6 neon-border hover:bg-white/5 transition-all cursor-pointer group"
+                                        whileHover={{ scale: 1.02 }}
+                                    >
+                                        <span className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold mb-3">
+                                            {relatedPost.category}
+                                        </span>
+                                        <h4 className="text-lg font-bold mb-2 text-foreground group-hover:text-neon-cyan transition-colors">
+                                            {relatedPost.title.replace(/<br\s*\/?>/gi, '｜')}
+                                        </h4>
+                                        <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
+                                            {relatedPost.lead}
+                                        </p>
+                                        <div className="flex items-center gap-2 text-neon-cyan text-sm font-bold">
+                                            <span>続きを読む</span>
+                                            <ArrowLeft className="w-4 h-4 rotate-180 group-hover:translate-x-1 transition-transform" />
+                                        </div>
+                                    </motion.div>
+                                ];
 
-                                        {shouldShowAffiliate && randomAffiliates.length > 0 && (
-                                            <div key={`affiliate-${idx}`} className="md:col-span-2">
-                                                <AffiliateInlineBanner service={randomAffiliates[affiliateIndex]} />
-                                            </div>
-                                        )}
+                                if (shouldShowAffiliate && randomAffiliates.length > 0 && randomAffiliates[affiliateIndex]) {
+                                    elements.push(
+                                        <div key={`affiliate-${idx}`} className="md:col-span-2">
+                                            <AffiliateInlineBanner service={randomAffiliates[affiliateIndex]} />
+                                        </div>
+                                    );
+                                }
 
-                                        {shouldShowDiagnosis && (
-                                            <div key={`diagnosis-${idx}`} className="md:col-span-2">
-                                                <DiagnosisCTABanner />
-                                            </div>
-                                        )}
-                                    </>
-                                );
+                                if (shouldShowDiagnosis) {
+                                    elements.push(
+                                        <div key={`diagnosis-${idx}`} className="md:col-span-2">
+                                            <DiagnosisCTABanner />
+                                        </div>
+                                    );
+                                }
+
+                                return elements;
                             })}
                     </div>
                 </motion.div>
