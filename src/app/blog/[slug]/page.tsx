@@ -25,7 +25,10 @@ function BlogPostContent() {
 
     useEffect(() => {
         const allServices = [...jobAgentServices, ...reskillingServices];
-        setRandomAffiliates(getRandomServices(allServices, 2));
+        const selected = getRandomServices(allServices, 2);
+        console.log('🔍 Debug - All services count:', allServices.length);
+        console.log('🔍 Debug - Selected affiliates:', selected);
+        setRandomAffiliates(selected);
     }, [slug]);
 
     if (!post) {
@@ -221,11 +224,18 @@ function BlogPostContent() {
                                 ];
 
                                 if (shouldShowAffiliate && randomAffiliates.length > 0 && randomAffiliates[affiliateIndex]) {
+                                    console.log(`✅ Showing affiliate at idx=${idx}, affiliateIndex=${affiliateIndex}`, randomAffiliates[affiliateIndex]);
                                     elements.push(
                                         <div key={`affiliate-${idx}`} className="md:col-span-2">
                                             <AffiliateInlineBanner service={randomAffiliates[affiliateIndex]} />
                                         </div>
                                     );
+                                } else {
+                                    console.log(`❌ NOT showing affiliate at idx=${idx}:`, {
+                                        shouldShowAffiliate,
+                                        randomAffiliatesLength: randomAffiliates.length,
+                                        hasService: !!randomAffiliates[affiliateIndex]
+                                    });
                                 }
 
                                 if (shouldShowDiagnosis) {
