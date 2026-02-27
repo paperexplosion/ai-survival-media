@@ -86,7 +86,7 @@ function BlogPostContent() {
                                 />
                             </div>
                         )}
-                        <div className="flex items-center gap-6 text-sm text-muted-foreground mb-8">
+                        <div className="flex items-center gap-6 text-sm text-white mb-8">
                             <span className="flex items-center gap-2">
                                 <Calendar className="w-4 h-4" />
                                 {new Date(post.date).toLocaleDateString('ja-JP', {
@@ -242,7 +242,7 @@ function BlogPostContent() {
                                     <h4 className="text-lg font-bold mb-2 text-foreground group-hover:text-neon-cyan transition-colors">
                                         {relatedPost.title.replace(/<br\s*\/?>/gi, '｜')}
                                     </h4>
-                                    <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
+                                    <p className="text-sm text-white line-clamp-2 mb-3">
                                         {relatedPost.lead}
                                     </p>
                                     <div className="flex items-center gap-2 text-neon-cyan text-sm font-bold">
@@ -277,7 +277,7 @@ function BlogPostContent() {
                             <h3 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">
                                 あなたのAI時代サバイバル確率は？
                             </h3>
-                            <p className="text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+                            <p className="text-white mb-8 max-w-2xl mx-auto leading-relaxed">
                                 12の職業タイプ診断で、あなたの現在地と生存戦略を明らかにします。
                                 わずか3分で、AI時代を生き抜くための具体的なロードマップを手に入れましょう。
                             </p>
@@ -309,7 +309,7 @@ function BlogPostContent() {
                                 <span className="relative">あなたの未来を診断する</span>
                             </motion.button>
 
-                            <p className="text-xs text-muted-foreground mt-4">
+                            <p className="text-xs text-white mt-4">
                                 無料・3分で完了
                             </p>
                         </div>

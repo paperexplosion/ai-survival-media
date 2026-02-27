@@ -21,7 +21,7 @@ export default function ReskillingBlock() {
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-3 leading-tight bg-gradient-to-r from-neon-purple via-neon-blue to-neon-cyan bg-clip-text text-transparent">
                 AIスキルで武装せよ。
               </h2>
-              <p className="text-xl text-muted-foreground mb-6">
+              <p className="text-xl text-white mb-6">
                 AIを学び、使う側に回れ。
               </p>
             </div>
