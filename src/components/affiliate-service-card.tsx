@@ -56,7 +56,7 @@ export default function AffiliateServiceCard({ service }: AffiliateServiceCardPr
           </span>
         </div>
 
-        <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+        <p className="text-sm text-white mb-4 leading-relaxed">
           {service.desc}
         </p>
 

@@ -9,10 +9,10 @@ export default function DiagnosisCTABanner() {
     <div className="my-8 p-5 rounded-xl bg-gradient-to-br from-amber-500/5 via-orange-500/5 to-amber-500/5 border border-amber-500/20">
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div className="flex-1">
-          <p className="text-sm text-gray-400 mb-1">
+          <p className="text-sm text-white mb-1">
             あなたのAI時代適応度は？
           </p>
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-white">
             3分で診断・具体的なロードマップを提示
           </p>
         </div>

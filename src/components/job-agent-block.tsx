@@ -21,7 +21,7 @@ export default function JobAgentBlock() {
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-3 leading-tight bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent">
                 逃げ道を確保せよ。
               </h2>
-              <p className="text-xl text-muted-foreground mb-6">
+              <p className="text-xl text-white mb-6">
                 転職エージェントは、無料で使えるプロ相談だ。
               </p>
             </div>

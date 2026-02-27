@@ -151,7 +151,7 @@ function BlogPostContent() {
                                             {section.section.replace(/<br\s*\/?>/gi, '｜')}
                                         </h2>
                                     )}
-                                    <div className="blog-body text-muted-foreground leading-relaxed" dangerouslySetInnerHTML={{ __html: parsedHtml }} />
+                                    <div className="blog-body text-white leading-relaxed" dangerouslySetInnerHTML={{ __html: parsedHtml }} />
 
                                     {post.affiliates?.filter(aff => aff.position === index + 1).map((affiliate, affIndex) => (
                                         <AffiliateCard

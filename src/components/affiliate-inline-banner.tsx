@@ -19,10 +19,10 @@ export function AffiliateInlineBanner({ service }: AffiliateInlineBannerProps) {
 
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div className="flex-1">
-          <p className="text-sm text-gray-300 mb-1 font-medium">
+          <p className="text-sm text-white mb-1 font-medium">
             {service.name}
           </p>
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-white">
             {service.desc}
           </p>
         </div>
