@@ -4,19 +4,29 @@ import { useParams, useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { ArrowLeft, Calendar } from "lucide-react";
 import { getBlogPost, getAllBlogPosts } from "@/lib/blog-posts";
-import { Suspense } from "react";
+import { Suspense, useState, useEffect } from "react";
 import { AffiliateCard } from "@/components/affiliate-card";
+import { AffiliateInlineBanner } from "@/components/affiliate-inline-banner";
 import { parseMarkdownToHtml } from "@/lib/markdown-parser";
 import { convertGoogleDriveUrl } from "@/lib/google-drive-utils";
 import JobAgentBlock from "@/components/job-agent-block";
 import ReskillingBlock from "@/components/reskilling-block";
 import DiagnosisCTABanner from "@/components/diagnosis-cta-banner";
+import { jobAgentServices, reskillingServices, getRandomServices } from "@/lib/affiliate-data";
+import type { AffiliateService } from "@/lib/affiliate-data";
 
 function BlogPostContent() {
     const params = useParams();
     const router = useRouter();
     const slug = params.slug as string;
     const post = getBlogPost(slug);
+
+    const [randomAffiliates, setRandomAffiliates] = useState<AffiliateService[]>([]);
+
+    useEffect(() => {
+        const allServices = [...jobAgentServices, ...reskillingServices];
+        setRandomAffiliates(getRandomServices(allServices, 4));
+    }, []);
 
     if (!post) {
         return (
@@ -181,29 +191,48 @@ function BlogPostContent() {
                     <div className="grid md:grid-cols-2 gap-6">
                         {getAllBlogPosts()
                             .filter(p => p.slug !== post.slug)
-                            .slice(0, 2)
-                            .map((relatedPost) => (
-                                <motion.div
-                                    key={relatedPost.slug}
-                                    onClick={() => router.push(`/blog/${relatedPost.slug}`)}
-                                    className="glass rounded-2xl p-6 neon-border hover:bg-white/5 transition-all cursor-pointer group"
-                                    whileHover={{ scale: 1.02 }}
-                                >
-                                    <span className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold mb-3">
-                                        {relatedPost.category}
-                                    </span>
-                                    <h4 className="text-lg font-bold mb-2 text-foreground group-hover:text-neon-cyan transition-colors">
-                                        {relatedPost.title.replace(/<br\s*\/?>/gi, '｜')}
-                                    </h4>
-                                    <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
-                                        {relatedPost.lead}
-                                    </p>
-                                    <div className="flex items-center gap-2 text-neon-cyan text-sm font-bold">
-                                        <span>続きを読む</span>
-                                        <ArrowLeft className="w-4 h-4 rotate-180 group-hover:translate-x-1 transition-transform" />
+                            .slice(0, 8)
+                            .map((relatedPost, idx) => {
+                                const shouldShowAffiliate = (idx === 1 || idx === 5) && randomAffiliates.length > 0;
+                                const shouldShowDiagnosis = idx === 3 || idx === 7;
+                                const affiliateIndex = idx === 1 ? 0 : idx === 5 ? 1 : 0;
+
+                                return (
+                                    <div key={relatedPost.slug} className="contents">
+                                        <motion.div
+                                            onClick={() => router.push(`/blog/${relatedPost.slug}`)}
+                                            className="glass rounded-2xl p-6 neon-border hover:bg-white/5 transition-all cursor-pointer group"
+                                            whileHover={{ scale: 1.02 }}
+                                        >
+                                            <span className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold mb-3">
+                                                {relatedPost.category}
+                                            </span>
+                                            <h4 className="text-lg font-bold mb-2 text-foreground group-hover:text-neon-cyan transition-colors">
+                                                {relatedPost.title.replace(/<br\s*\/?>/gi, '｜')}
+                                            </h4>
+                                            <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
+                                                {relatedPost.lead}
+                                            </p>
+                                            <div className="flex items-center gap-2 text-neon-cyan text-sm font-bold">
+                                                <span>続きを読む</span>
+                                                <ArrowLeft className="w-4 h-4 rotate-180 group-hover:translate-x-1 transition-transform" />
+                                            </div>
+                                        </motion.div>
+
+                                        {shouldShowAffiliate && randomAffiliates[affiliateIndex] && (
+                                            <div className="md:col-span-2">
+                                                <AffiliateInlineBanner service={randomAffiliates[affiliateIndex]} />
+                                            </div>
+                                        )}
+
+                                        {shouldShowDiagnosis && (
+                                            <div className="md:col-span-2">
+                                                <DiagnosisCTABanner />
+                                            </div>
+                                        )}
                                     </div>
-                                </motion.div>
-                            ))}
+                                );
+                            })}
                     </div>
                 </motion.div>
 
