@@ -103,8 +103,7 @@ function BlogPostContent() {
                             {post.lead}
                         </div>
 
-                        <JobAgentBlock />
-                        <ReskillingBlock />
+                        <DiagnosisCTABanner />
 
                         {post.content.map((section, index) => {
                             const keywords = [
@@ -215,6 +214,9 @@ function BlogPostContent() {
                         })}
                     </div>
                 </motion.article>
+
+                <JobAgentBlock />
+                <ReskillingBlock />
 
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
