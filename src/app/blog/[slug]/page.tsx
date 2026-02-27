@@ -25,8 +25,8 @@ function BlogPostContent() {
 
     useEffect(() => {
         const allServices = [...jobAgentServices, ...reskillingServices];
-        setRandomAffiliates(getRandomServices(allServices, 4));
-    }, []);
+        setRandomAffiliates(getRandomServices(allServices, 2));
+    }, [slug]);
 
     if (!post) {
         return (
@@ -193,13 +193,14 @@ function BlogPostContent() {
                             .filter(p => p.slug !== post.slug)
                             .slice(0, 8)
                             .map((relatedPost, idx) => {
-                                const shouldShowAffiliate = (idx === 1 || idx === 5) && randomAffiliates.length > 0;
+                                const shouldShowAffiliate = (idx === 1 || idx === 5);
                                 const shouldShowDiagnosis = idx === 3 || idx === 7;
-                                const affiliateIndex = idx === 1 ? 0 : idx === 5 ? 1 : 0;
+                                const affiliateIndex = idx === 1 ? 0 : 1;
 
                                 return (
-                                    <div key={relatedPost.slug} className="contents">
+                                    <>
                                         <motion.div
+                                            key={relatedPost.slug}
                                             onClick={() => router.push(`/blog/${relatedPost.slug}`)}
                                             className="glass rounded-2xl p-6 neon-border hover:bg-white/5 transition-all cursor-pointer group"
                                             whileHover={{ scale: 1.02 }}
@@ -219,18 +220,18 @@ function BlogPostContent() {
                                             </div>
                                         </motion.div>
 
-                                        {shouldShowAffiliate && randomAffiliates[affiliateIndex] && (
-                                            <div className="md:col-span-2">
+                                        {shouldShowAffiliate && randomAffiliates.length > 0 && (
+                                            <div key={`affiliate-${idx}`} className="md:col-span-2">
                                                 <AffiliateInlineBanner service={randomAffiliates[affiliateIndex]} />
                                             </div>
                                         )}
 
                                         {shouldShowDiagnosis && (
-                                            <div className="md:col-span-2">
+                                            <div key={`diagnosis-${idx}`} className="md:col-span-2">
                                                 <DiagnosisCTABanner />
                                             </div>
                                         )}
-                                    </div>
+                                    </>
                                 );
                             })}
                     </div>
