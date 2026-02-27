@@ -146,7 +146,7 @@ function BlogPostContent() {
                                     className="mb-8"
                                 >
                                     {section.section && (
-                                        <h2 className="blog-heading text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
+                                        <h2 className="blog-heading text-2xl font-bold mb-4 flex items-center gap-3 bg-gradient-to-r from-neon-cyan via-neon-blue to-neon-purple bg-clip-text text-transparent">
                                             <span className="w-2 h-2 rounded-full bg-neon-cyan"></span>
                                             {section.section.replace(/<br\s*\/?>/gi, '｜')}
                                         </h2>
