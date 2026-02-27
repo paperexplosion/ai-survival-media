@@ -25,10 +25,7 @@ function BlogPostContent() {
 
     useEffect(() => {
         const allServices = [...jobAgentServices, ...reskillingServices];
-        const selected = getRandomServices(allServices, 2);
-        console.log('🔍 Debug - All services count:', allServices.length);
-        console.log('🔍 Debug - Selected affiliates:', selected);
-        setRandomAffiliates(selected);
+        setRandomAffiliates(getRandomServices(allServices, 2));
     }, [slug]);
 
     if (!post) {
@@ -106,7 +103,8 @@ function BlogPostContent() {
                             {post.lead}
                         </div>
 
-                        <DiagnosisCTABanner />
+                        <JobAgentBlock />
+                        <ReskillingBlock />
 
                         {post.content.map((section, index) => {
                             const keywords = [
@@ -137,52 +135,86 @@ function BlogPostContent() {
                                 });
                             });
 
-                            return (
-                                <>
+                            const elements = [];
+
+                            // ニュースセクション
+                            elements.push(
+                                <motion.div
+                                    key={index}
+                                    initial={{ opacity: 0, y: 20 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: 0.3 + index * 0.1 }}
+                                    className="mb-8"
+                                >
+                                    {section.section && (
+                                        <h2 className="blog-heading text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
+                                            <span className="w-2 h-2 rounded-full bg-neon-cyan"></span>
+                                            {section.section.replace(/<br\s*\/?>/gi, '｜')}
+                                        </h2>
+                                    )}
+                                    <div className="blog-body text-muted-foreground leading-relaxed" dangerouslySetInnerHTML={{ __html: parsedHtml }} />
+
+                                    {post.affiliates?.filter(aff => aff.position === index + 1).map((affiliate, affIndex) => (
+                                        <AffiliateCard
+                                            key={affIndex}
+                                            title={affiliate.title}
+                                            description={affiliate.description}
+                                            url={affiliate.url}
+                                            label={affiliate.label}
+                                        />
+                                    ))}
+                                </motion.div>
+                            );
+
+                            // ニュース2の後（index === 1）にアフィリエイトバナー1枚目
+                            if (index === 1 && randomAffiliates[0]) {
+                                elements.push(
                                     <motion.div
-                                        key={index}
+                                        key={`affiliate-1`}
                                         initial={{ opacity: 0, y: 20 }}
                                         animate={{ opacity: 1, y: 0 }}
-                                        transition={{ delay: 0.3 + index * 0.1 }}
+                                        transition={{ delay: 0.3 + (index + 1) * 0.1 }}
                                         className="mb-8"
                                     >
-                                        {section.section && (
-                                            <h2 className="blog-heading text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
-                                                <span className="w-2 h-2 rounded-full bg-neon-cyan"></span>
-                                                {section.section.replace(/<br\s*\/?>/gi, '｜')}
-                                            </h2>
-                                        )}
-                                        <div className="blog-body text-muted-foreground leading-relaxed" dangerouslySetInnerHTML={{ __html: parsedHtml }} />
-
-                                        {post.affiliates?.filter(aff => aff.position === index + 1).map((affiliate, affIndex) => (
-                                            <AffiliateCard
-                                                key={affIndex}
-                                                title={affiliate.title}
-                                                description={affiliate.description}
-                                                url={affiliate.url}
-                                                label={affiliate.label}
-                                            />
-                                        ))}
+                                        <AffiliateInlineBanner service={randomAffiliates[0]} />
                                     </motion.div>
+                                );
+                            }
 
-                                    {index === 3 && (
-                                        <motion.div
-                                            key={`cta-${index}`}
-                                            initial={{ opacity: 0, y: 20 }}
-                                            animate={{ opacity: 1, y: 0 }}
-                                            transition={{ delay: 0.3 + (index + 1) * 0.1 }}
-                                        >
-                                            <DiagnosisCTABanner />
-                                        </motion.div>
-                                    )}
-                                </>
-                            );
+                            // ニュース4の後（index === 3）に無料診断ブロック
+                            if (index === 3) {
+                                elements.push(
+                                    <motion.div
+                                        key={`diagnosis`}
+                                        initial={{ opacity: 0, y: 20 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: 0.3 + (index + 1) * 0.1 }}
+                                        className="mb-8"
+                                    >
+                                        <DiagnosisCTABanner />
+                                    </motion.div>
+                                );
+                            }
+
+                            // ニュース6の後（index === 5）にアフィリエイトバナー2枚目
+                            if (index === 5 && randomAffiliates[1]) {
+                                elements.push(
+                                    <motion.div
+                                        key={`affiliate-2`}
+                                        initial={{ opacity: 0, y: 20 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: 0.3 + (index + 1) * 0.1 }}
+                                        className="mb-8"
+                                    >
+                                        <AffiliateInlineBanner service={randomAffiliates[1]} />
+                                    </motion.div>
+                                );
+                            }
+
+                            return elements;
                         })}
                     </div>
                 </motion.article>
-
-                <JobAgentBlock />
-                <ReskillingBlock />
 
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
@@ -195,59 +227,28 @@ function BlogPostContent() {
                         {getAllBlogPosts()
                             .filter(p => p.slug !== post.slug)
                             .slice(0, 8)
-                            .flatMap((relatedPost, idx) => {
-                                const shouldShowAffiliate = (idx === 1 || idx === 5);
-                                const shouldShowDiagnosis = idx === 3 || idx === 7;
-                                const affiliateIndex = idx === 1 ? 0 : 1;
-
-                                const elements = [
-                                    <motion.div
-                                        key={relatedPost.slug}
-                                        onClick={() => router.push(`/blog/${relatedPost.slug}`)}
-                                        className="glass rounded-2xl p-6 neon-border hover:bg-white/5 transition-all cursor-pointer group"
-                                        whileHover={{ scale: 1.02 }}
-                                    >
-                                        <span className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold mb-3">
-                                            {relatedPost.category}
-                                        </span>
-                                        <h4 className="text-lg font-bold mb-2 text-foreground group-hover:text-neon-cyan transition-colors">
-                                            {relatedPost.title.replace(/<br\s*\/?>/gi, '｜')}
-                                        </h4>
-                                        <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
-                                            {relatedPost.lead}
-                                        </p>
-                                        <div className="flex items-center gap-2 text-neon-cyan text-sm font-bold">
-                                            <span>続きを読む</span>
-                                            <ArrowLeft className="w-4 h-4 rotate-180 group-hover:translate-x-1 transition-transform" />
-                                        </div>
-                                    </motion.div>
-                                ];
-
-                                if (shouldShowAffiliate && randomAffiliates.length > 0 && randomAffiliates[affiliateIndex]) {
-                                    console.log(`✅ Showing affiliate at idx=${idx}, affiliateIndex=${affiliateIndex}`, randomAffiliates[affiliateIndex]);
-                                    elements.push(
-                                        <div key={`affiliate-${idx}`} className="md:col-span-2">
-                                            <AffiliateInlineBanner service={randomAffiliates[affiliateIndex]} />
-                                        </div>
-                                    );
-                                } else {
-                                    console.log(`❌ NOT showing affiliate at idx=${idx}:`, {
-                                        shouldShowAffiliate,
-                                        randomAffiliatesLength: randomAffiliates.length,
-                                        hasService: !!randomAffiliates[affiliateIndex]
-                                    });
-                                }
-
-                                if (shouldShowDiagnosis) {
-                                    elements.push(
-                                        <div key={`diagnosis-${idx}`} className="md:col-span-2">
-                                            <DiagnosisCTABanner />
-                                        </div>
-                                    );
-                                }
-
-                                return elements;
-                            })}
+                            .map((relatedPost) => (
+                                <motion.div
+                                    key={relatedPost.slug}
+                                    onClick={() => router.push(`/blog/${relatedPost.slug}`)}
+                                    className="glass rounded-2xl p-6 neon-border hover:bg-white/5 transition-all cursor-pointer group"
+                                    whileHover={{ scale: 1.02 }}
+                                >
+                                    <span className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold mb-3">
+                                        {relatedPost.category}
+                                    </span>
+                                    <h4 className="text-lg font-bold mb-2 text-foreground group-hover:text-neon-cyan transition-colors">
+                                        {relatedPost.title.replace(/<br\s*\/?>/gi, '｜')}
+                                    </h4>
+                                    <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
+                                        {relatedPost.lead}
+                                    </p>
+                                    <div className="flex items-center gap-2 text-neon-cyan text-sm font-bold">
+                                        <span>続きを読む</span>
+                                        <ArrowLeft className="w-4 h-4 rotate-180 group-hover:translate-x-1 transition-transform" />
+                                    </div>
+                                </motion.div>
+                            ))}
                     </div>
                 </motion.div>
 
