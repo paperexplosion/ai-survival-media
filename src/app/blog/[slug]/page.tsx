@@ -165,8 +165,8 @@ function BlogPostContent() {
                                 </motion.div>
                             );
 
-                            // ニュース2の後（index === 1）にアフィリエイトバナー1枚目
-                            if (index === 1 && randomAffiliates[0]) {
+                            // ニュース2の後（index === 3）にアフィリエイトバナー1枚目
+                            if (index === 3 && randomAffiliates[0]) {
                                 elements.push(
                                     <motion.div
                                         key={`affiliate-1`}
@@ -180,8 +180,8 @@ function BlogPostContent() {
                                 );
                             }
 
-                            // ニュース4の後（index === 3）に無料診断ブロック
-                            if (index === 3) {
+                            // ニュース4の後（index === 5）に無料診断ブロック
+                            if (index === 5) {
                                 elements.push(
                                     <motion.div
                                         key={`diagnosis`}
@@ -195,8 +195,8 @@ function BlogPostContent() {
                                 );
                             }
 
-                            // ニュース6の後（index === 5）にアフィリエイトバナー2枚目
-                            if (index === 5 && randomAffiliates[1]) {
+                            // ニュース6の後（index === 7）にアフィリエイトバナー2枚目
+                            if (index === 7 && randomAffiliates[1]) {
                                 elements.push(
                                     <motion.div
                                         key={`affiliate-2`}
