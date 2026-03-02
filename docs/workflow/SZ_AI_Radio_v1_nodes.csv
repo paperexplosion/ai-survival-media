@@ -1,0 +1,18 @@
+#,ノード名,種類,やっていること,中学生向け解説,状態
+n01,Schedule Trigger,スケジュール,6時間ごとに自動起動,6時間ごとに目覚まし時計が鳴って、ロボットが動き始める,✅
+n02,RSS Fetch + Filter,Codeノード,14チャンネルのRSSを取得・フィルター,14個のYouTubeチャンネルの新着動画リストを一気に拾ってくる,✅ 動作確認済み
+n02a,Gemini LM Model,AI LMノード,Gemini 2.0 Flash エンジンを接続,次のステップで使うAIの脳みそ（Gemini）を接続しておく,✅
+n03,AI Selection Agent,AIエージェント,AIが3〜5本を厳選しJSON出力,AIに動画リストを渡してこれは面白いこれはいまいちと選んでもらう,⚠️ 非推奨Agent使用中
+n04,Parse + Slug,Codeノード,JSON解析+ファイル名slug生成,AIが返した答えを読み取ってファイル名に使える英数字の文字列を作る,❌ エラー中
+n05,GitHub Duplicate Check,HTTPリクエスト,GitHubに同ファイルがあるか確認,同じ記事をもう書いていないか倉庫（GitHub）に確認しに行く,未テスト
+n06,IF New (404),IF条件分岐,404=新規通過 / 200=スキップ,倉庫にないなら次へ進むあるならそこで終わりという分かれ道,未テスト
+n07,Build Gemini Body,Codeノード,Gemini APIリクエスト形式に整形,この動画を解説してという指示書をAIが読める形に書き直す,未テスト
+n08,Gemini Analysis,HTTPリクエスト,動画URLをGeminiに送り6セクション記事生成,AIに動画のURLを渡して記事を書いてとお願いする,未テスト
+n09,Parse Article,Codeノード,GeminiレスポンスJSONを記事データに整形,AIが書いてくれた文章を使いやすいようにきれいに並べ直す,未テスト
+n10,Imagen3 Thumbnail,HTTPリクエスト,Imagen3でサムネイル画像を生成,記事のトップに使う画像をAIに自動で描いてもらう,未テスト
+n11,Convert to Binary,Codeノード,Base64画像をn8nバイナリ形式に変換,AIが返した画像データをアップロードできる形式に変換する,未テスト
+n12,Cloudinary Upload,HTTPリクエスト,CloudinaryにアップロードしてURLを取得,画像をネット上の倉庫（Cloudinary）に保存してURLをもらう,未テスト
+n13,Build Markdown,Codeノード,Markdownファイルを組み立て,記事の本文・タイトル・画像URLをまとめてブログ用のファイルを作る,未テスト
+n14,GitHub Push,HTTPリクエスト,GitHubにpush → Vercel自動デプロイ,作ったファイルをGitHubに送ると40秒でWebサイトに自動で公開される,未テスト
+n15,Google Sheets Log,Google Sheets,公開日時・タイトル・URLをSheetに記録,いつどんな記事を公開したかの台帳をスプレッドシートに書き込む,未テスト
+n16,Google Chat Notify,HTTPリクエスト,Google Chatに新記事公開を通知,新しい記事が公開されましたとGoogle Chatでお知らせを送る,未テスト
