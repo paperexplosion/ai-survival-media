@@ -25,7 +25,7 @@ function BlogPostContent() {
 
     useEffect(() => {
         const allServices = [...jobAgentServices, ...reskillingServices];
-        setRandomAffiliates(getRandomServices(allServices, 2));
+        setRandomAffiliates(getRandomServices(allServices, 3));
     }, [slug]);
 
     if (!post) {
@@ -165,8 +165,8 @@ function BlogPostContent() {
                                 </motion.div>
                             );
 
-                            // ニュース2の後（index === 3）にアフィリエイトバナー1枚目
-                            if (index === 3 && randomAffiliates[0]) {
+                            // ニュース4の後（index === 3）にアフィリエイトバナー2枚目
+                            if (index === 3 && randomAffiliates[1]) {
                                 elements.push(
                                     <motion.div
                                         key={`affiliate-1`}
@@ -175,7 +175,7 @@ function BlogPostContent() {
                                         transition={{ delay: 0.3 + (index + 1) * 0.1 }}
                                         className="mb-8"
                                     >
-                                        <AffiliateInlineBanner service={randomAffiliates[0]} />
+                                        <AffiliateInlineBanner service={randomAffiliates[1]} />
                                     </motion.div>
                                 );
                             }
@@ -195,8 +195,8 @@ function BlogPostContent() {
                                 );
                             }
 
-                            // ニュース6の後（index === 7）にアフィリエイトバナー2枚目
-                            if (index === 7 && randomAffiliates[1]) {
+                            // ニュース6の後（index === 7）にアフィリエイトバナー3枚目
+                            if (index === 7 && randomAffiliates[2]) {
                                 elements.push(
                                     <motion.div
                                         key={`affiliate-2`}
@@ -205,7 +205,22 @@ function BlogPostContent() {
                                         transition={{ delay: 0.3 + (index + 1) * 0.1 }}
                                         className="mb-8"
                                     >
-                                        <AffiliateInlineBanner service={randomAffiliates[1]} />
+                                        <AffiliateInlineBanner service={randomAffiliates[2]} />
+                                    </motion.div>
+                                );
+                            }
+
+                            // ニュース2の後（index === 1）にアフィリエイトバナー
+                            if (index === 1 && randomAffiliates[0]) {
+                                elements.push(
+                                    <motion.div
+                                        key={`affiliate-news2`}
+                                        initial={{ opacity: 0, y: 20 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: 0.3 + (index + 1) * 0.1 }}
+                                        className="mb-8"
+                                    >
+                                        <AffiliateInlineBanner service={randomAffiliates[0]} />
                                     </motion.div>
                                 );
                             }
