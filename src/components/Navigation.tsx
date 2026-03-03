@@ -35,7 +35,7 @@ export default function Navigation() {
             </div>
             <div className="hidden md:block">
               <div className="font-bold text-white text-lg group-hover:text-neon-cyan transition-colors">
-                AIサバイバル・インテリジェンス
+                AIサバイバル・レポート
               </div>
               <div className="text-xs text-gray-400">未来を予測し、今を生き抜く</div>
             </div>

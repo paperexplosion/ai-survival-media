@@ -25,7 +25,7 @@ export default function Footer() {
               </div>
               <div>
                 <div className="font-bold text-white text-lg">
-                  AIサバイバル・インテリジェンス
+                  AIサバイバル・レポート
                 </div>
                 <div className="text-xs text-gray-400">未来を予測し、今を生き抜く</div>
               </div>
@@ -63,7 +63,7 @@ export default function Footer() {
             <p>運営：ストーリーテリング合同会社 (Storytelling LLC)</p>
           </div>
           <div>
-            <p>&copy; {currentYear} AIサバイバル・インテリジェンス. All rights reserved.</p>
+            <p>&copy; {currentYear} AIサバイバル・レポート. All rights reserved.</p>
           </div>
         </div>
       </div>

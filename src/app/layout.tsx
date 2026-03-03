@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ai-survival.org'),
-  title: 'AIサバイバル・インテリジェンス | AI時代を生き抜く戦略',
+  title: 'AIサバイバル・レポート | AI時代を生き抜く戦略',
   description: '2026年、AI革命の波が全ての職業を襲う。12の職業タイプ診断で、あなたのAI時代サバイバル戦略を明らかにします。',
   icons: {
     icon: [
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: 'AIサバイバル・インテリジェンス',
-    description: 'AI時代を生き抜くための戦略的インテリジェンス',
+    title: 'AIサバイバル・レポート',
+    description: 'AI時代を生き抜くための未来予測インテリジェンス',
     url: 'https://ai-survival.org',
-    siteName: 'AIサバイバル・インテリジェンス',
+    siteName: 'AIサバイバル・レポート',
     locale: 'ja_JP',
     type: 'website',
     images: [
@@ -31,18 +31,18 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'AIサバイバル・インテリジェンス',
+        alt: 'AIサバイバル・レポート',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AIサバイバル・インテリジェンス',
-    description: 'AI時代を生き抜くための戦略的インテリジェンス',
+    title: 'AIサバイバル・レポート',
+    description: 'AI時代を生き抜くための未来予測インテリジェンス',
     images: [
       {
         url: '/og-image.png',
-        alt: 'AIサバイバル・インテリジェンス',
+        alt: 'AIサバイバル・レポート',
       },
     ],
   },
@@ -87,8 +87,8 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
-              name: 'AIサバイバル・インテリジェンス',
-              description: 'AI時代を生き抜くための戦略的インテリジェンス。12の職業タイプ診断であなたのサバイバル戦略を明らかにします。',
+              name: 'AIサバイバル・レポート',
+              description: 'AI時代を生き抜くための未来予測インテリジェンス。12の職業タイプ診断であなたのサバイバル戦略を明らかにします。',
               url: 'https://ai-survival.org',
               potentialAction: {
                 '@type': 'SearchAction',

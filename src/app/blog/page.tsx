@@ -51,9 +51,9 @@ export default function BlogPage() {
                     className="text-center mb-12"
                 >
                     <div className="mb-4">
-                        <p className="text-2xl md:text-3xl font-bold text-neon-cyan mb-2">未来予測レポート - 全記事</p>
+                        <p className="text-2xl md:text-3xl font-bold text-neon-cyan mb-2">未来予測インテリジェンス - 全記事</p>
                         <h1 className="text-4xl md:text-6xl font-black bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent">
-                            AIサバイバル・インテリジェンス
+                            AIサバイバル・レポート
                         </h1>
                     </div>
                     <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
