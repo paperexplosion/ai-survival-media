@@ -14,6 +14,7 @@ import ReskillingBlock from "@/components/reskilling-block";
 import DiagnosisCTABanner from "@/components/diagnosis-cta-banner";
 import { jobAgentServices, reskillingServices, getRandomServices } from "@/lib/affiliate-data";
 import type { AffiliateService } from "@/lib/affiliate-data";
+import { CategoryBadge } from "@/components/category-badge";
 
 function BlogPostContent() {
     const params = useParams();
@@ -71,9 +72,9 @@ function BlogPostContent() {
                     className="glass rounded-3xl p-8 md:p-12 mb-8 neon-border"
                 >
                     <div className="mb-6">
-                        <span className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold mb-4">
-                            {post.category}
-                        </span>
+                        <div className="mb-4">
+                            <CategoryBadge category={post.category} variant="compact" />
+                        </div>
                         <h1 className="blog-heading text-3xl md:text-5xl font-black mb-6 bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent leading-tight">
                             {post.title.replace(/<br\s*\/?>/gi, '｜')}
                         </h1>

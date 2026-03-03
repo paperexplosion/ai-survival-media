@@ -6,10 +6,23 @@ import { useRouter } from "next/navigation";
 import { getAllBlogPosts } from "@/lib/blog-posts";
 import { convertGoogleDriveUrl } from "@/lib/google-drive-utils";
 import DiagnosisCTABanner from "@/components/diagnosis-cta-banner";
+import { CategoryBadge, CATEGORY_INFO } from "@/components/category-badge";
+import { useState } from "react";
 
 export default function BlogPage() {
     const router = useRouter();
-    const posts = getAllBlogPosts();
+    const allPosts = getAllBlogPosts();
+    const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+
+    const posts = selectedCategory
+        ? allPosts.filter(post => post.category === selectedCategory)
+        : allPosts;
+
+    const categories = Object.keys(CATEGORY_INFO);
+    const categoryCounts = categories.reduce((acc, cat) => {
+        acc[cat] = allPosts.filter(p => p.category === cat).length;
+        return acc;
+    }, {} as Record<string, number>);
 
     return (
         <motion.div
@@ -44,8 +57,52 @@ export default function BlogPage() {
                         </h1>
                     </div>
                     <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                        AI時代を生き抜くための全{posts.length}件のレポートを閲覧できます
+                        AI時代を生き抜くための全{allPosts.length}件のレポートを閲覧できます
                     </p>
+                </motion.div>
+
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.25 }}
+                    className="mb-8"
+                >
+                    <div className="flex flex-wrap gap-3 justify-center">
+                        <button
+                            onClick={() => setSelectedCategory(null)}
+                            className={`px-4 py-2 rounded-full text-sm font-bold transition-all ${
+                                selectedCategory === null
+                                    ? 'bg-gradient-to-r from-neon-cyan to-neon-blue text-white shadow-[0_0_20px_rgba(34,211,238,0.5)]'
+                                    : 'bg-white/5 text-gray-400 hover:text-white hover:bg-white/10'
+                            }`}
+                        >
+                            すべて ({allPosts.length})
+                        </button>
+                        {categories.map((cat) => {
+                            const count = categoryCounts[cat];
+                            if (count === 0) return null;
+
+                            return (
+                                <button
+                                    key={cat}
+                                    onClick={() => setSelectedCategory(cat)}
+                                    className={`px-4 py-2 rounded-full text-sm font-bold transition-all ${
+                                        selectedCategory === cat
+                                            ? 'bg-gradient-to-r from-neon-cyan to-neon-blue text-white shadow-[0_0_20px_rgba(34,211,238,0.5)]'
+                                            : 'bg-white/5 text-gray-400 hover:text-white hover:bg-white/10'
+                                    }`}
+                                >
+                                    <CategoryBadge category={cat} variant="compact" className="bg-transparent" />
+                                    <span className="ml-2">({count})</span>
+                                </button>
+                            );
+                        })}
+                    </div>
+                    {selectedCategory && (
+                        <p className="text-center text-sm text-gray-400 mt-4">
+                            {posts.length}件の記事を表示中
+                        </p>
+                    )}
                 </motion.div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -70,9 +127,7 @@ export default function BlogPage() {
                                 )}
                                 <div className="p-6">
                                     <div className="flex items-center gap-3 mb-3">
-                                        <span className="px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold border border-neon-cyan/30">
-                                            {post.category}
-                                        </span>
+                                        <CategoryBadge category={post.category} variant="compact" />
                                     </div>
 
                                     <h2 className="text-xl md:text-2xl font-bold mb-3 text-white leading-tight group-hover:text-neon-cyan transition-colors">
