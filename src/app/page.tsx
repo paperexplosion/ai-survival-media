@@ -58,12 +58,12 @@ export default function Home() {
                   <h2 className="text-xl md:text-3xl lg:text-5xl font-black mb-3 leading-tight">
                     <span className="inline-block bg-blue-950 px-4 py-2 rounded-lg">
                       <span className="bg-gradient-to-r from-gray-300 via-gray-100 to-gray-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(200,200,200,0.5)]">
-                        未来予測レポート
+                        未来予測インテリジェンス
                       </span>
                     </span>
                   </h2>
                   <p className="text-4xl md:text-6xl lg:text-8xl font-black bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent leading-tight drop-shadow-[0_0_40px_rgba(34,211,238,0.6)]">
-                    AI時代のサバイバル・インテリジェンス
+                    AI時代のサバイバル・レポート
                   </p>
                 </div>
               </div>
@@ -319,7 +319,7 @@ export default function Home() {
 
         <footer className="container mx-auto px-6 py-12 border-t border-white/10">
           <div className="text-center text-gray-400 text-sm">
-            <p className="mb-2">© 2026 AIサバイバル・インテリジェンス</p>
+            <p className="mb-2">© 2026 AIサバイバル・レポート</p>
             <p className="text-xs">
               未来を予測し、今を生き抜く。
             </p>
