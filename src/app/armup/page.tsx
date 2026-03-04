@@ -115,7 +115,7 @@ export default function ArmUpPage() {
         {/* Affiliate disclosure */}
         <section className="container mx-auto px-6 pt-12 pb-2 text-center">
           <p className="text-xs text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            当ページに掲載するサービスはアフィリエイトリンクを含みます。リンクからの申し込みにより運営者に紹介料が発生する場合がありますが、掲載サービスの選定・評価は編集部が独自の基準で行っています。
+            当サイトは、アフィリエイト収益にて運営しております。掲載するアフィリエイト広告は、編集部が独自の基準に基づき選定しています。
           </p>
         </section>
 
