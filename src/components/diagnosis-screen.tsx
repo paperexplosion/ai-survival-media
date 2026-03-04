@@ -4,6 +4,7 @@ import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ChevronRight } from "lucide-react"
 import type { Question, UserResponse } from "@/types"
+import { QUESTION_HINT_CONFIG } from "@/lib/affiliate-data"
 
 interface DiagnosisScreenProps {
     questions: Question[]
@@ -17,6 +18,7 @@ export function DiagnosisScreen({ questions, onComplete }: DiagnosisScreenProps)
 
     const currentQuestion = questions[currentIndex]
     const progress = ((currentIndex + 1) / questions.length) * 100
+    const hint = QUESTION_HINT_CONFIG[currentIndex]
 
     const handleSelect = (value: number, axis: 'tech' | 'human' | 'autonomy') => {
         setSelectedOption(value)
@@ -107,6 +109,23 @@ export function DiagnosisScreen({ questions, onComplete }: DiagnosisScreenProps)
                                 </motion.button>
                             ))}
                         </div>
+
+                        {hint && (
+                            <div className="mt-6 pt-4 border-t border-white/10">
+                                <p className="text-xs text-white/35 leading-relaxed">
+                                    {hint.message}{' '}
+                                    <a
+                                        href={hint.service.url}
+                                        rel="sponsored noopener"
+                                        target="_blank"
+                                        className="text-cyan-400/50 hover:text-cyan-400/80 underline underline-offset-2 transition-colors duration-200"
+                                    >
+                                        {hint.service.name}
+                                    </a>
+                                    <span className="ml-1 text-white/20 text-[10px]">PR</span>
+                                </p>
+                            </div>
+                        )}
                     </motion.div>
                 </AnimatePresence>
             </div>

@@ -233,3 +233,20 @@ export function getBalancedJobAgents(): AffiliateService[] {
     ...getRandomServices(youngCareer, 2)
   ];
 }
+
+// 診断質問ごとのアフィリエイトヒント設定（質問インデックス 0-8）
+// tech軸(q1-q3): AIスキル系 / human軸(q4-q6): 転職エージェント系 / autonomy軸(q7-q9): 自律・独立系
+export const QUESTION_HINT_CONFIG: Record<number, {
+  message: string;
+  service: AffiliateService;
+}> = {
+  0: { message: 'AIを「使う側」に回るか、「使われる側」に残るか。', service: reskillingServices[0] },
+  1: { message: 'AIへの適応速度が、これからの年収格差を決める。', service: reskillingServices[2] },
+  2: { message: '技術を武器にする人が、次の10年を制する。', service: reskillingServices[3] },
+  3: { message: '「いつでも動ける」と思えるだけで、今の職場が変わって見える。', service: jobAgentServices[3] },
+  4: { message: '今いる環境が、あなたの市場価値を決めている。', service: jobAgentServices[0] },
+  5: { message: 'キャリア相談は、転職する気がなくても価値がある。', service: jobAgentServices[1] },
+  6: { message: '組織を離れる選択肢を持つことが、唯一の真の安定だ。', service: jobAgentServices[11] },
+  7: { message: '自律した個人が、AI時代で最も価値を持つ。', service: reskillingServices[1] },
+  8: { message: '最後の問いの前に。今日の選択が、5年後のあなたを決める。', service: jobAgentServices[6] },
+};
