@@ -134,7 +134,7 @@ export default function BlogPage() {
                                         {post.title.replace(/<br\s*\/?>/gi, '｜')}
                                     </h2>
 
-                                    <p className="text-gray-400 text-sm leading-relaxed line-clamp-3 mb-4">
+                                    <p className="text-white text-sm leading-relaxed line-clamp-3 mb-4">
                                         {post.lead}
                                     </p>
 

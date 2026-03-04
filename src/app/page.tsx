@@ -204,7 +204,7 @@ export default function Home() {
                     {post.title.replace(/<br\s*\/?>/gi, '｜')}
                   </h3>
 
-                  <p className="text-gray-400 text-sm leading-relaxed line-clamp-3 mb-6">
+                  <p className="text-white text-sm leading-relaxed line-clamp-3 mb-6">
                     {post.lead}
                   </p>
 
