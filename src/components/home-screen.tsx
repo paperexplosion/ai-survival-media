@@ -169,6 +169,38 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                     <span className="text-base font-black text-foreground">AI時代のサバイバル・レポート</span>
                 </button>
             </motion.div>
+
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1.2 }}
+                className="mt-6 flex flex-col sm:flex-row gap-4 justify-center"
+            >
+                <motion.button
+                    onClick={() => router.push('/escape')}
+                    className="relative px-7 py-3 rounded-full bg-gradient-to-r from-cyan-600 via-blue-700 to-blue-900 text-white font-bold overflow-hidden border border-cyan-500/40"
+                    style={{ boxShadow: '0 0 25px rgba(34, 211, 238, 0.4)' }}
+                    whileHover={{ scale: 1.05, boxShadow: '0 0 40px rgba(34, 211, 238, 0.6)' }}
+                    whileTap={{ scale: 0.98 }}
+                >
+                    <span className="relative flex items-center gap-2">
+                        <Shield className="w-4 h-4" />
+                        逃げ道を確保せよ
+                    </span>
+                </motion.button>
+                <motion.button
+                    onClick={() => router.push('/armup')}
+                    className="relative px-7 py-3 rounded-full bg-gradient-to-r from-purple-600 via-violet-700 to-indigo-800 text-white font-bold overflow-hidden border border-purple-500/40"
+                    style={{ boxShadow: '0 0 25px rgba(168, 85, 247, 0.4)' }}
+                    whileHover={{ scale: 1.05, boxShadow: '0 0 40px rgba(168, 85, 247, 0.6)' }}
+                    whileTap={{ scale: 0.98 }}
+                >
+                    <span className="relative flex items-center gap-2">
+                        <Zap className="w-4 h-4" />
+                        AIスキルで武装せよ
+                    </span>
+                </motion.button>
+            </motion.div>
         </motion.div>
     )
 }
