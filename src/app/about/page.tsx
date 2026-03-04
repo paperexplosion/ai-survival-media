@@ -226,12 +226,12 @@ export default function AboutPage() {
                             <div>
                                 <h3 className="text-lg font-bold text-neon-cyan mb-2 tracking-wide uppercase">公式サイト</h3>
                                 <a
-                                    href="https://storytelling.llc"
+                                    href="https://storytelling.studio.site/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-neon-cyan text-lg hover:text-neon-blue transition-colors underline"
                                 >
-                                    https://storytelling.llc
+                                    https://storytelling.studio.site/
                                 </a>
                             </div>
                         </div>
