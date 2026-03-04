@@ -56,7 +56,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-8"></div>
+        <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-6"></div>
+
+        <p className="text-xs text-gray-500 text-center mb-6 leading-relaxed">
+          当サイトはアフィリエイト広告を掲載しています。記事内・診断結果内のリンクから商品・サービスへの申し込みが発生した場合、運営者に紹介料が支払われることがあります。掲載内容の選定は編集部が独自の基準で行っています。
+        </p>
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-50">
           <div>
