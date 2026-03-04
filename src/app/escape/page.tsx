@@ -84,10 +84,6 @@ export default function EscapePage() {
                 </p>
               </div>
             </div>
-
-            <p className="text-xs text-gray-600">
-              ※ 当ページはアフィリエイトリンクを含みます。掲載サービスは編集部基準で選定しています。
-            </p>
           </motion.div>
         </section>
 
@@ -122,8 +118,15 @@ export default function EscapePage() {
           );
         })}
 
+        {/* Affiliate disclosure */}
+        <section className="container mx-auto px-6 pt-12 pb-2 text-center">
+          <p className="text-xs text-gray-600 max-w-2xl mx-auto leading-relaxed">
+            当ページに掲載するサービスはアフィリエイトリンクを含みます。リンクからの申し込みにより運営者に紹介料が発生する場合がありますが、掲載サービスの選定・評価は編集部が独自の基準で行っています。
+          </p>
+        </section>
+
         {/* Bottom CTA */}
-        <section className="container mx-auto px-6 py-16 text-center">
+        <section className="container mx-auto px-6 py-12 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
