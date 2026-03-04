@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { getAllBlogPosts } from '@/lib/blog-posts';
 import { convertGoogleDriveUrl } from '@/lib/google-drive-utils';
-import { ArrowRight, BookOpen, Shield, Sparkles, Target, Zap } from 'lucide-react';
+import { ArrowRight, BookOpen, Sparkles, Target } from 'lucide-react';
 
 export default function Home() {
   const router = useRouter();
@@ -154,73 +154,6 @@ export default function Home() {
             >
               無料・3分で完了 | 12,000人以上が診断済み
             </motion.p>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1.0 }}
-              className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-6"
-            >
-              <motion.button
-                onClick={() => router.push('/escape')}
-                className="group relative px-8 py-4 rounded-full bg-gradient-to-r from-cyan-600 via-blue-700 to-blue-900 text-white font-bold text-lg overflow-hidden border border-cyan-500/40"
-                style={{
-                  boxShadow: '0 0 30px rgba(34, 211, 238, 0.4)',
-                }}
-                whileHover={{
-                  scale: 1.05,
-                  boxShadow: '0 0 50px rgba(34, 211, 238, 0.6)',
-                }}
-                whileTap={{ scale: 0.98 }}
-              >
-                <motion.div
-                  className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
-                  animate={{
-                    translateX: ['-200%', '200%'],
-                  }}
-                  transition={{
-                    duration: 3,
-                    repeat: Infinity,
-                    repeatDelay: 3,
-                    delay: 0.5,
-                  }}
-                />
-                <span className="relative flex items-center gap-2">
-                  <Shield className="w-5 h-5" />
-                  逃げ道を確保せよ
-                </span>
-              </motion.button>
-
-              <motion.button
-                onClick={() => router.push('/armup')}
-                className="group relative px-8 py-4 rounded-full bg-gradient-to-r from-purple-600 via-violet-700 to-indigo-800 text-white font-bold text-lg overflow-hidden border border-purple-500/40"
-                style={{
-                  boxShadow: '0 0 30px rgba(168, 85, 247, 0.4)',
-                }}
-                whileHover={{
-                  scale: 1.05,
-                  boxShadow: '0 0 50px rgba(168, 85, 247, 0.6)',
-                }}
-                whileTap={{ scale: 0.98 }}
-              >
-                <motion.div
-                  className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
-                  animate={{
-                    translateX: ['-200%', '200%'],
-                  }}
-                  transition={{
-                    duration: 3,
-                    repeat: Infinity,
-                    repeatDelay: 3,
-                    delay: 1.0,
-                  }}
-                />
-                <span className="relative flex items-center gap-2">
-                  <Zap className="w-5 h-5" />
-                  AIスキルで武装せよ
-                </span>
-              </motion.button>
-            </motion.div>
           </motion.div>
         </section>
 
