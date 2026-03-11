@@ -60,6 +60,11 @@ export const CATEGORY_INFO: Record<string, { emoji: string; label: string; color
     emoji: '🧭',
     label: 'キャリア設計',
     color: 'bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-200'
+  },
+  'AI時代のキャリア': {
+    emoji: '🧭',
+    label: 'キャリア設計',
+    color: 'bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-200'
   }
 };
 
