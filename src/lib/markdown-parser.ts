@@ -26,7 +26,7 @@ export function parseMarkdownToHtml(text: string): string {
     });
 
     return `<div class="mb-6 mt-8" data-article-title="${key}">
-      <h3 class="text-2xl font-bold mb-2">【事実: ${japaneseTitle.trim()}（${date.trim()}）】</h3>
+      <h3 class="text-2xl font-bold mb-2 bg-gradient-to-r from-neon-cyan via-neon-blue to-neon-purple bg-clip-text text-transparent">【事実: ${japaneseTitle.trim()}（${date.trim()}）】</h3>
     </div>`;
   });
 
@@ -65,8 +65,9 @@ export function parseMarkdownToHtml(text: string): string {
   html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
   html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
 
-  html = html.replace(/^### (.+)$/gm, '<h3 class="text-xl font-bold text-foreground mt-6 mb-3">$1</h3>');
-  html = html.replace(/^## (.+)$/gm, '<h2 class="text-2xl font-bold text-foreground mt-8 mb-4">$1</h2>');
+  // 修正: 見出しにグラデーションカラーを適用（text-foreground から neon グラデーションへ）
+  html = html.replace(/^### (.+)$/gm, '<h3 class="text-2xl font-bold mt-8 mb-4 bg-gradient-to-r from-neon-cyan via-neon-blue to-neon-purple bg-clip-text text-transparent">$1</h3>');
+  html = html.replace(/^## (.+)$/gm, '<h2 class="text-3xl font-bold mt-10 mb-5 bg-gradient-to-r from-neon-cyan via-neon-blue to-neon-purple bg-clip-text text-transparent">$1</h2>');
 
   html = html.replace(/^- (.+)$/gm, '<li class="ml-6 list-disc mb-2">$1</li>');
 
