@@ -60,6 +60,9 @@ export function parseMarkdownToHtml(text: string): string {
     return replacementHtml;
   });
 
+  // 画像タグを先に変換（リンク変換より前に処理する必要がある）
+  html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" class="w-full rounded-lg my-4" loading="lazy" />');
+
   html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-neon-cyan hover:text-neon-blue underline transition-colors">$1</a>');
 
   html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
