@@ -68,8 +68,9 @@ export function parseMarkdownToHtml(text: string): string {
   html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
   html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
 
-  // 修正: 見出しにグラデーションカラーを適用（text-foreground から neon グラデーションへ）
-  html = html.replace(/^### (.+)$/gm, '<h3 class="text-2xl font-bold mt-8 mb-4 bg-gradient-to-r from-neon-cyan via-neon-blue to-neon-purple bg-clip-text text-transparent">$1</h3>');
+  // H3 (###): text-xl（section.section H2の text-2xl より小さく）
+  html = html.replace(/^### (.+)$/gm, '<h3 class="text-xl font-bold mt-6 mb-3 bg-gradient-to-r from-neon-cyan via-neon-blue to-neon-purple bg-clip-text text-transparent">$1</h3>');
+  // H2 (##): text-3xl（最大）
   html = html.replace(/^## (.+)$/gm, '<h2 class="text-3xl font-bold mt-10 mb-5 bg-gradient-to-r from-neon-cyan via-neon-blue to-neon-purple bg-clip-text text-transparent">$1</h2>');
 
   html = html.replace(/^- (.+)$/gm, '<li class="ml-6 list-disc mb-2">$1</li>');
