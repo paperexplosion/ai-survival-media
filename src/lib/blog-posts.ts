@@ -19,6 +19,7 @@ export interface BlogPost {
     content: {
         section: string;
         text: string;
+        image?: string;
     }[];
     affiliates?: AffiliateLink[];
 }
