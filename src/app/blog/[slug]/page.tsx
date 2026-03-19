@@ -152,6 +152,15 @@ function BlogPostContent() {
                                             {section.section.replace(/<br\s*\/?>/gi, '｜')}
                                         </h2>
                                     )}
+                                    {section.image && (
+                                        <div className="w-full rounded-xl overflow-hidden mb-6">
+                                            <img
+                                                src={convertGoogleDriveUrl(section.image)}
+                                                alt={section.section || ''}
+                                                className="object-cover w-full"
+                                            />
+                                        </div>
+                                    )}
                                     <div className="blog-body text-white leading-relaxed" dangerouslySetInnerHTML={{ __html: parsedHtml }} />
 
                                     {post.affiliates?.filter(aff => aff.position === index + 1).map((affiliate, affIndex) => (
@@ -313,7 +322,7 @@ function BlogPostContent() {
                                 <motion.div
                                     className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -skew-x-12 translate-x-[-200%]"
                                     animate={{
-                                        translateX: ["−200%", "200%"],
+                                        translateX: ["\u2212200%", "200%"],
                                     }}
                                     transition={{
                                         duration: 3,
