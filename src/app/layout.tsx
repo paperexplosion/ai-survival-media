@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ai-survival.org'),
-  title: 'AIサバイバル・レポート | AI時代を生き抜く戦略',
-  description: '2026年、AI革命の波が全ての職業を襲う。12の職業タイプ診断で、あなたのAI時代サバイバル戦略を明らかにします。',
+  title: 'AI時代のサバイバルメディア | AIと人間と。',
+  description: '2026年、AI時代という光と闇が、未知なる物語の幕を開ける。変わりゆく世界のルールを進化の機会へと転換し、新世界の地平を拓く。',
   icons: {
     icon: [
       { url: '/icon', type: 'image/png' },
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: 'AIサバイバル・レポート',
-    description: 'AI時代を生き抜くための未来予測インテリジェンス',
+    title: 'AI時代のサバイバルメディア',
+    description: 'AIと人間と。未来を予測し、今を生き抜く。',
     url: 'https://ai-survival.org',
-    siteName: 'AIサバイバル・レポート',
+    siteName: 'AI時代のサバイバルメディア',
     locale: 'ja_JP',
     type: 'website',
     images: [
@@ -31,18 +31,18 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'AIサバイバル・レポート',
+        alt: 'AI時代のサバイバルメディア',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AIサバイバル・レポート',
-    description: 'AI時代を生き抜くための未来予測インテリジェンス',
+    title: 'AI時代のサバイバルメディア',
+    description: 'AIと人間と。未来を予測し、今を生き抜く。',
     images: [
       {
         url: '/og-image.png',
-        alt: 'AIサバイバル・レポート',
+        alt: 'AI時代のサバイバルメディア',
       },
     ],
   },
@@ -59,6 +59,11 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head>
+        {/* Yuji Syuku 毛筆体フォント */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap"
+          rel="stylesheet"
+        />
         {/* Google AdSense */}
         <script
           async
@@ -87,8 +92,8 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
-              name: 'AIサバイバル・レポート',
-              description: 'AI時代を生き抜くための未来予測インテリジェンス。12の職業タイプ診断であなたのサバイバル戦略を明らかにします。',
+              name: 'AI時代のサバイバルメディア',
+              description: 'AIと人間と。未来を予測し、今を生き抜く。AI時代を生き抜くための未来予測インテリジェンス。',
               url: 'https://ai-survival.org',
               potentialAction: {
                 '@type': 'SearchAction',

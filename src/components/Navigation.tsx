@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import { BookOpen, Target, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
+const brushFont = { fontFamily: "'Yuji Syuku', serif" };
+
 export default function Navigation() {
   const router = useRouter();
   const pathname = usePathname();
@@ -34,10 +36,18 @@ export default function Navigation() {
               <span className="text-white font-bold text-lg">AI</span>
             </div>
             <div className="hidden md:block">
-              <div className="font-bold text-white text-lg group-hover:text-neon-cyan transition-colors">
-                AIサバイバル・レポート
+              <div
+                className="font-bold text-white text-lg group-hover:text-neon-cyan transition-colors"
+                style={brushFont}
+              >
+                AI時代のサバイバルメディア
               </div>
-              <div className="text-xs text-gray-400">未来を予測し、今を生き抜く</div>
+              <div
+                className="text-xs text-gray-400"
+                style={brushFont}
+              >
+                未来を予測し、今を生き抜く
+              </div>
             </div>
           </button>
 

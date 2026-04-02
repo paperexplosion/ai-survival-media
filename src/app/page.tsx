@@ -8,6 +8,8 @@ import { getAllBlogPosts } from '@/lib/blog-posts';
 import { convertGoogleDriveUrl } from '@/lib/google-drive-utils';
 import { ArrowRight, BookOpen, Sparkles, Target } from 'lucide-react';
 
+const brushFont = { fontFamily: "'Yuji Syuku', serif" };
+
 export default function Home() {
   const router = useRouter();
   const allPosts = getAllBlogPosts();
@@ -45,9 +47,9 @@ export default function Home() {
             >
               <div className="relative inline-block">
                 <motion.div
-                  className="absolute inset-0 blur-3xl bg-gradient-to-r from-pink-500 via-red-500 to-orange-500 opacity-50"
+                  className="absolute inset-0 blur-3xl bg-gradient-to-r from-teal-500 via-cyan-400 to-teal-500 opacity-40"
                   animate={{
-                    opacity: [0.3, 0.6, 0.3],
+                    opacity: [0.2, 0.5, 0.2],
                     scale: [1, 1.1, 1],
                   }}
                   transition={{
@@ -56,27 +58,41 @@ export default function Home() {
                   }}
                 />
                 <div className="relative">
-                  <h2 className="text-xl md:text-3xl lg:text-5xl font-black mb-3 leading-tight">
-                    <span className="inline-block bg-blue-950 px-4 py-2 rounded-lg">
-                      <span className="bg-gradient-to-r from-gray-300 via-gray-100 to-gray-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(200,200,200,0.5)]">
-                        未来予測インテリジェンス
-                      </span>
+                  <h2
+                    className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4"
+                    style={brushFont}
+                  >
+                    <span className="bg-gradient-to-r from-teal-300 via-cyan-200 to-teal-300 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(45,212,191,0.5)]">
+                      AI時代のサバイバルメディア
                     </span>
                   </h2>
-                  <p className="text-4xl md:text-6xl lg:text-8xl font-black bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent leading-tight drop-shadow-[0_0_40px_rgba(34,211,238,0.6)]">
-                    AI時代のサバイバル・レポート
+                  <p
+                    className="text-6xl md:text-8xl lg:text-9xl font-black leading-tight"
+                    style={brushFont}
+                  >
+                    <span className="bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-400 bg-clip-text text-transparent drop-shadow-[0_0_40px_rgba(251,191,36,0.6)]">
+                      AIと人間と。
+                    </span>
                   </p>
                 </div>
               </div>
             </motion.div>
 
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-black mb-8 leading-[1.1] tracking-tight">
+            <h1
+              className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 leading-snug tracking-tight"
+              style={brushFont}
+            >
               <span className="block text-white">未来を予測し、今を生き抜く</span>
             </h1>
 
-            <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
-              2026年、AI時代という光と闇が、未知なる物語の幕を開ける。<br />
-              変わりゆく世界のルールを『進化の機会』へと転換し、新世界の地平を拓く。
+            <p
+              className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-snug font-light"
+              style={brushFont}
+            >
+              2026年、AI時代という光と闇が、<br />
+              未知なる物語の幕を開ける。<br /><br />
+              変わりゆく世界のルールを『進化の機会』へと転換し、<br />
+              新世界の地平を拓く。
             </p>
 
             <motion.div
@@ -320,7 +336,7 @@ export default function Home() {
 
         <footer className="container mx-auto px-6 py-12 border-t border-white/10">
           <div className="text-center text-gray-400 text-sm">
-            <p className="mb-2">© 2026 AIサバイバル・レポート</p>
+            <p className="mb-2">© 2026 AI時代のサバイバルメディア</p>
             <p className="text-xs">
               未来を予測し、今を生き抜く。
             </p>
