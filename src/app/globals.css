@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Shiranui';
+  src: url('/fonts/Shiranui-EB.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 15, 23, 42;
@@ -46,6 +54,7 @@
   }
   body {
     @apply bg-[#0f172a] text-white;
+    font-family: 'Shiranui', sans-serif;
   }
 }
 
