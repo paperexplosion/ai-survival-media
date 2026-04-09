@@ -56,9 +56,11 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head>
-        {/* Yuji Syuku 毛筆体フォント */}
+        {/* Yuji Syuku 毛筆体フォント + Shippori Mincho B1 明朝体フォールバック */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
         {/* Google AdSense */}

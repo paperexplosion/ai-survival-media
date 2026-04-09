@@ -9,6 +9,7 @@ import { convertGoogleDriveUrl } from '@/lib/google-drive-utils';
 import { ArrowRight, BookOpen, Sparkles, Target } from 'lucide-react';
 
 const brushFont = { fontFamily: "'Shiranui', sans-serif" };
+const minchoFont = { fontFamily: "'ICHIGAYA Mincho', 'Shippori Mincho B1', 'Noto Serif JP', 'Yu Mincho', serif" };
 
 export default function Home() {
   const router = useRouter();
@@ -60,7 +61,7 @@ export default function Home() {
                 <div className="relative">
                   <h2
                     className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4"
-                    style={brushFont}
+                    style={minchoFont}
                   >
                     <span className="bg-gradient-to-r from-teal-300 via-cyan-200 to-teal-300 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(45,212,191,0.5)]">
                       AI時代のサバイバルメディア
@@ -70,7 +71,10 @@ export default function Home() {
                     className="text-6xl md:text-8xl lg:text-9xl font-black leading-tight"
                     style={brushFont}
                   >
-                    <span className="bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-400 bg-clip-text text-transparent drop-shadow-[0_0_40px_rgba(251,191,36,0.6)]">
+                    <span className="text-white" style={{
+                      textShadow: '0 2px 4px rgba(0,0,0,0.9), 0 4px 16px rgba(0,0,0,0.8), 0 8px 40px rgba(0,0,0,0.6)',
+                      filter: 'drop-shadow(0 0 20px rgba(59,130,246,0.4)) drop-shadow(0 0 40px rgba(168,85,247,0.3))'
+                    } as React.CSSProperties}>
                       AIと人間と。
                     </span>
                   </p>
@@ -80,14 +84,14 @@ export default function Home() {
 
             <h1
               className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 leading-snug tracking-tight"
-              style={brushFont}
+              style={minchoFont}
             >
               <span className="block text-white">未来を予測し、今を生き抜く</span>
             </h1>
 
             <p
               className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-snug font-light"
-              style={brushFont}
+              style={minchoFont}
             >
               2026年、AI時代という光と闇が、<br />
               未知なる物語の幕を開ける。<br /><br />

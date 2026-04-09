@@ -10,6 +10,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'ICHIGAYA Mincho';
+  src: url('/fonts/IchigayaMincho.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 15, 23, 42;
