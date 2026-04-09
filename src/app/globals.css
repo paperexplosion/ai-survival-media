@@ -54,7 +54,7 @@
   }
   body {
     @apply bg-[#0f172a] text-white;
-    font-family: 'Shiranui', sans-serif;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
 }
 
