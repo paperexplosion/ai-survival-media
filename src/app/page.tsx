@@ -8,7 +8,7 @@ import { getAllBlogPosts } from '@/lib/blog-posts';
 import { convertGoogleDriveUrl } from '@/lib/google-drive-utils';
 import { ArrowRight, BookOpen, Sparkles, Target } from 'lucide-react';
 
-const brushFont = { fontFamily: "'Yuji Syuku', serif" };
+const brushFont = { fontFamily: "'Shiranui', sans-serif" };
 
 export default function Home() {
   const router = useRouter();
