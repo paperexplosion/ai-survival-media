@@ -35,10 +35,10 @@ export default function Navigation() {
             </div>
             <div className="hidden md:block">
               <div className="font-bold text-white text-lg group-hover:text-neon-cyan transition-colors">
-                AI時代のサバイバルメディア
+                AI Documentary Report
               </div>
               <div className="text-xs text-gray-400">
-                未来を予測し、今を生き抜く
+                AIと人間の共存を記録する
               </div>
             </div>
           </button>
