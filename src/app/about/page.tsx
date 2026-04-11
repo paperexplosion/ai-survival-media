@@ -49,11 +49,11 @@ export default function AboutPage() {
                         ABOUT
                     </p>
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-8 leading-tight drop-shadow-lg relative">
-                        不安な時代に、<br />光を見つけるメディア。
+                        AIと人間の共存を、<br />記録するメディア。
                     </h1>
                     <p className="text-xl md:text-2xl text-slate-300 font-light leading-relaxed max-w-2xl mx-auto relative">
-                        AIサバイバル・レポートは、AI時代を生き延びるための日刊メディアです。
-                        毎日押し寄せるAIニュースを、「で、自分はどうすればいい？」に変換して届けます。
+                        AIと人間の共存を、ドキュメンタリーとして記録する。
+                        言葉と物語の力で、この時代に問いを立て続けるメディア。
                     </p>
                 </motion.div>
 
@@ -69,25 +69,18 @@ export default function AboutPage() {
                     </h2>
                     <div className="space-y-6 text-slate-200 text-lg leading-relaxed">
                         <p>
-                            Mark Rober はこう言う。「エンジニアリングとは、バグを見つけ、壊しながら、
-                            失敗しながら、新しいものをつくっていく発見の旅だ」と。
-                        </p>
-                        <p>
-                            私が AI Survival Report を始めたのも、同じ理由からだ。
+                            AIが社会に入り込んだとき、多くの人が「怖い」か「すごい」の二択で止まった。
+                            私はそこで止まりたくなかった。
                         </p>
                         <p>
                             人類がかつて経験したことのない、巨大な知能との遭遇。
                             それは脅威でもあり、可能性でもある。
-                            だが、ほとんどの人は「怖い」か「すごい」の二択で止まっている。
+                            だが、恐怖のまま終わらせるのは、もったいない。
                         </p>
                         <p className="text-white font-semibold">
-                            私はそこで止まりたくなかった。
-                        </p>
-                        <p>
-                            不確かで、先の見えない時代だからこそ——
-                            現実を直視し、おびえるだけじゃなく、
-                            そこに一縷の光を見出し、広げていく。
-                            それは、運動だと思っている。
+                            AIと人間が、どう共存していくか。
+                            その問いを、言葉と物語の力で記録し続けること。
+                            それが、このメディアを始めた理由だ。
                         </p>
                         <p>
                             AIのストーリーをどう紡ぐか。
@@ -106,8 +99,8 @@ export default function AboutPage() {
                     <div className="bg-gradient-to-r from-neon-cyan/10 to-neon-purple/10 backdrop-blur-2xl rounded-3xl p-8 md:p-12 border border-neon-cyan/30">
                         <p className="text-sm text-neon-cyan font-bold mb-4 tracking-wider uppercase">MISSION</p>
                         <p className="text-2xl md:text-3xl font-bold text-white leading-relaxed">
-                            人類を飲み込もうとする巨大な力に、<br />
-                            創造的ストーリーの力と言葉の力で立ち向かう。
+                            AIと人間が、どう共に生きるか。<br />
+                            その問いを、言葉と物語の力で記録し続ける。
                         </p>
                         <div className="mt-8 space-y-4 text-slate-200 text-lg leading-relaxed">
                             <p>
@@ -135,7 +128,7 @@ export default function AboutPage() {
                         編集長より
                     </h2>
                     <div className="bg-white/5 backdrop-blur-2xl rounded-3xl p-8 md:p-12 border border-white/10">
-                        <p className="text-neon-cyan font-bold mb-2 tracking-wide">鈴木 隆文（SZ）/ ナラティブ・アーキテクト・編集長</p>
+                        <p className="text-neon-cyan font-bold mb-2 tracking-wide">鈴木 隆文（SZ）/ 編集長</p>
                         <div className="space-y-5 text-slate-200 text-lg leading-relaxed mt-6">
                             <p>
                                 29年のリサーチと、複数の事業変革を経て確信していることがある。
@@ -149,7 +142,7 @@ export default function AboutPage() {
                             </p>
                             <p>
                                 このメディアは、その問いを日々考えるための場所として運営している。
-                                紙芝居師という現代の語り部として、言葉とナラティブの力で
+                                語り手として、言葉とナラティブの力で
                                 この巨大な変化の波に立ち向かっていく。
                             </p>
                         </div>
@@ -170,7 +163,7 @@ export default function AboutPage() {
                         {[
                             { num: "01", text: "恐怖で終わらない。洞察と、次の一手まで届ける。" },
                             { num: "02", text: "難しい話を、人間の言葉で。テクノロジーの話ではなく、あなたの生き方の話として。" },
-                            { num: "03", text: "毎日、更新する。AIの進化に、日刊で向き合う。" },
+                            { num: "03", text: "記録し続ける。AIの進化に、日々向き合う。" },
                             { num: "04", text: "希望を、根拠とともに語る。楽観論でも悲観論でもなく、現実から出発する。" },
                         ].map((item, i) => (
                             <motion.div
@@ -213,7 +206,7 @@ export default function AboutPage() {
                             </div>
                             <div>
                                 <h3 className="text-lg font-bold text-neon-cyan mb-2 tracking-wide uppercase">編集長</h3>
-                                <p className="text-slate-200 text-lg">鈴木 隆文（SZ / ナラティブ・アーキテクト）</p>
+                                <p className="text-slate-200 text-lg">鈴木 隆文（SZ）</p>
                             </div>
                         </div>
 
