@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Cpu, Zap, Shield, BookOpen, Search } from "lucide-react"
+import { Zap, Shield, BookOpen, Search } from "lucide-react"
 import { useRouter } from "next/navigation"
 
 interface HomeScreenProps {
@@ -26,7 +26,7 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                 className="mb-8"
             >
                 <div className="w-24 h-24 rounded-2xl glass neon-border flex items-center justify-center animate-float">
-                    <Cpu className="w-12 h-12 text-neon-blue" />
+                    <Search className="w-12 h-12 text-neon-blue" />
                 </div>
             </motion.div>
 
@@ -93,7 +93,7 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                     className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500/20 via-cyan-400/20 to-cyan-500/20 rounded-2xl border-2 border-cyan-400"
                 >
                     <div className="w-3 h-3 rounded-full bg-cyan-400 animate-pulse shadow-lg shadow-cyan-400/50" />
-                    <span className="text-xl font-black text-cyan-300 drop-shadow-lg">完全無料</span>
+                    <span className="text-xl font-black text-cyan-300 drop-shadow-lg">オープンアクセス</span>
                 </motion.div>
                 <motion.div
                     animate={{
