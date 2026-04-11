@@ -5,8 +5,8 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ai-survival.org'),
-  title: 'AI時代のサバイバルメディア | AIと人間と。',
-  description: '2026年、AI時代という光と闇が、未知なる物語の幕を開ける。変わりゆく世界のルールを進化の機会へと転換し、新世界の地平を拓く。',
+  title: 'AI Documentary Report | AIと人間と。',
+  description: 'AIと人間の共存を、記録する。ジャーナリズムとしてのAIドキュメンタリー。あなたの仕事には、人間の物語がありますか。',
   icons: {
     icon: [
       { url: '/icon', type: 'image/png' },
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: 'AI時代のサバイバルメディア',
-    description: 'AIと人間と。未来を予測し、今を生き抜く。',
+    title: 'AI Documentary Report',
+    description: 'AIと人間の共存を記録する。',
     url: 'https://ai-survival.org',
-    siteName: 'AI時代のサバイバルメディア',
+    siteName: 'AI Documentary Report',
     locale: 'ja_JP',
     type: 'website',
     images: [
@@ -28,18 +28,18 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'AI時代のサバイバルメディア',
+        alt: 'AI Documentary Report',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AI時代のサバイバルメディア',
-    description: 'AIと人間と。未来を予測し、今を生き抜く。',
+    title: 'AI Documentary Report',
+    description: 'AIと人間の共存を記録する。',
     images: [
       {
         url: '/og-image.png',
-        alt: 'AI時代のサバイバルメディア',
+        alt: 'AI Documentary Report',
       },
     ],
   },
@@ -91,8 +91,8 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
-              name: 'AI時代のサバイバルメディア',
-              description: 'AIと人間と。未来を予測し、今を生き抜く。AI時代を生き抜くための未来予測インテリジェンス。',
+              name: 'AI Documentary Report',
+              description: 'AIと人間の共存を、ドキュメンタリーとして記録するメディア。あなたの仕事には、人間の物語がありますか。',
               url: 'https://ai-survival.org',
               potentialAction: {
                 '@type': 'SearchAction',
