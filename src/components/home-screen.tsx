@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Cpu, Zap, Shield, TrendingUp, BookOpen } from "lucide-react"
+import { Cpu, Zap, Shield, BookOpen, Search } from "lucide-react"
 import { useRouter } from "next/navigation"
 
 interface HomeScreenProps {
@@ -37,16 +37,16 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                 className="text-center mb-12"
             >
                 <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
-                    <span className="neon-text text-foreground">AI時代の</span>
+                    <span className="neon-text text-foreground">あなたの仕事には、</span>
                     <br />
                     <span className="bg-gradient-to-r from-neon-blue via-neon-purple to-neon-cyan bg-clip-text text-transparent">
-                        キャリア生存診断
+                        人間の物語がありますか。
                     </span>
                 </h1>
                 <p className="text-muted-foreground text-lg md:text-xl max-w-md mx-auto leading-relaxed">
-                    2030年、あなたはAIと共存できるか？
+                    AIには書けない物語が、あなたの仕事のどこかにある。
                     <br />
-                    生き残るための最適解を導き出す。
+                    その問いに向き合う、3分間の診断。
                 </p>
             </motion.div>
 
@@ -57,9 +57,9 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                 className="grid grid-cols-3 gap-4 mb-12 max-w-lg w-full"
             >
                 {[
-                    { icon: Shield, label: "AI耐性分析" },
-                    { icon: TrendingUp, label: "成長戦略" },
-                    { icon: Zap, label: "即実践可能" },
+                    { icon: Search, label: "物語の発見" },
+                    { icon: Shield, label: "問いを立てる" },
+                    { icon: Zap, label: "3分間" },
                 ].map((item, index) => (
                     <motion.div
                         key={item.label}
@@ -119,7 +119,7 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                 className="flex flex-col items-center gap-3"
             >
                 <p className="text-sm text-muted-foreground/80 tracking-wide">
-                    診断時間は180秒、この診断があなたの未来の道を照らす
+                    診断時間は180秒。あなたの物語が、ここから始まる。
                 </p>
                 <motion.button
                     initial={{ opacity: 0, scale: 0.9 }}
@@ -149,7 +149,7 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                         transition={{ duration: 2, repeat: Infinity }}
                         className="relative px-14 py-6 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 bg-[length:200%_100%] rounded-full text-white font-black text-2xl tracking-wide shadow-2xl border-2 border-white/20 animate-gradient"
                     >
-                        あなたの「進化」の未来を診断する
+                        物語を、探しにいく
                     </motion.div>
                 </motion.button>
             </motion.div>
@@ -165,8 +165,8 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                     className="flex flex-col items-center gap-1 px-6 py-4 glass rounded-2xl hover:bg-white/5 transition-all group"
                 >
                     <BookOpen className="w-5 h-5 text-neon-purple group-hover:scale-110 transition-transform mb-1" />
-                    <span className="text-sm text-neon-cyan font-bold">未来予測インテリジェンス</span>
-                    <span className="text-base font-black text-foreground">AI時代のサバイバル・レポート</span>
+                    <span className="text-sm text-neon-cyan font-bold">ドキュメンタリー記事</span>
+                    <span className="text-base font-black text-foreground">AI Documentary Report</span>
                 </button>
             </motion.div>
 
@@ -185,7 +185,7 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                 >
                     <span className="relative flex items-center gap-2">
                         <Shield className="w-4 h-4" />
-                        逃げ道を確保せよ
+                        キャリアを相談する
                     </span>
                 </motion.button>
                 <motion.button
@@ -197,7 +197,7 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                 >
                     <span className="relative flex items-center gap-2">
                         <Zap className="w-4 h-4" />
-                        AIスキルで武装せよ
+                        AIを学ぶ
                     </span>
                 </motion.button>
             </motion.div>
