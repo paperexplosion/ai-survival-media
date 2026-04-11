@@ -64,7 +64,7 @@ export default function Home() {
                     style={minchoFont}
                   >
                     <span className="bg-gradient-to-r from-teal-300 via-cyan-200 to-teal-300 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(45,212,191,0.5)]">
-                      AI時代のサバイバルメディア
+                      AI Documentary Report
                     </span>
                   </h2>
                   <p
@@ -86,17 +86,15 @@ export default function Home() {
               className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 leading-snug tracking-tight"
               style={minchoFont}
             >
-              <span className="block text-white">未来を予測し、今を生き抜く</span>
+              <span className="block text-white">AIと人間の共存を記録する</span>
             </h1>
 
             <p
               className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-snug font-light"
               style={minchoFont}
             >
-              2026年、AI時代という光と闇が、<br />
-              未知なる物語の幕を開ける。<br /><br />
-              変わりゆく世界のルールを『進化の機会』へと転換し、<br />
-              新世界の地平を拓く。
+              AIは何かを変えた。<br />
+              その記録を、ここに残していく。
             </p>
 
             <motion.div
@@ -130,7 +128,7 @@ export default function Home() {
                 />
                 <span className="relative flex items-center gap-2">
                   <Target className="w-5 h-5" />
-                  あなたの未来を診断する
+                  物語を、探しにいく
                 </span>
               </motion.button>
 
@@ -173,7 +171,7 @@ export default function Home() {
               transition={{ delay: 0.8 }}
               className="mt-6 text-sm text-gray-400"
             >
-              無料・3分で完了 | 12,000人以上が診断済み
+              無料・3分で完了
             </motion.p>
           </motion.div>
         </section>
@@ -187,10 +185,10 @@ export default function Home() {
             className="mb-12"
           >
             <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
-              Intelligence Reports
+              Documentary Reports
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl">
-              AI時代を生き抜くための戦略的インテリジェンス。現場からの生々しい洞察と、実践的なサバイバル戦略。
+              AIと人間が共に生きていくための記録。現場からの証言と、ジャーナリストの視点で届ける。
             </p>
           </motion.div>
 
@@ -297,12 +295,12 @@ export default function Home() {
               </div>
 
               <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                あなたのAI時代サバイバル確率は？
+                あなたの仕事には、人間の物語がありますか。
               </h3>
 
               <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-                12の職業タイプ診断で、あなたの現在地と生存戦略を明らかにします。<br />
-                わずか3分で、AI時代を生き抜くための具体的なロードマップを手に入れましょう。
+                AIには書けない物語が、あなたの仕事のどこかにある。<br />
+                それを探す、3分間の問いかけ。
               </p>
 
               <motion.button
@@ -328,7 +326,7 @@ export default function Home() {
                     repeatDelay: 2,
                   }}
                 />
-                <span className="relative">今すぐ診断を始める</span>
+                <span className="relative">物語を、探しにいく</span>
               </motion.button>
 
               <p className="text-xs text-gray-400 mt-4">
@@ -340,9 +338,9 @@ export default function Home() {
 
         <footer className="container mx-auto px-6 py-12 border-t border-white/10">
           <div className="text-center text-gray-400 text-sm">
-            <p className="mb-2">© 2026 AI時代のサバイバルメディア</p>
+            <p className="mb-2">© 2026 AI Documentary Report</p>
             <p className="text-xs">
-              未来を予測し、今を生き抜く。
+              AIと人間の共存を記録する。
             </p>
           </div>
         </footer>
@@ -367,7 +365,7 @@ export default function Home() {
           whileTap={{ scale: 0.95 }}
         >
           <Target className="w-4 h-4" />
-          診断を始める
+          物語を探す
         </motion.button>
       </motion.div>
     </main>
