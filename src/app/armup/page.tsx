@@ -18,11 +18,11 @@ const categoryOrder = [
 ];
 
 const categoryLabels: Record<string, { label: string; desc: string }> = {
-  "AI特化": { label: "AI特化スクール", desc: "生成AIをビジネスの武器にする。今すぐ「使う側」へ。" },
-  "AI×副業": { label: "AI×副業・独立", desc: "本業×AIで副収入を構築。個人が法人を超える時代。" },
-  "AI自動化": { label: "AI業務自動化", desc: "事務・マーケを自動化し、自分の時間と価値を取り戻す。" },
+  "AI特化": { label: "AI特化スクール", desc: "生成AIを実務に活かす。「使う側」への最初の一歩。" },
+  "AI×副業": { label: "AI×副業・独立", desc: "本業×AIで新しい収入源を。個人の可能性が広がる時代。" },
+  "AI自動化": { label: "AI業務自動化", desc: "事務・マーケを自動化し、本来やりたいことに時間を使う。" },
   "プログラミング": { label: "プログラミング", desc: "コードを書ける人間は、AIと対等に話せる。" },
-  "上級エンジニア": { label: "上級・CS特化", desc: "AIに代替されない深い技術力を身につける。" },
+  "上級エンジニア": { label: "上級・CS特化", desc: "深い技術力で、AIとの協働を自分のものにする。" },
   "初心者向け": { label: "初心者向け", desc: "ゼロから始める。最初の一歩が、5年後の差を生む。" },
   "学生向け": { label: "学生向け", desc: "AIネイティブ世代として、最初からプロダクトを作る原体験を。" },
 };
@@ -59,13 +59,13 @@ export default function ArmUpPage() {
             <div className="flex items-start gap-4 mb-6">
               <div className="w-1 h-24 bg-gradient-to-b from-neon-purple to-neon-cyan flex-shrink-0 rounded-full shadow-[0_0_20px_rgba(168,85,247,0.5)]" />
               <div>
-                <p className="text-neon-purple text-sm font-bold tracking-widest uppercase mb-2">Arm Up</p>
+                <p className="text-neon-purple text-sm font-bold tracking-widest uppercase mb-2">Learn & Grow</p>
                 <h1 className="text-5xl md:text-7xl font-black text-white mb-4 leading-tight">
-                  AIスキルで<br />武装せよ。
+                  AIを、自分の<br />手に持ち直す。
                 </h1>
                 <p className="text-xl text-gray-300 leading-relaxed max-w-2xl">
-                  AIを学び、使う側に回れ。<br />
-                  AIが仕事を奪うのではない。AIを使える人間が、使えない人間の仕事を奪うのだ。
+                  AIを学び、使う側へ。<br />
+                  道具を知ることは、選択肢を増やすことだ。
                 </p>
               </div>
             </div>
@@ -74,7 +74,7 @@ export default function ArmUpPage() {
               <div className="flex items-start gap-3">
                 <Zap className="w-5 h-5 text-neon-purple mt-0.5 flex-shrink-0" />
                 <p className="text-gray-300 leading-relaxed text-sm">
-                  AIの進化を待っている時間はない。スキルは今日学び始めた人間が、半年後に圧倒的な差をつける。半年後、一年後の自分が「あの時始めておいてよかった」と思えるかどうかは、今日の選択で決まる。どのスキルから始めるか。そこにあなたの現在地がある。
+                  AIがこれだけ速く動く時代に、学ぶことはリスクでも義務でもない。自分の仕事をより豊かにする手段だ。半年後、一年後の自分がどんな道具を持っているか。それを決めるのは、今日の選択だ。
                 </p>
               </div>
             </div>
@@ -143,8 +143,8 @@ export default function ArmUpPage() {
 
         <footer className="container mx-auto px-6 py-12 border-t border-white/10">
           <div className="text-center text-gray-400 text-sm">
-            <p className="mb-2">© 2026 AIサバイバル・レポート</p>
-            <p className="text-xs">未来を予測し、今を生き抜く。</p>
+            <p className="mb-2">© 2026 AI Documentary Report</p>
+            <p className="text-xs">AIと人間の共存を記録する。</p>
           </div>
         </footer>
       </div>
