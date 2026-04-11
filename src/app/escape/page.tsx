@@ -21,13 +21,13 @@ const categoryOrder = [
 ];
 
 const categoryLabels: Record<string, { label: string; desc: string }> = {
-  "ハイクラス転職": { label: "ハイクラス転職", desc: "年収800万円超の非公開求人。上位層だけが知る戦場へ。" },
-  "グローバル転職": { label: "グローバル・外資系", desc: "国境を超えた市場で戦う選択肢。" },
+  "ハイクラス転職": { label: "ハイクラス転職", desc: "年収800万円超の非公開求人。自分の市場価値を正確に知る機会。" },
+  "グローバル転職": { label: "グローバル・外資系", desc: "国境を超えた市場を探る選択肢。" },
   "セキュリティ特化": { label: "セキュリティ職", desc: "AIが拡大するリスクに対応する専門職。需要は増大し続ける。" },
   "SAP特化": { label: "SAP専門職", desc: "参入障壁の高いERP領域で、長期的な安定を手に入れる。" },
   "マーケ特化": { label: "マーケティング職", desc: "戦略を設計できる人間は、AIと共存できる。" },
   "フリーランス": { label: "フリーランス案件", desc: "組織の外に出る選択肢。自律した働き方の入り口。" },
-  "エンジニア転職": { label: "エンジニア転職", desc: "技術力で市場価値を積み上げる、最速の逃げ道。" },
+  "エンジニア転職": { label: "エンジニア転職", desc: "技術力で市場価値を積み上げる、確実な一手。" },
   "エンジニア就活": { label: "エンジニア就活", desc: "ITのファーストキャリア。選択肢を今から広げておく。" },
   "安定・技術職": { label: "安定・技術職", desc: "製造・現場系で長期的な信頼を築く。" },
   "第二新卒": { label: "第二新卒・既卒", desc: "レールを外れた人の再スタート。遅すぎることはない。" },
@@ -65,13 +65,13 @@ export default function EscapePage() {
             <div className="flex items-start gap-4 mb-6">
               <div className="w-1 h-24 bg-gradient-to-b from-neon-cyan to-neon-blue flex-shrink-0 rounded-full shadow-[0_0_20px_rgba(34,211,238,0.5)]" />
               <div>
-                <p className="text-neon-cyan text-sm font-bold tracking-widest uppercase mb-2">Escape Route</p>
+                <p className="text-neon-cyan text-sm font-bold tracking-widest uppercase mb-2">Explore Options</p>
                 <h1 className="text-5xl md:text-7xl font-black text-white mb-4 leading-tight">
-                  逃げ道を<br />確保せよ。
+                  相談しておくことは、<br />正しいことだ。
                 </h1>
                 <p className="text-xl text-gray-300 leading-relaxed max-w-2xl">
-                  転職エージェントは、無料で使えるプロ相談だ。<br />
-                  今すぐ転職しなくていい。ただし、今すぐ「動ける状態」を作れ。
+                  転職エージェントは、無料で使えるキャリア相談だ。<br />
+                  今すぐ動かなくていい。ただ、選択肢を持っておく。
                 </p>
               </div>
             </div>
@@ -80,7 +80,7 @@ export default function EscapePage() {
               <div className="flex items-start gap-3">
                 <Shield className="w-5 h-5 text-neon-cyan mt-0.5 flex-shrink-0" />
                 <p className="text-gray-300 leading-relaxed text-sm">
-                  AIが経済を塗り替えるこの時代、まず自分の市場価値を知り、選択肢を広げておくことが最も重要だ。転職エージェントへの登録は無料であり、キャリアの専門家と話すことで、あなたが気づいていなかった自分の可能性と業界の現実が見えてくる。動くかどうかは、その後で決めればいい。視野を広げておくことが、今のあなたにできる最も賢明な生存戦略だ。
+                  AIが経済を塗り替えるこの時代、まず自分の市場価値を知り、選択肢を広げておくことが重要だ。転職エージェントへの登録は無料であり、キャリアの専門家と話すことで、あなたが気づいていなかった自分の可能性と業界の現実が見えてくる。動くかどうかは、その後で決めればいい。視野を広げておくことが、今のあなたにできる賢明な選択だ。
                 </p>
               </div>
             </div>
@@ -134,7 +134,7 @@ export default function EscapePage() {
             className="glass rounded-3xl p-10 border border-neon-cyan/20"
           >
             <h3 className="text-2xl font-bold text-white mb-3">まず、自分を診断する。</h3>
-            <p className="text-gray-400 mb-6">あなたのAI時代における立ち位置と、最適な生存戦略を確認しよう。</p>
+            <p className="text-gray-400 mb-6">あなたのAI時代における立ち位置と、これからの方向性を確認しよう。</p>
             <motion.button
               onClick={() => router.push('/diagnosis')}
               className="px-8 py-4 rounded-full bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 text-white font-bold text-lg"
@@ -149,8 +149,8 @@ export default function EscapePage() {
 
         <footer className="container mx-auto px-6 py-12 border-t border-white/10">
           <div className="text-center text-gray-400 text-sm">
-            <p className="mb-2">© 2026 AIサバイバル・レポート</p>
-            <p className="text-xs">未来を予測し、今を生き抜く。</p>
+            <p className="mb-2">© 2026 AI Documentary Report</p>
+            <p className="text-xs">AIと人間の共存を記録する。</p>
           </div>
         </footer>
       </div>
