@@ -19,7 +19,7 @@ interface ResultScreenProps {
 export function ResultScreen({ result, onRestart }: ResultScreenProps) {
     const router = useRouter();
 
-    const survivalScore = useMemo(() => {
+    const adaptScore = useMemo(() => {
         const { tech, human, autonomy } = result.radarChart;
         return Math.round((tech + human + autonomy) / 3);
     }, [result]);
@@ -42,7 +42,7 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                     transition={{ delay: 0.2 }}
                     className="text-center mb-12"
                 >
-                    <p className="text-neon-cyan text-sm font-mono mb-4 tracking-wider">AI SURVIVAL ANALYSIS COMPLETE</p>
+                    <p className="text-neon-cyan text-sm font-mono mb-4 tracking-wider">AI DOCUMENTARY REPORT</p>
                     <motion.h1
                         className="text-3xl md:text-5xl lg:text-6xl font-black mb-6 bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent leading-tight tracking-tight"
                         style={{
@@ -77,12 +77,12 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                     transition={{ delay: 0.4 }}
                     className="glass rounded-3xl p-8 mb-8 neon-border text-center"
                 >
-                    <p className="text-sm text-muted-foreground mb-2">2030年 AI時代サバイバル確率</p>
+                    <p className="text-sm text-muted-foreground mb-2">AI時代 人間適応スコア</p>
                     <div className="text-7xl font-bold neon-text mb-2">
-                        {survivalScore}
+                        {adaptScore}
                         <span className="text-3xl">%</span>
                     </div>
-                    <p className="text-neon-cyan text-sm">あなたは上位{Math.max(100 - survivalScore + 5, 1)}%のサバイバーです</p>
+                    <p className="text-neon-cyan text-sm">人間中心型ワーカーの上位{Math.max(100 - adaptScore + 5, 1)}%です</p>
                 </motion.div>
 
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -97,7 +97,7 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                     </motion.div>
 
                     <motion.div initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.6 }}>
-                        <CertificateCard jobName={result.title} survivalScore={survivalScore} stats={result.radarChart} />
+                        <CertificateCard jobName={result.title} survivalScore={adaptScore} stats={result.radarChart} />
                     </motion.div>
                 </div>
 
@@ -155,13 +155,13 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
 
                             <h2 className="text-3xl md:text-5xl font-black mb-4 tracking-tight">
                                 <span className="bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(6,182,212,0.5)]">
-                                    AI時代の進化のカタログ
+                                    あなたへの提案
                                 </span>
                             </h2>
 
                             <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-neon-cyan/20 via-neon-purple/20 to-neon-blue/20 border border-neon-cyan/30">
                                 <p className="text-gray-200 font-semibold text-sm md:text-base">
-                                    <span className="text-neon-cyan">{result.title}</span>に最適化された進化ルート
+                                    <span className="text-neon-cyan">{result.title}</span>に向けたラーニングパス
                                 </p>
                             </div>
                         </div>
@@ -199,7 +199,7 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                                             whileHover={{ scale: 1.05 }}
                                             whileTap={{ scale: 0.95 }}
                                         >
-                                            <span>ソムリエの提案に従い公式サイトを見る</span>
+                                            <span>公式サイトを見る</span>
                                             <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                                         </motion.a>
                                     </div>
@@ -217,7 +217,7 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                 >
                     <button
                         onClick={() => {
-                            const text = `AI時代のキャリア診断結果: 私は「${result.title}」タイプ！2030年サバイバル確率${survivalScore}% 🚀`;
+                            const text = `AI Documentary Reportのキャリア診断結果: 私は「${result.title}」タイプ！人間適応スコア${adaptScore}% 🌱`;
                             window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, "_blank");
                         }}
                         className="flex items-center gap-2 px-6 py-3 bg-black/80 rounded-full hover:bg-black transition-all group"
