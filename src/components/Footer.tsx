@@ -25,13 +25,13 @@ export default function Footer() {
               </div>
               <div>
                 <div className="font-bold text-white text-lg">
-                  AIサバイバル・レポート
+                  AI Documentary Report
                 </div>
-                <div className="text-xs text-gray-400">未来を予測し、今を生き抜く</div>
+                <div className="text-xs text-gray-400">AIと人間の共存を記録する</div>
               </div>
             </div>
             <p className="text-slate-50 text-sm leading-relaxed max-w-md">
-              AI時代の生存戦略を12ジョブ診断で提案。あなたの可能性を拡張し、自らの物語を繁栄させるための地図を提供します。
+              AIと人間の共存を、ドキュメンタリーとして記録するメディア。
             </p>
           </div>
 
@@ -67,7 +67,7 @@ export default function Footer() {
             <p>運営：ストーリーテリング合同会社 (Storytelling LLC)</p>
           </div>
           <div>
-            <p>&copy; {currentYear} AIサバイバル・レポート. All rights reserved.</p>
+            <p>&copy; {currentYear} AI Documentary Report. All rights reserved.</p>
           </div>
         </div>
       </div>
