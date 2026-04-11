@@ -2,7 +2,7 @@
 
 import { usePathname, useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { BookOpen, Target, Menu, X } from 'lucide-react';
+import { BookOpen, Search, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Navigation() {
@@ -13,7 +13,7 @@ export default function Navigation() {
   const navItems = [
     { label: 'ホーム', path: '/', icon: null },
     { label: 'レポート', path: '/blog', icon: BookOpen },
-    { label: '診断', path: '/diagnosis', icon: Target },
+    { label: '問い', path: '/diagnosis', icon: Search },
     { label: 'About', path: '/about', icon: null },
   ];
 
