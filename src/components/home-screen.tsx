@@ -46,7 +46,7 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                 <p className="text-muted-foreground text-lg md:text-xl max-w-md mx-auto leading-relaxed">
                     AIには書けない物語が、あなたの仕事のどこかにある。
                     <br />
-                    その問いに向き合う、3分間の診断。
+                    それを探す、3分間の問いかけ。
                 </p>
             </motion.div>
 
@@ -136,7 +136,7 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                             scale: [1, 1.15, 1],
                         }}
                         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                        className="absolute inset-0 bg-gradient-to-r from-neon-blue to-neon-purple rounded-full blur-2xl"
+                        className="absolute inset-0 bg-gradient-to-r from-neon-blue to-neon-purple rounded-3xl blur-2xl"
                     />
                     <motion.div
                         animate={{
@@ -147,9 +147,9 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                             ]
                         }}
                         transition={{ duration: 2, repeat: Infinity }}
-                        className="relative px-14 py-6 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 bg-[length:200%_100%] rounded-full text-white font-black text-2xl tracking-wide shadow-2xl border-2 border-white/20 animate-gradient"
+                        className="relative px-14 py-6 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 bg-[length:200%_100%] rounded-3xl text-white font-black text-xl tracking-wide shadow-2xl border-2 border-white/20 animate-gradient text-center leading-snug"
                     >
-                        物語を、探しにいく
+                        物語の扉をひらく、<br />自己の診断。
                     </motion.div>
                 </motion.button>
             </motion.div>
