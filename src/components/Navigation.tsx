@@ -13,7 +13,7 @@ export default function Navigation() {
   const navItems = [
     { label: 'ホーム', path: '/', icon: null },
     { label: 'レポート', path: '/blog', icon: BookOpen },
-    { label: '物語の扉', path: '/diagnosis', icon: DoorOpen },
+    { label: '自己の診断', path: '/diagnosis', icon: DoorOpen },
     { label: 'About', path: '/about', icon: null },
   ];
 
