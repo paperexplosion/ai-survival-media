@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://ai-survival.org'),
   title: 'AI Documentary Report | AIと人間と。',
   description: 'AIと人間の共存を、記録する。ジャーナリズムとしてのAIドキュメンタリー。あなたの仕事には、人間の物語がありますか。',
+  verification: {
+    google: 'IpUg-r_m20iTJn1cFB8st9ueCp6CkV_ALs3QBRwOKVI',
+  },
   icons: {
     icon: [
       { url: '/icon', type: 'image/png' },
