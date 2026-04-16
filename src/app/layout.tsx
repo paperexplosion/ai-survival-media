@@ -87,7 +87,7 @@ export default function RootLayout({
             `,
           }}
         />
-        {/* Structured Data (JSON-LD) */}
+        {/* Structured Data: WebSite */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -105,6 +105,28 @@ export default function RootLayout({
                 },
                 'query-input': 'required name=search_term_string',
               },
+            }),
+          }}
+        />
+        {/* Structured Data: Organization + sameAs（ドメイン信頼性強化） */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: 'AI Documentary Report',
+              alternateName: 'AI Survival Report',
+              url: 'https://ai-survival.org',
+              logo: {
+                '@type': 'ImageObject',
+                url: 'https://ai-survival.org/og-image.png',
+              },
+              description: 'AIと人間の共存を、ドキュメンタリーとして記録するメディア。日本のAIリテラシー向上を支援する独立メディア。',
+              sameAs: [
+                'https://x.com/ai_survival',
+                'https://github.com/paperexplosion',
+              ],
             }),
           }}
         />
