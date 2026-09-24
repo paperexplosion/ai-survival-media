@@ -72,10 +72,10 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2731207449068887"
           crossOrigin="anonymous"
         />
-        {/* Google Analytics - Replace with your actual Measurement ID */}
+        {/* Google Analytics (GA4: ai-survival.org) */}
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+          src="https://www.googletagmanager.com/gtag/js?id=G-B0T1BHZ5MP"
         />
         <script
           dangerouslySetInnerHTML={{
@@ -83,7 +83,7 @@ export default function RootLayout({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-XXXXXXXXXX');
+              gtag('config', 'G-B0T1BHZ5MP');
             `,
           }}
         />
