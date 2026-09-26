@@ -47,7 +47,9 @@ category: "AI時代のキャリア"
 
 ## カテゴリ一覧
 
-記事は以下の**5つのカテゴリ**のいずれかに分類されます：
+> **2026-09-27 更新**：正式なカテゴリは `src/components/category-badge.tsx` の `CATEGORY_INFO`（12種）です。下の5分類は旧n8n時代の記述で、現在は使いません。記事のfrontmatterには `category`（12種のいずれか）に加えて `type`（news / seo / product / experiment）と `layer`（record / think / choose）を付けます。
+
+記事は以下の**5つのカテゴリ**のいずれかに分類されます（旧）：
 
 1. **マインドセット**
    - 心構え、考え方、生き方に関する記事

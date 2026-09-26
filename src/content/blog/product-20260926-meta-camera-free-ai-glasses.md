@@ -3,6 +3,8 @@ title: "Metaのカメラ非搭載AIグラス、12時間駆動で何が変わる�
 lead: "Metaが発表したカメラ非搭載のAIグラス「Ray-Ban Meta Audio」を解説。349ドル・最大12時間駆動・43gの軽量設計など、スペックと日本での意味、プライバシー面の利点、まだ不明な点を整理します。"
 date: "2026-09-26 16:50"
 category: "🎯 AIを武器にするスキル・思考法"
+type: product
+layer: choose
 image: "/blog-images/product-20260926-meta-camera-free-ai-glasses/cover.jpg"
 preamble: "*画像：Metaの公式発表の写真をもとにしたイラストです（原典：[Meta introduces camera-free AI glasses](https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/)）*\n\n毎日かけている眼鏡が、AIの入り口になる。そんな変化を身近に感じ始めた人にとって、「Meta AIグラス カメラなし 12時間」というニュースは、少し立ち止まって考えるきっかけになるかもしれません。この記事では、カメラを外したAIグラスが何を残し、何を手放したのかを、発表された内容に沿って整理していきます。あなたの一日のどこに、この道具がなじむ余地があるでしょうか。\n\n**この記事の要点**\n\n- Metaが2026年9月23日にカメラ非搭載のAIグラス「Ray-Ban Meta Audio」を発表した[2][7]。\n- 重量43g、単体で最大12時間、充電ケース併用で最大48時間駆動する[7][8]。\n- 価格は349ドルからで10月13日出荷、日本展開は2027年予定とされる[5][7][8]。\n\n（最終更新：2026年9月26日）"
 ---
