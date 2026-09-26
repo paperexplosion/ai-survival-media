@@ -100,9 +100,13 @@ function BlogPostContent() {
                     </div>
 
                     <div className="prose prose-invert prose-lg max-w-none mb-12">
-                        <div className="blog-body text-lg text-white leading-relaxed mb-8 p-6 rounded-xl bg-white/5 border border-white/10">
-                            {post.lead}
-                        </div>
+                        {post.preamble ? (
+                            <div className="blog-body text-lg text-white leading-relaxed mb-8 p-6 rounded-xl bg-white/5 border border-white/10" dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(post.preamble) }} />
+                        ) : (
+                            <div className="blog-body text-lg text-white leading-relaxed mb-8 p-6 rounded-xl bg-white/5 border border-white/10">
+                                {post.lead}
+                            </div>
+                        )}
 
                         <DiagnosisCTABanner />
 

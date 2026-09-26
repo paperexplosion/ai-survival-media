@@ -12,6 +12,7 @@ export interface BlogPost {
     slug: string;
     title: string;
     lead: string;
+    preamble?: string;
     date: string;
     readTime: string;
     category: string;
