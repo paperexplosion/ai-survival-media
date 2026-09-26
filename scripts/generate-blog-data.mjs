@@ -81,6 +81,7 @@ function getAllMarkdownFiles() {
             slug,
             title: data.title || '',
             lead: data.lead || '',
+            preamble: data.preamble || undefined,
             date: data.date || '',
             readTime: `${readTime}分`,
             category: data.category || '',
