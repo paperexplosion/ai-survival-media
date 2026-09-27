@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowLeft, Calendar, ArrowRight } from "lucide-react";
 import { useRouter } from "next/navigation";
@@ -108,13 +109,12 @@ export default function BlogPage() {
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {posts.map((post, index) => (
                         <>
+                            <Link key={post.slug} href={`/blog/${post.slug}`} className="block">
                             <motion.article
-                                key={post.slug}
                                 initial={{ opacity: 0, y: 30 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.3 + index * 0.1 }}
-                                onClick={() => router.push(`/blog/${post.slug}`)}
-                                className="group cursor-pointer bg-white/5 backdrop-blur-sm rounded-2xl overflow-hidden border border-white/10 hover:border-neon-cyan/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(34,211,238,0.3)]"
+                                className="h-full group cursor-pointer bg-white/5 backdrop-blur-sm rounded-2xl overflow-hidden border border-white/10 hover:border-neon-cyan/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(34,211,238,0.3)]"
                             >
                                 {post.image && (
                                     <div className="w-full h-48 md:h-64 overflow-hidden">
@@ -154,6 +154,7 @@ export default function BlogPage() {
                                     </div>
                                 </div>
                             </motion.article>
+                            </Link>
 
                             {index === 3 && (
                                 <motion.div

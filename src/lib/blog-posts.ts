@@ -13,6 +13,9 @@ export interface BlogPost {
     title: string;
     lead: string;
     preamble?: string;
+    type?: string;
+    layer?: string;
+    updated?: string;
     date: string;
     readTime: string;
     category: string;
