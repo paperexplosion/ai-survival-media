@@ -2,6 +2,7 @@
 
 // page.tsx - site top
 import React from 'react';
+import Link from "next/link";
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { getAllBlogPosts } from '@/lib/blog-posts';
@@ -194,14 +195,13 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             {posts.map((post, index) => (
+              <Link key={post.slug} href={`/blog/${post.slug}`} className="block">
               <motion.article
-                key={post.slug}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                onClick={() => router.push(`/blog/${post.slug}`)}
-                className="group cursor-pointer bg-white/5 backdrop-blur-sm rounded-2xl overflow-hidden border border-white/10 hover:border-neon-cyan/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(34,211,238,0.3)]"
+                className="h-full group cursor-pointer bg-white/5 backdrop-blur-sm rounded-2xl overflow-hidden border border-white/10 hover:border-neon-cyan/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(34,211,238,0.3)]"
               >
                 {post.image && (
                   <div className="w-full h-40 overflow-hidden">
@@ -242,6 +242,7 @@ export default function Home() {
                   </div>
                 </div>
               </motion.article>
+              </Link>
             ))}
           </div>
 

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: 'https://ai-survival.org/sitemap.xml',
+    sitemap: ['https://ai-survival.org/sitemap.xml', 'https://ai-survival.org/news-sitemap.xml'],
   };
 }

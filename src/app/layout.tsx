@@ -48,6 +48,12 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://ai-survival.org',
+    types: { 'application/rss+xml': [{ url: '/feed.xml', title: 'AI Documentary Report' }] },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
   },
 };
 

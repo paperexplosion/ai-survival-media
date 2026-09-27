@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllBlogPosts } from '@/lib/blog-posts';
 import { getAllJobPosts } from '@/lib/job-posts';
+import { CATEGORY_SLUGS, toIsoJst } from '@/lib/seo';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://ai-survival.org';
@@ -12,10 +13,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     .filter((post) => post.date && post.slug !== 'README')
     .map((post) => ({
       url: `${baseUrl}/blog/${post.slug}`,
-      lastModified: new Date(post.date),
+      lastModified: new Date(toIsoJst(post.updated) || toIsoJst(post.date) || post.date),
       changeFrequency: 'monthly' as const,
-      priority: 0.7,
+      priority: /^\d{8}/.test(post.slug) ? 0.6 : 0.8,   // 解説記事・製品紹介はニュースより重く
     }));
+
+  const categoryUrls = Object.values(CATEGORY_SLUGS).map((slug) => ({
+    url: `${baseUrl}/blog/category/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'daily' as const,
+    priority: 0.7,
+  }));
 
   const jobUrls = jobPosts.map((post) => ({
     url: `${baseUrl}/jobs/${post.slug}`,
@@ -55,6 +63,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'monthly',
       priority: 0.6,
     },
+    ...categoryUrls,
     ...blogUrls,
     ...jobUrls,
   ];

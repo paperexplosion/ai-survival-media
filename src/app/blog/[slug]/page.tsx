@@ -1,6 +1,7 @@
 "use client";
 
 import { useParams, useRouter } from "next/navigation";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowLeft, Calendar } from "lucide-react";
 import { getBlogPost, getAllBlogPosts } from "@/lib/blog-posts";
@@ -15,6 +16,7 @@ import DiagnosisCTABanner from "@/components/diagnosis-cta-banner";
 import { jobAgentServices, reskillingServices, getRandomServices } from "@/lib/affiliate-data";
 import type { AffiliateService } from "@/lib/affiliate-data";
 import { CategoryBadge } from "@/components/category-badge";
+import { categorySlug } from "@/lib/seo";
 
 function BlogPostContent() {
     const params = useParams();
@@ -73,7 +75,13 @@ function BlogPostContent() {
                 >
                     <div className="mb-6">
                         <div className="mb-4">
-                            <CategoryBadge category={post.category} variant="compact" />
+                            {categorySlug(post.category) ? (
+                                <Link href={`/blog/category/${categorySlug(post.category)}`} aria-label={`${post.category}の記事一覧`}>
+                                    <CategoryBadge category={post.category} variant="compact" />
+                                </Link>
+                            ) : (
+                                <CategoryBadge category={post.category} variant="compact" />
+                            )}
                         </div>
                         <h1 className="blog-heading text-3xl md:text-5xl font-black mb-6 bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent leading-tight">
                             {post.title.replace(/<br\s*\/?>/gi, '｜')}
@@ -255,14 +263,15 @@ function BlogPostContent() {
                 >
                     <h3 className="text-xl font-bold mb-6 text-foreground">Intelligence Reports おすすめ記事</h3>
                     <div className="grid md:grid-cols-2 gap-6">
-                        {getAllBlogPosts()
-                            .filter(p => p.slug !== post.slug)
+                        {[
+                            ...getAllBlogPosts().filter(p => p.slug !== post.slug && p.category === post.category).slice(0, 4),
+                            ...getAllBlogPosts().filter(p => p.slug !== post.slug && p.category !== post.category),
+                        ]
                             .slice(0, 8)
                             .map((relatedPost) => (
+                                <Link key={relatedPost.slug} href={`/blog/${relatedPost.slug}`} className="block">
                                 <motion.div
-                                    key={relatedPost.slug}
-                                    onClick={() => router.push(`/blog/${relatedPost.slug}`)}
-                                    className="glass rounded-2xl p-6 neon-border hover:bg-white/5 transition-all cursor-pointer group"
+                                    className="h-full glass rounded-2xl p-6 neon-border hover:bg-white/5 transition-all cursor-pointer group"
                                     whileHover={{ scale: 1.02 }}
                                 >
                                     <span className="inline-block px-3 py-1 rounded-full bg-gradient-to-r from-neon-purple/20 to-neon-cyan/20 text-neon-cyan text-xs font-bold mb-3">
@@ -279,6 +288,7 @@ function BlogPostContent() {
                                         <ArrowLeft className="w-4 h-4 rotate-180 group-hover:translate-x-1 transition-transform" />
                                     </div>
                                 </motion.div>
+                                </Link>
                             ))}
                     </div>
                 </motion.div>
