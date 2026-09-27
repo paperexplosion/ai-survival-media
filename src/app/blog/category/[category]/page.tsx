@@ -19,7 +19,7 @@ export function generateMetadata({ params }: { params: { category: string } }): 
   const title = `${label}の記事一覧 | ${SITE_NAME}`;
   const description = CATEGORY_DESCRIPTIONS[params.category];
   const url = `/blog/category/${params.category}`;
-  return { title, description, alternates: { canonical: url }, openGraph: { title, description, url, type: 'website' } };
+  return { title, description, alternates: { canonical: url, types: { 'application/rss+xml': [{ url: '/feed.xml', title: SITE_NAME }] } }, openGraph: { title, description, url, type: 'website' } };
 }
 
 export default function CategoryPage({ params }: { params: { category: string } }) {

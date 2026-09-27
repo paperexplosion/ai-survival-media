@@ -23,7 +23,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     title,
     description,
     authors: [{ name: AUTHOR_NAME, url: AUTHOR_URL }],
-    alternates: { canonical: url },
+    alternates: { canonical: url, types: { 'application/rss+xml': [{ url: '/feed.xml', title: SITE_NAME }] } },
     openGraph: {
       type: "article", title, description, url, images, siteName: SITE_NAME, locale: "ja_JP",
       publishedTime: published, modifiedTime: modified, authors: [AUTHOR_URL], section,
