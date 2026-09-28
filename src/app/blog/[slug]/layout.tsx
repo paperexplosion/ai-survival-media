@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getBlogPost } from "@/lib/blog-posts";
 import {
-  AUTHOR_URL, EDITOR_LD, ORGANIZATION_LD, SITE_NAME, SITE_URL,
+  AUTHOR_URL, EDITOR_LD, ORGANIZATION_LD, SITE_NAME, SITE_SHORT_NAME, SITE_URL,
   absUrl, categorySlug, extractFaq, plain, postType, toIsoJst,
 } from "@/lib/seo";
 
@@ -11,7 +11,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const post = getBlogPost(params.slug);
   if (!post) return {};
 
-  const title = `${post.title} | ${SITE_NAME}`;
+  const title = `${post.title} | ${SITE_SHORT_NAME}`;
   const description = (post.lead || "").replace(/\s+/g, " ").trim().slice(0, 120);
   const url = `/blog/${post.slug}`;
   const images = post.image ? [post.image] : undefined; // 相対パスは metadataBase で絶対URLに解決される
