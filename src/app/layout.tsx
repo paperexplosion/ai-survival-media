@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import { ORGANIZATION_LD, SITE_ALT_NAMES, SITE_DESCRIPTION, SITE_NAME, SITE_URL } from '@/lib/seo';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ai-survival.org'),
@@ -46,8 +47,8 @@ export const metadata: Metadata = {
       },
     ],
   },
+  // canonical は各ページが自分で持つ（ここで決めると全ページがトップを名乗ってしまうため置かない）
   alternates: {
-    canonical: 'https://ai-survival.org',
     types: { 'application/rss+xml': [{ url: '/feed.xml', title: 'AI Documentary Report' }] },
   },
   robots: {
@@ -93,45 +94,31 @@ export default function RootLayout({
             `,
           }}
         />
-        {/* Structured Data: WebSite */}
+        {/* Structured Data: WebSite + Organization（サイト内検索ページは無いので SearchAction は出さない） */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
-              '@type': 'WebSite',
-              name: 'AI Documentary Report',
-              description: 'AIと人間の共存を、ドキュメンタリーとして記録するメディア。あなたの仕事には、人間の物語がありますか。',
-              url: 'https://ai-survival.org',
-              potentialAction: {
-                '@type': 'SearchAction',
-                target: {
-                  '@type': 'EntryPoint',
-                  urlTemplate: 'https://ai-survival.org/search?q={search_term_string}',
+              '@graph': [
+                {
+                  '@type': 'WebSite',
+                  '@id': `${SITE_URL}/#website`,
+                  name: SITE_NAME,
+                  alternateName: SITE_ALT_NAMES,
+                  description: SITE_DESCRIPTION,
+                  url: SITE_URL,
+                  inLanguage: 'ja',
+                  publisher: { '@id': `${SITE_URL}/#organization` },
                 },
-                'query-input': 'required name=search_term_string',
-              },
-            }),
-          }}
-        />
-        {/* Structured Data: Organization + sameAs（ドメイン信頼性強化） */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Organization',
-              name: 'AI Documentary Report',
-              alternateName: 'AI Survival Report',
-              url: 'https://ai-survival.org',
-              logo: {
-                '@type': 'ImageObject',
-                url: 'https://ai-survival.org/og-image.png',
-              },
-              description: 'AIと人間の共存を、ドキュメンタリーとして記録するメディア。日本のAIリテラシー向上を支援する独立メディア。',
-              sameAs: [
-                'https://x.com/ai_survival',
-                'https://github.com/paperexplosion',
+                {
+                  ...ORGANIZATION_LD,
+                  description: 'AIと人間の共存を、ドキュメンタリーとして記録するメディア。日本のAIリテラシー向上を支援する独立メディア。運営：ストーリーテリング合同会社。',
+                  sameAs: [
+                    'https://x.com/ai_survival',
+                    'https://github.com/paperexplosion',
+                  ],
+                },
               ],
             }),
           }}

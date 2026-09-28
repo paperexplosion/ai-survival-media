@@ -3,8 +3,8 @@
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowLeft, Calendar } from "lucide-react";
-import { getBlogPost, getAllBlogPosts } from "@/lib/blog-posts";
+import { ArrowLeft, Calendar, UserCheck } from "lucide-react";
+import { getBlogPost, getRelatedPosts } from "@/lib/blog-posts";
 import { Suspense, useState, useEffect } from "react";
 import { AffiliateCard } from "@/components/affiliate-card";
 import { AffiliateInlineBanner } from "@/components/affiliate-inline-banner";
@@ -16,7 +16,7 @@ import DiagnosisCTABanner from "@/components/diagnosis-cta-banner";
 import { jobAgentServices, reskillingServices, getRandomServices } from "@/lib/affiliate-data";
 import type { AffiliateService } from "@/lib/affiliate-data";
 import { CategoryBadge } from "@/components/category-badge";
-import { categorySlug } from "@/lib/seo";
+import { AUTHOR_NAME, categorySlug } from "@/lib/seo";
 
 function BlogPostContent() {
     const params = useParams();
@@ -95,7 +95,7 @@ function BlogPostContent() {
                                 />
                             </div>
                         )}
-                        <div className="flex items-center gap-6 text-sm text-white mb-8">
+                        <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-white mb-8">
                             <span className="flex items-center gap-2">
                                 <Calendar className="w-4 h-4" />
                                 {new Date(post.date).toLocaleDateString('ja-JP', {
@@ -103,6 +103,12 @@ function BlogPostContent() {
                                     month: 'long',
                                     day: 'numeric'
                                 })}
+                            </span>
+                            <span className="flex items-center gap-2">
+                                <UserCheck className="w-4 h-4" />
+                                <span>
+                                    記事監修：<Link href="/about" className="underline decoration-white/40 underline-offset-4 hover:text-neon-cyan">{AUTHOR_NAME}</Link>
+                                </span>
                             </span>
                         </div>
                     </div>
@@ -263,11 +269,7 @@ function BlogPostContent() {
                 >
                     <h3 className="text-xl font-bold mb-6 text-foreground">Intelligence Reports おすすめ記事</h3>
                     <div className="grid md:grid-cols-2 gap-6">
-                        {[
-                            ...getAllBlogPosts().filter(p => p.slug !== post.slug && p.category === post.category).slice(0, 4),
-                            ...getAllBlogPosts().filter(p => p.slug !== post.slug && p.category !== post.category),
-                        ]
-                            .slice(0, 8)
+                        {getRelatedPosts(post, 8)
                             .map((relatedPost) => (
                                 <Link key={relatedPost.slug} href={`/blog/${relatedPost.slug}`} className="block">
                                 <motion.div

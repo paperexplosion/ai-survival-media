@@ -1,11 +1,13 @@
 "use client";
 
-import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FileText, Mail, Info } from 'lucide-react';
 
+// next/link を framer-motion で包む（見た目とホバーの動きはそのまま、中身は <a href>）
+const MotionLink = motion.create(Link);
+
 export default function Footer() {
-  const router = useRouter();
   const currentYear = new Date().getFullYear();
 
   const footerLinks = [
@@ -41,15 +43,15 @@ export default function Footer() {
               {footerLinks.map((link) => {
                 const Icon = link.icon;
                 return (
-                  <motion.button
+                  <MotionLink
                     key={link.path}
-                    onClick={() => router.push(link.path)}
+                    href={link.path}
                     whileHover={{ x: 5 }}
                     className="flex items-center gap-2 text-slate-50 hover:text-neon-cyan transition-colors text-left"
                   >
                     <Icon className="w-4 h-4" />
                     {link.label}
-                  </motion.button>
+                  </MotionLink>
                 );
               })}
             </div>

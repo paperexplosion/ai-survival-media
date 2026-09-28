@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getBlogPost } from "@/lib/blog-posts";
 import {
-  AUTHOR_NAME, AUTHOR_URL, LOGO_URL, SITE_NAME, SITE_URL,
+  AUTHOR_URL, EDITOR_LD, ORGANIZATION_LD, SITE_NAME, SITE_URL,
   absUrl, categorySlug, extractFaq, plain, postType, toIsoJst,
 } from "@/lib/seo";
 
@@ -22,7 +22,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title,
     description,
-    authors: [{ name: AUTHOR_NAME, url: AUTHOR_URL }],
+    authors: [{ name: SITE_NAME, url: SITE_URL }],
     alternates: { canonical: url, types: { 'application/rss+xml': [{ url: '/feed.xml', title: SITE_NAME }] } },
     openGraph: {
       type: "article", title, description, url, images, siteName: SITE_NAME, locale: "ja_JP",
@@ -53,11 +53,10 @@ function jsonLd(slug: string) {
       articleSection: post.category?.replace(/^\S+\s/, ""),
       wordCount: body.length,
       mainEntityOfPage: { "@type": "WebPage", "@id": url },
-      author: { "@type": "Person", name: AUTHOR_NAME, url: AUTHOR_URL, jobTitle: "編集長" },
-      publisher: {
-        "@type": "Organization", name: SITE_NAME, url: SITE_URL,
-        logo: { "@type": "ImageObject", url: LOGO_URL },
-      },
+      // 表示は「記事監修：鈴木隆文」のみ。書き手はメディア（Organization）、監修者を editor として示す
+      author: ORGANIZATION_LD,
+      editor: EDITOR_LD,
+      publisher: ORGANIZATION_LD,
     },
     {
       "@context": "https://schema.org",

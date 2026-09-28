@@ -1,4 +1,5 @@
 import blogPostsData from './blog-posts-data.json';
+import mergedPosts from './merged-posts.json';
 
 export interface AffiliateLink {
     title: string;
@@ -26,9 +27,12 @@ export interface BlogPost {
         image?: string;
     }[];
     affiliates?: AffiliateLink[];
+    related?: string[];   // 関連記事の slug（scripts/generate-blog-data.mjs が内容の近さで選ぶ）
 }
 
-const BLOG_POSTS: BlogPost[] = blogPostsData as BlogPost[];
+// 近似重複として代表記事へ統合した記事（next.config.js でリダイレクト）は一覧から外す
+const MERGED: Record<string, string> = mergedPosts.redirects;
+const BLOG_POSTS: BlogPost[] = (blogPostsData as BlogPost[]).filter(post => !MERGED[post.slug]);
 
 export function getBlogPost(slug: string): BlogPost | undefined {
     return BLOG_POSTS.find(post => post.slug === slug);
@@ -38,4 +42,25 @@ export function getAllBlogPosts(): BlogPost[] {
     return BLOG_POSTS
         .filter(post => post.date && post.slug !== 'README')
         .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+// 記事ページ下部の関連記事。generate-blog-data.mjs が選んだ順（内容の近さ）で返す。
+// パイプラインが直接追記した直後など related が無い記事は、同カテゴリ→その他の新しい順で補う。
+export function getRelatedPosts(post: BlogPost, count = 8): BlogPost[] {
+    const all = getAllBlogPosts();
+    const bySlug = new Map(all.map(p => [p.slug, p]));
+    const picked: BlogPost[] = [];
+    for (const s of post.related || []) {
+        const p = bySlug.get(s);
+        if (p && p.slug !== post.slug && !picked.includes(p)) picked.push(p);
+    }
+    const fallback = [
+        ...all.filter(p => p.category === post.category),
+        ...all.filter(p => p.category !== post.category),
+    ];
+    for (const p of fallback) {
+        if (picked.length >= count) break;
+        if (p.slug !== post.slug && !picked.includes(p)) picked.push(p);
+    }
+    return picked.slice(0, count);
 }

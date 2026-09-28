@@ -6,7 +6,7 @@ import { ArrowRight, Calendar } from 'lucide-react';
 import { getAllBlogPosts } from '@/lib/blog-posts';
 import { CategoryBadge } from '@/components/category-badge';
 import { convertGoogleDriveUrl } from '@/lib/google-drive-utils';
-import { CATEGORY_SLUGS, CATEGORY_DESCRIPTIONS, SITE_NAME, SITE_URL, categoryBySlug } from '@/lib/seo';
+import { CATEGORY_SLUGS, CATEGORY_DESCRIPTIONS, OG_IMAGE, SITE_NAME, SITE_URL, categoryBySlug } from '@/lib/seo';
 
 export function generateStaticParams() {
   return Object.values(CATEGORY_SLUGS).map((category) => ({ category }));
@@ -19,7 +19,7 @@ export function generateMetadata({ params }: { params: { category: string } }): 
   const title = `${label}の記事一覧 | ${SITE_NAME}`;
   const description = CATEGORY_DESCRIPTIONS[params.category];
   const url = `/blog/category/${params.category}`;
-  return { title, description, alternates: { canonical: url, types: { 'application/rss+xml': [{ url: '/feed.xml', title: SITE_NAME }] } }, openGraph: { title, description, url, type: 'website' } };
+  return { title, description, alternates: { canonical: url, types: { 'application/rss+xml': [{ url: '/feed.xml', title: SITE_NAME }] } }, openGraph: { title, description, url, type: 'website', siteName: SITE_NAME, locale: 'ja_JP', images: [OG_IMAGE] }, twitter: { card: 'summary_large_image', title, description, images: [OG_IMAGE] } };
 }
 
 export default function CategoryPage({ params }: { params: { category: string } }) {
