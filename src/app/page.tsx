@@ -2,6 +2,7 @@
 // ここはサーバー側で、トップ固有の title / description / canonical を持つ
 import type { Metadata } from 'next';
 import Home from '@/components/home-page';
+import { getAllBlogPosts, toCard } from '@/lib/blog-posts';
 import { pageMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = {
@@ -13,5 +14,6 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <Home />;
+  const all = getAllBlogPosts();
+  return <Home posts={all.slice(0, 9).map(toCard)} totalCount={all.length} />;
 }

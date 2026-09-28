@@ -5,18 +5,16 @@ import React from 'react';
 import Link from "next/link";
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
-import { getAllBlogPosts } from '@/lib/blog-posts';
+import type { PostCard } from '@/lib/blog-posts';
 import { convertGoogleDriveUrl } from '@/lib/google-drive-utils';
 import { ArrowRight, BookOpen, Sparkles, Target } from 'lucide-react';
 
 const brushFont = { fontFamily: "'Shiranui', sans-serif" };
 const minchoFont = { fontFamily: "'ICHIGAYA Mincho', 'Shippori Mincho B1', 'Noto Serif JP', 'Yu Mincho', serif" };
 
-export default function Home() {
+export default function Home({ posts, totalCount }: { posts: PostCard[]; totalCount: number }) {
   const router = useRouter();
-  const allPosts = getAllBlogPosts();
-  const posts = allPosts.slice(0, 9);
-  const latestPost = allPosts[0];
+  const latestPost = posts[0];
 
   return (
     <main className="min-h-screen relative overflow-hidden bg-[#0f172a] text-foreground font-sans selection:bg-neon-cyan/30 pt-20">
@@ -246,7 +244,7 @@ export default function Home() {
             ))}
           </div>
 
-          {allPosts.length > 9 && (
+          {totalCount > 9 && (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -268,7 +266,7 @@ export default function Home() {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </motion.button>
               <p className="text-gray-400 text-sm mt-4">
-                全{allPosts.length}件のレポートを閲覧できます
+                全{totalCount}件のレポートを閲覧できます
               </p>
             </motion.div>
           )}
