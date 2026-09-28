@@ -1,5 +1,13 @@
 [
   {
+    "slug": "ai-regulation-overview",
+    "title": "AI規制の動向と規制が緩い国・領域を整理",
+    "lead": "業務で使っているAIツールが、国をまたぐ規制の対象になるのか迷っていませんか。EU・日本・米国・中国の規制の力点の違いとリスクベースの考え方が分かれば、自社のAI利用がどの区分に当たるかを判断できます。",
+    "date": "2026-09-29",
+    "category": "⚔️ AI・国家・軍事・倫理",
+    "image": "/blog-images/ai-regulation-overview/cover.jpg"
+  },
+  {
     "slug": "20260221",
     "title": "",
     "lead": "",
