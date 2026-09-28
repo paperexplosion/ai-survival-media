@@ -25,3 +25,13 @@ AIを乗りこなすリーダーへ脱皮するために、以下の3つの戦�
 
 今日から、自らの業務を「AIならどう処理するか？」と問い直せ。もしAIの回答と自分の判断が同じなら、その業務は捨てていい。\n\nあなたの「違和感」や「主観」を大切にしろ。それこそが、AI時代において市場があなたという個人に支払う「指名料」の源泉となる。
 
+
+
+## 関連記事
+
+- [面接で「AIとの共生」をどう語るか？市場価値を2倍にするストーリー構成案](/blog/ai-interview-storytelling)
+
+- [ハイクラス転職を「人生のドキュメンタリー」として捉え直す勇気](/blog/career-documentary-courage)
+- [境界を溶かす「ドキュメンタリー的移動」——地方在住で外資系ITの椅子を奪う戦略](/blog/documentary-mobility-remote-strategy)
+- [「安定」は最大の生存リスク？IT業界で52歳からでも攻めるための思考法](/blog/stability-is-risk-52-strategy)
+- [【モノローグ】AIが私の仕事を奪う時、私は「物語」で反撃する](/blog/story-counterattack-when-ai-takes-job)

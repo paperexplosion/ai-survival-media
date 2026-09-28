@@ -26,3 +26,12 @@ readTime: 9分
 
 「もし失敗しても、それが最高のネタ（記録）になる」と考えてみろ。 そう思えた時、あなたはAIが計算できない自由な選択ができるようになる。その勇気が、あなたのキャリアに「本物の物語」を宿らせる。
 
+
+
+## 関連記事
+
+- [面接で「AIとの共生」をどう語るか？市場価値を2倍にするストーリー構成案](/blog/ai-interview-storytelling)
+
+- [境界を溶かす「ドキュメンタリー的移動」——地方在住で外資系ITの椅子を奪う戦略](/blog/documentary-mobility-remote-strategy)
+- [「安定」は最大の生存リスク？IT業界で52歳からでも攻めるための思考法](/blog/stability-is-risk-52-strategy)
+- [【モノローグ】AIが私の仕事を奪う時、私は「物語」で反撃する](/blog/story-counterattack-when-ai-takes-job)
