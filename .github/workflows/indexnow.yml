@@ -1,4 +1,6 @@
-# 記事が本番(main)に入ったら、Vercel の反映を待ってから IndexNow（Bing ほか）に新しい・更新された URL を通知する。
+# 記事が本番(main)に入ったら、Vercel の反映を待ってから
+#  - IndexNow（Bing ほか）に新しい・更新された URL を通知する
+#  - Google Search Console にサイトマップを送り直す（Google は IndexNow 非対応のため。secrets.GSC_SA_JSON があるときだけ）
 # 鍵は公開前提の値（public/99d307c2d283d798bfd80f55ffe09c35.txt に置く仕様）なので、シークレットではない。
 name: indexnow
 on:
@@ -53,4 +55,23 @@ jobs:
                       print("IndexNow エラー:", e.code, e.read()[:200])
                       if e.code not in (403, 429) or attempt == 3: raise SystemExit(1)
                       time.sleep(120)
+          P
+      - name: Google Search Console にサイトマップを送り直す
+        if: steps.urls.outputs.count != '0'
+        env:
+          GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
+        run: |
+          if [ -z "$GSC_SA_JSON" ]; then echo "GSC_SA_JSON 未設定のためスキップ"; exit 0; fi
+          pip install -q google-auth requests
+          python3 - <<'P'
+          import json, os, urllib.parse
+          from google.oauth2 import service_account
+          from google.auth.transport.requests import AuthorizedSession
+          cred = service_account.Credentials.from_service_account_info(json.loads(os.environ["GSC_SA_JSON"]), scopes=["https://www.googleapis.com/auth/webmasters"])
+          s = AuthorizedSession(cred)
+          site = urllib.parse.quote("https://ai-survival.org/", safe="")
+          for sm in ("sitemap.xml", "news-sitemap.xml"):
+              feed = urllib.parse.quote("https://ai-survival.org/" + sm, safe="")
+              r = s.put(f"https://www.googleapis.com/webmasters/v3/sites/{site}/sitemaps/{feed}", timeout=60)
+              print("Search Console:", sm, r.status_code, r.text[:150])
           P
