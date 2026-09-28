@@ -1,0 +1,53 @@
+# 記事が本番(main)に入ったら、Vercel の反映を待ってから IndexNow（Bing ほか）に新しい・更新された URL を通知する。
+# 鍵は公開前提の値（public/99d307c2d283d798bfd80f55ffe09c35.txt に置く仕様）なので、シークレットではない。
+name: indexnow
+on:
+  push:
+    branches: [main]
+    paths: ['src/content/blog/**.md']
+  workflow_dispatch:
+    inputs:
+      all:
+        description: 'サイトマップの全URLを通知する（初回・大きな修正のあと）'
+        type: boolean
+        default: false
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: 通知するURLを集める
+        id: urls
+        run: |
+          if [ "${{ inputs.all }}" = "true" ]; then
+            curl -s https://ai-survival.org/sitemap.xml | grep -o '<loc>[^<]*' | sed 's/<loc>//' > urls.txt
+          else
+            git diff --name-only --diff-filter=AM "${{ github.event.before }}" "${{ github.sha }}" -- 'src/content/blog/*.md' \
+              | grep -v README | sed -E 's#src/content/blog/(.*)\.md#https://ai-survival.org/blog/\1#' > urls.txt || true
+          fi
+          sed -i '/^$/d' urls.txt; echo "count=$(wc -l < urls.txt)" >> "$GITHUB_OUTPUT"; cat urls.txt
+      - name: 本番への反映を待つ（最大12分）
+        if: steps.urls.outputs.count != '0' && inputs.all != true
+        run: |
+          U=$(head -1 urls.txt)
+          for i in $(seq 1 36); do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "$U"); echo "$i: $code"
+            [ "$code" = "200" ] && exit 0; sleep 20
+          done
+          echo "反映を確認できませんでしたが、通知は行います"
+      - name: IndexNow に通知
+        if: steps.urls.outputs.count != '0'
+        run: |
+          python3 - <<'P'
+          import json, urllib.request
+          urls = [u.strip() for u in open("urls.txt") if u.strip()]
+          for i in range(0, len(urls), 9000):
+              body = json.dumps({"host": "ai-survival.org", "key": "99d307c2d283d798bfd80f55ffe09c35",
+                                 "keyLocation": "https://ai-survival.org/99d307c2d283d798bfd80f55ffe09c35.txt", "urlList": urls[i:i+9000]}).encode()
+              req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body, headers={"Content-Type": "application/json; charset=utf-8"})
+              try:
+                  r = urllib.request.urlopen(req, timeout=60); print("IndexNow:", r.status, len(urls[i:i+9000]), "件")
+              except urllib.error.HTTPError as e:
+                  print("IndexNow エラー:", e.code, e.read()[:200]); raise SystemExit(1)
+          P
