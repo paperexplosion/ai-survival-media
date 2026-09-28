@@ -1,11 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { getRandomServices, reskillingServices } from '@/lib/affiliate-data';
 import AffiliateServiceCard from './affiliate-service-card';
 
 export default function ReskillingBlock() {
-  const [services, setServices] = useState(getRandomServices(reskillingServices, 6));
+  // 最初はサーバーと同じ固定の並び。ランダムな選び直しはブラウザ側だけで行う
+  const [services, setServices] = useState(() => reskillingServices.slice(0, 6));
+  useEffect(() => { setServices(getRandomServices(reskillingServices, 6)); }, []);
 
   const handleShuffle = () => {
     setServices(getRandomServices(reskillingServices, 6));
