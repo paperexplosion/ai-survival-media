@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: 'AI Documentary Report',
     description: 'AIと人間の共存を記録する。',
     url: 'https://ai-survival.org',
-    siteName: 'AI Documentary Report',
+    siteName: SITE_NAME,
     locale: 'ja_JP',
     type: 'website',
     images: [
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   // canonical は各ページが自分で持つ（ここで決めると全ページがトップを名乗ってしまうため置かない）
   alternates: {
-    types: { 'application/rss+xml': [{ url: '/feed.xml', title: 'AI Documentary Report' }] },
+    types: { 'application/rss+xml': [{ url: '/feed.xml', title: SITE_NAME }] },
   },
   robots: {
     index: true,
