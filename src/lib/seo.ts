@@ -1,11 +1,58 @@
 // SEO・配信（構造化データ・RSS・ニュースサイトマップ・カテゴリページ）の共通処理
+import type { Metadata } from 'next';
 import type { BlogPost } from './blog-posts';
 
 export const SITE_URL = 'https://ai-survival.org';
+// 正式名称（2026-09-28 統一）。ドメインは ai-survival.org のまま。旧称は構造化データの alternateName にだけ残す
 export const SITE_NAME = 'AI Documentary Report';
+export const SITE_ALT_NAMES = ['AI Survival Report', 'AIサバイバル・レポート'];
+export const SITE_DESCRIPTION = 'AIと人間の共存を、ドキュメンタリーとして記録するメディア。AIで仕事・暮らし・生き方がどう変わるのかを、報道と一次資料から記録する。';
+export const PUBLISHER_NAME = 'ストーリーテリング合同会社';
+// 記事の表示は「記事監修：鈴木隆文」だけ（2026-09-28 鈴木編集長兼社長の決定）。
+// 構造化データでは author = メディア（Organization）、editor = 鈴木隆文（Person）とする
 export const AUTHOR_NAME = '鈴木隆文';
 export const AUTHOR_URL = `${SITE_URL}/about`;
 export const LOGO_URL = `${SITE_URL}/icon`;
+export const OG_IMAGE = '/og-image.png';
+
+export const ORGANIZATION_LD = {
+  '@type': 'Organization',
+  '@id': `${SITE_URL}/#organization`,
+  name: SITE_NAME,
+  alternateName: SITE_ALT_NAMES,
+  url: SITE_URL,
+  logo: { '@type': 'ImageObject', url: LOGO_URL },
+};
+
+export const EDITOR_LD = {
+  '@type': 'Person',
+  '@id': `${SITE_URL}/about#editor`,
+  name: AUTHOR_NAME,
+  jobTitle: '編集長（記事監修）',
+  url: AUTHOR_URL,
+  worksFor: { '@type': 'Organization', name: PUBLISHER_NAME, url: 'https://storytelling.studio.site/' },
+};
+
+// 各ページ固有の title / description / canonical / OGP をまとめて作る。
+// Next.js は子ページで alternates・openGraph を定義すると親の値を丸ごと置き換えるので、毎回すべて渡す
+export function pageMetadata({ path, title, description, noindex = false }: {
+  path: string; title: string; description: string; noindex?: boolean;
+}): Metadata {
+  const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
+  const images = [{ url: OG_IMAGE, width: 1200, height: 630, alt: SITE_NAME }];
+  return {
+    title: { absolute: fullTitle },
+    description,
+    alternates: {
+      // noindex のページは canonical を出さない（「このURLが正本」と「検索に出さない」を同時に言わない）
+      ...(noindex ? {} : { canonical: path }),
+      types: { 'application/rss+xml': [{ url: '/feed.xml', title: SITE_NAME }] },
+    },
+    openGraph: { title: fullTitle, description, url: path, siteName: SITE_NAME, locale: 'ja_JP', type: 'website', images },
+    twitter: { card: 'summary_large_image', title: fullTitle, description, images },
+    ...(noindex ? { robots: { index: false, follow: true } } : {}),
+  };
+}
 
 // カテゴリ（CATEGORY_INFO の正式名）と URL 用の英語スラッグ
 export const CATEGORY_SLUGS: Record<string, string> = {

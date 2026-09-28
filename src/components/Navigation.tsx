@@ -1,12 +1,12 @@
 "use client";
 
-import { usePathname, useRouter } from 'next/navigation';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { BookOpen, DoorOpen, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Navigation() {
-  const router = useRouter();
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -26,9 +26,10 @@ export default function Navigation() {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <button
-            onClick={() => router.push('/')}
-            className="flex items-center gap-3 group"
+          <Link
+            href="/"
+            aria-label="AI Documentary Report トップへ"
+            className="flex items-center gap-3 group text-center"
           >
             <div className="w-10 h-10 rounded-full bg-gradient-to-r from-neon-cyan to-neon-purple flex items-center justify-center">
               <span className="text-white font-bold text-lg">AI</span>
@@ -41,7 +42,7 @@ export default function Navigation() {
                 AIと人間の共存を記録する
               </div>
             </div>
-          </button>
+          </Link>
 
           <div className="hidden md:flex items-center gap-2">
             {navItems.map((item) => {
@@ -49,9 +50,10 @@ export default function Navigation() {
               const Icon = item.icon;
 
               return (
-                <button
+                <Link
                   key={item.path}
-                  onClick={() => router.push(item.path)}
+                  href={item.path}
+                  aria-current={isActive ? 'page' : undefined}
                   className={`px-6 py-2 rounded-full font-bold text-sm transition-all flex items-center gap-2 ${
                     isActive
                       ? 'bg-gradient-to-r from-neon-cyan to-neon-purple text-white'
@@ -60,13 +62,15 @@ export default function Navigation() {
                 >
                   {Icon && <Icon className="w-4 h-4" />}
                   {item.label}
-                </button>
+                </Link>
               );
             })}
           </div>
 
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label={isMenuOpen ? 'メニューを閉じる' : 'メニューを開く'}
+            aria-expanded={isMenuOpen}
             className="md:hidden p-2 text-white hover:text-neon-cyan transition-colors"
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -86,12 +90,11 @@ export default function Navigation() {
                 const Icon = item.icon;
 
                 return (
-                  <button
+                  <Link
                     key={item.path}
-                    onClick={() => {
-                      router.push(item.path);
-                      setIsMenuOpen(false);
-                    }}
+                    href={item.path}
+                    aria-current={isActive ? 'page' : undefined}
+                    onClick={() => setIsMenuOpen(false)}
                     className={`px-6 py-3 rounded-full font-bold text-sm transition-all flex items-center gap-2 ${
                       isActive
                         ? 'bg-gradient-to-r from-neon-cyan to-neon-purple text-white'
@@ -100,7 +103,7 @@ export default function Navigation() {
                   >
                     {Icon && <Icon className="w-4 h-4" />}
                     {item.label}
-                  </button>
+                  </Link>
                 );
               })}
             </div>

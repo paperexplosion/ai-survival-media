@@ -205,7 +205,7 @@ function JobPostContent() {
                         onClick={() => router.push("/")}
                         className="px-8 py-3 glass rounded-full hover:bg-white/5 transition-all"
                     >
-                        <span className="text-foreground">AIサバイバル・インテリジェンス トップへ</span>
+                        <span className="text-foreground">AI Documentary Report トップへ</span>
                     </button>
                 </motion.div>
             </div>
