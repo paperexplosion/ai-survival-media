@@ -27,3 +27,12 @@ readTime: 9分
 
 今日、AIが作ったものに「NO」と言ってみろ。 たとえ効率が悪くても、あなたが「こうありたい」と願う形に書き直せ。その微細な修正の積み重ねが、AIという荒波の中で、あなたという人間を形作る唯一の「物語」になる。
 
+
+
+## 関連記事
+
+- [面接で「AIとの共生」をどう語るか？市場価値を2倍にするストーリー構成案](/blog/ai-interview-storytelling)
+
+- [ハイクラス転職を「人生のドキュメンタリー」として捉え直す勇気](/blog/career-documentary-courage)
+- [境界を溶かす「ドキュメンタリー的移動」——地方在住で外資系ITの椅子を奪う戦略](/blog/documentary-mobility-remote-strategy)
+- [「安定」は最大の生存リスク？IT業界で52歳からでも攻めるための思考法](/blog/stability-is-risk-52-strategy)
