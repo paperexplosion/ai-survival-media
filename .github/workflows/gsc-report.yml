@@ -1,0 +1,21 @@
+# 毎週月曜の朝（日本時間9時ごろ）に、Search Console で全記事のインデックス登録状況を調べ、
+# Issue「Search Console 週次レポート」に先週との差分を書き足す。手動実行も可。
+name: gsc-report
+on:
+  schedule:
+    - cron: '17 0 * * 1'
+  workflow_dispatch:
+permissions:
+  issues: write
+  contents: read
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q google-auth requests
+      - name: 調べてレポートを書き足す
+        env:
+          GSC_SA_JSON: ${{ secrets.GSC_SA_JSON }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/gsc_report.py
