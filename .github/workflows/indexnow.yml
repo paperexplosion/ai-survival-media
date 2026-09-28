@@ -40,14 +40,17 @@ jobs:
         if: steps.urls.outputs.count != '0'
         run: |
           python3 - <<'P'
-          import json, urllib.request
+          import json, time, urllib.request
           urls = [u.strip() for u in open("urls.txt") if u.strip()]
           for i in range(0, len(urls), 9000):
               body = json.dumps({"host": "ai-survival.org", "key": "99d307c2d283d798bfd80f55ffe09c35",
                                  "keyLocation": "https://ai-survival.org/99d307c2d283d798bfd80f55ffe09c35.txt", "urlList": urls[i:i+9000]}).encode()
               req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body, headers={"Content-Type": "application/json; charset=utf-8"})
-              try:
-                  r = urllib.request.urlopen(req, timeout=60); print("IndexNow:", r.status, len(urls[i:i+9000]), "件")
-              except urllib.error.HTTPError as e:
-                  print("IndexNow エラー:", e.code, e.read()[:200]); raise SystemExit(1)
+              for attempt in range(4):   # 403(鍵の確認待ち)・429(混雑)は時間をおいてやり直す
+                  try:
+                      r = urllib.request.urlopen(req, timeout=60); print("IndexNow:", r.status, len(urls[i:i+9000]), "件"); break
+                  except urllib.error.HTTPError as e:
+                      print("IndexNow エラー:", e.code, e.read()[:200])
+                      if e.code not in (403, 429) or attempt == 3: raise SystemExit(1)
+                      time.sleep(120)
           P
