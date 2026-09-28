@@ -64,3 +64,10 @@ export function getRelatedPosts(post: BlogPost, count = 8): BlogPost[] {
     }
     return picked.slice(0, count);
 }
+
+// ブラウザに渡す一覧用の軽いデータ（本文を含めない）。全記事の本文(数MB)をブラウザに送らないため
+export type PostCard = Pick<BlogPost, 'slug' | 'title' | 'lead' | 'date' | 'category' | 'image'>;
+
+export function toCard(p: BlogPost): PostCard {
+    return { slug: p.slug, title: p.title, lead: p.lead, date: p.date, category: p.category, ...(p.image ? { image: p.image } : {}) };
+}

@@ -1,11 +1,13 @@
 'use client';
 
-import { useState } from 'react';
-import { getBalancedJobAgents } from '@/lib/affiliate-data';
+import { useEffect, useState } from 'react';
+import { getBalancedJobAgents, jobAgentServices } from '@/lib/affiliate-data';
 import AffiliateServiceCard from './affiliate-service-card';
 
 export default function JobAgentBlock() {
-  const [services, setServices] = useState(getBalancedJobAgents());
+  // 最初はサーバーと同じ固定の並び。ランダムな選び直しはブラウザ側だけで行う（サーバーとブラウザで表示が食い違わないように）
+  const [services, setServices] = useState(() => jobAgentServices.slice(0, getBalancedJobAgents().length));
+  useEffect(() => { setServices(getBalancedJobAgents()); }, []);
 
   const handleShuffle = () => {
     setServices(getBalancedJobAgents());
