@@ -119,6 +119,10 @@ API価格は据え置きとされています。入力100万トークンあた�
 
 エージェント性能ではSonnet 5.5がAstraを上回ったとされます。Artificial Analysisの「Terminal-Bench 4.0」ではSonnet 5.5が64％、Astraが60％でした[1]。実務能力を測る「GDPval-AA」や「AA-Briefcase」ではOpus 5.5とほぼ同水準に達しています[1]。
 
+## 関連する記録
+
+- [OpenAI Dotsとは？常時稼働AIエージェントの全貌](/blog/product-20260930-openai-dots-agents)
+
 ## 出典・参考資料
 
 1. [Anthropic「Claude Sonnet 5.5」発表、一部でOpenAI「GPT-6 Astra」上回る](https://ascii.jp/elem/000/004/438/4438155/?rss)（参照日：2026年9月29日）
