@@ -1,0 +1,39 @@
+name: pr-review-notify
+# 記事パイプラインが「要確認」判定で止めたPRに気づけるようにする通知。
+# PRは鈴木さん自身のトークン(BLOG_REPO_TOKEN)で作られるためGitHubは本人に通知を送らない。
+# github-actions[bot]が別人格としてコメントすることで、Vercel botのコメントと同様にメール通知が届く。
+on:
+  pull_request_target:
+    types: [opened, reopened]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "対象PR番号（手動でも通知したいとき）"
+        required: true
+
+permissions:
+  pull-requests: write
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 要確認PRかどうかを見て通知コメントを付ける
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.inputs.pr_number || github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          BODY=$(gh pr view "$PR_NUMBER" --repo "$REPO" --json body -q .body)
+          if echo "$BODY" | grep -q "要確認"; then
+            REASON=$(echo "$BODY" | sed -n '/要確認/,$p' | tail -n +2 | head -5)
+            gh pr comment "$PR_NUMBER" --repo "$REPO" --body "🔔 **要確認の記事です。公開前にご確認ください。**
+
+$REASON
+
+このコメントは記事パイプラインの自動通知です（PRは鈴木さんご自身のトークンで作られるため、本人には通常のGitHub通知が届きません。このコメントで代わりにメール通知が届くようにしています）。"
+            echo "通知コメントを付けました"
+          else
+            echo "要確認の記述なし。通知不要"
+          fi
