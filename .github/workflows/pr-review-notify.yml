@@ -28,11 +28,10 @@ jobs:
           BODY=$(gh pr view "$PR_NUMBER" --repo "$REPO" --json body -q .body)
           if echo "$BODY" | grep -q "要確認"; then
             REASON=$(echo "$BODY" | sed -n '/要確認/,$p' | tail -n +2 | head -5)
-            gh pr comment "$PR_NUMBER" --repo "$REPO" --body "🔔 **要確認の記事です。公開前にご確認ください。**
-
-$REASON
-
-このコメントは記事パイプラインの自動通知です（PRは鈴木さんご自身のトークンで作られるため、本人には通常のGitHub通知が届きません。このコメントで代わりにメール通知が届くようにしています）。"
+            COMMENT="🔔 **要確認の記事です。公開前にご確認ください。**"
+            COMMENT="${COMMENT}"$'\n\n'"${REASON}"
+            COMMENT="${COMMENT}"$'\n\n'"このコメントは記事パイプラインの自動通知です（PRは鈴木さんご自身のトークンで作られるため、本人には通常のGitHub通知が届きません。このコメントで代わりにメール通知が届くようにしています）。"
+            gh pr comment "$PR_NUMBER" --repo "$REPO" --body "$COMMENT"
             echo "通知コメントを付けました"
           else
             echo "要確認の記述なし。通知不要"
