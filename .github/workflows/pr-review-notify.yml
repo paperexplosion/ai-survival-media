@@ -1,38 +1,58 @@
 name: pr-review-notify
-# 記事パイプラインが「要確認」判定で止めたPRに気づけるようにする通知。
-# PRは鈴木さん自身のトークン(BLOG_REPO_TOKEN)で作られるためGitHubは本人に通知を送らない。
-# github-actions[bot]が別人格としてコメントすることで、Vercel botのコメントと同様にメール通知が届く。
+# 記事パイプラインが「要確認」判定で止めたPRを自動処理する。
+# 1. 通知コメント（PRは鈴木さん自身のトークンで作られるため本人にGitHub通知が来ない → github-actions[bot]のコメントでメール通知を代替）
+# 2. 出典を実際に取得してDeepSeekに裏取りさせ、指摘が誤検知なら自動マージ、本当に問題があれば人のレビューに残す(verify_review_flags.py)
 on:
   pull_request_target:
     types: [opened, reopened]
   workflow_dispatch:
     inputs:
       pr_number:
-        description: "対象PR番号（手動でも通知したいとき）"
+        description: "対象PR番号（手動実行用）"
         required: true
 
 permissions:
+  contents: write
   pull-requests: write
 
 jobs:
   notify:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
       - name: 要確認PRかどうかを見て通知コメントを付ける
+        id: notify
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ github.event.inputs.pr_number || github.event.pull_request.number }}
           REPO: ${{ github.repository }}
         run: |
+          echo "pr_number=${PR_NUMBER}" >> "$GITHUB_OUTPUT"
           BODY=$(gh pr view "$PR_NUMBER" --repo "$REPO" --json body -q .body)
           if echo "$BODY" | grep -q "要確認"; then
+            echo "has_flags=1" >> "$GITHUB_OUTPUT"
             REASON=$(echo "$BODY" | sed -n '/要確認/,$p' | tail -n +2 | head -5)
-            COMMENT="🔔 **要確認の記事です。公開前にご確認ください。**"
+            COMMENT="🔔 **要確認の記事です。これからAIが出典を裏取りして自動判定します。**"
             COMMENT="${COMMENT}"$'\n\n'"${REASON}"
             COMMENT="${COMMENT}"$'\n\n'"このコメントは記事パイプラインの自動通知です（PRは鈴木さんご自身のトークンで作られるため、本人には通常のGitHub通知が届きません。このコメントで代わりにメール通知が届くようにしています）。"
             gh pr comment "$PR_NUMBER" --repo "$REPO" --body "$COMMENT"
             echo "通知コメントを付けました"
           else
+            echo "has_flags=0" >> "$GITHUB_OUTPUT"
             echo "要確認の記述なし。通知不要"
           fi
+      - name: 出典を裏取りして誤検知なら自動マージ
+        if: steps.notify.outputs.has_flags == '1'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python3 scripts/verify_review_flags.py "${{ steps.notify.outputs.pr_number }}"
+      # コンテンツ管理DBへの登録は content-db-sync.yml（mainへのpushで発火）が担当。
+      # 直接公開(mode=main)・PRマージのどちらでも同じ経路で拾えるようにするため、ここでは行わない。
