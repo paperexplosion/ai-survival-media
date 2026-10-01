@@ -5,7 +5,7 @@
 使い方: python3 verify_review_flags.py <PR番号>
 環境変数: GITHUB_TOKEN, DEEPSEEK_API_KEY, GITHUB_REPOSITORY
 """
-import json, os, re, subprocess, sys, urllib.request
+import json, os, re, subprocess, sys, urllib.error, urllib.request
 
 REPO = os.environ["GITHUB_REPOSITORY"]
 PR_NUMBER = sys.argv[1]
@@ -146,8 +146,12 @@ def _ask_claude(prompt):
         }).encode(),
         headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
     )
-    with urllib.request.urlopen(req, timeout=60) as r:
-        data = json.load(r)
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            data = json.load(r)
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="ignore")
+        raise RuntimeError(f"Claude API HTTP {e.code}: {body[:300]}")
     text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
     text = re.sub(r"^```(json)?|```$", "", text.strip(), flags=re.M).strip()
     return json.loads(text)
