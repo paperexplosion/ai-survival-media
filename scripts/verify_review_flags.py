@@ -55,7 +55,7 @@ def get_article_markdown(files, head_sha):
     texts = {}
     for path in candidates:
         out = subprocess.run(
-            ["gh", "api", f"repos/{REPO}/contents/{path}", "-f", f"ref={head_sha}", "--jq", ".content"],
+            ["gh", "api", f"repos/{REPO}/contents/{path}?ref={head_sha}", "--jq", ".content"],
             capture_output=True, text=True,
         )
         if out.returncode != 0:
