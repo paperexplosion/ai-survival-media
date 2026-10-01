@@ -113,6 +113,10 @@ AI×Amazon副業の記事を読み終えたとき、私たちの手元には「4
 
 まず自分に合う副業モデルを選ぶところから始まります。物販・Kindle出版・アソシエイト・Merch on Demandの4つが代表的で、初期費用や必要な作業時間は手法ごとに異なります[2]。モデルを決めたら、AIチャットボットに売れ筋ジャンルや競合の少ないキーワードを尋ね、市場調査と企画の仮説を立てる流れが基本です[2]。
 
+## 関連する記録
+
+- [AI副業をやってみた：月5万円までの現実と収益の出どころ](/blog/ai-side-business-experience-monthly-income)
+
 ## 出典・参考資料
 
 2. [【2026年最新】AI×Amazon副業のやり方4選｜始め方・稼ぐコツ・注意点を解説 | THE CKB](https://www.theckb.com/archive/how-to-start-an-ai-powered-amazon-side-hustle/)（参照日：2026年9月30日）
