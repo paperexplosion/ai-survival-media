@@ -91,9 +91,9 @@ def fetch_text(url, max_chars=6000):
         return f"(取得失敗: {e})"
 
 
-def ask_deepseek(flag_text, source_texts):
+def _build_prompt(flag_text, source_texts):
     sources_block = "\n\n".join(f"--- 出典{n} ---\n{t}" for n, t in source_texts.items())
-    prompt = f"""以下は記事の自動ファクトチェックが「要確認」と判定した指摘です。実際の出典本文を示すので、この指摘が本当に問題（記事の誤り）なのか、それとも誤検知（実際は正しい）なのかを判定してください。
+    return f"""以下は記事の自動ファクトチェックが「要確認」と判定した指摘です。実際の出典本文を示すので、この指摘が本当に問題（記事の誤り）なのか、それとも誤検知（実際は正しい）なのかを判定してください。
 
 【要確認の指摘】
 {flag_text}
@@ -106,6 +106,9 @@ def ask_deepseek(flag_text, source_texts):
 "OK" = 記事の記述は出典と矛盾しない、誤検知だった。
 "ISSUE" = 記事の記述が出典と食い違っている、本当に修正が必要。
 """
+
+
+def _ask_deepseek(prompt):
     req = urllib.request.Request(
         "https://api.deepseek.com/chat/completions",
         data=json.dumps({
@@ -117,7 +120,7 @@ def ask_deepseek(flag_text, source_texts):
         headers={"Authorization": f"Bearer {DEEPSEEK_KEY}", "Content-Type": "application/json"},
     )
     last_err = None
-    for attempt in range(3):
+    for attempt in range(2):
         try:
             with urllib.request.urlopen(req, timeout=45) as r:
                 data = json.load(r)
@@ -127,6 +130,38 @@ def ask_deepseek(flag_text, source_texts):
             last_err = e
             continue
     raise last_err
+
+
+def _ask_claude(prompt):
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if not key:
+        raise RuntimeError("ANTHROPIC_API_KEY も未設定のためバックアップに切り替えられません")
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages",
+        data=json.dumps({
+            "model": "claude-sonnet-5",
+            "max_tokens": 500,
+            "temperature": 0,
+            "messages": [{"role": "user", "content": prompt + "\n\n(JSON以外の文字は一切出力しないこと)"}],
+        }).encode(),
+        headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+    )
+    with urllib.request.urlopen(req, timeout=60) as r:
+        data = json.load(r)
+    text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
+    text = re.sub(r"^```(json)?|```$", "", text.strip(), flags=re.M).strip()
+    return json.loads(text)
+
+
+def ask_deepseek(flag_text, source_texts):
+    prompt = _build_prompt(flag_text, source_texts)
+    try:
+        return _ask_deepseek(prompt)
+    except Exception as e:
+        if not os.environ.get("ANTHROPIC_API_KEY"):
+            raise
+        print(f"DeepSeekが使えないためClaudeに切り替えます: {str(e)[:100]}", file=sys.stderr)
+        return _ask_claude(prompt)
 
 
 def main():
