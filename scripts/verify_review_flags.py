@@ -20,12 +20,13 @@ def gh(*args):
     return out.stdout
 
 
-def get_pr_body():
-    return json.loads(gh("pr", "view", PR_NUMBER, "--json", "body"))["body"]
+def get_pr_info():
+    return json.loads(gh("pr", "view", PR_NUMBER, "--json", "body,files,headRefOid"))
 
 
 def parse_flags(body):
-    m = re.search(r"要確認\s*\n(.+?)(?:\n##|\Z)", body, re.S)
+    # 「要確認」の直後に括弧書きの注釈が付く形式(daily.yml)と付かない形式(product/seo)の両方に対応
+    m = re.search(r"要確認[^\n]*\n(.+?)(?:\n##|\Z)", body, re.S)
     if not m:
         return []
     flags = []
@@ -38,11 +39,33 @@ def parse_flags(body):
     return flags
 
 
-def parse_sources(body):
+def parse_sources(markdown):
     sources = {}
-    for m in re.finditer(r"^(\d+)\.\s*\[.*?\]\((https?://[^\s)]+)\)", body, re.M):
+    for m in re.finditer(r"^(\d+)\.\s*\[.*?\]\((https?://[^\s)]+)\)", markdown, re.M):
         sources[int(m.group(1))] = m.group(2)
     return sources
+
+
+def get_article_markdown(files, head_sha):
+    """PRで変更されたsrc/content/blog/*.mdのうち、新規追加された記事本体を取得する。
+    (重複表示されている既公開記事ではなく、本来の対象記事を取るため、
+    最も'要確認'の出典数が多い=本文が長いものを優先的に全部候補にする)
+    """
+    candidates = [f["path"] for f in files if re.match(r"^src/content/blog/.+\.md$", f["path"])]
+    texts = {}
+    for path in candidates:
+        out = subprocess.run(
+            ["gh", "api", f"repos/{REPO}/contents/{path}", "-f", f"ref={head_sha}", "--jq", ".content"],
+            capture_output=True, text=True,
+        )
+        if out.returncode != 0:
+            continue
+        import base64
+        try:
+            texts[path] = base64.b64decode(out.stdout.strip()).decode("utf-8", errors="ignore")
+        except Exception:
+            continue
+    return texts
 
 
 def fetch_text(url, max_chars=6000):
@@ -90,19 +113,28 @@ def ask_deepseek(flag_text, source_texts):
 
 
 def main():
-    body = get_pr_body()
+    info = get_pr_info()
+    body = info["body"]
     flags = parse_flags(body)
-    sources = parse_sources(body)
 
     if not flags:
         print("要確認の指摘なし。対象外")
         return
 
+    article_texts = get_article_markdown(info["files"], info["headRefOid"])
+    # 全記事本体を連結して出典リストを探す(どのファイルに出典節があるか不明なため)
+    combined_markdown = "\n".join(article_texts.values())
+    sources = parse_sources(combined_markdown)
+
     results = []
     for flag in flags:
         source_texts = {n: fetch_text(sources[n]) for n in flag["cites"] if n in sources}
         if not source_texts:
-            results.append({"flag": flag["text"], "verdict": "ISSUE", "reason": "出典URLが取得できず裏取り不能"})
+            results.append({
+                "flag": flag["text"],
+                "verdict": "ISSUE",
+                "reason": f"出典{flag['cites']}が記事本文から見つからず裏取り不能(人の確認が必要)" if flag["cites"] else "指摘に出典番号が無く裏取り不能(人の確認が必要)",
+            })
             continue
         verdict = ask_deepseek(flag["text"], source_texts)
         results.append({"flag": flag["text"], **verdict})
@@ -129,6 +161,7 @@ def main():
     gh("pr", "comment", PR_NUMBER, "--body-file", "/tmp/_comment.txt")
 
     if not issues and mergeable != "CONFLICTING":
+        gh("pr", "ready", PR_NUMBER)
         gh("pr", "merge", PR_NUMBER, "--squash", "--delete-branch")
         print("全指摘が誤検知と判定されたため自動マージしました")
     elif issues:
