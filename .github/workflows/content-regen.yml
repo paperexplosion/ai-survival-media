@@ -1,0 +1,38 @@
+name: content-regen
+# blog-posts-data.json は記事ファイル(src/content/blog/*.md)から自動生成される派生ファイル。
+# これを各記事PRに含めて手動更新していたため、複数PRが同時に開いていると
+# 必ずこのファイルの奪い合いでマージコンフリクトする事故が続発した(2026-10-02)。
+# 今後は記事PR側はこのファイルに一切触れず、mainへのpush(直接公開・PRマージ問わず)
+# のたびにこのワークフローが記事ファイルから再生成してmainへ直接コミットする。
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/content/blog/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-regen
+  cancel-in-progress: false
+
+jobs:
+  regen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: node scripts/generate-blog-data.mjs
+      - run: node scripts/generate-job-data.mjs
+      - name: 変更があればコミット
+        run: |
+          git config user.name "ai-survival-bot"
+          git config user.email "noreply@users.noreply.github.com"
+          git add src/lib/blog-posts-data.json src/lib/job-posts-data.json
+          git diff --cached --quiet || (git commit -m "chore: 記事ファイルからblog-posts-data.jsonを自動再生成" && git push)
