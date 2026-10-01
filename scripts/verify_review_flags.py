@@ -185,7 +185,7 @@ def main():
 
     results = []
     for flag in flags:
-        news_m = re.match(r"ニュース(\d+)", flag["text"])
+        news_m = re.search(r"ニュース(\d+)", flag["text"])
         if news_m and not flag["cites"]:
             n = int(news_m.group(1))
             source_texts = {n: fetch_text(news_sources[n])} if n in news_sources else {}
