@@ -106,10 +106,17 @@ def ask_deepseek(flag_text, source_texts):
         }).encode(),
         headers={"Authorization": f"Bearer {DEEPSEEK_KEY}", "Content-Type": "application/json"},
     )
-    with urllib.request.urlopen(req, timeout=60) as r:
-        data = json.load(r)
-    content = data["choices"][0]["message"]["content"]
-    return json.loads(content)
+    last_err = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=45) as r:
+                data = json.load(r)
+            content = data["choices"][0]["message"]["content"]
+            return json.loads(content)
+        except Exception as e:
+            last_err = e
+            continue
+    raise last_err
 
 
 def main():
@@ -136,7 +143,10 @@ def main():
                 "reason": f"出典{flag['cites']}が記事本文から見つからず裏取り不能(人の確認が必要)" if flag["cites"] else "指摘に出典番号が無く裏取り不能(人の確認が必要)",
             })
             continue
-        verdict = ask_deepseek(flag["text"], source_texts)
+        try:
+            verdict = ask_deepseek(flag["text"], source_texts)
+        except Exception as e:
+            verdict = {"verdict": "ISSUE", "reason": f"AI裏取り呼び出しが失敗(人の確認が必要): {e}"}
         results.append({"flag": flag["text"], **verdict})
 
     issues = [r for r in results if r["verdict"] != "OK"]
