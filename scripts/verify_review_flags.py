@@ -34,16 +34,26 @@ def parse_flags(body):
         line = line.strip("- ").strip()
         if not line:
             continue
-        cites = re.findall(r"\[(\d+)\]", line)
-        flags.append({"text": line, "cites": [int(c) for c in cites]})
+        # [7] のようなブラケット表記と、「出典7」のような文中表記の両方を拾う
+        cites = re.findall(r"\[(\d+)\]", line) + re.findall(r"出典(\d+)", line)
+        cites = sorted(set(int(c) for c in cites))
+        flags.append({"text": line, "cites": cites})
     return flags
 
 
 def parse_sources(markdown):
+    """SEO/製品紹介記事: 末尾の「N. [title](url)」形式の出典リスト"""
     sources = {}
     for m in re.finditer(r"^(\d+)\.\s*\[.*?\]\((https?://[^\s)]+)\)", markdown, re.M):
         sources[int(m.group(1))] = m.group(2)
     return sources
+
+
+def parse_news_sources(markdown):
+    """ニュース記事: 本文中に「**出典：** [title](url)」が記事ごとに1個ずつ現れる形式。
+    出現順＝「ニュース1」「ニュース2」…の番号に対応する。"""
+    urls = re.findall(r"出典：\*\*\s*\[.*?\]\((https?://[^\s)]+)\)", markdown)
+    return {i + 1: url for i, url in enumerate(urls)}
 
 
 def get_article_markdown(files, head_sha):
@@ -132,10 +142,16 @@ def main():
     # 全記事本体を連結して出典リストを探す(どのファイルに出典節があるか不明なため)
     combined_markdown = "\n".join(article_texts.values())
     sources = parse_sources(combined_markdown)
+    news_sources = parse_news_sources(combined_markdown)
 
     results = []
     for flag in flags:
-        source_texts = {n: fetch_text(sources[n]) for n in flag["cites"] if n in sources}
+        news_m = re.match(r"ニュース(\d+)", flag["text"])
+        if news_m and not flag["cites"]:
+            n = int(news_m.group(1))
+            source_texts = {n: fetch_text(news_sources[n])} if n in news_sources else {}
+        else:
+            source_texts = {n: fetch_text(sources[n]) for n in flag["cites"] if n in sources}
         if not source_texts:
             results.append({
                 "flag": flag["text"],
