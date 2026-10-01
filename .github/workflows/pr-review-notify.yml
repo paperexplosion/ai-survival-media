@@ -52,6 +52,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python3 scripts/verify_review_flags.py "${{ steps.notify.outputs.pr_number }}"
       # コンテンツ管理DBへの登録は content-db-sync.yml（mainへのpushで発火）が担当。
