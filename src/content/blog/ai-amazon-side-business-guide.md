@@ -117,6 +117,7 @@ AI×Amazon副業の記事を読み終えたとき、私たちの手元には「4
 
 - [AI副業をやってみた：月5万円までの現実と収益の出どころ](/blog/ai-side-business-experience-monthly-income)
 
+- [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)
 ## 出典・参考資料
 
 2. [【2026年最新】AI×Amazon副業のやり方4選｜始め方・稼ぐコツ・注意点を解説 | THE CKB](https://www.theckb.com/archive/how-to-start-an-ai-powered-amazon-side-hustle/)（参照日：2026年9月30日）
