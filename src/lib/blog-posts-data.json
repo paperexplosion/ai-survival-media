@@ -1220,8 +1220,8 @@
       "20260312-224144",
       "20260222-235624",
       "20260515-050228",
-      "20260304-051721",
       "20260303-192918",
+      "20260304-051721",
       "20260227-000918",
       "20260225-081907"
     ]
@@ -4723,8 +4723,8 @@
       "20260416-050150",
       "product-20260926-meta-camera-free-ai-glasses",
       "20260330-162832",
-      "20260317-194054",
       "20260420-050152",
+      "20260317-194054",
       "20260318-112530"
     ]
   },
@@ -6197,10 +6197,10 @@
     "related": [
       "20260309-162600",
       "20260424-050200",
-      "20260526-050250",
       "20260319-001818",
-      "20260609-050244",
+      "20260526-050250",
       "20260524-050205",
+      "20260609-050244",
       "20260620-050304",
       "20260930-080953"
     ]
@@ -7695,7 +7695,7 @@
       "20260517-050155",
       "20260417-050148",
       "20260425-050259",
-      "20260318-110741"
+      "20260521-050158"
     ]
   },
   {
@@ -8831,8 +8831,8 @@
       "20260419-050144",
       "20260317-194054",
       "20260601-050155",
-      "product-20260928-adobe-premiere-android",
       "20260310-082859",
+      "product-20260928-adobe-premiere-android",
       "20260309-200004",
       "product-20260926-meta-camera-free-ai-glasses",
       "20260927-071031"
@@ -9752,9 +9752,9 @@
       "post-01",
       "20260224-194705",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
+      "product-20261002-legato-ai-hearing-glasses",
       "ai-side-business-experience-monthly-income",
-      "product-20260930-openai-dots-agents",
-      "ai-amazon-side-business-guide"
+      "product-20260930-openai-dots-agents"
     ]
   },
   {
@@ -10287,8 +10287,8 @@
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "ai-career-change",
       "product-20260929-claude-sonnet-5-5",
-      "ai-regulation-overview",
-      "product-20260928-adobe-premiere-android"
+      "product-20261002-legato-ai-hearing-glasses",
+      "ai-regulation-overview"
     ]
   },
   {
@@ -11199,7 +11199,7 @@
       "product-20260929-claude-sonnet-5-5",
       "product-20260930-openai-dots-agents",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
-      "ai-illustration-copyright"
+      "product-20261002-legato-ai-hearing-glasses"
     ]
   },
   {
@@ -11265,9 +11265,9 @@
       "product-20260926-meta-camera-free-ai-glasses",
       "product-20260930-openai-dots-agents",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
+      "product-20261002-legato-ai-hearing-glasses",
       "20260518-050231",
-      "ai-illustration-copyright",
-      "ai-regulation-overview"
+      "ai-illustration-copyright"
     ]
   },
   {
@@ -11341,9 +11341,9 @@
       "product-20260927-honor-robot-phone",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20260926-meta-camera-free-ai-glasses",
+      "product-20261002-legato-ai-hearing-glasses",
       "20260417-050148",
-      "20260406-050148",
-      "ai-amazon-side-business-guide"
+      "20260406-050148"
     ]
   },
   {
@@ -11410,12 +11410,12 @@
     "related": [
       "product-20260929-claude-sonnet-5-5",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
+      "product-20261002-legato-ai-hearing-glasses",
       "product-20260928-adobe-premiere-android",
       "product-20260927-honor-robot-phone",
       "product-20260926-meta-camera-free-ai-glasses",
       "20260417-050148",
-      "ai-side-business-experience-monthly-income",
-      "ai-amazon-side-business-guide"
+      "ai-side-business-experience-monthly-income"
     ]
   },
   {
@@ -11476,14 +11476,82 @@
       }
     ],
     "related": [
+      "product-20261002-legato-ai-hearing-glasses",
       "product-20260930-openai-dots-agents",
       "product-20260929-claude-sonnet-5-5",
       "product-20260928-adobe-premiere-android",
       "product-20260927-honor-robot-phone",
       "product-20260926-meta-camera-free-ai-glasses",
       "ai-career-change",
-      "ai-side-business-experience-monthly-income",
-      "ai-amazon-side-business-guide"
+      "ai-side-business-experience-monthly-income"
+    ]
+  },
+  {
+    "slug": "product-20261002-legato-ai-hearing-glasses",
+    "title": "Legato AI補聴メガネ発売、999ドルから何が変わる",
+    "lead": "補聴器の費用や装着感、周囲の目が気になって踏み切れずにいませんか。LegatoのAI補聴メガネが999ドルから米国で発売され、価格差や雑音の分け方、日本での扱いが分かれば、選ぶかどうかを判断できます。",
+    "preamble": "*画像：Legatoの公式発表の写真をもとにしたイラストです（原典：[Hearing tech startup Legato launches its AI hearin](https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/)）*\n\nLegatoが2026年10月1日に発表したAI補聴メガネ「Legato Frames」は、999ドルから米国で販売が始まり、眼鏡店での取り扱いも予定されています。補聴器に感じてきた費用や装着感、周囲の目への抵抗で踏み切れなかった人にとって、選択肢が増える流れです。とはいえ、聞こえの道具を眼鏡と同じ感覚で選ぶとき、何を基準にすればよいのでしょうか？この記事では、3モデルの価格差、SpeechSense AIが会話と雑音をどう分ける設計か、処理遅延や電池持続の情報がどこまで開示されているかを整理します。さらに、FDAのOTC補聴器という区分や視力保険の扱い、日本での発売・制度が現時点で確認できるかどうかを、出典の範囲で見分けられます。\n\n**この記事の要点**\n\n- Legato Framesは2026年10月1日に米国で販売開始、価格は999ドルからです[1][2][6]。\n- 軽度から中等度の難聴の成人向けで、処方レンズにも対応する眼鏡型です[1][2][4]。\n- SpeechSense AIが音声と雑音を分離し、眼鏡上で処理、録音はしません[2][4]。\n\n（最終更新：2026年10月2日）",
+    "type": "product",
+    "layer": "choose",
+    "date": "2026-10-02 18:01",
+    "readTime": "1分",
+    "category": "🎯 AIを武器にするスキル・思考法",
+    "image": "/blog-images/product-20261002-legato-ai-hearing-glasses/cover.jpg",
+    "content": [
+      {
+        "section": "Legato AI補聴メガネ、いつ・いくらで買えるのか",
+        "text": "![Legato Frames モデル別価格](/blog-images/product-20261002-legato-ai-hearing-glasses/fig-1.svg)\n\n*図：Legato Frames モデル別価格（出典：[1][2][6][7]）*\n\nLegatoは2026年10月1日、旗艦製品「Legato Frames」の販売開始を発表しました[1][6]。価格は999ドルからで、公式サイトで購入できます[1][2][6]。上位モデルのAriaは1,099ドル、SymphonyとHarmonyは999ドルです[2]。\n\n発売時期について、公式サイトでの販売は発表当日から始まっています[1][6]。米国の一部の眼鏡クリニックでの展開は、10月下旬に始まり、年末まで続く予定とされています[2]。対応地域は現時点で米国です[2][6]。眼鏡ケア提供者を通じて購入した場合、多くの場合で視力保険の適用対象になり得るとされています[6]。\n\n![Legato AI補聴メガネ、いつ・いくらで買えるのかのイラスト](/blog-images/product-20261002-legato-ai-hearing-glasses/ill-1.jpg)\n\n購入方法は、公式サイトでのオンライン購入と、米国の一部の眼鏡ケア提供者を通じた購入の2通りです[1][2]。公式サイトでは45日間の返金保証付きトライアルや、生涯カスタマーサポートも案内されています[7]。\n\n対応するのは、軽度から中等度の聴力損失を持つ成人です[1][2][6]。米国では50歳以上の患者を対象に、年次眼鏡検診の際に無料の聴力スクリーニングを提供する予定だとされています[2]。\n\n価格帯だけを見ると、従来の補聴器より手に取りやすい印象を受けますが、眼鏡として日常的にかけるものだからこそ、見た目やかけ心地が選ぶ決め手になりそうです。"
+      },
+      {
+        "section": "AIは何をしてくれる？Legato AI補聴メガネの機能",
+        "text": "![Legato Framesの主要スペック](/blog-images/product-20261002-legato-ai-hearing-glasses/fig-2.svg)\n\n*図：Legato Framesの主要スペック（出典：[3][4][7]）*\n\nLegato Framesは、軽度から中等度の難聴の人を対象としたメガネ型の聴覚支援製品です [4]。聴覚支援の技術はフレームのテンプル（つる）部分に収められており、耳をふさがないオープンイヤー型の音響設計を採用しています [4]。眼鏡としての処方レンズにも対応するため、視力補正と聴覚支援を一つの装具にまとめられる点が特徴です [4]。\n\n中核となるのは「SpeechSense AI」と呼ばれる技術です [4]。これはリアルタイムで音声を分離する技術と説明されており、レストランやオフィスなどで声と背景ノイズを区別し、会話を聞き取りやすくするよう設計されています [4]。同社は、費用や装着感、偏見といった理由で補聴器の使用に踏み切れなかった人にとって、会話へのアクセスを改善する方法になると位置づけています [4]。\n\n![AIは何をしてくれる？Legato AI補聴メガネの機能のイラスト](/blog-images/product-20261002-legato-ai-hearing-glasses/ill-2.jpg)\n\n技術は4件の取得済み特許と20件以上の係属中の出願によって保護されているとされ、性能は従来の補聴器に匹敵すると同社は述べています [3][4]。ただし、具体的な臨床性能の指標はまだ開示されていません [3]。発表資料には処理遅延やバッテリー駆動時間、騒音下での音声性能を数値で示すデータは含まれておらず、これらは今後の技術情報の公開を待つ状況です [4]。\n\n製品ラインにはAria、Symphony、Harmonyの3モデルがあります [4]。価格は999ドルからで、Ariaは1,099ドルです [4]。Bluetooth接続や音声ストリーミング、通話にも対応します [7]。眼鏡店での購入時には、視覚保険の適用対象になることが多いとされています [3][4]。\n\nかけ慣れた眼鏡のつるに会話を支える仕組みが宿るとなれば、朝の食卓で交わす何気ない一言の聞こえ方も、少し違って感じられるかもしれません。"
+      },
+      {
+        "section": "眼鏡型は従来の補聴器と何が違うのか",
+        "text": "![眼鏡型補聴器と従来型の違い](/blog-images/product-20261002-legato-ai-hearing-glasses/fig-3.svg)\n\n*図：眼鏡型補聴器と従来型の違い（出典：[2][3][8]）*\n\n眼鏡型という形そのものが、従来の補聴器との大きな違いです。Legato Framesは、補聴技術を眼鏡フレームのテンプル（つる）部分に組み込んだ製品です[2]。オープンイヤー型のスピーカーが音を耳へ向けて届け、耳の穴をふさがない設計とされています[2]。処方レンズにも対応し、度付き眼鏡としても使える点が特徴です[2]。\n\n音声処理にはAIが関わります。SpeechSense AIと呼ばれる処理が、会話の音声と背景ノイズを分離し、会話を際立たせるよう設計されています[2]。この処理は眼鏡上で行われ、カメラは搭載されておらず、音声の録音も行わないとされています[2]。特許は4件が成立し、20件以上の出願が係属中とされています[3][8]。\n\n![眼鏡型は従来の補聴器と何が違うのかのイラスト](/blog-images/product-20261002-legato-ai-hearing-glasses/ill-3.jpg)\n\n制度上の位置づけも見ておきましょう。Legato Framesは、軽度から中等度の聞こえの低下を自覚する成人向けのOTC（市販）補聴器です[2]。OTC補聴器の区分は、FDAが2022年に設けたものです[8]。同じ眼鏡型の領域では、EssilorLuxotticaのNuance AudioグラスがFDAの認可を得て米国で販売されています[3][8]。\n\n価格と販売経路にも違いがあります。価格は999ドルからで、Ariaが1,099ドル、SymphonyとHarmonyが999ドルです[2]。オンラインに加え、一部の眼鏡店での展開も予定されています[2][3]。眼鏡店で購入した場合、視力保険の対象になりやすいとされています[3]。\n\n補聴器を「隠す」のではなく「かける」ものへと置き換える発想は、装いの一部として聞こえを支えるという見方を示しています。"
+      },
+      {
+        "section": "会話はどう変わる？眼鏡感覚で使う未来",
+        "text": "![眼鏡型聴覚支援で変わる会話の流れ](/blog-images/product-20261002-legato-ai-hearing-glasses/fig-4.svg)\n\n*図：眼鏡型聴覚支援で変わる会話の流れ（出典：[1][4][6]）*\n\n眼鏡をかける動作は、多くの人にとって朝の習慣の一部です。その習慣の延長に聴こえの支援があるとしたら、会話の場面はどう変わるでしょうか。\n\nLegato Framesは、眼鏡のテンプル（つる）部分に聴覚支援技術を組み込んだ製品です[1][4]。聴覚支援が必要な成人を対象に、999ドルから販売されています[1][6]。処方レンズに対応し、音楽や通話のためのBluetoothストリーミングにも対応します[1][6]。\n\n音の処理は眼鏡上で完結し、カメラや録音はないとされています[1][6]。開放型の設計で耳穴をふさがないため、周囲の音も聞こえたまま会話音声を届ける仕組みです[4][6]。装着したまま街を歩けば、会話と環境音の両方を同時に意識できる状態になりそうです。\n\n![会話はどう変わる？眼鏡感覚で使う未来のイラスト](/blog-images/product-20261002-legato-ai-hearing-glasses/ill-4.jpg)\n\n従来の補聴器に感じられてきたコスト・快適さ・抵抗感に対応することが、この製品の狙いとして示されています[1][4]。米国では眼鏡販売店での取り扱いも予定され、視力保険の対象になる場合があるとされています[4][6]。\n\n音声処理はSpeechSense AIと呼ばれ、雑音から声を分離してリアルタイムで強調するとされています[4][6]。レストランやオフィスのような場面で、会話が届きやすくなる体験が想定されています[4]。\n\n一方、処理の遅延やバッテリー持続時間の詳細な数値は、提供資料には含まれていないとされています[4]。実際の使用感は、今後の技術情報の公開を待つ段階です。\n\nかけ慣れた眼鏡を選ぶように、聴こえの道具も自分で選べる。そんな当たり前が、会話の景色を少しずつ変えていくのかもしれません。"
+      },
+      {
+        "section": "日本で使える？発売前に何を確かめるか",
+        "text": "![日本展開の確認ポイントと米国での状況](/blog-images/product-20261002-legato-ai-hearing-glasses/fig-5.svg)\n\n*図：日本展開の確認ポイントと米国での状況（出典：[1][2][8]）*\n\n日本での発売時期や価格は、現時点の出典からは分かりません。Legato Framesは米国の公式サイトで販売され、米国の一部の眼鏡ケア提供者を通じた展開も予定されています[1][2]。日本向けの言及は出典にありません。\n\n医療機器としての扱いも不明です。米国では、FDAが2022年に軽度から中等度の聞こえの低下がある成人向けのOTC補聴器という区分を設けています[8]。Legato FramesはこのOTC補聴器の技術を眼鏡に組み込んだ製品として紹介されています[2]。ただし、日本で同じ区分や販売制度が適用されるかは出典からは判断できません。\n\n確認できる仕様は次のとおりです。\n\n![日本で使える？発売前に何を確かめるかのイラスト](/blog-images/product-20261002-legato-ai-hearing-glasses/ill-5.jpg)\n\n- 価格は999ドルからで、機種により1,099ドル[1][2]\n- 軽度から中等度の聞こえの低下がある成人向け[1][2]\n- レンズ込みで約34グラム、電池は10〜12時間[1][2]\n- 処方レンズに対応し、音楽や通話のBluetooth再生にも対応[1][2]\n- 処理は眼鏡上で完結し、カメラや録音はないとされています[1][2]\n\n日本で使えるかを確かめるには、まずLegatoの公式サイトで対応国や販売地域の告知を追う方法があります。次に、日本で補聴器として販売される場合の制度上の区分を、厚生労働省や医療機器の相談窓口で確認する方法があります。並行して、米国の眼鏡ケア提供者を通じた展開の進み方[2]も参考になりそうです。\n\n聞こえの道具は、眼鏡を選ぶように気軽に試せたらという期待が膨らみますが、制度の壁は国ごとに姿を変えます。"
+      },
+      {
+        "section": "編集長の眼",
+        "text": "眼鏡をかけるという、私たちが毎朝なんとなく繰り返してきた動作。そのつるの部分に会話を支える技術が宿るとしたら、暮らしの風景は少しずつ変わっていくかもしれません。たとえば、朝の食卓で家族の声を拾いながら、新聞をめくる。これまで補聴器に感じていた抵抗感から、眼鏡を選ぶのと同じ感覚で聞こえの道具を手に取れる日が来るかもしれません。レストランでの会話も、オフィスの打ち合わせも、周囲の音を保ったまま声が届く設計は、会話の緊張をやわらげてくれそうです。処理の遅延やバッテリーの詳細がまだ見えない部分はありますが、4件の特許と20件以上の出願が支える技術は、聞こえの選択肢を確かに広げています。眼鏡売り場で視力保険を使いながら、聞こえの支援も一緒に選べる。そんな当たり前が、会話の景色を少しずつ変えていくのかもしれません。"
+      },
+      {
+        "section": "よくある質問",
+        "text": ""
+      },
+      {
+        "section": "Q. Legato AI補聴メガネは日本で買えますか？",
+        "text": "現時点の出典からは、日本での発売時期や価格は分かりません。Legato Framesは米国の公式サイトで販売され、米国の一部の眼鏡ケア提供者を通じた展開も予定されています[1][2]。日本向けの言及は出典にありません。日本で使えるかを確かめるには、公式サイトで対応国や販売地域の告知を追う方法があります。"
+      },
+      {
+        "section": "Q. Legato AI補聴メガネの価格はいくらですか？",
+        "text": "価格は999ドルからで、公式サイトで購入できます[1][2][6]。上位モデルのAriaは1,099ドル、SymphonyとHarmonyは999ドルです[2]。眼鏡ケア提供者を通じて購入した場合、多くの場合で視力保険の適用対象になり得るとされています[6]。公式サイトでは45日間の返金保証付きトライアルや、生涯カスタマーサポートも案内されています[7]。"
+      },
+      {
+        "section": "Q. Legato AI補聴メガネは普通の補聴器とどう違いますか？",
+        "text": "眼鏡型という形そのものが大きな違いです。Legato Framesは、補聴技術を眼鏡フレームのテンプル（つる）部分に組み込んだ製品で、耳をふさがないオープンイヤー型の音響設計を採用しています[2][4]。処方レンズにも対応し、度付き眼鏡としても使えます[2][4]。SpeechSense AIが会話の音声と背景ノイズを分離し、処理は眼鏡上で行われ、カメラや録音はないとされています[2]。"
+      },
+      {
+        "section": "出典・参考資料",
+        "text": "1. [Hearing tech startup Legato launches its AI hearing glasses](https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/)（参照日：2026年10月2日）\n2. [Legato Frames OTC Hearing Aid Glasses Launch From $999](https://www.hearingtracker.com/news/legato-frames-otc-hearing-aid-glasses-launch-from-999)（参照日：2026年10月2日）\n3. [Legato Unveils AI-Powered Hearing Glasses](https://hearingreview.com/hearing-products/hearing-aids/otc/legato-unveils-ai-powered-hearing-glasses)（参照日：2026年10月2日）\n4. [Legato Frames Combine AI Speech Enhancement with Open Ear Hearing Assistance](https://audioxpress.com/news/legato-frames-combine-ai-speech-enhancement-with-open-ear-hearing-assistance)（参照日：2026年10月2日）\n6. [Legato Frames, the World’s First AI-Based Hearing Glasses, Are Now Available in the U.S.](https://finance.yahoo.com/healthcare/articles/legato-frames-world-first-ai-130000281.html)（参照日：2026年10月2日）\n7. [Legato Hearing Glasses](https://www.legatohearing.com/)（参照日：2026年10月2日）\n8. [Legato emerges with $12M for AI hearing-assistance glasses](https://www.mobihealthnews.com/news/legato-emerges-12m-ai-hearing-assistance-glasses)（参照日：2026年10月2日）\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "product-20261001-acemagic-f9a-pro-495-mini-pc",
+      "product-20260930-openai-dots-agents",
+      "product-20260929-claude-sonnet-5-5",
+      "product-20260928-adobe-premiere-android",
+      "product-20260927-honor-robot-phone",
+      "product-20260926-meta-camera-free-ai-glasses",
+      "ai-career-change",
+      "ai-side-business-experience-monthly-income"
     ]
   },
   {
