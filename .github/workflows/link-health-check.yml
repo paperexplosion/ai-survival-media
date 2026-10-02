@@ -50,7 +50,7 @@ jobs:
             --jq ".[] | select(.title == \"$TITLE\") | .number" | head -n1)
 
           if [ -z "$ISSUE_NUMBER" ]; then
-            gh issue create --title "$TITLE" --body-file comment.md --label "automated"
+            gh issue create --title "$TITLE" --body-file comment.md
           else
             gh issue comment "$ISSUE_NUMBER" --body-file comment.md
           fi
