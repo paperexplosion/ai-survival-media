@@ -58,11 +58,15 @@ function main() {
 
     // ② 壊れた内部リンクチェック（本文中の /blog/<slug>）
     const brokenLinks = [];
-    const linkPattern = /\(?(?:https?:\/\/)?(?:ai-survival\.org)?\/blog\/([A-Za-z0-9-]+)\)?/g;
+    // Markdown リンクの "(" 直後に続く場合のみを対象にする。
+    // "(" と "/blog/" の間にドメイン文字列（他サイトのURL）が挟まる外部引用リンク
+    // （例: https://example.com/blog/foo）を内部リンクと誤検知しないよう、
+    // 許容するのは「相対パス（ドメインなし）」か「ai-survival.org ドメイン」のみとする。
+    const linkPattern = /\((?:https?:\/\/(?:www\.)?ai-survival\.org)?(\/blog\/[A-Za-z0-9-]+)\)/g;
     for (const p of mdPosts) {
         const seen = new Set();
         for (const m of p.body.matchAll(linkPattern)) {
-            const target = m[1];
+            const target = m[1].replace('/blog/', '');
             if (seen.has(target)) continue;
             seen.add(target);
             const resolved = MERGED[target] || target;
