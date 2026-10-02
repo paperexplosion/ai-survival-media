@@ -1,0 +1,56 @@
+# 記事を公開するたび（mainへのpush時）に、内部リンク・SEO構造の健全性を点検する。
+# ①孤立記事（どの記事からも関連記事に挙げられていない）②壊れた内部リンク（/blog/の参照先が存在しない）
+# ③タイトル・メタディスクリプションの欠落 を調べ、Issue「内部リンク・SEO構造ヘルスチェック」に記録する。
+# 2026-10-02 ティム・バーナーズ＝リー番頭が新設（鈴木編集長兼社長の依頼）。
+#
+# 外部APIキーは使わない。問題が見つかっても公開パイプライン自体は止めない（通知のみ）。
+name: link-health-check
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/content/blog/**"
+  workflow_dispatch: {}
+
+permissions:
+  issues: write
+  contents: read
+
+concurrency:
+  group: link-health-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      # content-regen.yml が別途 blog-posts-data.json をmainへコミットするため、
+      # ここでは衝突を避けてローカルで再生成したファイルを点検にだけ使う（コミットしない）
+      - run: node scripts/generate-blog-data.mjs
+      - run: node scripts/check-link-health.mjs
+      - name: Issueに記録する
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="内部リンク・SEO構造ヘルスチェック"
+          BODY_FILE="link-health-report.md"
+          {
+            echo "トリガー: ${GITHUB_SHA:0:7} ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            echo ""
+            cat "$BODY_FILE"
+          } > comment.md
+
+          ISSUE_NUMBER=$(gh issue list --search "in:title \"$TITLE\"" --state open --json number,title \
+            --jq ".[] | select(.title == \"$TITLE\") | .number" | head -n1)
+
+          if [ -z "$ISSUE_NUMBER" ]; then
+            gh issue create --title "$TITLE" --body-file comment.md --label "automated"
+          else
+            gh issue comment "$ISSUE_NUMBER" --body-file comment.md
+          fi
