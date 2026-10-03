@@ -55,6 +55,10 @@ export default function AboutPage() {
                         AIと人間の共存を、ドキュメンタリーとして記録する。
                         言葉と物語の力で、この時代に問いを立て続けるメディア。
                     </p>
+                    <p className="text-sm md:text-base text-slate-400 leading-relaxed max-w-2xl mx-auto mt-6 relative">
+                        AI Survival Report（AIサバイバルレポート）は、2026年10月に「AI Documentary Report」から名前を改めました。
+                        YouTube チャンネル「AIと人間と。〜 AI Documentary Report」も同じ編集部が運営しています。
+                    </p>
                 </motion.div>
 
                 {/* なぜつくったか */}
