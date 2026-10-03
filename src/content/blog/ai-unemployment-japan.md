@@ -155,6 +155,10 @@ AI失業をめぐる議論では、利用データの偏りと因果関係の扱
 
 米国ではAI失業への懸念が高まっていますが、足元のデータは影響が限定的である可能性を示しています[4]。レイオフはAIの影響が大きいセクターに集中しておらず、企業が通常の離職をAIの影響と一括りにする「AIウォッシング」の可能性も指摘されています[4]。最もAIの影響を受けやすいセクターの雇用の伸びはコロナ禍以降、影響を受けにくいセクターを上回り、ソフトウェア企業の求人件数も増加しています[4]。一方で、フリーランス需要の急減や電話コールセンターなど小規模セクターの雇用急減は報告されています[4]。
 
+## 関連する記録
+
+- [AIが安全を叫ぶほど便利さは静かに更新される——OpenAI退職者が核レベルを求めた日](/blog/20261004-072349)
+
 ## 出典・参考資料
 
 1. [Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence - Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/)（参照日：2026年9月25日）
