@@ -56,7 +56,7 @@ export function pageMetadata({ path, title, description, noindex = false }: {
       types: { 'application/rss+xml': [{ url: '/feed.xml', title: SITE_NAME }] },
     },
     openGraph: { title: fullTitle, description, url: path, siteName: SITE_NAME, locale: 'ja_JP', type: 'website', images },
-    twitter: { card: 'summary_large_image', title: fullTitle, description, images },
+    twitter: { card: 'summary_large_image', site: '@ai_survival', title: fullTitle, description, images },
     ...(noindex ? { robots: { index: false, follow: true } } : {}),
   };
 }
