@@ -27,7 +27,7 @@ export default function Footer() {
               </div>
               <div>
                 <div className="font-bold text-white text-lg">
-                  AIサバイバルレポート
+                  AI Survival Report
                 </div>
                 <div className="text-xs text-gray-400">AIと人間の共存を記録する</div>
               </div>
@@ -69,7 +69,7 @@ export default function Footer() {
             <p>運営：ストーリーテリング合同会社 (Storytelling LLC)</p>
           </div>
           <div>
-            <p>&copy; {currentYear} AIサバイバルレポート. All rights reserved.</p>
+            <p>&copy; {currentYear} AI Survival Report. All rights reserved.</p>
           </div>
         </div>
       </div>

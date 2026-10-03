@@ -28,7 +28,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between">
           <Link
             href="/"
-            aria-label="AIサバイバルレポート トップへ"
+            aria-label="AI Survival Report トップへ"
             className="flex items-center gap-3 group text-center"
           >
             <div className="w-10 h-10 rounded-full bg-gradient-to-r from-neon-cyan to-neon-purple flex items-center justify-center">
@@ -36,7 +36,7 @@ export default function Navigation() {
             </div>
             <div className="hidden md:block">
               <div className="font-bold text-white text-lg group-hover:text-neon-cyan transition-colors">
-                AIサバイバルレポート
+                AI Survival Report
               </div>
               <div className="text-xs text-gray-400">
                 AIと人間の共存を記録する

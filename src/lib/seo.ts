@@ -3,13 +3,14 @@ import type { Metadata } from 'next';
 import type { BlogPost } from './blog-posts';
 
 export const SITE_URL = 'https://ai-survival.org';
-// 正式名称（2026-10-04 鈴木編集長兼社長の決定で「AI Documentary Report」から改名。
+// 正式名称（2026-10-04 鈴木編集長兼社長の決定で「AI Documentary Report」から改名、
+// 同日中に英語表記「AI Survival Report」に再変更。
 // サブタイトル「AIと人間と。」はそのまま維持。Google ニュース Publisher Center の出版物名も合わせて変更要）。
 // 構造化データ・RSS・ニュースサイトマップ・og:site_name はこの名前。ドメインは ai-survival.org のまま
-export const SITE_NAME = 'AIと人間と。AIサバイバルレポート';
+export const SITE_NAME = 'AIと人間と。AI Survival Report';
 // ページタイトル末尾に付ける短い名前（検索結果でタイトル本文が削られないように）
-export const SITE_SHORT_NAME = 'AIサバイバルレポート';
-export const SITE_ALT_NAMES = ['AI Documentary Report', 'AI Survival Report', 'AIサバイバル・レポート', 'AIサバイバルレポート'];
+export const SITE_SHORT_NAME = 'AI Survival Report';
+export const SITE_ALT_NAMES = ['AI Documentary Report', 'AIサバイバルレポート', 'AIサバイバル・レポート'];
 export const SITE_DESCRIPTION = 'AIと人間の共存を、ドキュメンタリーとして記録するメディア。AIで仕事・暮らし・生き方がどう変わるのかを、報道と一次資料から記録する。';
 export const PUBLISHER_NAME = 'ストーリーテリング合同会社';
 // 記事の表示は「記事監修：鈴木隆文」だけ（2026-09-28 鈴木編集長兼社長の決定）。

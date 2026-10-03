@@ -6,7 +6,7 @@ import { ORGANIZATION_LD, SITE_ALT_NAMES, SITE_DESCRIPTION, SITE_NAME, SITE_URL 
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ai-survival.org'),
-  title: 'AIサバイバルレポート | AIと人間と。',
+  title: 'AI Survival Report | AIと人間と。',
   description: 'AIと人間の共存を、記録する。ジャーナリズムとしてのAIドキュメンタリー。あなたの仕事には、人間の物語がありますか。',
   verification: {
     google: 'IpUg-r_m20iTJn1cFB8st9ueCp6CkV_ALs3QBRwOKVI',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: 'AIサバイバルレポート',
+    title: 'AI Survival Report',
     description: 'AIと人間の共存を記録する。',
     url: 'https://ai-survival.org',
     siteName: SITE_NAME,
@@ -32,18 +32,18 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'AIサバイバルレポート',
+        alt: 'AI Survival Report',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AIサバイバルレポート',
+    title: 'AI Survival Report',
     description: 'AIと人間の共存を記録する。',
     images: [
       {
         url: '/og-image.png',
-        alt: 'AIサバイバルレポート',
+        alt: 'AI Survival Report',
       },
     ],
   },
