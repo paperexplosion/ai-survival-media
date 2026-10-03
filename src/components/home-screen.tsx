@@ -166,7 +166,7 @@ export function HomeScreen({ onStart }: HomeScreenProps) {
                 >
                     <BookOpen className="w-5 h-5 text-neon-purple group-hover:scale-110 transition-transform mb-1" />
                     <span className="text-sm text-neon-cyan font-bold">ドキュメンタリー記事</span>
-                    <span className="text-base font-black text-foreground">AI Documentary Report</span>
+                    <span className="text-base font-black text-foreground">AIサバイバルレポート</span>
                 </button>
             </motion.div>
 

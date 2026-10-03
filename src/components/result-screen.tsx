@@ -217,7 +217,7 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                 >
                     <button
                         onClick={() => {
-                            const text = `AI Documentary Reportのキャリア診断結果: 私は「${result.title}」タイプ！人間適応スコア${adaptScore}% 🌱`;
+                            const text = `AIサバイバルレポートのキャリア診断結果: 私は「${result.title}」タイプ！人間適応スコア${adaptScore}% 🌱`;
                             window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, "_blank");
                         }}
                         className="flex items-center gap-2 px-6 py-3 bg-black/80 rounded-full hover:bg-black transition-all group"

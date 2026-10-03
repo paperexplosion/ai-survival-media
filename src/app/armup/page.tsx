@@ -143,7 +143,7 @@ export default function ArmUpPage() {
 
         <footer className="container mx-auto px-6 py-12 border-t border-white/10">
           <div className="text-center text-gray-400 text-sm">
-            <p className="mb-2">© 2026 AI Documentary Report</p>
+            <p className="mb-2">© 2026 AIサバイバルレポート</p>
             <p className="text-xs">AIと人間の共存を記録する。</p>
           </div>
         </footer>

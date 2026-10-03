@@ -63,7 +63,7 @@ export default function Home({ posts, totalCount }: { posts: PostCard[]; totalCo
                     style={minchoFont}
                   >
                     <span className="bg-gradient-to-r from-teal-300 via-cyan-200 to-teal-300 bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(45,212,191,0.5)]">
-                      AI Documentary Report
+                      AIサバイバルレポート
                     </span>
                   </h2>
                   <p
@@ -337,7 +337,7 @@ export default function Home({ posts, totalCount }: { posts: PostCard[]; totalCo
 
         <footer className="container mx-auto px-6 py-12 border-t border-white/10">
           <div className="text-center text-gray-400 text-sm">
-            <p className="mb-2">© 2026 AI Documentary Report</p>
+            <p className="mb-2">© 2026 AIサバイバルレポート</p>
             <p className="text-xs">
               AIと人間の共存を記録する。
             </p>
