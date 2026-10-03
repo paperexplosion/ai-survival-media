@@ -42,7 +42,7 @@ export function ResultScreen({ result, onRestart }: ResultScreenProps) {
                     transition={{ delay: 0.2 }}
                     className="text-center mb-12"
                 >
-                    <p className="text-neon-cyan text-sm font-mono mb-4 tracking-wider">AI DOCUMENTARY REPORT</p>
+                    <p className="text-neon-cyan text-sm font-mono mb-4 tracking-wider">AI SURVIVAL REPORT</p>
                     <motion.h1
                         className="text-3xl md:text-5xl lg:text-6xl font-black mb-6 bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-blue bg-clip-text text-transparent leading-tight tracking-tight"
                         style={{

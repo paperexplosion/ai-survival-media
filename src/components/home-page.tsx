@@ -184,7 +184,7 @@ export default function Home({ posts, totalCount }: { posts: PostCard[]; totalCo
             className="mb-12"
           >
             <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
-              Documentary Reports
+              Survival Reports
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl">
               AIと人間が共に生きていくための記録。現場からの証言と、ジャーナリストの視点で届ける。

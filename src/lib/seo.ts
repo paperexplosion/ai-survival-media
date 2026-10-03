@@ -10,7 +10,9 @@ export const SITE_URL = 'https://ai-survival.org';
 export const SITE_NAME = 'AIと人間と。AI Survival Report';
 // ページタイトル末尾に付ける短い名前（検索結果でタイトル本文が削られないように）
 export const SITE_SHORT_NAME = 'AI Survival Report';
-export const SITE_ALT_NAMES = ['AI Documentary Report', 'AIサバイバルレポート', 'AIサバイバル・レポート'];
+export const SITE_FORMER_NAMES = ['AI Documentary Report']; // 旧称（2026-10-04 改名）
+export const SITE_READINGS = ['AIサバイバルレポート', 'AIサバイバル・レポート']; // 読み方（カタカナ表記）
+export const SITE_ALT_NAMES = ['AI Survival Report', ...SITE_READINGS, ...SITE_FORMER_NAMES];
 export const SITE_DESCRIPTION = 'AIと人間の共存を、ドキュメンタリーとして記録するメディア。AIで仕事・暮らし・生き方がどう変わるのかを、報道と一次資料から記録する。';
 export const PUBLISHER_NAME = 'ストーリーテリング合同会社';
 // 記事の表示は「記事監修：鈴木隆文」だけ（2026-09-28 鈴木編集長兼社長の決定）。

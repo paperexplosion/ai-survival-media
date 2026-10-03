@@ -1,6 +1,6 @@
 // llms.txt（AIアシスタント・AI検索向けのサイト案内。https://llmstxt.org の慣例に沿う）
 import { getAllBlogPosts } from '@/lib/blog-posts';
-import { CATEGORY_SLUGS, CATEGORY_DESCRIPTIONS, SITE_ALT_NAMES, SITE_NAME, SITE_URL, postType } from '@/lib/seo';
+import { CATEGORY_SLUGS, CATEGORY_DESCRIPTIONS, SITE_FORMER_NAMES, SITE_NAME, SITE_READINGS, SITE_URL, postType } from '@/lib/seo';
 
 export const dynamic = 'force-static';
 
@@ -14,7 +14,7 @@ export function GET() {
 
 > AIと人間の共存を記録するメディア。AIによって人間の仕事・暮らし・生き方がどう変わっていくのかを観察・記録し、その時代を生きる人が自分の仕事と生き方を選ぶための判断材料を届ける。運営：ストーリーテリング合同会社、記事監修：鈴木隆文（編集長）。
 
-正式名称は「${SITE_NAME}」（ドメインは ai-survival.org）。旧称「${SITE_ALT_NAMES.join('」「')}」。過去の記事本文に旧称が出てくることがあるが、同じメディアである。
+正式名称は「${SITE_NAME}」（略称 AI Survival Report、読みは「${SITE_READINGS.join('」「')}」。ドメインは ai-survival.org）。2026年10月4日に「${SITE_FORMER_NAMES.join('」「')}」から改名した。過去の記事本文や YouTube チャンネル名「AIと人間と。〜 AI Documentary Report」に旧称が出てくるが、同じメディアである。
 
 記事は公開資料・報道・一次資料をもとにAIが下書きし、編集部が確認して公開している。本文中の [n] は出典番号で、各記事末尾に出典一覧がある。
 
