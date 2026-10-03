@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://ai-survival.org'),
   title: 'AI Survival Report | AIと人間と。',
   description: 'AIと人間の共存を、記録する。ジャーナリズムとしてのAIドキュメンタリー。あなたの仕事には、人間の物語がありますか。',
+  // サイト表記はローマ字「AI Survival Report」だが、「AIサバイバルレポート」とカタカナで検索する人が多いため
+  // meta keywords にもカタカナ表記を入れておく（構造化データの alternateName は SITE_ALT_NAMES 参照）
+  keywords: ['AI Survival Report', 'AIサバイバルレポート', 'AIと人間と。'],
   verification: {
     google: 'IpUg-r_m20iTJn1cFB8st9ueCp6CkV_ALs3QBRwOKVI',
   },
