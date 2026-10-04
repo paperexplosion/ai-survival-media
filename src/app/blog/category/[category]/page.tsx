@@ -1,12 +1,36 @@
 // カテゴリ別の記事一覧（URLを持つページ。検索エンジンが「このテーマの記事群」をたどれるようにする）
+import fs from 'fs';
+import path from 'path';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowRight, Calendar } from 'lucide-react';
-import { getAllBlogPosts } from '@/lib/blog-posts';
+import { getAllBlogPosts, type BlogPost } from '@/lib/blog-posts';
 import { CategoryBadge } from '@/components/category-badge';
 import { convertGoogleDriveUrl } from '@/lib/google-drive-utils';
 import { CATEGORY_SLUGS, CATEGORY_DESCRIPTIONS, OG_IMAGE, SITE_NAME, SITE_SHORT_NAME, SITE_URL, categoryBySlug } from '@/lib/seo';
+
+// 「代表記事」のランキング用：他の記事の related 配列に何回登場するか＝サイト内でどれだけ重要視されているか
+function pickFeatured(posts: BlogPost[], allPosts: BlogPost[]): BlogPost[] {
+  const inboundCount = new Map<string, number>();
+  for (const p of allPosts) {
+    for (const slug of p.related ?? []) inboundCount.set(slug, (inboundCount.get(slug) ?? 0) + 1);
+  }
+  return [...posts]
+    .sort((a, b) => (inboundCount.get(b.slug) ?? 0) - (inboundCount.get(a.slug) ?? 0) || new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 3);
+}
+
+// 週次でパイプライン側が生成する「今週の動き」まとめ（まだ無いカテゴリは静かに省略する）
+function readDigest(categorySlug: string): { summary: string; updated: string } | null {
+  try {
+    const file = path.join(process.cwd(), 'src/content/category-digests', `${categorySlug}.json`);
+    if (!fs.existsSync(file)) return null;
+    return JSON.parse(fs.readFileSync(file, 'utf-8'));
+  } catch {
+    return null;
+  }
+}
 
 export function generateStaticParams() {
   return Object.values(CATEGORY_SLUGS).map((category) => ({ category }));
@@ -25,8 +49,12 @@ export function generateMetadata({ params }: { params: { category: string } }): 
 export default function CategoryPage({ params }: { params: { category: string } }) {
   const name = categoryBySlug(params.category);
   if (!name) notFound();
-  const posts = getAllBlogPosts().filter((p) => p.category === name);
+  const allPosts = getAllBlogPosts();
+  const posts = allPosts.filter((p) => p.category === name);
   const label = name.replace(/^\S+\s/, '');
+  const featured = pickFeatured(posts, allPosts);
+  const digest = readDigest(params.category);
+  const latestDate = posts[0]?.date;
   const ld = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
@@ -34,9 +62,14 @@ export default function CategoryPage({ params }: { params: { category: string } 
     description: CATEGORY_DESCRIPTIONS[params.category],
     url: `${SITE_URL}/blog/category/${params.category}`,
     isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: SITE_URL },
+    about: { '@type': 'Thing', name: label, description: CATEGORY_DESCRIPTIONS[params.category] },
+    ...(latestDate ? { dateModified: new Date(latestDate).toISOString() } : {}),
     mainEntity: {
       '@type': 'ItemList',
-      itemListElement: posts.slice(0, 30).map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE_URL}/blog/${p.slug}` })),
+      itemListElement: posts.slice(0, 30).map((p, i) => ({
+        '@type': 'ListItem', position: i + 1, url: `${SITE_URL}/blog/${p.slug}`,
+        name: p.title.replace(/<br\s*\/?>/gi, ' '), description: p.lead,
+      })),
     },
   };
 
@@ -52,7 +85,29 @@ export default function CategoryPage({ params }: { params: { category: string } 
           <span className="text-gray-200">{label}</span>
         </nav>
         <h1 className="blog-heading text-3xl md:text-5xl font-black mb-4 text-white">{name}</h1>
-        <p className="text-lg text-gray-300 mb-10 max-w-3xl leading-relaxed">{CATEGORY_DESCRIPTIONS[params.category]}</p>
+        <p className="text-lg text-gray-300 mb-6 max-w-3xl leading-relaxed">{CATEGORY_DESCRIPTIONS[params.category]}</p>
+
+        {digest && (
+          <div className="mb-10 p-5 rounded-xl bg-neon-cyan/5 border border-neon-cyan/20 max-w-3xl">
+            <h2 className="text-sm font-bold text-neon-cyan mb-2">今週の{label}</h2>
+            <p className="text-sm text-gray-300 leading-relaxed">{digest.summary}</p>
+          </div>
+        )}
+
+        {featured.length > 0 && (
+          <div className="mb-12">
+            <h2 className="text-lg font-bold text-white mb-4">このテーマを理解する{featured.length}本</h2>
+            <div className="grid md:grid-cols-3 gap-4">
+              {featured.map((post) => (
+                <Link key={post.slug} href={`/blog/${post.slug}`} className="block group p-4 rounded-xl border border-neon-cyan/30 bg-white/5 hover:border-neon-cyan/60 transition-colors">
+                  <h3 className="font-bold text-white text-sm mb-2 group-hover:text-neon-cyan leading-snug">{post.title.replace(/<br\s*\/?>/gi, ' ')}</h3>
+                  <p className="text-xs text-gray-400 line-clamp-2">{post.lead}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
         <p className="text-sm text-gray-400 mb-6">{posts.length}件の記事</p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
