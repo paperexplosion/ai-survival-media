@@ -162,6 +162,26 @@ AI副業で「全自動で稼ぐ」という期待は、しばしば外れやす
 
 ---
 
+<div style="margin-top:2rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)">
+<p style="font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;">編集部</p>
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
+<img src="/cast/suzuki.jpg" alt="鈴木隆文" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.88rem;"><strong>鈴木隆文</strong>（編集長）— すべての記事に目を通し、座談会を受けて一段高い視座から総括する</span>
+</div>
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.88rem;"><strong>椎名</strong> — 現場感覚と皮肉で本質を突く</span>
+</div>
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
+<img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.88rem;"><strong>マーク</strong> — データと実体験で構造を読み解く</span>
+</div>
+<div style="display:flex;align-items:center;gap:0.75rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.88rem;"><strong>栗林</strong> — 読者の感情とバズる視点で場を動かす</span>
+</div>
+</div>
+
 **記事監修：** 鈴木隆文
 
 誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。
