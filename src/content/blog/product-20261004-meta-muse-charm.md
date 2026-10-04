@@ -97,13 +97,66 @@ Metaは2026年9月のMeta Connect 2026で、手のひらサイズのAIデバイ�
 
 新しいガジェットを待つ時間は、遠足の前日に持ち物を確かめる時間にどこか似ています。
 
-## 編集長の眼
+<div style="margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)">
+<p style="font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;">編集部座談</p>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>椎名:</strong> 価格も発売日も未定なのに、もう「欲しいかも」って思ってる自分がいる。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>栗林:</strong> それが正解のマーケティングだよ。情報を出し惜しむほど欲望は育つ。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>マーク:</strong> 出し惜しんでるんじゃなくて、まだ決まってないだけじゃないか？</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>栗林:</strong> どっちでもいいんだよ、結果は同じ。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>椎名:</strong> 身も蓋もないな。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>マーク:</strong> バッグチャーム市場、2030年に10億ドル規模になるらしい。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>椎名:</strong> たまごっちの再来か。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>栗林:</strong> たまごっちは首から下げてなかったけどな。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>マーク:</strong> 依存の形が進化したんだよ。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>椎名:</strong> ……それ、結構怖いこと言ったぞ。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>栗林:</strong> 怖いけど、笑っちゃうだろ。</span>
+</div>
+</div>
 
-Muse Charmが手元に届いたとき、私たちの一日はどんなふうに変わるでしょうか。朝、かばんのチャームをそっと指でつつくと、Museが今日の予定を短く教えてくれる。通勤の電車で、スマホを取り出さずに「昨日の会議の続き、どうまとめよう」とつぶやけば、相棒のような声が返ってくる。仕事の合間に、デスクの端でぶら下がった小さな端末が、ふと気づきを囁いてくれるかもしれません。
+<div style="margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)">
+<p style="font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;">編集長の眼</p>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;">
+<img src="/cast/suzuki.jpg" alt="鈴木隆文" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;">Muse Charmが手元に届いたとき、私たちの一日はどんなふうに変わるでしょうか。朝、かばんのチャームをそっと指でつつくと、Museが今日の予定を短く教えてくれる。通勤の電車で、スマホを取り出さずに「昨日の会議の続き、どうまとめよう」とつぶやけば、相棒のような声が返ってくる。仕事の合間に、デスクの端でぶら下がった小さな端末が、ふと気づきを囁いてくれるかもしれません。
 
 この製品の面白さは、機能の高さだけではなく、身につけるという行為そのものをAIとの関係に変えた点にあります。Labubuのようなチャームが若い世代に広がり、バッグチャーム市場が2030年までに10億ドル超へ成長するとの推計もあるなか[1]、Muse Charmは装飾と知能を同じ場所に置こうとしています。自分でアバターを設計できるMuse[1]は、ただのアシスタントではなく、自分の一部を映す存在になり得るでしょう。
 
-もちろん、価格も対応地域も未詳で、日本で使えるかどうかも不明です[3]。それでも、発表と出荷の間に流れる時間は、私たちが「何を身につけ、どう話しかけるか」をゆっくり想像する期間でもあります。ポケットの中で道具と飾りの境目が溶けていく——その先に、声でつながる小さな相棒との暮らしが待っているかもしれません。
+もちろん、価格も対応地域も未詳で、日本で使えるかどうかも不明です[3]。それでも、発表と出荷の間に流れる時間は、私たちが「何を身につけ、どう話しかけるか」をゆっくり想像する期間でもあります。ポケットの中で道具と飾りの境目が溶けていく——その先に、声でつながる小さな相棒との暮らしが待っているかもしれません。</span>
+</div>
+</div>
+
 
 ## よくある質問
 
@@ -125,6 +178,26 @@ Metaは2026年12月のホリデーシーズンに間に合うよう出荷する�
 3. [Meta Connect 2026で小型AIデバイス『Muse Charm』をMetaが発表](https://ainews-navi.jp/business/meta-muse-charm-ai-device-2)（参照日：2026年10月4日）
 
 ---
+
+<div style="margin-top:2rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)">
+<p style="font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;">編集部</p>
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
+<img src="/cast/suzuki.jpg" alt="鈴木隆文" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.88rem;"><strong>鈴木隆文</strong>（編集長）— すべての記事に目を通し、座談会を受けて一段高い視座から総括する。結論を急がず、最後に残った違和感を拾うのが得意</span>
+</div>
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.88rem;"><strong>椎名</strong> — 現場感覚と皮肉で本質を突く。歴史や制度の話を持ち出すと止まらない</span>
+</div>
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
+<img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.88rem;"><strong>マーク</strong> — データと実体験で構造を読み解く。疑問に思ったらすぐ数字で確かめたくなる</span>
+</div>
+<div style="display:flex;align-items:center;gap:0.75rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.88rem;"><strong>栗林</strong> — 読者の感情とバズる視点で場を動かす。真面目な話も一度茶化してから本音を言う</span>
+</div>
+</div>
 
 **記事監修：** 鈴木隆文
 
