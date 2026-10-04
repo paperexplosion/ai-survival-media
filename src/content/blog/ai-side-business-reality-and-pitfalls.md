@@ -103,33 +103,62 @@ AI副業で「全自動で稼ぐ」という期待は、しばしば外れやす
 
 数字そのものより、その数字がどこから来たのかをたどる目を持つことが、遠回りのようで一番の近道なのかもしれません。
 
-## 編集部座談
+<div style="margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)">
+<p style="font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;">編集部座談</p>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>椎名:</strong> 月5万円って数字、見た瞬間「自分もいける」って思っちゃうんだよな。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>マーク:</strong> その数字、出典を見たか？</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>椎名:</strong> 見てない。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>マーク:</strong> だろうな。個別の体験談がほとんどだ。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>栗林:</strong> でもバズるのはその「自分もいける」感なんだよ。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>マーク:</strong> 統計じゃなくて生存者バイアスだ。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>椎名:</strong> 生き残った人の声しか届かないってことか。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>栗林:</strong> 届かない声のほうが圧倒的に多いのにな。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>マーク:</strong> 数字より先に、出どころを疑えって話だ。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>椎名:</strong> それ、地味だけど一番効く話だな。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>栗林:</strong> 地味な話は伸びないんだよ、残念ながら。</span>
+</div>
+</div>
 
-<img src="/cast/shiina.jpg" alt="椎名" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **椎名:** 月5万円って数字、見た瞬間「自分もいける」って思っちゃうんだよな。
+<div style="margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)">
+<p style="font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;">編集長の眼</p>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;">
+<img src="/cast/suzuki.jpg" alt="鈴木隆文" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;">数字を見たとき、私たちはつい「自分にも届くかもしれない」と期待します。しかし本文が示したのは、月5万円や月10万円が統計ではなく個別事例や媒体の目安だという事実です[1][3][5]。まず確かめるべきは、その金額が誰の、どんな前提の上にあるのかという点です。次に、自分の作業環境を見直すこと。有料ツールへの投資を避け、スマホだけで済ませ、情報を最後まで読まない——これらは[2]で共通点として挙げられていました。料理と同じで、包丁を新しくしても、火加減を確かめなければ味は変わりません。AIという道具は、置かれた場所と手の入れ方しだいで結果が変わるのだと思います。今日できる一手は、目にした収益額の出典をたどること、そして自分の作業のどこを人が担うかを書き出すことです。</span>
+</div>
+</div>
 
-<img src="/cast/mark.jpg" alt="マーク" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **マーク:** その数字、出典を見たか？
-
-<img src="/cast/shiina.jpg" alt="椎名" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **椎名:** 見てない。
-
-<img src="/cast/mark.jpg" alt="マーク" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **マーク:** だろうな。個別の体験談がほとんどだ。
-
-<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **栗林:** でもバズるのはその「自分もいける」感なんだよ。
-
-<img src="/cast/mark.jpg" alt="マーク" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **マーク:** 統計じゃなくて生存者バイアスだ。
-
-<img src="/cast/shiina.jpg" alt="椎名" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **椎名:** 生き残った人の声しか届かないってことか。
-
-<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **栗林:** 届かない声のほうが圧倒的に多いのにな。
-
-<img src="/cast/mark.jpg" alt="マーク" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **マーク:** 数字より先に、出どころを疑えって話だ。
-
-<img src="/cast/shiina.jpg" alt="椎名" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **椎名:** それ、地味だけど一番効く話だな。
-
-<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **栗林:** 地味な話は伸びないんだよ、残念ながら。
-
-## 編集長の眼
-
-数字を見たとき、私たちはつい「自分にも届くかもしれない」と期待します。しかし本文が示したのは、月5万円や月10万円が統計ではなく個別事例や媒体の目安だという事実です[1][3][5]。まず確かめるべきは、その金額が誰の、どんな前提の上にあるのかという点です。次に、自分の作業環境を見直すこと。有料ツールへの投資を避け、スマホだけで済ませ、情報を最後まで読まない——これらは[2]で共通点として挙げられていました。料理と同じで、包丁を新しくしても、火加減を確かめなければ味は変わりません。AIという道具は、置かれた場所と手の入れ方しだいで結果が変わるのだと思います。今日できる一手は、目にした収益額の出典をたどること、そして自分の作業のどこを人が担うかを書き出すことです。
 
 ## よくある質問
 
