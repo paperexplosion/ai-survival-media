@@ -105,27 +105,27 @@ AI副業で「全自動で稼ぐ」という期待は、しばしば外れやす
 
 ## 編集部座談
 
-椎名: 月5万円って数字、見た瞬間「自分もいける」って思っちゃうんだよな。
+<img src="/cast/shiina.jpg" alt="椎名" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **椎名:** 月5万円って数字、見た瞬間「自分もいける」って思っちゃうんだよな。
 
-マーク: その数字、出典を見たか？
+<img src="/cast/mark.jpg" alt="マーク" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **マーク:** その数字、出典を見たか？
 
-椎名: 見てない。
+<img src="/cast/shiina.jpg" alt="椎名" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **椎名:** 見てない。
 
-マーク: だろうな。個別の体験談がほとんどだ。
+<img src="/cast/mark.jpg" alt="マーク" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **マーク:** だろうな。個別の体験談がほとんどだ。
 
-栗林: でもバズるのはその「自分もいける」感なんだよ。
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **栗林:** でもバズるのはその「自分もいける」感なんだよ。
 
-マーク: 統計じゃなくて生存者バイアスだ。
+<img src="/cast/mark.jpg" alt="マーク" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **マーク:** 統計じゃなくて生存者バイアスだ。
 
-椎名: 生き残った人の声しか届かないってことか。
+<img src="/cast/shiina.jpg" alt="椎名" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **椎名:** 生き残った人の声しか届かないってことか。
 
-栗林: 届かない声のほうが圧倒的に多いのにな。
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **栗林:** 届かない声のほうが圧倒的に多いのにな。
 
-マーク: 数字より先に、出どころを疑えって話だ。
+<img src="/cast/mark.jpg" alt="マーク" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **マーク:** 数字より先に、出どころを疑えって話だ。
 
-椎名: それ、地味だけど一番効く話だな。
+<img src="/cast/shiina.jpg" alt="椎名" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **椎名:** それ、地味だけど一番効く話だな。
 
-栗林: 地味な話は伸びないんだよ、残念ながら。
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **栗林:** 地味な話は伸びないんだよ、残念ながら。
 
 ## 編集長の眼
 
@@ -166,19 +166,19 @@ AI副業で「全自動で稼ぐ」という期待は、しばしば外れやす
 <p style="font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;">編集部</p>
 <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
 <img src="/cast/suzuki.jpg" alt="鈴木隆文" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
-<span style="font-size:0.88rem;"><strong>鈴木隆文</strong>（編集長）— すべての記事に目を通し、座談会を受けて一段高い視座から総括する</span>
+<span style="font-size:0.88rem;"><strong>鈴木隆文</strong>（編集長）— すべての記事に目を通し、座談会を受けて一段高い視座から総括する。結論を急がず、最後に残った違和感を拾うのが得意</span>
 </div>
 <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
 <img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
-<span style="font-size:0.88rem;"><strong>椎名</strong> — 現場感覚と皮肉で本質を突く</span>
+<span style="font-size:0.88rem;"><strong>椎名</strong> — 現場感覚と皮肉で本質を突く。歴史や制度の話を持ち出すと止まらない</span>
 </div>
 <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
 <img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
-<span style="font-size:0.88rem;"><strong>マーク</strong> — データと実体験で構造を読み解く</span>
+<span style="font-size:0.88rem;"><strong>マーク</strong> — データと実体験で構造を読み解く。疑問に思ったらすぐ数字で確かめたくなる</span>
 </div>
 <div style="display:flex;align-items:center;gap:0.75rem;">
 <img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
-<span style="font-size:0.88rem;"><strong>栗林</strong> — 読者の感情とバズる視点で場を動かす</span>
+<span style="font-size:0.88rem;"><strong>栗林</strong> — 読者の感情とバズる視点で場を動かす。真面目な話も一度茶化してから本音を言う</span>
 </div>
 </div>
 

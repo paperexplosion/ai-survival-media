@@ -99,27 +99,27 @@ Metaは2026年9月のMeta Connect 2026で、手のひらサイズのAIデバイ�
 
 ## 編集部座談
 
-椎名: 価格も発売日も未定なのに、もう「欲しいかも」って思ってる自分がいる。
+<img src="/cast/shiina.jpg" alt="椎名" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **椎名:** 価格も発売日も未定なのに、もう「欲しいかも」って思ってる自分がいる。
 
-栗林: それが正解のマーケティングだよ。情報を出し惜しむほど欲望は育つ。
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **栗林:** それが正解のマーケティングだよ。情報を出し惜しむほど欲望は育つ。
 
-マーク: 出し惜しんでるんじゃなくて、まだ決まってないだけじゃないか？
+<img src="/cast/mark.jpg" alt="マーク" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **マーク:** 出し惜しんでるんじゃなくて、まだ決まってないだけじゃないか？
 
-栗林: どっちでもいいんだよ、結果は同じ。
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **栗林:** どっちでもいいんだよ、結果は同じ。
 
-椎名: 身も蓋もないな。
+<img src="/cast/shiina.jpg" alt="椎名" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **椎名:** 身も蓋もないな。
 
-マーク: バッグチャーム市場、2030年に10億ドル規模になるらしい。
+<img src="/cast/mark.jpg" alt="マーク" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **マーク:** バッグチャーム市場、2030年に10億ドル規模になるらしい。
 
-椎名: たまごっちの再来か。
+<img src="/cast/shiina.jpg" alt="椎名" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **椎名:** たまごっちの再来か。
 
-栗林: たまごっちは首から下げてなかったけどな。
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **栗林:** たまごっちは首から下げてなかったけどな。
 
-マーク: 依存の形が進化したんだよ。
+<img src="/cast/mark.jpg" alt="マーク" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **マーク:** 依存の形が進化したんだよ。
 
-椎名: ……それ、結構怖いこと言ったぞ。
+<img src="/cast/shiina.jpg" alt="椎名" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **椎名:** ……それ、結構怖いこと言ったぞ。
 
-栗林: 怖いけど、笑っちゃうだろ。
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;"> **栗林:** 怖いけど、笑っちゃうだろ。
 
 ## 編集長の眼
 
@@ -154,19 +154,19 @@ Metaは2026年12月のホリデーシーズンに間に合うよう出荷する�
 <p style="font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;">編集部</p>
 <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
 <img src="/cast/suzuki.jpg" alt="鈴木隆文" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
-<span style="font-size:0.88rem;"><strong>鈴木隆文</strong>（編集長）— すべての記事に目を通し、座談会を受けて一段高い視座から総括する</span>
+<span style="font-size:0.88rem;"><strong>鈴木隆文</strong>（編集長）— すべての記事に目を通し、座談会を受けて一段高い視座から総括する。結論を急がず、最後に残った違和感を拾うのが得意</span>
 </div>
 <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
 <img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
-<span style="font-size:0.88rem;"><strong>椎名</strong> — 現場感覚と皮肉で本質を突く</span>
+<span style="font-size:0.88rem;"><strong>椎名</strong> — 現場感覚と皮肉で本質を突く。歴史や制度の話を持ち出すと止まらない</span>
 </div>
 <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
 <img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
-<span style="font-size:0.88rem;"><strong>マーク</strong> — データと実体験で構造を読み解く</span>
+<span style="font-size:0.88rem;"><strong>マーク</strong> — データと実体験で構造を読み解く。疑問に思ったらすぐ数字で確かめたくなる</span>
 </div>
 <div style="display:flex;align-items:center;gap:0.75rem;">
 <img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
-<span style="font-size:0.88rem;"><strong>栗林</strong> — 読者の感情とバズる視点で場を動かす</span>
+<span style="font-size:0.88rem;"><strong>栗林</strong> — 読者の感情とバズる視点で場を動かす。真面目な話も一度茶化してから本音を言う</span>
 </div>
 </div>
 
