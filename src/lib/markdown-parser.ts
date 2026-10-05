@@ -16,6 +16,36 @@ function parseDateString(dateStr: string): string {
 export function parseMarkdownToHtml(text: string): string {
   let html = text;
 
+  // ---- ブロック要素（表・番号つきリスト・区切り線）。後段の \n\n 段落化で壊れないよう、1行のHTMLにして前後を空行で囲む ----
+  // 表：`| a | b |` の連続行 → <table>（スマホでは横スクロール）
+  html = html.replace(/(^[ \t]*\|.*\|[ \t]*(?:\n|$))+/gm, (block) => {
+    const rows = block
+      .trim()
+      .split("\n")
+      .map((line) => line.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map((c) => c.trim()));
+    const isSeparator = (cells: string[]) => cells.every((c) => /^:?-{2,}:?$/.test(c));
+    const dataRows = rows.filter((cells) => !isSeparator(cells));
+    if (dataRows.length === 0) return block;
+    const [head, ...body] = dataRows;
+    const th = head.map((c) => `<th class="border border-white/20 bg-white/10 px-3 py-2 text-left font-bold text-neon-cyan whitespace-nowrap">${c}</th>`).join("");
+    const trs = body
+      .map((cells) => `<tr>${cells.map((c) => `<td class="border border-white/15 px-3 py-2 align-top">${c}</td>`).join("")}</tr>`)
+      .join("");
+    return `<div class="my-6 overflow-x-auto"><table class="w-full min-w-[480px] border-collapse text-sm"><thead><tr>${th}</tr></thead><tbody>${trs}</tbody></table></div>\n`;
+  });
+
+  // 番号つきリスト：`1. xxx` の連続行 → <ol>
+  html = html.replace(/(^\d+\.[ \t]+.*(?:\n|$))+/gm, (block) => {
+    const items = block
+      .trim()
+      .split("\n")
+      .map((line) => line.replace(/^\d+\.[ \t]+/, "").trim());
+    return `<ol class="list-decimal ml-6 my-4 space-y-2">${items.map((i) => `<li>${i}</li>`).join("")}</ol>\n`;
+  });
+
+  // 区切り線：`---` だけの行
+  html = html.replace(/^---$/gm, '<hr class="my-8 border-white/20" />');
+
   const articleMetadata = new Map<string, { englishTitle: string; url: string }>();
 
   html = html.replace(/###\s*\[【事実:\s*(.+?)（(.+?)／(.+?)）】\]\(([^)]+)\)/g, (match, japaneseTitle, englishTitle, date, url) => {
