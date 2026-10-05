@@ -159,6 +159,7 @@ AI失業をめぐる議論では、利用データの偏りと因果関係の扱
 
 - [AIが安全を叫ぶほど便利さは静かに更新される——OpenAI退職者が核レベルを求めた日](/blog/20261004-072349)
 
+- [AIでなくなる仕事ランキング｜消える理由と残る条件](/blog/ai-jobs-disappear-ranking)
 ## 出典・参考資料
 
 1. [Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence - Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/)（参照日：2026年9月25日）
