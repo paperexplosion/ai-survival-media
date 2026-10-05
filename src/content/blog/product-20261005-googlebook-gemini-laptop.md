@@ -107,15 +107,63 @@ Googlebookは、環境・社会・市場のそれぞれに小さくない影響�
 
 購入を検討する場面では、こうした公式発表と複数報道の突き合わせが、値札の意味を落ち着いて読む助けになりそうです。
 
-## 編集長の眼
+<div style="margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)">
+<p style="font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;">編集部座談</p>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>栗林:</strong> 899ドルのGooglebook、要は矢印カーソルがAIの入口になるって話でしょ？</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>マーク:</strong> そう。カーソルで選んだメールの安全性を確認したり、要約させたりできるらしい。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>椎名:</strong> 矢印が召喚獣になるのか。PCの歴史でカーソルの意味が変わるのは大きいな。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>栗林:</strong> でもさ、Circle to Searchと何が違うの？って言われたら、ちょっと困らない？</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>マーク:</strong> そこは正直、指摘済み。調べる側か、動かす側かで評価が割れそう。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>椎名:</strong> 個人的にはRamblerが一番効く。散らかった音声を文章に整えるやつ。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>栗林:</strong> それ地味だけど、会議メモが壊滅的な人には刺さるよね。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>マーク:</strong> アプリを切り替えずに済むのが本体。5社生産で、日本発売は未定。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>椎名:</strong> 道具と使い方、どっちが先に変わるんだろうな。</span>
+</div>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;"><strong>栗林:</strong> とりあえず、矢印をじっと見つめる夜が来そうだね。</span>
+</div>
+</div>
 
-Googlebookは、ただ新しいノートパソコンが出たという話にとどまらない気配をまとっています。899ドルという価格の向こう側には、カーソルがGeminiへの入口になり、音声で話した考えが読みやすい文章に整い、スマートフォンで始めた作業がそのままパソコンへ流れていく——そんな一日が待っているのかもしれません。
+<div style="margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)">
+<p style="font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;">編集長の眼</p>
+<div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;">
+<img src="/cast/suzuki.jpg" alt="鈴木隆文" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.92rem;line-height:1.7;">Googlebookは、ただ新しいノートパソコンが出たという話にとどまらない気配をまとっています。899ドルという価格の向こう側には、カーソルがGeminiへの入口になり、音声で話した考えが読みやすい文章に整い、スマートフォンで始めた作業がそのままパソコンへ流れていく——そんな一日が待っているのかもしれません。
 
 たとえば、朝の電車の中でスマホに吹き込んだ企画の断片を、オフィスに着いてGooglebookを開いた瞬間に整った文章として受け取る。あるいは、学校の教室で生徒が教科書の図をカーソルでなぞり、その場でGeminiに解説を頼む。あるいは、自宅で家族と旅行の計画を立てながら、言葉で指示したウィジェットに日程や持ち物を並べていく。こうした場面では、アプリを探して切り替える手間が減り、考えごとの流れが途切れにくくなりそうです。
 
 一方で、Magic CursorがAndroidの「Circle to Search」に近いという指摘もあり、便利さの質が「調べる」側なのか「動かす」側なのかは、実際に触れてみないと見えてこないところでしょう。それでも、AIを別のタブとして呼び出すのではなく、道具そのものに溶け込ませようとする試みには、作り手の工夫と覚悟を感じます。
 
-道具が先に変わるのか、使い方が先に変わるのか。その順番を選びながら、私たちの暮らしと仕事の距離感が、少しずつ新しい形へ近づいていく。そんな予感を、この端末は連れてきてくれそうです。
+道具が先に変わるのか、使い方が先に変わるのか。その順番を選びながら、私たちの暮らしと仕事の距離感が、少しずつ新しい形へ近づいていく。そんな予感を、この端末は連れてきてくれそうです。</span>
+</div>
+</div>
 
 ## よくある質問
 
@@ -145,6 +193,26 @@ GooglebookはAndroid OSとChromeOSのデスクトップ要素を組み合わせ�
 - [2026年4月19日、AIの「本質」が問われる日](/blog/20260420-050152)
 
 ---
+
+<div style="margin-top:2rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)">
+<p style="font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;">編集部</p>
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
+<img src="/cast/suzuki.jpg" alt="鈴木隆文" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.88rem;"><strong>鈴木隆文（編集長）</strong> — すべての記事に目を通し、座談会を受けて一段高い視座から総括する。結論を急がず、最後に残った違和感を拾うのが得意</span>
+</div>
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
+<img src="/cast/shiina.jpg" alt="椎名" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.88rem;"><strong>椎名</strong> — 現場感覚と皮肉で本質を突く。歴史や制度の話を持ち出すと止まらない</span>
+</div>
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
+<img src="/cast/mark.jpg" alt="マーク" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.88rem;"><strong>マーク</strong> — データと実体験で構造を読み解く。疑問に思ったらすぐ数字で確かめたくなる</span>
+</div>
+<div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.7rem;">
+<img src="/cast/kuribayashi.jpg" alt="栗林" style="width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+<span style="font-size:0.88rem;"><strong>栗林</strong> — 読者の感情とバズる視点で場を動かす。真面目な話も一度茶化してから本音を言う</span>
+</div>
+</div>
 
 **記事監修：** 鈴木隆文
 
