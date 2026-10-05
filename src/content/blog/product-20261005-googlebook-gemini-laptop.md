@@ -1,15 +1,15 @@
 ---
-title: "899ドルのGooglebook、AIは仕事をどう変える？"
-lead: "899ドルのGooglebookでは、カーソルや音声入力にGeminiが溶け込み、操作のたびにAIが寄り添います。何が新しいのかが分かれば、仕事の流れがどう変わるかを判断できます。"
+title: "矢印のカーソルがAIの入口に——899ドルのGooglebook"
+lead: "カーソルを合わせるだけでGeminiに要約やメール確認を頼め、口述した思いつきは読める文章に整う。899ドルのGooglebookで何が新しく、仕事の流れがどう変わり得るのかが分かります。"
 date: "2026-10-05 22:03"
 category: "🎯 AIを武器にするスキル・思考法"
 type: product
 layer: choose
 image: "/blog-images/product-20261005-googlebook-gemini-laptop/cover.jpg"
-preamble: "*画像：Googleの公式発表の写真をもとにしたイラストです（原典：[Google’s $899 Googlebook is a bet that you’ll buy ](https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/)）*\n\n電話の形をしたコンピューターが現れたら、世界はどう変わるでしょうか。Googleが2026年9月21日に予約受付を開始した「Googlebook」は、カーソルや音声入力そのものにAIが溶け込み、操作のたびに寄り添ってくるノートPCです。これまでは、AIを使いたいときに別のタブやアプリを自分で呼び出す必要がありました。資料を調べる途中で手が止まるたび、あなたは何をAIに任せ、何を自分の手で続けたいと思うでしょうか。この記事を読むと、AIが道具の内側に入り込むことで、日々の仕事の流れがどう変わり得るのかが見えてきます。\n\n**この記事の要点**\n\n- Googleは899ドルからGemini中心の新ノートPC「Googlebook」を発表し、10月4日に発売します[1][5][7]。\n- カーソルがGeminiの入口となるMagic CursorやRamblerなど、AIが操作の流れに組み込まれます[1][5]。\n- Acer、ASUS、Dell、HP、Lenovoの5社が製造し、日本での発売時期と価格は未定です[5][7]。\n\n（最終更新：2026年10月5日）"
+preamble: "*画像：Googleの公式発表の写真をもとにしたイラストです（原典：[Google’s $899 Googlebook is a bet that you’ll buy ](https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/)）*\n\nパソコンのカーソルが、AIへの入り口になったら、仕事はどう変わるでしょうか。Googleが2026年9月21日に予約受付を開始した「Googlebook」は、画面上の矢印を合わせるだけでGeminiに要約やメールの確認を頼め、口述した思いつきを読みやすい文章に整えてくれるノートPCです。これまでAIは、別のタブやアプリを開いて呼び出すものでした。それがパソコンの操作そのものに溶け込むなら、あなたは調べ物や資料づくりの手を、どこでAIに預けたいと思うでしょうか。この記事を読むと、何が新しく、仕事の流れがどう変わり得るのか、世界の受け止めがどこまで見えているのかが分かります。\n\n**この記事の要点**\n\n- Googleは899ドルからGemini中心の新ノートPC「Googlebook」を発表し、10月4日に発売します[1][5][7]。\n- カーソルがGeminiの入口となるMagic CursorやRamblerなど、AIが操作の流れに組み込まれます[1][5]。\n- Acer、ASUS、Dell、HP、Lenovoの5社が製造し、日本での発売時期と価格は未定です[5][7]。\n\n（最終更新：2026年10月5日）"
 ---
 
-# 899ドルのGooglebook、AIは仕事をどう変える？
+# 矢印のカーソルがAIの入口に——899ドルのGooglebook
 
 ![カバー画像](/blog-images/product-20261005-googlebook-gemini-laptop/cover.jpg)
 
