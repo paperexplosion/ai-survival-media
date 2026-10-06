@@ -1,7 +1,7 @@
 ---
 title: "4つのAIに国家資格を解かせたら、全部受かったのは2つだけだった"
 lead: "AI実験室 vol.1。Gemini・Claude・GPT-4o・DeepSeekに、FP3級・宅建・ITパスポートを同じ条件で解かせた。3資格すべてに合格したのは2つだけ。総合1位はGemini（93.9%）だが、宅建だけ見ればClaudeが上回る。万能なAIは存在しない。費用は合計で数円。"
-date: "2026-10-05 12:00"
+date: "2026-10-07 08:30"
 category: "🎯 AIを武器にするスキル・思考法"
 type: experiment
 layer: think
