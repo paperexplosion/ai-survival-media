@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   ...pageMetadata({
     path: '/',
     title: 'AI Survival Report | AIと人間と。',
-    description: 'AIと人間の共存を、記録する。AIで仕事・暮らし・生き方がどう変わるのかを、報道と一次資料から記録するドキュメンタリー・メディア。',
+    description: 'AI Survival Report（AIサバイバルレポート）は、AIと人間の共存を記録するメディア。AIで仕事・暮らし・生き方がどう変わるのかを、報道と一次資料から記録する。',
   }),
 };
 
