@@ -7,19 +7,19 @@ export const SITE_URL = 'https://ai-survival.org';
 // 同日中に英語表記「AI Survival Report」に再変更。
 // サブタイトル「AIと人間と。」はそのまま維持。Google ニュース Publisher Center の出版物名も合わせて変更要）。
 // 構造化データ・RSS・ニュースサイトマップ・og:site_name はこの名前。ドメインは ai-survival.org のまま
-export const SITE_NAME = 'AIと人間と。AI Survival Report';
+export const SITE_NAME = 'AI Survival Report'; // 2026-10-04 Tim の点検 B-1：トップの title・ヘッダーと揃える（「AIと人間と。」はキャッチコピー扱い）
 // ページタイトル末尾に付ける短い名前（検索結果でタイトル本文が削られないように）
 export const SITE_SHORT_NAME = 'AI Survival Report';
 export const SITE_FORMER_NAMES = ['AI Documentary Report']; // 旧称（2026-10-04 改名）
 export const SITE_READINGS = ['AIサバイバルレポート', 'AIサバイバル・レポート']; // 読み方（カタカナ表記）
-export const SITE_ALT_NAMES = ['AI Survival Report', ...SITE_READINGS, ...SITE_FORMER_NAMES];
+export const SITE_ALT_NAMES = ['AIと人間と。AI Survival Report', ...SITE_READINGS, ...SITE_FORMER_NAMES];
 export const SITE_DESCRIPTION = 'AIと人間の共存を、ドキュメンタリーとして記録するメディア。AIで仕事・暮らし・生き方がどう変わるのかを、報道と一次資料から記録する。';
 export const PUBLISHER_NAME = 'ストーリーテリング合同会社';
 // 記事の表示は「記事監修：鈴木隆文」だけ（2026-09-28 鈴木編集長兼社長の決定）。
 // 構造化データでは author = メディア（Organization）、editor = 鈴木隆文（Person）とする
 export const AUTHOR_NAME = '鈴木隆文';
 export const AUTHOR_URL = `${SITE_URL}/about`;
-export const LOGO_URL = `${SITE_URL}/icon`;
+export const LOGO_URL = `${SITE_URL}/apple-icon`; // 180×180（Google のロゴ推奨 112px 以上）
 export const OG_IMAGE = '/og-image.png';
 
 export const ORGANIZATION_LD = {
@@ -56,7 +56,7 @@ export function pageMetadata({ path, title, description, noindex = false }: {
       types: { 'application/rss+xml': [{ url: '/feed.xml', title: SITE_NAME }] },
     },
     openGraph: { title: fullTitle, description, url: path, siteName: SITE_NAME, locale: 'ja_JP', type: 'website', images },
-    twitter: { card: 'summary_large_image', title: fullTitle, description, images },
+    twitter: { card: 'summary_large_image', site: '@ai_survival', title: fullTitle, description, images },
     ...(noindex ? { robots: { index: false, follow: true } } : {}),
   };
 }
