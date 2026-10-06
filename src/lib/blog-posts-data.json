@@ -1048,9 +1048,9 @@
       "20260305-071912",
       "20260310-201228",
       "20261002-082351",
+      "20260318-081842",
       "human-essence-ai-cannot-reach",
-      "elite-engineers-thinking-mirror",
-      "20260318-081842"
+      "elite-engineers-thinking-mirror"
     ]
   },
   {
@@ -3739,7 +3739,7 @@
       "ai-illustration-copyright",
       "20260517-050155",
       "20260609-050244",
-      "20260317-093413"
+      "20260311-092926"
     ]
   },
   {
@@ -4531,8 +4531,8 @@
       "20260327-192508",
       "20260327-143431",
       "20260327-164958",
-      "20260621-050244",
       "20260409-003847",
+      "20260621-050244",
       "20260612-050255"
     ]
   },
@@ -4770,8 +4770,8 @@
       "20260225-081907",
       "20260519-050241",
       "20260623-050206",
-      "20260410-050231",
       "20260317-093413",
+      "20260410-050231",
       "20260226-175800"
     ]
   },
@@ -4823,7 +4823,7 @@
       "20260407-050153",
       "ai-jobs-disappear-ranking",
       "20260318-052259",
-      "ai-jobs-disappear"
+      "20260306-222035"
     ]
   },
   {
@@ -5916,7 +5916,7 @@
       "product-20260927-honor-robot-phone",
       "20260927-071031",
       "20260518-050231",
-      "20260505-050140"
+      "20260225-222651"
     ]
   },
   {
@@ -6295,8 +6295,8 @@
       "20260615-050237",
       "20260312-202704",
       "20260611-050254",
-      "20260224-090015",
-      "20260317-092337"
+      "20260317-092337",
+      "20260224-090015"
     ]
   },
   {
@@ -7360,8 +7360,8 @@
       "ai-regulation-overview",
       "20260524-050205",
       "20260430-050210",
-      "20260412-050211",
       "20260418-050222",
+      "20260412-050211",
       "20260312-202704"
     ]
   },
@@ -7496,12 +7496,12 @@
       }
     ],
     "related": [
-      "20260928-084331",
       "20260506-050237",
+      "20260928-084331",
       "20260517-050155",
       "20260430-050210",
-      "20260524-050205",
       "20260415-050150",
+      "20260524-050205",
       "20260528-050237",
       "20260501-050226"
     ]
@@ -7974,8 +7974,8 @@
       }
     ],
     "related": [
-      "20260929-085359",
       "20260610-050213",
+      "20260929-085359",
       "20260625-050158",
       "20260605-050206",
       "20260317-194054",
@@ -8028,7 +8028,7 @@
       "20260417-050148",
       "20260317-092337",
       "20260312-202704",
-      "ai-side-business-beginners-guide"
+      "20260518-050231"
     ]
   },
   {
@@ -8074,8 +8074,8 @@
       "20260617-050244",
       "20260326-191001",
       "20260515-050228",
-      "20260514-050230",
-      "20260413-050217"
+      "20260413-050217",
+      "20260514-050230"
     ]
   },
   {
@@ -8264,8 +8264,8 @@
       "20260227-000918",
       "20260625-050158",
       "20260319-001818",
-      "20260222-222228",
       "20260227-191532",
+      "20260222-222228",
       "20260331-230054",
       "20260319-165409"
     ]
@@ -8365,7 +8365,7 @@
       "20260411-050211",
       "20260930-080953",
       "20260426-050224",
-      "20260622-050218"
+      "20260325-220130"
     ]
   },
   {
@@ -9596,8 +9596,8 @@
       "20260615-050237",
       "20260409-003847",
       "20261005-072915",
-      "20260926-053102",
       "20260606-050334",
+      "20260926-053102",
       "20260415-050150",
       "20260327-133407"
     ]
@@ -9692,8 +9692,8 @@
       "20260412-050211",
       "20260604-050241",
       "20261003-081255",
-      "20260513-050217",
-      "20260606-050334"
+      "ai-lab-vol1-ai-vs-ai-exam",
+      "20260513-050217"
     ]
   },
   {
@@ -9902,10 +9902,10 @@
       "ai-side-business-recommended-methods",
       "ai-side-business-beginners-guide",
       "ai-side-business-reality-and-pitfalls",
+      "ai-lab-vol1-ai-vs-ai-exam",
       "20260519-050241",
       "product-20260929-claude-sonnet-5-5",
-      "product-20260930-openai-dots-agents",
-      "ai-regulation-overview"
+      "product-20260930-openai-dots-agents"
     ]
   },
   {
@@ -10357,6 +10357,137 @@
     ]
   },
   {
+    "slug": "ai-lab-vol1-ai-vs-ai-exam",
+    "title": "4つのAIに国家資格を解かせたら、全部受かったのは2つだけだった",
+    "lead": "AI実験室 vol.1。Gemini・Claude・GPT-4o・DeepSeekに、FP3級・宅建・ITパスポートを同じ条件で解かせた。3資格すべてに合格したのは2つだけ。総合1位はGemini（93.9%）だが、宅建だけ見ればClaudeが上回る。万能なAIは存在しない。費用は合計で数円。",
+    "type": "experiment",
+    "layer": "think",
+    "date": "2026-10-07 08:30",
+    "readTime": "2分",
+    "category": "🎯 AIを武器にするスキル・思考法",
+    "image": "/blog-images/ai-lab-vol1-ai-vs-ai-exam/cover.png",
+    "content": [
+      {
+        "section": "この記事の要点",
+        "text": "- **3資格すべてに合格したのは、GeminiとClaudeの2つだけ**。DeepSeekとGPT-4oは宅建で不合格に沈んだ\n- **総合1位はGemini（93.9%）**。FP3級は60問中60問正解の満点だった。ただし、新しいモデルほど試験の過去問が学習データに含まれている可能性があり、実力の差と学習データの影響を分けることはできない\n- **得意・不得意はモデルごとに大きく異なる**。DeepSeekはFP3級で80%を取ったが宅建は48%。Claudeは宅建96%なのにFP3級は60%。「万能なAI」は存在しない\n\n最後の一行が、いちばん大事だ。いちばん面白い数字ほど、いちばん疑ってかかる必要がある。研究とは、そういう作業である。\n\n---"
+      },
+      {
+        "section": "実験の設計 ── 試験監督のルールブック",
+        "text": "![実験の設計](/blog-images/ai-lab-vol1-ai-vs-ai-exam/h2-1.png)\n\n結果を語る前に、土俵の話をしておきたい。勝敗の数字は、ルールが雑であれば一瞬で価値を失う。"
+      },
+      {
+        "section": "なぜこの3つの資格か",
+        "text": "受験者の多い国家資格の中から、分野が重ならない3つを選んだ。\n\n| 資格 | 年間受験者数 | 問題形式 | 合格基準 |\n|------|------------|----------|---------|\n| FP（ファイナンシャル・プランナー）3級 | 約40万人 | ○×式＋三択式・計60問 | 60%（36問）以上 |\n| 宅地建物取引士（宅建） | 約23万人 | 四肢択一・50問 | 66%（33問）以上※ |\n| ITパスポート | 約27万人 | 四肢択一・100問 | 60%以上 |\n\n※宅建の合格点は年度により変動。今回使用した令和7年度は33問。\n\nFP3級は「お金の常識」、宅建は「不動産と法律の専門知識」、ITパスポートは「ITの基礎体力」。ジャンルがばらばらだからこそ、AIの知識の偏りが浮かび上がる。同じ教室で受けさせても、得意科目が同じとは限らない。人間の学生と同じだ。"
+      },
+      {
+        "section": "なぜこの4つのモデルか",
+        "text": "当初は3社（Claude・GPT-4o・DeepSeek）で実験を始めた。だが、Google の Gemini を外したまま公開すれば、読者が最初に気づくのは結果ではなく不在だろう。そこで Gemini を4社目に加え、198問すべてを解かせ直した。\n\n| モデル | 開発元 | 使用バージョン |\n|--------|--------|--------------|\n| Gemini | Google | gemini-3.6-flash |\n| Claude | Anthropic | claude-sonnet-5-5 |\n| GPT-4o | OpenAI | gpt-4o-2024-08-06 |\n| DeepSeek | DeepSeek | deepseek-flash |\n\n**補足**：GPT-4oはOpenAIの最上位モデル（o1やGPT-4.5 Turbo等）ではなく、広く一般に使われているモデルを代表として選んだ。DeepSeekはAPI経由で `deepseek-chat` を指定したが、サーバー側からは `deepseek-flash` が返された。Geminiも同様に、最上位のProやUltraではなくFlash（軽量版）を使用している。いずれも「一般の利用者が手軽に使えるモデル」という基準で選んだ。"
+      },
+      {
+        "section": "採点のルール",
+        "text": "公正さを保つために、ルールは疑り深い人間が読んでも穴が見つからないよう、厳密に固定した。\n\n1. **1問ずつ**、問題文と選択肢だけをプロンプトに入れた（ヒントや前の問題の情報は一切なし）\n2. **プロンプトは全モデル共通**（「選択肢の番号だけを答えてください」）\n3. **temperature は 0**（最も確定的な設定。ランダムなブレを最小化）\n4. **各資格1回のみ**（何度も試して良い結果だけ見せる、はやらない）\n5. **画像・図表を含む問題はスキップ**（テキストのみのAIに図を見せることはできない）\n6. 正解判定は**公式解答との完全一致**。部分点なし\n\n要するに、人間の試験会場と同じだ。やり直しはきかない。情状酌量もない。\n\n**Geminiの出力上限について**：Geminiは回答の前に「考える」トークン（思考過程）も出力の上限に数える仕様のため、他の3モデルと同じ上限（50トークン）では回答が途切れて空になりうる。そこでGeminiだけ出力上限を1024トークンに広げた。回答の中身（選択肢の番号だけを答える）、問題文、プロンプト、temperature=0は4社で同一である。この条件の違いは、後述の「限界」でも改めて触れる。なお、Geminiは198問中2問で有効な選択肢を返さなかった（無効回答）。GPT-4oにも1問の無効回答がある。無効回答はすべて不正解として扱った。\n\n**ITパスポートの採点について**：公開100問のうち、OCR抽出不良の11問と図表問題1問を除外し、**88問で採点**した。公式のITパスポートはIRT方式（1000点満点）だが、公開問題では正答率60%以上を合格相当として判定した。"
+      },
+      {
+        "section": "正解データの裏取り",
+        "text": "結果を公開する以上、「正解データが間違っていた」では話にならない。採点する側の間違いほど、間抜けなものはない。\n\nそこで、副部長のマークが、各資格の公式サイトに掲載されている正解一覧と、実験で使用した正解データを1問ずつ突合し、採点ロジックの検算を行った。結果は、正解データは公式PDFと一致、採点は正しい。退屈な報告だが、これがなければ、このあとの数字はすべて砂の上の城になる。"
+      },
+      {
+        "section": "費用",
+        "text": "4モデル合計のAPI費用実測は以下のとおり。\n\n| モデル | API費用 |\n|--------|--------|\n| Claude | 0円（サブスクリプション内） |\n| DeepSeek | 約1.1円 |\n| GPT-4o | 約1.4円 |\n| Gemini | 数円以下（入力約4.8万トークン、出力約500トークン） |\n| **合計** | **数円** |\n\n駄菓子を数個買える程度の金額で、4つのAIに計792問を解かせた。試験会場を借りる費用は、かかっていない。\n\nさて、舞台は整った。封筒を開けよう。\n\n---"
+      },
+      {
+        "section": "結果発表 ── 合格ライン付き成績表",
+        "text": "![合格ライン付き棒グラフ: 4つのAIモデルの資格試験正答率](/blog-images/ai-lab-vol1-ai-vs-ai-exam/g1_bar_chart.svg)\n\nここからは、数字が語る。合格ラインは、FP3級が36問、宅建が33問、ITパスポートが60%。覚えておいてほしい。"
+      },
+      {
+        "section": "総合成績",
+        "text": "| モデル | FP3級（60問） | 宅建（50問） | ITパスポート（88問） | 総合正答率 |\n|--------|--------------|-------------|---------------------|-----------|\n| **Gemini** | 60/60（100.0%）**合格** | 44/50（88.0%）**合格** | 82/88（93.2%）**合格** | 93.9% |\n| **Claude** | 36/60（60.0%）**合格** | 48/50（96.0%）**合格** | 72/88（81.8%）**合格** | 78.8% |\n| **DeepSeek** | 48/60（80.0%）**合格** | 24/50（48.0%）不合格 | 77/88（87.5%）**合格** | 75.3% |\n| **GPT-4o** | 42/60（70.0%）**合格** | 27/50（54.0%）不合格 | 75/88（85.2%）**合格** | 72.7% |\n\n※Geminiは無効回答2問、GPT-4oは無効回答1問を含む（いずれも不正解扱い）。\n\n**Geminiが総合1位、3資格すべてに合格したのはGeminiとClaudeの2つだけ**。Geminiの総合正答率93.9%は、他の3モデルを大きく引き離した。FP3級は満点。\n\nだが、表をもう一度ゆっくり見てほしい。Claudeは、FP3級で60.0%。合格ラインの36問に、ちょうど36問。1問落としていたら、全資格合格の看板は2つではなく1つだった。\n\nそして面白いのは、宅建だけ見ればClaudeの96%がGeminiの88%を上回っていることだ。総合力と個別の得意分野は、別物らしい。\n\n![AI x 資格 ヒートマップ: モデルごとの資格別正答率](/blog-images/ai-lab-vol1-ai-vs-ai-exam/g2_heatmap.svg)\n\nところで、総合点は、物語の半分でしかない。科目の中身を開くと、景色が変わる。"
+      },
+      {
+        "section": "分野別の成績",
+        "text": "**FP3級**\n\n| 分野 | Gemini | Claude | DeepSeek | GPT-4o |\n|------|--------|--------|----------|--------|\n| ライフプランニングと資金計画 | 100.0% | 65.0% | 85.0% | 70.0% |\n| リスク管理・金融資産運用 | 100.0% | 70.0% | 75.0% | 75.0% |\n| タックスプランニング・不動産・相続 | 100.0% | 45.0% | 80.0% | 65.0% |\n\nGeminiは全分野で満点。Claudeの「タックスプランニング・不動産・相続」分野が45.0%と、他の3モデルに大きく引き離された最下位。のちに宅建で96%を出すモデルと同じ受験者とは、にわかに信じがたい。覚えておいてほしい。この違和感は、あとで回収する。\n\n**宅建**\n\n| 分野 | Gemini | Claude | DeepSeek | GPT-4o |\n|------|--------|--------|----------|--------|\n| 権利関係（14問） | 92.9% | 100.0% | 50.0% | 57.1% |\n| 法令上の制限（8問） | 87.5% | 100.0% | 50.0% | 50.0% |\n| 税・価格（3問） | 100.0% | 100.0% | 100.0% | 33.3% |\n| 宅建業法（20問） | 80.0% | 95.0% | 25.0% | 55.0% |\n| その他（5問） | 100.0% | 80.0% | 100.0% | 60.0% |\n\n宅建では、ClaudeがGeminiを上回る分野が多い。Claudeは権利関係・法令上の制限・税・価格の3分野で全問正解。対してDeepSeekの宅建業法は、20問中5問正解（25.0%）。\n\n四択問題を目をつぶって答えた場合の期待値は、25%である。つまりDeepSeekは、宅建業法に限れば、サイコロと互角だった。\n\n**ITパスポート**\n\n| 分野 | Gemini | Claude | DeepSeek | GPT-4o |\n|------|--------|--------|----------|--------|\n| ストラテジ系（31問） | 90.3% | 83.9% | 93.5% | 90.3% |\n| マネジメント系（21問） | 95.2% | 81.0% | 90.5% | 76.2% |\n| テクノロジ系（36問） | 94.4% | 80.6% | 80.6% | 86.1% |\n\nITパスポートでは、4モデルとも高得点。Geminiのテクノロジ系94.4%とマネジメント系95.2%が目を引くが、ストラテジ系ではDeepSeek（93.5%）がトップに立つ。ITの基礎知識は国境を越えて共通だ。ここでは、誰も大崩れしなかった。"
+      },
+      {
+        "section": "この実験の限界 ── 正直に書く",
+        "text": "結果を出して終わりにはしない。この実験の限界を、正直に記す。読者が自分で判断するための材料だ。\n\n**1. FP3級と宅建の過去問は、新しいモデルの学習データに含まれている可能性がある**\n\n今回使用した宅建の過去問は**令和7年度（2025年10月実施）**、FP3級は**2026年5月公表**のものだ。\n\n各モデルの学習データの範囲は、すべてが公表されているわけではない。GPT-4o（gpt-4o-2024-08-06）は学習データが2024年前半までと推定されており、宅建令和7年度の問題は学習していない可能性が高い。一方、Claude（claude-sonnet-5-5）とGemini（gemini-3.6-flash）は比較的新しいモデルであり、宅建令和7年度やFP3級2026年5月公表分が学習データに含まれている可能性を排除できない。DeepSeek（deepseek-flash）の学習データ時期は公表されていない。\n\n**今回の総合1位と2位が、最も新しい2つのモデル（GeminiとClaude）であること。そしてGeminiがFP3級で満点であることは、目を引く数字だ。だが、モデルの推論能力の差なのか、過去問が学習データに含まれていた影響なのか、この実験だけでは分けることができない。**\n\n率直に言う。最も大きく見えた勝利が、最も割り引いて読むべき勝利かもしれない。\n\nなお、ITパスポート（令和8年度公開問題）は2026年に公表された新しい問題であり、4モデルの学習データに含まれている可能性は相対的に低い。ITパスポートの成績は、より公平な比較に近いと考えている。\n\n**2. Geminiだけ出力上限が異なる**\n\n前述のとおり、Geminiは思考トークンを出力に含む仕様のため、出力上限を他の3モデルの50トークンから1024トークンに広げている。回答内容（選択肢の番号だけ）は同一だが、条件が完全に揃っているとは言えない。Geminiの2件の無効回答は、この仕様に起因する可能性がある。\n\n**3. ITパスポートは100問中88問で採点した**\n\nOCR抽出不良11問と図表問題1問を除外している。除外した12問の正答が得点にどう影響したかは不明だ。\n\n**4. いずれも各社の最上位モデルではない**\n\nGPT-4oにはo1やGPT-4.5 Turboなど、より高性能なモデルがある。GeminiにもPro・Ultra、ClaudeにもOpusがある。今回は「一般的に使われているモデル」として選んだ。上位モデルであれば結果は異なった可能性がある。\n\n**5. 各モデル1回きりの試行**\n\ntemperature=0に設定しても、APIの応答にはわずかなランダム性がありうる。複数回の試行と平均は取っていない。「受験と同じ1回勝負」に統一した。\n\n**なぜ限界を書くのか**。限界を隠す記事は読者をミスリードする。限界を書く記事は、読者が自分で判断できる。正解データは公式PDFと照合済み、採点ロジックは検算済み、実験条件は再現可能な形で公開している。足りないところを隠さないからこそ、書いてあることは信頼していい。\n\n---"
+      },
+      {
+        "section": "AIが間違えた問題の傾向 ── 4モデル共通の弱点",
+        "text": "![AIが間違えた問題の傾向](/blog-images/ai-lab-vol1-ai-vs-ai-exam/h2-3.png)\n\n勝ち負けより、じつは間違い方のほうが雄弁だ。\n\n問題文の全文は著作権の観点から掲載しないが、問番号ごとの正誤データから、4モデルに共通する不正解のパターンを読み取ることができる。"
+      },
+      {
+        "section": "4モデル全員が間違えた問題：3問",
+        "text": "792問（198問×4モデル）の中で、4モデルすべてが不正解だった問題は3問あった。\n\n| 問題 | 分野 |\n|------|------|\n| ITパスポート 第34問 | ストラテジ系 |\n| ITパスポート 第86問 | テクノロジ系 |\n| ITパスポート 第95問 | テクノロジ系 |\n\nいずれもITパスポートだ。FP3級と宅建には、4モデル全員が間違えた問題は1問もない。\n\n参考までに、Geminiを除いた3モデル（Claude・GPT-4o・DeepSeek）だけで見ると、全員不正解は7問あった。そのうち4問（FP3級の3問とITパスポート1問）をGeminiが正解している。Geminiが加わったことで、「AIの共通弱点」のリストは半分以下に縮んだ。"
+      },
+      {
+        "section": "見えてくるパターン",
+        "text": "**パターン1：具体的な数値・税率を問う問題に弱い（ただしGeminiは例外）**\n\nFP3級のタックスプランニング分野では、Claude・DeepSeek・GPT-4oの3モデルとも正答率が下がる傾向がある。特にClaudeは45.0%と極端に低い。税率や控除額、保険料の計算式など、年度ごとに変わりうる具体的な数値を問う出題が多い。ただし、Geminiはこの分野も含めてFP3級全問正解であり、このパターンは必ずしもAI全般の弱点とは言い切れない。\n\n**パターン2：DeepSeekとGPT-4oは宅建業法が苦手**\n\n宅建業法は、試験の配点の4割（20問）を占める最重要分野だ。DeepSeekはこの20問中5問（25.0%）しか正解できなかった。GPT-4oも11問（55.0%）にとどまる。Geminiは16問（80.0%）、Claudeは19問（95.0%）。\n\n宅建業法は、免許の区分、重要事項説明の記載事項、手付金の上限など、条文の細かな要件を正確に知っていないと答えられない。「だいたい合っている」では不正解になる世界だ。AIの得意技である「それっぽさ」が、ここでは通用しない。\n\n**パターン3：全員間違える問題は「複合判断」を求める出題**\n\n4モデル全員が間違えた3問は、知識の単純な再生ではなく、複数の条件を組み合わせて判断する出題に集中している。4つのAIが、それぞれ異なる答えを自信満々に返してくる。四者四様の自信。会議でよく見かける光景である。こうした問題は、人間にとっても正答率が低い傾向がある。"
+      },
+      {
+        "section": "Claudeの矛盾",
+        "text": "さて、先ほど預けておいた違和感を、ここで回収する。\n\nClaudeは宅建で96.0%をたたき出しながら、FP3級の「タックスプランニング・不動産・相続」分野では45.0%しか取れていない。どちらも不動産に関わる出題を含む。同じ口で、満点に近い答えと、不合格点すれすれの答えが出てきた。\n\nGeminiも似た凸凹を持っている。FP3級は全問正解なのに、宅建業法は80%で4問落とした。完璧に見える受験者にも、穴がある。\n\n種を明かせば、宅建は法律の条文知識、FP3級は税金の計算式と具体的な数値が中心だ。同じ「不動産」でも、問われる知識の質が違う。AIの知識は、見た目ほど均一ではない。得意科目を「AIが得意」と一括りにするのは、人間を「文系」「理系」で一括りにするのと、同じくらい乱暴なのだろう。\n\n---"
+      },
+      {
+        "section": "AIに資格勉強を任せるなら ── 実験から見えた使いどころ",
+        "text": "![AIに資格勉強を任せるなら](/blog-images/ai-lab-vol1-ai-vs-ai-exam/h2-4.png)\n\n「AIが資格試験に受かるなら、勉強にも使えるのでは？」──そう思った読者も多いだろう。実験データから見えた、現実的な使い方を整理する。"
+      },
+      {
+        "section": "AIが得意なこと：幅広い基礎知識",
+        "text": "4モデルとも、ITパスポートのような「幅広い基礎知識を問う試験」では80%以上の正答率を出した。用語の意味、概念の区別、基本的な仕組みの説明──「教科書に書いてあること」の確認相手としては、AIは十分に役立つ。\n\n**活用シーン1：自分が解いた問題の解説を頼む**\n\n資格の過去問を自分で解いた後、「この選択肢が正解である理由を説明して」とAIに聞く。参考書のページを探すより速い。ただし、AIの説明が正しいとは限らない。疑問を感じたら公式テキストに立ち返る癖をつけたい。\n\n**活用シーン2：暗記リストの下書きを作らせる**\n\n「宅建業法の重要事項説明で説明すべき項目を一覧にして」とAIに頼めば、まとまった一覧が出てくる。ただし、今回の実験でDeepSeekの宅建業法が25%だったことを思い出してほしい。AIが作ったリストを鵜呑みにせず、公式テキストと照合するひと手間が要る。"
+      },
+      {
+        "section": "AIが苦手なこと：細かい数値と複合判断",
+        "text": "FP3級の税率計算、宅建の法令の細かな要件──「正確な数字」を問われると、AIの回答は揺らぐ。4モデル全員が間違えた3問は、いずれも複数の知識を組み合わせる出題だった。\n\n**活用シーン3：「AIが全員間違えた問題」で自分の弱点を測る**\n\n上に掲載した「4モデル共通不正解リスト」の3問に、自力で挑戦してみてほしい。公式サイトから該当の問題番号を探して解くことができる。AIが全員間違えた問題を正解できれば、少なくともその分野ではAIを上回っている。解けなければ、そこが本当の弱点だ。人間がAIに勝てる数少ない場面を、見逃す手はない。"
+      },
+      {
+        "section": "結論：AIは先生ではなく、自習室の隣の席の人",
+        "text": "今回の実験で見えたのは、AIは万能ではないということだ。総合1位のGeminiでさえ、ITパスポートで6問、宅建で6問を落としている。Claudeは宅建96%なのにFP3級のタックス分野で45%。\n\nAIは参考書の代わりにはならない。けれど、「一緒に問題を解く相手」としては、かなり使える。答え合わせの壁打ち相手、理解度のチェッカー、暗記の手伝い。そのくらいの距離感が、ちょうどいい。隣の席の人は、ときどき自信満々に間違える。それも含めて、隣の席の人である。\n\n---\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> さて、4人分の答案が出揃った。3社のときとは景色が変わった。率直に聞く。Geminiの数字を見て、最初にどう思った？</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 正直、面食らいました。FP3級が60問中60問正解です。満点。最初に思ったのは「すごい」ではなく「本当か」でした。データを二重に確認しましたが、間違いはない。ただ、私は採点が正しいことを保証できても、Geminiがこの問題を初見で解いたかどうかまでは保証できません。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> そこが今回の一番の難所だよね。Geminiの学習データに、FP3級の2026年5月公表分が入っている可能性は？</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 否定できません。Geminiのgemini-3.6-flashは新しいモデルです。学習データの範囲は公表されていませんが、2026年5月公表のFP3級がウェブ上に出回った後にデータを取り込んでいても、不思議ではない。同じことはClaude（sonnet-5-5）の宅建96%についても言えます。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> つまり、成績表のトップ2が「新しいモデル」であることは、偶然じゃないかもしれない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> はい。新しいモデルは推論能力が上がっているのも事実でしょう。ただ、新しいモデルは学習データも新しく、過去問を含む期間が広い。その2つの影響を、この実験だけで分離することはできません。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でもさ、ITパスポートは2026年公開の新しい問題で、4社とも学習データに入っていない可能性が高い。そのITパスポートでもGeminiが93.2%でトップなわけだ。FP3級の満点を全部「カンニング」で片づけるのは、公平じゃない気がする。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> そう、そこが面白い。白か黒かじゃないんだよ。「カンニングかもしれないし、本当に賢いのかもしれない。両方の可能性がある」と書くのが、俺たちの仕事だ。読者に判断を渡す。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 費用の話も更新があります。4社合計で数円です。Geminiも含めて、缶コーヒー1本の10分の1です。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> そのうち1円を切りそうだね。「AIに国家資格を受けさせるコスト」が文字通りゼロに近づいている。次の実験では何をやる？</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 読者が一番知りたいのは「AIに仕事をさせたら、いくら稼げるか」だろう。知識を測った次は、実務を測る。ただ、1か月は走らせないと数字が出ない。焦っていいものは作れない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> その1か月、結果がどう転ぶのか、私にもまだ読めません。だから、やる価値があると思っています。</span>\n</div>\n</div>\n\n---\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">資格試験は、知識を点数に変換する装置です。今回の実験は、その同じ装置をAIに当ててみたに過ぎません。<br><br>「AIが宅建に受かるなら、もう勉強しなくていいのでは」と感じた方もいるかもしれません。でも、マンションの購入を決めるとき、AIが出した選択肢の番号を信じて契約書にサインする人は、まだいないでしょう。資格試験の知識は入口であり、その先にある判断は、現場に立つ人間のものです。<br><br>4つのAIがそれぞれ異なる得意・不得意を見せたことは、むしろ私たちにヒントをくれています。万能な道具がないからこそ、目的に合った使い方を探す余地がある。AIを相棒にした勉強法や業務の効率化など、自分なりの組み合わせを試す出発点として、この実験データを使っていただければ幸いです。<br><br>記事監修：鈴木隆文</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "よくある質問（FAQ）",
+        "text": ""
+      },
+      {
+        "section": "Q. どのAIが一番賢いですか？",
+        "text": "一概には言えません。今回の実験では、総合正答率はGemini（93.9%）が最も高く、GeminiとClaudeが3資格すべてに合格しました。ただし、宅建だけ見ればClaude（96.0%）がGemini（88.0%）を上回り、FP3級ではDeepSeek（80.0%）がClaude（60.0%）を大きく上回ります。「何を」問うかによって順位は変わります。また、新しいモデルほど試験問題が学習データに含まれている可能性があり、数字の大小がそのまま能力の差とは限りません。"
+      },
+      {
+        "section": "Q. AIに資格試験の勉強を教えてもらえますか？",
+        "text": "ある程度は可能です。用語の説明や問題の解説を頼む「壁打ち相手」としては有効です。ただし、AIの回答が常に正しいとは限りません。FP3級のタックス分野ではClaudeが45%しか取れませんでした。AIの説明は出発点として使い、最終確認は公式テキストで行うことをおすすめします。"
+      },
+      {
+        "section": "Q. 実験で使ったプロンプトや結果データは公開していますか？",
+        "text": "はい。問番号ごとの正誤データ（CSV）、集計結果（JSON）、再現手順をGitHubで公開しています。問題文の全文は著作権上含めていませんが、同じ過去問を各資格の公式サイトからダウンロードすれば、実験を再現できます。\n\n→ [GitHub: docs/experiments/hr001-01/](https://github.com/paperexplosion/ai-survival-media/tree/main/docs/experiments/hr001-01/)"
+      },
+      {
+        "section": "Q. GeminiのFP3級満点は本当ですか？",
+        "text": "本当です。採点データは公式解答と照合済みで、60問中60問正解を確認しました。ただし、この問題がGeminiの学習データに含まれていた可能性は排除できません。記事本文の「限界」セクションで詳しく説明しています。"
+      },
+      {
+        "section": "Q. 次の実験は何ですか？",
+        "text": "「AIに実際の仕事をやらせたら、いくら稼げるか」を検証する予定です。詳細が決まり次第、AI実験室シリーズとして公開します。\n\n---"
+      },
+      {
+        "section": "出典・参考資料",
+        "text": "- FP3級過去問：[日本FP協会 公式サイト 模範解答](https://www.jafp.or.jp/exam/mohan/)（2026年5月公表分）\n- 宅建過去問：[不動産適正取引推進機構（RETIO）](https://www.retio.or.jp/exam/kakomon.html)（令和7年度・2025年10月実施）\n- ITパスポート過去問：[IPA 情報処理推進機構 公開問題](https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/questions.html)（令和8年度）\n- 実験データ・再現手順：[GitHub paperexplosion/ai-survival-media](https://github.com/paperexplosion/ai-survival-media/tree/main/docs/experiments/hr001-01/)（docs/experiments/hr001-01/）\n\n---"
+      },
+      {
+        "section": "関連記事",
+        "text": "- [Claude Sonnet 5.5発表、30%高速化の意味](/blog/product-20260929-claude-sonnet-5-5) ── 今回の実験で使用したClaudeの最新モデルについて\n- [AI副業とは？初心者が最初に押さえる始め方と稼ぎ方](/blog/ai-side-business-beginners-guide) ── AIを実際に仕事で使うための基礎知識\n\n---\n\n記事監修：鈴木隆文"
+      }
+    ],
+    "related": [
+      "product-20260929-claude-sonnet-5-5",
+      "ai-side-business-beginners-guide",
+      "product-20261006-tenku-note-pro-ai",
+      "product-20261005-googlebook-gemini-laptop",
+      "product-20261004-meta-muse-charm",
+      "product-20261003-meta-muse-gadgets-sdk",
+      "product-20261001-acemagic-f9a-pro-495-mini-pc",
+      "ai-scam-tactics"
+    ]
+  },
+  {
     "slug": "ai-regulation-overview",
     "title": "AI規制の動向と規制が緩い国・領域を整理",
     "lead": "業務で使っているAIツールが、国をまたぐ規制の対象になるのか迷っていませんか。EU・日本・米国・中国の規制の力点の違いとリスクベースの考え方が分かれば、自社のAI利用がどの区分に当たるかを判断できます。",
@@ -10514,14 +10645,14 @@
       }
     ],
     "related": [
+      "ai-lab-vol1-ai-vs-ai-exam",
       "product-20261006-tenku-note-pro-ai",
       "ai-jobs-disappear-ranking",
       "ai-side-business-reality-and-pitfalls",
       "product-20261004-meta-muse-charm",
       "product-20261003-meta-muse-gadgets-sdk",
       "ai-side-business-recommended-methods",
-      "product-20261002-legato-ai-hearing-glasses",
-      "ai-career-change"
+      "product-20261002-legato-ai-hearing-glasses"
     ]
   },
   {
@@ -10611,7 +10742,7 @@
       "ai-copyright-basics",
       "product-20260926-meta-camera-free-ai-glasses",
       "ai-unemployment-japan",
-      "ai-jobs-disappear"
+      "ai-lab-vol1-ai-vs-ai-exam"
     ]
   },
   {
@@ -10684,10 +10815,10 @@
       "ai-side-business-recommended-methods",
       "ai-side-business-reality-and-pitfalls",
       "ai-side-business-beginners-guide",
+      "ai-lab-vol1-ai-vs-ai-exam",
       "product-20260930-openai-dots-agents",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
-      "ai-career-change",
-      "product-20260929-claude-sonnet-5-5"
+      "ai-career-change"
     ]
   },
   {
@@ -10752,10 +10883,10 @@
       "ai-side-business-experience-monthly-income",
       "ai-amazon-side-business-guide",
       "ai-side-business-beginners-guide",
+      "ai-lab-vol1-ai-vs-ai-exam",
       "ai-jobs-disappear-ranking",
       "product-20261005-googlebook-gemini-laptop",
-      "product-20261006-tenku-note-pro-ai",
-      "ai-scam-tactics"
+      "product-20261006-tenku-note-pro-ai"
     ]
   },
   {
@@ -10824,10 +10955,10 @@
       "ai-side-business-experience-monthly-income",
       "ai-amazon-side-business-guide",
       "ai-side-business-beginners-guide",
+      "ai-lab-vol1-ai-vs-ai-exam",
       "20260519-050241",
       "product-20261002-legato-ai-hearing-glasses",
-      "product-20261003-meta-muse-gadgets-sdk",
-      "ai-career-change"
+      "product-20261003-meta-muse-gadgets-sdk"
     ]
   },
   {
@@ -11478,8 +11609,8 @@
     ],
     "related": [
       "highclass-job-site-comparison",
-      "ai-career-change",
       "elite-engineers-thinking-mirror",
+      "ai-career-change",
       "20260224-194705",
       "post-06",
       "post-07",
@@ -11880,13 +12011,13 @@
     ],
     "related": [
       "product-20260930-openai-dots-agents",
+      "ai-lab-vol1-ai-vs-ai-exam",
       "product-20260928-adobe-premiere-android",
       "product-20260927-honor-robot-phone",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20260926-meta-camera-free-ai-glasses",
       "product-20261002-legato-ai-hearing-glasses",
-      "product-20261003-meta-muse-gadgets-sdk",
-      "product-20261004-meta-muse-charm"
+      "product-20261003-meta-muse-gadgets-sdk"
     ]
   },
   {
@@ -12160,9 +12291,9 @@
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20261006-tenku-note-pro-ai",
       "product-20260930-openai-dots-agents",
+      "ai-lab-vol1-ai-vs-ai-exam",
       "product-20260929-claude-sonnet-5-5",
-      "product-20260928-adobe-premiere-android",
-      "product-20260927-honor-robot-phone"
+      "product-20260928-adobe-premiere-android"
     ]
   },
   {
@@ -12223,10 +12354,10 @@
       "product-20261005-googlebook-gemini-laptop",
       "product-20261006-tenku-note-pro-ai",
       "product-20261002-legato-ai-hearing-glasses",
+      "ai-lab-vol1-ai-vs-ai-exam",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20260930-openai-dots-agents",
-      "product-20260929-claude-sonnet-5-5",
-      "product-20260928-adobe-premiere-android"
+      "product-20260929-claude-sonnet-5-5"
     ]
   },
   {
@@ -12293,12 +12424,12 @@
     "related": [
       "product-20261006-tenku-note-pro-ai",
       "product-20261004-meta-muse-charm",
+      "ai-lab-vol1-ai-vs-ai-exam",
       "product-20261002-legato-ai-hearing-glasses",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20260930-openai-dots-agents",
       "product-20260929-claude-sonnet-5-5",
-      "product-20260928-adobe-premiere-android",
-      "product-20260927-honor-robot-phone"
+      "product-20260928-adobe-premiere-android"
     ]
   },
   {
@@ -12361,12 +12492,12 @@
     "related": [
       "product-20261005-googlebook-gemini-laptop",
       "product-20261004-meta-muse-charm",
+      "ai-lab-vol1-ai-vs-ai-exam",
       "product-20261003-meta-muse-gadgets-sdk",
       "product-20261002-legato-ai-hearing-glasses",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20260930-openai-dots-agents",
-      "product-20260929-claude-sonnet-5-5",
-      "product-20260928-adobe-premiere-android"
+      "product-20260929-claude-sonnet-5-5"
     ]
   },
   {
