@@ -41,6 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
+    site: '@ai_survival',
     title: 'AI Survival Report',
     description: 'AIと人間の共存を記録する。',
     images: [
@@ -119,6 +120,7 @@ export default function RootLayout({
                   description: 'AIと人間の共存を、ドキュメンタリーとして記録するメディア。日本のAIリテラシー向上を支援する独立メディア。運営：ストーリーテリング合同会社。',
                   sameAs: [
                     'https://x.com/ai_survival',
+                    'https://www.youtube.com/@AI-Documentary-Report',
                     'https://github.com/paperexplosion',
                   ],
                 },
