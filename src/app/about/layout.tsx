@@ -4,7 +4,7 @@ import { EDITOR_LD, SITE_URL, pageMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = pageMetadata({
   path: '/about',
-  title: 'About：編集方針と記事監修',
+  title: 'About：編集方針と記事監修 | AI Survival Report（AIサバイバルレポート）',
   description: 'AI Survival Report（AIサバイバルレポート）について。なぜこのメディアをつくったか、編集方針、運営（ストーリーテリング合同会社）と、記事監修を担う編集長・鈴木隆文。',
 });
 
