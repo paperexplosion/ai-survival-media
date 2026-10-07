@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="Hiragino Sans, Yu Gothic UI, sans-serif">
+<rect width="900" height="500" fill="#FAFBFC"/>
+<text x="450.0" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">AI vs AI 資格試験バトル - 正答率と合格ライン</text>
+<line x1="70" y1="60" x2="70" y2="420" stroke="#E5E7EB" stroke-width="1"/>
+<line x1="70" y1="420.0" x2="870" y2="420.0" stroke="#E5E7EB" stroke-width="0.5"/>
+<text x="60" y="424.0" text-anchor="end" font-size="12" fill="#6B7280">0%</text>
+<line x1="70" y1="348.0" x2="870" y2="348.0" stroke="#E5E7EB" stroke-width="0.5"/>
+<text x="60" y="352.0" text-anchor="end" font-size="12" fill="#6B7280">20%</text>
+<line x1="70" y1="276.0" x2="870" y2="276.0" stroke="#E5E7EB" stroke-width="0.5"/>
+<text x="60" y="280.0" text-anchor="end" font-size="12" fill="#6B7280">40%</text>
+<line x1="70" y1="204.0" x2="870" y2="204.0" stroke="#E5E7EB" stroke-width="0.5"/>
+<text x="60" y="208.0" text-anchor="end" font-size="12" fill="#6B7280">60%</text>
+<line x1="70" y1="132.0" x2="870" y2="132.0" stroke="#E5E7EB" stroke-width="0.5"/>
+<text x="60" y="136.0" text-anchor="end" font-size="12" fill="#6B7280">80%</text>
+<line x1="70" y1="60.0" x2="870" y2="60.0" stroke="#E5E7EB" stroke-width="0.5"/>
+<text x="60" y="64.0" text-anchor="end" font-size="12" fill="#6B7280">100%</text>
+<text x="203.33333333333334" y="445" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">FP3級</text>
+<line x1="80.0" y1="204.0" x2="326.6666666666667" y2="204.0" stroke="#EF4444" stroke-width="2" stroke-dasharray="6,3"/>
+<text x="328.6666666666667" y="201.0" font-size="10" fill="#EF4444">合格</text>
+<rect x="95.83333333333334" y="204.0" width="50" height="216.0" fill="#2563EB" rx="3" stroke='#059669' stroke-width='2'/>
+<text x="120.83333333333334" y="199.0" text-anchor="middle" font-size="11" font-weight="bold" fill="#2563EB">60.0%</text>
+<rect x="150.83333333333334" y="132.0" width="50" height="288.0" fill="#059669" rx="3" stroke='#059669' stroke-width='2'/>
+<text x="175.83333333333334" y="127.0" text-anchor="middle" font-size="11" font-weight="bold" fill="#059669">80.0%</text>
+<rect x="205.83333333333334" y="168.00000000000003" width="50" height="251.99999999999997" fill="#D97706" rx="3" stroke='#059669' stroke-width='2'/>
+<text x="230.83333333333334" y="163.00000000000003" text-anchor="middle" font-size="11" font-weight="bold" fill="#D97706">70.0%</text>
+<rect x="260.83333333333337" y="60.0" width="50" height="360.0" fill="#9CA3AF" rx="3" stroke='#059669' stroke-width='2'/>
+<text x="285.83333333333337" y="55.0" text-anchor="middle" font-size="11" font-weight="bold" fill="#9CA3AF">100.0%</text>
+<text x="470.0" y="445" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">宅建</text>
+<line x1="346.6666666666667" y1="182.39999999999998" x2="593.3333333333334" y2="182.39999999999998" stroke="#EF4444" stroke-width="2" stroke-dasharray="6,3"/>
+<text x="595.3333333333334" y="179.39999999999998" font-size="10" fill="#EF4444">合格</text>
+<rect x="362.5" y="74.40000000000003" width="50" height="345.59999999999997" fill="#2563EB" rx="3" stroke='#059669' stroke-width='2'/>
+<text x="387.5" y="69.40000000000003" text-anchor="middle" font-size="11" font-weight="bold" fill="#2563EB">96.0%</text>
+<rect x="417.5" y="247.20000000000002" width="50" height="172.79999999999998" fill="#059669" rx="3" />
+<text x="442.5" y="242.20000000000002" text-anchor="middle" font-size="11" font-weight="bold" fill="#059669">48.0%</text>
+<rect x="472.5" y="225.6" width="50" height="194.4" fill="#D97706" rx="3" />
+<text x="497.5" y="220.6" text-anchor="middle" font-size="11" font-weight="bold" fill="#D97706">54.0%</text>
+<rect x="527.5" y="103.19999999999999" width="50" height="316.8" fill="#9CA3AF" rx="3" stroke='#059669' stroke-width='2'/>
+<text x="552.5" y="98.19999999999999" text-anchor="middle" font-size="11" font-weight="bold" fill="#9CA3AF">88.0%</text>
+<text x="736.6666666666667" y="445" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">ITパスポート</text>
+<line x1="613.3333333333334" y1="204.0" x2="860.0" y2="204.0" stroke="#EF4444" stroke-width="2" stroke-dasharray="6,3"/>
+<text x="862.0" y="201.0" font-size="10" fill="#EF4444">合格</text>
+<rect x="629.1666666666667" y="125.52000000000004" width="50" height="294.47999999999996" fill="#2563EB" rx="3" stroke='#059669' stroke-width='2'/>
+<text x="654.1666666666667" y="120.52000000000004" text-anchor="middle" font-size="11" font-weight="bold" fill="#2563EB">81.8%</text>
+<rect x="684.1666666666667" y="105.0" width="50" height="315.0" fill="#059669" rx="3" stroke='#059669' stroke-width='2'/>
+<text x="709.1666666666667" y="100.0" text-anchor="middle" font-size="11" font-weight="bold" fill="#059669">87.5%</text>
+<rect x="739.1666666666667" y="113.28000000000003" width="50" height="306.71999999999997" fill="#D97706" rx="3" stroke='#059669' stroke-width='2'/>
+<text x="764.1666666666667" y="108.28000000000003" text-anchor="middle" font-size="11" font-weight="bold" fill="#D97706">85.2%</text>
+<rect x="794.1666666666667" y="84.47999999999996" width="50" height="335.52000000000004" fill="#9CA3AF" rx="3" stroke='#059669' stroke-width='2'/>
+<text x="819.1666666666667" y="79.47999999999996" text-anchor="middle" font-size="11" font-weight="bold" fill="#9CA3AF">93.2%</text>
+<rect x="70" y="470" width="14" height="14" fill="#2563EB" rx="2"/>
+<text x="90" y="482" font-size="12" fill="#374151">Claude</text>
+<rect x="290" y="470" width="14" height="14" fill="#059669" rx="2"/>
+<text x="310" y="482" font-size="12" fill="#374151">DeepSeek</text>
+<rect x="510" y="470" width="14" height="14" fill="#D97706" rx="2"/>
+<text x="530" y="482" font-size="12" fill="#374151">GPT-4o</text>
+<rect x="730" y="470" width="14" height="14" fill="#9CA3AF" rx="2"/>
+<text x="750" y="482" font-size="12" fill="#374151">Gemini</text>
+<line x1="950" y1="477" x2="970" y2="477" stroke="#EF4444" stroke-width="2" stroke-dasharray="6,3"/>
+<text x="975" y="482" font-size="12" fill="#374151">合格ライン</text>
+</svg>

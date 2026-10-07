@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 450" font-family="Hiragino Sans, Yu Gothic UI, sans-serif">
+<rect width="780" height="450" fill="#FAFBFC"/>
+<text x="390.0" y="25" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">AI×資格 正答率ヒートマップ</text>
+<text x="300.0" y="60.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">FP3級</text>
+<text x="480.0" y="60.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">宅建</text>
+<text x="660.0" y="60.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">ITパスポート</text>
+<text x="200" y="115.0" text-anchor="end" font-size="13" font-weight="bold" fill="#374151">Claude</text>
+<rect x="212" y="72" width="176" height="76" fill="#FFFBEB" rx="8"/>
+<rect x="212" y="72" width="176" height="76" fill="none" stroke="#059669" stroke-width="3" rx="8"/>
+<text x="300.0" y="108.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#D97706">60.0%</text>
+<text x="300.0" y="128.0" text-anchor="middle" font-size="11" fill="#6B7280">36/60問正解</text>
+<rect x="340" y="75" width="45" height="18" fill="#ECFDF5" stroke="#059669" stroke-width="1" rx="9"/>
+<text x="363" y="88" text-anchor="middle" font-size="10" font-weight="bold" fill="#059669">合格</text>
+<rect x="392" y="72" width="176" height="76" fill="#ECFDF5" rx="8"/>
+<rect x="392" y="72" width="176" height="76" fill="none" stroke="#059669" stroke-width="3" rx="8"/>
+<text x="480.0" y="108.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#059669">96.0%</text>
+<text x="480.0" y="128.0" text-anchor="middle" font-size="11" fill="#6B7280">48/50問正解</text>
+<rect x="520" y="75" width="45" height="18" fill="#ECFDF5" stroke="#059669" stroke-width="1" rx="9"/>
+<text x="543" y="88" text-anchor="middle" font-size="10" font-weight="bold" fill="#059669">合格</text>
+<rect x="572" y="72" width="176" height="76" fill="#ECFDF5" rx="8"/>
+<rect x="572" y="72" width="176" height="76" fill="none" stroke="#059669" stroke-width="3" rx="8"/>
+<text x="660.0" y="108.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#059669">81.8%</text>
+<text x="660.0" y="128.0" text-anchor="middle" font-size="11" fill="#6B7280">72/88問正解</text>
+<rect x="700" y="75" width="45" height="18" fill="#ECFDF5" stroke="#059669" stroke-width="1" rx="9"/>
+<text x="723" y="88" text-anchor="middle" font-size="10" font-weight="bold" fill="#059669">合格</text>
+<text x="200" y="195.0" text-anchor="end" font-size="13" font-weight="bold" fill="#374151">DeepSeek</text>
+<rect x="212" y="152" width="176" height="76" fill="#ECFDF5" rx="8"/>
+<rect x="212" y="152" width="176" height="76" fill="none" stroke="#059669" stroke-width="3" rx="8"/>
+<text x="300.0" y="188.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#059669">80.0%</text>
+<text x="300.0" y="208.0" text-anchor="middle" font-size="11" fill="#6B7280">48/60問正解</text>
+<rect x="340" y="155" width="45" height="18" fill="#ECFDF5" stroke="#059669" stroke-width="1" rx="9"/>
+<text x="363" y="168" text-anchor="middle" font-size="10" font-weight="bold" fill="#059669">合格</text>
+<rect x="392" y="152" width="176" height="76" fill="#FEF2F2" rx="8"/>
+<rect x="392" y="152" width="176" height="76" fill="none" stroke="#DC2626" stroke-width="3" rx="8"/>
+<text x="480.0" y="188.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#DC2626">48.0%</text>
+<text x="480.0" y="208.0" text-anchor="middle" font-size="11" fill="#6B7280">24/50問正解</text>
+<rect x="520" y="155" width="45" height="18" fill="#FEF2F2" stroke="#DC2626" stroke-width="1" rx="9"/>
+<text x="543" y="168" text-anchor="middle" font-size="10" font-weight="bold" fill="#DC2626">不合格</text>
+<rect x="572" y="152" width="176" height="76" fill="#ECFDF5" rx="8"/>
+<rect x="572" y="152" width="176" height="76" fill="none" stroke="#059669" stroke-width="3" rx="8"/>
+<text x="660.0" y="188.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#059669">87.5%</text>
+<text x="660.0" y="208.0" text-anchor="middle" font-size="11" fill="#6B7280">77/88問正解</text>
+<rect x="700" y="155" width="45" height="18" fill="#ECFDF5" stroke="#059669" stroke-width="1" rx="9"/>
+<text x="723" y="168" text-anchor="middle" font-size="10" font-weight="bold" fill="#059669">合格</text>
+<text x="200" y="275.0" text-anchor="end" font-size="13" font-weight="bold" fill="#374151">GPT-4o</text>
+<rect x="212" y="232" width="176" height="76" fill="#FFFBEB" rx="8"/>
+<rect x="212" y="232" width="176" height="76" fill="none" stroke="#059669" stroke-width="3" rx="8"/>
+<text x="300.0" y="268.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#D97706">70.0%</text>
+<text x="300.0" y="288.0" text-anchor="middle" font-size="11" fill="#6B7280">42/60問正解</text>
+<rect x="340" y="235" width="45" height="18" fill="#ECFDF5" stroke="#059669" stroke-width="1" rx="9"/>
+<text x="363" y="248" text-anchor="middle" font-size="10" font-weight="bold" fill="#059669">合格</text>
+<rect x="392" y="232" width="176" height="76" fill="#FEF2F2" rx="8"/>
+<rect x="392" y="232" width="176" height="76" fill="none" stroke="#DC2626" stroke-width="3" rx="8"/>
+<text x="480.0" y="268.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#DC2626">54.0%</text>
+<text x="480.0" y="288.0" text-anchor="middle" font-size="11" fill="#6B7280">27/50問正解</text>
+<rect x="520" y="235" width="45" height="18" fill="#FEF2F2" stroke="#DC2626" stroke-width="1" rx="9"/>
+<text x="543" y="248" text-anchor="middle" font-size="10" font-weight="bold" fill="#DC2626">不合格</text>
+<rect x="572" y="232" width="176" height="76" fill="#ECFDF5" rx="8"/>
+<rect x="572" y="232" width="176" height="76" fill="none" stroke="#059669" stroke-width="3" rx="8"/>
+<text x="660.0" y="268.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#059669">85.2%</text>
+<text x="660.0" y="288.0" text-anchor="middle" font-size="11" fill="#6B7280">75/88問正解</text>
+<rect x="700" y="235" width="45" height="18" fill="#ECFDF5" stroke="#059669" stroke-width="1" rx="9"/>
+<text x="723" y="248" text-anchor="middle" font-size="10" font-weight="bold" fill="#059669">合格</text>
+<text x="200" y="355.0" text-anchor="end" font-size="13" font-weight="bold" fill="#374151">Gemini</text>
+<rect x="212" y="312" width="176" height="76" fill="#ECFDF5" rx="8"/>
+<rect x="212" y="312" width="176" height="76" fill="none" stroke="#059669" stroke-width="3" rx="8"/>
+<text x="300.0" y="348.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#059669">100.0%</text>
+<text x="300.0" y="368.0" text-anchor="middle" font-size="11" fill="#6B7280">60/60問正解</text>
+<rect x="340" y="315" width="45" height="18" fill="#ECFDF5" stroke="#059669" stroke-width="1" rx="9"/>
+<text x="363" y="328" text-anchor="middle" font-size="10" font-weight="bold" fill="#059669">合格</text>
+<rect x="392" y="312" width="176" height="76" fill="#ECFDF5" rx="8"/>
+<rect x="392" y="312" width="176" height="76" fill="none" stroke="#059669" stroke-width="3" rx="8"/>
+<text x="480.0" y="348.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#059669">88.0%</text>
+<text x="480.0" y="368.0" text-anchor="middle" font-size="11" fill="#6B7280">44/50問正解</text>
+<rect x="520" y="315" width="45" height="18" fill="#ECFDF5" stroke="#059669" stroke-width="1" rx="9"/>
+<text x="543" y="328" text-anchor="middle" font-size="10" font-weight="bold" fill="#059669">合格</text>
+<rect x="572" y="312" width="176" height="76" fill="#ECFDF5" rx="8"/>
+<rect x="572" y="312" width="176" height="76" fill="none" stroke="#059669" stroke-width="3" rx="8"/>
+<text x="660.0" y="348.0" text-anchor="middle" font-size="24" font-weight="bold" fill="#059669">93.2%</text>
+<text x="660.0" y="368.0" text-anchor="middle" font-size="11" fill="#6B7280">82/88問正解</text>
+<rect x="700" y="315" width="45" height="18" fill="#ECFDF5" stroke="#059669" stroke-width="1" rx="9"/>
+<text x="723" y="328" text-anchor="middle" font-size="10" font-weight="bold" fill="#059669">合格</text>
+<text x="30" y="405" font-size="11" fill="#6B7280">緑枠=合格　赤枠=不合格　色の濃さ=正答率</text>
+</svg>
