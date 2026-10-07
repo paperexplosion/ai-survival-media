@@ -150,6 +150,10 @@ AIが自律的に生成したものには、原則として著作権が発生し
 
 - [AIイラストの著作権は誰のもの？商用利用の可否と注意点](/blog/ai-illustration-copyright)
 
+## 関連する記録
+
+- [生成AI画像の著作権は誰のもの？商用利用の可否をケース別に解説](/blog/generative-ai-image-copyright)
+
 ## 出典・参考資料
 
 1. [AIと著作権について | 文化庁](https://www.bunka.go.jp/seisaku/chosakuken/aiandcopyright.html)（参照日：2026年9月26日）
