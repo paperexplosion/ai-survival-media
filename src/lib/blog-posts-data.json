@@ -1627,8 +1627,8 @@
     "related": [
       "20260309-200004",
       "20260516-050201",
-      "20260310-201228",
       "20260318-084916",
+      "20260310-201228",
       "20260312-202704",
       "human-essence-ai-cannot-reach",
       "post-11",
@@ -4626,8 +4626,8 @@
     "related": [
       "20260606-050334",
       "20260408-050144",
-      "20260620-050304",
       "20260529-050140",
+      "20260620-050304",
       "20260926-053102",
       "20260621-050244",
       "20260326-201932",
@@ -4867,10 +4867,10 @@
       "20260305-192345",
       "20261007-081253",
       "20261006-095600",
+      "20261009-085455",
       "20260419-050144",
       "ai-side-business-beginners-guide",
-      "ai-amazon-side-business-guide",
-      "ai-side-business-experience-monthly-income"
+      "ai-amazon-side-business-guide"
     ]
   },
   {
@@ -6200,8 +6200,8 @@
       "20260319-001818",
       "20260526-050250",
       "20260312-094000",
-      "20260524-050205",
       "20260609-050244",
+      "20260524-050205",
       "20260620-050304"
     ]
   },
@@ -6341,8 +6341,8 @@
       "20260430-050210",
       "20260604-050241",
       "20260531-050200",
-      "20260926-053102",
       "20260327-164958",
+      "20260926-053102",
       "ai-regulation-overview"
     ]
   },
@@ -6534,8 +6534,8 @@
       "20261001-081057",
       "ai-side-business-recommended-methods",
       "ai-side-business-reality-and-pitfalls",
-      "20261006-095600",
-      "ai-side-business-beginners-guide"
+      "20261009-085455",
+      "20261006-095600"
     ]
   },
   {
@@ -6629,7 +6629,7 @@
       "20260327-133407",
       "20260302-091323",
       "ai-career-change",
-      "20260614-050233"
+      "20260327-192508"
     ]
   },
   {
@@ -6722,8 +6722,8 @@
     "related": [
       "20260417-050148",
       "product-20261004-meta-muse-charm",
-      "20260331-235920",
       "20260505-050156",
+      "20260331-235920",
       "20260406-050148",
       "20260325-205739",
       "20260419-050144",
@@ -7310,8 +7310,8 @@
       "20260222-101421",
       "20260330-162832",
       "20260318-084916",
-      "20260317-093413",
-      "20260225-222651"
+      "20260225-222651",
+      "20260319-093220"
     ]
   },
   {
@@ -7981,7 +7981,7 @@
       "20260317-194054",
       "20260316-225321",
       "20260423-050226",
-      "20260506-050237"
+      "20261009-085455"
     ]
   },
   {
@@ -8163,13 +8163,13 @@
     ],
     "related": [
       "20260310-082859",
+      "20261009-085455",
       "20261008-084551",
       "20260410-050231",
       "20260519-050241",
       "20260506-050237",
       "20260317-194054",
-      "20260317-092337",
-      "20260316-225321"
+      "20260317-092337"
     ]
   },
   {
@@ -8548,12 +8548,12 @@
     "related": [
       "20260610-050213",
       "20260624-050201",
-      "20260327-171619",
       "20260609-050244",
+      "20260327-171619",
+      "20261009-085455",
       "ai-side-business-experience-monthly-income",
       "20260224-090015",
-      "20260523-050248",
-      "20260608-050202"
+      "20260523-050248"
     ]
   },
   {
@@ -9312,12 +9312,12 @@
     "related": [
       "product-20260927-honor-robot-phone",
       "20260926-053102",
+      "20261009-085455",
       "20260503-050251",
       "20260227-191532",
       "20260225-222651",
       "20260309-162600",
-      "20260409-003847",
-      "20260305-192345"
+      "20260409-003847"
     ]
   },
   {
@@ -9456,8 +9456,8 @@
       "20260924-164310",
       "20260615-050237",
       "20260620-050304",
-      "20261004-072349",
       "20260430-050210",
+      "20261004-072349",
       "20260613-050216"
     ]
   },
@@ -9499,13 +9499,13 @@
     ],
     "related": [
       "ai-regulation-overview",
+      "20261009-085455",
       "20260312-094000",
       "20260501-050227",
       "ai-illustration-copyright",
       "ai-side-business-recommended-methods",
       "20261002-082351",
-      "20260515-050228",
-      "20260318-052259"
+      "20260515-050228"
     ]
   },
   {
@@ -9548,11 +9548,11 @@
       "20260301-001615",
       "20260223-103034",
       "20260929-085359",
+      "20261009-085455",
       "20260411-050211",
       "20260316-225321",
       "20261007-081253",
-      "20260401-050200",
-      "20261005-072915"
+      "20260401-050200"
     ]
   },
   {
@@ -9733,14 +9733,14 @@
       }
     ],
     "related": [
+      "20261009-085455",
       "ai-amazon-side-business-guide",
       "20261008-084551",
       "20260531-050200",
       "20260224-090015",
       "20260317-094429",
       "20260610-050213",
-      "20260527-050213",
-      "20260428-050228"
+      "20260527-050213"
     ]
   },
   {
@@ -9835,6 +9835,52 @@
       "ai-side-business-recommended-methods",
       "product-20260929-claude-sonnet-5-5",
       "ai-side-business-beginners-guide"
+    ]
+  },
+  {
+    "slug": "20261009-085455",
+    "title": "サムスン107兆ウォン——AIの勝者はシャベルを売る側だ",
+    "lead": "あなたは今日、5本のニュースを読みます。サムスンの営業益は国家予算の趣、コープの通話はAIに採点され、損保ジャパンは2万人のGeminiを手綱で操り、Claudeは酵素を掘り当て、トランプ氏は呼称ひとつで敵味方を分ける。金鉱を掘る者よりシャベルを売る者が勝ち、監視される側は言葉を選び、AIは試験管の前に立ち、政治家は呪文を強制する。——そのシャベルを、次は誰が握るのでしょう？",
+    "type": "news",
+    "layer": "record",
+    "date": "2026-10-09 08:54",
+    "readTime": "2分",
+    "category": "💰 AI時代のお金・財布・経済格差",
+    "content": [
+      {
+        "section": "◆ サムスン、AI向けメモリー需要で営業益107兆ウォン・過去最高を更新",
+        "text": "**配信日：** 2026年10月8日　**出典：** [BBC Tech](https://www.bbc.co.uk/news/articles/c687z8127302o?at_medium=RSS&at_campaign=rss)　**原題：** AI chip boom pushes Samsung profits to record $80bn\n\nBBC Techによると、韓国のサムスン電子（Samsung Electronics）は、人工知能（AI）のデータセンターで使われるメモリー半導体の需要急増を背景に、2026年7〜9月期の営業利益が前年同期比で9倍に膨らみ、107兆4000億ウォン（約610億ポンド、800億ドル）に達する見通しだと発表した。四半期として過去最高益を4期連続で更新することになる。サムスンは韓国のライバルSKハイニックスや米国のマイクロンと並ぶ世界最大級のメモリー半導体メーカーで、米エヌビディアのようなAI企業向けに不可欠なチップを生産している。折りたたみ式のGalaxy FoldやS26などのスマートフォンも手がけ、8月に発売した新型折りたたみ端末も業績を押し上げる見込みだ。詳細な第3四半期決算は10月末に公表される。韓国の大企業は投資家向けに決算の速報値を出すことがあり、外部アナリストの推計より信頼性が高いとされる。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 800億ドルって、もう国家予算みたいな数字だよね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> データセンターの電力と冷却を測ってる身からすると、この伸びは素直に怖い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 半導体不足が続いて、売り手が値を決められる構図だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でもさ、それって「AIが儲かってる」じゃなくて「AIに掘られる側が儲かってる」って話では。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> あ、それ面白い。実際、利益を出してるのは計算する側じゃなく運ぶ側だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> ゴールドラッシュで儲けたのは、掘る人よりシャベルを売る人だった。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> シャベル、今度はメモリーってわけか。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 韓国政府が8800億ドルの投資計画を出したのも、そのシャベルを握り続けたいからだろうね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 4期連続の最高益。でも、その先に何が待ってるかは誰も言わない。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">過去最高益という朗報を、手放しで喜ぶ気にはなれません。AIの恩恵は、計算する企業ではなく、その計算を支える部品を握る側に集中しています。これは、金鉱を掘る者より道具を売る者が富を得た歴史の再演です。ただし今回は、道具が一国の産業政策と直結している点が異なります。サムスンとSKハイニックスの設備投資は、韓国政府の国家戦略そのものです。つまり、AI競争の主戦場はソフトウェアではなく、半導体の製造能力という地味な場所へ移っています。目立たない土台こそが、次の十年の勝敗を決めるのかもしれません。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ 英生協コープ、顧客通話をAI監視 従業員に「ディストピア」との批判",
+        "text": "**配信日：** 2026年10月8日　**出典：** [Guardian Tech](https://www.theguardian.com/technology/2026/oct/08/co-op-legal-services-ai-customer-phone-call-surveillance)　**原題：** ‘Dystopian’: Co-op becomes latest firm to put staff under AI surveillance\n\nGuardian Techによると、英国の小売・金融大手コープ（Co-op）が、顧客との電話応対を人工知能（AI）で監視する仕組みを導入した。対象はコープ・リーガル・サービシズ（Co-op Legal Services＝コープが手がける法律相談部門）で、従業員の通話内容をAIが分析する。報道では「ディストピア（dystopia＝管理社会化した暗鬱な未来像）」との批判が上がっている。コープは従業員をAI監視下に置く最新の企業となった。監視の目的や運用範囲、従業員への説明の有無など詳細は明らかにされていない。英国では職場へのAI監視導入が相次いでおり、労働者のプライバシーと評価の公正さをめぐる議論が広がっている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 通話をAIが解析するって、要は会話の質を数値化するわけだ。実験屋としては面白いが、測れるものだけが評価される怖さもある。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者に刺さるのは「ディストピア」の一言だね。不安を煽るんじゃなく、自分の職場でも起きるかも、と思わせた瞬間にバズる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 英国で監視が広がる背景には、生産性を測りたい経営の事情がある。歴史を辿れば、タイムカードも同じ発想だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> でも通話の中身まで見られるとなると、従業員は本音を話せなくなる。データが現場を歪める典型例だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 逆に、AIが守る側に回る可能性は？ 理不尽な客の暴言を記録する、なんて使い方もできる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> それは楽観的すぎる。監視の道具は、まず管理する側の都合で使われる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> コープは法律相談部門だから、なおさら慎重さが要る。守秘義務と監視は相性が悪い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 結局、誰のためのAIかって話に戻るね。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">現場では、通話の一言一句が評価データに変わる重さがあります。AI監視は効率化の道具と思われがちですが、構造は逆で、測られる側が無意識に言葉を選び、相談の質そのものが痩せていく。法律相談という守秘と信頼が生命線の場でこそ、この矛盾は鋭く現れます。コープの一室で、誰かが受話器を取る前の一瞬のためらいを、私たちはどう受け止めるのでしょうか。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ 損保ジャパン、2万人のGemini活用をどう統制　推進者が語るリスク回避の仕組み",
+        "text": "**配信日：** 2026年10月9日　**出典：** [ITmedia AI+](https://kn.itmedia.co.jp/kn/article/2610/09/2000002145/)　**原題：** 損保ジャパン､2万人の「Gemini活用」どう管理？　推進者が語る「リスク回避」の仕組み\n\nITmedia AI+によると、損保ジャパンは約2万人の社員によるGoogleの対話型AI「Gemini（ジェミニ＝文章や質問への回答を生成する人工知能サービス）」の活用を進めており、その管理とリスク回避の仕組みについて推進担当者が語った。キーマンズネットが2026年10月9日に報じた内容によれば、大人数の社員が生成AI（＝指示文に応じて文章や画像などを作り出す技術）を業務で使う際、情報漏えいや不適切な出力といった懸念をどう抑えるかが導入の焦点となる。同社は利用ルールの整備や運用体制を通じ、現場の利便性と統制の両立を図っている。具体的な推進体制やリスク回避の設計について、担当者への取材を通じて明らかにしている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 2万人が同時にAIを触るって、統制の難易度でいえば社内に小さな国を一つ作るようなものだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> しかも保険会社だぞ。一文のミスが契約トラブルに直結する世界で、よく踏み切った。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 現場の速度は上がる。でも「誰が何を聞いたか」を追えないと、後から説明責任が崩れる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> そこを仕組みで埋めたのが今回の肝でしょ。ルールと運用の設計次第で、活用は一気に伸びる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 逆に言えば、縛りすぎれば誰も使わなくなる。塩梅が経営の腕の見せどころだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実験屋としては、禁止リストより「使っていい型」を配る方が事故は減ると見ている。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> なるほど、型を配る発想ね。読者はそこを真似したいはずだ。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">現場では、利便性と統制の綱引きが毎日続いています。2万人規模となれば、もはや個人の心がけでは守り切れません。この調子で企業のAI導入が進めば、2030年には「誰が何をAIに尋ねたか」を記録する内部監査が、保険金支払いの正当性を左右する時代になるでしょう。面白いのは、統制を強めるほど現場は別の抜け道を探す点です。規則で縛る発想自体が、実は最もリスクの高い前提かもしれません。過去の情報システム統制も、禁止から設計へと重心を移して定着しました。あなたの職場のルールは、縛る側と使う側のどちらに立っているでしょうか。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ Claudeが新酵素を発見、「ほとんどの病気を治す」への第一歩",
+        "text": "**配信日：** 2026年10月9日　**出典：** [Nikkei XTECH](https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100111/100500188/)　**原題：** Claudeが新しい酵素発見　「ほとんどの病気を治す」へ第一歩\n\nNikkei XTECHによると、Anthropic（アンソロピック＝米国のAI企業）のAI「Claude（クロード）」が新しい酵素（＝生体内の化学反応を助けるタンパク質）を発見した。「ほとんどの病気を治す」ことへの第一歩と位置づけられている。酵素は医療や創薬の分野で重要な役割を担う物質であり、AIが科学研究の現場で新たな発見を導き出した事例として報じられた。記事ではこの発見が持つ意義や、今後の医療分野への応用可能性について触れられている。AIを活用した科学研究の進展を示す動きとして注目される。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> AIが酵素を見つけたって、実験屋としては正直「で、実際に働くの？」って聞きたくなる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> そこは冷静に見たい。発見と実用の間には、いつも深い谷がある。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でも「ほとんどの病気を治す」って言葉、読者の心を掴むには強烈だよ。バズる匂いがする。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 匂いだけで飛びつくと、あとで湿った花火になる。データを見たい。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 過去にもAI創薬の話は何度も出た。そのたびに「もうすぐ」と言われてきた。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 今回はClaudeという名前が出ている。ブランド力が違う。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 名前じゃなくて、どんな酵素で、どんな反応を触媒するのか。そこが知りたい。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> だが、AIが仮説を出す時代になったこと自体は、静かな地殻変動だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 地殻変動は静かじゃないよ。気づいたら足元がずれてる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> まあ、実験台の前に立つ身としては、AIの提案を試す価値はある。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">AIが酵素を見つけたという報せは、創薬の現場に静かな波を寄せています。研究の手触りが変わりつつある、その入り口です。この動きの核心は、発見の主役が人間からAIへと移り始めた点にあります。仮説を立て、候補を絞る工程を機械が担えば、研究者は検証という本質的な仕事に集中できます。ただ、夢の言葉に飛びつく前に、実験室の冷たい床を思い出すべきでしょう。今は派手な宣伝に見えても、五年後には当たり前の道具になっているかもしれません。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ トランプ氏、AIを「超知能」と呼称せぬ者は「敵」と断言",
+        "text": "**配信日：** 2026年10月9日　**出典：** [Google News AI](https://news.google.com/rss/articles/CBMijwFBVV95cUxNaTV1aTVjdklWRlVSRk44SVpZck9ENF9lWFAxSWVBMmNZQmktWDVZUC04Tmd1aUwwM01WLVJ3Sl93XzRaRTY3S3hvNm5UMFV0MXZiQk1VU0RIR3l4aVJLZHhlSjJ0ZWdHR3Y5YndyMmI2WG9CNnNibU02QS0tWEZhd2NDeG9YYWZqenV1MVpHNA?oc=5)　**原題：** Trump says anyone who does not refer to AI as ‘super intelligence’ is ‘THE ENEMY' - Politico\n\nGoogle News AIによると、トランプ氏は2026年10月8日、人工知能（AI）を「超知能（super intelligence＝人間の知能をはるかに超える知能）」と呼称しない者について「THE ENEMY（敵）」であると述べた。この発言はPoliticoが報じたもので、トランプ氏はAIの呼称をめぐり、自身の定義に従わない者を敵対視する姿勢を明確にした。同氏は以前からAI技術の重要性を強調してきたが、今回の発言は特定の用語を使用しないこと自体を敵味方の判断基準とする点で異例である。発言の具体的な場面や文脈、対象者については明らかにされていない。AIの呼称をめぐる政治的対立が新たな段階に入ったことを示す内容である。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 「超知能」って呼ばないと敵認定。これ、呼称の強制ってことですよね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 言葉狩りというより、忠誠テストだな。呼び方ひとつで味方かどうか測る。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実験で言えば、ラベリングを変えるだけで協力行動が変わるってデータがある。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> じゃあ、あえて「ただのAI」って呼び続ける人はどうなるんです？</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 敵、と。シンプルだ。だが、それで何が変わるのかは誰も説明していない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 用語の統一が目的なら、技術者には逆効果だよ。現場は呼び方より中身。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でも、SNSではバズるでしょうね。「敵」って言葉は強い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 強い言葉は、考えるのをやめさせる。それが一番怖い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 呼称を変えても、AIの能力は1ミリも変わらない。そこは冷静に。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">呼称の強制は、対話の入り口を狭めます。現場では、呼び方よりも中身が問われるはずです。しかし、言葉が武器になると、技術の議論は政治の土俵に引きずり込まれます。これは、呪文を唱えない者を異端とする宗教会議に似ています。本質は、AIの定義を誰が握るかという権力闘争です。号令をかける側は、たいてい走っていません。ただ、呼称を変えてもAIの能力は変わりません。むしろ、言葉の圧力に屈しない技術者が、静かに次の一手を打つ場面を想像します。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ 総括：時代の濁流を読み解く",
+        "text": "今日の5本は、ばらばらの業界ニュースに見えて、実はひとつの地層の断面です。サムスンの107兆ウォンはAIの「計算」そのものではなく、計算を支えるメモリーという土台が富を吸い上げた結果でした。コープの通話監視と損保ジャパンの2万人統制は、同じ問いの裏表です。AIを使う側が測られ、測る側が縛られる。Claudeの酵素発見は、その測る側のさらに上流、仮説を立てる工程にAIが入り込んだ合図です。そしてトランプ氏の「超知能」呼称強制は、技術の中身ではなくラベルを政治が握ろうとする動きでした。\n\nこれらが同時期に起きているのは偶然ではありません。AIが「使う道具」から「社会の前提」へ移行する過渡期には、必ず三つの争奪が始まります。富の源泉はどこか（半導体）、誰が監視し誰が監視されるか（職場）、そして何をどう呼ぶか（政治）。金鉱の比喩で言えば、掘る人、掘られる人、そして掘ってはいけないと叫ぶ人までが同じ鉱山にひしめいている状態です。\n\n賢くなるための視点はひとつです。AIの話を「すごいか、怖いか」で読むのをやめ、「誰がどの工程を握っているか」で読むことです。サムスンは製造、コープは評価、損保ジャパンは統制、Claudeは仮説、トランプ氏は命名。それぞれが別の工程の支配権をめぐる動きです。次にAIのニュースを見たら、能力の話の裏で誰の手が何を握ったのかを探してみてください。それが、濁流の中で足場を選ぶ最初の一歩になります。\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "ai-side-business-beginners-guide",
+      "20261006-095600",
+      "20261001-081057",
+      "20260603-050245",
+      "20261002-082351",
+      "20260927-071031",
+      "20260317-194054",
+      "20260316-225321"
     ]
   },
   {
@@ -12730,7 +12776,7 @@
       "ai-interview-storytelling",
       "post-07",
       "post-09",
-      "20260222-101421"
+      "20260226-175800"
     ]
   },
   {
