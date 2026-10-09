@@ -147,6 +147,7 @@ AIに代替されにくい仕事には、共通するタスクの条件があり
 
 - [AIでなくなる仕事ランキング｜消える理由と残る条件](/blog/ai-jobs-disappear-ranking)
 
+- [AIリスキリングは何を学ぶ？仕事のタスク分解で考える](/blog/ai-reskilling)
 ## 出典・参考資料
 
 1. [The Anthropic Economic Index](https://www.anthropic.com/economic-index)（参照日：2026年9月26日）
