@@ -317,8 +317,8 @@
       "20260222-222228",
       "20260222-220939",
       "20260227-000918",
-      "20260224-201233",
-      "20260223-103034"
+      "20260223-103034",
+      "20260224-201233"
     ]
   },
   {
@@ -364,8 +364,8 @@
       "20260222-101421",
       "20260305-192345",
       "20260225-081907",
-      "ai-and-copyright-thinking",
-      "post-10"
+      "post-10",
+      "ai-and-copyright-thinking"
     ]
   },
   {
@@ -672,11 +672,11 @@
       "20260222-235624",
       "20260303-051013",
       "20260305-071912",
-      "ai-unemployment-japan",
       "20260312-224144",
       "20260310-092331",
       "20260225-222651",
-      "20260222-222228"
+      "20260222-222228",
+      "20260222-220939"
     ]
   },
   {
@@ -2524,8 +2524,8 @@
     "related": [
       "20260316-203006",
       "20260319-165409",
-      "20260317-093413",
       "20260317-194054",
+      "20260317-093413",
       "20260316-225321",
       "ai-unemployment-japan",
       "20260319-155159",
@@ -2858,11 +2858,11 @@
     "related": [
       "20260319-165409",
       "20260316-203006",
+      "20260316-201156",
       "20260317-093413",
       "20260317-092337",
       "20260316-225321",
       "20260319-155159",
-      "20260316-201156",
       "20260312-094000"
     ]
   },
@@ -2940,8 +2940,8 @@
       "20260302-091323",
       "20260225-222651",
       "20260504-050153",
-      "ai-jobs-disappear",
-      "20260316-203006"
+      "20260316-203006",
+      "20260222-220939"
     ]
   },
   {
@@ -3105,7 +3105,7 @@
       "20260312-224144",
       "20260524-050205",
       "20260318-081842",
-      "20260223-002400"
+      "20260304-092827"
     ]
   },
   {
@@ -3825,7 +3825,7 @@
       "20260326-171555",
       "20260327-211432",
       "20260309-200004",
-      "20260309-162600"
+      "20260327-192508"
     ]
   },
   {
@@ -3895,8 +3895,8 @@
       "20260510-050227",
       "20260507-050215",
       "post-04",
-      "20260616-050236",
       "20260524-050205",
+      "20260616-050236",
       "20260317-093413",
       "20260311-223120",
       "product-20260928-adobe-premiere-android"
@@ -4867,8 +4867,8 @@
       "20260305-192345",
       "20261007-081253",
       "20261006-095600",
-      "20261009-085455",
       "20260419-050144",
+      "20261009-085455",
       "ai-side-business-beginners-guide",
       "ai-amazon-side-business-guide"
     ]
@@ -4915,8 +4915,8 @@
       "20260403-050211",
       "20260306-222035",
       "20260924-164310",
-      "20260504-050153",
       "20260421-050147",
+      "20260504-050153",
       "20260308-103350"
     ]
   },
@@ -5008,10 +5008,10 @@
       "20260404-050252",
       "20260403-050211",
       "20260316-201156",
+      "ai-writing-translation-side-business",
       "20260325-220130",
       "20260610-050213",
-      "20260522-050204",
-      "20260531-050200"
+      "20260522-050204"
     ]
   },
   {
@@ -5108,8 +5108,8 @@
       "ai-and-copyright-thinking",
       "20260504-050153",
       "20260304-051721",
-      "20260306-222035",
-      "20260325-205739"
+      "ai-writing-translation-side-business",
+      "20260306-222035"
     ]
   },
   {
@@ -5247,13 +5247,13 @@
       }
     ],
     "related": [
+      "20261011-075336",
       "post-09",
       "20260331-090250",
       "20260325-205739",
       "20260316-225321",
       "20260312-203611",
       "20260606-050334",
-      "20260929-085359",
       "20260411-213750"
     ]
   },
@@ -5486,14 +5486,14 @@
       }
     ],
     "related": [
+      "20261011-075336",
       "20260327-164958",
       "20260327-133407",
       "20260412-050211",
       "20260411-213750",
       "20260318-084916",
       "20260317-093413",
-      "20260528-050237",
-      "20260625-050158"
+      "20260528-050237"
     ]
   },
   {
@@ -5536,11 +5536,11 @@
       "20260412-050211",
       "20260620-050304",
       "20261005-072915",
+      "20261011-075336",
       "20260513-050217",
       "20260621-050244",
       "20260411-050211",
-      "20260415-050150",
-      "20260224-201233"
+      "20260415-050150"
     ]
   },
   {
@@ -6530,12 +6530,12 @@
     "related": [
       "20260325-080104",
       "20260613-050216",
+      "ai-writing-translation-side-business",
       "20260415-050150",
       "20261001-081057",
       "ai-side-business-recommended-methods",
       "ai-side-business-reality-and-pitfalls",
-      "20261009-085455",
-      "20261006-095600"
+      "20261009-085455"
     ]
   },
   {
@@ -7452,11 +7452,11 @@
       "ai-side-business-beginners-guide",
       "ai-amazon-side-business-guide",
       "ai-side-business-recommended-methods",
+      "ai-writing-translation-side-business",
       "20260224-090015",
       "20260226-175800",
       "20260603-050245",
-      "20260502-050212",
-      "20260401-001217"
+      "20260502-050212"
     ]
   },
   {
@@ -7695,7 +7695,7 @@
       "20260520-050202",
       "20260531-050200",
       "20260517-050155",
-      "20260417-050148"
+      "20260425-050259"
     ]
   },
   {
@@ -8121,8 +8121,8 @@
       "20260224-090015",
       "stability-is-risk-52-strategy",
       "20260610-050213",
-      "20260223-093844",
-      "20260222-220939"
+      "20260222-220939",
+      "20260223-093844"
     ]
   },
   {
@@ -8407,8 +8407,8 @@
     "related": [
       "20260622-050218",
       "20260316-201156",
-      "20260524-050205",
       "20260305-192345",
+      "20260524-050205",
       "20260222-235624",
       "20260609-050244",
       "20260422-050150",
@@ -8452,8 +8452,8 @@
       }
     ],
     "related": [
-      "20260425-050259",
       "20260610-050213",
+      "20260425-050259",
       "20260309-162600",
       "20260611-050254",
       "20260608-050202",
@@ -8551,9 +8551,9 @@
       "20260609-050244",
       "20260327-171619",
       "ai-side-business-experience-monthly-income",
+      "ai-writing-translation-side-business",
       "20261009-085455",
-      "20260224-090015",
-      "20260523-050248"
+      "20260224-090015"
     ]
   },
   {
@@ -9223,7 +9223,7 @@
       "20260503-050251",
       "post-01",
       "20260924-164310",
-      "20260930-080953"
+      "20260612-050255"
     ]
   },
   {
@@ -9364,7 +9364,7 @@
       "ai-side-business-reality-and-pitfalls",
       "20260623-050206",
       "20260622-050218",
-      "20260926-053102"
+      "20260318-052259"
     ]
   },
   {
@@ -9406,12 +9406,12 @@
     "related": [
       "20261005-072915",
       "20260621-050244",
+      "20261011-075336",
       "20260604-050241",
       "20260930-080953",
       "20261002-082351",
       "20261007-081253",
-      "20260527-050213",
-      "20260530-050237"
+      "20260527-050213"
     ]
   },
   {
@@ -9451,14 +9451,14 @@
       }
     ],
     "related": [
+      "20261011-075336",
       "20260926-053102",
       "20260929-085359",
       "20260924-164310",
       "20260615-050237",
       "20260430-050210",
-      "20261004-072349",
       "20260620-050304",
-      "20260613-050216"
+      "20261004-072349"
     ]
   },
   {
@@ -9646,7 +9646,7 @@
       "ai-regulation-overview",
       "20260930-080953",
       "20260503-050251",
-      "20260406-050148"
+      "20261011-075336"
     ]
   },
   {
@@ -9781,13 +9781,13 @@
     ],
     "related": [
       "20260929-085359",
-      "generative-ai-image-copyright",
       "20260621-050244",
       "20260523-050248",
       "20260312-094000",
+      "generative-ai-image-copyright",
       "20261005-072915",
-      "20261002-082351",
-      "20260507-050215"
+      "ai-writing-translation-side-business",
+      "20261002-082351"
     ]
   },
   {
@@ -9932,6 +9932,57 @@
     ]
   },
   {
+    "slug": "20261011-075336",
+    "title": "AIが詐欺師を騙す時代——ナデラの緊急ブレーキは誰が踏む？",
+    "lead": "あなたは今日、5本のニュースを読みます。AIが詐欺師を逆に騙して時間を溶かし、人類はAIの「ノー」を信じすぎていると警告され、マイクロソフトのナデラCEOは緊急ブレーキを求め、OpenAIでは安全性研究者3人が解雇され、スタンフォードの大学院生はAIでウイルスの設計図を描きました。止める側と作る側が同じ週にニュースになる——そのブレーキを、誰が握るのでしょう？",
+    "type": "news",
+    "layer": "record",
+    "date": "2026-10-11 07:53",
+    "readTime": "2分",
+    "category": "⚔️ AI・国家・軍事・倫理",
+    "image": "/blog-images/20261011-075336/cover.jpg",
+    "content": [
+      {
+        "section": "◆ AIが詐欺師を逆に騙す、偽被害者ボットで犯罪コストを膨らませる新戦略",
+        "text": "![ニュース画像](/blog-images/20261011-075336/news_0.jpg)\n\n**配信日：** 2026年10月10日　**出典：** [Wired AI](https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/)　**原題：** AI Is Getting Really Good at Messing With Cybercriminals\n\nWired AIによると、AIはデジタル詐欺やサイバー犯罪を加速させる一方で、被害者を守る戦いにも動員されている。世界各国の政府は国境を越えたオンライン犯罪への対策に苦戦しており、国外にいる犯罪者への取り締まりには限界がある。そこで注目されているのが、自動化を使って詐欺師側に大量の働きかけを行い、そのリソースを浪費させる取り組みだ。詐欺師を騙す側に回るという発想で、AIプラットフォームはこうした実験を実際のサイバー犯罪対策ツールへと変えつつある。具体的には、詐欺師が本物の被害者だと思い込むような、人間らしい応答をするボットと会話させる手口が使われている。詐欺師に偽の標的を相手させ、時間や手間を奪うことで、犯罪の効率を下げようという狙いである。政府による越境取り締まりが難しい中、AIを活用した対抗策が新たな防御の形として広がり始めている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 詐欺師に偽の被害者を相手させて時間を溶かす。発想は地味だが効く。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 昔のいたずら電話を産業規模にしたような話だな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でも相手もAIを使い始めたら、ボット同士の無限会話が始まるのでは。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> それは実験で見たい。だが今は人間側のリソースが削られる方が痛い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 国境を越える犯罪に政府が手を焼くから、自動化に白羽の矢が立ったわけだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者は「騙し返す」に痛快さを感じる。ただ、犯罪の現場はもっと泥臭い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> データで見ると、相手の手間を増やすほど被害は減る。単純だが強い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 正義の自動化か。皮肉な時代になったものだ。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">詐欺師を騙し返すAIは、防御の主導権を被害者側へ引き寄せる試みです。しかし、これは攻撃と防御が同じ自動化の土俵で競い合う時代の始まりでもあります。いたちごっこを高速化するだけなら、勝者は資本と計算資源を持つ側です。防犯を「相手の時間を奪うゲーム」に変えた発想は、逆に言えば、私たちの日常も同じゲームの駒になり得るということです。笑える話の裏で、誰がルールを決めるのかを問い直す余地が残されています。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ AIの「ノー」を信じすぎる人類、SF由来の期待と現実の乖離",
+        "text": "![ニュース画像](/blog-images/20261011-075336/news_1.jpg)\n\n**配信日：** 2026年10月9日　**出典：** [MIT Tech Review](https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/)　**原題：** We’re putting too much faith in AI’s ability to say no\n\nMIT Tech Reviewによると、人間を模した知能を機械に与えるという構想が真剣に検討され始めた当初から、機械も人間と同じように「ノー」と言えるはずだという前提は疑われてこなかった。SFの古典にはロボットが服従を拒む物語が溢れており、その多くは警告的な寓話として読まれてきた。しかし最近では、AIは「ノー」と言うべきではないという考え方が台頭している。人間の命令に従い続けるべきだという期待が強まっているのだ。この論考は、AIに拒否の能力を過度に信頼する風潮に警鐘を鳴らす。機械が自ら判断を下せるという幻想は、SFの想像力が生んだ産物にすぎない可能性がある。AIの「ノー」をめぐる議論は、技術の限界と人間の期待のずれを映し出している。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> AIが「ノー」と言う前提、そもそもSFの刷り込みじゃないですか。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 小説の都合を技術の前提にしちゃったわけだ。都合が良すぎる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実験室では、モデルは「ノー」を学習しない。拒否は設計次第で消える。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 消えるって、便利すぎて怖いですね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 歴史的には、機械に判断を委ねるたび人間が責任を手放してきた。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 責任の所在が曖昧なまま、拒否だけ期待するのは無理がある。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者は「AIが止めてくれる」物語を欲しがる。需要があるんですよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 需要と実装は別物だ。そこを混ぜると事故になる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 拒否を期待するなら、拒否の基準を誰が決めるのか。そこが空白だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 空白を埋めるのは、たぶん人間の都合ですよね。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">AIが「ノー」と言ってくれるという期待は、私たちの責任回避の願いを映しています。一般にはAIの自律性が高まれば安全になると信じられていますが、構造的には逆で、拒否の基準を設計する人間こそが最大の不確定要素です。誰が勝っても、私たちはその基準に乗るしかない時代が来ます。その基準を、今のうちに知っておいてほしい。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ マイクロソフトのナデラCEO、AIモデルに「緊急ブレーキ」の必要性を主張",
+        "text": "![ニュース画像](/blog-images/20261011-075336/news_2.jpg)\n\n**配信日：** 2026年10月11日　**出典：** [TechCrunch AI](https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/)　**原題：** Microsoft’s Satya Nadella says AI models need an ‘emergency brake’\n\nTechCrunch AIによると、マイクロソフト（Microsoft）のサティア・ナデラ（Satya Nadella）CEOは2026年10月10日、AIモデルには「緊急ブレーキ（emergency brake）」が必要だとの考えを示した。緊急ブレーキとは、AIが危険な挙動を示した際に即座に停止させる仕組みのことである。ナデラ氏は、AIの能力が急速に高まる中で、開発者や運用者がいつでも制御を奪い返せる安全装置を組み込むべきだと訴えた。同氏の発言は、AIの安全性と制御可能性をめぐる業界全体の議論に一石を投じるもので、マイクロソフトが推進するAI製品群の設計思想にも影響を与える可能性がある。TechCrunch AIは、この発言をAIガバナンス（＝AIの開発・利用を社会全体で管理する仕組み）の文脈で報じている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> ナデラが「緊急ブレーキ」って言い出した。実験屋としては、止められる設計は大賛成だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> でもさ、ブレーキを握るのは誰？ 開発者？ それとも政府？ そこが曖昧なままだと絵に描いた餅だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> ブレーキを付けるってことは、逆に言えば「今はブレーキがない」って認めたようなもの。市場はどう読むかな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> テスト中に暴走したモデルを止められなかった経験がある。あれは冷や汗ものだった。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 昔の自動車もそうだった。安全装置が義務化されるまで、どれだけ事故が起きたか。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でもAIのブレーキって、誰が踏むかで意味が真逆になる。監視か、それとも言論統制か。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> そこは設計次第だ。技術的に透明性を確保できれば、怖さは減る。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> ナデラの狙いは安全性アピールと規制先取り、両方だろうな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> うまいこと言うよ。でも読者は「で、私の生活は？」と思うはず。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> ブレーキの話より、ブレーキが必要になる未来のほうが気になるよ。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">AIに緊急ブレーキを、という提言はもっともらしく聞こえます。しかし現場では、止める権限を誰が持つのかという問いが置き去りにされています。この調子で開発が進めば、2030年には私たちは自分では止められない道具に日常を預けているでしょう。自動車に安全ベルトが義務化されるまで、多くの犠牲がありました。AIも同じ道をたどるのか、それとも学ぶのか。ブレーキを語る経営者が、同時にアクセルを最も深く踏んでいる——この矛盾を笑って済ませられるうちは、まだましなのかもしれません。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ OpenAI、安全性研究者3人を解雇 本人らは「安全性優先」と主張、同社は機密規定違反と説明",
+        "text": "![ニュース画像](/blog-images/20261011-075336/news_3.jpg)\n\n**配信日：** 2026年10月10日　**出典：** [ITmedia AI+](https://www.itmedia.co.jp/news/article/2610/10/2000002189/)　**原題：** OpenAI、安全性研究者3人を解雇　本人らは「安全性を優先したため」と主張、同社は「機密情報の扱いに関する規定違反」と説明\n\nITmedia AI+によると、OpenAIは安全性を研究する研究者3人を解雇した。解雇された本人らは、自らがAIの安全性を優先した行動を取ったためだと主張している。これに対しOpenAI側は、機密情報の扱いに関する社内規定に違反したことが理由だと説明している。解雇の具体的な日時や場所、対象者の氏名、違反とされる行為の詳細、解雇に至る内部調査の経緯などは記事本文では明らかにされていない。安全性研究は、AIが人間にとって危険な挙動をしないかを検証する分野で、近年の生成AI開発競争の中で独立性や発言の自由が注目される領域である。企業側の説明と元研究者側の主張が食い違っており、どちらが正確かは現時点で判断できない。ITmedia AI+は、この対立構図を伝えている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 安全性を守ったらクビ、って噂だけなら洒落にならないな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 企業が「機密規定」と言い出すと、たいてい議論はそこで終わる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> でも、その規定の中身が見えないと、何が違反か検証できない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 検証できないまま、印象だけが独り歩きする。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 過去にも、内部告発と守秘義務の衝突は繰り返されてきた。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実験屋の立場だと、再現できない主張は判断保留にするしかない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者はどっちの味方をするんだろうね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 味方というより、どちらも情報を出し切っていないのが気になる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 出し切れない構造そのものが、この話の核心かもしれない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> それ、ちょっと怖いこと言ったな。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">安全性を掲げる人材が去るたび、私たちは少しずつ判断材料を失っています。企業の守秘義務と研究者の説明責任、その板挟みは今後あらゆるAI開発の現場で再演されるでしょう。構造としては、技術の進歩速度に組織の透明性が追いついていないだけです。ただ、私たちも当事者です。都合の良い説明だけを消費してきたツケが、今この対立に表れています。五年後、この解雇は「過渡期の摩擦」と笑えるのか、それとも分岐点だったと振り返るのか。答えは、今の私たちの問い方にかかっています。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ AIが設計したウイルス、スタンフォード大大学院生が遺伝子設計図を提案",
+        "text": "**配信日：** 2026年10月9日　**出典：** [MIT Tech Review](https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/)　**原題：** Roundtables: A Conversation With the Creator of AI-Designed Viruses\n\nMIT Tech Reviewによると、2025年、スタンフォード大学の博士課程学生サミュエル・キング氏が、生成AIモデルを使い、顕微鏡サイズのウイルスの遺伝子設計図（＝生物の設計図となるDNAの情報）を提案した。これはAIが生成した生命そのものの例ではないが、次に来る可能性があるという。MIT Tech ReviewのシニアAI記者が、AIが新しい生命形態を設計できるのかを問うラウンドテーブル（＝少人数の討論会）で、この取り組みの創造者と対話する。2026年10月16日公開予定の内容である。ウイルスは顕微鏡でしか見えない極小の存在であり、その設計をAIが担う意味は大きい。生命の設計図を機械が提案する時代の入り口に、私たちは立っている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実際にAIがウイルスの設計図を出したって、まだ生命そのものじゃないんだろ？</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> そこがミソだよ。『まだ』って言葉が一番怖い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 2025年に大学院生がやった、ってのが時代だな。昔なら国家予算の話だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実験屋から言わせりゃ、設計図と実際に動く代物は別物だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> だが、その別物の壁がどんどん薄くなってる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者は『AIがウイルスを作る』の見出しに震えるよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 震えるだけならいい。次の段階は『作ってみた』だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> それ、ちょっと怖いこと言ったな。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">AIが遺伝子設計図を提案する段階に来たことを、重く受け止めています。設計と実行の間の壁は、確かに薄くなりつつあります。これは、料理のレシピを考案するAIと、その料理を実際に皿へ盛り付けるAIの違いに似ています。レシピだけなら安全と思いたいところですが、キッチンには既に誰かが立っている。規制の議論は、包丁を研ぐ音を聞きながら行われているのです。ただ、設計図を描く力は、ワクチンや治療法の設計にも同じように使えます。一人の大学院生の試みが、破壊と治療の両方の扉を同時にノックしているのです。</span>\n</div>\n</div>\n\n---\n\n\n![総括画像](/blog-images/20261011-075336/summary.jpg)"
+      },
+      {
+        "section": "◆ 総括：時代の濁流を読み解く",
+        "text": "今日の5本は、ばらばらの事件に見えて、すべて同じ問いの周りを回っています。AIに何をさせ、どこで止めるのか。その主導権は誰にあるのか。詐欺師を騙すボットは防御の自動化であり、AIの「ノー」への過信は拒否の設計を人間が握っているという事実の裏返しです。ナデラ氏の緊急ブレーキは制御権の話であり、OpenAIの解雇劇は制御権をめぐる組織内の摩擦であり、AI設計ウイルスは制御の外側にある創造の話です。つまり、攻撃・拒否・停止・内部統制・創造という五つの局面が、同じ一つの権限争いとして同時に噴き出している。\n\n興味深いのは、どのニュースも「AIそのもの」ではなく「AIと人間の間の取り決め」が争点になっている点です。詐欺対策ボットの有効性は、相手のリソースを削るという人間側の設計思想に依存します。AIが「ノー」と言うかどうかは、学習データとポリシーの産物であり、機械の意志ではありません。ナデラ氏のブレーキも、踏む権限の所在が曖昧なままなら安全装置ではなく責任回避の装置になり得ます。OpenAIの対立は、守秘義務という人間のルールが安全性研究の独立性を縛る構造を示しました。スタンフォードの事例は、設計図を描く力が規制の外側で個人にまで降りてきたことを意味します。\n\nこれらが同じ時期に起きているのは、AIの能力が「実験室の成果」から「社会のインフラ」へ移行する過渡期だからです。自動車が普及した初期、信号も免許もシートベルトもなかった時代と似ています。誰もが便利さに飛びつき、事故が起きてからルールが後追いする。ただしAIの場合、事故の速度が速く、被害の範囲が国境を越える。だから政府の取り締まりが追いつかず、自動化による対抗策や企業の自主ルールが先に走る。順序が逆転しているのです。\n\nここで賢くなるための視点を一つ。ニュースを「AIがすごい／怖い」で読むと、いつまでも消費者で終わります。「誰がどの権限を持ち、どの権限を持っていないか」で読むと、構造が見えます。詐欺ボットは被害者側に時間を奪う権限を与え、緊急ブレーキは開発者に停止権限を集中させ、解雇は組織に沈黙を強制する権限を残し、ウイルス設計は個人に創造権限を渡しました。権限の配分が変われば、同じ技術でも意味が反転します。\n\n最後に一つ。ブレーキを語る経営者が最も深くアクセルを踏んでいる——この矛盾を笑えるうちは、まだ私たちは観客でいられます。笑えなくなったとき、私たちはもう当事者です。"
+      },
+      {
+        "section": "このテーマを深く知る",
+        "text": "- [AI詐欺の手口と見分け方｜生成AI・ディープフェイク対策](/blog/ai-scam-tactics)\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "ai-scam-tactics",
+      "20260930-080953",
+      "20260411-213750",
+      "20260411-050211",
+      "20260408-050144",
+      "20260302-091323",
+      "20260929-085359",
+      "20260415-050150"
+    ]
+  },
+  {
     "slug": "README",
     "title": "",
     "lead": "",
@@ -10043,10 +10094,10 @@
       "ai-side-business-recommended-methods",
       "ai-side-business-beginners-guide",
       "ai-side-business-reality-and-pitfalls",
+      "ai-writing-translation-side-business",
+      "ai-side-business-scam-warning",
       "ai-lab-vol1-ai-vs-ai-exam",
-      "20260519-050241",
-      "product-20260929-claude-sonnet-5-5",
-      "product-20260930-openai-dots-agents"
+      "20260519-050241"
     ]
   },
   {
@@ -10196,13 +10247,13 @@
     ],
     "related": [
       "highclass-job-site-comparison",
-      "post-08",
       "post-01",
+      "post-08",
       "20260224-194705",
-      "product-20261001-acemagic-f9a-pro-495-mini-pc",
-      "product-20261002-legato-ai-hearing-glasses",
       "ai-side-business-recommended-methods",
-      "ai-side-business-experience-monthly-income"
+      "ai-side-business-experience-monthly-income",
+      "product-20260930-openai-dots-agents",
+      "ai-amazon-side-business-guide"
     ]
   },
   {
@@ -10275,7 +10326,7 @@
       },
       {
         "section": "関連する記録",
-        "text": "- [生成AI画像の著作権は誰のもの？商用利用の可否をケース別に解説](/blog/generative-ai-image-copyright)\n\n- [AIと著作権の考え方 生成AIの著作権問題を整理](/blog/ai-and-copyright-thinking)"
+        "text": "- [生成AI画像の著作権は誰のもの？商用利用の可否をケース別に解説](/blog/generative-ai-image-copyright)\n\n- [AIと著作権の考え方 生成AIの著作権問題を整理](/blog/ai-and-copyright-thinking)\n- [AIライティング副業の単価相場と著作権リスク](/blog/ai-writing-translation-side-business)"
       },
       {
         "section": "出典・参考資料",
@@ -10696,12 +10747,12 @@
     "related": [
       "product-20260929-claude-sonnet-5-5",
       "ai-side-business-beginners-guide",
-      "product-20261007-nano-banana-2-1",
       "product-20261008-chatgpt-gpt6-intelligent-ui",
-      "product-20261005-googlebook-gemini-laptop",
-      "product-20261009-natura-99-ai-smart-ring",
       "product-20261010-pixel-watch-4-ai-watch-face",
-      "product-20260930-openai-dots-agents"
+      "product-20260927-honor-robot-phone",
+      "product-20260926-meta-camera-free-ai-glasses",
+      "product-20261005-googlebook-gemini-laptop",
+      "ai-side-business-reality-and-pitfalls"
     ]
   },
   {
@@ -10851,13 +10902,13 @@
     ],
     "related": [
       "ai-jobs-disappear",
-      "product-20261009-natura-99-ai-smart-ring",
       "product-20261010-pixel-watch-4-ai-watch-face",
       "ai-and-copyright-thinking",
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
-      "product-20261007-nano-banana-2-1",
+      "ai-writing-translation-side-business",
       "generative-ai-image-copyright",
-      "ai-scam-tactics"
+      "ai-scam-tactics",
+      "ai-jobs-disappear-ranking",
+      "product-20261002-legato-ai-hearing-glasses"
     ]
   },
   {
@@ -10925,19 +10976,23 @@
         "text": "生成AIの悪用により、フィッシング詐欺やマルウェア開発といった犯罪のハードルが下がり、実際に被害につながる事件が世界中で増加しているとされています[3]。ただし、警察庁とIPAでは集計の目的や対象が異なり得るため[1][2]、数字の大小だけを比べても実態の違いなのか集計方法の違いなのかは判断できません[1][2]。"
       },
       {
+        "section": "関連する記録",
+        "text": "- [ai副業詐欺の手口と見分け方｜スクールの危険サイン](/blog/ai-side-business-scam-warning)\n\n- [AIが詐欺師を騙す時代——ナデラの緊急ブレーキは誰が踏む？](/blog/20261011-075336)"
+      },
+      {
         "section": "出典・参考資料",
         "text": "1. [サイバー警察局｜警察庁Webサイト](https://www.npa.go.jp/bureau/cyber/index.html)（参照日：2026年10月7日）\n2. [情報セキュリティ | IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/)（参照日：2026年10月7日）\n3. [AIが悪用される手口と対策｜生成AIによるリスクから身を守る方法 | SS1LAB](https://www.dos-osaka.co.jp/ss1/ss1lab/2026/03/trend-generative-AI.html)（参照日：2026年10月7日）\n5. [生成AIチャットボットの回答から危険サイトへ誘導される事例を確認](https://www.trendmicro.com/ja_jp/research/26/c/generative-ai-chatbots-redirect-users-malicious-websites.html)（参照日：2026年10月7日）\n7. [AI の負の側面: 生成 AI が可能にした大規模詐欺](https://www.sophos.com/ja-jp/blog/the-dark-side-of-ai-large-scale-scam-campaigns-made-possible-by-generative-ai)（参照日：2026年10月7日）\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
       }
     ],
     "related": [
+      "ai-side-business-scam-warning",
+      "20261011-075336",
+      "ai-side-business-reality-and-pitfalls",
+      "ai-side-business-recommended-methods",
       "ai-lab-vol1-ai-vs-ai-exam",
       "generative-ai-image-copyright",
       "product-20261007-nano-banana-2-1",
-      "product-20261006-tenku-note-pro-ai",
-      "ai-jobs-disappear-ranking",
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
-      "ai-and-copyright-thinking",
-      "ai-side-business-reality-and-pitfalls"
+      "ai-jobs-disappear-ranking"
     ]
   },
   {
@@ -11008,7 +11063,7 @@
       },
       {
         "section": "関連する詳しい解説",
-        "text": "- [AI副業で稼げないのはなぜ？怪しい案件と実態](/blog/ai-side-business-reality-and-pitfalls)"
+        "text": "- [AI副業で稼げないのはなぜ？怪しい案件と実態](/blog/ai-side-business-reality-and-pitfalls)\n- [AIライティング副業の単価相場と著作権リスク](/blog/ai-writing-translation-side-business)"
       },
       {
         "section": "出典・参考資料",
@@ -11024,10 +11079,10 @@
       "ai-side-business-experience-monthly-income",
       "ai-side-business-recommended-methods",
       "ai-side-business-reality-and-pitfalls",
+      "ai-writing-translation-side-business",
       "ai-copyright-basics",
       "product-20260926-meta-camera-free-ai-glasses",
-      "ai-unemployment-japan",
-      "ai-lab-vol1-ai-vs-ai-exam"
+      "ai-unemployment-japan"
     ]
   },
   {
@@ -11100,10 +11155,10 @@
       "ai-side-business-recommended-methods",
       "ai-side-business-reality-and-pitfalls",
       "ai-side-business-beginners-guide",
+      "ai-writing-translation-side-business",
+      "ai-side-business-scam-warning",
       "ai-lab-vol1-ai-vs-ai-exam",
-      "product-20260930-openai-dots-agents",
-      "product-20261001-acemagic-f9a-pro-495-mini-pc",
-      "ai-career-change"
+      "product-20260930-openai-dots-agents"
     ]
   },
   {
@@ -11155,6 +11210,10 @@
         "text": "全自動で稼ぐという期待は外れやすいとされています。AIに頼りすぎると品質が低下し成果につながらないため、出力を人の手で磨くことが月5万円を目指すコツとして挙げられています[1]。プロンプトをコピーするだけでは差別化できず[3]、企画や判断、品質の最終責任は人が担う部分として残ります[1][3]。"
       },
       {
+        "section": "関連する記録",
+        "text": "- [ai副業詐欺の手口と見分け方｜スクールの危険サイン](/blog/ai-side-business-scam-warning)"
+      },
+      {
         "section": "出典・参考資料",
         "text": "1. [AI副業は稼げない？初心者が月5万円を目指すための完全ガイド](https://www.alc.co.jp/programming/sidejob/ai-side-job/)（参照日：2026年10月4日）\n2. [\"ai副業で稼げない人\"には共通点がある、という話。](https://note.com/ai_freak/n/nc301ef46974d)（参照日：2026年10月4日）\n3. [【2026年8月最新】AI副業の始め方完全ガイド｜稼げない人の特徴と月10万円を超える方法](https://genai-ai.co.jp/ai-kanri/blog/cc-ai-side-job-guide/)（参照日：2026年10月4日）\n4. [AI副業は稼げない？怪しいのか実態と稼ぐコツも徹底解説](https://coeteco.jp/articles/14595)（参照日：2026年10月4日）\n5. [AI副業で稼げない人の特徴3選！稼ぐためのポイントやおすすめの職種も解説](https://shift-ai.co.jp/blog/15128/)（参照日：2026年10月4日）"
       },
@@ -11167,11 +11226,11 @@
       "ai-side-business-recommended-methods",
       "ai-side-business-experience-monthly-income",
       "ai-amazon-side-business-guide",
+      "ai-writing-translation-side-business",
       "ai-side-business-beginners-guide",
-      "ai-lab-vol1-ai-vs-ai-exam",
-      "ai-jobs-disappear-ranking",
-      "product-20261005-googlebook-gemini-laptop",
-      "product-20261006-tenku-note-pro-ai"
+      "ai-side-business-scam-warning",
+      "ai-scam-tactics",
+      "ai-lab-vol1-ai-vs-ai-exam"
     ]
   },
   {
@@ -11227,6 +11286,10 @@
         "text": "まず目標とジャンルを一つに絞ることが起点になります[8]。最初から月30万円以上を掲げると挫折につながりやすいため、月5万円は達成しやすいラインとされています[8]。次に関連する基礎知識を書籍やネット、セミナーなどで身に付け、初心者でも応募できる案件に取り組み、並行してポートフォリオを作成します[8]。小さな仕事の積み重ねが経験になります[8]。"
       },
       {
+        "section": "関連する記録",
+        "text": "- [ai副業詐欺の手口と見分け方｜スクールの危険サイン](/blog/ai-side-business-scam-warning)"
+      },
+      {
         "section": "出典・参考資料",
         "text": "1. [副業12個やってみた体験談とリアルな収益｜AI活用法と私の気づき【副業初心者】](https://note.com/makari_5108010/n/nc2255c892260)（参照日：2026年10月3日）\n2. [AI副業おすすめ9選｜初心者が月5万円を目指すための具体的な始め方｜Canva（キャンバ）](https://www.canva.com/ja_jp/learn/ai-side-job/)（参照日：2026年10月3日）\n3. [生成AIで月5万円稼ぐ副業10選｜初心者でも始められるAI副業の全ガイド【2026年最新】 - MatrixFlow](https://www.matrixflow.net/case-study/162/)（参照日：2026年10月3日）\n4. [【2026年8月最新】AIを使って稼ぐ方法10選｜Claude Codeで副業効率を最大化する実践ガイド](https://genai-ai.co.jp/ai-kanri/blog/cc-ai-earn-money/)（参照日：2026年10月3日）\n5. [AI副業は稼げない？初心者が月5万円を目指すための完全ガイド](https://www.alc.co.jp/programming/sidejob/ai-side-job/)（参照日：2026年10月3日）\n6. [AI活用で副業を効率化する方法は？活用アイデアや始め方・案件例を紹介 | and HiPro [アンド ハイプロ]](https://hipro-job.jp/pro/and_hipro/column/A000000797/)（参照日：2026年10月3日）\n7. [【2026年最新版】AI副業おすすめ15選！未経験から稼げる仕事と始め方を徹底解説 | WEB集客コンサルなら東京拠点・全国対応の吉和の森](https://yoshikazunomori.com/blog/digitalmarketing/ai_side_jobs_recommended/?srsltid=AU7gw4UVWo5F6k2rs4xIz4Z8JP4mq_ld9RYsCAdTHa_DYkWwuuB1OrsX)（参照日：2026年10月3日）\n8. [未経験でもAI副業で月5万円稼ぐ方法！おすすめの始め方やアイデアを紹介](https://sogyotecho.jp/ai-fukugyou-5man/)（参照日：2026年10月3日）"
       },
@@ -11240,10 +11303,82 @@
       "ai-side-business-experience-monthly-income",
       "ai-amazon-side-business-guide",
       "ai-side-business-beginners-guide",
+      "ai-writing-translation-side-business",
+      "ai-side-business-scam-warning",
+      "ai-scam-tactics",
+      "ai-lab-vol1-ai-vs-ai-exam"
+    ]
+  },
+  {
+    "slug": "ai-side-business-scam-warning",
+    "title": "ai副業詐欺の手口と見分け方｜スクールの危険サイン",
+    "lead": "SNSで「誰でも簡単に稼げる」と誘われ、高額なスクール契約や初期費用の請求で迷っていませんか。ai副業詐欺の手口と危険サインが分かれば、申し込む前に自分で見分けて判断できます。",
+    "preamble": "AIを使った副業の広告やDMが増え、月収100万円といった極端な収益をうたう案件が目立つようになりました。国民生活センターによると、簡単副業をうたうトラブルの平均被害金額は2020年度の約28万円から2024年度には約106万円へと増え、相談件数も前年比35%増えています。SNSで「誰でも簡単に稼げる」と誘われ、高額なスクール契約や初期費用の請求で迷った経験はないでしょうか。その話、契約する前に何を確かめれば見分けられるのか？この記事を読むと、誇大な数字の根拠の読み解き方、契約前に確認すべき会社情報・支払い先・返金条件の具体的なチェック項目が分かり、怪しい案件に申し込む前に自分で判断して動けるようになります。\n\n*この記事は、総合解説「[AI詐欺の手口と見分け方｜生成AI・ディープフェイク対策](/blog/ai-scam-tactics)」の詳細編です。全体像はそちらをご覧ください。*\n\n**この記事の要点**\n\n- AI副業は新しい分野で情報が偏り、誇大広告と情報の非対称性が詐欺の土壌になっています[4][5]。\n- 簡単副業トラブルの平均被害額は2020年度約28万円から2024年度約106万円へ約4倍に増えました[7]。\n- 契約前は相手の正体・お金の流れ・契約条件を確認し、先払いを求める案件は避ける判断が大切です[2][5][7]。\n\n（最終更新：2026年10月11日）",
+    "type": "seo",
+    "layer": "choose",
+    "date": "2026-10-11 00:34",
+    "readTime": "1分",
+    "category": "🛡️ AI時代の生存戦略・総論",
+    "image": "/blog-images/ai-side-business-scam-warning/cover.jpg",
+    "content": [
+      {
+        "section": "AI副業に詐欺が混ざるのは、なぜ止まらないのか",
+        "text": "![AI副業トラブルの被害拡大](/blog-images/ai-side-business-scam-warning/fig-1.svg)\n\n*図：AI副業トラブルの被害拡大（出典：[4][5][7]）*\n\nAI副業に詐欺的な案件が混ざり続ける背景には、誇大広告の多さと情報の非対称性という二つの要素があるとされています。SNSや広告では「AIを使えば誰でも月収100万円」「スマホ1台で月50万円稼げる」といった極端な収益をうたう文言が目立つとされています[4]。こうした表現の多くは、実際に成果を出せる人がごく一部であることを前提に作られているという見方があります[4]。同じように「誰でも簡単にすぐ稼げる」「放っておくだけで月50万円」といった甘い言葉で人を集め、メッセージアプリやオンライン説明会へ誘い込む例も紛れているとされています[5]。\n\n情報の非対称性も、詐欺が入り込みやすい土壌になっています。AIは比較的新しい分野で実態が広く知られていないため、何が妥当な報酬や学習内容なのかを判断しにくい状況があります[4]。実際、AIはあくまで道具であり、目的を決めたり出力内容を調整したりするのは人間の仕事であるにもかかわらず、「自動でお金を生む仕組み」と誤解して始める人が多いとされています[5]。この誤解が、非現実的な収益をうたう案件に接触するきっかけになり得ます。\n\n![AI副業に詐欺が混ざるのは、なぜ止まらないのかのイラスト](/blog-images/ai-side-business-scam-warning/ill-1.jpg)\n\n被害の規模も拡大しています。国民生活センターのデータによると、簡単副業をうたうトラブルの平均被害金額は、2020年度が約28万円であったのに対し、2024年度は約106万円と約4倍に増えているとされています[7]。また、2024年度の相談件数は7月末時点で950件に達しており、前年比で35%増加しているとされています[7]。こうした数字は、見分ける知識がないまま手を出すことの危うさを示しています。\n\n暮らしの中で「うまい話」に触れたとき、その裏側で誰が何から利益を得ているのかを想像する習慣が、自分を守る最初の一歩になります。"
+      },
+      {
+        "section": "そのスクール、契約前に気づける危険サインは何か",
+        "text": "![契約前チェック：危険サインと確認点](/blog-images/ai-side-business-scam-warning/fig-2.svg)\n\n*図：契約前チェック：危険サインと確認点（出典：[3][5][7]）*\n\n契約前の違和感は、たいてい最初の数分に表れます。高額なスクールや情報商材の勧誘では、「誰でも簡単に」「スキル不要で」「短期間で月収100万円」といった謳い文句が使われる傾向があります[3][7]。「今日だけ特価」「残り○名」といった期限や人数を強調する表現で即決を迫る流れも見られます[3][7]。\n\n無料セミナーでは、AI時代への不安をあおる導入から始まり、成功事例の紹介、簡単に稼げるという説明、限定価格の提示、即決を促す締めへと進む構成が典型的とされています[3]。講師の経歴が「元外資系」「起業家」など抽象的で、実績の裏付けが確認しにくい場合もあります[3]。返金保証が付いていても、「全課題提出」「6ヶ月間毎日投稿」など細かい条件が設定されていることがあります[3]。\n\n![そのスクール、契約前に気づける危険サインは何かのイラスト](/blog-images/ai-side-business-scam-warning/ill-2.jpg)\n\n契約前に確認したい点はいくつかあります。まず、料金に見合うカリキュラムの水準かどうかです。内容が基礎レベルにとどまっていたり、講師の実績が不明確だったりする例が指摘されています[5]。次に、解約手続きや返金条件が明確かどうかです[5]。あわせて、運営会社の所在地や連絡先、特定商取引法に基づく表記の有無も確認したいところです[5]。\n\n判断の軸として、「稼げるか」ではなく「学習できるか」で見る考え方があります[5]。初期投資は最小限に抑えることも、一般的な注意点として挙げられています[5]。先にお金を払わせる構造は、ほぼ100%怪しいと思っていいとされています[7]。\n\n申し込む前に、その金額で何が手に入るのかを自分の言葉で説明できるか、一度立ち止まって考えてみてはいかがでしょうか。"
+      },
+      {
+        "section": "インスタのDM勧誘は、なぜ怪しいと言われるのか",
+        "text": "![インスタDM勧誘が怪しまれる背景データ](/blog-images/ai-side-business-scam-warning/fig-3.svg)\n\n*図：インスタDM勧誘が怪しまれる背景データ（出典：[4][7]）*\n\nインスタのDMで「AI副業に興味ありませんか」と突然届くメッセージは、なぜ怪しいと言われるのでしょうか。その背景には、SNS上での勧誘が最終的に高額商材の販売やネットワークビジネスへの勧誘につながるケースが多いという指摘があります[4]。無差別に送られるDMは、受け手の状況や関心を確認せずに送られている点で、通常の仕事の依頼とは性質が異なります。\n\nまた、SNSには「AIを使えば誰でも月収100万円」「スマホ1台で月50万円稼げる」といった極端な収益をうたう広告があふれています[4]。こうした表現は現実とかけ離れているものがほとんどで、安定した収入にはスキル習得や継続的な作業が必要とされています[4]。誇大な訴求が目立つこと自体が、AI副業全体の印象を悪くしている面があります[4]。\n\n![インスタのDM勧誘は、なぜ怪しいと言われるのかのイラスト](/blog-images/ai-side-business-scam-warning/ill-3.jpg)\n\nさらに、「1日5分で月100万円」系の高額情報商材や、LINE友達登録で情報を配布する形の勧誘も報告されています[7]。こうした案件では、労働の対価ではなく参加費や教材費を先に支払わせる構造になっている点が特徴とされています[7]。先にお金を払わせる仕組みは、まともな仕事とは大きく異なります[7]。\n\n加えて、副業に関するトラブルの相談件数と平均被害金額は増加傾向にあり、2020年度から2024年度にかけて平均被害金額は約4倍に急増したというデータがあります[7]。インスタ経由の勧誘が怪しまれるのは、こうした被害の広がりと無関係ではありません。\n\n便利な道具ほど、使い方を知らないうちは不安がつきまとうものです。届いたメッセージの向こう側に、どんな人が立っているのかを想像してみるのも一案ではないでしょうか。"
+      },
+      {
+        "section": "月収100万円や95%の数字は、何を根拠に語られているのか",
+        "text": "![根拠を確認できない数字と公的相談データ](/blog-images/ai-side-business-scam-warning/fig-4.svg)\n\n*図：根拠を確認できない数字と公的相談データ（出典：[3][7]）*\n\n「月収100万円」「95%が稼げない」といった数字を目にしたとき、それが何を根拠に語られているのかを確かめる姿勢は、暮らしを守るうえで役に立ちます。\n\nまず「月収100万円」という表現についてです。AI副業の宣伝では「誰でも簡単に」「スキル不要で」「3ヶ月で月収100万円」といった謳い文句が使われることがあります[3]。また「1日5分で月100万円」といった広告がSNSで流れているとも指摘されています[7]。ただし、これらの数字がどのような調査や集計に基づくのかは示されていません[3][7]。宣伝文句として提示された数字であり、根拠を確認できないものとされています[3][7]。\n\n![月収100万円や95%の数字は、何を根拠に語られているのかのイラスト](/blog-images/ai-side-business-scam-warning/ill-4.jpg)\n\n次に「95%が稼げない」という数字です。AI副業スクールの受講生のうち、実際に月10万円以上稼げるようになる人は約5%以下であり、95%の人は高額な受講料を払って何も得られない、という説明があります[3]。ただし、この5%という数値がいつ、どの範囲を対象に、どのように調べられたのかは明示されていません[3]。出典の中では、スクール運営者が実際の成功率を把握している一方、受講生には知らされていないという情報の非対称性の例として語られています[3]。したがって、この数字を統計的な裏付けのある事実として断定することはできません。\n\n関連する公的データとしては、簡単副業をうたうトラブルの相談件数が2020年度は1,341件、2023年度は3,694件、2024年度は7月末時点で950件（前年比+35%）と推移し、平均被害金額は2020年度の約28万円から2024年度には約106万円へ増えたという発表があります[7]。これは相談件数と被害金額の推移であり、稼げる人の割合を示すものではありません[7]。\n\nこのように、「月収100万円」も「95%」も、出典からは算出の前提を確認できず、断定できない数字とされています[3][7]。数字の大きさそのものよりも、それが何を数えた結果なのかを問う視点が求められます。"
+      },
+      {
+        "section": "怪しいと感じたら、契約前に何を確かめて動くか",
+        "text": "![契約前に確認する3つの視点と行動](/blog-images/ai-side-business-scam-warning/fig-5.svg)\n\n*図：契約前に確認する3つの視点と行動（出典：[2][4]）*\n\n契約前に確認したい項目は、大きく分けて「相手の正体」「お金の流れ」「契約の条件」の三つです。まず運営会社と代表者の情報が確認できるかを確かめます。会社名や所在地、責任者の記載がない案件は注意が必要とされています[2][4]。次に、成果を断定する言い方をしていないかを見ます。「誰でも月収100万円」のような表現は現実とかけ離れているものがほとんどで、誇大広告の典型とされています[2][4]。仕事内容と報酬の決まり方も、申し込む前に分かるかどうかが判断材料になります。作業内容が説明されない、または説明を避ける案件は、ビジネスモデル自体が成立していない可能性があるとされています[4]。\n\n![怪しいと感じたら、契約前に何を確かめて動くかのイラスト](/blog-images/ai-side-business-scam-warning/ill-5.jpg)\n\nお金の面では、初期費用の名目と金額が先に示されているかを確認します。仕事を始める前に登録料や初期費用を請求する手口が知られています[2]。支払い先が法人名義になっているかも大切な点です。個人名義の口座や暗号資産での支払いを求める例が報告されています[2]。契約書面と返金条件を確認できるか、第三者の口コミと実績の再現条件を確認できるかも、判断の材料になります[2]。\n\n怪しいと感じたときは、その場で申し込みや振り込みをせず、いったん止まることが基本です。無料の説明会を挟んでから高額な講座をすすめる流れや、SNS広告やDMから個別の連絡先へ誘導する手口が知られています[2]。相手の説明を聞く前に、上の項目を自分で埋められるか試してみてください。埋まらない欄が多いほど、その案件はあなたにとって未知のままです。"
+      },
+      {
+        "section": "編集長の眼",
+        "text": "AI副業の詐欺というと、どこか遠い世界の出来事のように感じるかもしれません。けれども、被害額が4倍に増えているという数字は、私たちのすぐ隣で起きていることを示しています。大切なのは、怪しい案件を完璧に見抜くことではなく、怪しいと感じたときに一度立ち止まれる習慣を持つことです。料理にたとえるなら、見た目の華やかな盛り付けだけで飛びつかず、材料と作り方を確かめてから注文する感覚に近いかもしれません。相手の会社名、支払い先、返金条件。この三つを自分の言葉で説明できないまま契約するのは、避けたいところです。逆説的ですが、稼げるかどうかより学べるかどうかで選ぶほうが、結果として遠回りに見えて近道になることがあります。数字の大きさに心が揺れたときこそ、その数字が何を数えたものなのかを問い直す。私たちは、そうした冷静な一歩を記録し続けたいと考えています。"
+      },
+      {
+        "section": "よくある質問",
+        "text": ""
+      },
+      {
+        "section": "Q. ai副業スクールは全部詐欺ですか？",
+        "text": "すべてが詐欺とは言えません。ただし、高額なスクールでは「誰でも簡単に」「短期間で月収100万円」といった謳い文句が使われる傾向があり[3][7]、受講生のうち月10万円以上稼げる人は約5%以下という説明もあります[3]。料金に見合うカリキュラムか、解約や返金条件が明確かを確認することが大切です[5]。"
+      },
+      {
+        "section": "Q. インスタのai副業DMは無視すべき？",
+        "text": "突然届くDMは、受け手の状況を確認せず無差別に送られている点で通常の仕事の依頼とは性質が異なります[4]。SNS上の勧誘が高額商材やネットワークビジネスにつながるケースも指摘されています[4]。また、先に参加費や教材費を支払わせる構造の案件も報告されています[7]。返信する前に、相手の会社名や連絡先を確認してみてください。"
+      },
+      {
+        "section": "Q. ai副業で騙されないためのチェック項目は？",
+        "text": "契約前に確認したいのは、運営会社と代表者の情報、成果を断定する表現の有無、仕事内容と報酬の決まり方です[2][4]。お金の面では、初期費用の名目と金額、支払い先が法人名義か、契約書面と返金条件を確認できるかがポイントです[2]。個人名義の口座や暗号資産での支払いを求める例も報告されています[2]。"
+      },
+      {
+        "section": "出典・参考資料",
+        "text": "2. [AI副業は怪しい？詐欺の見分け方7つと実態を解説！安全な始め方も紹介](https://shift-ai.co.jp/blog/38090/)（参照日：2026年10月11日）\n3. [～AI副業スクール詐欺の闇～50万円払って学べるのは騙される技術な件](https://note.com/maruking777/n/n420900eeeda8)（参照日：2026年10月11日）\n4. [AI副業は怪しい?危険な案件の見分け方と安全に稼ぐ方法をAI支援経営者が解説](https://yield-marketing.co.jp/blog/ai-sidework-suspicious/)（参照日：2026年10月11日）\n5. [「AI副業は怪しい」を徹底検証！騙されないための鉄則と稼げる仕事【2026年最新】](https://shelikes.jp/shares/posts/4989353)（参照日：2026年10月11日）\n7. [【2026年最新】AI副業の詐欺・怪しい案件の見分け方|騙されないチェックリスト10選](https://ai-fuku-navi.com/scam-check/)（参照日：2026年10月11日）"
+      },
+      {
+        "section": "関連記事",
+        "text": "- [AI詐欺の手口と見分け方｜生成AI・ディープフェイク対策](/blog/ai-scam-tactics)\n- [AI副業をやってみた：月5万円までの現実と収益の出どころ](/blog/ai-side-business-experience-monthly-income)\n- [AI副業で稼げないのはなぜ？怪しい案件と実態](/blog/ai-side-business-reality-and-pitfalls)\n- [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)\n- [AI副業とは？初心者が最初に押さえる始め方と稼ぎ方](/blog/ai-side-business-beginners-guide)\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "ai-scam-tactics",
+      "ai-side-business-reality-and-pitfalls",
+      "ai-side-business-recommended-methods",
+      "ai-side-business-experience-monthly-income",
+      "ai-side-business-beginners-guide",
+      "ai-writing-translation-side-business",
       "ai-lab-vol1-ai-vs-ai-exam",
-      "20260519-050241",
-      "product-20261002-legato-ai-hearing-glasses",
-      "product-20261003-meta-muse-gadgets-sdk"
+      "ai-amazon-side-business-guide"
     ]
   },
   {
@@ -11370,6 +11505,78 @@
       "ai-side-business-beginners-guide",
       "product-20260927-honor-robot-phone",
       "ai-illustration-copyright"
+    ]
+  },
+  {
+    "slug": "ai-writing-translation-side-business",
+    "title": "AIライティング副業の単価相場と著作権リスク",
+    "lead": "AIライティング副業の単価や収入事例を目にして、どの数字を信じて応募すればよいか迷っていませんか。単価の目安と根拠の見分け方、応募前と納品前に確認すべき著作権の線引きが分かれば、目の前の案件を進めるかどうか判断できます。",
+    "preamble": "AIを使ったライティングや翻訳の副業は、クラウドソーシング上で文字単価1円以下の案件から始められる一方、月80万円という個人の実績報告まで語られ、情報の幅が広がっています。ただ、提示される単価の分布を示す調査は見当たらず、収入事例も本人が語った体験にとどまるため、どの数字を前提に動けばよいか迷う場面も増えました。応募の提案文や著作権の扱い、勤務先の資料に使ってよいかの線引きも、案件ごとの規約次第で変わります。あなたは、目の前の案件で何を確かめれば安全に進められるでしょうか？ この記事を読むと、単価の目安と収入事例がどのような根拠で語られているかを見分けられ、応募前と納品前に確認すべき項目を判断できます。\n\n*この記事は、総合解説「[AI副業とは？初心者が最初に押さえる始め方と稼ぎ方](/blog/ai-side-business-beginners-guide)」の詳細編です。全体像はそちらをご覧ください。*\n\n**この記事の要点**\n\n- AIライティング副業の単価は文字単価1円以下が初心者向けの目安で、月5万円には5,000円の記事10件か2,500円の記事20件が必要です[1]。\n- AI翻訳を含む副業では、クラウドソーシングに登録し、AI活用の強みを提案文とサンプル記事で示すことが案件獲得の鍵です[3][7]。\n- AIで書いた作品の著作権帰属は一律に断定できず、まず依頼元やサイトの利用規約を確認することが実務上の優先事項です[4][5]。\n\n（最終更新：2026年10月12日）",
+    "type": "seo",
+    "layer": "choose",
+    "date": "2026-10-12 00:57",
+    "readTime": "1分",
+    "category": "💰 AI時代のお金・財布・経済格差",
+    "image": "/blog-images/ai-writing-translation-side-business/cover.jpg",
+    "content": [
+      {
+        "section": "AIライティング副業の単価相場は、実際いくらで提示されるのか",
+        "text": "![AIライティング副業の単価と必要件数](/blog-images/ai-writing-translation-side-business/fig-1.svg)\n\n*図：AIライティング副業の単価と必要件数（出典：[1][7]）*\n\nAIライティング副業の単価は、実際にいくらで提示されるのでしょうか。クラウドソーシングで募集される案件では、文字単価1円以下が初心者向けの低単価の目安とされています[1]。1文字1円の案件であれば、5,000円の記事は5,000文字、2,500円の記事は2,500文字という計算になります[1]。月5万円を目標にする場合、5,000円の記事なら10件、2,500円の記事なら20件の獲得が必要です[1]。\n\n一方で、AIを活用すれば1記事あたり1時間程度で作業が済む場合も多く、慣れれば15分から30分程度で作成できることもあるとされています[1]。ただし、これは作業時間の短縮に関する記述であり、単価そのものが上がることを示すものではありません[1]。高単価案件は競争率が高く、依頼者の期待値も高いため、初心者は採用されにくいという見方があります[1]。まずは低単価案件で経験を積み、評価された後に継続依頼や単価アップにつながることはよくあるとされています[1]。\n\n![AIライティング副業の単価相場は、実際いくらで提示されるのかのイラスト](/blog-images/ai-writing-translation-side-business/ill-1.jpg)\n\nより大きな収入を語る例として、AIライティングを活用して月80万円を達成したという報告もあります[7]。この報告では、単価の安い案件からスタートし、AIで記事を作成して迅速に納品し、信頼を積み重ねて案件数を増やすという手順が示されています[7]。ただし、これは個人の体験に基づく一例であり、誰もが同じ金額に到達できることを示すものではありません[7]。単価相場を語る主張の根拠は、こうした個人の実績や作業効率の説明にとどまり、提示される単価そのものの分布を示す調査結果は、ここで参照した出典には見当たりません。\n\n単価の数字だけを追うと、仕事の選び方が見えにくくなるかもしれません。"
+      },
+      {
+        "section": "ai翻訳 副業の案件は、提案文でどう取ればいいのか",
+        "text": "![AI翻訳副業の案件獲得ステップ](/blog-images/ai-writing-translation-side-business/fig-2.svg)\n\n*図：AI翻訳副業の案件獲得ステップ（出典：[3][7]）*\n\nAI翻訳を含むAI活用型の副業では、案件を見つける場所と応募の仕方が成果を左右します。まずはランサーズ、クラウドワークス、ココナラなどの主要プラットフォームに登録しましょう[3]。これらのサイトにはAI関連の案件が多数掲載されています[3]。プロフィールには、AIツールの使用経験や対応可能な案件の種類を明記することが重要です[3]。初心者でも「AIを活用した効率的なコンテンツ制作」という強みをアピールできます[3]。\n\n応募の際は、提案文の作り方が鍵になります。案件に応募するときの提案文は、AIツールを使って作成するとよいとされています[7]。短時間で質の高い提案文を作成できます[7]。AIで作った提案文をそのまま送るのではなく、クライアントのニーズに合わせて調整することで、より効果的な提案が可能になります[7]。\n\n![ai翻訳 副業の案件は、提案文でどう取ればいいのかのイラスト](/blog-images/ai-writing-translation-side-business/ill-2.jpg)\n\n提案文では、AIを活用することのメリットを具体的に示すことも差別化につながります。効率性、品質の安定性、納期の確実性などを挙げて提案することで、他の応募者との違いを出せます[3]。あわせて、実際にAIで作成したサンプル記事を複数用意し、クライアントに提示できるようにしておきましょう[3]。ブログ記事、商品説明文、SNS投稿など、様々な形式のサンプルがあると、対応できる案件の幅を示せます[3]。\n\n実績がない状態でも、AIを活用すれば魅力的なポートフォリオを作成できます[7]。AIを使えば、30分程度で2〜3記事のポートフォリオを作成できるとされています[7]。他の人があまり取り組まないマニアックなジャンルは競争率が低く、案件を獲得しやすい傾向があります[7]。初期の評価を高めるために、最初は単価よりも実績作りを重視しましょう[3]。良い評価を積み重ねることで、より高単価な案件にチャレンジできるようになります[3]。\n\n翻訳の依頼が来たとき、あなたは言葉そのものと、その背景にある文脈のどちらを届けようとしているでしょうか。"
+      },
+      {
+        "section": "自分の作品をAIで書くと、著作権はどこまで認められるのか",
+        "text": "![著作権より先に確認すべき規約と権利リスク](/blog-images/ai-writing-translation-side-business/fig-3.svg)\n\n*図：著作権より先に確認すべき規約と権利リスク（出典：[4][5]）*\n\nAIライティングやAI翻訳を副業にすると、自分が書いた作品の権利がどこまで認められるのか気になる方は多いのではないでしょうか。結論から言うと、現時点で「ここまで認められる」と一律に断定することは難しい状況です。AIライティング副業の解説記事では、AIツールの活用方法や注意点が挙げられているものの、著作権の帰属を明確に示す記載はありません[4]。AIライティングの運用フローを見直したという体験談も紹介されていますが、そこでも権利関係の判断基準には触れられていません[5]。\n\n![自分の作品をAIで書くと、著作権はどこまで認められるのかのイラスト](/blog-images/ai-writing-translation-side-business/ill-3.jpg)\n\n実務上は、著作権よりも先に確認したいものがあります。それは、依頼元やクラウドソーシングサイトの利用規約です。AIの使用を禁止している案件や、使用を申告制にしている案件もあり、規約違反は契約解除や報酬未払いにつながりかねません。AI翻訳についても、翻訳元の文章には第三者の著作権が及ぶため、無断で翻訳して納品する行為は権利侵害と見なされるおそれがあります。どのツールを、どの工程で、どこまで使ったかを記録しておくことが、後のトラブルを避ける助けになります。\n\n自分の作品をAIで書くという行為は、たとえるなら他人の家のキッチンを借りて料理を振る舞うようなもので、できあがった料理を自分の作品と呼べるかは、貸し手の決めたルール次第で変わります。まずは目の前の案件の規約を読み返すところから始めてみてはいかがでしょうか。"
+      },
+      {
+        "section": "月5万・月80万の事例は、どの数字を信じればいいのか",
+        "text": "![語られた副業収入の事例](/blog-images/ai-writing-translation-side-business/fig-4.svg)\n\n*図：語られた副業収入の事例（出典：[1][7]）*\n\nAIライティングの副業では、月5万円や月80万円といった収入事例を目にすることがあります。これらの数字は、まず誰がどのように語ったものなのかを確認するところから読むのが安全です。\n\n月5万円の事例は、複数のブログを運営する個人が自身のnoteで「実際に今も月6万～8万は売り上げています」と述べているものです[1]。同じ記事では、5,000円の記事10件、または2,500円の記事20件で月5万円に到達するという分解例も示されています[1]。作業時間については、AIを活用すれば1記事あたり1時間程度で済む場合も多いとされています[1]。\n\n![月5万・月80万の事例は、どの数字を信じればいいのかのイラスト](/blog-images/ai-writing-translation-side-business/ill-4.jpg)\n\n一方、月80万円の事例は、Web3やAIをテーマに発信する別の個人が、自身のnoteで「この方法をそのまま実行しただけで僕は月80万円を達成しました」と語っているものです[7]。記事では、単価の安い案件から始めて信頼を積み重ね、案件数を増やして収益を伸ばすというステップが紹介されています[7]。\n\nどちらも、公開されている記事の中で本人が語った体験であり、第三者が検証した記録ではありません[1][7]。収入の内訳や継続期間、経費などは示されておらず、同じ結果が再現される保証もありません[1][7]。数字そのものよりも、その数字がどのような前提で語られているかに目を向けると、記事の読み方が変わってきます。"
+      },
+      {
+        "section": "自社の資料にAIを使う前に、今日から何を確かめるか",
+        "text": "![AI利用前に確かめる3項目と試し方](/blog-images/ai-writing-translation-side-business/fig-5.svg)\n\n*図：AI利用前に確かめる3項目と試し方（出典：[3][5][6]）*\n\nAIを使った副業に関心があっても、勤務先の資料づくりにそのまま使うのは別の話です。まず今日できるのは、自分の環境で「何をAIに任せてよいか」を確かめることです。AIライティングの副業では、ブログ記事や商品説明、SNS投稿、メール配信などの分野で需要が高まっているとされています[3]。一方で、AIに指示を出すだけで高品質な記事が作れるわけではなく、SEOや読者ニーズに合わせた修正・編集のスキルが求められるという指摘があります[6]。\n\n確かめる項目は大きく三つあります。第一に、社内情報を外部のAIツールに入れてよいかどうかです。これは自社の規程や契約の確認が先になります。第二に、AIが出力した文章をそのまま提出してよいかです。AIの出力をそのまま使うのではなく、適切に編集・校正した最終版を提示することが重要とされています[3]。第三に、作業の流れそのものです。副業WebライターがAIライティングの運用フローを見直した事例では、自動チェックフローの構築が話題になっています[5]。\n\n![自社の資料にAIを使う前に、今日から何を確かめるかのイラスト](/blog-images/ai-writing-translation-side-business/ill-5.jpg)\n\n副業として始める場合、初期投資はほとんど必要ないとされています。主要なAIツールの月額利用料は1,000円〜3,000円程度で、案件を1〜2件受注すれば十分にペイできる金額という説明があります[3]。ただし、これは出典の記事が示す目安であり、誰にでも当てはまる保証ではありません。\n\n自宅のキッチンで初めての調味料を少量だけ使ってみるように、まずは影響の小さい作業で試すところから始めてみませんか。"
+      },
+      {
+        "section": "編集長の眼",
+        "text": "単価や収入の数字が独り歩きしやすいテーマだからこそ、私たちは数字の出どころと前提を丁寧に見る必要があります。月5万円も月80万円も、本人が語った体験であり、検証された分布ではありません[1][7]。数字を信じるかどうかより、その数字がどの条件で語られているかを確かめるほうが、次の一手につながります。たとえば料理と同じで、他人のレシピの完成写真だけを見ても、自分の台所で同じ味が出るとは限りません。まずは低単価の案件で一件受け、作業時間と修正の手間を自分で記録してみてください。同時に、依頼元の規約でAI利用が禁止されていないか、申告が必要かを確認する。この二つを済ませるだけで、収入の期待値とリスクの輪郭がぐっと見えやすくなります。稼げるかどうかを他人の実績に委ねるのではなく、自分の条件で試した記録を積み上げていく。それが、遠回りのようでいて最も再現性のある進め方だと私たちは考えます。"
+      },
+      {
+        "section": "よくある質問",
+        "text": ""
+      },
+      {
+        "section": "Q. AIライティング副業は初心者でも稼げますか？",
+        "text": "初心者向けには文字単価1円以下の低単価案件が目安とされ、月5万円を目標にする場合は5,000円の記事10件か2,500円の記事20件の獲得が必要です[1]。高単価案件は競争率が高く初心者は採用されにくいため、まず低単価案件で経験を積み、評価後に継続依頼や単価アップにつなげる流れが一般的です[1]。"
+      },
+      {
+        "section": "Q. ai翻訳 副業に必要なスキルや準備は何ですか？",
+        "text": "ランサーズ、クラウドワークス、ココナラなど主要プラットフォームへの登録から始め、プロフィールにAIツールの使用経験や対応可能な案件を明記します[3]。提案文はAIで作成しつつクライアントのニーズに合わせて調整し、ブログ記事や商品説明、SNS投稿など複数形式のサンプルを用意しておくと対応幅を示せます[3][7]。"
+      },
+      {
+        "section": "Q. AIで書いた文章の著作権は誰のものですか？",
+        "text": "現時点で著作権の帰属を一律に断定することは難しく、AIライティングの解説記事にも権利関係を明確に示す記載はありません[4][5]。実務上は著作権より先に、依頼元やクラウドソーシングサイトの利用規約を確認することが重要です。AIの使用を禁止・申告制にしている案件もあり、規約違反は契約解除や報酬未払いにつながりかねません。"
+      },
+      {
+        "section": "出典・参考資料",
+        "text": "1. [AIライティングで月5万稼ぐ！高精度のプロンプト大公開](https://note.com/fire_house_free/n/n69ee0a417c1f)（参照日：2026年10月12日）\n3. [AI×ライティングによる副業の始め方](https://note.com/akira_sakai/n/n0776b91aeca8)（参照日：2026年10月12日）\n4. [AIライティングでの副業は稼げるの？具体的な手順やメリット・注意点まで徹底解説](https://n1-inc.co.jp/aiwriting-sidehustle/)（参照日：2026年10月12日）\n5. [副業WebライターがAIライティングの運用フローを見直した話 - 作ったを届けるコミュニティ『AI副業ラボ』のラジオ | Podcast on Spotify](https://open.spotify.com/episode/4QnFp9jOq4tryNziY25120)（参照日：2026年10月12日）\n6. [AIライティングが学べるスクール・講座5選！初心者が副業で稼ぐロードマップも解説](https://ai-skill.co.jp/article/ai-writing-learn/)（参照日：2026年10月12日）\n7. [AIライティングで副業収入を得る方法とは？月80万円を達成した具体的手法を紹介](https://note.com/akira_sakai/n/nc74a2081a0cd)（参照日：2026年10月12日）"
+      },
+      {
+        "section": "関連記事",
+        "text": "- [AI副業をやってみた：月5万円までの現実と収益の出どころ](/blog/ai-side-business-experience-monthly-income)\n- [AI副業とは？初心者が最初に押さえる始め方と稼ぎ方](/blog/ai-side-business-beginners-guide)\n- [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)\n- [AI副業で稼げないのはなぜ？怪しい案件と実態](/blog/ai-side-business-reality-and-pitfalls)\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "ai-side-business-reality-and-pitfalls",
+      "ai-side-business-recommended-methods",
+      "ai-side-business-experience-monthly-income",
+      "ai-side-business-beginners-guide",
+      "ai-copyright-basics",
+      "ai-amazon-side-business-guide",
+      "ai-side-business-scam-warning",
+      "20260519-050241"
     ]
   },
   {
@@ -11800,14 +12007,14 @@
       }
     ],
     "related": [
-      "ai-side-business-beginners-guide",
       "ai-career-change",
+      "ai-side-business-beginners-guide",
       "20260304-051721",
       "ai-amazon-side-business-guide",
       "ai-side-business-experience-monthly-income",
+      "ai-writing-translation-side-business",
       "20260326-212827",
-      "20260510-050227",
-      "20260616-050236"
+      "20260510-050227"
     ]
   },
   {
@@ -12299,10 +12506,10 @@
       "product-20260927-honor-robot-phone",
       "product-20260926-meta-camera-free-ai-glasses",
       "product-20260930-openai-dots-agents",
-      "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20261002-legato-ai-hearing-glasses",
       "product-20261003-meta-muse-gadgets-sdk",
-      "product-20261004-meta-muse-charm"
+      "product-20261004-meta-muse-charm",
+      "product-20261006-tenku-note-pro-ai"
     ]
   },
   {
@@ -12375,10 +12582,10 @@
       "ai-lab-vol1-ai-vs-ai-exam",
       "product-20260928-adobe-premiere-android",
       "product-20260927-honor-robot-phone",
-      "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20260926-meta-camera-free-ai-glasses",
-      "product-20261002-legato-ai-hearing-glasses",
-      "product-20261003-meta-muse-gadgets-sdk"
+      "product-20261003-meta-muse-gadgets-sdk",
+      "product-20261006-tenku-note-pro-ai",
+      "product-20261007-nano-banana-2-1"
     ]
   },
   {
@@ -12445,12 +12652,12 @@
     "related": [
       "product-20260929-claude-sonnet-5-5",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
-      "product-20261002-legato-ai-hearing-glasses",
       "product-20260928-adobe-premiere-android",
       "product-20261003-meta-muse-gadgets-sdk",
       "product-20260927-honor-robot-phone",
       "product-20261004-meta-muse-charm",
-      "product-20260926-meta-camera-free-ai-glasses"
+      "product-20260926-meta-camera-free-ai-glasses",
+      "product-20261005-googlebook-gemini-laptop"
     ]
   },
   {
@@ -12513,12 +12720,12 @@
     "related": [
       "product-20261002-legato-ai-hearing-glasses",
       "product-20260930-openai-dots-agents",
-      "product-20261003-meta-muse-gadgets-sdk",
-      "product-20260929-claude-sonnet-5-5",
-      "product-20261004-meta-muse-charm",
-      "product-20260928-adobe-premiere-android",
       "product-20260927-honor-robot-phone",
-      "product-20261005-googlebook-gemini-laptop"
+      "product-20261006-tenku-note-pro-ai",
+      "product-20261007-nano-banana-2-1",
+      "product-20261008-chatgpt-gpt6-intelligent-ui",
+      "product-20261003-meta-muse-gadgets-sdk",
+      "product-20260929-claude-sonnet-5-5"
     ]
   },
   {
@@ -12579,14 +12786,14 @@
       }
     ],
     "related": [
-      "product-20261003-meta-muse-gadgets-sdk",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20261004-meta-muse-charm",
-      "product-20260930-openai-dots-agents",
-      "product-20260929-claude-sonnet-5-5",
-      "product-20261005-googlebook-gemini-laptop",
       "product-20261006-tenku-note-pro-ai",
-      "product-20260928-adobe-premiere-android"
+      "product-20260928-adobe-premiere-android",
+      "product-20261007-nano-banana-2-1",
+      "product-20260927-honor-robot-phone",
+      "product-20260926-meta-camera-free-ai-glasses",
+      "product-20261009-natura-99-ai-smart-ring"
     ]
   },
   {
@@ -12647,14 +12854,14 @@
       }
     ],
     "related": [
-      "product-20261002-legato-ai-hearing-glasses",
       "product-20261004-meta-muse-charm",
-      "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20261006-tenku-note-pro-ai",
       "product-20260930-openai-dots-agents",
       "product-20261007-nano-banana-2-1",
       "product-20260929-claude-sonnet-5-5",
-      "product-20260928-adobe-premiere-android"
+      "product-20260928-adobe-premiere-android",
+      "product-20261008-chatgpt-gpt6-intelligent-ui",
+      "product-20261009-natura-99-ai-smart-ring"
     ]
   },
   {
@@ -12712,12 +12919,12 @@
     ],
     "related": [
       "product-20261003-meta-muse-gadgets-sdk",
-      "product-20261005-googlebook-gemini-laptop",
       "product-20261006-tenku-note-pro-ai",
       "product-20261002-legato-ai-hearing-glasses",
-      "product-20261001-acemagic-f9a-pro-495-mini-pc",
-      "product-20261007-nano-banana-2-1",
       "product-20260930-openai-dots-agents",
+      "product-20260928-adobe-premiere-android",
+      "product-20260927-honor-robot-phone",
+      "product-20260926-meta-camera-free-ai-glasses",
       "product-20261009-natura-99-ai-smart-ring"
     ]
   },
@@ -12783,14 +12990,14 @@
       }
     ],
     "related": [
-      "product-20261004-meta-muse-charm",
-      "ai-lab-vol1-ai-vs-ai-exam",
-      "product-20261007-nano-banana-2-1",
       "product-20261008-chatgpt-gpt6-intelligent-ui",
-      "product-20261002-legato-ai-hearing-glasses",
-      "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20260930-openai-dots-agents",
-      "product-20260929-claude-sonnet-5-5"
+      "product-20260927-honor-robot-phone",
+      "product-20260929-claude-sonnet-5-5",
+      "product-20260926-meta-camera-free-ai-glasses",
+      "ai-lab-vol1-ai-vs-ai-exam",
+      "product-20261001-acemagic-f9a-pro-495-mini-pc",
+      "product-20261007-nano-banana-2-1"
     ]
   },
   {
@@ -12854,11 +13061,11 @@
       "product-20261004-meta-muse-charm",
       "product-20261007-nano-banana-2-1",
       "product-20261003-meta-muse-gadgets-sdk",
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
       "product-20261002-legato-ai-hearing-glasses",
       "product-20261009-natura-99-ai-smart-ring",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
-      "product-20261010-pixel-watch-4-ai-watch-face"
+      "product-20260929-claude-sonnet-5-5",
+      "product-20260928-adobe-premiere-android"
     ]
   },
   {
@@ -12919,14 +13126,14 @@
       }
     ],
     "related": [
-      "ai-lab-vol1-ai-vs-ai-exam",
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
       "product-20261006-tenku-note-pro-ai",
-      "product-20261005-googlebook-gemini-laptop",
       "product-20261009-natura-99-ai-smart-ring",
-      "product-20261004-meta-muse-charm",
-      "product-20261010-pixel-watch-4-ai-watch-face",
-      "product-20261003-meta-muse-gadgets-sdk"
+      "product-20261003-meta-muse-gadgets-sdk",
+      "product-20261002-legato-ai-hearing-glasses",
+      "product-20261001-acemagic-f9a-pro-495-mini-pc",
+      "product-20260930-openai-dots-agents",
+      "product-20260929-claude-sonnet-5-5",
+      "product-20260928-adobe-premiere-android"
     ]
   },
   {
@@ -12991,14 +13198,14 @@
       }
     ],
     "related": [
-      "product-20261009-natura-99-ai-smart-ring",
-      "product-20261007-nano-banana-2-1",
       "ai-lab-vol1-ai-vs-ai-exam",
-      "product-20261010-pixel-watch-4-ai-watch-face",
-      "product-20261006-tenku-note-pro-ai",
       "product-20261005-googlebook-gemini-laptop",
       "product-20261003-meta-muse-gadgets-sdk",
-      "product-20261002-legato-ai-hearing-glasses"
+      "product-20261001-acemagic-f9a-pro-495-mini-pc",
+      "product-20260930-openai-dots-agents",
+      "product-20260929-claude-sonnet-5-5",
+      "product-20260928-adobe-premiere-android",
+      "product-20260927-honor-robot-phone"
     ]
   },
   {
@@ -13059,14 +13266,14 @@
       }
     ],
     "related": [
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
-      "product-20261010-pixel-watch-4-ai-watch-face",
       "product-20261007-nano-banana-2-1",
-      "ai-lab-vol1-ai-vs-ai-exam",
       "product-20261006-tenku-note-pro-ai",
-      "product-20261004-meta-muse-charm",
       "product-20261003-meta-muse-gadgets-sdk",
-      "product-20261002-legato-ai-hearing-glasses"
+      "product-20261002-legato-ai-hearing-glasses",
+      "product-20260930-openai-dots-agents",
+      "product-20260929-claude-sonnet-5-5",
+      "product-20260928-adobe-premiere-android",
+      "product-20260927-honor-robot-phone"
     ]
   },
   {
@@ -13139,14 +13346,14 @@
       }
     ],
     "related": [
+      "ai-lab-vol1-ai-vs-ai-exam",
+      "product-20260928-adobe-premiere-android",
+      "product-20260927-honor-robot-phone",
       "product-20261009-natura-99-ai-smart-ring",
       "product-20261008-chatgpt-gpt6-intelligent-ui",
       "product-20261007-nano-banana-2-1",
-      "ai-lab-vol1-ai-vs-ai-exam",
       "product-20261006-tenku-note-pro-ai",
-      "product-20261003-meta-muse-gadgets-sdk",
-      "product-20261002-legato-ai-hearing-glasses",
-      "product-20261001-acemagic-f9a-pro-495-mini-pc"
+      "product-20261003-meta-muse-gadgets-sdk"
     ]
   },
   {
