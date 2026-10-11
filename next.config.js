@@ -23,6 +23,13 @@ const nextConfig = {
         destination: `/blog/${to}`,
         permanent: true,
       })),
+      // URL の末尾に「**」が付いて届くリンク（Markdown の太字記号がURLに混ざったもの）を、正しい記事へ恒久リダイレクト。
+      // 付いたままだと /blog 一覧と同じ中身が200で返り、記事を探している読者と検索エンジンに誤った画面を見せてしまう
+      {
+        source: '/blog/:slug([A-Za-z0-9_-]+)\\*\\*',
+        destination: '/blog/:slug',
+        permanent: true,
+      },
       // www 付きで届いた場合も恒久リダイレクト（Vercel のドメイン設定で 307 を出している間は、ここまで届かない）
       {
         source: '/:path*',
