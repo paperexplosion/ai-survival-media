@@ -168,6 +168,7 @@ AIツールはプロンプト入力だけで使え、無料版もあるため始
 ## 関連する詳しい解説
 
 - [AI副業で稼げないのはなぜ？怪しい案件と実態](/blog/ai-side-business-reality-and-pitfalls)
+- [AIライティング副業の単価相場と著作権リスク](/blog/ai-writing-translation-side-business)
 
 ## 出典・参考資料
 
