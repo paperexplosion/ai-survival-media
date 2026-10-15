@@ -149,6 +149,7 @@ AIに代替されにくい仕事には、共通するタスクの条件があり
 
 - [AIリスキリングは何を学ぶ？仕事のタスク分解で考える](/blog/ai-reskilling)
 - [AIエンジニアの仕事はなくなる？転職前に知る現実](/blog/ai-engineer-job-future)
+- [AIでデザイナーの仕事はなくなる？求められる役割の変化と生き残る道](/blog/ai-designer-job-future)
 ## 出典・参考資料
 
 1. [The Anthropic Economic Index](https://www.anthropic.com/economic-index)（参照日：2026年9月26日）
