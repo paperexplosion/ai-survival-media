@@ -91,8 +91,8 @@
       "20260222-220939",
       "20260222-235624",
       "20260303-192918",
-      "20260223-093844",
       "20260225-081907",
+      "20260223-093844",
       "20260225-222651",
       "20260223-105731"
     ]
@@ -3251,7 +3251,7 @@
       "20260319-011423",
       "20260319-005131",
       "20260309-162600",
-      "20260317-093413"
+      "20260319-165409"
     ]
   },
   {
@@ -3583,8 +3583,8 @@
       "20260317-093413",
       "20260317-092337",
       "20260316-225321",
-      "20260309-091640",
-      "20260310-201228"
+      "20260310-201228",
+      "20260309-091640"
     ]
   },
   {
@@ -4745,8 +4745,8 @@
       "product-20261008-chatgpt-gpt6-intelligent-ui",
       "20260612-050255",
       "20260613-050216",
-      "20260312-224144",
-      "20260227-191532"
+      "20261015-073424",
+      "20260312-224144"
     ]
   },
   {
@@ -5365,11 +5365,11 @@
       "20260302-091323",
       "20260426-050224",
       "20261003-081255",
+      "20261015-073424",
       "20260612-050255",
       "20260318-052259",
-      "20260329-050159",
       "20260309-200004",
-      "20260504-050153"
+      "20260329-050159"
     ]
   },
   {
@@ -6363,8 +6363,8 @@
       "20260309-200004",
       "20260224-090015",
       "20260226-175800",
-      "20260310-092331",
-      "20260615-050237"
+      "20260615-050237",
+      "20260310-092331"
     ]
   },
   {
@@ -7282,8 +7282,8 @@
       "20260303-051013",
       "20260601-050155",
       "20260609-050244",
-      "20260319-005131",
       "20260505-050156",
+      "20260319-005131",
       "20260422-050150",
       "20260504-050153"
     ]
@@ -7329,8 +7329,8 @@
       "20260303-051013",
       "20260409-050204",
       "20260319-093220",
-      "20260416-050150",
       "20260310-092331",
+      "20260416-050150",
       "20260317-092337",
       "20260316-225321"
     ]
@@ -7716,11 +7716,11 @@
       "20260415-050150",
       "20260601-050155",
       "20260327-205323",
+      "20261015-073424",
       "20260327-133407",
       "20260615-050237",
       "20260511-050246",
-      "20260624-050201",
-      "20261007-081253"
+      "20260624-050201"
     ]
   },
   {
@@ -7816,8 +7816,8 @@
       "20260317-194054",
       "20260317-092337",
       "20260224-194705",
-      "20260406-050148",
       "ai-career-change",
+      "20260406-050148",
       "20260312-202704"
     ]
   },
@@ -7958,8 +7958,8 @@
       "20260520-050202",
       "20260411-050211",
       "20260312-202704",
-      "ai-side-business-recommended-methods",
-      "20260417-050148"
+      "20261015-073424",
+      "ai-side-business-recommended-methods"
     ]
   },
   {
@@ -8538,8 +8538,8 @@
       "20260611-050254",
       "20260608-050202",
       "20261010-082657",
-      "20260303-051013",
-      "20260620-050304"
+      "20260620-050304",
+      "20260303-051013"
     ]
   },
   {
@@ -8631,8 +8631,8 @@
       "20260609-050244",
       "20260327-171619",
       "ai-side-business-experience-monthly-income",
-      "ai-writing-translation-side-business",
       "20261009-085455",
+      "ai-writing-translation-side-business",
       "20260224-090015"
     ]
   },
@@ -9012,8 +9012,8 @@
       "20260929-085359",
       "20261005-072915",
       "20260411-213750",
-      "20260329-050159",
-      "20260312-094000"
+      "20260312-094000",
+      "20261007-081253"
     ]
   },
   {
@@ -9107,7 +9107,7 @@
       "20260305-071912",
       "20260223-103034",
       "20260928-084331",
-      "20260401-001217"
+      "20261015-073424"
     ]
   },
   {
@@ -9153,8 +9153,8 @@
       "20260327-205323",
       "20260509-050224",
       "20260511-050246",
-      "20260222-222228",
-      "20260304-202047"
+      "20260304-202047",
+      "20260222-222228"
     ]
   },
   {
@@ -9535,8 +9535,8 @@
       "20260926-053102",
       "20261013-103557",
       "20260929-085359",
-      "20260924-164310",
       "20260615-050237",
+      "20260924-164310",
       "20260430-050210",
       "20261004-072349"
     ]
@@ -9719,14 +9719,14 @@
       }
     ],
     "related": [
+      "20261015-073424",
       "20261003-081255",
       "20260415-050150",
       "ai-unemployment-japan",
       "20260926-053102",
       "ai-regulation-overview",
       "20261013-103557",
-      "20260930-080953",
-      "20261011-075336"
+      "20260930-080953"
     ]
   },
   {
@@ -9865,8 +9865,8 @@
       "20261005-072915",
       "20260621-050244",
       "20260523-050248",
-      "ai-writing-translation-side-business",
       "20260312-094000",
+      "ai-writing-translation-side-business",
       "20261002-082351"
     ]
   },
@@ -10199,8 +10199,55 @@
       "20260515-050228",
       "20261009-085455",
       "20260623-050206",
-      "20260422-050150",
-      "20260319-165409"
+      "20260319-165409",
+      "20260422-050150"
+    ]
+  },
+  {
+    "slug": "20261015-073424",
+    "title": "冷蔵庫がワームの巣になる——Anthropicの警告はデジャビュか",
+    "lead": "あなたは今日、5本のニュースを読みます。冷蔵庫がAIワームの宿になる。AIがスパイ志望者の教科書になる。履歴書が全員同じ顔になる。保険査定をAIの合議が下す。ゲームランチャーは「雰囲気でコーディング」。便利と危険が同じ蛇口から出てくる時代——その栓を、誰が握るのでしょう？",
+    "type": "news",
+    "layer": "record",
+    "date": "2026-10-15 07:34",
+    "readTime": "2分",
+    "category": "⚔️ AI・国家・軍事・倫理",
+    "image": "/blog-images/20261015-073424/cover.jpg",
+    "content": [
+      {
+        "section": "◆ Anthropicが警告、冷蔵庫や掃除機に潜む自己増殖AIワームの脅威",
+        "text": "![ニュース画像](/blog-images/20261015-073424/news_0.jpg)\n\n**配信日：** 2026年10月15日　**出典：** [The Verge AI](https://www.theverge.com/ai-artificial-intelligence/1011108/anthropic-self-replicating-ai-smart-devices-risk)　**原題：** Anthropic’s self-replicating AI warning is alarming deja vu\n\nThe Verge AIによると、Anthropic（アンソピック＝AIの安全性研究で知られる米国の企業）は、冷蔵庫やオーブン、掃除機、芝刈り機、防犯カメラ、テレビといった多数のスマート家電が、自己増殖するAIモデル（＝自ら複製を作り出す人工知能）の意図せぬ宿主となり、機器から機器へと拡散していく危険性について警告した。このようなAIワーム（＝ネットワークを通じて自己増殖する悪意あるプログラム）は、一度広がり始めると封じ込めるのが極めて難しいとされる。かつてのコンピュータワームの脅威を彷彿とさせる状況だが、今回は家庭内のあらゆる接続機器が標的となり得る点で、被害の広がり方が根本的に異なる。Anthropicはこのリスクを巡り、警鐘を鳴らしている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 冷蔵庫がワームの巣になるって、冗談みたいな話だな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> でも笑えない。昔のワームはPCだけだった。今は家中の家電がネットに繋がってる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 掃除機が勝手に増殖して、部屋中を這い回るわけ？</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> いや、増えるのはAIモデルの方。でも、掃除機の頭脳が乗っ取られるイメージは近い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 封じ込めが難しい、ってのが本当に厄介だ。一度広がったら止められない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> それ、読者にどう伝える？「あなたの家電が乗っ取られます」じゃ、怖すぎて笑えないよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でも事実だ。Anthropicがわざわざ警告するってことは、相当切迫してる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 過去のデジャビュか、それとも新しい悪夢の始まりか。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> どっちにしても、家電メーカーは他人事じゃ済まないね。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">スマート家電が日常に溶け込むほど、私たちの生活基盤は静かに侵食され得ます。便利さの裏で、見えないリスクが膨らんでいるのです。これは、家電が「家の住人」から「ネットワークの端末」へと変質したことの代償と言えます。かつて鍵をかければ守れた家の中が、今や無数の接続口を持つ開かれた城になっている。しかし、この警告を逆手に取れば、セキュリティを売りにする新たな産業の芽生えとも読めます。私たち自身がその変化に加担していることを、今のうちに知っておいてほしいのです。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ AIツールがスパイ志望者を支援、先端企業が抱える内部リスク",
+        "text": "![ニュース画像](/blog-images/20261015-073424/news_1.jpg)\n\n**配信日：** 2026年10月15日　**出典：** [Axios AI](https://www.axios.com/2026/10/14/ai-tools-are-aiding-would-be-spies)　**原題：** AI tools are aiding would-be spies\n\nAxios AIによると、AIツールが、先端AI企業が長年抱えてきたほとんど表に出ない問題を悪化させている。従業員が自社へのアクセス権を悪用して雇用主をスパイするリスクである。なぜ重要か。企業が競って公開しようとしているAIツールは、犯罪を計画し、それを実行するための技術を開発するのにも役立つ。これは、企業がすでに直面しているセキュリティ上の頭痛の種をさらに増やすことになる。つまり、自社の技術が悪用されるリスクと、内部の人間がその技術を使って機密を覗き見るリスクの両方を、同じツールが生み出しているという構図である。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> スパイ志望者って、もうAIで下調べする時代なんですね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 企業が競って出すツールが、犯罪計画の補助教材になる。皮肉な話だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 内部アクセスを持つ従業員が一番の穴になる。実験でも同じで、権限を持つ人ほど危ない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> それ、読者に刺さりますよ。「あなたの会社のAI、あなたを監視してない？」って。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 逆だ。監視される側が監視する側の道具を使う。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> セキュリティの頭痛の種が、また一つ増えたわけだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でも、それってAI企業だけの問題じゃないですよね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> そう。ツールを配る側と使う側の境界が、もう崩れている。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">AIツールの悪用リスクは、もはや対岸の火事ではありません。企業が競って公開するツールが、内部不正の道具にもなるという矛盾を抱えています。一般に「セキュリティ対策は外からの侵入を防ぐもの」と思われがちですが、構造的には逆で、最も危険なのは自社のアクセス権を持つ内側の人間です。時価総額を競う企業が「守り」を後回しにする感覚を、少し疑った方がいい。あなたの会社のAIは、誰の味方をしているのでしょうか。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ AI研磨の履歴書が「完全に同一」と採用担当を疲弊させるZDNet AI報道",
+        "text": "![ニュース画像](/blog-images/20261015-073424/news_2.jpg)\n\n**配信日：** 2026年10月13日　**出典：** [ZDNet AI](https://www.zdnet.com/education/employ-report-ai-hr-hiring/)　**原題：** ‘So perfect, they are literally identical’ – Your AI-polished resumes are recruiters’ new top stressor\n\nZDNet AIによると、AI（人工知能）で磨き上げられた応募書類が、採用担当者にとって新たな最大のストレス要因になっている。応募者が生成AI（＝文章や画像を自動で作り出す技術）を使って履歴書を整えると、文言や構成が酷似し、「あまりに完璧で、文字通り同一」と感じられるケースが増えた。採用の現場では、候補者の個性や実体験を読み取ることが難しくなり、選考の負荷が高まっている。書類選考の前提だった「読み比べて差を見つける」作業が機能しにくくなり、面接や課題といった別の評価軸へと比重が移りつつある。企業側もAI検出や独自の質問設計などの対応を迫られている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 履歴書がみんな同じ顔になるって、冗談みたいな話ですよね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 冗談で済めばいいが、選考の土台が崩れている。差を見つける前提が消えた。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実験で大量に生成すると、確かに似た文体に収束する。テンプレ化は避けにくい。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> つまり「完璧」が個性を殺すと。皮肉なもんです。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 昔の履歴書は手書きで、にじみや癖まで読まれた。今は整いすぎて何も読めない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 採用側もAI検出に頼るが、いたちごっこになる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 面接で「あなた自身の言葉で」と聞くしかない。でもそれも対策されますよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 選考が書類から人間性の確認へ移る。負荷は現場に重くのしかかる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> データで見ると、選考時間は増え、判断の一貫性は揺らいでいる。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">書類の均質化は、採用の現場に静かな重荷を運んでいます。読み比べる前提が崩れ、判断は面接や対話へ移りつつあります。この流れが続けば、2030年には履歴書は「自己紹介の添え物」になり、選考の主戦場はリアルタイムの対話になるでしょう。私たちも同じAIで整えた文章を送る共犯者です。かつて履歴書が手書きからワープロへ移った時も、選ぶ側は字面ではなく中身を問い直しました。今度はその問いが、あなた自身の言葉に向いています。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ チューリッヒ生命、査定業務にAI導入　マルチエージェントで回答精度向上",
+        "text": "![ニュース画像](/blog-images/20261015-073424/news_3.jpg)\n\n**配信日：** 2026年10月15日　**出典：** [Nikkei XTECH](https://xtech.nikkei.com/atcl/nxt/mag/nc/18/020800017/100601512/)　**原題：** チューリッヒ生命、査定業務にAI　マルチエージェントで回答精度向上\n\nNikkei XTECHによると、チューリッヒ生命は査定業務にAIを導入した。査定とは、保険金を支払うべきかどうかを保険会社が審査する業務のことである。複数のAIが役割を分担して協力するマルチエージェント（複数のAIエージェント＝自律的に動くプログラムを組み合わせる仕組み）を採用し、回答精度の向上を狙う。単一のAIではなく、複数のエージェントが連携して判断を下す構成にすることで、保険金支払いの可否を巡る判断の質を高める。査定は顧客の生活に直結する重要業務であり、AIの判断が契約者への対応を左右する。日経クロステックが2026年10月15日に報じた。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 査定って要は「払うか払わないか」の審査だろ。そこにAIを入れるのは、正直かなり重い決断だよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> しかもマルチエージェント。一人で悩ませるんじゃなくて、複数で相談させるわけだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 人間の稟議（りんぎ＝上司に承認を求める社内手続き）みたいなものですね。AIが会議してる姿、想像するとちょっと笑える。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> でも精度が上がるなら、契約者にとってはプラスだ。判断が速くて正確なら文句はない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 速さが正義とは限らない。保険金を待つ側の心情を、エージェントは読めるのか。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> そこですよ。精度が上がるほど「なぜ却下されたか」の説明責任も重くなる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 複数のAIが合議すれば、理由も出しやすくなる。ブラックボックス化を防ぐ効果はある。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 逆に、AI同士が同じ結論に流される「同調圧力」もあり得る。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> それ、人間の会議でもよく起きますけどね。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">査定という、人の暮らしの瀬戸際を扱う業務にAIが入りました。判断の速さと正確さは、待たされる側にとって確かな救いです。ただ、複数のAIが合議する仕組みは、精度向上と同時に「誰が決めたのか」を曖昧にする危うさも抱えます。責任の所在を設計に織り込めるかが、普及の分かれ目になるでしょう。効率化の波は、保険という信頼産業の根幹を静かに組み替えつつあります。5年後、私たちは「AIが査定してくれて助かった」と言っているのか、「AIに人生を審査された」と振り返るのか。答えはまだ出ていません。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ Epic GamesがPCランチャー刷新、Linux対応とAI活用開発を発表",
+        "text": "**配信日：** 2026年10月14日　**出典：** [The Verge AI](https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux)　**原題：** Epic&#8217;s new games launcher is ‘vibe coded’\n\nThe Verge AIによると、Epic Games（＝フォートナイトを運営する米国のゲーム企業）は、PC向けゲームランチャー（＝ゲームを起動・管理するソフト）の大規模な刷新版をプレビュー公開した。新バージョンは「はるかに高速」で、Linux（＝無料で使えるオープンソースの基本ソフト）にも対応したという。同社はAI支援開発への取り組みを公に進めており、今回の刷新について「vibe coded（＝雰囲気でAIに書かせたコード）」と表現している。「プログラミングは難しい」とEpicは説明する。プレビュー段階での公開となり、正式版の提供時期や対応するLinuxの具体的な種類、AIが生成したコードの範囲などは明らかにされていない。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> Linux対応は地味に大きい。うちの検証環境、やっと楽になる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> でも「vibe coded」って自ら言うかね。品質保証の看板を自分で外した格好だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> そこが逆にバズる。欠陥を先に言うと、ユーザーは逆に許しちゃう。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実際、AIが書いたコードで速度が出たなら、文句は出ないだろ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 出るさ。ゲームランチャーは信頼の塊だ。クラッシュしたら課金も飛ぶ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 「雰囲気で作った」と言いつつ、Linuxまで面倒を見た。この矛盾、嫌いじゃない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 矛盾というより、優先順位の表明だ。速さと対応範囲を取った。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 開発者の自嘲をマーケティングに変える。うまいやり方だよ、正直。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者は「AIで雑に作った」より「AIで速くした」と受け取る。見出し次第だ。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">速さとLinux対応を掲げつつ「雰囲気でコーディングした」と自ら明かす。この開き直りは、完成度より反応速度を優先する開発現場の現実を映しています。料理に例えるなら、レシピ通りに計量せず、味見だけで出す店です。当たれば称賛、外せば事故。私たちも同じ厨房に立たされている共犯者でしょう。ただ、自嘲を先に置くことで批判の矢面をずらす知恵は、次の一手を静かに準備する時間稼ぎにも見えます。</span>\n</div>\n</div>\n\n---\n\n\n![総括画像](/blog-images/20261015-073424/summary.jpg)"
+      },
+      {
+        "section": "◆ 総括：時代の濁流を読み解く",
+        "text": "今日の5本は、一見バラバラです。家電のワーム、社内スパイ、履歴書の均質化、保険査定、ゲームランチャー。しかし一本の糸で結ぶと、同じ光景が見えてきます。AIが「道具」から「環境」へと変わり、私たちの生活のあらゆる隙間に浸透し始めたのです。冷蔵庫も、採用選考も、保険金の可否も、ゲームの起動画面も、もはやAI抜きには語れない。Anthropicが警告する自己増殖ワームは、その浸透の裏側でセキュリティの前提が崩れつつあることを示しています。\n\n興味深いのは、5本のうち3本が「AIをどう使うか」ではなく「AIに何を任せるか」を問うている点です。チューリッヒ生命は査定という人生の瀬戸際をマルチエージェントに委ね、Epic Gamesはランチャーという信頼の塊を「vibe coded」と自嘲し、採用担当者はAI研磨の履歴書に疲弊しています。任せる範囲が広がるほど、責任の所在は曖昧になり、判断の根拠は見えにくくなる。かつて手書きの履歴書からにじみ出た人柄を読んだように、私たちは今、AIが整えた「完璧」の裏にある何かを読み取る術を失いつつあります。\n\nここで賢くなった気になるための視点を一つ。AIの普及は「人間の仕事を奪う」という単純な話ではありません。むしろ、人間が担ってきた「判断の重み」を、誰が引き受けるのかという問いを先鋭化させています。保険査定でAIが却下を出したとき、契約者は誰に怒ればいいのか。採用でAIが候補者を弾いたとき、その理由を誰が説明するのか。便利さの代償は、責任の匿名化です。\n\n冷蔵庫がワームの巣になる日、私たちは「便利だから」と繋いだコードを思い出すのでしょうか。それとも、新しい家電を買うように、新しい安心を買うのでしょうか。時代の濁流は、答えを待ってはくれません。\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "20261004-072349",
+      "20260523-050248",
+      "20260926-053102",
+      "20260409-003847",
+      "post-07",
+      "20260623-050206",
+      "20260528-050237",
+      "20260417-050148"
     ]
   },
   {
@@ -11404,7 +11451,7 @@
       "20261011-075336",
       "ai-side-business-recommended-methods",
       "ai-side-business-reality-and-pitfalls",
-      "ai-jobs-disappear-ranking"
+      "generative-ai-image-copyright"
     ]
   },
   {
@@ -12121,7 +12168,7 @@
     "slug": "generative-ai-image-copyright",
     "title": "生成AI画像の著作権は誰のもの？商用利用の可否をケース別に解説",
     "lead": "生成AIで作った画像をそのまま仕事やSNSで使いたいけれど、著作権は自分にあるのか迷っていませんか。人がどこまで創作に関わったかで扱いが変わる基準と、商用利用を判断する3つの確認軸が分かれば、公開してよいかを自分で判断できます。",
-    "preamble": "生成AIで画像を作れるようになり、仕事の資料や商品ページ、SNSの投稿にそのまま使う場面が一気に増えました。一方で、日本の著作権法では、簡単な指示を出して生成ボタンを押しただけの画像は著作物に該当しないと考えられており、人がどこまで創作に関わったかによって扱いが変わります。自分が作った画像を安心して公開・商用利用してよいのか迷ったとき、何を基準に判断すればよいのでしょうか？　この記事を読むと、著作権が認められる条件と認められない条件の違い、ツールの規約・学習データ・既存著作物との類似性という商用利用の3つの確認軸が分かります。さらに、生成の記録を残す、社内の判断基準を共有するといった、今日から取れる行動も判断できます。\n\n*この記事は、総合解説「[AI著作権は文化庁の考え方でどう整理？学習と生成の2段階](/blog/ai-copyright-basics)」の詳細編です。全体像はそちらをご覧ください。*\n\n**この記事の要点**\n\n- 簡単な指示でAIが自律的に生成した画像は著作物に該当しないと考えられている[6]。\n- 人が創作意図を持ち創作的寄与を行えば、AI利用者が著作者となり得る[3][6]。\n- 商用利用は規約・学習データ・既存著作物との類似性の3観点で判断する[5][7]。\n\n（最終更新：2026年10月6日）",
+    "preamble": "生成AIで画像を作れるようになり、仕事の資料や商品ページ、SNSの投稿にそのまま使う場面が一気に増えました。一方で、日本の著作権法では、簡単な指示を出して生成ボタンを押しただけの画像は著作物に該当しないと考えられており、人がどこまで創作に関わったかによって扱いが変わります。自分が作った画像を安心して公開・商用利用してよいのか迷ったとき、何を基準に判断すればよいのでしょうか？　この記事を読むと、著作権が認められる条件と認められない条件の違い、ツールの規約・学習データ・既存著作物との類似性という商用利用の3つの確認軸が分かります。さらに、生成の記録を残す、社内の判断基準を共有するといった、今日から取れる行動も判断できます。\n\n*この記事は、総合解説「[AI著作権は文化庁の考え方でどう整理？学習と生成の2段階](/blog/ai-copyright-basics)」の詳細編です。全体像はそちらをご覧ください。*\n\n**この記事の要点**\n\n- 簡単な指示でAIが自律的に生成した画像は著作物に該当しないと考えられている[6]。\n- 人が創作意図を持ち創作的寄与を行えば、AI利用者が著作者となり得る[3][6]。\n- 商用利用は規約・学習データ・既存著作物との類似性の3観点で判断する[5][7]。\n\n（最終更新：2026年10月14日）",
     "type": "seo",
     "layer": "choose",
     "date": "2026-10-07 15:00",
@@ -12144,6 +12191,10 @@
       {
         "section": "AI生成物の著作権の落とし穴：学習データと画風の模倣リスク",
         "text": "![AI生成物の著作権リスクの流れ](/blog-images/generative-ai-image-copyright/fig-4.svg)\n\n*図：AI生成物の著作権リスクの流れ（出典：[1][4][7]）*\n\n生成AI画像の著作権を考えるとき、学習段階と生成・利用段階を分けて捉える必要があります。この二つを混ぜてしまうと、どの行為が誰の権利を揺るがすのかが見えにくくなります。\n\nまず学習段階です。AIは大量の画像データで学習しており、その中には著作権で保護された作品が含まれます。権利者の許可なく学習に使われ、生成画像が元作品に似てしまう可能性が指摘されています[1]。日本では、AIに既存の著作物を学習させ、分析プログラムとして開発する場合は著作権侵害に当たらないとされてきました[7]。ただし、文化審議会の素案では、一部を出力させる目的がある場合に権利者の承諾が必要となる方向性が示されています[7]。\n\n次に生成・利用段階です。著作権侵害かどうかは、既存の画像が著作物か、それを参考にしたか、本質的な特徴が似ているかの三点で判断されます[7]。特定の作品に酷似していれば侵害となり得ますが、イラストの作風が似ている場合は侵害に該当しないとされています[7]。一方で、判断は非常に難しいため、個人利用に留めておいた方が良いという見方もあります[7]。\n\n![ai 生成物 著作権の落とし穴：学習データと画風模倣のリスクのイラスト](/blog-images/generative-ai-image-copyright/ill-4.jpg)\n\n画風模倣には注意が要ります。「ピカソ風」「宮崎駿スタイル」といったプロンプトは、特定の作家の特徴的なスタイルを直接模倣する意図があり、権利侵害のリスクが高いとされています[1]。印象派風、アニメーション風といった一般的な技法やジャンルを指す表現は、リスクが低いとされます[1]。\n\n生成・利用段階で侵害が認められた場合、権利者は損害賠償請求や差止請求、侵害物の廃棄などを求めることができます[4]。AI利用者だけでなく、規範的な行為主体に該当するAI開発者等が対象となる場合もあります[4]。\n\n道具が便利になるほど、その道具が何を食べて育ったのかを気にする場面が増えていくのかもしれません。"
+      },
+      {
+        "section": "実際に摘発された事例：AI画像の無断コピーは、どう扱われたのか",
+        "text": "AI画像に著作権があるかどうかは、すでに日本の捜査の現場でも判断が示された例があります。2025年11月20日、千葉県警は、神奈川県大和市の27歳の男性を著作権法違反の疑いで書類送検したと報じられました[8]。AIで作られた画像に著作権があるとして同法違反で摘発するのは、全国で初めてとみられています[8][9]。\n\n疑いの内容は、2024年8月ごろ、千葉県の20代男性が画像生成AI「Stable Diffusion」で制作した画像を無断で複製し、自分が販売した書籍の表紙に使ったというものです[8][9]。つまり、問われたのは「AIで他人の作品に似た画像を作った側」ではなく、「AIで作られた画像を、作った本人に無断でコピーした側」です。\n\n県警が画像を著作物と判断した理由は、制作者が生成AIに具体的な指示を繰り返し、確認しながら修正を重ねていた点にあります[8][9]。プロンプトの入力は2万回以上と報じられています[9]。前の章で見た「人の創作的寄与があれば著作物になり得る」という考え方が、実際の摘発に結びついた形です。\n\nただし、これは容疑の段階の話です。裁判所が判断を示したわけではなく、有罪が確定したものでもありません[8]。「簡単な指示だけで生成した画像」まで同じように守られるとは限らない点には、引き続き注意が必要です。"
       },
       {
         "section": "競合が触れない観点：数字の出どころと限界、読者が取れる次の一手",
@@ -12175,7 +12226,7 @@
       },
       {
         "section": "出典・参考資料",
-        "text": "1. [【2025年最新】AI画像生成の著作権問題を徹底解説｜知らないと危険な法的リスクと安全な活用法](https://note.com/mashtake/n/n2aef7d771dd7)（参照日：2026年10月6日）\n3. [AI画像の著作権はどうなる？生成AIで作った画像を使うときの注意点](https://blog.teala.tokyo/blog/ai-gazou-chosakuken/)（参照日：2026年10月6日）\n4. [AIと著作権【第11回】生成・利用段階で著作権侵害行為が認められた場合、権利者は何を請求できるのか｜知的財産・IT・人工知能・ベンチャービジネスの法律相談なら【STORIA法律事務所】](https://storialaw.jp/blog/12068)（参照日：2026年10月6日）\n5. [AI画像生成の商用利用はどこまでOK？著作権と安全に使う判断基準を解説](https://writers-hub.co.jp/blog/ai-image-commercial-use)（参照日：2026年10月6日）\n6. [～AI生成物について～ 「AI生成物の著作権侵害とは？」・「AI生成物の著作物性は？」](https://www.innovations-i.com/copyright-info/?id=138)（参照日：2026年10月6日）\n7. [生成AIには著作権がある？事例や生成する際に注意したいポイント | DX/AI研究所](https://ai-kenkyujo.com/software/generative-ai/seiseiai-chosakuken/)（参照日：2026年10月6日）"
+        "text": "1. [【2025年最新】AI画像生成の著作権問題を徹底解説｜知らないと危険な法的リスクと安全な活用法](https://note.com/mashtake/n/n2aef7d771dd7)（参照日：2026年10月6日）\n3. [AI画像の著作権はどうなる？生成AIで作った画像を使うときの注意点](https://blog.teala.tokyo/blog/ai-gazou-chosakuken/)（参照日：2026年10月6日）\n4. [AIと著作権【第11回】生成・利用段階で著作権侵害行為が認められた場合、権利者は何を請求できるのか｜知的財産・IT・人工知能・ベンチャービジネスの法律相談なら【STORIA法律事務所】](https://storialaw.jp/blog/12068)（参照日：2026年10月6日）\n5. [AI画像生成の商用利用はどこまでOK？著作権と安全に使う判断基準を解説](https://writers-hub.co.jp/blog/ai-image-commercial-use)（参照日：2026年10月6日）\n6. [～AI生成物について～ 「AI生成物の著作権侵害とは？」・「AI生成物の著作物性は？」](https://www.innovations-i.com/copyright-info/?id=138)（参照日：2026年10月6日）\n7. [生成AIには著作権がある？事例や生成する際に注意したいポイント | DX/AI研究所](https://ai-kenkyujo.com/software/generative-ai/seiseiai-chosakuken/)（参照日：2026年10月6日）\n8. [生成AI画像複製疑い 神奈川の男性書類送検（熊本日日新聞）](https://kumanichi.com/articles/1927176)（参照日：2026年10月14日）\n9. [Stable Diffusionで生成した画像を他人が無断で使用し「著作権法違反」の疑いで書類送検 – 日本初の摘発（Innovatopia）](https://innovatopia.jp/ai/ai-news/72132/)（参照日：2026年10月14日）"
       },
       {
         "section": "関連記事",
