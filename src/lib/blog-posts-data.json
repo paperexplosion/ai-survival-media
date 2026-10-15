@@ -368,10 +368,10 @@
     "related": [
       "20260305-192345",
       "20260223-105731",
+      "20260224-090015",
       "20260222-220939",
       "20260222-214431",
       "20260222-101421",
-      "20260224-090015",
       "20260225-081907",
       "20260302-091323"
     ]
@@ -565,8 +565,8 @@
     "related": [
       "20260319-010236",
       "ai-unemployment-japan",
-      "20260226-175800",
       "20260223-093844",
+      "20260226-175800",
       "20260224-201233",
       "20260223-105731",
       "20260225-081907",
@@ -822,7 +822,7 @@
       "20260223-105731",
       "20260225-081907",
       "20260224-194705",
-      "20260222-214431"
+      "ai-unemployment-japan"
     ]
   },
   {
@@ -1497,8 +1497,8 @@
       "20260304-092827",
       "20260312-094000",
       "20260317-092337",
-      "20260317-194054",
       "20260317-093413",
+      "20260317-194054",
       "20260225-081907"
     ]
   },
@@ -2587,8 +2587,8 @@
       "20260317-194054",
       "20260317-093413",
       "20260316-225321",
-      "20260319-155159",
       "20260317-092337",
+      "20260319-155159",
       "ai-unemployment-japan"
     ]
   },
@@ -2812,8 +2812,8 @@
       "20260316-201156",
       "20260319-155159",
       "20260319-165409",
-      "20260304-092827",
-      "20260304-202047"
+      "20260304-202047",
+      "20260304-092827"
     ]
   },
   {
@@ -3251,7 +3251,7 @@
       "20260319-011423",
       "20260319-005131",
       "20260309-162600",
-      "20260319-165409"
+      "20260317-093413"
     ]
   },
   {
@@ -3889,7 +3889,7 @@
       "20260326-171555",
       "20260327-211432",
       "20260309-200004",
-      "20260309-162600"
+      "20260327-192508"
     ]
   },
   {
@@ -4506,8 +4506,8 @@
       "20260310-092331",
       "20260305-192345",
       "20260305-071912",
-      "20260301-001615",
-      "20260225-222651"
+      "20260317-092337",
+      "20260301-001615"
     ]
   },
   {
@@ -4787,13 +4787,13 @@
     ],
     "related": [
       "20260331-230054",
+      "product-20261013-microsoft-maia-3-ai-chip",
       "product-20261008-chatgpt-gpt6-intelligent-ui",
       "20260505-050140",
       "20260416-050150",
       "20260330-162832",
       "20261006-095600",
-      "product-20260926-meta-camera-free-ai-glasses",
-      "20260318-112530"
+      "product-20260926-meta-camera-free-ai-glasses"
     ]
   },
   {
@@ -5030,8 +5030,8 @@
       "20260404-050156",
       "20260223-002400",
       "20260222-235624",
-      "20260614-050233",
       "20260302-091323",
+      "20260614-050233",
       "20260924-164310"
     ]
   },
@@ -5127,10 +5127,10 @@
       "20260302-091323",
       "20260325-220130",
       "20260404-050156",
-      "20260504-050153",
       "20260327-164958",
       "20260327-143431",
-      "20260223-103034"
+      "20260223-103034",
+      "20260504-050153"
     ]
   },
   {
@@ -5884,8 +5884,8 @@
     ],
     "related": [
       "20260518-050231",
-      "product-20260929-claude-sonnet-5-5",
       "20260419-050144",
+      "product-20260929-claude-sonnet-5-5",
       "product-20261008-chatgpt-gpt6-intelligent-ui",
       "20260505-050140",
       "product-20260930-openai-dots-agents",
@@ -5978,8 +5978,8 @@
     ],
     "related": [
       "20260617-050244",
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
       "20260417-050148",
+      "product-20261008-chatgpt-gpt6-intelligent-ui",
       "20260418-050222",
       "20260317-194054",
       "20261013-103557",
@@ -6122,8 +6122,8 @@
       }
     ],
     "related": [
-      "20260319-010236",
       "20260622-050218",
+      "20260319-010236",
       "20260224-201233",
       "20260607-050236",
       "ai-illustration-copyright",
@@ -6176,7 +6176,7 @@
       "20260312-203611",
       "20260622-050218",
       "20260319-005131",
-      "20261008-084551"
+      "20260414-050147"
     ]
   },
   {
@@ -6843,8 +6843,8 @@
       "20260312-224144",
       "ai-copyright-basics",
       "20260505-050140",
-      "20260412-050211",
       "20260327-171619",
+      "20260412-050211",
       "20260319-001818",
       "20260224-194705"
     ]
@@ -6990,8 +6990,8 @@
       "20260429-050246",
       "20260326-201932",
       "20260319-010236",
-      "20260430-050210",
-      "20260610-050213"
+      "product-20261011-gommari-payroll-ai-agent",
+      "20260430-050210"
     ]
   },
   {
@@ -7035,8 +7035,8 @@
       "20260312-224144",
       "20260223-103034",
       "20260510-050227",
-      "20260319-010236",
       "20260305-192345",
+      "20260319-010236",
       "20260303-051013",
       "20260515-050228"
     ]
@@ -7329,8 +7329,8 @@
       "20260303-051013",
       "20260409-050204",
       "20260319-093220",
-      "20260310-092331",
       "20260416-050150",
+      "20260310-092331",
       "20260317-092337",
       "20260316-225321"
     ]
@@ -7430,8 +7430,8 @@
       "20260520-050202",
       "product-20260926-meta-camera-free-ai-glasses",
       "ai-regulation-overview",
-      "20260524-050205",
       "20260430-050210",
+      "20260524-050205",
       "20260412-050211",
       "20260418-050222",
       "20260312-202704"
@@ -8057,7 +8057,7 @@
       "20260317-194054",
       "20260423-050226",
       "20260316-225321",
-      "20260309-091640"
+      "20261009-085455"
     ]
   },
   {
@@ -8290,8 +8290,8 @@
     ],
     "related": [
       "20260621-050244",
-      "20260929-085359",
       "20261005-072915",
+      "20260929-085359",
       "20260428-050228",
       "20260615-050237",
       "20260316-225321",
@@ -8345,8 +8345,8 @@
       "20260625-050158",
       "20260227-191532",
       "20260302-091507",
-      "20260319-001818",
       "20260222-222228",
+      "20260319-001818",
       "20260331-230054"
     ]
   },
@@ -8445,7 +8445,7 @@
       "20260930-080953",
       "20260411-050211",
       "20260426-050224",
-      "20260325-220130"
+      "20260622-050218"
     ]
   },
   {
@@ -8532,12 +8532,12 @@
       }
     ],
     "related": [
-      "20260610-050213",
       "20260425-050259",
       "20260309-162600",
-      "20260611-050254",
+      "20260610-050213",
       "20260608-050202",
       "20261010-082657",
+      "20260611-050254",
       "20260620-050304",
       "20260303-051013"
     ]
@@ -8583,8 +8583,8 @@
       "20260611-050254",
       "20260328-071852",
       "20260530-050237",
-      "20260609-050244",
       "ai-side-business-beginners-guide",
+      "20260609-050244",
       "20261006-095600",
       "20260508-050300"
     ]
@@ -8628,10 +8628,10 @@
     "related": [
       "20260610-050213",
       "20260624-050201",
-      "20260609-050244",
       "20260327-171619",
-      "ai-side-business-experience-monthly-income",
+      "20260609-050244",
       "20261009-085455",
+      "ai-side-business-experience-monthly-income",
       "ai-writing-translation-side-business",
       "20260224-090015"
     ]
@@ -8966,7 +8966,7 @@
       "20261013-103557",
       "ai-and-copyright-thinking",
       "20260930-080953",
-      "20260425-050259"
+      "20261005-072915"
     ]
   },
   {
@@ -9013,7 +9013,7 @@
       "20261005-072915",
       "20260411-213750",
       "20260312-094000",
-      "20261007-081253"
+      "20260329-050159"
     ]
   },
   {
@@ -9053,8 +9053,8 @@
       }
     ],
     "related": [
-      "20260608-050202",
       "20260509-050224",
+      "20260608-050202",
       "20261010-082657",
       "20260623-050206",
       "20260312-224144",
@@ -9863,10 +9863,10 @@
       "20260929-085359",
       "generative-ai-image-copyright",
       "20261005-072915",
+      "ai-writing-translation-side-business",
       "20260621-050244",
       "20260523-050248",
       "20260312-094000",
-      "ai-writing-translation-side-business",
       "20261002-082351"
     ]
   },
@@ -10103,8 +10103,8 @@
       "20260410-050231",
       "20260224-090015",
       "20260222-101421",
-      "20261001-081057",
       "elite-engineers-thinking-mirror",
+      "20261001-081057",
       "20260610-050213",
       "ai-side-business-experience-monthly-income"
     ]
@@ -10200,7 +10200,7 @@
       "20261009-085455",
       "20260623-050206",
       "20260319-165409",
-      "20260422-050150"
+      "20260317-194054"
     ]
   },
   {
@@ -10243,8 +10243,8 @@
       "20261004-072349",
       "20260523-050248",
       "20260926-053102",
-      "20260409-003847",
       "post-07",
+      "20260409-003847",
       "20260623-050206",
       "20260528-050237",
       "20260417-050148"
@@ -10433,11 +10433,11 @@
       "generative-ai-image-copyright",
       "ai-illustration-copyright",
       "ai-copyright-basics",
-      "ai-regulation-overview",
       "20260405-050207",
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
       "ai-writing-translation-side-business",
-      "ai-side-business-recommended-methods"
+      "ai-amazon-side-business-guide",
+      "20260312-094000",
+      "20260306-222035"
     ]
   },
   {
@@ -10515,13 +10515,13 @@
     ],
     "related": [
       "highclass-job-site-comparison",
-      "ai-engineer-job-future",
       "post-01",
+      "ai-engineer-job-future",
       "20260224-194705",
-      "ai-side-business-experience-monthly-income",
       "ai-amazon-side-business-guide",
       "ai-illustration-copyright",
-      "ai-jobs-disappear-ranking"
+      "ai-side-business-beginners-guide",
+      "ai-jobs-disappear"
     ]
   },
   {
@@ -10609,11 +10609,11 @@
       "ai-illustration-copyright",
       "generative-ai-image-copyright",
       "ai-and-copyright-thinking",
-      "ai-jobs-disappear",
-      "ai-side-business-beginners-guide",
       "ai-writing-translation-side-business",
       "20260304-051721",
-      "product-20260927-honor-robot-phone"
+      "ai-side-business-beginners-guide",
+      "ai-jobs-disappear",
+      "20260311-092926"
     ]
   },
   {
@@ -10678,10 +10678,10 @@
       }
     ],
     "related": [
-      "ai-jobs-disappear-ranking",
-      "ai-jobs-disappear",
-      "ai-unemployment-japan",
       "elite-engineers-thinking-mirror",
+      "ai-jobs-disappear",
+      "ai-jobs-disappear-ranking",
+      "ai-unemployment-japan",
       "20260224-194705",
       "ai-career-change",
       "20260223-103034",
@@ -10759,9 +10759,9 @@
       "ai-and-copyright-thinking",
       "ai-regulation-overview",
       "ai-unemployment-japan",
-      "product-20260926-meta-camera-free-ai-glasses",
       "ai-side-business-beginners-guide",
-      "ai-jobs-disappear"
+      "20260304-051721",
+      "product-20260926-meta-camera-free-ai-glasses"
     ]
   },
   {
@@ -10871,11 +10871,11 @@
       "ai-side-business-scam-warning",
       "ai-scam-tactics",
       "20260222-220939",
-      "ai-illustration-copyright",
       "20260222-214431",
-      "ai-side-business-recommended-methods",
-      "ai-career-change",
-      "20261011-075336"
+      "20261011-075336",
+      "20260224-194705",
+      "20260305-192345",
+      "ai-side-business-reality-and-pitfalls"
     ]
   },
   {
@@ -10992,9 +10992,9 @@
       "ai-engineer-job-future",
       "20260318-052259",
       "20260309-200004",
-      "ai-side-business-beginners-guide",
       "ai-job-probability-qa",
-      "product-20260926-meta-camera-free-ai-glasses"
+      "generative-ai-image-copyright",
+      "ai-side-business-beginners-guide"
     ]
   },
   {
@@ -11075,12 +11075,12 @@
     "related": [
       "ai-unemployment-japan",
       "ai-jobs-disappear-ranking",
-      "ai-copyright-basics",
       "ai-engineer-job-future",
-      "ai-reskilling",
-      "product-20260926-meta-camera-free-ai-glasses",
       "20260309-200004",
-      "20260407-050153"
+      "20260407-050153",
+      "ai-copyright-basics",
+      "ai-job-probability-qa",
+      "ai-reskilling"
     ]
   },
   {
@@ -11292,14 +11292,14 @@
       }
     ],
     "related": [
+      "20260309-200004",
       "ai-copyright-basics",
       "ai-illustration-copyright",
-      "20260309-200004",
       "ai-side-business-beginners-guide",
-      "generative-ai-image-copyright",
-      "ai-jobs-disappear",
       "20260303-192918",
-      "ai-and-copyright-thinking"
+      "20260327-143431",
+      "20260327-133407",
+      "20260303-051013"
     ]
   },
   {
@@ -11364,10 +11364,10 @@
       "20260303-051013",
       "20260309-162600",
       "20260224-194705",
-      "ai-regulation-overview",
       "20260310-082859",
       "20260309-200004",
-      "20260309-091640"
+      "20260309-091640",
+      "ai-regulation-overview"
     ]
   },
   {
@@ -11451,7 +11451,7 @@
       "20261011-075336",
       "ai-side-business-recommended-methods",
       "ai-side-business-reality-and-pitfalls",
-      "generative-ai-image-copyright"
+      "ai-side-business-experience-monthly-income"
     ]
   },
   {
@@ -11616,7 +11616,7 @@
       "ai-side-business-beginners-guide",
       "ai-writing-translation-side-business",
       "ai-side-business-scam-warning",
-      "ai-career-change",
+      "ai-scam-tactics",
       "product-20260929-claude-sonnet-5-5"
     ]
   },
@@ -11837,8 +11837,8 @@
       "ai-investment-scam",
       "ai-scam-tactics",
       "ai-side-business-reality-and-pitfalls",
-      "ai-side-business-recommended-methods",
       "ai-side-business-experience-monthly-income",
+      "ai-side-business-recommended-methods",
       "ai-side-business-beginners-guide",
       "ai-amazon-side-business-guide",
       "ai-writing-translation-side-business"
@@ -11964,10 +11964,10 @@
       "ai-jobs-disappear-ranking",
       "20260309-200004",
       "product-20260926-meta-camera-free-ai-glasses",
-      "ai-engineer-job-future",
-      "ai-side-business-beginners-guide",
       "20260407-050153",
-      "20260223-002400"
+      "20260223-002400",
+      "20260318-052259",
+      "20260401-050200"
     ]
   },
   {
@@ -12033,13 +12033,13 @@
     ],
     "related": [
       "ai-side-business-recommended-methods",
-      "ai-side-business-experience-monthly-income",
       "ai-side-business-beginners-guide",
+      "ai-side-business-experience-monthly-income",
       "ai-side-business-reality-and-pitfalls",
       "ai-copyright-basics",
       "ai-amazon-side-business-guide",
-      "ai-side-business-scam-warning",
-      "20260519-050241"
+      "20260519-050241",
+      "ai-and-copyright-thinking"
     ]
   },
   {
@@ -12237,11 +12237,11 @@
       "ai-and-copyright-thinking",
       "ai-illustration-copyright",
       "ai-copyright-basics",
-      "ai-regulation-overview",
+      "20260304-051721",
       "ai-side-business-beginners-guide",
       "ai-jobs-disappear",
-      "20260304-051721",
-      "20260405-050207"
+      "20260405-050207",
+      "ai-jobs-disappear-ranking"
     ]
   },
   {
@@ -12829,14 +12829,14 @@
       }
     ],
     "related": [
-      "product-20260927-honor-robot-phone",
       "ai-unemployment-japan",
-      "ai-jobs-disappear",
-      "ai-copyright-basics",
+      "product-20260927-honor-robot-phone",
       "20260924-164310",
-      "ai-side-business-beginners-guide",
-      "ai-illustration-copyright",
-      "product-20261004-meta-muse-charm"
+      "ai-jobs-disappear",
+      "product-20261004-meta-muse-charm",
+      "product-20261006-tenku-note-pro-ai",
+      "ai-copyright-basics",
+      "ai-side-business-beginners-guide"
     ]
   },
   {
@@ -12903,12 +12903,12 @@
     "related": [
       "product-20260926-meta-camera-free-ai-glasses",
       "ai-copyright-basics",
-      "ai-unemployment-japan",
       "product-20261004-meta-muse-charm",
       "product-20261009-natura-99-ai-smart-ring",
-      "ai-side-business-beginners-guide",
-      "product-20261002-legato-ai-hearing-glasses",
-      "product-20261007-nano-banana-2-1"
+      "ai-unemployment-japan",
+      "product-20261005-googlebook-gemini-laptop",
+      "20260318-081842",
+      "20260927-071031"
     ]
   },
   {
@@ -12969,14 +12969,14 @@
       }
     ],
     "related": [
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
       "product-20261004-meta-muse-charm",
-      "product-20261009-natura-99-ai-smart-ring",
-      "product-20260926-meta-camera-free-ai-glasses",
+      "product-20261008-chatgpt-gpt6-intelligent-ui",
       "20260518-050231",
-      "product-20261010-pixel-watch-4-ai-watch-face",
-      "product-20260927-honor-robot-phone",
-      "product-20261003-meta-muse-gadgets-sdk"
+      "post-01",
+      "20260925-075306",
+      "product-20261009-natura-99-ai-smart-ring",
+      "20260617-050244",
+      "ai-side-business-beginners-guide"
     ]
   },
   {
@@ -13047,12 +13047,12 @@
     "related": [
       "product-20260930-openai-dots-agents",
       "ai-lab-vol1-ai-vs-ai-exam",
-      "product-20261006-tenku-note-pro-ai",
-      "product-20261007-nano-banana-2-1",
       "product-20261008-chatgpt-gpt6-intelligent-ui",
-      "product-20260926-meta-camera-free-ai-glasses",
       "20260417-050148",
-      "20260406-050148"
+      "product-20261007-nano-banana-2-1",
+      "20260406-050148",
+      "product-20261006-tenku-note-pro-ai",
+      "product-20261011-gommari-payroll-ai-agent"
     ]
   },
   {
@@ -13118,13 +13118,13 @@
     ],
     "related": [
       "product-20260929-claude-sonnet-5-5",
-      "product-20261007-nano-banana-2-1",
-      "product-20261003-meta-muse-gadgets-sdk",
+      "product-20261011-gommari-payroll-ai-agent",
       "product-20261004-meta-muse-charm",
       "20260417-050148",
-      "product-20261001-acemagic-f9a-pro-495-mini-pc",
-      "product-20260927-honor-robot-phone",
-      "product-20260928-adobe-premiere-android"
+      "ai-illustration-copyright",
+      "20260224-194705",
+      "product-20261007-nano-banana-2-1",
+      "product-20261013-microsoft-maia-3-ai-chip"
     ]
   },
   {
@@ -13188,11 +13188,11 @@
       "product-20261007-nano-banana-2-1",
       "product-20261002-legato-ai-hearing-glasses",
       "product-20261006-tenku-note-pro-ai",
-      "product-20260927-honor-robot-phone",
-      "product-20260930-openai-dots-agents",
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
       "product-20261005-googlebook-gemini-laptop",
-      "product-20261003-meta-muse-gadgets-sdk"
+      "product-20261004-meta-muse-charm",
+      "product-20260927-honor-robot-phone",
+      "20260506-050237",
+      "product-20260930-openai-dots-agents"
     ]
   },
   {
@@ -13253,14 +13253,14 @@
       }
     ],
     "related": [
+      "product-20261014-apple-homeview-siri-ai",
+      "product-20261015-apple-homepod-mini-2026",
+      "product-20261004-meta-muse-charm",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20260927-honor-robot-phone",
       "product-20261006-tenku-note-pro-ai",
       "product-20261009-natura-99-ai-smart-ring",
-      "product-20261004-meta-muse-charm",
-      "product-20261007-nano-banana-2-1",
-      "product-20260928-adobe-premiere-android",
-      "product-20260926-meta-camera-free-ai-glasses"
+      "product-20261005-googlebook-gemini-laptop"
     ]
   },
   {
@@ -13324,11 +13324,11 @@
       "product-20261004-meta-muse-charm",
       "product-20261012-colorist-ai-romance-chat",
       "product-20260930-openai-dots-agents",
+      "20260417-050148",
       "product-20260926-meta-camera-free-ai-glasses",
+      "20260505-050140",
       "product-20260928-adobe-premiere-android",
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
-      "product-20261006-tenku-note-pro-ai",
-      "product-20261007-nano-banana-2-1"
+      "product-20261008-chatgpt-gpt6-intelligent-ui"
     ]
   },
   {
@@ -13386,8 +13386,8 @@
     ],
     "related": [
       "product-20260927-honor-robot-phone",
-      "product-20260926-meta-camera-free-ai-glasses",
       "product-20260928-adobe-premiere-android",
+      "product-20260926-meta-camera-free-ai-glasses",
       "product-20261003-meta-muse-gadgets-sdk",
       "product-20261006-tenku-note-pro-ai",
       "product-20260930-openai-dots-agents",
@@ -13461,8 +13461,8 @@
       "20260420-050152",
       "20260224-201233",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
-      "product-20261007-nano-banana-2-1",
       "post-08",
+      "product-20261007-nano-banana-2-1",
       "product-20261008-chatgpt-gpt6-intelligent-ui",
       "20260617-050244"
     ]
@@ -13525,14 +13525,14 @@
       }
     ],
     "related": [
+      "product-20260926-meta-camera-free-ai-glasses",
+      "product-20261004-meta-muse-charm",
       "product-20261007-nano-banana-2-1",
       "product-20260929-claude-sonnet-5-5",
-      "product-20260926-meta-camera-free-ai-glasses",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20261002-legato-ai-hearing-glasses",
-      "product-20261004-meta-muse-charm",
       "product-20261009-natura-99-ai-smart-ring",
-      "product-20260927-honor-robot-phone"
+      "product-20261015-apple-homepod-mini-2026"
     ]
   },
   {
@@ -13593,14 +13593,14 @@
       }
     ],
     "related": [
-      "product-20261006-tenku-note-pro-ai",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20260929-claude-sonnet-5-5",
+      "product-20261006-tenku-note-pro-ai",
       "product-20260926-meta-camera-free-ai-glasses",
       "product-20260930-openai-dots-agents",
+      "ai-illustration-copyright",
       "product-20260927-honor-robot-phone",
-      "product-20261002-legato-ai-hearing-glasses",
-      "product-20260928-adobe-premiere-android"
+      "product-20261005-googlebook-gemini-laptop"
     ]
   },
   {
@@ -13669,10 +13669,10 @@
       "product-20260928-adobe-premiere-android",
       "20260406-050148",
       "20260419-050144",
+      "product-20261011-gommari-payroll-ai-agent",
       "20260417-050148",
-      "product-20261012-colorist-ai-romance-chat",
-      "product-20261003-meta-muse-gadgets-sdk",
-      "20260331-235920"
+      "20260331-235920",
+      "20260331-230054"
     ]
   },
   {
@@ -13734,13 +13734,13 @@
     ],
     "related": [
       "product-20260927-honor-robot-phone",
-      "product-20261006-tenku-note-pro-ai",
+      "product-20261011-gommari-payroll-ai-agent",
+      "20260518-050231",
       "product-20260926-meta-camera-free-ai-glasses",
       "product-20260928-adobe-premiere-android",
-      "product-20260929-claude-sonnet-5-5",
-      "product-20261002-legato-ai-hearing-glasses",
-      "product-20260930-openai-dots-agents",
-      "product-20261007-nano-banana-2-1"
+      "product-20261006-tenku-note-pro-ai",
+      "product-20261004-meta-muse-charm",
+      "product-20261015-apple-homepod-mini-2026"
     ]
   },
   {
@@ -13813,14 +13813,82 @@
       }
     ],
     "related": [
-      "product-20260927-honor-robot-phone",
-      "product-20260928-adobe-premiere-android",
       "ai-lab-vol1-ai-vs-ai-exam",
       "20260617-050244",
-      "product-20261009-natura-99-ai-smart-ring",
-      "product-20261012-colorist-ai-romance-chat",
+      "20260420-050152",
+      "product-20260927-honor-robot-phone",
+      "product-20261011-gommari-payroll-ai-agent",
+      "product-20260928-adobe-premiere-android",
+      "20260331-230054",
+      "product-20261005-googlebook-gemini-laptop"
+    ]
+  },
+  {
+    "slug": "product-20261011-gommari-payroll-ai-agent",
+    "title": "ゴムマリ 業務AIエージェント「給与計算チェック」、2026年10月提供開始",
+    "lead": "月末の支給日直前、限られた時間で数字を追い、経験則に頼る確認作業が続いていませんか。ゴムマリの業務AIエージェント「給与計算チェック」は、既存プロセスを変えずチェック層として並行稼働し、要確認明細を根拠つきで返します。",
+    "preamble": "*画像：ゴムマリの公式発表の写真をもとにしたイラストです（原典：[ゴムマリの業務AIエージェント、『給与計算チェック』を提供開始](https://ascii.jp/elem/000/004/441/4441797/?rss)）*\n\n2026年10月、ゴムマリ株式会社が給与計算チェックを対象としたAIエージェントの提供を始めます。計算結果を勤怠・人事データと突き合わせ、要確認の明細だけを根拠つきで返す仕組みで、既存の給与計算プロセスは変えずに並行稼働させる設計です。一方で、月末の支給日直前、限られた時間のなかで一件ずつ数字を追い、担当者の経験則に頼ってきた確認作業が、あなたの職場でも続いていないでしょうか。全件目視の時間を、判断すべき明細に向き合う時間に置き換えられるのか？この記事を読むと、チェック特化型という設計の意味、初期設計20万円・月額3万円からという導入条件、並行稼働で精度を育てる運用、誤検知や法改正への追従といった未公表の論点までが分かります。導入を検討するか、見送るかを判断する材料を持ち帰れます。\n\n**この記事の要点**\n\n- 2026年10月11日、ゴムマリが給与計算チェック業務向けAIエージェントの提供を開始する[1][2][3]。\n- 既存の給与計算プロセスは変えず、チェック層として並行稼働させ、要確認明細を根拠つきで列挙する[1][2][4]。\n- 初期設計20万円から（期間2週間〜）、以後は月額3万円からで、専用システムの導入は不要とされる[1][2][4]。\n\n（最終更新：2026年10月11日）",
+    "type": "product",
+    "layer": "choose",
+    "date": "2026-10-11 18:19",
+    "readTime": "1分",
+    "category": "🎯 AIを武器にするスキル・思考法",
+    "image": "/blog-images/product-20261011-gommari-payroll-ai-agent/cover.jpg",
+    "content": [
+      {
+        "section": "ゴムマリの給与計算チェックAI、2026年10月に何が始まるのか",
+        "text": "![給与計算チェックAIの導入フロー](/blog-images/product-20261011-gommari-payroll-ai-agent/fig-1.svg)\n\n*図：給与計算チェックAIの導入フロー（出典：[1][2][3][4]）*\n\n2026年10月11日、ゴムマリ株式会社が給与計算チェック業務を対象としたAIエージェントの提供を開始すると発表しました[1][2][3]。同日16時10分付の発表です[1][2]。\n\n対象となるのは、給与計算チェックという業務です[1][2]。給与計算システムの計算結果を、勤怠・人事・手当のデータおよびチェックルールと機械的に突き合わせ、確認が必要な明細だけを検知根拠つきで列挙します[1][2][4]。既存の給与計算プロセスは変更せず、チェック層として並行稼働させる設計です[1][2][3]。\n\n![ゴムマリの給与計算チェックAI、2026年10月に何が始まるのかのイラスト](/blog-images/product-20261011-gommari-payroll-ai-agent/ill-1.jpg)\n\n導入の条件も示されています。初期設計は20万円から、期間は2週間からです[1][2][4]。以後は月額3万円からの運用で回し続けるとされています[1][2][4]。給与計算結果・勤怠データ・人事データ・チェックルールは、メールや共有フォルダなど普段の方法のまま送付し、毎月の締めに合わせて要確認明細の一覧が返る形です[1][2]。専用システムの導入や操作の習得は不要とされています[1][2]。\n\n位置づけとしては、ゴムマリが業務を1本ずつAIエージェントとして実装する「業務AIエージェント」のラインナップの一つです[1][2]。人事労務領域では人事発令の入力など隣接業務のスポットメニューも用意しており、ラインナップは実際の現場で鍛えた業務から順次追加していくとされています[1][2]。\n\n支給日直前の確認作業が、毎月の暮らしのリズムを静かに支配しているとしたら、それは誰のための時間なのでしょうか。"
+      },
+      {
+        "section": "勤怠・人事データと突き合わせる仕組みは、あなたの給与計算をどう変える",
+        "text": "![従来の人手チェックとAIチェックの役割](/blog-images/product-20261011-gommari-payroll-ai-agent/fig-2.svg)\n\n*図：従来の人手チェックとAIチェックの役割（出典：[2][4]）*\n\n給与計算チェックAIエージェントは、既存の給与計算プロセスを変更せず、チェック層として並行稼働させる設計です[2][4]。給与計算システムの計算結果、勤怠・人事データ、チェックルールをそのまま投入し、書式の事前統一は不要とされています[2][4]。投入されたデータは、項目名や形式のゆれを吸収して突き合わせ可能な形に整理されます[2][4]。次に、計算結果とルールを機械的に掛け合わせ、不一致や異常値を検知します[2][4]。判断がつかない項目は推測せず「要確認」に送られます[2][4]。最終的に、検知根拠つきの要確認明細の一覧が出力されます[2][4]。\n\nデータの受け渡しは、メールや共有フォルダなど普段の方法のままでよいとされています[2]。毎月の締めに合わせて要確認明細が返され、専用システムの導入や操作の習得は不要とされています[2]。\n\n導入後は、突き合わせをエージェントが全件行い、担当者のもとには要確認として列挙された明細だけが届きます[2]。たとえば「時間外手当が前月比の変動幅を超えています」「等級と支給額の対応表に一致しません」といった根拠つきの指摘に対して判断し、確定することが人の仕事になります[2]。全件を突き合わせる確認作業の時間は、要確認明細を判断する時間だけになるとされています[2]。\n\n![勤怠・人事データと突き合わせる仕組みは、あなたの給与計算をどう変えるのイラスト](/blog-images/product-20261011-gommari-payroll-ai-agent/ill-2.jpg)\n\n導入初期は、従来の人手チェックとAIチェックを並行稼働させ、人が最終確認をしながらAIの精度を育てる方針です[2][4]。チェックルールは、既存のマニュアルや基準書だけでなく、担当者が日々の実務で蓄積してきた個別の経験則も洗い出しながら育てるとされています[2]。データだけでは拾いきれない判断基準は担当者へのヒアリングで確認する工程を挟み、実際に検知した事例から一つずつルール化して対象範囲を広げる方式です[2][4]。\n\n導入は初期設計20万円から（期間2週間〜）、以後は月額3万円からの運用とされています[2][4]。価格・期間は配信時点のもので、改定される場合があります[2]。\n\n毎月の支給日直前、限られた時間のなかで一件ずつ数字を追う作業が、確認すべき点だけに向き合う時間に置き換わっていくとしたら、あなたの現場では何が変わりそうでしょうか。"
+      },
+      {
+        "section": "自律実行型の給与AIが主流の中、なぜチェック特化なのか",
+        "text": "![チェック特化型AIの役割分担](/blog-images/product-20261011-gommari-payroll-ai-agent/fig-3.svg)\n\n*図：チェック特化型AIの役割分担（出典：[5][6][7][8]）*\n\n給与計算の分野では、担当者の指示なしに処理を進める自律実行型のAIエージェントが登場しています。月末の締め日になると自動的に処理が始まり、人間の判断が必要な部分だけ担当者に通知が届く設計です[5]。給与Agentも、勤怠収集から計算、承認催促、明細送信まで月次サイクル全体を自律的に進め、人間は異常確認と最終承認だけを担うとされています[8]。\n\n一方、計算そのものをAIに任せることには慎重な見方もあります。生成AIは高度な計算用のモデルではなく、根拠のない数値を出力するハルシネーションのリスクや、確率によって出力が変わる性質があるためです[6]。そのため、計算は純粋なコードで行い、AIは解釈や説明に限定する二段階の設計を採る製品もあります[8]。\n\n![自律実行型の給与AIが主流の中、なぜチェック特化なのかのイラスト](/blog-images/product-20261011-gommari-payroll-ai-agent/ill-3.jpg)\n\nチェック特化型は、この役割分担をさらに絞り込んだ考え方です。給与支援エージェントは、勤怠データや住民税データの読み取り、給与マスターの変更登録支援、前月比較などを担い、担当者が内容を確認したうえで給与計算システムへ登録・反映する流れとされています[7]。計算の主体はあくまで既存システム側に残り、AIはその前後の情報整理や確認箇所の抽出を支援します[7]。\n\n自律実行型が処理の起点から関与するのに対し、チェック特化型は計算結果や入力データの検証に力点を置きます。どちらが適するかは、既存の給与計算体制や、どこまでAIに委ねるかの判断によって変わってきそうです。"
+      },
+      {
+        "section": "月末の残業地獄は、経理担当者の手元でどこまで緩むのか",
+        "text": "![給与計算チェックの課題と属人化の影響](/blog-images/product-20261011-gommari-payroll-ai-agent/fig-4.svg)\n\n*図：給与計算チェックの課題と属人化の影響（出典：[2][4]）*\n\n給与計算チェックの負荷は、支給日直前に集中します。中小企業の現場では、業務課題として「計算・入力ミスや漏れ」が26.1%、「事務処理に時間がかかる」が21.1%、「業務の属人化」が19.6%で挙げられています[2]。給与計算チェックは、この三つが同時に重なる業務とされています[2]。\n\n経験者調査では、47.3%が属人化の課題を感じたことがあると回答しました[2]。担当者の退職・異動で引き継ぎに苦労した経験がある人のうち、83.3%が業務品質に影響が出たと答えています[2]。影響の内訳は「確認作業に時間がかかった」が60.0%で最多となり、「計算ミスが発生した」もほかの2項目と同率の26.7%でした[2]。\n\nゴムマリは、給与計算チェック業務を対象としたAIエージェントの提供を2026年10月11日より開始します[2][4]。給与計算システムの計算結果を、勤怠・人事・手当のデータやチェックルールと機械的に突き合わせ、確認が必要な明細だけを検知根拠つきで列挙する仕組みです[2][4]。既存の給与計算プロセスは変更せず、チェック層として並行稼働させる設計です[2]。\n\n![月末の残業地獄は、経理担当者の手元でどこまで緩むのかのイラスト](/blog-images/product-20261011-gommari-payroll-ai-agent/ill-4.jpg)\n\n処理は四段階です。データを受け取り、項目名や形式のゆれを整理し、ルールと掛け合わせて不一致や異常値を検知し、判断がつかない項目は推測せず「要確認」として出力します[2]。書式の事前統一は不要とされています[2]。\n\n導入後、担当者の画面に届くのは要確認明細だけになります[2]。全件を突き合わせる時間が、要確認明細を判断する時間に変わるという見方があります[2]。やめられなかった全件目視の再チェックも、並行稼働で精度を確かめたうえで機械の照合に置き換えられるとされています[2]。ベテランの経験則がルールとして残れば、引き継ぎへの耐性も変わっていきそうです[2]。\n\n導入は初期設計20万円から（期間2週間〜）、以後は月額3万円からの運用です[2][4]。初期は人手チェックと並行稼働させ、合致率や見落としの有無を確かめながら範囲を広げる方針です[2]。\n\n月末の夜、画面の前でため息をつく時間が、判断を下す時間に置き換わっていく。その変化を、あなたの職場ではどう受け止めるでしょうか。"
+      },
+      {
+        "section": "公開前に、ゴムマリの給与計算チェックAIで何を確かめるか",
+        "text": "![公開前チェックの三論点](/blog-images/product-20261011-gommari-payroll-ai-agent/fig-5.svg)\n\n*図：公開前チェックの三論点（出典：[1][2]）*\n\n公開前に確かめたい論点は、大きく三つに分かれそうです。第一に効果測定です。発表資料では、導入初期に従来の人手チェックとAIチェックを並行稼働させ、人が最終確認をしながらAIの精度（合致率・見落としの有無）を育てる設計とされています[1][2]。ただし、削減時間の実測値や精度の目標値は公表されていません[1][2]。どの水準に達したら並行稼働を終えるのかは、導入前に取り決めておきたいところです。\n\n第二に誤検知の扱いです。本エージェントは、判断がつかない項目は推測せず「要確認」に送る設計とされています[1][2]。手当の支給条件は等級・勤続年数・扶養人数などの条件が複合し、単純な閾値判定だけでは拾いきれないケースがあるとされています[1][2]。要確認が増えすぎれば、かえって人の負担が残りそうです。検知根拠つきで列挙される仕様[1][2]が、その負担をどこまで軽くするかは、実データで確かめるほかないのでしょう。\n\n![公開前に、ゴムマリの給与計算チェックAIで何を確かめるかのイラスト](/blog-images/product-20261011-gommari-payroll-ai-agent/ill-5.jpg)\n\n第三に法改正への追従です。チェックルールは既存のマニュアルや基準書だけでなく、担当者の経験則も洗い出しながら育てる方式とされています[1][2]。実際に検知した不一致や誤りの事例から一つずつルール化して対象範囲を広げる運用です[1][2]。制度が変わったとき、誰がどのタイミングでルールを更新するのかは公表されていません[1][2]。価格・提供条件は改定される場合があるとされています[1][2]。\n\n締め日の夜に、確認すべき明細だけが静かに並んでいる——そんな光景を思い描きながら、公開後の検証を待ちたいところです。"
+      },
+      {
+        "section": "編集長の眼",
+        "text": "給与計算の締め日、担当者の机の上には、いつも同じ光景がありました。数字を追い、突き合わせ、ため息をつく。その時間が、確認すべき明細だけに向き合う時間へと置き換わっていく——ゴムマリの給与計算チェックAIエージェントは、そんな変化を中小企業の現場に静かに差し出そうとしています。既存の給与計算ソフトを入れ替えるのではなく、その上にチェック層として並行稼働させる設計は、現場の負担を最小限にしながら一歩を踏み出せる工夫です。たとえば、経理担当者が月末の夜に画面を開き、要確認として並んだ明細だけを判断していく。あるいは、退職や異動で引き継ぎが起きたとき、ベテランの経験則がルールとして残っていれば、新しい担当者も同じ品質で確認作業を進められるかもしれません。初期は人手チェックと並行して精度を育てる期間があるため、すぐに全てが変わるわけではないでしょう。それでも、全件を目視する時間が減り、判断に集中できる時間が増えていく。その積み重ねは、毎月の暮らしのリズムを少しずつ軽くしていくはずです。制度改正への追従や誤検知の扱いなど、これから確かめられる論点も残っています。それでも、現場の知恵をルールとして取り込みながら育っていくこの仕組みが、給与計算という地味で大切な仕事に、新しい余白を生んでいくことを期待したいと思います。"
+      },
+      {
+        "section": "よくある質問",
+        "text": ""
+      },
+      {
+        "section": "Q. ゴムマリの給与計算チェックAIエージェントはいつから使えますか？",
+        "text": "2026年10月11日より提供が開始されると発表されています[1][2][3]。同日16時10分付の発表です[1][2]。初期設計は20万円から、期間は2週間からとされ、以後は月額3万円からの運用で回し続けるとされています[1][2][4]。価格・期間は配信時点のもので、改定される場合があります[2]。"
+      },
+      {
+        "section": "Q. 給与計算AIエージェントは計算そのものを任せても大丈夫ですか？",
+        "text": "生成AIは高度な計算用のモデルではなく、根拠のない数値を出力するハルシネーションのリスクや、確率によって出力が変わる性質があるため、計算そのものを任せることには慎重な見方もあります[6]。そのため、計算は純粋なコードで行い、AIは解釈や説明に限定する二段階の設計を採る製品もあります[8]。"
+      },
+      {
+        "section": "Q. 既存の給与計算ソフトを入れ替える必要はありますか？",
+        "text": "既存の給与計算プロセスは変更せず、チェック層として並行稼働させる設計です[1][2][3]。給与計算結果・勤怠データ・人事データ・チェックルールは、メールや共有フォルダなど普段の方法のまま送付でき、専用システムの導入や操作の習得は不要とされています[1][2]。"
+      },
+      {
+        "section": "出典・参考資料",
+        "text": "1. [ゴムマリの業務AIエージェント、『給与計算チェック』を提供開始](https://ascii.jp/elem/000/004/441/4441797/?rss)（参照日：2026年10月11日）\n2. [ゴムマリの業務AIエージェント、『給与計算チェック』を提供開始](https://prtimes.jp/main/html/rd/p/000000001.000185093.html)（参照日：2026年10月11日）\n3. [ゴムマリの業務AIエージェント、『給与計算チェック』を提供開始](https://news.infoseek.co.jp/article/prtimes_000000001_000185093/)（参照日：2026年10月11日）\n4. [ゴムマリ、給与計算チェックAIエージェントを2026年10月11日より提供開始へ](https://news.dellows.jp/692980/?from=top_category_area)（参照日：2026年10月11日）\n5. [【2026年8月最新】給与計算AIエージェントとは｜Claude Code／Codexで給与処理全工程を自律実行する設計・活用ガイド](https://genai-ai.co.jp/ai-kanri/blog/cc-kyuyo-keisan-ai-agent/)（参照日：2026年10月11日）\n6. [AIで給与計算を自動化するには？労務担当者が知るべき安全なDX実践法](https://googleworkspace.tscloud.co.jp/gemini/payroll-automation)（参照日：2026年10月11日）\n7. [給与支援エージェント｜社会保険・労働保険手続きに伴う給与業務をAIが支援](https://www.mks.jp/shalom/aishalom/payroll/)（参照日：2026年10月11日）\n8. [給与Agent | 無料給与計算ツール・AI自動化](https://www.itbank.co.jp/ja/payroll)（参照日：2026年10月11日）\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "product-20260930-openai-dots-agents",
       "product-20261008-chatgpt-gpt6-intelligent-ui",
-      "product-20261007-nano-banana-2-1"
+      "product-20260929-claude-sonnet-5-5",
+      "ai-illustration-copyright",
+      "20260508-050300",
+      "20260326-201932",
+      "product-20261013-microsoft-maia-3-ai-chip",
+      "ai-side-business-experience-monthly-income"
     ]
   },
   {
@@ -13882,13 +13950,221 @@
     ],
     "related": [
       "product-20261003-meta-muse-gadgets-sdk",
+      "product-20261004-meta-muse-charm",
+      "20260417-050148",
       "product-20260927-honor-robot-phone",
+      "20260518-050231",
       "product-20261008-chatgpt-gpt6-intelligent-ui",
       "product-20260928-adobe-premiere-android",
+      "20260420-050152"
+    ]
+  },
+  {
+    "slug": "product-20261013-microsoft-maia-3-ai-chip",
+    "title": "Microsoft Maia第3世代 AIチップとは何か",
+    "lead": "AIチップの調達計画やコスト試算で、発表された数字をどこまで信じてよいか迷っていませんか。第3世代Maia 300が何を示し何を示していないかが分かると、前世代やNvidia製GPUとの違いも踏まえて判断できます。",
+    "preamble": "*画像：Microsoftの公式発表の写真をもとにしたイラストです（原典：[Microsoft’s new AI chip makes it less reliant on N](https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout)）*\n\nMicrosoftは2026年10月、第3世代AIチップ「Maia 300」を発表し、2027年の本番展開を目指すとしています。推論特化の自社チップがクラウドの土台に入れ替わっていく流れです。こうした発表を目にしたとき、性能の数字や展開時期をどこまで自社の調達計画やコスト試算に当てはめてよいのか、判断に迷う場面はないでしょうか？この記事を読むと、Maia 300が何をどこまで明らかにし、何をまだ示していないのかが分かります。前世代Maia 200やNvidia製GPUとの違い、比較条件と実測の有無、量産計画の不確実性を踏まえて、発表された数字を見極める視点を判断できます。\n\n**この記事の要点**\n\n- Microsoftは2026年10月に第3世代AIチップMaia 300を発表し、2027年に本番展開を始めるとしています[1]。\n- Maia 300は主要GPU比で1メガワットあたり40％多くのトークン供給を見込むとされます[1]。\n- 前世代Maia 200はTSMC 3nmで製造され、Copilotなど本番AIワークロードで稼働しています[1][3]。\n\n（最終更新：2026年10月13日）",
+    "type": "product",
+    "layer": "choose",
+    "date": "2026-10-13 01:45",
+    "readTime": "1分",
+    "category": "🎯 AIを武器にするスキル・思考法",
+    "image": "/blog-images/product-20261013-microsoft-maia-3-ai-chip/cover.jpg",
+    "content": [
+      {
+        "section": "Maia（マイア）第3世代 AIチップは何を発表し、いつ使えるのか",
+        "text": "![Maia 200とMaia 300の比較](/blog-images/product-20261013-microsoft-maia-3-ai-chip/fig-1.svg)\n\n*図：Maia 200とMaia 300の比較（出典：[1][3][7]）*\n\nMicrosoftは2026年10月12日、第3世代の自社開発AIチップ「Maia 300」を発表しました[1]。Maia 300は、Microsoftの製品とサービスにおける「主要なAI推論システム」となるよう設計されたとされています[1]。推論とは、学習済みのAIモデルを実際に動かして答えを出す処理を指します。\n\n提供時期について、Maia 300は2027年に本番環境への展開が始まるとされています[1]。Microsoftのクラウド部門の幹部であるスコット・ガスリー氏によれば、2027年からAzure Maiaファミリーをマルチギガワット規模の展開へと拡大し、MaiaをMicrosoft製品とサービスの主要なAI推論システムにする方針です[1]。\n\n![Maia（マイア）第3世代 AIチップは何を発表し、いつ使えるのかのイラスト](/blog-images/product-20261013-microsoft-maia-3-ai-chip/ill-1.jpg)\n\n効率面では、Maia 300は主要なGPUベースのシステムと比べて1メガワットあたり40パーセント多くのトークンを供給すると期待されているとされます[1]。トークンとは、AIが扱う文字や単語の断片のことです。また、96基のアクセラレーターを搭載した構成では、Maia 200のラックスケールのトークンスループットの最大7倍を実現するとされています[1]。\n\n前世代のMaia 200は2026年1月に発表されました[1]。Maia 200はすでにMicrosoftの本番AIワークロードで稼働しており、Microsoft Copilot、GitHub Copilot、Microsoft Foundry、Microsoftの自社AIモデルなどが含まれるとされています[1]。Maia 200はアイオワ州デモイン近郊の米国中部データセンターリージョンに展開済みで、次にアリゾナ州フェニックス近郊の米国西部3リージョン、その後も複数リージョンでの展開が予定されています[3][7]。\n\n一方、Maia 300の対応地域についての具体的な発表は、今回の出典からは確認できません。第3世代のチップが私たちの日常のサービスに届くまでには、まだしばらく時間がかかりそうです。"
+      },
+      {
+        "section": "推論に特化したMaia（マイア）第3世代 AIチップの設計、何が変わる",
+        "text": "Microsoftは2026年1月26日、推論アクセラレータ「Maia 200」を発表しました[3][4]。Maia 200はTSMCの3nmプロセスで製造され、1,400億個超のトランジスタを搭載しています[3][7]。ネイティブのFP8/FP4テンソルコアを備え、FP4で10ペタFLOPS超、FP8で5ペタFLOPS超の性能を750WのSoC TDP内で提供します[3][7]。\n\nメモリ面では、7TB/sの帯域幅を持つ216GBのHBM3eと272MBのオンチップSRAMを備えた新しいメモリシステムを採用しています[3][7]。低精度データ型、専用DMAエンジン、オンダイSRAM、高帯域幅データ転送用のNoCファブリックを組み合わせ、トークンスループットを向上させる設計です[3][7]。\n\n性能比較では、Amazon Trainium第3世代のFP4性能の3倍、Google第7世代TPUを超えるFP8性能を発揮するとされています[3][4][7]。また、現在の最新世代ハードウェアに比べ1ドルあたりの性能が30%向上したとされています[3][4][7]。\n\n![推論に特化したMaia（マイア）第3世代 AIチップの設計、何が変わるのイラスト](/blog-images/product-20261013-microsoft-maia-3-ai-chip/ill-2.jpg)\n\nシステム面では、標準Ethernet基盤の2層スケールアップネットワークを導入し、双方向専用スケールアップ帯域幅2.8TB/s、最大6,144基のアクセラレーターのクラスターを構成できます[4][7]。各トレイ内では4つのMaiaアクセラレーターがスイッチを介さない直接リンクで接続されます[7]。\n\nMaia 200はアイオワ州デモイン近郊の米国中部データセンターに展開済みで、次にアリゾナ州フェニックス近郊の米国西部3リージョンへ展開予定です[3][7]。OpenAIのGPT-5.2を含む複数モデルをサポートし、Microsoft FoundryやMicrosoft 365 Copilotにコストパフォーマンスをもたらします[3][7]。Maia SDKもプレビュー提供されています[3][7]。\n\n新しいチップのスペックを眺めていると、身の回りの家電が少しずつ静かで賢くなっていく過程を思い浮かべる方もいるかもしれません。"
+      },
+      {
+        "section": "前世代のMaia 200やNvidia製GPUと比べて、何が違うのか",
+        "text": "![Maia 200とMaia 300の主な性能比較](/blog-images/product-20261013-microsoft-maia-3-ai-chip/fig-2.svg)\n\n*図：Maia 200とMaia 300の主な性能比較（出典：[2][5][8]）*\n\n第3世代のMaia 300は、前世代のMaia 200からの積み増しと、Nvidia製GPUへの対抗という2つの軸で読むと違いが見えてきます。\n\nまず前世代との比較です。Maia 200は台湾TSMCの3nmプロセスを採用し、6基のHBM3eスタックと7TB/sのメモリ帯域を備えていました[2][5]。これに対しMaia 300は、TSMCのN2Pプロセスを使うマルチチップレット設計へと変わります[5]。メモリは8基のHBM4スタックで288GB、帯域は18TB/sとされます[5]。チップ単体の消費電力は750Wから950Wに増える見込みです[5]。演算性能ではFP4が10.1ペタオペから13.8ペタオペへ、FP8が5.1ペタオペから6.9ペタオペへ引き上げられるとされています[5]。ラック単位では96基を収め、Maia 200ラックの5.1倍のメモリ帯域と最大7倍のトークン処理量を見込むといいます[5]。\n\n![前世代のMaia 200やNvidia製GPUと比べて、何が違うのかのイラスト](/blog-images/product-20261013-microsoft-maia-3-ai-chip/ill-3.jpg)\n\n狙いもはっきりしています。Maia 200は数万個しか製造されず、2026年7月下旬時点で米国の2つのデータセンターで稼働するにとどまっていました[8]。Maia 300では2027年中に30万個の納品を目指し、TSMCと協議中と報じられています[8]。MicrosoftはMaiaを自社製品・サービスの主要な推論基盤にする方針を示しており[5]、Nvidia製GPUへの依存を減らす意図が読み取れます[8]。\n\n性能の比較には注意も要ります。MicrosoftはMaia 300について、主要なGPUベースのシステム比で1メガワットあたり40%多くのトークンを処理できるとの見込みを示していますが、比較対象のGPUシステムやワークロードは明示されておらず、実測もまだ存在しません[5]。量産は2027年開始とされ、現時点の数字はあくまで期待値という位置づけです[5]。\n\n新しいチップの話を聞くたび、私たちの暮らしを支える見えない計算機の入れ替えが、静かに進んでいるのだと感じます。"
+      },
+      {
+        "section": "Azure利用者の作業はどう変わる——クラウドAIの主導権はどこへ",
+        "text": "Maia 300は、Microsoftの製品とサービスにおける「主要なAI推論システム」になるよう設計されたとされています[1]。推論とは、学習済みのAIモデルに問い合わせて答えを出す処理のことです。この位置づけが実現すれば、Azure上で動くAIサービスの裏側では、NvidiaやAMDのGPUに代えてMaiaが使われる割合が増えていくことになります[1]。\n\nMicrosoftのクラウド部門を統括するスコット・ガスリー氏によれば、Maia 300はGPUベースの主要システムと比べて1メガワットあたり40%多くのトークンを生成すると期待されているとされます[1]。トークンとは、AIが扱う文字や単語の単位です。また、96基のアクセラレーターを搭載した構成では、Maia 200のラックスケールのトークンスループットの最大7倍を実現するとされています[1]。\n\n![Azure利用者の作業はどう変わる——クラウドAIの主導権はどこへのイラスト](/blog-images/product-20261013-microsoft-maia-3-ai-chip/ill-4.jpg)\n\n効率が上がれば、同じ電力でより多くのAIリクエストを処理できる計算になります。Azure利用者の作業が直ちに変わるわけではありませんが、長い文脈を扱う推論や、応答の速さが求められる対話、多段階のエージェント的タスクといった新しい種類のワークロードに向けて設計されている点は注目されます[1]。エージェント的タスクとは、AIが自律的に複数の手順を踏んで目的を達成する処理を指します。こうした処理をクラウド側で安く速く回せるようになれば、利用者が待たされる時間や利用料の水準にも影響しそうです。\n\n一方、Maia 300は2027年に本番環境への展開が始まるとされています[1]。前世代のMaia 200は、CopilotやGitHub Copilot、Microsoft Foundryなどで既に本番のAIワークロードを動かしているとされます[1]。第3世代が同じ流れを引き継ぐなら、利用者が意識しないまま推論の土台が入れ替わっていく可能性があります。\n\nクラウドAIの主導権という点では、自社チップへの移行はNvidiaへの依存を減らす動きとして位置づけられます[1]。ただし、展開時期や実際の性能がどこまで及ぶかは、発表内容から断定できるものではありません。日々の作業でAIを呼び出すとき、その答えを計算しているのが誰のチップなのかを気にする人は、ほとんどいないのではないでしょうか。"
+      },
+      {
+        "section": "性能比較の数字はどこまで信じられる——日本企業は何を確かめるか",
+        "text": "![発表値と実測・供給の不確実性](/blog-images/product-20261013-microsoft-maia-3-ai-chip/fig-3.svg)\n\n*図：発表値と実測・供給の不確実性（出典：[5][8]）*\n\n性能比較の数字を読むときは、まず「何を測った数字か」を確かめる場面が増えそうです。MicrosoftはMaia 300について、主要なGPUベースのシステムと比べて1メガワットあたりのトークン数が40％多いと見込んでいます[5]。ただし、比較対象のGPUシステムやワークロードは明示されておらず、実測値もまだ存在しません[5]。これは期待値であり、量産開始は2027年とされています[5]。\n\n![性能比較の数字はどこまで信じられる——日本企業は何を確かめるかのイラスト](/blog-images/product-20261013-microsoft-maia-3-ai-chip/ill-5.jpg)\n\n- 仕様として示されているのは、TSMCのN2Pプロセスを用いたチップレット、HBM4を8スタック、帯域18TB/s、容量288GB、チップ電力950Wです[5]。ラック単位では96基を収め、167kWで、Maia 200のラックと比べてメモリ帯域が5.1倍、トークン処理量が最大7倍とされています[5]。\n- 一方、量産計画には不確実性があります。The Informationの報道として、Microsoftは2027年中に30万個以上の製造を目指しTSMCと交渉中とされ、部品不足や継続的な交渉が制約になると指摘されています[8]。最終的には100万個以上を目指すとも報じられています[8]。\n- ただし、Azure Maia担当のアンドリュー・ウォール氏は、生産量は公表しておらず、報道された数字はプログラムの規模を反映していないとコメントしています[8]。前世代のMaia 200は数万個しか製造されておらず、2026年7月下旬時点で米国の2つのデータセンターで稼働しているに過ぎないとされています[8]。\n\n日本企業にとっては、発表された数字をそのまま自社の調達計画やコスト試算に当てはめるのではなく、比較条件と実測の有無を確認する姿勢が要りそうです。導入を検討する際は、対象ワークロードでの実測値がいつ示されるか、供給量がどの程度確保されるかを見極める段階になりそうです。数字の大きさに目を奪われる前に、その数字が何を語っていないかに耳を澄ませてみるのはいかがでしょうか。"
+      },
+      {
+        "section": "編集長の眼",
+        "text": "Maia 300が2027年に本番環境へ広がっていくと、私たちが日々使うCopilotやAzure上のAIサービスの答えを計算しているのが、NvidiaのGPUではなくMicrosoft自社のチップになっている——そんな場面が少しずつ増えていくかもしれません。たとえば、長い契約書を読み込ませて要約させる法務担当者、問い合わせ対応をAIエージェントに任せるコールセンター、開発中にコード補完を何度も呼び出すエンジニア。こうした作業の裏側で、同じ電力からより多くのトークンが生まれるようになれば、応答が待ち遠しくなくなる日が来るかもしれません。MicrosoftはMaia 300を主要な推論システムにすると位置づけており、前世代のMaia 200がすでにCopilotやFoundryで動いていることを思うと、第3世代はその流れを静かに太くするものに見えます。性能の数字はまだ期待値で、供給量にも不確かさはあります。それでも、自社チップで推論を支える選択肢が太くなることは、クラウドAIの使い方の幅を少しずつ広げていくのでしょう。見えない計算機の入れ替わりが、やがて私たちの待ち時間や利用の仕方を変えていく。その歩みは、思ったより穏やかで、確かなものに感じられます。"
+      },
+      {
+        "section": "よくある質問",
+        "text": ""
+      },
+      {
+        "section": "Q. Microsoft Maia 第3世代 AIチップはいつ発表・提供されますか？",
+        "text": "Microsoftは2026年10月12日に第3世代の「Maia 300」を発表しました[1]。提供時期については、2027年に本番環境への展開が始まるとされています[1]。Microsoftのスコット・ガスリー氏は、2027年からAzure Maiaファミリーをマルチギガワット規模へ拡大する方針を示しています[1]。"
+      },
+      {
+        "section": "Q. Maia はNvidiaのGPUと何が違うのですか？",
+        "text": "Maiaは推論に特化して設計された自社開発チップで、Maia 300はMicrosoft製品・サービスの主要なAI推論システムになるよう設計されています[1]。効率面では主要なGPUベースのシステム比で1メガワットあたり40％多くのトークン供給を見込むとされます[1]。自社チップへの移行はNvidiaへの依存を減らす動きとして位置づけられています[1]。"
+      },
+      {
+        "section": "Q. Maia 第3世代は日本で使えるようになりますか？",
+        "text": "Maia 300の対応地域についての具体的な発表は、今回の出典からは確認できません。前世代のMaia 200はアイオワ州デモイン近郊の米国中部データセンターに展開済みで、次にアリゾナ州フェニックス近郊の米国西部3リージョンへ展開予定とされています[3][7]。日本での提供時期は現時点では不明です。"
+      },
+      {
+        "section": "出典・参考資料",
+        "text": "1. [Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs](https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout)（参照日：2026年10月13日）\n2. [Microsoft、推論特化チップ「Maia 200」　競合比3倍の性能でGPT-5.2を支援](https://www.itmedia.co.jp/news/article/2601/27/1260127059/)（参照日：2026年10月13日）\n3. [Maia 200: The AI accelerator built for inference](https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/)（参照日：2026年10月13日）\n4. [Microsoft Unveils Maia 200 AI Accelerator for Superior Inference Performance](https://mlq.ai/news/microsoft-unveils-maia-200-ai-accelerator-for-superior-inference-performance/)（参照日：2026年10月13日）\n5. [Microsoft Maia 300: Specs, the 40% Claim, vs Maia 200](https://cellcog.ai/blog/microsoft-maia-300/)（参照日：2026年10月13日）\n7. [Maia 200: 推論に特化した AI アクセラレーター](https://news.microsoft.com/source/asia/features/maia-200-the-ai-accelerator-built-for-inference/?lang=ja)（参照日：2026年10月13日）\n8. [Microsoftは次世代AIチップ「Maia 300」を早ければ2026年9月にも発表予定、2027年中に30万個以上の製造を目指しTSMCと交渉中](https://gigazine.net/news/20260813-microsoft-maia-300-ai-chip-fall/)（参照日：2026年10月13日）"
+      },
+      {
+        "section": "関連記事",
+        "text": "- [AIバスの廃止——MicrosoftとOpenAI、その先は](/blog/20260331-235920)\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "20260331-235920",
+      "20260318-084916",
+      "20260308-103350",
+      "product-20260929-claude-sonnet-5-5",
+      "product-20261011-gommari-payroll-ai-agent",
+      "20260317-093413",
+      "product-20260930-openai-dots-agents",
+      "20260312-224144"
+    ]
+  },
+  {
+    "slug": "product-20261014-apple-homeview-siri-ai",
+    "title": "Apple HomeView 299ドル 11月発売 Siri AI同居",
+    "lead": "日本での発売時期も価格もまだ分からないHomeView、299ドル・11月発売という発表だけで買うか迷っていませんか。確定した情報と未確定の点が分かれば、何を待ち、何を確かめてから判断すべきかを見極められます。",
+    "preamble": "*画像：Appleの公式発表の写真をもとにしたイラストです（原典：[Apple unveils HomeView, the company's smart displa](https://www.engadget.com/2285072/apple-launch-homeview-smart-display-siri-ai/)）*\n\nAppleは2026年10月13日、Siri AIを中心に据えたスマートディスプレイ「HomeView」を299ドルで発表し、11月13日に発売すると公表しました。米国での予約はすでに始まっていますが、日本での発売時期や円建て価格はまだ示されておらず、Siri AIの日本語対応やEUでの提供時期も明らかになっていません。発表を聞いて関心を持っても、自分の住む地域でいつ、いくらで、どの機能が使えるのかが分からなければ、買うべきかどうかを決められずに立ち止まってしまいます。この端末は、あなたの家で何を引き受け、何を任せきれないのか？この記事を読むと、HomeViewについて現時点で確定している情報と未確定の点が分かり、日本での購入や利用を判断するために何を待ち、何を確かめればよいかを見極められます。\n\n**この記事の要点**\n\n- AppleがSiri AI向けスマートディスプレイHomeViewを299ドルで発表し、11月13日に発売されます[1]。\n- 7インチ画面とA18チップを搭載し、顔と声で利用者を区別して表示を切り替えます[1]。\n- 日本での発売時期や円建て価格、日本語対応は出典に記載がなく未確定です[1][2][3]。\n\n（最終更新：2026年10月14日）",
+    "type": "product",
+    "layer": "choose",
+    "date": "2026-10-14 00:05",
+    "readTime": "1分",
+    "category": "🎯 AIを武器にするスキル・思考法",
+    "image": "/blog-images/product-20261014-apple-homeview-siri-ai/cover.jpg",
+    "content": [
+      {
+        "section": "Apple HomeViewは299ドルで11月発売、何がどこまで決まったのか",
+        "text": "Appleは2026年10月13日、Siri AI向けのスマートディスプレイ「HomeView」を発表しました[1]。価格は299ドルで、2つのモデルが用意されます[1]。予約は発表当日から始まり、一般発売は11月13日です[1]。\n\nまず押さえておきたい基本情報を整理します。\n\n- 発表日：2026年10月13日[1]\n- 価格：299ドル[1]\n- 予約開始：発表当日[1]\n- 発売日：11月13日[1]\n- モデル：台座付きの据え置き型と、台座なしの壁掛け型の2種類[1]\n\n![Apple HomeViewは299ドルで11月発売、何がどこまで決まったのかのイラスト](/blog-images/product-20261014-apple-homeview-siri-ai/ill-1.jpg)\n\n対応地域について、出典1には米国以外の地域や日本での発売時期は示されていません[1]。現時点で分かるのは、299ドルという価格と11月13日という発売日です[1]。日本での展開は別途の発表を待つ必要がありそうです。\n\nなお、2024年11月の時点では、BloombergのMark Gurman氏の予想として、2025年3月にもApple Intelligenceを搭載したスマートホームディスプレイが登場する可能性があると報じられていました[6]。当時は約6インチの対角サイズで、価格は200ドル前後になるかもしれないという見方もありました[6]。今回発表された299ドル・7インチという内容は、そうした初期の観測とは異なる形で確定したことになります[1][6]。\n\n新しい機器の発表で最初に気になるのは、やはり「いつ、いくらで、どこで使えるのか」という点ではないでしょうか。"
+      },
+      {
+        "section": "Siri AIはこの据え置きディスプレイで何をしてくれるのか",
+        "text": "![HomeViewの操作と表示の特徴](/blog-images/product-20261014-apple-homeview-siri-ai/fig-1.svg)\n\n*図：HomeViewの操作と表示の特徴（出典：[1]）*\n\nHomeViewは、Siri AIを中心に据えた操作が特徴です。画面と音声という2つの方法で操作し、ボタンは搭載されていません[1]。Siri AIの処理を担うのはA18チップで、家庭内で多くの個人情報を扱う端末に求められるデータ保護の水準も支えるとされています[1]。顔と声の認識によって利用者を区別し、前に立つ人に応じてインターフェースやアプリの一覧を切り替えます[1]。端末から離れるとロック画面に切り替わり、他の人が閲覧できないようになっています[1]。\n\n![Siri AIはこの据え置きディスプレイで何をしてくれるのかのイラスト](/blog-images/product-20261014-apple-homeview-siri-ai/ill-2.jpg)\n\n据え置き型ディスプレイとしては、7インチの正方形Liquid Retinaディスプレイを備えます[1]。明るさは最大500ニットで、最小0.3ニットまで下げられます[1]。この低い明るさは、早朝やナイトテーブルに置く場面を想定したものとされています[1]。待機時に表示される画面はFacesと呼ばれ、アートや写真、時計のデザインをカスタマイズできます[1]。ロックを解除すると、ウィジェットを4つの領域に配置できるホーム画面が表示されます[1]。上部には12メガピクセルのFaceTimeカメラとCenter Stageが搭載されています[1]。\n\n家庭内での利用としては、カレンダーや天気といったiOSの標準アプリに加え、音声・ビデオ通話のアプリが利用できます[1]。iPhoneを近づけて音声やレシピを引き継ぐ使い方も想定されています[1]。Safariにはレシピモードが用意され、材料の追加やタイマーの設定をSiri AIが補助します[1]。Apple Home Collectionの機器はHomeViewから操作でき、ライブ映像も表示できます[1]。これらの機能が暮らしにどう馴染むかは、実際に置いてみて初めて見えてくるのかもしれません。"
+      },
+      {
+        "section": "HomePodやApple TVと比べて、HomeViewは何が違うのか",
+        "text": "![HomeView登場までの待ち要因](/blog-images/product-20261014-apple-homeview-siri-ai/fig-2.svg)\n\n*図：HomeView登場までの待ち要因（出典：[2][3][4]）*\n\nHomeViewは、既存のApple製品と同じ役割を担う機器ではありません。Apple TV 4Kの刷新は2026年に予定されており、Siri AIの登場後に発売される可能性が高いとされています[2]。一方、HomePod miniは刷新版がすでに用意されているとされながらも、新しいSiriとAIの強化を待って発売が見送られていると報じられています[3]。つまり、どちらも機器そのものの完成度ではなく、ソフトウェアの到着を待っている状態です[2][3]。\n\nApple TVが動画視聴、HomePodが音声操作や音楽再生を主目的とするのに対し、HomeViewは画面を備えたスマートホームの中核として構想されている点が異なります[2]。また、Apple TVとHomePodはHomeKitのハブとして、外出先からHomeアプリでスマートホームを操作する役割も担ってきました[4]。HomeViewはその延長線上にある機器という見方があります[2][4]。\n\n![HomePodやApple TVと比べて、HomeViewは何が違うのかのイラスト](/blog-images/product-20261014-apple-homeview-siri-ai/ill-3.jpg)\n\n遅延の背景には、SiriのAI強化が当初の予定からずれ込んだ経緯があります[3]。同社は自社AIをスキップしてGoogleと提携し、GeminiモデルをAI音声アシスタントに使うことを決めたとされています[3]。搭載時期はiOS 26.5またはiOS 27になるとされています[3]。この影響で、Apple TVやHomePod miniの刷新はAI機能が必須ではないものの、同時期に合わせられたとみられています[3]。\n\n他社のスマートディスプレイと比べても、HomeViewは単体の画面付き端末というより、HomeKitとHomeアプリを軸にした住まい全体の操作盤として設計されているようです[4]。実際の使い勝手はSiriの出来に左右されそうです[2][3]。あなたの家で、画面は何をするために置かれているでしょうか。"
+      },
+      {
+        "section": "Siri AIが家に同居したら、あなたの家事や会話はどう変わるのか",
+        "text": "![Siri AI端末が変える家庭の便利さと論点](/blog-images/product-20261014-apple-homeview-siri-ai/fig-3.svg)\n\n*図：Siri AI端末が変える家庭の便利さと論点（出典：[1][5]）*\n\nHomeViewは、Siri AIを搭載した7インチのタッチスクリーン端末です[1]。家族の誰が前に立っているかを顔と声で見分け、その人に合わせた画面やアプリを表示します[1]。iPhoneやiPadのデータをもとに内容を変える仕組みです[1]。リビングに置けば、家族それぞれに違う顔を見せる道具だといえます。\n\n家事の場面では、Safariにレシピモードが用意されています[1]。Googleの整形基準を満たすレシピであれば、見やすい形式で表示されます[1]。足りない材料の確認やタイマーの設定は、Siri AIが支えるとされています[1]。料理中に手が離せないとき、画面と声だけで進められる場面が増えそうです。ただし、どこまで実際に動くかは発売後の確認が必要です。\n\n![Siri AIが家に同居したら、あなたの家事や会話はどう変わるのかのイラスト](/blog-images/product-20261014-apple-homeview-siri-ai/ill-4.jpg)\n\n会話の面では、音声と映像のアプリに対応し、12メガピクセルのFaceTimeカメラとCenter Stageを備えます[1]。ビデオ通話で相手を画面に捉えながら話せます[1]。端末を離れるとロック画面に切り替わり、覗き見を防ぐ仕組みもあります[1]。一方で、利用にはiPhoneやiPadの定期的なロック解除が求められるとされています[1]。夜間の休止向けの設定も用意されているとされますが、その範囲は明らかにされていません[1]。プライバシーと手軽さの両立を狙った設計と読めます。\n\n気になる点もあります。EUでは、iOS 27のローンチ時にSiri AIが使えないとされ、EUでの提供時期は示されていません[5]。また、Siri AIはGoogleからライセンスを受けたGeminiモデルで動くと報じられています[5]。家庭に置く端末が誰の声を聞き、何を覚えるのか。便利さの裏側で、あなたは何を許し、何を許さないと決めますか。"
+      },
+      {
+        "section": "日本で買えるのか、発売前にあなたが確かめるべき点は何か",
+        "text": "![日本発売前に確認すべき未確定点と行動](/blog-images/product-20261014-apple-homeview-siri-ai/fig-4.svg)\n\n*図：日本発売前に確認すべき未確定点と行動（出典：[2][3][6]）*\n\nHomeViewが299ドルで11月に発売されるという情報は[1]、発表資料にもとづく紹介であり、日本での販売や対応時期はまだ確定していません。現時点で確認できる未確定な点を整理します。\n\n- 対応地域: 出典には日本での発売や対応地域についての記載がありません[2][3]。日本で買えるかどうかは、現時点では分からないとされています。\n- 発売時期: 11月発売という情報はありますが、これは米国などの一部地域を指す可能性があります[2]。日本での発売日は出典に書かれていません。\n- 価格: 日本での円建て価格は出典に記載がありません[2][6]。為替や関税、流通経費によって変わる可能性があります。\n- AI精度: 搭載されるAIの精度や日本語対応の可否は、出典では触れられていません[2][3][6]。SiriのAI強化は遅れているとされ、発売後の機能追加になる可能性があります[2][3]。\n- 在庫・流通: 米国では一部製品の在庫が少なくなっているという報告がありますが、日本での流通状況は不明です[3]。\n\n![日本で買えるのか、発売前にあなたが確かめるべき点は何かのイラスト](/blog-images/product-20261014-apple-homeview-siri-ai/ill-5.jpg)\n\n今の段階でできる行動としては、次のようなものが考えられます。\n\n- 公式サイトや正規販売店の情報を定期的に確認する。\n- 海外価格を参考に、予算の目安を考えておく。\n- 日本語対応やAI機能の発表を待ってから判断する。\n\n新しいガジェットは、発表と同時に手に入るとは限りません。あなたの暮らしに本当に必要な機能が、いつ、どの言語で使えるようになるかを見極めることが大切です。"
+      },
+      {
+        "section": "編集長の眼",
+        "text": "HomeViewが299ドルで登場するという報せは、住まいの中に新しい「会話の相手」が加わることを意味しているのかもしれません。リビングに置けば、顔と声で家族を見分け、それぞれに合った画面を映し出すといいます[1]。たとえば朝、お父さんが天気と予定を確認し、お母さんがレシピモードで夕食の段取りを整え、子どもがビデオ通話で祖父母の顔を見る——そんな光景が、ひとつの正方形の画面の上で静かに切り替わっていくのでしょう[1]。料理中に手が離せないとき、声だけで材料を確認し、タイマーを任せられる場面も想像できます[1]。端末から離れればロック画面に切り替わり、覗き見を防ぐ配慮も備わっています[1]。Siri AIの到着を待つ間、Apple TVやHomePod miniの刷新が見送られているという事情もありますが[2][3]、それは裏を返せば、住まい全体の操作盤としての完成度をじっくり高めている証拠なのかもしれません。日本での展開はまだ見えませんが、家庭の中に画面と声が自然に溶け込む日は、そう遠くないように思えます。"
+      },
+      {
+        "section": "よくある質問",
+        "text": ""
+      },
+      {
+        "section": "Q. Apple HomeViewは日本でいつ発売されますか？",
+        "text": "出典には日本での発売時期や対応地域についての記載がありません[1][2][3]。11月13日という発売日は米国などの一部地域を指す可能性があり[2]、日本での展開は別途の発表を待つ必要があります。現時点で分かるのは299ドルという価格と11月13日という発売日です[1]。"
+      },
+      {
+        "section": "Q. Apple HomeViewは299ドルで何ができますか？",
+        "text": "7インチの正方形Liquid RetinaディスプレイとA18チップを備え、画面と音声で操作します[1]。顔と声で利用者を区別し、カレンダーや天気などの標準アプリ、音声・ビデオ通話、Safariのレシピモード、Apple Home Collectionの機器操作やライブ映像表示が利用できます[1]。"
+      },
+      {
+        "section": "Q. HomePodやApple TVを今買うべきですか？",
+        "text": "Apple TV 4Kの刷新は2026年に予定され、Siri AIの登場後に発売される可能性が高いとされています[2]。HomePod miniも刷新版が用意されているとされながら、新しいSiriとAIの強化を待って発売が見送られていると報じられています[3]。どちらもソフトウェアの到着を待っている状態です[2][3]。"
+      },
+      {
+        "section": "出典・参考資料",
+        "text": "1. [Apple Unveils HomeView, The Company's Smart Display Built For Siri AI](https://www.engadget.com/2285072/apple-launch-homeview-smart-display-siri-ai/)（参照日：2026年10月14日）\n2. [Don’t Buy an Apple TV or HomePod Right Now — Here’s What They’re Waiting On](https://medium.com/macoclock/dont-buy-an-apple-tv-or-homepod-right-now-here-s-what-they-re-waiting-on-cdec0bac0dd5)（参照日：2026年10月14日）\n3. [Apple stalls launch of two new smart home devices as it waits for Gemini powered Siri AI: Report](https://www.livemint.com/technology/tech-news/apple-stalls-launch-of-two-new-smart-home-devices-as-it-waits-for-gemini-powered-siri-ai-report-11774229036853.html)（参照日：2026年10月14日）\n4. [With the HomePod retired and Apple TV aging, what is  next for Apple’s smart home strategy?](https://www.gearbrain.com/apple-smart-home-strategy-plan-2651113033.html)（参照日：2026年10月14日）\n5. [Apple's smart home lineup was ready. Siri held it back.](https://daily.dev/posts/apple-s-smart-home-lineup-was-ready-siri-held-it-back--pd95lqukn)（参照日：2026年10月14日）\n6. [Apple to launch all-new smart home display with Apple Intelligence as early as March 2025](https://appleosophy.com/2024/11/12/apple-to-launch-all-new-smart-home-display-with-apple-intelligence-as-early-as-march-2025/)（参照日：2026年10月14日）\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "product-20261015-apple-homepod-mini-2026",
+      "product-20261002-legato-ai-hearing-glasses",
+      "20260518-050231",
       "product-20261009-natura-99-ai-smart-ring",
-      "product-20261007-nano-banana-2-1",
       "product-20261006-tenku-note-pro-ai",
-      "product-20260929-claude-sonnet-5-5"
+      "product-20261004-meta-muse-charm",
+      "product-20260927-honor-robot-phone",
+      "product-20261013-microsoft-maia-3-ai-chip"
+    ]
+  },
+  {
+    "slug": "product-20261015-apple-homepod-mini-2026",
+    "title": "HomePod mini（新型）149ドル発表、Siri AIと光の演出",
+    "lead": "新型HomePod miniが149ドルで登場しても、Siri AIは発売時点では使えず、日本語対応の時期も示されていません。何が変わり何がまだ変わらないのかが分かれば、日本での予約や購入を見送るかを自分で判断できます。",
+    "preamble": "*画像：Appleの公式発表の写真をもとにしたイラストです（原典：[Apple refreshes its HomePod mini with a new chip a](https://techcrunch.com/2026/10/13/apple-refreshes-its-homepod-mini-with-a-new-chip-and-149-price-tag/)）*\n\nアップルが2026年10月13日に発表したHomePod mini 2は、149ドルという価格とS10チップ、Sound Glowを携えて10月30日に発売されます。一方で、Siri AIは発売時点では使えず、今後のソフトウェアアップデートで英語8カ国から順次提供され、日本語対応時期は示されていません。日本価格は2万4800円とする記載があるものの、発売日は出典に確認できず、旧モデルからの値上げ幅も50ドル説と20ドル説が併存しています。こうした情報が混在するとき、あなたは何を基準に買うかどうかを決めればよいのでしょうか？ この記事を読むと、新型HomePod mini 2で何が変わり、何がまだ変わっていないのかが分かります。日本で使う場合に確認すべき点を整理し、予約するか待つかを自分で判断できます。\n\n**この記事の要点**\n\n- アップルは2026年10月13日、S10チップとSound Glowを備えた「HomePod mini 2」を149ドルで発表しました[1][2][3]。\n- Siri AIは発売時点では使えず、今後のソフトウェアアップデートで英語8カ国に順次提供される予定です[1][2][3][7]。\n- 発売日は10月30日、カラーは5色、予約注文は発表当日から始まっています[1][2][3]。\n\n（最終更新：2026年10月15日）",
+    "type": "product",
+    "layer": "choose",
+    "date": "2026-10-15 16:44",
+    "readTime": "1分",
+    "category": "🎯 AIを武器にするスキル・思考法",
+    "image": "/blog-images/product-20261015-apple-homepod-mini-2026/cover.jpg",
+    "content": [
+      {
+        "section": "HomePod mini新型は149ドルで何が変わったのか",
+        "text": "![HomePod mini 2 主要スペック](/blog-images/product-20261015-apple-homepod-mini-2026/fig-1.svg)\n\n*図：HomePod mini 2 主要スペック（出典：[1][2][3][7]）*\n\nアップルは2026年10月13日、スマートスピーカーの新モデル「HomePod mini 2」を発表しました。価格は149ドルです[1][2][3]。日本円での価格は出典に示されていません。\n\n前モデルは2020年に99ドルで登場しており、今回の149ドルはそこから50ドル高い設定です[1]。別の出典は「前モデルから20ドル引き上げた」としており[7]、比較の基準が異なるとみられます。いずれにせよ、値上がりした状態で登場したことは複数の出典で一致しています[1][7]。\n\n発売日は10月30日です[1][2][3]。発表当日から予約注文の受け付けが始まりました[1][2][3]。カラーはピンク、グリーン、ブルー、ホワイト、ミッドナイトの5色です[1][2][3]。\n\n![HomePod mini新型は149ドルで何が変わったのかのイラスト](/blog-images/product-20261015-apple-homepod-mini-2026/ill-1.jpg)\n\n対応地域については、米国を含む23カ国以上で展開される予定とされています[3]。Siri AIは今後のソフトウェアアップデートで提供され、英語での対応地域は米国、オーストラリア、カナダ、インド、ニュージーランド、シンガポール、南アフリカ、英国の8カ国です[2][3][7]。日本語への対応時期は出典に示されていません。\n\n本体にはS10チップが搭載され、音楽をリアルタイムで解析して音響性能を最適化します[1][2]。新機能「Sound Glow」では、本体上部がアルバムアートの色に合わせて光り、音楽に同期して脈動します[1][2]。\n\n新しいガジェットが届く日を、あなたは何と一緒に待つでしょうか。"
+      },
+      {
+        "section": "Siri AIとSoundGlowはあなたの部屋で何をするのか",
+        "text": "![Siri AIとSoundGlowの機能比較](/blog-images/product-20261015-apple-homepod-mini-2026/fig-2.svg)\n\n*図：Siri AIとSoundGlowの機能比較（出典：[1][2][4][7]）*\n\n新型HomePod miniには、Apple Watch Series 10と同じS10チップが搭載されます[4][7]。このチップは音楽をリアルタイムで解析し、ダイナミックレンジや音量、音響性能を最適化します[1][2][4]。Siri AIは、個人のコンテキスト理解や幅広い世界知識に基づく音楽探索、より多くのアプリとの連携を可能にする、より会話的なアシスタントになるとされています[2]。複数ターンの会話にも対応する予定です[1]。ただし、Siri AIは発売時点では利用できず、今後のソフトウェアアップデートで提供されます[1][4][7]。提供時期は明示されていません[1][4]。対応地域は米国、英国、カナダ、オーストラリアなど8カ国で、まず英語で提供される予定です[2][7]。パーソナライズ機能を使うには、Apple Intelligence対応のiPhoneまたはiPadが必要とされています[2][7]。\n\nSound Glowは、本体上部をビジュアルキャンバスとして機能させる新機能です[2]。音楽のベースやトレブルに合わせてリアルタイムで光が脈動し、アルバムアートワークに合わせたカラーで発光します[2][4]。雨や海の波などのサウンドスケープを選ぶと、それに合わせたアニメーションも楽しめます[2][4]。\n\n![Siri AIとSoundGlowはあなたの部屋で何をするのかのイラスト](/blog-images/product-20261015-apple-homepod-mini-2026/ill-2.jpg)\n\n新しいApple TV 4Kと組み合わせると、最大4台のHomePodスピーカーでサラウンド環境を構築できます[2][4][7]。各スピーカーが設置位置を認識し、空間に合わせて音響を自動調整するといいます[4][7]。AirPlay経由でMacのデフォルトスピーカーとしても利用でき、Wi-Fi 6Eにも対応します[4][7]。スマートホームのハブとしても機能し、煙や一酸化炭素の警報を検知するとiPhoneやApple Watchに通知を送ります[1][2][4]。\n\n部屋の片隅で小さな光が音楽に合わせて揺れるとき、私たちは何を聴いているのか、ふと考えさせられます。"
+      },
+      {
+        "section": "旧モデルと比べて149ドルは高いのか、安いのか",
+        "text": "![旧モデルとの価格差と地域別価格](/blog-images/product-20261015-apple-homepod-mini-2026/fig-3.svg)\n\n*図：旧モデルとの価格差と地域別価格（出典：[1][3][4][7]）*\n\n新型HomePod miniの価格は149ドルです[1][3][4][7]。初代HomePod miniは2020年に登場したモデルで、149ドルはそれより50ドル高いとされています[1]。一方、別の出典では従来モデルを129ドルとし、20ドルの引き上げとしています[4][7]。比較の基準とする旧価格が資料によって異なるため、値上げ幅は50ドルとも20ドルとも言い切れない状況です[1][4][7]。\n\n為替と地域差も見逃せません。英国では149ポンド、ユーロ圏では169ユーロ、日本では2万4800円とされています[4]。同じ製品でも市場ごとに価格帯が分かれる点は、単純な「高い・安い」の判断を難しくします[4]。\n\n![旧モデルと比べて149ドルは高いのか、安いのかのイラスト](/blog-images/product-20261015-apple-homepod-mini-2026/ill-3.jpg)\n\nでは、何が加わったのかを整理します。新モデルはS10チップを搭載し、ダイナミックレンジや音量、音響性能の最適化が図られています[1][3][4]。天面が音楽に合わせて発光する「Sound Glow」、第4世代Apple TV 4Kと組む4スピーカー構成、Macの既定スピーカーとしての利用、煙や一酸化炭素警報器の音を検知して通知する機能などが挙げられています[1][3][4][7]。Siri AIは将来のソフトウェアアップデートで対応するとされ、発売時点では利用できないとされています[1][3][4][7]。\n\n他社製スマートスピーカーとの比較については、今回の出典に具体的な価格や機能の比較情報が含まれていないため、本記事では踏み込みません。\n\n同じ「スピーカー」という棚に並ぶ製品でも、何にお金を払うかは人によって変わるのではないでしょうか。"
+      },
+      {
+        "section": "あなたの部屋の音と光はAIでどう彩られるのか",
+        "text": "![音と光、2つの進化](/blog-images/product-20261015-apple-homepod-mini-2026/fig-4.svg)\n\n*図：音と光、2つの進化（出典：[2][4][5]）*\n\n新型『HomePod mini 2』は、Siri AIとSound Glowという2つの要素で、部屋の中の音と光のあり方を変えようとしています[2][4]。\n\nまず音についてです。本体にはApple S10チップが搭載され、音楽をリアルタイムで解析し、ダイナミックレンジや音量、音響性能を最適化するとされています[2][4]。単体での利用だけでなく、ステレオペアやマルチルームオーディオにも対応します[2]。新しいApple TV 4Kと組み合わせれば、4スピーカーによるサラウンドサウンド環境を構築でき、Apple史上最も没入感のあるホームシアター環境を実現するといいます[2]。4台のHomePod mini 2を連携させたデモでは、小さな機器から予想以上に豊かな音が広がったという感想も報じられています[5]。リビングに複数台を置く暮らしでは、映画の夜の音の厚みが変わりそうです。\n\n光の面では、新機能「Sound Glow」が注目されます。本体上部がビジュアルキャンバスとして機能し、音楽のベースやトレブルに合わせてリアルタイムで光が脈動します[2]。再生中の楽曲のアルバムアートワークに合わせたカラーで発光し、楽曲ごとに異なる光の体験を生み出すといいます[2]。雨などのサウンドスケープを選べば、くつろぎの空間に合わせたアニメーションも楽しめます[2]。音楽を流す時間が、音だけでなく光の変化として部屋に現れることになりそうです。\n\n![あなたの部屋の音と光はAIでどう彩られるのかのイラスト](/blog-images/product-20261015-apple-homepod-mini-2026/ill-4.jpg)\n\nSiri AIは、今後のソフトウェアアップデートで提供されるとされています[2]。個人のコンテキスト理解や幅広い世界知識に基づく音楽探索、より多くのアプリとの連携などを可能にする、より会話的で高機能なアシスタントになるといいます[2]。1世帯あたり最大6人のユーザーを声で認識し、メッセージやタイマー、お気に入りの音楽などに安全に接続します[2]。友人がテキストで薦めてきた曲を見つけたり、メールからレシピを探して買い物リストに食材を追加したりするタスクも、プライバシーを保ちながら実行できるとされています[2]。ただし、Siri AIは発売時点では利用できず、米国、オーストラリア、カナダ、インド、ニュージーランド、シンガポール、南アフリカ、英国において、今後のソフトウェアアップデートにより英語で提供される予定です[2][4]。\n\nスマートホームのハブとしても、音声で玄関の施錠や照明の制御などが可能です[2]。Sound Recognition機能により、煙や一酸化炭素の警報を検知した場合はiPhone、iPad、Apple Watchに即座に通知を送ります[2]。\n\n部屋の灯りを消したあと、音楽に合わせて小さな光がゆっくり脈打つ様子を、あなたはどう眺めるでしょうか。"
+      },
+      {
+        "section": "日本で使うなら発売前に何を確かめるべきか",
+        "text": "![日本で発売前に確認すべき3点](/blog-images/product-20261015-apple-homepod-mini-2026/fig-5.svg)\n\n*図：日本で発売前に確認すべき3点（出典：[1][2][3][5][7]）*\n\n新型HomePod mini 2は、Siri AIが発売時点では使えず、将来のソフトウェアアップデートで提供されるとされています[1][7]。アップデートの具体的な時期は示されていません[1]。Siri AIが最初に英語で提供される地域は、米国、オーストラリア、カナダ、インド、ニュージーランド、シンガポール、南アフリカ、英国の8カ国です[2][3][7]。日本語への対応時期は明らかにされていません[7]。個人向けのコンテキスト機能を使うには、Apple Intelligenceに対応したiPhoneまたはiPadが必要とされています[2][3][7]。\n\n![日本で使うなら発売前に何を確かめるべきかのイラスト](/blog-images/product-20261015-apple-homepod-mini-2026/ill-5.jpg)\n\n日本での発売日は、出典の中では確認できません。一方、日本価格については2万4800円とする記載があります[5]。米国価格は149ドルです[1][2][3][7]。前モデルからの値上げ幅は、出典によって50ドルとするものと20ドルとするものがあり、一致していません[1][7]。米国を含む23カ国以上の国と地域で展開される予定とされていますが、日本の記載はありません[3]。対応ソフトウェアはHomePodソフトウェア27.2です[2][3]。\n\n発売前に確かめられることは限られます。Siri AIの日本語対応時期、日本での販売時期と価格、Apple Intelligence対応端末の有無を、公式の案内で確認しておくのが現実的です。予約を急ぐ前に、自分の使い方に必要な機能がいつ使えるようになるかを見極めたいところです。新しい道具を迎えるとき、その道具が本当に自分の暮らしの言葉を話し始めるのはいつなのか、少し立ち止まって考えてみませんか。"
+      },
+      {
+        "section": "編集長の眼",
+        "text": "新型HomePod mini 2は、小さな筐体にS10チップとSound Glowという新しい体験を詰め込んできました。リビングで家族が映画を観るとき、4台を連携させれば小さなスピーカーとは思えない厚みのある音に包まれそうです。子ども部屋では、音楽に合わせて天面がアルバムアートの色に揺れる様子を、寝る前のひととき眺めるのも楽しいかもしれません。仕事部屋では、Macの既定スピーカーとしてAirPlayでつなぎ、集中したい時間のBGMを流す——そんな使い方も自然に想像できます。Siri AIが後日のアップデートで会話的になり、メールからレシピを探したり友人おすすめの曲を見つけたりできるようになれば、話しかける相手としての存在感も増していくでしょう。発売時点でSiri AIが使えない点、日本語対応時期が示されていない点は、じっくり待つ構えが必要です。それでも、音と光と声が部屋の中でゆるやかにつながっていく未来は、静かな期待を感じさせます。"
+      },
+      {
+        "section": "よくある質問",
+        "text": ""
+      },
+      {
+        "section": "Q. HomePod mini（新型）は日本でいつ発売されますか？",
+        "text": "出典の中では、日本での発売日は確認できません。米国では2026年10月13日に発表され、10月30日発売とされています[1][2][3]。日本価格については2万4800円とする記載がありますが[5]、米国を含む23カ国以上での展開予定が示される一方で、日本の記載はありません[3]。公式の案内で確認するのが確実です。"
+      },
+      {
+        "section": "Q. Siri AIはHomePod mini（新型）で最初から使えますか？",
+        "text": "いいえ、Siri AIは発売時点では利用できず、今後のソフトウェアアップデートで提供されるとされています[1][4][7]。まず英語で米国、英国、カナダ、オーストラリア、インド、ニュージーランド、シンガポール、南アフリカの8カ国に対応予定です[2][3][7]。日本語への対応時期は出典に示されていません[7]。"
+      },
+      {
+        "section": "Q. HomePod mini（新型）のSoundGlowとは何ですか？",
+        "text": "Sound Glowは、本体上部をビジュアルキャンバスとして機能させる新機能です[2]。音楽のベースやトレブルに合わせてリアルタイムで光が脈動し、再生中の楽曲のアルバムアートワークに合わせたカラーで発光します[2][4]。雨や海の波などのサウンドスケープを選ぶと、それに合わせたアニメーションも楽しめます[2][4]。"
+      },
+      {
+        "section": "出典・参考資料",
+        "text": "1. [Apple refreshes its HomePod mini with a new chip and $149 price tag](https://techcrunch.com/2026/10/13/apple-refreshes-its-homepod-mini-with-a-new-chip-and-149-price-tag/)（参照日：2026年10月15日）\n2. [Appleが新型『HomePod mini 2』を発表　Siri AI対応で10月30日発売へ](https://realsound.jp/tech/2026/10/post-2552669.html)（参照日：2026年10月15日）\n3. [アップル、Siri AI搭載の「HomePod mini 2」を149ドルで発売](https://jp.investing.com/news/company-news/article-93CH-1710208)（参照日：2026年10月15日）\n4. [アップル、149ドルの「HomePod mini 2」発表——サウンドグローと4スピーカーサラウンド対応](https://finance.biggo.jp/news/060484fd-e112-4e04-ab3e-d9784074ffa4)（参照日：2026年10月15日）\n5. [アップル「HomePod mini 2」が登場、何が変わった？ 現地デモ体験の感想（CNET Japan）](https://news.yahoo.co.jp/articles/fa3e8e2b7e9073d231257ed0c3adeaa0d21a4d0f)（参照日：2026年10月15日）\n7. [Apple、「HomePod mini 2」発表　149ドルへ値上げ、Siri AIは後日対応](https://www.digitaltoday.co.kr/jp/view/114180/apple-unveils-homepod-mini-2-price-rises-siri-ai-to-come-later)（参照日：2026年10月15日）\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "product-20261014-apple-homeview-siri-ai",
+      "product-20261002-legato-ai-hearing-glasses",
+      "product-20260929-claude-sonnet-5-5",
+      "product-20261009-natura-99-ai-smart-ring",
+      "product-20261006-tenku-note-pro-ai",
+      "product-20261004-meta-muse-charm",
+      "ai-lab-vol1-ai-vs-ai-exam",
+      "product-20260927-honor-robot-phone"
     ]
   },
   {
