@@ -126,6 +126,7 @@ AIに代替されにくい仕事には、共通する特徴があります。ル
 - [AIエンジニアの仕事はなくなる？転職前に知る現実](/blog/ai-engineer-job-future)
 
 - [AIでデザイナーの仕事はなくなる？求められる役割の変化と生き残る道](/blog/ai-designer-job-future)
+- [AIでホワイトカラーは失業する？弁護士・コンサルの実例](/blog/ai-white-collar-unemployment)
 ## 出典・参考資料
 
 1. [AIに奪われる仕事ランキング｜AI時代でも活躍できる職業の共通点を解説](https://www.seigaku.ac.jp/news/ai/6181/)（参照日：2026年10月5日）

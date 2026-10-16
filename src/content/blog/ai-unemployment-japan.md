@@ -161,6 +161,7 @@ AI失業をめぐる議論では、利用データの偏りと因果関係の扱
 
 - [AIでなくなる仕事ランキング｜消える理由と残る条件](/blog/ai-jobs-disappear-ranking)
 - [AIエンジニアの仕事はなくなる？転職前に知る現実](/blog/ai-engineer-job-future)
+- [AIでホワイトカラーは失業する？弁護士・コンサルの実例](/blog/ai-white-collar-unemployment)
 ## 出典・参考資料
 
 1. [Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence - Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/)（参照日：2026年9月25日）
