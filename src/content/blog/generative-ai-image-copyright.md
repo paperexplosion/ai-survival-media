@@ -138,6 +138,7 @@ AI画像に著作権があるかどうかは、すでに日本の捜査の現場
 - [AIと著作権の考え方 生成AIの著作権問題を整理](/blog/ai-and-copyright-thinking)
 
 - [文化庁のAIと著作権 考え方とガイドラインの要点](/blog/cultural-affairs-ai-copyright)
+- [AI作曲著作権は誰のもの？商用利用の注意点を解説](/blog/ai-music-copyright)
 ## 出典・参考資料
 
 1. [【2025年最新】AI画像生成の著作権問題を徹底解説｜知らないと危険な法的リスクと安全な活用法](https://note.com/mashtake/n/n2aef7d771dd7)（参照日：2026年10月6日）
