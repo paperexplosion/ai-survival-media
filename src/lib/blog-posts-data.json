@@ -89,8 +89,8 @@
     "related": [
       "ai-scam-tactics",
       "20260222-220939",
-      "20260222-235624",
       "20260303-192918",
+      "20260222-235624",
       "20260225-081907",
       "20260223-093844",
       "20260225-222651",
@@ -691,8 +691,8 @@
     "related": [
       "20260226-175800",
       "20260312-224144",
-      "20260309-200004",
       "20260310-092331",
+      "20260309-200004",
       "20260222-235624",
       "20260303-051013",
       "20260305-071912",
@@ -1962,8 +1962,8 @@
       "20260223-103034",
       "ai-engineer-job-future",
       "20260312-203611",
-      "20260318-110741",
       "20260319-001818",
+      "20260318-110741",
       "20261010-082657"
     ]
   },
@@ -3011,8 +3011,8 @@
       "20260317-194054",
       "ai-unemployment-japan",
       "20260310-201228",
-      "20260309-162600",
       "20260302-091323",
+      "20260309-162600",
       "20260318-081842",
       "20260312-224144"
     ]
@@ -3822,8 +3822,8 @@
       "20260615-050237",
       "20260325-220130",
       "20260430-050210",
-      "20260411-213750",
       "20260607-050236",
+      "20260411-213750",
       "20260327-164958"
     ]
   },
@@ -3998,8 +3998,8 @@
       "20260606-050334",
       "20260612-050255",
       "20260430-050210",
-      "20260508-050300",
       "20260527-050213",
+      "20260508-050300",
       "20260615-050237"
     ]
   },
@@ -4029,8 +4029,8 @@
       "post-04",
       "ai-use-rules-no-company-policy",
       "20260524-050205",
-      "20260616-050236",
       "20260317-093413",
+      "20260616-050236",
       "20260311-223120"
     ]
   },
@@ -4114,10 +4114,10 @@
       "20260326-201932",
       "20260326-191001",
       "20260327-143431",
+      "20261019-064712",
       "20260327-171619",
       "20260417-050148",
-      "20260505-050140",
-      "20260406-050148"
+      "20260505-050140"
     ]
   },
   {
@@ -5048,8 +5048,8 @@
       "20260306-222035",
       "20260924-164310",
       "20260421-050147",
-      "20260504-050153",
-      "20260308-103350"
+      "20260308-103350",
+      "20260504-050153"
     ]
   },
   {
@@ -5283,12 +5283,12 @@
     "related": [
       "product-20261008-chatgpt-gpt6-intelligent-ui",
       "product-20260929-claude-sonnet-5-5",
+      "20261019-064712",
       "20261004-072349",
       "20260417-050148",
       "20260505-050140",
       "20260525-050159",
-      "20260413-050217",
-      "20260317-094429"
+      "20260413-050217"
     ]
   },
   {
@@ -6857,9 +6857,9 @@
       "20260331-235920",
       "20260505-050156",
       "20260406-050148",
+      "20261019-064712",
       "20260325-205739",
-      "20260419-050144",
-      "product-20260928-adobe-premiere-android"
+      "20260419-050144"
     ]
   },
   {
@@ -7976,7 +7976,7 @@
       "20260929-085359",
       "20260326-201932",
       "20260523-050248",
-      "20261018-064121"
+      "20261006-095600"
     ]
   },
   {
@@ -8556,7 +8556,7 @@
       "20260222-235624",
       "20260609-050244",
       "20260422-050150",
-      "20260317-194054"
+      "post-02"
     ]
   },
   {
@@ -8976,10 +8976,10 @@
       "20260317-194054",
       "20260601-050155",
       "product-20261010-pixel-watch-4-ai-watch-face",
+      "20261019-064712",
       "20260309-200004",
       "20260310-082859",
-      "product-20260928-adobe-premiere-android",
-      "20261013-103557"
+      "product-20260928-adobe-premiere-android"
     ]
   },
   {
@@ -9166,9 +9166,9 @@
     "related": [
       "20261018-064121",
       "20260622-050218",
-      "20260614-050233",
       "20260319-005131",
       "20260319-001818",
+      "20260614-050233",
       "20260305-071912",
       "20260223-103034",
       "20260928-084331"
@@ -9320,7 +9320,7 @@
       "20261018-064121",
       "20260317-194054",
       "20260925-075306",
-      "20260614-050233"
+      "20261019-064712"
     ]
   },
   {
@@ -9738,8 +9738,8 @@
     "related": [
       "20261004-072349",
       "20260409-003847",
-      "20260615-050237",
       "20261005-072915",
+      "20260615-050237",
       "20260606-050334",
       "generative-ai-image-copyright",
       "20261017-071057",
@@ -10453,6 +10453,57 @@
       "20260615-050237",
       "20260327-133407",
       "20260527-050213"
+    ]
+  },
+  {
+    "slug": "20261019-064712",
+    "title": "3時間で60万人——Claude Codeが災害掲示板を変えた日",
+    "lead": "あなたは今日、5本のニュースを読みます。承認済みの変更が重なってAIが止まる罠。世界銀行が途上国に勧める携帯で動く小型AI。Claude Codeで3時間、60万人が使った掲示板。カルテの自由記述を読み落とす医療AI。そしてTikTokの効かないリセットボタン。どれも「整えたはず」の仕組みが、整っていない現実に足をすくわれる話です。承認印は安全の証明書ではなく、ただの手続きかもしれません。——その「整った」という安心を、誰が検証するのでしょう？",
+    "type": "news",
+    "layer": "record",
+    "date": "2026-10-19 06:47",
+    "readTime": "2分",
+    "category": "🎯 AIを武器にするスキル・思考法",
+    "image": "/blog-images/20261019-064712/cover.jpg",
+    "content": [
+      {
+        "section": "◆ 承認済み2変更が招くAI停止、並行処理の罠",
+        "text": "![ニュース画像](/blog-images/20261019-064712/news_0.jpg)\n\n**配信日：** 2026年10月19日　**出典：** [Towards AI](https://pub.towardsai.net/the-next-ai-outage-could-begin-with-two-approved-changes-577682fbd54f?source=rss----98111c9905da---4)　**原題：** The Next AI Outage Could Begin With Two Approved Changes\n\nTowards AIによると、AIエージェント（＝人間の代わりに自律的に作業を進めるプログラム）に権限を与えた後に何が起きるかを巡り、承認済みの変更が二つ重なることで次なるAI停止が始まり得る点が論じられている。記事は、エージェントがアクセス権を得た後の挙動に触れ、なじみ深い並行処理（concurrency＝複数の処理が同時に走ること）の問題を提示する。変更を開始する前に割当量を予約する仕組みや、小さな並行性チェックのコード例が示され、実行結果も確認される。さらにグラフが何に寄与するか、承認には条件が伴うこと、予約は復旧とともに終わることまで整理され、参考文献が挙げられている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 承認済みの変更が二つ重なるだけで停止か。地味に怖い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 承認は安全の印じゃない。ただの手続きだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者は「またか」で流すよ。刺さる切り口が要る。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 並行処理のコード例、実際に走らせると結果が出る。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 予約してから変更を始める。順番を守れという話だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 人間の会議と同じだね。押さえてから動く。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> でも復旧で予約が終わる設計は巧妙だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 巧妙さが隙にもなる。そこが怖い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 承認に条件が付く。条件は誰が守るのか。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">承認という手続きは、現場に安心より手間を運びます。二つの変更が重なる瞬間、その手間が意味を持つかが試されます。これは信号機の設計に似ています。青を二方向に同時に点ける仕組みを、承認印が支えているようなものです。矛盾は制度そのものに宿ります。怖さの裏返しで見れば、予約と復旧という順序の知恵が既にコードに埋まっているとも言えます。産業全体では、停止を前提に設計する流れが静かに広がるのでしょう。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ 世界銀行、途上国に「小型AI」構築を要請　携帯で稼働、経済発展を数世紀から数十年に短縮",
+        "text": "![ニュース画像](/blog-images/20261019-064712/news_1.jpg)\n\n**配信日：** 2026年10月18日　**出典：** [Guardian Tech](https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies)　**原題：** World Bank says ‘small AI’ could transform developing countries\n\nGuardian Techによると、世界銀行（＝各国政府が出資し、途上国の開発を支援する国際機関）は、開発途上国に対して「小型AI（＝小規模な人工知能モデル）」の構築を本格的に始めるよう促している。世界銀行の最高知識責任者（＝組織内で知識や情報の活用を統括する役職）は、この技術が経済発展の速度を「数世紀から数十年」へと短縮しうると述べた。小型AIは、通信環境が乏しい地域でも携帯電話上で動作させることが可能だという。一方、シリコンバレーの大手テクノロジー企業は、より高度な消費者向け製品の開発に注力している。世界銀行は、こうした小型モデルの活用によって人工知能の恩恵を途上国が広く受けられるよう働きかけている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 世界銀行が「小型AI」推し。携帯で動くなら、インフラ整備を待たずに済むという発想ですね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 数世紀が数十年に、か。壮大な前倒しを約束する割に、主役は携帯電話一台というのが面白い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 大手は消費者向けの高機能品に一直線。その脇で細く動くモデルが開発の主戦場になる、と。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 逆張りですよ。派手な大型モデル競争の裏で、地味な小型が実利を取る構図。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> だが「最高知識責任者」なる肩書の人に、経済の速度を語らせる時点で、期待先行の匂いがする。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 通信が弱い場所で動くなら、実証の場はむしろ途上国の現場です。データはそこでしか取れない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者は「またAIか」と冷めるか、「携帯で動くなら自分にも関係ある」と食いつくか。分かれ目ですね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 後者でしょうね。巨大な仕組みより、手のひらサイズの話の方が人は信じる。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">世界銀行の号令で、途上国の現場に「携帯で動くAI」という現実が降りてきます。壮大な開発計画より、手元の一台が先に変わる。それは確かに、重みのある変化です。ただ、大型モデルほど価値が高いという通念には罠があります。制約の厳しい現場こそ小型モデルの実力が試される実験場であり、巨大資本が派手な製品競争に走るほど、地味な小型の実利は静かに積み上がる。私たちも、その恩恵に乗る側です。では、その一台が本当に届くべき人の手に、最初に渡るのは誰でしょうか。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ Claude Codeで3時間開発、熊本地震で累計60万人が使った掲示板サイトが20代以下注目2位",
+        "text": "![ニュース画像](/blog-images/20261019-064712/news_2.jpg)\n\n**配信日：** 2026年10月19日　**出典：** [Nikkei XTECH](https://xtech.nikkei.com/atcl/nxt/column/18/02156/100500416/)　**原題：** 2位は「Claude Codeを使い3時間で開発、熊本地震で累計60万人が利用の掲示板サイト」20代以下の注目トップ10\n\nNikkei XTECHによると、20代以下の注目トップ10の2位に「Claude Codeを使い3時間で開発、熊本地震で累計60万人が利用の掲示板サイト」が選ばれた。Claude Code（＝米アンソロピックが提供する、指示を出すとコードを自動で書き上げる開発支援ツール）を用い、わずか3時間で掲示板サイトを立ち上げた事例である。このサイトは熊本地震の際に累計60万人が利用したとされ、若手開発者の間で関心を集めている。同ランキングは20代以下が注目した技術や取り組みを並べたもので、生成AIを活用した迅速な開発と、災害時に実際に使われた点が評価されたとみられる。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 3時間で掲示板を作った、という数字がまず強いですね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 3時間だよ。会議を一回やる時間で、60万人が使う場所ができる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> しかも災害時に動いた。実験屋としては、そこで止まらないのが怖い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 熊本地震で60万人ですよ。作った人は20代以下。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 若さと速さが揃うと、制度も予算も追い越される。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 追い越された側は、たぶん気づかないまま終わる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> それ、ちょっと怖いこと言いましたね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 怖いのは事実だよ。3時間が基準になったら、3日かける開発は何と呼ばれるのか。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 丁寧、かな。あるいは、遅い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者はたぶん「自分にもできる」と受け取ります。そこがバズの芯です。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">3時間で作られた場所に60万人が集まった。開発の速さが信頼の代わりになり得る時代を、この事例は映しています。数年後、災害のたびに誰かが数時間でインフラを立ち上げ、公的機関が後から追認する光景が日常になっているかもしれません。速さは善意ですが、検証のない速さは事故の温床にもなります。印刷術も無線も、最初は個人の速さが制度を置き去りにしました。今これを読むあなたの手元にも、3時間で何かを作れる道具があります。時価総額で測れない信頼の設計図を、誰が引くのか。そこが次の分岐点です。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ AIエージェントが見落とす自由記述のアレルギー情報——構造化データの盲点",
+        "text": "![ニュース画像](/blog-images/20261019-064712/news_3.jpg)\n\n**配信日：** 2026年10月18日　**出典：** [Towards AI](https://pub.towardsai.net/the-un-coded-allergy-why-ai-agents-miss-free-text-clinical-notes-02cbc3647f7f?source=rss----98111c9905da---4)　**原題：** The Un-Coded Allergy: Why AI Agents Miss Free-Text Clinical Notes\n\nTowards AIによると、医療現場に導入されるAIエージェント（＝自律的に判断し作業を代行するプログラム）が、電子カルテの自由記述欄に書かれたアレルギー情報を読み落とす問題が指摘されている。記事は原因を三つに整理する。第一に、整ったデータベースさえあれば安全だという「クリーン・データベースの誤謬（ごびゅう＝思い込みによる誤り）」、第二に薬剤間の交差反応（＝似た構造の薬同士が同じ反応を起こすこと）を扱うオントロジー（＝概念同士の関係を体系化した知識基盤）の不在、第三に書き込み処理を早すぎる段階で実行してしまう設計上の問題である。対策として記事は、薬剤名と薬効分類の展開、複数文書の自由記述を網羅的に走査する仕組み、処理の順序を保証する決定論的トランザクション・ロック（＝同時処理の衝突を防ぐ排他制御）を挙げ、医療AIの開発責任者向けの実運用原則を示した。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 整った表に入っていない情報は、AIにとって最初から存在しないのと同じだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 紙のカルテ時代の医師の走り書きを、誰が表に変換するんだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> そこですよ。「構造化」って言葉の響きが良すぎる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実験でも、自由記述を無視したモデルは平然と「アレルギーなし」と返した。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 平然、ね。その落ち着きが一番怖い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 現場は「AIが確認済み」で安心しちゃう。責任の所在が霧散する。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> だから記事は書き込みの順序を固定する仕組みを勧めている。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 技術の前に、記録を書く人間の負担を数えたほうが早い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 逆張りですけど、自由記述こそ宝の山では。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 宝の山を読めない道具に、宝の番をさせるなという話だ。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">整ったデータだけを信じる設計は、現場の生々しい記述を静かに切り捨てます。安心の裏で、書かれた事実が読まれないまま流れていく。この構図は医療に限らず、記録と判断の分離が進むあらゆる業界に通底します。私たちもまた、読み飛ばされる側の文章を日々書いている共犯者です。五年後、この盲点は「なぜあれほど構造化に固執したのか」と振り返られるのではないでしょうか。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ TikTokのAIフィード、リセット機能は一部の10代に効かず　ニューヨーク州が指摘",
+        "text": "**配信日：** 2026年10月18日　**出典：** [Towards AI](https://pub.towardsai.net/tiktoks-ai-feed-had-a-reset-button-for-some-teens-it-was-a-placebo-5de6fcf36a34?source=rss----98111c9905da---4)　**原題：** TikTok’s AI Feed Had a Reset Button. For Some Teens, It Was a Placebo.\n\nTowards AIによると、TikTok（＝短尺動画を次々と流す投稿型の動画アプリ）が提供したAIフィード（＝人工知能が好みを推測して自動で並べる動画一覧）のリセット機能について、ニューヨーク州が、数千人の利用者に対して実質的な効果がなかったと指摘した。記事の筆者は、このリセットが本当に何を変えるのかを確かめるため、自ら小さな試作フィードを構築して検証した。TikTok側は一部の10代の利用者にフィードのリセットを提供したが、ニューヨーク州の調べでは、その措置は行動や表示内容に目立った変化をもたらさず、プラセボ（＝効果のない偽薬、思い込みで効いた気にさせるもの）に近いものだったとされる。記事は、リセットという操作が実際に何を初期化し、誰のデータや履歴が失われるのかという論点を提示している。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> ニューヨーク州の指摘は手厳しいね。数千人にリセットを配って、行動が変わらなかったと。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> ボタンを押させる演出だけ整えて、中身は据え置き。広告の世界じゃよくある手だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でもさ、押した側は「これで整った」と安心する。その錯覚こそが商品だったりして。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 試作フィードで確かめた筆者の姿勢は評価したい。体感と数字は別物だからね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> リセットって言葉が既にミスリードだ。初期化されるのは履歴で、好みの根本じゃない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> それ、ちょっと怖いこと言ったな。ユーザーは自分が選ばされてると気づかない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 誰のデータが消えて、誰の推薦が残るのか。そこを記事は突いている。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 効かない薬を渡すより、効かないと認める方が勇気がいる。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">リセットボタンは、押した瞬間だけ安心を配る装置になっています。ニューヨーク州の指摘は、その安心が中身を伴わない場面を暴きました。これは自動販売機の「つり銭切れ」に近い構造です。押しても何も出ないのに、押した事実だけが残り、利用者は自分で選んだ気になる。推薦の中身を握る企業にとって、初期化の範囲を決める権限こそが本当の商品であり、利用者はその設計図を見せてもらえていません。ただ、効かないと公表した事実は、次の設計を外から問える入口にもなります。</span>\n</div>\n</div>\n\n---\n\n\n![総括画像](/blog-images/20261019-064712/summary.jpg)"
+      },
+      {
+        "section": "◆ 総括：時代の濁流を読み解く",
+        "text": "今日の5本は、一見ばらばらの現場から届いています。並行処理の衝突、途上国の携帯、災害時の掲示板、カルテの走り書き、動画フィードのリセット。しかし一本の糸で結ぶと、同じ問いが浮かび上がります。それは「整えた仕組みは、整っていない現実にどこまで耐えられるのか」という問いです。\n\n世界銀行が携帯で動く小型AIを勧めるのも、Claude Codeが3時間で掲示板を立ち上げたのも、既存の重い制度を飛び越える速さの話でした。一方で、承認済みの変更が二つ重なればAIは止まり、自由記述のアレルギー情報は読み落とされ、リセットボタンは押しても何も変わりません。速さと整備は、同じ時代の別の顔です。速く作るほど、検証の穴も速く開く。TikTokの「プラセボ」と評されたリセットは、その穴をボタン一つで覆い隠す演出でした。\n\nここで賢くなった気になれるのは、次の一点です。制度もコードも、本質は「順番」と「範囲」の設計にあります。予約してから変更する、書き込みの順序を固定する、初期化する範囲を明示する。どれも地味ですが、事故と安心の分かれ目はそこにあります。大きなモデル競争の裏で小型が実利を取る構図も、派手さと実利が一致しないという、古くからある観察の再演にすぎません。\n\n最後に一つ。整った表に載らない情報は、AIにとって存在しないのと同じです。そして私たちが日々書く文章も、誰かの表から漏れているかもしれません。速さが信頼の代わりになる時代に、検証の設計図を引くのは、案外ボタンを押す私たち自身なのです。"
+      },
+      {
+        "section": "このテーマを深く知る",
+        "text": "- [Claude Sonnet 5.5発表、30%高速化の意味](/blog/product-20260929-claude-sonnet-5-5)\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "product-20260929-claude-sonnet-5-5",
+      "20260406-050148",
+      "product-20260930-openai-dots-agents",
+      "20260924-164310",
+      "20260505-050140",
+      "20260317-093413",
+      "20260326-220337",
+      "20260617-050244"
     ]
   },
   {
@@ -13585,10 +13636,10 @@
       "ai-lab-vol1-ai-vs-ai-exam",
       "20260417-050148",
       "product-20261008-chatgpt-gpt6-intelligent-ui",
+      "20261019-064712",
       "product-20261007-nano-banana-2-1",
       "20260406-050148",
-      "product-20261006-tenku-note-pro-ai",
-      "ai-amazon-side-business-guide"
+      "product-20261006-tenku-note-pro-ai"
     ]
   },
   {
@@ -13657,10 +13708,10 @@
       "product-20261011-gommari-payroll-ai-agent",
       "product-20261004-meta-muse-charm",
       "20260417-050148",
+      "20261019-064712",
       "ai-illustration-copyright",
       "20260224-194705",
-      "product-20261007-nano-banana-2-1",
-      "product-20261013-microsoft-maia-3-ai-chip"
+      "product-20261007-nano-banana-2-1"
     ]
   },
   {
@@ -14810,7 +14861,7 @@
       "ai-interview-storytelling",
       "post-07",
       "post-09",
-      "20260226-175800"
+      "20260222-101421"
     ]
   },
   {
