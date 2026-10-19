@@ -123,6 +123,7 @@ AI生成物が著作物と認められるかは、人の「創作意図」と「
 - [文化庁のAIと著作権 考え方とガイドラインの要点](/blog/cultural-affairs-ai-copyright)
 
 - [AI作曲著作権は誰のもの？商用利用の注意点を解説](/blog/ai-music-copyright)
+- [AI学習と著作権はどこまで許される？30条の4を解説｜ai 学習著作権](/blog/ai-training-copyright)
 ## 出典・参考資料
 
 1. [94080501_14.pdf](https://www.bunka.go.jp/seisaku/bunkashingikai/chosakuken/workingteam/r06_01/pdf/94080501_14.pdf)（参照日：2026年10月8日）
