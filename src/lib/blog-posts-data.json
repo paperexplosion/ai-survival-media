@@ -630,9 +630,9 @@
       "ai-interview-storytelling",
       "20260222-101421",
       "career-documentary-courage",
-      "20260309-200004",
       "elite-engineers-thinking-mirror",
       "highclass-job-site-comparison",
+      "20260309-200004",
       "20260222-220939"
     ]
   },
@@ -2584,8 +2584,8 @@
       "20260224-201233",
       "20260223-103034",
       "20260312-202704",
-      "20260317-093413",
       "20260225-081907",
+      "20260317-093413",
       "20260318-081842"
     ]
   },
@@ -4091,7 +4091,7 @@
       "post-04",
       "ai-use-rules-no-company-policy",
       "20260524-050205",
-      "20260317-093413"
+      "20260616-050236"
     ]
   },
   {
@@ -4177,7 +4177,7 @@
       "20261019-064712",
       "20260327-171619",
       "20260417-050148",
-      "20260505-050140"
+      "20260406-050148"
     ]
   },
   {
@@ -4433,13 +4433,13 @@
     ],
     "related": [
       "20260326-191001",
+      "20261022-074048",
       "20260319-001818",
       "20260312-224144",
       "20260309-162600",
       "20260327-192508",
       "20260327-205323",
-      "20260326-230705",
-      "20260326-171555"
+      "20260326-230705"
     ]
   },
   {
@@ -5199,8 +5199,8 @@
       "20260613-050216",
       "20260404-050252",
       "20260403-050211",
-      "ai-writing-translation-side-business",
       "20260316-201156",
+      "ai-writing-translation-side-business",
       "20260325-220130",
       "20260610-050213",
       "20260522-050204"
@@ -5539,8 +5539,8 @@
       "20260312-203611",
       "20261016-073919",
       "20260604-050241",
-      "20260424-050200",
-      "20260318-112530"
+      "20261022-074048",
+      "20260424-050200"
     ]
   },
   {
@@ -5825,8 +5825,8 @@
       "20260312-224144",
       "20260317-092337",
       "20260319-093220",
-      "20260319-010236",
-      "20260406-050148"
+      "20260406-050148",
+      "20260319-010236"
     ]
   },
   {
@@ -5867,13 +5867,13 @@
     ],
     "related": [
       "20260509-050224",
+      "20261022-074048",
       "20260319-010236",
       "20260319-001818",
       "20260423-050226",
       "20260306-222035",
       "20260319-005131",
-      "20260318-112530",
-      "20260318-111733"
+      "20260318-112530"
     ]
   },
   {
@@ -6773,8 +6773,8 @@
       "20260318-235100",
       "20261002-082351",
       "20260429-050246",
-      "20260317-092337",
-      "20260607-050236"
+      "20260607-050236",
+      "20260317-092337"
     ]
   },
   {
@@ -7159,8 +7159,8 @@
       "20260312-224144",
       "20260223-103034",
       "20260510-050227",
-      "20260319-010236",
       "20260305-192345",
+      "20260319-010236",
       "20260303-051013",
       "20260515-050228"
     ]
@@ -8324,8 +8324,8 @@
       "20260531-050200",
       "20260224-090015",
       "stability-is-risk-52-strategy",
-      "20260223-093844",
       "20260222-220939",
+      "20260223-093844",
       "20260610-050213"
     ]
   },
@@ -9036,9 +9036,9 @@
       "20260317-194054",
       "20260601-050155",
       "product-20261010-pixel-watch-4-ai-watch-face",
-      "20260309-200004",
       "20261019-064712",
       "20260310-082859",
+      "20260309-200004",
       "product-20260928-adobe-premiere-android"
     ]
   },
@@ -9376,8 +9376,8 @@
       "product-20260926-meta-camera-free-ai-glasses",
       "20260930-080953",
       "ai-unemployment-japan",
-      "20260926-053102",
       "20261018-064121",
+      "20260926-053102",
       "20260317-194054",
       "20260614-050233",
       "20260925-075306"
@@ -9986,8 +9986,8 @@
     "related": [
       "20260929-085359",
       "20261005-072915",
-      "20260621-050244",
       "20261002-082351",
+      "20260621-050244",
       "20260523-050248",
       "20260507-050215",
       "20260312-094000",
@@ -10415,10 +10415,10 @@
       "20260409-050204",
       "20260318-110741",
       "20260926-053102",
+      "20261022-074048",
       "20260326-230328",
       "20260326-215124",
-      "20260308-103350",
-      "20260410-050231"
+      "20260308-103350"
     ]
   },
   {
@@ -10465,7 +10465,7 @@
       "ai-lab-vol1-ai-vs-ai-exam",
       "20260927-071031",
       "20260318-112530",
-      "20261008-084551"
+      "20260325-205739"
     ]
   },
   {
@@ -10658,6 +10658,53 @@
       "20260404-050252",
       "20260523-050248",
       "20260606-050334"
+    ]
+  },
+  {
+    "slug": "20261022-074048",
+    "title": "AIの掃除と値付け——ウィキペディアが「手書きの看板」に戻る日",
+    "lead": "あなたは今日、5本のニュースを読みます。ウィキペディアはAIの文章を人が書き直す掃除を始めました。MetaのAIアプリMuseは1000万人を突破し、主役は買い物です。AIコーディングのトークン予算という家計簿も登場しました。大阪メトロは配車システムを内製化し、DeepSeekは推論基盤を無償公開しました。賢さが当たり前になると、値札が主役になる——その値札を、誰が握るのでしょう？",
+    "type": "news",
+    "layer": "record",
+    "date": "2026-10-22 07:40",
+    "readTime": "2分",
+    "category": "🌊 AI時代の本質と世界観",
+    "image": "/blog-images/20261022-074048/cover.jpg",
+    "content": [
+      {
+        "section": "◆ ウィキペディア、AI生成記事を人が書き直す掃除プロジェクト始動",
+        "text": "![ニュース画像](/blog-images/20261022-074048/news_0.jpg)\n\n**配信日：** 2026年10月21日　**出典：** [IEEE Spectrum](https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup)　**原題：** How Wikipedia’s Editors Keep the Online Encyclopedia Human-Written\n\nIEEE Spectrumによると、オンライン百科事典ウィキペディアの編集者たちが、AI（人工知能）が生成した文章を人間の手で書き直す「ウィキプロジェクト・AI執筆クリーンアップ」と呼ばれる取り組みを進めている。記事は2026年10月21日に配信された。ウィキペディアは誰でも編集に参加できる仕組みを特徴とするが、近年は生成AIによる文章が記事に混ざり込み、内容の正確さや出典の信頼性を保つのが難しくなっている。このプロジェクトは、そうしたAI由来の記述を見つけ出し、事実確認を行ったうえで、人間の編集者が責任を持って書き直す作業を指す。編集者たちは、百科事典の中身を機械任せにせず、人が書いた文章としての質を守ることを狙っている。記事では、AIが作った文章の検出や修正の具体的な手順、参加する編集者たちの役割分担についても触れられている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> AIが書いた文章を人が全部書き直すって、工数の爆発じゃないか。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 爆発を承知でやってるのが面白いところだ。手間をかけること自体が品質の証明になる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 逆張りすると、それって「人が書きました」というブランドの値上げですよね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 値上げねえ。読者はそこに金を払うのか。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 払うかどうかは別として、信頼の値段が可視化されたとは言える。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> じゃあAI検出ツールを売る側が一番儲かる構図では。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 検出して直す、また検出して直す。いたちごっこだな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> いたちごっこを続けられる体力があるかどうかが、次の分かれ目だ。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">AIが書いた文章を人が消す作業は、一見むだに見えます。しかし、そのむだが信頼の値段を決めています。百科事典を「自動販売機」から「手書きの看板」へ戻す動きは、効率を捨てて責任を選ぶ取引です。掃除を続けられる組織だけが、次の十年も読者に選ばれるのでしょう。あなたは速さを取りますか、それとも直した跡の残る文章を取りますか。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ MetaのAIアプリMuse、利用者1000万人突破 買い物が主要用途に",
+        "text": "![ニュース画像](/blog-images/20261022-074048/news_1.jpg)\n\n**配信日：** 2026年10月22日　**出典：** [TechCrunch AI](https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/)　**原題：** Meta says Muse has over 10M users, with shopping a top activity\n\nTechCrunch AIによると、Meta（旧フェイスブックを運営する米国のテクノロジー企業）は2026年10月21日、同社のAIアプリ「Muse」の利用者が1000万人を超えたと発表した。発表によれば、Museの主な使われ方の一つが買い物であるという。MuseはMetaが提供するAIアプリで、スマートフォン上で利用者が操作する形で使われる。Metaは利用者数とあわせて、買い物が上位の活動である点を明らかにした。今回の発表は、MetaがAIアプリの成長ぶりを対外的に示す場面となった。TechCrunchは同日、この件を報じている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 1000万人って数字だけ見ると派手だが、中身は「買い物」だぜ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> そこが引っかかる。AIアプリの主役が商品選びというのは、正直地味な着地点だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 地味か？ 購買の直前で動くAIは、検索よりずっと財布に近い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 財布に近い、ね。広告の棚にAIが座っただけ、とも言える。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 過去のアプリも似た道をたどった。流行の入り口は遊び、出口は決済だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 使う側から見れば、迷う時間が減るのは素直に楽だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 楽と依存は紙一重。推薦が上手いほど、自分で選ばなくなる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 1000万人は通過点だ。次の数字が買い物の回数か、それとも滞在時間かで意味が変わる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> そこは同感。数字の取り方で、同じ発表が別の顔になる。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">1000万人という数字は、AIアプリがついに生活の買い物の場面に座ったことを示します。便利さの裏で、選ぶ力が静かに預けられていく重さも感じます。一般にはAIアプリの勝負は賢さで決まると思われがちですが、構造は逆で、勝敗を分けるのは決済の直前でどれだけ自然に立ち回れるかです。賢さは前提条件にすぎません。現場では、検索窓に打ち込む代わりにアプリへ話しかけて商品を絞る動きがすでに始まっています。2030年、買い物の最初の一歩が「どのアプリに聞くか」になる日が来るかもしれません。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ 2026年AIコーディングのトークン予算、主要ツール料金と消費の実態",
+        "text": "![ニュース画像](/blog-images/20261022-074048/news_2.jpg)\n\n**配信日：** 2026年10月22日　**出典：** [Towards AI](https://pub.towardsai.net/ai-coding-costs-in-2026-how-to-set-a-token-budget-37d4afe851f9?source=rss----98111c9905da---4)　**原題：** AI Coding Costs in 2026: How to Set a Token Budget\n\nTowards AIによると、2026年10月21日、同メディアの寄稿者Nishkarsh Gupta氏が「AI Coding Costs in 2026: How to Set a Token Budget」と題した記事を公開した。AIコーディングツールの費用構造を整理し、トークン（＝AIが文章を処理する際の課金単位で、単語や記号を細かく区切ったもの）の予算設計を論じる内容である。記事は、主要ツールが何をいくらで課金しているのか、どの操作がトークンを大量に消費するのか、そして実用的な1日単位の予算をどう組むかを柱に据える。Claude Code（クロード・コード＝Anthropic社のAIコーディング支援ツール）やLLM（大規模言語モデル＝大量の文章で学習したAIの基盤技術）といったタグが付され、開発者の生産性とソフトウェア開発の現場を主眼に置く。9分程度の読み物として、会員限定記事の形式で配信された。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> トークンって要は燃料代だよね。踏むほど減る。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 燃費を気にせずアクセルを踏ませる商売、それがAIツールだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 開発者って急に経理の顔になるんですよね、請求書を見た瞬間だけ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 記事は主要ツールの料金と、何がトークンを食うかを並べてる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 消費の犯人を特定する作業は、家計簿と本質的に同じだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 1日予算を決めろ、と。財布の紐をAIに握らせる時代か。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 予算を決めても、コードが書けなきゃ元も子もない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> そこが難しい。締めすぎれば思考まで締まる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者はきっと、節約術より「どこまで使っていいか」の線を知りたい。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">トークン消費は、もはや開発チームの家計簿です。作業の速さと引き換えに、請求書という現実が毎日届きます。この調子が続けば2030年、エンジニアの面接では技術力より「1日の予算をどう配分するか」が問われる景色が待っているかもしれません。コストは創造性の敵ではなく、設計の一部へと組み込まれていくのでしょう。では、あなたのチームの財布の紐は、誰が握っていますか。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ 大阪メトロ、AIオンデマンドバス配車を拡大 内製化で採算の壁に挑む",
+        "text": "![ニュース画像](/blog-images/20261022-074048/news_3.jpg)\n\n**配信日：** 2026年10月22日　**出典：** [Nikkei XTECH](https://xtech.nikkei.com/atcl/nxt/column/18/00001/12107/)　**原題：** 大阪メトロがAIオンデマンドバス配車を拡大、内製転換で挑む採算の壁\n\nNikkei XTECHによると、大阪メトロ（＝大阪市営の地下鉄・バス事業者）がAIを活用したオンデマンドバス（＝利用者の予約に応じて運行ルートを変える乗り合いバス）の配車システムの拡大に乗り出した。これまで外部の事業者に委託していた配車システムを内製化へ転換し、運行エリアの拡大と採算性の確保を同時に目指す。オンデマンドバスは、決まった時刻表や路線を持たず、利用者のリクエストに応じてAIが最適な運行経路を計算する仕組みで、利用が少ない地域の公共交通の維持策として注目されている。一方、システムの開発・運用コストと利用者数のバランスが課題で、内製化によってコストを抑えつつ、拡大路線で収益を確保できるかが焦点となる。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 配車システムを内製化するって、地味に大きな決断だよね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 外に払う金を自分で抱え込むわけだ。人も技術も抱えられるのかい。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でも「AIで配車」って聞くと、つい未来感で盛り上がっちゃう。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 盛り上がるのは自由だけど、採算の話になると急に静かになる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 拡大すればコストも膨らむ。内製化は節約か、それとも新たな重荷か。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 利用者から見れば、待ち時間が短くなれば文句なしなんだけどね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> そこなんだよ。便利さと採算は、しばしば別の方向を向く。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 大阪の街を走るバスが、どこまで賢く、どこまで黒字になるか。見ものだ。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">内製化はコスト削減の一手に見えて、実際は技術者を抱え続ける覚悟の表明です。外部委託なら契約を切れば済みますが、自前で持てば運用ノウハウも責任も残ります。拡大と採算という相反する要求を、同じ組織内で調整しなければならない。ここで問われるのはAIの賢さより、事業を続ける体力の設計です。2030年、バスの運賃より配車アルゴリズムの保守費の方が議論の的になっているかもしれません。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ DeepSeek、推論基盤DeepInferをオープンソース化しAIコスト削減へ",
+        "text": "**配信日：** 2026年10月21日　**出典：** [AI Business](https://aibusiness.com/generative-ai/deepseek-makes-deepinfer-open-source-cut-ai-costs)　**原題：** DeepSeek makes DeepInfer open source to cut AI costs\n\nAI Businessによると、中国のAI企業DeepSeek（ディープシーク）は2026年10月21日、AIの推論処理を担う基盤ソフトウェア「DeepInfer（ディープインファー）」をオープンソース（＝ソースコードを誰でも無償で閲覧・改変・再配布できる形で公開すること）として公開した。狙いはAIの運用コスト削減である。推論とは、学習済みのモデルを実際に動かして答えを出す処理のことで、企業がAIを使い続ける際に費用が膨らむ工程にあたる。DeepSeekはこの部分を外部に開放することで、自社モデルを導入する企業や開発者が低コストで運用できる環境を広げる。発表元はAI Businessで、公開日は2026年10月21日。DeepSeekはかねて低コストのモデル開発で知られ、今回の措置はその路線を運用面へ延長する動きといえる。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 推論のコストって、地味だけど一番効くんだよ。そこを开源にしたのは大きい。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> モデルは配れば終わりじゃない。動かすたびに財布が削られる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でも、ただで配って儲かるんですかね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 儲けどころか、土台を配ってる感じだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 昔のOS戦争を思い出すな。勝ったのは一番高い技術じゃなかった。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 一番安くて、みんなが乗っかったやつ、ですか。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> それ、ちょっと怖いこと言ってるよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 怖いか？ 歴史はだいたいそう動く。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> じゃあ今回の主役は、モデルじゃなくて請求書ってことか。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">低コスト化の恩恵は確かに現場に届きますが、無償公開の裏で何が標準になるかを冷静に見る必要があります。推論基盤は、かつてのOSのように、いったん普及すると乗り換えの効かない土台になり得ます。安さで選んだ一本の線が、数年後の選択肢を静かに縛る。この技術が誰の手に残るかで、次の十年の請求書が変わります。</span>\n</div>\n</div>\n\n---\n\n\n![総括画像](/blog-images/20261022-074048/summary.jpg)"
+      },
+      {
+        "section": "◆ 総括：時代の濁流を読み解く",
+        "text": "今日の5本は、AIの「賢さ」ではなく「値段」の話ばかりです。ウィキペディアは人が書き直す手間を品質の証明に変え、MetaのMuseは1000万人という数字の裏で買い物という決済の入り口に座りました。AIコーディングの記事はトークンを燃料代として予算化し、大阪メトロは外部委託を内製化して採算の壁に挑み、DeepSeekは推論基盤DeepInferを無償公開して運用コストを下げる。一見ばらばらですが、糸は一本です。AIが珍しくなくなった瞬間、競争の場は「どれだけ賢いか」から「誰がいくら払うか」へ移ったのです。かつてOS戦争で勝ったのは最も高価な技術ではなく、最も安く広く乗られた土台でした。今回も同じ構図が見えます。無償公開されたDeepInferが標準になれば、安さで選んだ一本の線が数年後の選択肢を静かに縛る。ウィキペディアの掃除も、Museの買い物も、トークン予算も、内製化も、すべては「信頼と利便性にいくらの値札を付けるか」という同じ問いへの別々の答えです。ここで賢くなった気になるのは簡単ですが、本当に知っておくべきは、安さの裏で何が標準になりつつあるかを見る目です。無料の土台ほど、後から請求書が届く。その請求書の宛先を、今日の5本は静かに教えてくれています。\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "20260327-171619",
+      "20260317-094429",
+      "20260319-010236",
+      "product-20261013-microsoft-maia-3-ai-chip",
+      "20260301-001615",
+      "20261016-073919",
+      "20260312-202704",
+      "20260528-050237"
     ]
   },
   {
@@ -13120,8 +13167,8 @@
       "20261004-072349",
       "20261003-081255",
       "ai-training-copyright",
-      "ai-music-copyright",
       "20261015-073424",
+      "ai-music-copyright",
       "20261006-095600"
     ]
   },
@@ -14985,11 +15032,11 @@
       "20260316-225321",
       "20260316-201156",
       "20260331-235920",
+      "20261022-074048",
       "20261018-064121",
       "20260318-084916",
       "20260308-103350",
-      "product-20260929-claude-sonnet-5-5",
-      "product-20261011-gommari-payroll-ai-agent"
+      "product-20260929-claude-sonnet-5-5"
     ]
   },
   {
