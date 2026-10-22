@@ -111,6 +111,7 @@ AI法は2025年9月1日に全面施行され、同月にはAI戦略本部の初�
 
 - [eu ai規制とは？日本企業への影響と対応を解説](/blog/eu-ai-regulation)
 
+- [中国AI規制の特徴とは？生成AIと擬人化AIへの影響を解説](/blog/china-ai-regulation)
 ## 出典・参考資料
 
 1. [ＡＩ法　全面施行 －次なるフェーズへ－ - 内閣府](https://www.cao.go.jp/press/new_wave/20251003.html)（参照日：2026年10月20日）

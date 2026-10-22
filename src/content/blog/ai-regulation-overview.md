@@ -170,6 +170,7 @@ EU AI Actは2024年に成立し、禁止AIに関する規制が2025年2月2日�
 
 - [AI規制 日本は今どうなっている？AI法の現状と今後](/blog/ai-regulation-japan)
 - [eu ai規制とは？日本企業への影響と対応を解説](/blog/eu-ai-regulation)
+- [中国AI規制の特徴とは？生成AIと擬人化AIへの影響を解説](/blog/china-ai-regulation)
 ## 出典・参考資料
 
 1. [AIは社会を変える—だからこそ世界各地で活発化する「AI規制」の動き | サイエンス リポート | TELESCOPE magazine](https://www.tel.co.jp/museum/magazine/report/202607_01/)（参照日：2026年9月29日）
