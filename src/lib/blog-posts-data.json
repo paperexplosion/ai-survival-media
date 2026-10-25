@@ -1026,8 +1026,8 @@
     "related": [
       "20260225-081907",
       "20260227-000918",
-      "20260302-091507",
       "20260401-050200",
+      "20260302-091507",
       "20260222-222228",
       "20260309-091640",
       "20260310-201228",
@@ -1554,7 +1554,7 @@
       "20260319-005131",
       "20260317-222856",
       "20260312-224144",
-      "20260305-192345"
+      "20260623-050206"
     ]
   },
   {
@@ -2631,9 +2631,9 @@
       "20260317-194054",
       "20260319-165409",
       "20260317-093413",
-      "20260317-092337",
-      "product-20261013-microsoft-maia-3-ai-chip",
-      "20260312-224144"
+      "20260312-224144",
+      "20260312-094000",
+      "ai-regulation-overview"
     ]
   },
   {
@@ -2736,14 +2736,14 @@
       }
     ],
     "related": [
-      "20260316-201156",
       "20260312-094000",
       "ai-reskilling",
+      "20260316-201156",
       "20260304-051721",
-      "product-20261013-microsoft-maia-3-ai-chip",
       "20260317-092337",
       "20260317-194054",
-      "20260319-155159"
+      "20260319-155159",
+      "20260319-165409"
     ]
   },
   {
@@ -3871,8 +3871,8 @@
     "related": [
       "20260326-102733",
       "20260517-050155",
-      "product-20261016-amazon-bee-ai-recorders",
       "20260411-213750",
+      "product-20261016-amazon-bee-ai-recorders",
       "20261023-074207",
       "20260615-050237",
       "youtube-ai-video-regulation",
@@ -4713,8 +4713,8 @@
       "20260327-164958",
       "20260326-171555",
       "20260224-090015",
-      "20260506-050237",
-      "20260305-192345"
+      "20260305-192345",
+      "20260506-050237"
     ]
   },
   {
@@ -5479,10 +5479,10 @@
       "post-09",
       "20260331-090250",
       "20260325-205739",
-      "20260316-225321",
       "20260312-203611",
       "20260328-050246",
-      "20260606-050334"
+      "20260606-050334",
+      "20260411-213750"
     ]
   },
   {
@@ -5525,11 +5525,11 @@
       "20260302-091323",
       "20260426-050224",
       "20261003-081255",
-      "20261015-073424",
-      "20260612-050255",
       "20260318-052259",
       "20260309-200004",
-      "20260329-050159"
+      "20260329-050159",
+      "20260504-050153",
+      "20261015-073424"
     ]
   },
   {
@@ -5571,8 +5571,8 @@
     "related": [
       "20260409-050204",
       "20260423-050226",
-      "product-20260926-meta-camera-free-ai-glasses",
       "20260312-203611",
+      "product-20260926-meta-camera-free-ai-glasses",
       "20261016-073919",
       "20261022-074048",
       "20260424-050200",
@@ -5621,13 +5621,13 @@
     ],
     "related": [
       "20260409-050203",
-      "20260622-050218",
       "20260515-050228",
+      "20260622-050218",
       "china-ai-regulation",
       "20260312-224144",
       "20261016-073919",
-      "product-20260926-meta-camera-free-ai-glasses",
-      "20260318-081842"
+      "20260318-081842",
+      "20260410-050231"
     ]
   },
   {
@@ -6289,7 +6289,7 @@
       "ai-illustration-copyright",
       "20260424-050200",
       "20260608-050202",
-      "20260317-092337"
+      "20260318-235100"
     ]
   },
   {
@@ -7339,8 +7339,8 @@
       "20260513-050217",
       "20261013-103557",
       "20260520-050202",
-      "20260428-050228",
       "20260425-050259",
+      "20260428-050228",
       "20260411-050211",
       "20260327-211432",
       "eu-ai-regulation"
@@ -7444,8 +7444,8 @@
       "20260609-050244",
       "ai-designer-job-future",
       "20260505-050156",
-      "20260422-050150",
-      "20260319-005131"
+      "20260504-050153",
+      "20260623-050206"
     ]
   },
   {
@@ -8403,9 +8403,9 @@
     ],
     "related": [
       "20260310-082859",
-      "20261008-084551",
       "20260519-050241",
       "20261009-085455",
+      "20261008-084551",
       "20260410-050231",
       "20261025-065029",
       "20260506-050237",
@@ -8450,8 +8450,8 @@
     ],
     "related": [
       "20260621-050244",
-      "20260929-085359",
       "20260428-050228",
+      "20260929-085359",
       "20261005-072915",
       "20260223-002400",
       "20260615-050237",
@@ -8838,9 +8838,9 @@
       "20260615-050237",
       "20260326-201932",
       "20260325-220130",
-      "20260409-003847",
       "20260613-050216",
-      "ai-regulation-overview"
+      "ai-regulation-overview",
+      "20260525-050159"
     ]
   },
   {
@@ -9410,13 +9410,13 @@
     ],
     "related": [
       "product-20260926-meta-camera-free-ai-glasses",
-      "20260930-080953",
       "ai-unemployment-japan",
       "20261018-064121",
       "20260926-053102",
       "20260317-194054",
       "20260925-075306",
-      "20261024-073455"
+      "20261024-073455",
+      "20260614-050233"
     ]
   },
   {
@@ -9646,9 +9646,9 @@
     "related": [
       "20261005-072915",
       "20260621-050244",
+      "20261011-075336",
       "20260930-080953",
       "20260604-050241",
-      "20261011-075336",
       "20260527-050213",
       "20261002-082351",
       "20261007-081253"
@@ -9696,9 +9696,9 @@
       "20261013-103557",
       "20260929-085359",
       "20260615-050237",
-      "20260924-164310",
       "20260430-050210",
-      "20261004-072349"
+      "20261004-072349",
+      "20260620-050304"
     ]
   },
   {
@@ -10067,14 +10067,14 @@
       }
     ],
     "related": [
-      "20260603-050245",
       "20261006-095600",
+      "20260603-050245",
       "20260526-050250",
       "20260317-093413",
       "20260519-050241",
-      "20260316-225321",
-      "20261023-074207",
-      "20260316-201156"
+      "ai-side-business-recommended-methods",
+      "ai-side-business-beginners-guide",
+      "20260302-091507"
     ]
   },
   {
@@ -10265,8 +10265,8 @@
       "20261017-071057",
       "20261001-081057",
       "20260310-082859",
-      "20261025-065029",
-      "20260222-101421"
+      "20260222-101421",
+      "20261025-065029"
     ]
   },
   {
@@ -10354,12 +10354,12 @@
     ],
     "related": [
       "20261020-080259",
-      "20260317-092337",
-      "20260316-225321",
       "20260506-050237",
+      "20260317-092337",
       "20261009-085455",
       "20260515-050228",
       "20260319-165409",
+      "20260316-225321",
       "20260317-194054"
     ]
   },
@@ -10404,10 +10404,10 @@
       "eu-ai-regulation",
       "20260523-050248",
       "post-07",
-      "20260409-003847",
       "20260926-053102",
       "20260623-050206",
-      "20260528-050237"
+      "20260528-050237",
+      "20260331-230054"
     ]
   },
   {
@@ -10642,11 +10642,11 @@
       "20261014-082422",
       "20260327-164958",
       "20260224-090015",
-      "20260603-050245",
       "ai-side-business-beginners-guide",
       "20261012-080650",
       "20261018-064121",
-      "20260327-133407"
+      "20260327-133407",
+      "20260603-050245"
     ]
   },
   {
@@ -10785,9 +10785,9 @@
       "20261024-073455",
       "20261025-065029",
       "20261010-082657",
-      "product-20261013-microsoft-maia-3-ai-chip",
       "20260425-050259",
-      "20260316-201156"
+      "20260309-162600",
+      "20260309-091640"
     ]
   },
   {
@@ -11918,10 +11918,10 @@
       "ai-side-business-beginners-guide",
       "20261005-072915",
       "product-20261010-pixel-watch-4-ai-watch-face",
-      "20260417-050148",
       "20260308-103350",
       "ai-side-business-experience-monthly-income",
-      "20260612-050255"
+      "20260420-050152",
+      "20261010-082657"
     ]
   },
   {
@@ -13501,8 +13501,8 @@
       "youtube-ai-video-regulation",
       "20261004-072349",
       "20261003-081255",
-      "20261015-073424",
-      "ai-training-copyright"
+      "ai-training-copyright",
+      "20261015-073424"
     ]
   },
   {
@@ -14175,7 +14175,7 @@
       "20260924-164310",
       "product-20261004-meta-muse-charm",
       "ai-jobs-disappear",
-      "product-20261006-tenku-note-pro-ai",
+      "product-20261025-ainote-2-ai-tablet",
       "product-20261020-bee-eclipse-frontier",
       "ai-copyright-basics"
     ]
@@ -14248,8 +14248,8 @@
       "product-20261009-natura-99-ai-smart-ring",
       "product-20261020-bee-eclipse-frontier",
       "product-20261024-block-dessa-ai-model",
-      "product-20261023-meta-muse-japan-launch",
-      "ai-unemployment-japan"
+      "product-20261025-ainote-2-ai-tablet",
+      "product-20261023-meta-muse-japan-launch"
     ]
   },
   {
@@ -14387,10 +14387,10 @@
     ],
     "related": [
       "product-20260930-openai-dots-agents",
-      "ai-lab-vol1-ai-vs-ai-exam",
-      "20260417-050148",
       "product-20261008-chatgpt-gpt6-intelligent-ui",
+      "ai-lab-vol1-ai-vs-ai-exam",
       "20261019-064712",
+      "20260417-050148",
       "20260406-050148",
       "product-20261007-nano-banana-2-1",
       "product-20261006-tenku-note-pro-ai"
@@ -14527,13 +14527,13 @@
     ],
     "related": [
       "product-20261007-nano-banana-2-1",
-      "product-20261002-legato-ai-hearing-glasses",
       "product-20261006-tenku-note-pro-ai",
+      "product-20261002-legato-ai-hearing-glasses",
       "product-20261020-bee-eclipse-frontier",
       "product-20261005-googlebook-gemini-laptop",
+      "product-20260930-openai-dots-agents",
       "product-20261004-meta-muse-charm",
-      "product-20260927-honor-robot-phone",
-      "product-20260930-openai-dots-agents"
+      "product-20260927-honor-robot-phone"
     ]
   },
   {
@@ -14598,10 +14598,10 @@
       "product-20261020-bee-eclipse-frontier",
       "product-20261015-apple-homepod-mini-2026",
       "product-20261004-meta-muse-charm",
+      "product-20261025-ainote-2-ai-tablet",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
-      "product-20261016-amazon-bee-ai-recorders",
       "product-20261023-meta-muse-japan-launch",
-      "product-20261024-block-dessa-ai-model"
+      "product-20261016-amazon-bee-ai-recorders"
     ]
   },
   {
@@ -14663,13 +14663,13 @@
     ],
     "related": [
       "product-20261004-meta-muse-charm",
-      "product-20261024-block-dessa-ai-model",
       "product-20261023-meta-muse-japan-launch",
+      "product-20261024-block-dessa-ai-model",
       "product-20261012-colorist-ai-romance-chat",
       "product-20260930-openai-dots-agents",
       "20260326-050118",
-      "product-20261016-amazon-bee-ai-recorders",
-      "20260417-050148"
+      "20260505-050140",
+      "product-20260928-adobe-premiere-android"
     ]
   },
   {
@@ -14730,9 +14730,9 @@
       "product-20260926-meta-camera-free-ai-glasses",
       "product-20261016-amazon-bee-ai-recorders",
       "product-20261020-bee-eclipse-frontier",
-      "product-20261003-meta-muse-gadgets-sdk",
+      "product-20261025-ainote-2-ai-tablet",
       "product-20260928-adobe-premiere-android",
-      "product-20261006-tenku-note-pro-ai",
+      "product-20261003-meta-muse-gadgets-sdk",
       "product-20261019-qwen-glasses-n1"
     ]
   },
@@ -14802,10 +14802,10 @@
       "20260420-050152",
       "20260224-201233",
       "product-20261021-apple-tv-4k-siri-ai",
+      "product-20261025-ainote-2-ai-tablet",
       "post-08",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
-      "product-20261007-nano-banana-2-1",
-      "product-20261008-chatgpt-gpt6-intelligent-ui"
+      "product-20261007-nano-banana-2-1"
     ]
   },
   {
@@ -14866,14 +14866,14 @@
       }
     ],
     "related": [
-      "product-20260926-meta-camera-free-ai-glasses",
+      "product-20261025-ainote-2-ai-tablet",
       "product-20261020-bee-eclipse-frontier",
+      "product-20260926-meta-camera-free-ai-glasses",
       "product-20261004-meta-muse-charm",
       "product-20261007-nano-banana-2-1",
       "product-20260929-claude-sonnet-5-5",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
-      "product-20261002-legato-ai-hearing-glasses",
-      "product-20261009-natura-99-ai-smart-ring"
+      "product-20261002-legato-ai-hearing-glasses"
     ]
   },
   {
@@ -14935,10 +14935,10 @@
     ],
     "related": [
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
+      "product-20261020-bee-eclipse-frontier",
       "product-20260929-claude-sonnet-5-5",
       "product-20261006-tenku-note-pro-ai",
       "product-20260926-meta-camera-free-ai-glasses",
-      "product-20261020-bee-eclipse-frontier",
       "ai-illustration-copyright",
       "product-20260930-openai-dots-agents",
       "product-20261021-apple-tv-4k-siri-ai"
@@ -15078,10 +15078,10 @@
       "product-20261023-meta-muse-japan-launch",
       "product-20261020-bee-eclipse-frontier",
       "product-20261011-gommari-payroll-ai-agent",
-      "product-20260926-meta-camera-free-ai-glasses",
-      "product-20261024-block-dessa-ai-model",
       "product-20260928-adobe-premiere-android",
-      "20260518-050231"
+      "20260518-050231",
+      "product-20260926-meta-camera-free-ai-glasses",
+      "product-20261024-block-dessa-ai-model"
     ]
   },
   {
@@ -15292,12 +15292,12 @@
     "related": [
       "product-20261024-block-dessa-ai-model",
       "product-20261003-meta-muse-gadgets-sdk",
-      "product-20261016-amazon-bee-ai-recorders",
-      "product-20261004-meta-muse-charm",
-      "20260417-050148",
       "product-20260927-honor-robot-phone",
       "20260518-050231",
-      "product-20261008-chatgpt-gpt6-intelligent-ui"
+      "product-20261008-chatgpt-gpt6-intelligent-ui",
+      "product-20261023-meta-muse-japan-launch",
+      "product-20260928-adobe-premiere-android",
+      "20260421-050147"
     ]
   },
   {
@@ -15363,13 +15363,13 @@
     ],
     "related": [
       "20260316-225321",
-      "20260316-201156",
       "20260331-235920",
+      "20260316-201156",
       "20261022-074048",
       "20261018-064121",
-      "20261023-074207",
       "20260308-103350",
-      "20260318-084916"
+      "20260318-084916",
+      "product-20261011-gommari-payroll-ai-agent"
     ]
   },
   {
@@ -15500,10 +15500,10 @@
     "related": [
       "product-20261014-apple-homeview-siri-ai",
       "product-20261002-legato-ai-hearing-glasses",
-      "20260316-201156",
       "product-20261020-bee-eclipse-frontier",
       "product-20261021-apple-tv-4k-siri-ai",
       "20260325-220130",
+      "20260316-201156",
       "product-20260929-claude-sonnet-5-5",
       "product-20261009-natura-99-ai-smart-ring"
     ]
@@ -15567,13 +15567,13 @@
     ],
     "related": [
       "product-20261020-bee-eclipse-frontier",
+      "product-20261025-ainote-2-ai-tablet",
       "product-20261004-meta-muse-charm",
       "product-20261024-block-dessa-ai-model",
       "product-20261002-legato-ai-hearing-glasses",
       "20260326-050118",
-      "product-20260926-meta-camera-free-ai-glasses",
-      "product-20261007-nano-banana-2-1",
-      "product-20261012-colorist-ai-romance-chat"
+      "product-20260930-openai-dots-agents",
+      "product-20261014-apple-homeview-siri-ai"
     ]
   },
   {
@@ -15636,12 +15636,12 @@
     "related": [
       "product-20261004-meta-muse-charm",
       "product-20260926-meta-camera-free-ai-glasses",
+      "product-20261025-ainote-2-ai-tablet",
       "product-20260927-honor-robot-phone",
       "product-20261020-bee-eclipse-frontier",
       "product-20261021-apple-tv-4k-siri-ai",
       "product-20261024-block-dessa-ai-model",
-      "product-20261013-microsoft-maia-3-ai-chip",
-      "product-20260930-openai-dots-agents"
+      "product-20261013-microsoft-maia-3-ai-chip"
     ]
   },
   {
@@ -15703,13 +15703,13 @@
     ],
     "related": [
       "product-20261016-amazon-bee-ai-recorders",
+      "product-20261025-ainote-2-ai-tablet",
       "product-20261004-meta-muse-charm",
       "product-20260930-openai-dots-agents",
       "product-20260927-honor-robot-phone",
-      "product-20261002-legato-ai-hearing-glasses",
       "product-20261011-gommari-payroll-ai-agent",
-      "product-20260926-meta-camera-free-ai-glasses",
-      "product-20261006-tenku-note-pro-ai"
+      "product-20261002-legato-ai-hearing-glasses",
+      "product-20260926-meta-camera-free-ai-glasses"
     ]
   },
   {
@@ -15774,10 +15774,10 @@
       "product-20261020-bee-eclipse-frontier",
       "product-20261005-googlebook-gemini-laptop",
       "product-20261015-apple-homepod-mini-2026",
+      "product-20261025-ainote-2-ai-tablet",
       "product-20261007-nano-banana-2-1",
       "product-20260926-meta-camera-free-ai-glasses",
-      "product-20261019-qwen-glasses-n1",
-      "product-20261024-block-dessa-ai-model"
+      "product-20261019-qwen-glasses-n1"
     ]
   },
   {
@@ -15839,13 +15839,13 @@
     ],
     "related": [
       "product-20261009-natura-99-ai-smart-ring",
+      "product-20261025-ainote-2-ai-tablet",
       "product-20260927-honor-robot-phone",
       "product-20261024-block-dessa-ai-model",
       "product-20261004-meta-muse-charm",
       "product-20260930-openai-dots-agents",
-      "ai-illustration-copyright",
-      "20260224-194705",
-      "product-20261003-meta-muse-gadgets-sdk"
+      "product-20261003-meta-muse-gadgets-sdk",
+      "20260224-194705"
     ]
   },
   {
@@ -15908,12 +15908,80 @@
     "related": [
       "product-20260927-honor-robot-phone",
       "product-20261023-meta-muse-japan-launch",
+      "product-20261025-ainote-2-ai-tablet",
+      "product-20261020-bee-eclipse-frontier",
       "product-20261016-amazon-bee-ai-recorders",
       "product-20261012-colorist-ai-romance-chat",
       "product-20261003-meta-muse-gadgets-sdk",
+      "product-20261002-legato-ai-hearing-glasses"
+    ]
+  },
+  {
+    "slug": "product-20261025-ainote-2-ai-tablet",
+    "title": "AINOTE 2発売日・価格・スペックを公式発表から整理",
+    "lead": "AINOTE 2の発売日や価格が気になり、日本での購入を迷っていませんか。発表済みのスペックと未発表の情報が分かれば、前モデルとの違いも踏まえて買う前に確かめるべき点を判断できます。",
+    "preamble": "*画像：（記事参照・メーカー名不明）の公式発表の写真をもとにしたイラストです（原典：[iPadの誘惑から抜け出す。紙の書き心地×AI搭載の「AINOTE 2」が私のジャーナリングを変えた](https://www.gizmodo.jp/article/2610-iflytek-ainote2-journaling/)）*\n\nAI搭載の電子ペーパータブレット「AINOTE 2」が、2025年11月1日の出荷予定で発表されました。米国では約679ドルと報じられ、10.65インチの薄型画面に手書き変換や16言語の文字起こしを備えるといいます。一方で、日本での価格や発売日、サポート体制はまだ発表がなく、仕事や暮らしに取り入れられるのか判断できないモヤモヤが残ります。発表資料の数字を、自分の使い方に照らしてどこまで信じてよいのでしょうか？この記事を読むと、確定している仕様と未発表の情報を切り分けられ、前モデルとの違いや実機レビューで指摘される書き味・操作感の限界も含めて、買う前に何を確かめるべきかを判断できます。\n\n**この記事の要点**\n\n- AINOTE 2は2025年11月1日から出荷予定で、米国価格は約679ドルと報じられている[4][5]。\n- 10.65インチ・厚さ4.2mmの薄型で、手書き文字変換や16言語の音声文字起こしに対応する[6]。\n- 前モデルAir 2は8.2インチ・479米ドルで、AINOTE 2は画面拡大と薄型化が特徴とされる[3][4]。\n\n（最終更新：2026年10月25日）",
+    "type": "product",
+    "layer": "choose",
+    "date": "2026-10-25 16:49",
+    "readTime": "1分",
+    "category": "🎯 AIを武器にするスキル・思考法",
+    "image": "/blog-images/product-20261025-ainote-2-ai-tablet/cover.jpg",
+    "content": [
+      {
+        "section": "AINOTE 2はいつ買える？発売日と価格、対応地域はどこまで発表済みか",
+        "text": "AINOTE 2は、Kickstarterでのキャンペーンを経て発表されたAI搭載の電子ペーパータブレットです[4]。現時点で確認できる発売情報を整理します。\n\nまず発売時期です。2025年11月1日から出荷予定とされており、発表時点では予約注文を受け付けていました[4]。予約の受け付け先としては、iFlyTekの公式サイトや一部のAmazonストアが案内されています[4]。\n\n![AINOTE 2はいつ買える？発売日と価格、対応地域はどこまで発表済みかのイラスト](/blog-images/product-20261025-ainote-2-ai-tablet/ill-1.jpg)\n\n価格については、米国での販売価格が約679ドルと報じられています[5]。日本国内での価格は、現時点の出典からは確認できません。為替や関税、地域ごとの販売戦略によって変動する可能性があるため、国内価格は続報を待つ必要がありそうです。\n\n対応地域についても、現時点で確認できるのは米国での販売と、主要市場でiFlytekのウェブサイトを通じて販売されているという情報にとどまります[5]。日本を含む各国・地域ごとの正式な発売日や価格、サポート体制の詳細は、出典の範囲では明らかになっていません。\n\n新しい端末の登場は、文房具売り場で新製品の入荷日を気にして棚を見比べる時間にどこか似ているかもしれません。現時点で確定しているのは出荷時期と米国価格が中心で、国内向けの情報は今後の発表を待つ状況です。"
+      },
+      {
+        "section": "10.65インチの薄型に何ができる？AINOTE 2の機能とスペックを平易に読む",
+        "text": "![AINOTE 2の主なスペックと機能](/blog-images/product-20261025-ainote-2-ai-tablet/fig-1.svg)\n\n*図：AINOTE 2の主なスペックと機能（出典：[6]）*\n\nAINOTE 2は、10.65インチの画面を備えた薄型のデジタルノートです。本体の厚さは4.2mmとされています[6]。持ち運びやすい電子ノートとして設計されている点が、まず押さえておきたい基本仕様です[6]。\n\nペンによる手書き入力に対応し、書いた文字をテキストへ変換する手書き文字変換機能を備えます[6]。会議や講義の内容を音声から文字へ変換する音声文字起こしにも対応し、16言語のリアルタイム文字起こしが可能とされています[6]。言語をまたぐ場面でも、聞き取った内容をその場で記録に残せる作りです[6]。\n\n![10.65インチの薄型に何ができる？AINOTE 2の機能とスペックを平易に読むのイラスト](/blog-images/product-20261025-ainote-2-ai-tablet/ill-2.jpg)\n\nAI支援機能としては、手書きや印刷された文字を囲むと、大規模言語モデル（LLM）による回答が得られるとされています[6]。調べ物をしながらノート作業を続けられる構成です[6]。Googleカレンダーとの同期にも対応し、アプリ連携は今後拡充予定とされています[6]。付属のスタイラスペンで印を付けると、ToDoや週報の作成につながるスケジュール管理機能も用意されています[6]。\n\nクラウドサービスは1TBの「AINOTEメンバーシップ」が6か月間無料で試せるとされています[6]。有料の「AINOTE Proプラン」では、オフラインでの音声文字起こしやより高度なAIモデル、無制限のノート同期などが示されています[6]。\n\n手書きと音声の両方をひとつの薄型端末にまとめる構成は、紙のノートと録音機器を持ち歩く代わりになりそうです[6]。ただし実際の書き味や変換精度は、実機に触れるまで分からない部分が残ります。"
+      },
+      {
+        "section": "AINOTE Air 2と比べて何が変わる？競合との違いはどこに見えるか",
+        "text": "![AINOTE Air 2とAINOTE 2の違い](/blog-images/product-20261025-ainote-2-ai-tablet/fig-2.svg)\n\n*図：AINOTE Air 2とAINOTE 2の違い（出典：[3][4]）*\n\n前モデルのAINOTE Air 2は8.2インチのE-Ink画面を搭載し、解像度1440×1920、293PPI、重量231g、内蔵ストレージ32GB、RAM 4GBという構成でした[3]。価格はレビュー時点で479米ドルとされています[3]。一方、AINOTE 2は10.65インチのMobius Carta（フレキシブルなプラスチック基板の電子ペーパー）パネルを採用し、フロントライトを持たないことで薄型・軽量を狙った設計とされています[4]。eWritableは、同じパネルを使う他社製品と比べても「最も薄く軽い」ものになる見込みだと伝えています[4]。画面サイズが8.2インチから10.65インチへ広がる点は、ノートや資料を扱う場面での違いとして読み取れます[3][4]。\n\n![AINOTE Air 2と比べて何が変わる？競合との違いはどこに見えるかのイラスト](/blog-images/product-20261025-ainote-2-ai-tablet/ill-3.jpg)\n\n競合との違いは、汎用性よりも用途を絞った設計にあります。AINOTE Air 2はGoogle Play Storeを搭載しておらず、BooxやBigmeのような多目的な電子ペーパー端末とは性格が異なるとの評価があります[3]。その代わり、音声の文字起こしや手書き文字の変換、会議の要約といった機能に重点が置かれています[3]。AINOTE 2もこの路線を引き継ぐとみられ、パネルの薄さを活かした携帯性が加わる形になりそうです[4]。ただし、AINOTE 2の詳細な仕様や価格は、現時点で示された出典からは確定できません。続報を待つ必要がありそうです。\n\n道具を選ぶとき、何ができるかの一覧よりも、毎日のどの場面で手に取るかが決め手になるのかもしれません。"
+      },
+      {
+        "section": "紙のような書き心地にAIが加わると、あなたの思考整理はどう変わるか",
+        "text": "![紙の書き心地とAIで思考整理が変わる流れ](/blog-images/product-20261025-ainote-2-ai-tablet/fig-3.svg)\n\n*図：紙の書き心地とAIで思考整理が変わる流れ（出典：[1][6]）*\n\n紙のような書き心地の端末にAIが加わると、思考整理の場面はどう変わりうるでしょうか。AINOTE 2はE Inkディスプレイを搭載し、紙の印刷物のように見える表示と、ペーパーライクフィルムのような抵抗感のある書き心地を備えるとされています[1]。筆圧を検知して濃さや太さを書き分けられ、ペンのボタンで消しゴムに切り替えられる点も発表内容から読み取れます[1]。日記やブレストのように手を動かしながら考える場面では、この書き味が思考の速度を保つ助けになりそうです。\n\n![紙のような書き心地にAIが加わると、あなたの思考整理はどう変わるかのイラスト](/blog-images/product-20261025-ainote-2-ai-tablet/ill-4.jpg)\n\nAI機能との組み合わせも、思考整理の手間を変える可能性があります。手書きした内容はPDFとして保存でき、ChatGPTが文字を検出してテキストデータに起こすことも可能とされています[1]。録音機能を使えば音声ジャーナリングをリアルタイムで文字起こしできるともされています[1]。思いついた言葉をまず手で書き、あとからテキストとして残せるなら、走り書きの断片を後で見返す手間は軽くなりそうです。16言語のリアルタイム文字起こしに対応するという情報もあり[6]、会議や講義の記録にも使えるという見方があります。\n\n一方で、E Ink特有のスクロール時のラグや画面のちらつきが気になる場合もあるとされています[1]。紙に近い書き味と引き換えに、滑らかな操作感を求める人には物足りなさが残るかもしれません。それでも、書くことに集中しやすい端末だからこそ、頭の中の整理に意識を向けやすくなるのではないでしょうか。あなたにとって、考えをまとめる時間は紙とペンとどちらに近いものでしょうか。"
+      },
+      {
+        "section": "日本で買う前に、価格と発売地域の何を今日確かめておくか",
+        "text": "![日本購入前に確認する海外情報と日本での確認事項](/blog-images/product-20261025-ainote-2-ai-tablet/fig-4.svg)\n\n*図：日本購入前に確認する海外情報と日本での確認事項（出典：[1][4][5]）*\n\n日本での購入を考える前に、価格と発売地域について今日のうちに確認できることを整理しておきましょう。まず価格は、米国では約679ドルで販売されているという見方があります[5]。日本での正式な価格は出典からは断定できないため、iFLYTEKの日本向け製品ページや販売店の表示を直接確かめるのが確実です。発売時期については、2025年11月1日から出荷予定とされていました[4]。ただしこれは海外向けの予約段階の情報であり、日本での発売日や在庫の有無は別に確認する必要があります[4]。販売地域は主要市場でiFLYTEKのウェブサイトを通じて販売されているとされていますが[5]、日本が含まれるかは出典だけでは判断できません。実機の書き味については、ペーパーライクな表面の抵抗感や筆圧検知、ペン先の擦れる感覚が伝えられています[1]。ただしこれらは実際に触ったレビューであり、自分の手に合うかは別問題です。AI機能の精度も、手書き文字の検出にはある程度丁寧な字が必要とされており[1]、認識率の数値は示されていません。E Ink特有のスクロール時のラグや画面のちらつきも指摘されています[1]。こうした点は、家電量販店の展示や返品条件の確認、日本語対応状況の問い合わせで埋めていけそうです。ノートを買う前に表紙をめくって紙の手触りを確かめるように、発表資料の数字の向こうにある自分の使い方を思い描いてみてはいかがでしょうか。"
+      },
+      {
+        "section": "編集長の眼",
+        "text": "AINOTE 2が届く日を思うと、鞄の中身が少し変わる光景が浮かびます。たとえば営業職の人が商談の席で、相手の話を聞きながら手書きのメモを走らせ、その場で音声も文字として残しておく。帰社してから議事録を整える時間が、考える時間に置き換わっていくかもしれません。あるいは大学院生が、紙のような抵抗感のある画面に数式を書きつけ、囲んだ文字をそのままAIに問いかけて調べ物を進める。書くことと調べることが同じ一枚の上でつながるのは、思考の流れを途切れさせない工夫に思えます。10.65インチへ広がった画面と4.2mmの薄さは、資料を開きながら書き込む場面でも頼りになりそうです。E Inkのちらつきや反応の遅さを気にする声があるように、万能ではありません。それでも、手で書く感覚を残したままAIをそばに置くという発想は、日記やブレストの時間を静かに豊かにしてくれるのではないでしょうか。国内の発表が待たれる今、この端末が当たり前の文房具になっていく未来を、少し先に見てみたいと思います。"
+      },
+      {
+        "section": "よくある質問",
+        "text": ""
+      },
+      {
+        "section": "Q. AINOTE 2の発売日と価格はいつ発表されますか？",
+        "text": "AINOTE 2は2025年11月1日から出荷予定とされ、発表時点では予約注文を受け付けていました[4]。米国での販売価格は約679ドルと報じられています[5]。日本国内の価格や正式な発売日については、現時点の出典からは確認できず、今後の発表を待つ状況です[5]。"
+      },
+      {
+        "section": "Q. AINOTE 2は日本で買えますか？",
+        "text": "現時点で確認できるのは、米国での販売と、主要市場でiFlytekのウェブサイトを通じて販売されているという情報です[5]。日本を含む各国・地域ごとの正式な発売日や価格、サポート体制の詳細は出典の範囲では明らかになっていません。国内向けの情報は今後の発表を待つ必要がありそうです。"
+      },
+      {
+        "section": "Q. AINOTE 2はiPadとどう違いますか？",
+        "text": "AINOTE 2はE Inkディスプレイを搭載し、紙の印刷物のような表示とペーパーライクな書き心地を備えるとされています[1]。手書き文字変換や16言語のリアルタイム音声文字起こしなど、記録と整理に重点を置いた機能が示されています[6]。一方、E Ink特有のスクロール時のラグやちらつきが気になる場合もあるとされています[1]。"
+      },
+      {
+        "section": "出典・参考資料",
+        "text": "1. [iPadの誘惑から抜け出す。紙の書き心地×AI搭載の「AINOTE 2」が私のジャーナリングを変えた](https://www.gizmodo.jp/article/2610-iflytek-ainote2-journaling/)（参照日：2026年10月25日）\n3. [Review: iFlytek AINOTE Air 2 notetaking e-ink tablet](https://www.parkablogs.com/content/iflytek-ainote-air-2-notetaking-ereader-tablet-review)（参照日：2026年10月25日）\n4. [iFlyTek Launch AINote 2 – eWritable](https://ewritable.net/iflytek-launch-ainote-2/)（参照日：2026年10月25日）\n5. [First Look at the iFLYTEK AINOTE 2 - Good e-Reader](https://goodereader.com/blog/electronic-readers/first-look-at-the-iflytek-ainote-2)（参照日：2026年10月25日）\n6. [iFLYTEK AINOTE 2, Support LLM, 10.65 inch 4.2mm Ultrathin Digital Notebook, Portable Electronic Notepad with Stylus, AI Voice-to-Text & Handwritten-to-Text, 16-Language Transcription, Wrting/Reading - Newegg.com](https://www.newegg.com/iflytek-ainote-2-10-7-e-ink-touch-screen-rockchip-rk3576-adreno-610-4gb-memory-64gb-ssd-graphite-gold/p/0EJ-02C2-00010?srsltid=AYCX9vKGMPI0YjDZrzcbk63MnbHafu5ubEcjvwrRkMz0vEgTLzN9u43A)（参照日：2026年10月25日）\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
       "product-20261020-bee-eclipse-frontier",
-      "product-20261002-legato-ai-hearing-glasses",
-      "20260406-050148"
+      "product-20261016-amazon-bee-ai-recorders",
+      "product-20261004-meta-muse-charm",
+      "product-20260927-honor-robot-phone",
+      "product-20261023-meta-muse-japan-launch",
+      "product-20260926-meta-camera-free-ai-glasses",
+      "product-20261006-tenku-note-pro-ai",
+      "product-20261002-legato-ai-hearing-glasses"
     ]
   },
   {
@@ -15955,7 +16023,7 @@
       "ai-interview-storytelling",
       "post-07",
       "post-09",
-      "20260222-220939"
+      "20260222-101421"
     ]
   },
   {
