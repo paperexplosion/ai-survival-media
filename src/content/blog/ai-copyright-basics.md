@@ -149,6 +149,7 @@ AIが自律的に生成したものには、原則として著作権が発生し
 ## 関連する詳しい解説
 
 - [AIイラストの著作権は誰のもの？商用利用の可否と注意点](/blog/ai-illustration-copyright)
+- [AIでイラストレーターは失業する？仕事の変化と生存戦略](/blog/ai-illustrator-unemployment-reality)
 
 ## 関連する記録
 
