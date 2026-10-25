@@ -152,6 +152,7 @@ AIに代替されにくい仕事には、共通するタスクの条件があり
 - [AIでデザイナーの仕事はなくなる？求められる役割の変化と生き残る道](/blog/ai-designer-job-future)
 - [AIでホワイトカラーは失業する？弁護士・コンサルの実例](/blog/ai-white-collar-unemployment)
 - [AI失業率をグラフで読み解く｜日本と世界の雇用はどう変わったか](/blog/ai-unemployment-rate-graph-japan)
+- [AIでイラストレーターは失業する？仕事の変化と生存戦略](/blog/ai-illustrator-unemployment-reality)
 ## 出典・参考資料
 
 1. [The Anthropic Economic Index](https://www.anthropic.com/economic-index)（参照日：2026年9月26日）
