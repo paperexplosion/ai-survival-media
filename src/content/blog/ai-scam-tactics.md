@@ -159,6 +159,7 @@ AI詐欺の被害統計を目にすると、同じ時期の同じような手口
 
 - [AIが詐欺師を騙す時代——ナデラの緊急ブレーキは誰が踏む？](/blog/20261011-075336)
 - [AI投資詐欺の手口と見分け方、被害を避ける判断基準](/blog/ai-investment-scam)
+- [aiセミナー詐欺の手口と見分け方｜被害を避ける5つの視点](/blog/ai-seminar-school-scam-tactics)
 ## 出典・参考資料
 
 1. [サイバー警察局｜警察庁Webサイト](https://www.npa.go.jp/bureau/cyber/index.html)（参照日：2026年10月7日）
