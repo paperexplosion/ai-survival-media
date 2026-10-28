@@ -160,6 +160,7 @@ AIが自律的に生成したものには、原則として著作権が発生し
 - [文化庁のAIと著作権 考え方とガイドラインの要点](/blog/cultural-affairs-ai-copyright)
 - [AI作曲著作権は誰のもの？商用利用の注意点を解説](/blog/ai-music-copyright)
 - [AI学習と著作権はどこまで許される？30条の4を解説｜ai 学習著作権](/blog/ai-training-copyright)
+- [AI動画著作権の基本｜公開前に確認すべき著作物性・侵害・商用利用の注意点](/blog/ai-video-copyright)
 ## 出典・参考資料
 
 1. [AIと著作権について | 文化庁](https://www.bunka.go.jp/seisaku/chosakuken/aiandcopyright.html)（参照日：2026年9月26日）

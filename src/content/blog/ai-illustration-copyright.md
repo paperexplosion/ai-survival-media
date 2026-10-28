@@ -118,6 +118,7 @@ AI画像生成と著作権を考えるとき、学習段階と生成・利用段
 - [生成AI画像の著作権は誰のもの？商用利用の可否をケース別に解説](/blog/generative-ai-image-copyright)
 - [AIと著作権の考え方 生成AIの著作権問題を整理](/blog/ai-and-copyright-thinking)
 - [AIでイラストレーターは失業する？仕事の変化と生存戦略](/blog/ai-illustrator-unemployment-reality)
+- [AI動画著作権の基本｜公開前に確認すべき著作物性・侵害・商用利用の注意点](/blog/ai-video-copyright)
 ## 出典・参考資料
 
 1. [AIと著作権について | 文化庁](https://www.bunka.go.jp/seisaku/chosakuken/aiandcopyright.html)（参照日：2026年9月28日）
