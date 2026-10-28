@@ -113,6 +113,7 @@ AI法は2025年9月1日に全面施行され、同月にはAI戦略本部の初�
 
 - [中国AI規制の特徴とは？生成AIと擬人化AIへの影響を解説](/blog/china-ai-regulation)
 - [YouTube AI動画規制の現在地：投稿前に知る開示と収益化の注意点](/blog/youtube-ai-video-regulation)
+- [AIボットが意見募集を埋め尽くす——市民の声は誰のものか](/blog/20261029-082855)
 ## 出典・参考資料
 
 1. [ＡＩ法　全面施行 －次なるフェーズへ－ - 内閣府](https://www.cao.go.jp/press/new_wave/20251003.html)（参照日：2026年10月20日）
