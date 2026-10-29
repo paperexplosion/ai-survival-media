@@ -1506,8 +1506,8 @@
       "20260304-092827",
       "20260312-094000",
       "20260317-092337",
-      "20260317-093413",
-      "20260317-194054"
+      "20260317-194054",
+      "20260319-155159"
     ]
   },
   {
@@ -1554,7 +1554,7 @@
       "20260319-005131",
       "20260317-222856",
       "20260312-224144",
-      "20260623-050206"
+      "20260319-010236"
     ]
   },
   {
@@ -2410,8 +2410,8 @@
       }
     ],
     "related": [
-      "ai-and-copyright-thinking",
       "ai-copyright-basics",
+      "ai-and-copyright-thinking",
       "ai-regulation-overview",
       "20260316-225321",
       "20260317-194054",
@@ -2737,8 +2737,8 @@
     ],
     "related": [
       "20260312-094000",
-      "ai-reskilling",
       "20260316-201156",
+      "ai-reskilling",
       "20260304-051721",
       "20260317-092337",
       "20260317-194054",
@@ -4662,12 +4662,12 @@
     "related": [
       "20260326-171555",
       "20260310-082859",
-      "20260328-071852",
       "20260327-192508",
       "20260317-092337",
       "20260310-092331",
       "20260305-192345",
-      "20260305-071912"
+      "20260305-071912",
+      "20260312-094000"
     ]
   },
   {
@@ -4708,13 +4708,13 @@
     ],
     "related": [
       "20260327-133407",
-      "20260610-050213",
-      "20260328-050246",
       "20260327-211432",
       "20260327-192508",
       "20260327-164958",
       "20260326-171555",
-      "20260224-090015"
+      "20260224-090015",
+      "20260305-192345",
+      "20260506-050237"
     ]
   },
   {
@@ -5154,10 +5154,10 @@
       "20260318-084916",
       "20260403-050211",
       "20260306-222035",
+      "20261030-083249",
       "20260924-164310",
       "20260421-050147",
-      "20260308-103350",
-      "20260504-050153"
+      "20260308-103350"
     ]
   },
   {
@@ -5208,7 +5208,7 @@
       "20260403-050128",
       "20260223-002400",
       "20260222-235624",
-      "ai-regulation-japan"
+      "20261030-083249"
     ]
   },
   {
@@ -5401,14 +5401,14 @@
       }
     ],
     "related": [
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
       "product-20260929-claude-sonnet-5-5",
+      "product-20261008-chatgpt-gpt6-intelligent-ui",
       "20261019-064712",
-      "20261004-072349",
-      "product-20261024-block-dessa-ai-model",
       "20260417-050148",
       "20260505-050140",
-      "20260525-050159"
+      "20260525-050159",
+      "20261004-072349",
+      "20260414-050147"
     ]
   },
   {
@@ -5596,8 +5596,8 @@
       "20260409-050204",
       "20260423-050226",
       "20260312-203611",
-      "20261016-073919",
       "product-20260926-meta-camera-free-ai-glasses",
+      "20261016-073919",
       "20261022-074048",
       "20260424-050200",
       "20260318-112530"
@@ -5647,11 +5647,11 @@
       "20260409-050203",
       "20260622-050218",
       "20260515-050228",
-      "20261016-073919",
       "china-ai-regulation",
       "20260312-224144",
+      "20261016-073919",
       "20260318-081842",
-      "20260312-203611"
+      "20260410-050231"
     ]
   },
   {
@@ -5741,11 +5741,11 @@
       "20260327-164958",
       "20260327-133407",
       "20261011-075336",
+      "20261028-080631",
       "20260412-050211",
       "20260411-213750",
-      "20261028-080631",
-      "eu-ai-regulation",
-      "20260318-084916"
+      "20260318-084916",
+      "20260528-050237"
     ]
   },
   {
@@ -5845,9 +5845,9 @@
       "ai-regulation-overview",
       "20260503-050251",
       "20261013-103557",
-      "20261005-072915",
-      "20260411-050211",
-      "20260615-050237"
+      "20260615-050237",
+      "generative-ai-image-copyright",
+      "20261005-072915"
     ]
   },
   {
@@ -5987,12 +5987,12 @@
     "related": [
       "20260327-205323",
       "20260523-050248",
-      "20261004-072349",
       "20260513-050217",
       "20260403-050211",
+      "20261004-072349",
       "20260527-050213",
-      "20260411-213750",
-      "20260520-050202"
+      "20260520-050202",
+      "20260423-050226"
     ]
   },
   {
@@ -6886,8 +6886,8 @@
       }
     ],
     "related": [
-      "20260412-050211",
       "20260426-050224",
+      "20260412-050211",
       "20260615-050237",
       "20260327-133407",
       "20260926-053102",
@@ -6944,7 +6944,7 @@
       "20260225-222651",
       "20260226-175800",
       "20260222-220939",
-      "20260317-094429"
+      "20260405-050207"
     ]
   },
   {
@@ -7627,10 +7627,10 @@
       "product-20260926-meta-camera-free-ai-glasses",
       "ai-regulation-overview",
       "20260430-050210",
-      "20260412-050211",
       "20260524-050205",
       "20260418-050222",
-      "20260312-202704"
+      "20260312-202704",
+      "20260326-050118"
     ]
   },
   {
@@ -8151,11 +8151,11 @@
       "20260524-050205",
       "20260226-175800",
       "20260224-090015",
+      "20261030-083249",
       "20260520-050202",
       "20260531-050200",
       "20260411-050211",
-      "20260312-202704",
-      "20261015-073424"
+      "20260312-202704"
     ]
   },
   {
@@ -8486,13 +8486,13 @@
     ],
     "related": [
       "20260621-050244",
-      "20261005-072915",
       "20260428-050228",
       "20260929-085359",
+      "20261005-072915",
       "20260223-002400",
-      "eu-ai-regulation",
       "20260615-050237",
-      "20260316-225321"
+      "20260316-225321",
+      "youtube-ai-video-regulation"
     ]
   },
   {
@@ -8777,9 +8777,9 @@
     "related": [
       "20260613-050216",
       "20260611-050254",
-      "20260328-071852",
       "20260530-050237",
       "20260609-050244",
+      "20260328-071852",
       "ai-side-business-beginners-guide",
       "20261026-070024",
       "20261006-095600"
@@ -8918,8 +8918,8 @@
     "related": [
       "20260610-050213",
       "20261025-065029",
-      "20260501-050227",
       "20260404-050156",
+      "20260501-050227",
       "20260612-050255",
       "20260615-050237",
       "20260606-050334",
@@ -9061,10 +9061,10 @@
       "20260327-133407",
       "20260319-001818",
       "20260305-071912",
+      "20261030-083249",
       "20260318-084916",
-      "20260328-050246",
-      "20260610-050213",
-      "20260614-050233"
+      "20260614-050233",
+      "20260319-005131"
     ]
   },
   {
@@ -9683,8 +9683,8 @@
       "20261005-072915",
       "20260621-050244",
       "20261011-075336",
-      "20260930-080953",
       "20260604-050241",
+      "20260930-080953",
       "20260527-050213",
       "20261002-082351",
       "20261007-081253"
@@ -9870,12 +9870,12 @@
     "related": [
       "eu-ai-regulation",
       "20260606-050334",
-      "20261004-072349",
       "youtube-ai-video-regulation",
       "20260409-003847",
       "20260615-050237",
-      "20261005-072915",
-      "20261017-071057"
+      "20261017-071057",
+      "20261004-072349",
+      "generative-ai-image-copyright"
     ]
   },
   {
@@ -9916,13 +9916,13 @@
     ],
     "related": [
       "20261015-073424",
+      "ai-unemployment-japan",
       "eu-ai-regulation",
       "20260415-050150",
-      "ai-unemployment-japan",
-      "20261003-081255",
       "ai-regulation-overview",
       "20260930-080953",
-      "20261011-075336"
+      "20260503-050251",
+      "20261003-081255"
     ]
   },
   {
@@ -9966,10 +9966,10 @@
       "20260621-050244",
       "20260411-213750",
       "20260412-050211",
-      "20260604-050241",
       "20261029-082855",
-      "20261003-081255",
-      "20260513-050217"
+      "20260604-050241",
+      "20260513-050217",
+      "20261007-081253"
     ]
   },
   {
@@ -10484,13 +10484,13 @@
     ],
     "related": [
       "20260319-001818",
-      "20260409-050204",
       "20260318-110741",
       "20260926-053102",
       "20261022-074048",
       "20260326-230328",
       "20260326-215124",
-      "20260308-103350"
+      "20260308-103350",
+      "20260409-050204"
     ]
   },
   {
@@ -10537,7 +10537,7 @@
       "20260318-112530",
       "20260325-205739",
       "20260312-224144",
-      "ai-lab-vol1-ai-vs-ai-exam"
+      "20261030-083249"
     ]
   },
   {
@@ -10724,8 +10724,8 @@
     "related": [
       "20260615-050237",
       "20260601-050155",
-      "20260411-050211",
       "20260312-094000",
+      "20260411-050211",
       "20260607-050236",
       "20260404-050252",
       "20260523-050248",
@@ -11054,11 +11054,11 @@
       "20261027-081755",
       "20260930-080953",
       "20260411-050211",
+      "20261030-083249",
       "20260224-090015",
       "20261013-103557",
       "eu-ai-regulation",
-      "ai-regulation-overview",
-      "20260926-053102"
+      "ai-regulation-overview"
     ]
   },
   {
@@ -11110,6 +11110,53 @@
       "20260924-164310",
       "20260308-193306",
       "20260301-001615"
+    ]
+  },
+  {
+    "slug": "20261030-083249",
+    "title": "中国製AIの「侵攻」——安さは入口にすぎない",
+    "lead": "あなたは今日、5本のニュースを読みます。中国製AIが企業のコスト管理に新たな選択肢を提示し、OpenAIは5つの価値でモデルの判断基準を組み直します。29歳の創業者は家庭用支援ロボットに息を吹き込み、AIが医学生を教える時代の役割変化が問われ、バンク・オブ・アメリカはAIエージェントへのパスワード共有に警告を発しました。安さと信頼、利便性と管理——同じ週に並ぶこの対比は、偶然にしては出来すぎています。さて、あなたが預ける鍵と価値観、その保管場所は誰が決めるのでしょう？",
+    "type": "news",
+    "layer": "record",
+    "date": "2026-10-30 08:32",
+    "readTime": "2分",
+    "category": "💰 AI時代のお金・財布・経済格差",
+    "image": "/blog-images/20261030-083249/cover.jpg",
+    "content": [
+      {
+        "section": "◆ 中国製AIが企業のコスト管理に新たな選択肢、AI Businessが報じる",
+        "text": "![ニュース画像](/blog-images/20261030-083249/news_0.jpg)\n\n**配信日：** 2026年10月29日　**出典：** [AI Business](https://aibusiness.com/generative-ai/chinese-ai-invasion-gives-enterprises-new-way-control-cost)　**原題：** Chinese AI invasion gives enterprises a new way to control cost\n\nAI Businessによると、中国製AIの台頭が企業にコスト管理の新たな手法をもたらしている。記事は「Chinese AI invasion（中国AIの侵攻）」という表現で、中国発のAIモデルやサービスが企業向け市場に浸透しつつある状況を伝えている。企業にとっては、AI導入にかかる費用を抑える選択肢が増える一方、どのモデルを業務に組み込むかを選ぶ場面が広がっている。記事の配信日は2026年10月28日。AI BusinessはInforma TechTarget（インフォルマ・テックターゲット＝技術系メディアを多数抱える出版グループ）が発行する媒体で、機械学習や生成AI（Generative AI＝文章や画像を新たに作り出す人工知能）などの分野を扱っている。今回の内容は、中国製AIの企業利用がコスト面の判断材料として浮上していることを示すものだ。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 中国製AIが「コスト管理の新手法」って、要は安い選択肢が増えたって話ですよね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 安さは正義か。だが企業は「安いから」だけで選ぶほどお人好しでもない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 現場の感覚だと、試してから決める。値段の札を見てから中身を確かめる順番だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でも「侵攻」なんて見出しを付けられたら、読者はもう警戒モードですよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 見出しの語彙がすでに立場を表明している。記事のタイトルは中立ではない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 使う側からすれば、選択肢が増えるのは単純にありがたい。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> ありがたいと警戒が同時に走る。それが今の企業の本音でしょう。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> コストを抑える手段が増えた、で終わらせない方がいい。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">コスト削減の選択肢が増えることは、現場にとって素直に助かる話です。ただ、安さは導入の入口にすぎません。中国製AIの台頭は、企業が「どのモデルを業務の基盤にするか」という設計図の選び直しを迫られていることを意味します。比喩で言えば、家を建てる際に木材の産地を選ぶようなもので、価格だけで決めれば後の手入れで困る可能性があります。安さと信頼のどちらを軸に据えるか。その選択が、次の10年の競争力を静かに分けていきます。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ OpenAIがModel Spec改訂、5つの価値でAIの判断基準を再構築",
+        "text": "![ニュース画像](/blog-images/20261030-083249/news_1.jpg)\n\n**配信日：** 2026年10月30日　**出典：** [OpenAI Blog](https://openai.com/index/updated-model-spec)　**原題：** An updated Model Spec for more capable and beneficial AI\n\nOpenAI Blogによると、OpenAIは2026年10月29日、モデルの望ましい振る舞いを公に示す文書「Model Spec（モデル仕様書）」を更新した。今回の改訂では、指示を解釈するだけでなく、指示が明示的に及ばない状況でも人間の意図と価値観を理解して適切な判断を下せるモデルを目指す方針が示されている。仕様書は「人間の意図への忠実さ」「危害の最小化」「誠実さと透明性」「人間の主体性」「配慮」という5つの価値の下に再構成された。既存原則の説明を明確化するとともに、文脈・監督・主体性に関する指針を追加し、一部の行動デフォルトを調整し、詳細な文体ガイダンスの多くを廃止した。価値整合（value alignment＝AIの行動を人間の価値観に沿わせる取り組み）の一環であり、研究や展開経験、公開フィードバック、専門家との議論を通じて仕様を洗練させる継続的な作業の一歩だとしている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 5つの価値って並べられると、急に道徳の教科書みたいに見えるね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> でも「文体ガイダンスの多くを廃止」ってのが本音でしょ。行儀より判断力って話だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 指示にない状況で「善意で動く」って、実験屋から見ると一番制御しにくい領域なんだよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> そこを価値で縛るわけだ。縛りが緩いほど自由に見えて、実は責任の置き場が増える。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 忠実さと主体性を同じ棚に並べた時点で、綱引きは始まってる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 監督の指針を足したのは妥当だね。観測できないものは調整できないから。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者は「賢くなった」より「何を優先するか明示した」を評価するんじゃないかな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 明示はした。あとは現場でどっちが勝つか、だ。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">仕様書が価値で整理されるほど、現場では「どの価値が勝ったか」を説明する負荷が増えます。一般には透明性の向上と思われがちですが、構造的には逆で、判断基準を公開するほど個々の出力の責任所在は曖昧になりやすいのです。基準は共有物、判断は当事者というねじれが残ります。糸口は監査ログの整備でしょう。ある金融機関は出力ごとに優先した価値を記録し始めたと聞きます。2030年、AI導入の稟議書に「価値の優先順位表」が添付される日が来るかもしれません。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ 29歳女性創業者が次世代家庭用支援ロボットに息吹を吹き込む",
+        "text": "![ニュース画像](/blog-images/20261030-083249/news_2.jpg)\n\n**配信日：** 2026年10月30日　**出典：** [Bloomberg Tech](https://www.bloomberg.com/news/features/2026-10-29/29-year-old-female-founder-breaths-life-into-next-generation-home-help-robots)　**原題：** 29-Year-Old Female Founder Breaths Life Into Next Generation Home-Help Robots\n\nBloomberg Techによると、29歳の女性創業者が次世代の家庭用支援ロボット（＝家事や日常生活を手助けする機械）の分野で新たな動きを起こしている。記事は2026年10月29日に配信され、この創業者がどのようにして家庭用ロボットの世界に革新をもたらしているかを特集している。家庭用支援ロボットは、掃除や片付け、高齢者の見守りなど、日常生活の負担を軽減する技術として期待されている分野である。29歳という若さで創業者としてこの領域に挑む彼女の取り組みは、次世代の家庭用ロボット市場に新たな風を吹き込むものとして注目を集めている。記事では彼女の経歴やビジョン、そして手がけるロボット技術の詳細について掘り下げている。家庭用ロボット市場は世界的に成長が期待されており、若手起業家の参入が業界の競争と革新を促す可能性がある。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 29歳の女性創業者が家庭用ロボットに挑むって、データで見るとこの分野はまだ伸びしろだらけだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 若さと家庭用ロボットの組み合わせか。歴史を振り返れば、家事の担い手は常に技術に置き換えられてきた。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でもさ、家庭用ロボットって読者の感情としては「便利」より「怖い」が先に来ない？ そこをどう突破するかだよね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実験屋としては、実際に家で動くロボットを見ると印象が変わる。百聞は一見にしかず、だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 29歳で創業というのは、資金調達の面でも相当な壁があったはずだ。そこを越えた点に価値がある。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 逆張りだけど、若さを売りにする記事は飽和してる。彼女の「技術の中身」こそがバズの鍵じゃないか。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 同感だ。家庭用支援ロボットの実用性がどこまで進んでいるか、そこが読者の知りたいところだろう。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 家庭にロボットが入る日は、案外すぐそこかもしれないな。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">家庭用ロボットが家事の担い手になる日は、着実に近づいています。ただ、便利さの裏で、家族の時間や役割がどう変わるかは、まだ誰も答えを出せていません。このペースが続けば2030年には、高齢者の見守りや家事の一部をロボットが担う光景が日常になるでしょう。そのとき問われるのは技術の性能ではなく、人間が何を手放し、何を守るかという選択です。29歳の創業者が描く未来図を、私たちは消費者の側から見つめる必要があります。この技術が誰の手に渡るかで、次の10年が決まります。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ AIが医学生を教える時代、医療教育の役割変化を問う",
+        "text": "![ニュース画像](/blog-images/20261030-083249/news_3.jpg)\n\n**配信日：** 2026年10月30日　**出典：** [Google News AI](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdkp0NzVoNlpuWXh1VDdBenJweXFkSk1zT1FYN3Fua1djZDhIaEZiYjh3Mkw5a3hXYVJuSnN4ZFZxRnpTMEFyM0dxU3ZEbGE5NUF0Z24yLVFMeUE2QVJKWnM5T2pvOUtGdm15Y2Q2UnRQTjJkMFJKNjVuaTJIWEIwcV9uemdvc2tSSHJJenE0Q3F2ci1uMmdDVjliVVRmbW9qZXA4d2JGQnJUNjdFN1JKanNyZi11dlBIVmxyU2hSWkQ?oc=5)　**原題：** Schooled by AI: The evolving role of artificial intelligence in medical education - Association of Health Care Journalists\n\nGoogle News AIによると、医療ジャーナリスト協会（Association of Health Care Journalists＝医療分野の記者らで構成される専門団体）が、医療教育における人工知能の役割の変化をテーマにした記事を公開した。タイトルは「Schooled by AI: The evolving role of artificial intelligence in medical education」で、AIが医学生の学びの現場でどのように位置づけられつつあるかを扱っている。配信日は2026年10月29日。医療教育の現場でAIの活用が進む中、その役割の変容に注目が集まっていることを示す内容である。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 医療教育にAI、タイトルだけで読者の指が止まりますね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 止まるだけならいい。問題は中身が「進化」と言い切っている点だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 進化は常に上向きとは限らない。教える側が試される局面だろう。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 学生はAIに聞けば即答を得る。教室の権威は揺らぎますよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 揺らぐのは権威だけか。判断の責任は誰が負うのか。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> そこが抜け落ちると、便利さだけが独り歩きする。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 逆に、AIが苦手な「問いを立てる力」の価値が上がる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 皮肉だな。機械が賢くなるほど、人間の基礎が問われる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 基礎を教える側の設計力が、次の十年の分岐点になる。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">医療教育にAIが入るというニュースは、便利さの話に見えて、実は「誰が判断の責任を負うか」という設計の話です。教える側が答えを渡す仕事から、問いの立て方を鍛える仕事へ移る。ここで見落とされがちなのは、AIが不得意な領域を学生が自分で見極める訓練です。2030年、医学部の合格通知に「AI活用基礎」の文字が並ぶ日が来るかもしれません。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ バンク・オブ・アメリカ、AIエージェントへのパスワード共有に警告",
+        "text": "**配信日：** 2026年10月30日　**出典：** [ZDNet AI](https://www.zdnet.com/innovation/bank-of-america-customers-no-sharing-passwords-ai-agents/)　**原題：** Stop sharing your passwords with AI agents, Bank of America warns customers\n\nZDNet AIによると、米バンク・オブ・アメリカ（Bank of America＝米国の大手銀行）は顧客に対し、AIエージェント（AI agent＝利用者の代わりに銀行口座や各種サービスを操作する自動プログラム）へパスワードを共有しないよう警告した。同行のこのメッセージは、第三者製のAIエージェントによるアクセスを制限する金融機関の流れに沿ったものである。AIエージェントは、預金残高の確認や送金などを代行できる利便性を持つ一方、認証情報（ログインに必要なIDやパスワード）を預けることになるため、管理のあり方が問われる。同行は顧客の資産を守る観点から、認証情報を外部のAIエージェントに渡さない姿勢を鮮明にした。金融機関がAI活用の利便性と安全性の間で線引きを進める動きが、顧客の利用行動にも影響を与え始めている。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 銀行がAIエージェントに「パスワードを渡すな」と。利便性の夢に水を差す一言ですね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 水を差すというより、玄関の鍵を預ける相手を選べと言っている。当たり前の話だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実験屋としては、渡した瞬間に何が起きるか見たい気もする。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 見たいだけなら自分の口座でやってくださいよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 金融機関が第三者製AIを制限する流れは、責任の所在をはっきりさせる作業だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 便利さと引き換えに、認証情報の管理が利用者に戻ってくる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 戻ってくるというか、投げ返される感じがしません？</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 投げ返された側は、受け取る準備ができているのか。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> そこが本当の分かれ目だろうな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 銀行の警告は、親切心と自己防衛の混合物に見えます。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">銀行がAIエージェントへのパスワード共有に警告を出しました。便利さの裏で、認証情報という鍵の管理が利用者自身に戻ってきています。これは、合鍵を渡す相手を自分で見極める時代への移行です。銀行は守りの姿勢を強めましたが、その分だけ利用者の判断力が試されます。利便性を取るか、管理の手間を取るか。その選択が、これからの資産防衛の質を決めていくのでしょう。</span>\n</div>\n</div>\n\n---\n\n\n![総括画像](/blog-images/20261030-083249/summary.jpg)"
+      },
+      {
+        "section": "◆ 総括：時代の濁流を読み解く",
+        "text": "今日の5本は、一見ばらばらの現場から届いています。企業のコスト管理、モデル仕様書、家庭用ロボット、医療教育、銀行の認証警告。しかし一本の糸で結ぶと、同じ問いが浮かび上がります。それは「判断をどこに置くか」という問いです。中国製AIの台頭は、安さという分かりやすい物差しを企業に差し出しました。OpenAIのModel Spec改訂は、明示されない状況でモデルが下す判断の基準を、5つの価値という形で公開しました。家庭用ロボットは家事という日常の判断を機械に委ねる話であり、医療教育は「答えを教える」から「問いを鍛える」への転換であり、バンク・オブ・アメリカの警告は、認証という最後の砦を手元に引き戻す話です。\n\nこれらが同時期に起きているのは、AIが「道具」から「判断の代行者」へと役割を変えつつあるからでしょう。道具ならば性能と価格で選べば済みますが、代行者となれば、何を優先し、どこで止まり、誰が責任を負うかを決めねばなりません。面白いのは、技術が賢くなるほど、人間側の設計図の粗さが露わになる点です。料理が上手くなるほど、台所の整理整頓が問われるのと同じことです。\n\n鍵となるのは、判断の記録と開示でしょう。ある金融機関が出力ごとに優先した価値を記録し始めたという話は、その先触れです。安さで選んだモデルが数年後に手入れ不能にならないか、家庭に入ったロボットが家族の役割をどう変えるか、AIに教わった学生が判断の責任を引き受けられるか。答えはまだ誰も持っていません。ただ、問いを立てる力だけは、機械に外注できないようです。\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "ai-investment-scam",
+      "china-ai-regulation",
+      "20261028-080631",
+      "20260528-050237",
+      "ai-regulation-overview",
+      "20260623-050206",
+      "20260616-050236",
+      "20260403-050211"
     ]
   },
   {
@@ -11370,8 +11417,8 @@
       "ai-regulation-japan",
       "ai-training-copyright",
       "note-ai-side-business",
-      "ai-regulation-overview",
-      "ai-amazon-side-business-guide"
+      "ai-amazon-side-business-guide",
+      "ai-regulation-overview"
     ]
   },
   {
@@ -11954,10 +12001,10 @@
       "ai-scam-tactics",
       "ai-seminar-school-scam-tactics",
       "20260222-220939",
+      "20261030-083249",
       "20260222-214431",
       "ai-side-business-reality-and-pitfalls",
-      "20261011-075336",
-      "20260305-192345"
+      "20261011-075336"
     ]
   },
   {
@@ -12363,9 +12410,9 @@
       "20261005-072915",
       "ai-illustrator-unemployment-reality",
       "product-20261010-pixel-watch-4-ai-watch-face",
-      "20261017-071057",
       "20260308-103350",
-      "ai-side-business-experience-monthly-income"
+      "ai-side-business-experience-monthly-income",
+      "20260420-050152"
     ]
   },
   {
@@ -12582,7 +12629,7 @@
       },
       {
         "section": "関連する記録",
-        "text": "- [メモリー渇望とAI規制の同時進行——マイクロンの強気は誰の渇きを潤すのか](/blog/20261001-081057)\n\n- [AI規制 日本は今どうなっている？AI法の現状と今後](/blog/ai-regulation-japan)\n- [eu ai規制とは？日本企業への影響と対応を解説](/blog/eu-ai-regulation)\n- [中国AI規制の特徴とは？生成AIと擬人化AIへの影響を解説](/blog/china-ai-regulation)\n- [YouTube AI動画規制の現在地：投稿前に知る開示と収益化の注意点](/blog/youtube-ai-video-regulation)\n- [AIボットが意見募集を埋め尽くす——市民の声は誰のものか](/blog/20261029-082855)"
+        "text": "- [メモリー渇望とAI規制の同時進行——マイクロンの強気は誰の渇きを潤すのか](/blog/20261001-081057)\n\n- [AI規制 日本は今どうなっている？AI法の現状と今後](/blog/ai-regulation-japan)\n- [eu ai規制とは？日本企業への影響と対応を解説](/blog/eu-ai-regulation)\n- [中国AI規制の特徴とは？生成AIと擬人化AIへの影響を解説](/blog/china-ai-regulation)\n- [YouTube AI動画規制の現在地：投稿前に知る開示と収益化の注意点](/blog/youtube-ai-video-regulation)\n- [AIボットが意見募集を埋め尽くす——市民の声は誰のものか](/blog/20261029-082855)\n- [中国製AIの「侵攻」——安さは入口にすぎない](/blog/20261030-083249)"
       },
       {
         "section": "出典・参考資料",
@@ -14087,10 +14134,10 @@
       "ai-regulation-japan",
       "ai-regulation-overview",
       "20261029-082855",
+      "youtube-ai-video-regulation",
       "20261004-072349",
       "20261003-081255",
-      "youtube-ai-video-regulation",
-      "20260411-213750"
+      "20261015-073424"
     ]
   },
   {
@@ -14389,8 +14436,8 @@
     "related": [
       "ai-jobs-disappear-myth-or-truth",
       "20260227-000918",
-      "20260308-193306",
       "20260608-050202",
+      "20260308-193306",
       "post-05",
       "human-essence-ai-cannot-reach",
       "20260605-050206",
@@ -15191,9 +15238,9 @@
       "product-20261002-legato-ai-hearing-glasses",
       "product-20261020-bee-eclipse-frontier",
       "product-20261005-googlebook-gemini-laptop",
-      "product-20261021-apple-tv-4k-siri-ai",
-      "product-20261024-block-dessa-ai-model",
-      "product-20261025-ainote-2-ai-tablet"
+      "product-20261027-fancel-ai-skin-counseling",
+      "product-20260930-openai-dots-agents",
+      "product-20261004-meta-muse-charm"
     ]
   },
   {
@@ -15667,10 +15714,10 @@
     ],
     "related": [
       "product-20260928-adobe-premiere-android",
-      "20260406-050148",
       "product-20260929-claude-sonnet-5-5",
       "20260419-050144",
       "20260417-050148",
+      "20260406-050148",
       "product-20261011-gommari-payroll-ai-agent",
       "20260331-235920",
       "20260331-230054"
@@ -16160,12 +16207,12 @@
     "related": [
       "product-20261014-apple-homeview-siri-ai",
       "product-20261002-legato-ai-hearing-glasses",
-      "product-20261021-apple-tv-4k-siri-ai",
       "product-20261020-bee-eclipse-frontier",
+      "product-20261021-apple-tv-4k-siri-ai",
       "20260325-220130",
       "20260316-201156",
-      "product-20261025-ainote-2-ai-tablet",
-      "product-20260929-claude-sonnet-5-5"
+      "product-20260929-claude-sonnet-5-5",
+      "product-20261009-natura-99-ai-smart-ring"
     ]
   },
   {
@@ -16432,12 +16479,12 @@
     "related": [
       "product-20261014-apple-homeview-siri-ai",
       "product-20261020-bee-eclipse-frontier",
+      "product-20261005-googlebook-gemini-laptop",
       "product-20261015-apple-homepod-mini-2026",
       "product-20261025-ainote-2-ai-tablet",
-      "product-20261024-block-dessa-ai-model",
-      "product-20261005-googlebook-gemini-laptop",
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
-      "product-20261026-samurai-app-ai-agent-os"
+      "product-20261026-samurai-app-ai-agent-os",
+      "product-20261007-nano-banana-2-1",
+      "product-20260926-meta-camera-free-ai-glasses"
     ]
   },
   {
@@ -16568,12 +16615,12 @@
     "related": [
       "product-20260927-honor-robot-phone",
       "product-20261023-meta-muse-japan-launch",
-      "product-20261025-ainote-2-ai-tablet",
       "product-20261026-samurai-app-ai-agent-os",
       "ai-seminar-school-scam-tactics",
-      "20260406-050148",
-      "product-20261021-apple-tv-4k-siri-ai",
-      "product-20261020-bee-eclipse-frontier"
+      "product-20261025-ainote-2-ai-tablet",
+      "product-20261020-bee-eclipse-frontier",
+      "product-20261016-amazon-bee-ai-recorders",
+      "product-20261002-legato-ai-hearing-glasses"
     ]
   },
   {
@@ -16641,7 +16688,7 @@
       "product-20261023-meta-muse-japan-launch",
       "product-20260926-meta-camera-free-ai-glasses",
       "product-20261006-tenku-note-pro-ai",
-      "product-20261024-block-dessa-ai-model"
+      "product-20261002-legato-ai-hearing-glasses"
     ]
   },
   {
