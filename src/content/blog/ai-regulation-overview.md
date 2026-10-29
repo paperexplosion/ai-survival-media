@@ -173,6 +173,7 @@ EU AI Actは2024年に成立し、禁止AIに関する規制が2025年2月2日�
 - [中国AI規制の特徴とは？生成AIと擬人化AIへの影響を解説](/blog/china-ai-regulation)
 - [YouTube AI動画規制の現在地：投稿前に知る開示と収益化の注意点](/blog/youtube-ai-video-regulation)
 - [AIボットが意見募集を埋め尽くす——市民の声は誰のものか](/blog/20261029-082855)
+- [中国製AIの「侵攻」——安さは入口にすぎない](/blog/20261030-083249)
 ## 出典・参考資料
 
 1. [AIは社会を変える—だからこそ世界各地で活発化する「AI規制」の動き | サイエンス リポート | TELESCOPE magazine](https://www.tel.co.jp/museum/magazine/report/202607_01/)（参照日：2026年9月29日）
