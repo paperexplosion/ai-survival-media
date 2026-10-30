@@ -113,6 +113,7 @@ AIがホワイトカラーの仕事を奪うという話には、強い警告も
 
 - [AI失業率をグラフで読み解く｜日本と世界の雇用はどう変わったか](/blog/ai-unemployment-rate-graph-japan)
 
+- [エンジニアのAI失業は本当か 仕事の変化と転職戦略](/blog/ai-engineer-unemployment-and-career)
 ## 出典・参考資料
 
 1. [「ホワイトカラー消滅」](https://www.technologyreview.jp/s/383794/a-reality-check-on-the-ai-jobs-hysteria/)（参照日：2026年10月16日）
