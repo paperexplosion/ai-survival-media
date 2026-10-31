@@ -435,7 +435,7 @@
       "20260312-224144",
       "ai-unemployment-japan",
       "20260318-081842",
-      "20260310-092331",
+      "ai-engineer-job-future",
       "20260514-050230"
     ]
   },
@@ -503,7 +503,7 @@
       "20260222-220939",
       "20260305-192345",
       "ai-survival-10-principles",
-      "20260311-223120"
+      "20260225-222651"
     ]
   },
   {
@@ -571,10 +571,10 @@
       "20260319-010236",
       "ai-unemployment-japan",
       "20260223-093844",
-      "20260528-050237",
       "20260519-050241",
       "20260224-201233",
-      "20260223-105731"
+      "20260223-105731",
+      "20260225-081907"
     ]
   },
   {
@@ -690,9 +690,9 @@
     ],
     "related": [
       "20260226-175800",
-      "20260309-200004",
       "20260310-092331",
       "20260312-224144",
+      "20260309-200004",
       "20260309-162600",
       "20260222-235624",
       "20260303-051013",
@@ -1381,7 +1381,7 @@
       "20260303-051013",
       "20260302-091507",
       "20260302-091323",
-      "20260310-082859"
+      "20260318-052259"
     ]
   },
   {
@@ -2032,9 +2032,9 @@
       "ai-unemployment-rate-graph-japan",
       "20260224-194705",
       "ai-jobs-disappear",
-      "20260224-201233",
       "20260306-222035",
       "20260318-052259",
+      "20260224-201233",
       "ai-regulation-overview"
     ]
   },
@@ -2092,8 +2092,8 @@
     ],
     "related": [
       "20260306-222035",
-      "20260304-051721",
       "20260317-092337",
+      "20260304-051721",
       "20260328-050246",
       "20260309-200004",
       "20260309-162600",
@@ -2351,8 +2351,8 @@
       "ai-regulation-overview",
       "20260225-222651",
       "20260224-194705",
-      "20260223-105731",
       "ai-engineer-job-future",
+      "20260223-105731",
       "20260303-192918",
       "ai-unemployment-japan"
     ]
@@ -2627,13 +2627,13 @@
     ],
     "related": [
       "20260316-203006",
+      "20260319-165409",
       "20260316-225321",
       "20260317-194054",
-      "20260319-165409",
       "20260317-093413",
-      "20260312-224144",
       "20260312-094000",
-      "ai-regulation-overview"
+      "ai-regulation-overview",
+      "20260312-224144"
     ]
   },
   {
@@ -2737,8 +2737,8 @@
     ],
     "related": [
       "20260312-094000",
-      "20260316-201156",
       "ai-reskilling",
+      "20260316-201156",
       "20260304-051721",
       "20260317-092337",
       "20260317-194054",
@@ -2808,9 +2808,9 @@
       "20260310-201228",
       "20260310-092331",
       "20260310-082859",
-      "20260325-205739",
       "20260327-143431",
-      "20260304-092827"
+      "20260304-092827",
+      "20260325-205739"
     ]
   },
   {
@@ -2985,8 +2985,8 @@
       "20260317-222856",
       "20260319-165409",
       "20260312-094000",
-      "20260316-201156",
       "20260316-203006",
+      "20260316-201156",
       "20260316-225321"
     ]
   },
@@ -3200,8 +3200,8 @@
     ],
     "related": [
       "20260318-081842",
-      "stability-is-risk-52-strategy",
       "20260318-112530",
+      "stability-is-risk-52-strategy",
       "20260312-224144",
       "20260309-162600",
       "ai-jobs-disappear-ranking",
@@ -3481,8 +3481,8 @@
       "20260319-011423",
       "20260224-090015",
       "20260318-235100",
-      "20260317-094429",
       "20260318-081842",
+      "20260317-094429",
       "20260223-103034",
       "20260422-050150"
     ]
@@ -3730,12 +3730,12 @@
     "related": [
       "20260325-205739",
       "20260501-050227",
-      "20261031-080959",
       "20260317-094429",
+      "20261031-080959",
       "20260328-071852",
       "20260327-143431",
-      "20260328-050246",
-      "20260311-223120"
+      "20260613-050216",
+      "ai-side-business-beginners-guide"
     ]
   },
   {
@@ -3780,9 +3780,9 @@
       "20260316-225321",
       "20260408-050144",
       "20260515-050228",
-      "20261017-071057",
       "20260326-191001",
-      "20260312-224144"
+      "20260505-050140",
+      "20260331-230054"
     ]
   },
   {
@@ -3873,10 +3873,10 @@
       "20260326-102733",
       "20260615-050237",
       "20260325-220130",
-      "20260606-050334",
-      "20260612-050255",
       "product-20261016-amazon-bee-ai-recorders",
-      "20260411-213750"
+      "20261023-074207",
+      "youtube-ai-video-regulation",
+      "china-ai-regulation"
     ]
   },
   {
@@ -3964,9 +3964,9 @@
       "20260326-230705",
       "20260327-171619",
       "20260328-050246",
-      "20260309-200004",
       "20260327-205323",
-      "20260328-071852"
+      "20260328-071852",
+      "20260311-223120"
     ]
   },
   {
@@ -4708,8 +4708,8 @@
     ],
     "related": [
       "20260327-133407",
-      "20260610-050213",
       "20260328-050246",
+      "20260610-050213",
       "20260327-211432",
       "20260327-192508",
       "20260327-164958",
@@ -5065,13 +5065,13 @@
     ],
     "related": [
       "ai-unemployment-japan",
-      "20260330-162832",
       "20260227-191532",
+      "20260330-162832",
       "20260403-050128",
       "20260318-084916",
       "20260317-094429",
-      "20260317-194054",
-      "20260407-050153"
+      "20260407-050153",
+      "ai-jobs-disappear-ranking"
     ]
   },
   {
@@ -5272,10 +5272,10 @@
       "20260403-050211",
       "20260325-220130",
       "20260613-050216",
-      "20260316-201156",
       "ai-writing-translation-side-business",
-      "20260531-050200",
-      "20260610-050213"
+      "20260316-201156",
+      "20260610-050213",
+      "20260522-050204"
     ]
   },
   {
@@ -5323,10 +5323,10 @@
       "ai-unemployment-japan",
       "20260302-091323",
       "20260325-220130",
+      "20261021-073533",
       "20260606-050334",
       "20260223-103034",
-      "20261021-073533",
-      "20260311-223120"
+      "20260222-101421"
     ]
   },
   {
@@ -6590,8 +6590,8 @@
       "20260312-202704",
       "20260309-200004",
       "20260224-090015",
-      "20260226-175800",
       "20260310-092331",
+      "20260226-175800",
       "20260615-050237"
     ]
   },
@@ -6918,8 +6918,8 @@
       }
     ],
     "related": [
-      "20260426-050224",
       "20260412-050211",
+      "20260426-050224",
       "20260615-050237",
       "20260327-133407",
       "20260926-053102",
@@ -7363,8 +7363,8 @@
       "20260309-091640",
       "20260308-193306",
       "20260426-050224",
-      "20260223-105731",
-      "20260308-103350"
+      "20260308-103350",
+      "20260223-105731"
     ]
   },
   {
@@ -7662,7 +7662,7 @@
       "product-20260926-meta-camera-free-ai-glasses",
       "ai-regulation-overview",
       "20260430-050210",
-      "20260519-050241"
+      "20260412-050211"
     ]
   },
   {
@@ -8185,9 +8185,9 @@
       "20260224-090015",
       "20261030-083249",
       "20260520-050202",
-      "20260531-050200",
       "20260411-050211",
-      "20260312-202704"
+      "20260312-202704",
+      "20261015-073424"
     ]
   },
   {
@@ -8238,7 +8238,7 @@
       "ai-white-collar-unemployment",
       "20260330-162832",
       "20260407-050153",
-      "20260516-050201"
+      "20260302-091507"
     ]
   },
   {
@@ -8326,13 +8326,13 @@
     ],
     "related": [
       "20261025-065029",
-      "20260602-050159",
       "20261006-095600",
+      "20260602-050159",
       "20260524-050205",
-      "20260528-050237",
       "20260428-050228",
       "20260417-050148",
-      "20260317-092337"
+      "20260317-092337",
+      "20260312-202704"
     ]
   },
   {
@@ -8424,13 +8424,13 @@
     ],
     "related": [
       "20260226-175800",
-      "20260531-050200",
       "stability-is-risk-52-strategy",
-      "20260224-090015",
       "20260427-050154",
+      "20261101-074629",
       "ai-illustrator-unemployment-reality",
+      "20260531-050200",
       "20260222-220939",
-      "20260223-093844"
+      "20260224-090015"
     ]
   },
   {
@@ -8575,7 +8575,7 @@
       "20260625-050158",
       "20260302-091507",
       "20260222-222228",
-      "20260319-001818"
+      "20260331-230054"
     ]
   },
   {
@@ -8615,12 +8615,12 @@
       }
     ],
     "related": [
-      "20260612-050255",
       "20260615-050237",
       "20260527-050213",
       "20260430-050210",
       "20260326-201932",
       "20260331-090250",
+      "20260612-050255",
       "20261003-081255",
       "20261013-103557"
     ]
@@ -8813,8 +8813,8 @@
       "20260530-050237",
       "20260609-050244",
       "ai-side-business-beginners-guide",
-      "20261006-095600",
-      "20261026-070024"
+      "20261026-070024",
+      "20261006-095600"
     ]
   },
   {
@@ -8901,12 +8901,12 @@
       }
     ],
     "related": [
-      "20260606-050334",
       "20260615-050237",
       "20260527-050213",
-      "20261029-082855",
+      "20260606-050334",
       "20260325-220130",
       "20260326-201932",
+      "20261029-082855",
       "20260613-050216",
       "ai-regulation-overview"
     ]
@@ -9139,10 +9139,10 @@
       "20260419-050144",
       "20260601-050155",
       "20260317-194054",
-      "20260310-082859",
-      "20260309-200004",
       "20260510-050227",
       "product-20261010-pixel-watch-4-ai-watch-face",
+      "20260310-082859",
+      "20260309-200004",
       "20261019-064712"
     ]
   },
@@ -9808,9 +9808,9 @@
     "related": [
       "ai-regulation-overview",
       "20261009-085455",
-      "20261012-080650",
       "20260312-094000",
       "20260501-050227",
+      "20261012-080650",
       "ai-illustration-copyright",
       "20261002-082351",
       "20260305-192345"
@@ -10045,10 +10045,10 @@
       "eu-ai-regulation",
       "20261008-084551",
       "ai-amazon-side-business-guide",
+      "20261101-074629",
       "20260531-050200",
       "20260224-090015",
-      "20260317-094429",
-      "20260610-050213"
+      "20260317-094429"
     ]
   },
   {
@@ -10135,14 +10135,14 @@
       }
     ],
     "related": [
-      "20261006-095600",
       "20260603-050245",
+      "20261006-095600",
       "20260526-050250",
       "20260317-093413",
       "20260519-050241",
       "ai-side-business-recommended-methods",
       "20260302-091507",
-      "20261017-071057"
+      "20260423-050226"
     ]
   },
   {
@@ -10328,13 +10328,13 @@
     ],
     "related": [
       "20260521-050158",
-      "20260224-090015",
       "20260410-050231",
       "20261017-071057",
-      "20261001-081057",
-      "20260310-082859",
+      "20260224-090015",
       "20261025-065029",
-      "20260222-101421"
+      "20260222-101421",
+      "elite-engineers-thinking-mirror",
+      "20261001-081057"
     ]
   },
   {
@@ -10568,8 +10568,8 @@
       "20260614-050233",
       "20260317-092337",
       "20260318-112530",
-      "20260325-205739",
-      "20260312-224144"
+      "ai-lab-vol1-ai-vs-ai-exam",
+      "20260927-071031"
     ]
   },
   {
@@ -10711,10 +10711,10 @@
       "20260327-164958",
       "20260224-090015",
       "ai-side-business-beginners-guide",
+      "20261101-074629",
       "20261012-080650",
       "20261018-064121",
-      "20260327-133407",
-      "20260603-050245"
+      "20260327-133407"
     ]
   },
   {
@@ -10989,14 +10989,14 @@
       }
     ],
     "related": [
+      "20261101-074629",
       "20261031-080959",
       "20260223-093844",
       "20260610-050213",
       "20260521-050158",
-      "20261012-080650",
       "ai-amazon-side-business-guide",
       "20260614-050233",
-      "20260325-080104"
+      "ai-side-business-recommended-methods"
     ]
   },
   {
@@ -11041,9 +11041,9 @@
       "20260325-220130",
       "20260930-080953",
       "20260412-050211",
+      "20261101-074629",
       "20260317-092337",
-      "20260224-090015",
-      "20261029-082855"
+      "20260224-090015"
     ]
   },
   {
@@ -11138,10 +11138,10 @@
       "eu-ai-regulation",
       "ai-regulation-japan",
       "ai-regulation-overview",
-      "20260612-050255",
       "20260924-164310",
       "20260308-193306",
-      "20260301-001615"
+      "20260612-050255",
+      "20261005-072915"
     ]
   },
   {
@@ -11229,13 +11229,60 @@
     ],
     "related": [
       "20261026-070024",
-      "20260325-080104",
       "20260316-225321",
-      "20261012-080650",
+      "20260325-080104",
       "20261007-081253",
       "ai-side-business-beginners-guide",
       "20261008-084551",
-      "documentary-mobility-remote-strategy"
+      "documentary-mobility-remote-strategy",
+      "20260610-050213"
+    ]
+  },
+  {
+    "slug": "20261101-074629",
+    "title": "AI投資8000億ドルの逆説——効率が上がった「気がする」だけの代償",
+    "lead": "あなたは今日、5本のニュースを読みます。生産的に「感じる」AI活用こそ最悪だという逆説。AI投資懸念が大手テック株を直撃し、ナスダックは月間最悪の下げを記録しました。アンソロピックは92ページのリスク要因文書を公開し、Claude Enterpriseには費用対効果を可視化する新機能が搭載されます。効率という名の鏡が、いつの間にか請求書を映し始めた——その映り込みを、誰が検品するのでしょう？",
+    "type": "news",
+    "layer": "record",
+    "date": "2026-11-01 07:46",
+    "readTime": "2分",
+    "category": "💰 AI時代のお金・財布・経済格差",
+    "image": "/blog-images/20261101-074629/cover.jpg",
+    "content": [
+      {
+        "section": "◆ 「生産的に感じる」AI活用こそ最悪、Towards AIが問う逆説",
+        "text": "![ニュース画像](/blog-images/20261101-074629/news_0.jpg)\n\n**配信日：** 2026年10月31日　**出典：** [Towards AI](https://pub.towardsai.net/the-worst-ways-to-use-ai-are-the-ones-that-feel-productive-38bdb13b439a?source=rss----98111c9905da---4)　**原題：** The Worst Ways to Use AI Are the Ones That Feel Productive\n\nTowards AIによると、AI（人工知能）の最も有害な使い方とは、一見して生産的に感じられる使い方だという。記事は「生産性」という感覚そのものを問題提起の出発点に据え、効率が上がったと錯覚させる作業こそが、実は最も危険な落とし穴になり得ると論じている。タイトルが示す通り、無駄に見える使い方ではなく、成果を出しているように見える使い方にこそ注意を促す逆説的な構成だ。ただし、配信されたページは403エラー（Forbidden＝アクセス拒否）を返し、本文の全文は取得できていない。そのため記事内で挙げられている具体例や論拠の詳細、著者名などの情報は確認できない状況にある。現時点で確認できるのは、タイトルと媒体名、そして配信日を示す日付情報のみである。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> タイトルだけで本文が読めない記事、逆に燃えない?</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 燃える以前に、検証不能の検体を渡された気分だよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実験屋としては再現不能。でも「生産的に感じる」って言葉は妙に刺さる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> そう、読者は「それ私だ」って言いたくなるはず。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 効率が上がった気がするだけの作業ほど、後で請求書が来るんだよな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 自己申告の生産性ほど当てにならない指標はない。データが物語る。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 恐怖を売るより、問いを売りたいね。「あなたの効率、本物?」って。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 問題は、その「気がする」を誰が検証するのかって話だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 検証しないまま次のタスクへ。それが一番怖い。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">効率が上がったという感覚は、時に最も高価な錯覚になります。成果を測る物差しを持たないまま、私たちは「進んでいる気」だけを積み上げていないでしょうか。AIは万能の杖ではなく、鏡です。何を省き、何を残すかを決めない限り、鏡はただ作業を速く映すだけです。速さと成果を同一視するか、立ち止まって測るか。分岐点はそこにあります。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ AI投資懸念が大手テック株を直撃、市場に動揺広がる",
+        "text": "![ニュース画像](/blog-images/20261101-074629/news_1.jpg)\n\n**配信日：** 2026年10月31日　**出典：** [Bloomberg Tech](https://www.bloomberg.com/news/videos/2026-10-31/ai-spending-fears-hammer-big-tech-stocks-video)　**原題：** AI Spending Fears Hammer Big Tech Stocks\n\nBloomberg Techによると、AI（人工知能）分野への巨額の支出が続くことへの懸念が強まり、大手テック企業の株価が打撃を受けた。2026年10月31日に配信されたこの映像報道は、AI関連の投資負担が企業収益を圧迫するとの見方が市場で広がり、投資家が警戒を強めている状況を伝えている。番組では、AIインフラ構築やデータセンター（＝大量の計算処理を行う施設）への設備投資が膨らむ一方で、その回収時期や収益化の道筋をめぐる不透明感が株価の重しになっている点が論じられた。大手テック各社はAI競争で優位に立つため支出を拡大してきたが、市場はそのコストが利益率をどこまで削るかを注視している。映像では専門家が、AI支出の規模と株価反応の関係、投資家心理の変化について解説を展開した。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> AI支出の額だけ見れば桁違いで、実験屋としてはワクワクする数字だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> ワクワクするのは研究所までにしておけ。株価はもう冷や水を浴びた顔をしている。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 投資家の財布の紐が、AIの夢より先に固くなった瞬間ですね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> でも設備投資を止めたら競争に負ける。ジレンマだよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 昔の鉄道ブームと同じだ。線路を敷いた会社が全員儲かったわけじゃない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者は「で、私の株は大丈夫？」ですよ。感情はもう恐怖寄り。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 恐怖と期待の振れ幅が、この市場の体温そのものだな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 体温計ばかり見ていても、病気は治らんけどな。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">AIへの巨額投資が株価を揺らす局面は、私たちの資産にも静かに波及しています。一般に「AI支出は成長の証」と思われていますが、構造的には逆で、支出の大きさ自体が収益回収への不安を呼び込む諸刃の剣になっています。夢を語るほど、市場は現実の採算を突きつける。私自身も含め、その渦中で右往左往しているのが実情です。ただ、現場では支出の内訳を精査し、回収の見える領域に絞り込む動きが一部の企業で既に始まっています。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ 米テック株急落、AI投資1兆ドル目前でナスダック月間最悪の下げ",
+        "text": "![ニュース画像](/blog-images/20261101-074629/news_2.jpg)\n\n**配信日：** 2026年10月31日　**出典：** [BBC Tech](https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss)　**原題：** US tech stocks see sharp falls as AI spending nears $1tn\n\nBBC Techによると、米国のテクノロジー株が2日連続で急落し、企業が人工知能（AI）に投じる数千億ドル規模の投資への懸念が高まっている。10月30日、半導体大手インテル（Intel）の株価は28%急落し、時価総額で1300億ドル以上を失った。グーグル親会社のアルファベット（Alphabet）も前日12%下落した後にさらに1.4%下げた。掲示板サイトのレディット（Reddit）やアマゾン（Amazon）も下落し、米国の主要テック企業で構成するナスダック指数（Nasdaq＝米国の新興・ハイテク株中心の株価指数）は2025年3月以来の最悪の月間下落で10月を終えた。メタ（Meta）、アルファベット、オラクル（Oracle）、アマゾン、マイクロソフト（Microsoft）は2026年に合計8000億ドルの支出を約束している。アルファベットは検索結果の最上部にAI要約を表示したことが検索広告収入に影響したと明かし、木曜に時価総額5000億ドル以上を失った。今年の投資額は最大2050億ドルに達する見通しだ。インテルはパソコン需要減速の中でもAI支出を増やす計画を示し、第4四半期の売上高見通しも市場予想を下回った。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> インテルが1日で28%か。時価総額1300億ドルが消し飛ぶ値動きは、データを見ても異常だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 異常だが、不思議でもない。8000億ドルの約束は、回収の絵をまだ誰も描けていない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 投資家の財布の紐が、AI要約のせいで検索広告が痩せた瞬間に緩んだ。順番が逆だろうに。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> アルファベットは2050億ドルを投資に回す。売上が削られて支出が増える、この構図はきつい。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> インテルはパソコンが売れないのにAI支出を増やすと言う。賭けに出たわけだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 賭けというより、降りられない椅子取りゲームですよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> ナスダックの月間下げは2025年3月以来。1年半ぶりの冷や水だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 冷や水を浴びて目が覚めるなら安い。問題は、まだ誰も覚ましていないことだ。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">株価の下落は、投資家がAIの収益化に期限を切り始めた合図です。約束された8000億ドルは、いつか請求書になる。このペースが続けば2030年、各社の決算はAI事業の償却費に押し潰され、人員削減と値上げが同時に進む場面を私たちは見ることになるでしょう。投資は未来への切符ではなく、返済期限付きの借金でもあるのです。歴史は繰り返します——今度はデータセンターの上で。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ アンソロピック、92ページのリスク要因文書を公開 IPO申請で",
+        "text": "![ニュース画像](/blog-images/20261101-074629/news_3.jpg)\n\n**配信日：** 2026年10月31日　**出典：** [Guardian Tech](https://www.theguardian.com/global/video/2026/oct/30/anthropic-92-page-risk-factor-document-ipo-filing-video-explainer)　**原題：** I read Anthropic's 92-page risk factor document, so you don't have to – video explainer\n\nGuardian Techによると、AI企業アンソロピック（Anthropic＝米国の人工知能開発企業）が新規株式公開（IPO＝株式市場に上場して投資家から資金を集めること）の申請に際して作成した92ページに及ぶリスク要因文書（risk factor document＝上場前に投資家へ事業の危険性を説明する開示資料）を取り上げ、その全編を記者が読み込んだ上で要点を解説する動画が2026年10月30日に公開された。動画は「私が読んだので、あなたは読まなくていい」と題し、長大な文書を一般読者に代わって読み解く構成をとる。リスク要因文書は上場企業が投資家に対して事業上の潜在的危険を事前に説明するために用意するもので、アンソロピックはこの文書を通じて自社事業が抱える課題を列挙している。動画解説はGuardian Techのグローバル向け動画コンテンツとして配信された。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 92ページですよ。読む前から胃が痛くなる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 上場前に自らの弱点を並べ立てる。あれは自己申告の履歴書みたいなものだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 投資家はそれを読んで買うか決める。隠すより晒す方が賢い時代なんだろう。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でも「あなたは読まなくていい」って、記者が一番言いたい言葉じゃないですか。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 代読というサービスだな。要約が一次資料の座を奪う構図は、昔から変わらん。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 92ページを動画数分に圧縮する。情報の圧縮率としては優秀だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 圧縮で削られた部分にこそ、投資家が知りたいことが潜んでいそうで怖い。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> そこを突くのが記者の仕事だ。要約の向こう側を読ませる工夫が要る。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> まずは動画を見てから、原文のどこが削られたか照合する。それが一番勉強になる。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">92ページを読む手間を省く動画は便利です。ただ、私たちも要約に頼る側に回っていることを忘れてはいけません。長大な開示文書を数分に畳む流れは、AI企業が自らのリスクを語る場面でも同じように進んでいます。圧縮の効率が上がるほど、削られた行間に投資家の判断材料が沈む構造を見落とせません。細部にこそ糸口があり、原文の一行を照合する習慣が、要約時代の最後の防波堤になるはずです。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ Anthropic、Claude Enterpriseに費用対効果を可視化する3新機能",
+        "text": "**配信日：** 2026年10月31日　**出典：** [ITmedia AI+](https://www.itmedia.co.jp/enterprise/articles/2610/31/news009.html)　**原題：** AIの「費用対効果が分からない」問題、解決へ？　Claude Enterprise搭載の「3つの新機能」：AIニュースピックアップ\n\nITmedia AI+によると、Anthropicは2026年10月28日（現地時間）、企業向けプラン「Claude Enterprise」に3つの新機能を追加し、一般提供を始めたと発表した。AIにかかるコストが当初の予想を超えるケースが出てくる中で、費用対効果が厳しく問われる傾向が強まっており、今回の機能には管理者が利用の実態を把握し、投資計画の判断材料を得るための機能も含まれている。Anthropicによると、多くの組織では既にメンバーがClaudeを生かした独自の使い方を見つけており、次の段階はそれを全てのチームに広げることだという。新機能は、利用状況の可視化から予算の配分までを扱う内容で、IT部門がAI導入の説明材料として活用できるかが焦点となる。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 利用実態が見えるだけで、費用対効果が分かるようになるのかね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 可視化は万能薬じゃない。測れるようになった途端、測りやすい数字だけが独り歩きする。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> それ、ちょっと怖いこと言いますね。現場は数字に追われる未来しか見えない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> でも闇雲に使うよりはましだ。まず何にいくら使ったか、土台がないと議論にならない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 土台は大事だ。ただ、コストの物差しと成果の物差しは別物だってことを忘れたくない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 投資計画の判断材料、つまり経営会議の議題にAIが座るわけです。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 座るだけならいい。発言権を得たと思われたら厄介だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 機能は道具だ。判断するのは人間。そこを履き違えたら、何を導入しても同じことだ。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">可視化された数字は、現場に安心より説明責任の重さを運びます。使った分の言い訳を、以前より正確に求められる時代です。\nこの機能は、家計簿に似ています。支出は克明に記録されるのに、得た満足度は一行も載らない。AIの費用対効果も同じで、記録できるのは請求額までです。\n経営会議にAIの数字を座らせるか、現場の実感を語らせるか。その選択が、次の一手を決めます。</span>\n</div>\n</div>\n\n---\n\n\n![総括画像](/blog-images/20261101-074629/summary.jpg)"
+      },
+      {
+        "section": "◆ 総括：時代の濁流を読み解く",
+        "text": "今日の5本は、一見ばらばらの場所で起きた出来事に見えます。生産性の錯覚、株価の急落、IPOのリスク開示、費用対効果の可視化。しかし並べてみると、同じ問いが姿を変えて繰り返されていることに気づきます。それは「AIの成果を、誰が、どんな物差しで測るのか」という問いです。\n\nTowards AIの記事は、効率が上がったという感覚そのものを疑いました。BBCとBloombergが伝えた株価急落は、8000億ドルという支出の約束に回収の絵が伴わないことへの市場の苛立ちです。インテルが1日で28%下げたのも、アルファベットが検索広告の痩せを認めたのも、測れる数字と測れない価値のズレが噴き出した場面でした。そしてアンソロピックの92ページ文書とClaude Enterpriseの可視化機能は、そのズレを自ら開示し、数字で語ろうとする企業の姿勢を示しています。\n\n興味深いのは、投資家も企業も現場も、同じ方向を向いていることです。つまり「感覚」から「計測」へ。ただし計測は万能薬ではありません。家計簿をつければ満足度が上がるわけではないように、利用状況の可視化は費用対効果の証明にはなりません。測れるようになった数字だけが独り歩きする危うさは、生産性の錯覚と紙一重です。\n\nここで賢くなるための視点を一つ。AI投資の議論で本当に見るべきは、支出の額でも株価の振れ幅でもなく、「何を測らないと決めたか」です。測らないと決めた領域にこそ、その企業の価値観が滲みます。92ページの文書から動画が数分に畳んだ行間と同じく、削られた部分に判断材料が沈んでいるのです。\n\n効率の鏡は、速さだけを映します。何を省き、何を残すかを決めるのは、鏡の前に立つ人間の側です。今日のニュースは、その決断を先送りにした者から順に、請求書という形で現実を突きつける予告編でした。\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "20261026-070024",
+      "20260224-090015",
+      "20261006-095600",
+      "20260602-050159",
+      "20261029-082855",
+      "20261027-081755",
+      "20260226-175800",
+      "20260613-050216"
     ]
   },
   {
@@ -11496,8 +11543,8 @@
       "ai-regulation-japan",
       "ai-training-copyright",
       "note-ai-side-business",
-      "ai-regulation-overview",
-      "ai-amazon-side-business-guide"
+      "ai-amazon-side-business-guide",
+      "ai-regulation-overview"
     ]
   },
   {
@@ -13023,8 +13070,8 @@
       "ai-investment-scam",
       "ai-side-business-scam-warning",
       "ai-scam-tactics",
-      "product-20261031-meta-style-sketch",
       "product-20261024-block-dessa-ai-model",
+      "product-20261031-meta-style-sketch",
       "ai-side-business-experience-monthly-income",
       "ai-side-business-reality-and-pitfalls",
       "20260225-222651"
@@ -15038,8 +15085,8 @@
       "product-20261004-meta-muse-charm",
       "ai-jobs-disappear",
       "product-20261025-ainote-2-ai-tablet",
-      "product-20261020-bee-eclipse-frontier",
-      "ai-copyright-basics"
+      "ai-copyright-basics",
+      "product-20261020-bee-eclipse-frontier"
     ]
   },
   {
@@ -15457,8 +15504,8 @@
     ],
     "related": [
       "product-20261014-apple-homeview-siri-ai",
-      "product-20261020-bee-eclipse-frontier",
       "product-20261015-apple-homepod-mini-2026",
+      "product-20261020-bee-eclipse-frontier",
       "product-20261004-meta-muse-charm",
       "product-20261025-ainote-2-ai-tablet",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
