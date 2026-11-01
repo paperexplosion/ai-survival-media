@@ -113,6 +113,7 @@ AI副業の数字を読むとき、私たちが最初に確かめたいのは金
 
 - [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)
 
+- [AI動画副業の具体例と収益化の流れ｜数字の出どころと限界](/blog/ai-video-side-business)
 ## 出典・参考資料
 
 1. [「AIで副業」の理想と現実——実際にやってみた1年間の正直な話](https://note.com/douga_hanbai/n/n2c271c09dbe8)（参照日：2026年10月1日）
