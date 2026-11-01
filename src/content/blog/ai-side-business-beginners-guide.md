@@ -171,6 +171,7 @@ AIツールはプロンプト入力だけで使え、無料版もあるため始
 - [AIライティング副業の単価相場と著作権リスク](/blog/ai-writing-translation-side-business)
 - [aiアノテーション副業の実態｜稼ぎ方と限界を一次資料で解説](/blog/ai-annotation-side-job)
 - [note AI 最強の副業の現実解：2億円本と実践レビューから学ぶ](/blog/note-ai-side-business)
+- [AI動画副業の具体例と収益化の流れ｜数字の出どころと限界](/blog/ai-video-side-business)
 
 ## 出典・参考資料
 
