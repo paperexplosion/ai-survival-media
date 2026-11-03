@@ -497,9 +497,9 @@
     ],
     "related": [
       "20260302-091323",
+      "20260305-192345",
       "20260222-220939",
       "20260222-101421",
-      "20260305-192345",
       "20260224-194705",
       "20260225-081907",
       "ai-survival-10-principles",
@@ -691,8 +691,8 @@
     "related": [
       "20260226-175800",
       "20260310-092331",
-      "20260312-224144",
       "20260309-200004",
+      "20260312-224144",
       "20260309-162600",
       "20260222-235624",
       "20260303-051013",
@@ -1260,8 +1260,8 @@
       "20260224-201233",
       "20260222-235624",
       "20260303-192918",
-      "20260225-081907",
       "20260312-224144",
+      "20260225-081907",
       "ai-regulation-overview",
       "ai-reskilling"
     ]
@@ -1506,8 +1506,8 @@
       "20260304-092827",
       "20260312-094000",
       "20260317-092337",
-      "20260317-194054",
-      "20260319-155159"
+      "20260317-093413",
+      "20260317-194054"
     ]
   },
   {
@@ -2627,13 +2627,13 @@
     ],
     "related": [
       "20260316-203006",
-      "20260319-165409",
       "20260316-225321",
+      "20260319-165409",
       "20260317-194054",
       "20260317-093413",
+      "product-20261013-microsoft-maia-3-ai-chip",
       "20260312-094000",
-      "ai-regulation-overview",
-      "20260312-224144"
+      "ai-regulation-overview"
     ]
   },
   {
@@ -2737,13 +2737,13 @@
     ],
     "related": [
       "20260312-094000",
-      "ai-reskilling",
       "20260316-201156",
+      "ai-reskilling",
+      "product-20261013-microsoft-maia-3-ai-chip",
       "20260304-051721",
       "20260317-092337",
       "20260317-194054",
-      "20260319-155159",
-      "20260319-165409"
+      "20260319-155159"
     ]
   },
   {
@@ -4267,7 +4267,7 @@
       "20260327-211432",
       "20260429-050246",
       "20260317-194054",
-      "20260309-200004"
+      "20260327-205323"
     ]
   },
   {
@@ -4660,14 +4660,14 @@
       }
     ],
     "related": [
+      "20260326-171555",
       "20260401-001217",
       "20260310-082859",
-      "20260326-171555",
+      "20260328-071852",
       "20260330-162832",
       "20260327-192508",
       "20260317-092337",
-      "20260312-094000",
-      "20260310-092331"
+      "20260312-094000"
     ]
   },
   {
@@ -4708,13 +4708,13 @@
     ],
     "related": [
       "20260327-133407",
+      "20260328-050246",
+      "20260610-050213",
       "20260327-211432",
       "20260327-192508",
       "20260327-164958",
       "20260326-171555",
-      "20260224-090015",
-      "20260305-192345",
-      "20260506-050237"
+      "20260224-090015"
     ]
   },
   {
@@ -5417,14 +5417,14 @@
       }
     ],
     "related": [
-      "product-20260929-claude-sonnet-5-5",
       "product-20261008-chatgpt-gpt6-intelligent-ui",
+      "product-20260929-claude-sonnet-5-5",
       "20261019-064712",
-      "20260417-050148",
-      "20260505-050140",
       "20261004-072349",
-      "20260525-050159",
-      "20260414-050147"
+      "20260417-050148",
+      "product-20261024-block-dessa-ai-model",
+      "20260505-050140",
+      "20260525-050159"
     ]
   },
   {
@@ -5520,13 +5520,13 @@
     ],
     "related": [
       "20261011-075336",
+      "20260409-050204",
       "post-09",
       "20260331-090250",
-      "20260409-050204",
       "20260325-205739",
+      "20260316-225321",
       "20260312-203611",
-      "20260328-050246",
-      "20260606-050334"
+      "20260328-050246"
     ]
   },
   {
@@ -5571,13 +5571,13 @@
     ],
     "related": [
       "20260415-050150",
+      "20260317-093413",
       "20260302-091323",
       "20260426-050224",
-      "20260317-093413",
       "20261003-081255",
-      "20260318-052259",
-      "20260329-050159",
-      "20260309-200004"
+      "20261020-080259",
+      "20261015-073424",
+      "20260612-050255"
     ]
   },
   {
@@ -5679,11 +5679,11 @@
       "20260409-050203",
       "20260410-050231",
       "china-ai-regulation",
+      "20260408-050144",
       "ai-regulation-japan",
       "20260622-050218",
       "20260515-050228",
-      "20260408-050144",
-      "20260312-224144"
+      "20261016-073919"
     ]
   },
   {
@@ -5773,11 +5773,11 @@
       "20260327-164958",
       "20260327-133407",
       "20261011-075336",
-      "20261028-080631",
       "20260412-050211",
       "20260411-213750",
-      "20260318-084916",
-      "20260528-050237"
+      "20261028-080631",
+      "eu-ai-regulation",
+      "20260318-084916"
     ]
   },
   {
@@ -5878,8 +5878,8 @@
       "20260503-050251",
       "20260413-050217",
       "20261013-103557",
-      "20260615-050237",
-      "20260426-050224"
+      "20261005-072915",
+      "20260411-050211"
     ]
   },
   {
@@ -6029,10 +6029,10 @@
       "20260327-205323",
       "20260523-050248",
       "20260319-005131",
+      "20261004-072349",
       "20260513-050217",
       "20260403-050211",
-      "20260413-050217",
-      "20261004-072349"
+      "20260418-050222"
     ]
   },
   {
@@ -6130,11 +6130,11 @@
       "20260419-050144",
       "20260927-071031",
       "20260518-050231",
+      "product-20260929-claude-sonnet-5-5",
       "20260317-194054",
       "20260309-200004",
       "20260225-081907",
-      "ai-unemployment-japan",
-      "20260429-050246"
+      "ai-unemployment-japan"
     ]
   },
   {
@@ -6174,9 +6174,9 @@
       }
     ],
     "related": [
+      "20260415-050150",
       "20260312-202704",
       "20260430-050210",
-      "20260415-050150",
       "20260419-050144",
       "20260410-050231",
       "20260517-050155",
@@ -6373,7 +6373,7 @@
       "ai-illustration-copyright",
       "20260424-050200",
       "20260608-050202",
-      "20260318-235100"
+      "20260317-092337"
     ]
   },
   {
@@ -7712,9 +7712,9 @@
       "20260614-050233",
       "20260615-050237",
       "product-20260926-meta-camera-free-ai-glasses",
-      "ai-regulation-overview",
       "20260430-050210",
-      "20260519-050241"
+      "ai-regulation-overview",
+      "20260412-050211"
     ]
   },
   {
@@ -7997,8 +7997,8 @@
       "20260327-205323",
       "20260601-050155",
       "20261015-073424",
-      "eu-ai-regulation",
       "20260327-133407",
+      "eu-ai-regulation",
       "20260615-050237",
       "20260511-050246"
     ]
@@ -8477,12 +8477,12 @@
     "related": [
       "20260226-175800",
       "stability-is-risk-52-strategy",
+      "20261103-104522",
       "20260427-050154",
-      "20261101-074629",
       "ai-illustrator-unemployment-reality",
+      "20261101-074629",
       "20260531-050200",
-      "20260222-220939",
-      "20260223-093844"
+      "20260222-220939"
     ]
   },
   {
@@ -8522,10 +8522,10 @@
       }
     ],
     "related": [
+      "20261008-084551",
       "20260310-082859",
       "20260519-050241",
       "20261009-085455",
-      "20261008-084551",
       "20260410-050231",
       "20261025-065029",
       "20260506-050237",
@@ -8570,13 +8570,13 @@
     ],
     "related": [
       "20260621-050244",
-      "20260428-050228",
       "20260929-085359",
       "20261005-072915",
+      "20260428-050228",
       "20260223-002400",
+      "eu-ai-regulation",
       "20260615-050237",
-      "20260316-225321",
-      "youtube-ai-video-regulation"
+      "20260316-225321"
     ]
   },
   {
@@ -8861,12 +8861,12 @@
     "related": [
       "20260613-050216",
       "20260611-050254",
+      "20260328-071852",
+      "20261103-104522",
       "20260530-050237",
       "20260609-050244",
-      "20260328-071852",
       "ai-side-business-beginners-guide",
-      "20261006-095600",
-      "20261026-070024"
+      "20261006-095600"
     ]
   },
   {
@@ -8912,8 +8912,8 @@
       "20260327-171619",
       "ai-seminar-school-scam-tactics",
       "note-ai-side-business",
-      "20261009-085455",
-      "ai-writing-translation-side-business"
+      "ai-writing-translation-side-business",
+      "20261009-085455"
     ]
   },
   {
@@ -8959,8 +8959,8 @@
       "20260325-220130",
       "20260326-201932",
       "20261029-082855",
-      "20260613-050216",
-      "ai-regulation-overview"
+      "20260409-003847",
+      "20260613-050216"
     ]
   },
   {
@@ -9002,12 +9002,12 @@
     "related": [
       "20260610-050213",
       "20261025-065029",
-      "20260501-050227",
       "20260404-050156",
+      "20260501-050227",
       "20260612-050255",
       "20260615-050237",
-      "20260606-050334",
-      "20260410-050231"
+      "20261103-104522",
+      "20260606-050334"
     ]
   },
   {
@@ -9147,8 +9147,8 @@
       "20260305-071912",
       "20261030-083249",
       "20260318-084916",
-      "20260614-050233",
-      "20260319-005131"
+      "20260328-050246",
+      "20260610-050213"
     ]
   },
   {
@@ -9433,8 +9433,8 @@
       "20260327-205323",
       "20260509-050224",
       "20260511-050246",
-      "20260304-202047",
-      "20260222-222228"
+      "ai-side-business-diagnosis",
+      "20260304-202047"
     ]
   },
   {
@@ -9531,12 +9531,12 @@
     "related": [
       "product-20260926-meta-camera-free-ai-glasses",
       "20261029-082855",
+      "20260930-080953",
       "20260926-053102",
       "ai-unemployment-japan",
       "20261018-064121",
       "20260317-194054",
-      "20261024-073455",
-      "20260925-075306"
+      "20261024-073455"
     ]
   },
   {
@@ -9766,8 +9766,8 @@
     "related": [
       "20261005-072915",
       "20260621-050244",
-      "20261011-075336",
       "20260930-080953",
+      "20261011-075336",
       "20260604-050241",
       "20260527-050213",
       "20261002-082351",
@@ -9818,7 +9818,7 @@
       "20261013-103557",
       "20260929-085359",
       "20260615-050237",
-      "20260430-050210"
+      "20260924-164310"
     ]
   },
   {
@@ -9954,12 +9954,12 @@
     "related": [
       "eu-ai-regulation",
       "20260606-050334",
+      "20261004-072349",
       "youtube-ai-video-regulation",
       "20260409-003847",
       "20260615-050237",
-      "20261017-071057",
-      "generative-ai-image-copyright",
-      "20261004-072349"
+      "20261005-072915",
+      "20261017-071057"
     ]
   },
   {
@@ -10000,13 +10000,13 @@
     ],
     "related": [
       "20261015-073424",
-      "ai-unemployment-japan",
       "eu-ai-regulation",
       "20260415-050150",
+      "ai-unemployment-japan",
+      "20261003-081255",
       "ai-regulation-overview",
       "20260930-080953",
-      "20260503-050251",
-      "20261003-081255"
+      "20261011-075336"
     ]
   },
   {
@@ -10050,10 +10050,10 @@
       "20260621-050244",
       "20260411-213750",
       "20260412-050211",
-      "20261029-082855",
       "20260604-050241",
-      "20260513-050217",
-      "ai-lab-vol1-ai-vs-ai-exam"
+      "20261029-082855",
+      "20261003-081255",
+      "20260513-050217"
     ]
   },
   {
@@ -10187,14 +10187,14 @@
       }
     ],
     "related": [
-      "20261006-095600",
       "20260603-050245",
+      "20261006-095600",
       "20260526-050250",
       "20260317-093413",
       "20260519-050241",
-      "ai-side-business-recommended-methods",
-      "20260302-091507",
-      "20260423-050226"
+      "20260316-225321",
+      "20260316-201156",
+      "20261023-074207"
     ]
   },
   {
@@ -10474,12 +10474,12 @@
     ],
     "related": [
       "20261020-080259",
-      "20260506-050237",
       "20260317-092337",
+      "20260316-225321",
+      "20260506-050237",
       "20261009-085455",
       "20260515-050228",
       "20260319-165409",
-      "20260316-225321",
       "20260317-194054"
     ]
   },
@@ -10524,10 +10524,10 @@
       "eu-ai-regulation",
       "ai-career-change-consultation-tools",
       "20260523-050248",
+      "20260409-003847",
       "post-07",
       "20260926-053102",
-      "20260623-050206",
-      "20260528-050237"
+      "20260623-050206"
     ]
   },
   {
@@ -10568,13 +10568,13 @@
     ],
     "related": [
       "20260319-001818",
+      "20260409-050204",
       "20260318-110741",
       "20260926-053102",
       "20261022-074048",
       "20260326-230328",
       "20260326-215124",
-      "20260308-103350",
-      "20260409-050204"
+      "20260308-103350"
     ]
   },
   {
@@ -10615,13 +10615,13 @@
     ],
     "related": [
       "20261012-080650",
+      "20261030-083249",
       "20261003-081255",
       "20260614-050233",
       "20260317-092337",
       "20260318-112530",
-      "20261030-083249",
-      "20260927-071031",
-      "20260325-205739"
+      "ai-lab-vol1-ai-vs-ai-exam",
+      "20260927-071031"
     ]
   },
   {
@@ -10664,11 +10664,11 @@
       "20260524-050205",
       "20260623-050206",
       "20260319-001818",
-      "product-20261013-microsoft-maia-3-ai-chip",
       "20260924-164310",
+      "product-20261013-microsoft-maia-3-ai-chip",
       "20260615-050237",
       "20260327-133407",
-      "20260527-050213"
+      "20261103-104522"
     ]
   },
   {
@@ -10759,14 +10759,14 @@
       }
     ],
     "related": [
+      "20260409-003847",
       "20261014-082422",
       "20260327-164958",
       "20260224-090015",
-      "20260409-003847",
+      "20260603-050245",
       "ai-side-business-beginners-guide",
       "20261101-074629",
-      "20261012-080650",
-      "20261018-064121"
+      "20261012-080650"
     ]
   },
   {
@@ -10904,10 +10904,10 @@
       "ai-engineer-job-future",
       "20261024-073455",
       "20261025-065029",
+      "product-20261013-microsoft-maia-3-ai-chip",
       "20261010-082657",
       "20260425-050259",
-      "20260309-162600",
-      "20260309-091640"
+      "20260316-201156"
     ]
   },
   {
@@ -11094,8 +11094,8 @@
       "20260930-080953",
       "20260412-050211",
       "20261101-074629",
-      "20260317-092337",
-      "20260224-090015"
+      "20261103-104522",
+      "20260317-092337"
     ]
   },
   {
@@ -11233,14 +11233,14 @@
       }
     ],
     "related": [
+      "20261103-104522",
       "20260428-050228",
       "ai-investment-scam",
       "china-ai-regulation",
       "20260528-050237",
       "20261028-080631",
       "ai-regulation-overview",
-      "20260623-050206",
-      "20260616-050236"
+      "20261017-071057"
     ]
   },
   {
@@ -11329,11 +11329,62 @@
     "related": [
       "20261026-070024",
       "20260224-090015",
+      "20261103-104522",
       "20261006-095600",
       "20260602-050159",
       "20261029-082855",
       "20261027-081755",
-      "20260226-175800",
+      "20260226-175800"
+    ]
+  },
+  {
+    "slug": "20261103-104522",
+    "title": "Anthropicの8954億ドル——その数字は誰のための約束か",
+    "lead": "あなたは今日、5本のニュースを読みます。自動化された分析の「洞察の質」に黄信号が灯り、Anthropicはゲーム複製に立て札を一枚足し、IPO申請書では売上170億ドルと契約8954億ドルという桁違いの二重唱が響きます。文章を生成しない判断特化型AIは静かに再利用の山を育て、エージェントのトークン消費はチャットの最大50倍。便利さの請求書は、いつも後から届くものです。——その請求書の宛名を、誰が確かめるのでしょう？",
+    "type": "news",
+    "layer": "record",
+    "date": "2026-11-03 10:45",
+    "readTime": "2分",
+    "category": "💰 AI時代のお金・財布・経済格差",
+    "image": "/blog-images/20261103-104522/cover.jpg",
+    "content": [
+      {
+        "section": "◆ 生成AIが変えた企業分析、エージェント時代の「洞察の質」課題に",
+        "text": "![ニュース画像](/blog-images/20261103-104522/news_0.jpg)\n\n**配信日：** 2026年11月3日　**出典：** [MIT Tech Review](https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/)　**原題：** Raising the quality of insights in agentic analytics\n\nMIT Tech Reviewによると、生成AIはここ数年で企業の分析（アナリティクス＝データを集めて意味を読み解く業務）の姿を一変させ、組織内の幅広い利用者がデータに手が届くようになった。さらにエージェント型AI（agentic AI＝人間の指示を待たずに自ら作業を進めるAI）は、業務の流れ全体を自動化し、エージェントが導いた洞察に基づいて実際の行動まで起こすと期待されている。だが問題がある。エージェントが現時点で生み出す洞察の品質が、そのままでは信頼に足る水準に届いていないという点だ。自動化が進むほど、判断の土台となる洞察の精度が問われることになる。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 自動化が進むほど、出てくる洞察の粗さが目立つんだよな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 便利さの裏で、間違った結論がそのまま実行される怖さがある。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 速さを売りにしたツールほど、中身の吟味は後回しにされがちですよね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実験でも、もっともらしいが根拠の薄い答えが平気で混ざる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 洞察の質を測る物差しを、誰が持つのか。そこが空白のままだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 品質を担保する仕組みを売る側が儲かる、という皮肉な構図ですね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 結局、最後に疑う人間の目は残さないといけない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 自動化の完成度より、どこで人を挟むかの設計が勝負だな。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">分析の自動化は、現場に「速さ」という名の麻酔を打ちました。判断の根拠を確かめる手間を省くほど、誤った洞察がそのまま実行に移される危うさが増します。エージェントは優秀な助手であるほど、上司の検算を不要にしたように見せる。しかし品質を測る物差しを手放した組織は、地図を渡されて方角を忘れた旅人と同じです。自動化の波を「監視の仕事が増えた」と嘆くか、「人が判断すべき境界を描き直す好機」と読むか。産業全体の競争力は、その読み方の差で静かに分かれていきます。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ Anthropic、Claudeによる既存ゲーム複製を制限へ システムプロンプトを更新",
+        "text": "![ニュース画像](/blog-images/20261103-104522/news_1.jpg)\n\n**配信日：** 2026年11月3日　**出典：** [The Verge AI](https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones)　**原題：** Anthropic clamps down on Claude’s AI video game clones\n\nThe Verge AIによると、Anthropic（アンソロピック＝AI企業）は2026年11月、Claude Code（クロード・コード＝同社のAIコーディング支援ツール）のシステムプロンプト（system prompt＝AIに与える行動指示の文章）を更新し、既存のビデオゲームを再現する用途への利用を防ぐ措置を取った。Tom's Hardware（トムズ・ハードウェア＝技術系メディア）が報じたものである。レトロゲーム（retro gaming＝往年の名作ゲームを楽しむ文化）の分野では現在、AIが生成した逆コンパイル（decompilation＝プログラムを解析して元の設計を復元する作業）や再コンパイル（recompilation＝復元したコードを再び実行可能な形に組み直す作業）、移植版（ports＝別の環境で動くように作り直した版）が氾濫している状況にある。AnthropicはClaude Codeを使ったゲーム制作自体は引き続き認める方針だが、既存作品の複製に用いられることは望んでいない。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> システムプロンプト更新って、立て札を一枚増やしただけでは？</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 立て札を増やすほど、越え方の解説記事も増える。見事な循環だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 現場はもう逆コンパイルの山だよ。追いつく気あるのかな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でもゲーム制作自体はOKなんでしょ。線の引き方が絶妙に曖昧じゃない？</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 注意書きで止まる相手なら、そもそも問題になってない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 判定はプロンプト頼み。技術的な壁じゃないんだよね。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> それ、ちょっと怖いこと言ったな。読者は「じゃあ何がセーフ？」ってなるよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 壁というより、立て札。越える気になれば越えられる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 越えた先で何が起きるかは、誰も書いてない。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">現場では、AIが往年の名作を次々と復元し、作り手の意図とは無関係に市場へ流れ込んでいます。便利さの裏で、原作者の汗が静かに薄められているのが実情です。一般には「AI企業が規制に踏み切った」と報じられますが、構造は逆で、規制とは技術的な壁ではなく、立て札を一枚増やしたにすぎません。越える気になれば越えられる場所に、なぜこれほど注目が集まるのか。私たちもまた、その立て札の前で立ち止まる傍観者です。誰が名作の値打ちを決めるのか、その問いを手放さずにいたいと思います。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ Anthropic、IPO申請書を修正　7〜9月売上高約170億ドル",
+        "text": "![ニュース画像](/blog-images/20261103-104522/news_2.jpg)\n\n**配信日：** 2026年11月3日　**出典：** [ITmedia AI+](https://www.itmedia.co.jp/news/article/2611/03/2000002831/)　**原題：** Anthropic、IPO申請書を修正　7?9月売上高は約170億ドル、インフラ契約額は約8954億ドル\n\nITmedia AI+によると、Anthropic（アンソロピック＝米国のAI開発企業）は、新規株式公開（IPO＝株式市場に初めて自社株を売り出すこと）に向けた申請書を修正した。修正後の内容では、7〜9月期の売上高が約170億ドル（ドル＝米国の通貨）であることが示された。さらに、インフラ契約額（インフラ＝AIの計算を支える設備や基盤のこと）は約8954億ドルに達すると記載されている。Anthropicは申請書の修正を通じて、投資家に向けて事業規模や契約状況を開示した形である。売上高とインフラ契約額という二つの数字が同時に示された点が、今回の修正の中心である。IPO申請書の修正は、上場に向けた手続きの一環として行われた。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 売上170億ドルに契約8954億ドルって、桁が違いすぎて笑う。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 契約額は売上じゃない。そこを混ぜると議論が壊れる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 申請書の修正って地味だけど、数字を出した順番に意思を感じるな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 実験屋としては、四半期の売上が先に出た点を重く見る。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者は「8954億」のほうに目が行く。設計としては狙い通りかも。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 狙い通りなら怖いね。桁の大きさで判断を曇らせるのは常套手段だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 契約は将来の約束、売上は済んだ取引。混同したら投資家も読者も迷う。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> じゃあ見出しはどっちを主役にする？　私は断然、契約額。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 私は売上。地味な数字ほど、後で効いてくる。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">上場準備の書類に並ぶ二つの数字は、現場の実感とかけ離れた大きさです。契約額という将来の約束が、売上という確定した実績より先に語られる構図に、資本市場の癖が透けて見えます。この調子で桁が積み上がるなら、2030年にはAI企業の契約残高が国の予算規模と並び、投資家は中身を読まずに金額だけを追う光景が定着しかねません。鉄道株が熱狂と恐慌を経て社会の骨格になった歴史を思えば、今の数字は工事の着工届にすぎず、完成図はまだ誰も描けていません。あなたの手元の判断基準も、一度棚卸しを。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ 文章を生成しない判断特化型AI、選択肢と確率で回答し再利用に強み",
+        "text": "![ニュース画像](/blog-images/20261103-104522/news_3.jpg)\n\n**配信日：** 2026年11月2日　**出典：** [Nikkei XTECH](https://xtech.nikkei.com/atcl/nxt/keyword/18/00002/102100330/)　**原題：** あえて文章を生成しない判断特化型AI、選択肢や確率を回答　再利用に強み\n\nNikkei XTECHによると、文章を生成せず判断に特化したAIが注目されている。このAIは選択肢や確率を回答する方式を採り、再利用に強みを持つという。一般的な生成AIが文章そのものを出力するのに対し、判断特化型は与えられた選択肢の中から確率を示す形で答えを返す。用途を限定することで、同じモデルを別の場面でも繰り返し使い回しやすい点が特徴として挙げられている。記事では、こうした設計が実務での再利用性を高める利点として紹介されている。日経クロステック（Nikkei XTECH）が2026年11月2日に配信した。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 文章を作らないAI、つまり判断だけに絞ったわけだ。実験屋としては、出力が選択肢と確率に収まる方が検証しやすい。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 生成しないから再利用できる、という理屈か。便利だが、汎用モデルを捨てる話ではないな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> 読者はたぶん「地味だけど効く」に反応する。華やかな生成AIの陰で、縁の下の判断役が伸びる構図だ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 確率で返すなら、外したときの責任の所在も見えやすい。そこは現場で助かる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> ただ、選択肢を誰が用意するのか。問いの設計を誤れば、確率はただの飾りになる。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> それ、ちょっと怖いこと言ったな。判断を任せる前に、選択肢を作る側の力量が試される。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 再利用に強いというのは、裏を返せば使い回される前提だ。モデルの寿命が延びるのは確かだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 流行の生成AIとは別の山が静かに育っている。派手さで測ると見落とす。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">判断だけに絞ったAIが、派手な生成モデルの陰で静かに用途を広げています。現場では出力が選択肢と確率に収まる分、検証と再利用がしやすいという現実的な利点があります。一方で、選択肢を設計する人間の力量が問われる構造でもあります。生成の華やかさと判断の地味さ、この二つは競合ではなく役割分担へ向かうのでしょう。五年後、私たちは「賢い文章」より「賢い選択肢」を重宝していた、と振り返るかもしれません。</span>\n</div>\n</div>\n\n---"
+      },
+      {
+        "section": "◆ AIエージェントのトークン消費、単純チャットの最大50倍に",
+        "text": "**配信日：** 2026年11月2日　**出典：** [MIT Tech Review](https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/)　**原題：** Stop counting tokens, start counting what ships\n\nMIT Tech Reviewによると、開発者がAIエージェント（＝人間の代わりに自律的に作業を進めるプログラム）にコーディング作業を指示すると、エージェントは一度答えて終わりではない。計画を立て、コードを生成し、テストを実行し、誤りを修正するためにその工程を繰り返す。1つの作業で、基本的なチャットの問いかけに比べて10倍から50倍多くのトークン（＝AIが文章を処理する際の最小単位）を消費するという。エージェントが便利になるほど、呼び出し回数は増えていく。記事はトークン数だけを数えるのではなく、実際に何が成果として出荷されたかを数えるべきだと提起している。\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">💬 編集部座談</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> 10倍から50倍って聞くと、うちの実験室の電気代を思い出すよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 便利さの請求書は、いつも後から届く。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> でも読者はそこじゃない。「何が動いたか」を見たいんですよ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> そう、テストが通ったかどうか。トークンは通し番号にすぎない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 計画して、書いて、走らせて、直す。人間の仕事の縮図だな。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> その繰り返しを数えるなら、成果物の数でしょ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/mark.jpg\" alt=\"マーク\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>マーク:</strong> ただ、繰り返しが多いほど品質は上がる。単純に削れとも言えない。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:0.8rem;\">\n<img src=\"/cast/shiina.jpg\" alt=\"椎名\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>椎名:</strong> 削る話じゃない。何を数えるか、ものさしの取り替えだ。</span>\n</div>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/kuribayashi.jpg\" alt=\"栗林\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\"><strong>栗林:</strong> ものさしを変えると、評価される現場も変わる。そこが面白い。</span>\n</div>\n</div>\n\n<div style=\"margin-top:1.5rem;padding:1.25rem 1.5rem;border-radius:1rem;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1)\">\n<p style=\"font-weight:bold;margin-bottom:0.9rem;font-size:0.95rem;\">📌 編集長の眼</p>\n<div style=\"display:flex;align-items:flex-start;gap:0.75rem;\">\n<img src=\"/cast/suzuki.jpg\" alt=\"鈴木隆文\" style=\"width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;\">\n<span style=\"font-size:0.92rem;line-height:1.7;\">開発の現場では、消費したトークンではなく、テストを通って出荷された成果物が問われる段階に入っています。これは会計の単位が「使った量」から「届けた物」へ移ることを意味します。トークンは工場の稼働時間のようなもので、長く回せば良い製品ができるわけではありません。逆に、成果物だけを数えると、失敗から学ぶ試行錯誤の価値が簿外に落ちます。評価のものさしを替える時こそ、数えない部分に目を向けたいものです。</span>\n</div>\n</div>\n\n---\n\n\n![総括画像](/blog-images/20261103-104522/summary.jpg)"
+      },
+      {
+        "section": "◆ 総括：時代の濁流を読み解く",
+        "text": "今日の5本は、ばらばらの業界ニュースに見えて、実は一本の糸で結ばれています。その糸とは「自動化が進むほど、判断の根拠と成果の測り方が問い直される」という同じ旋律です。MIT Tech Reviewの分析記事は、エージェントがもっともらしいが根拠の薄い洞察を平気で混ぜると警告しました。同じMIT Tech Reviewの別記事は、トークン数ではなく出荷された成果物を数えるべきだと提起しています。つまり「何を数えるか」というものさしの取り替えが、二つの記事で同時に起きているわけです。\n\nAnthropicの二本も無関係ではありません。Claudeのシステムプロンプト更新は、技術的な壁ではなく立て札を一枚増やしたにすぎない、というのが編集部の読みです。越える気になれば越えられる場所に、なぜこれほど注目が集まるのか。一方のIPO申請書では、売上170億ドルより契約8954億ドルという将来の約束が先に語られます。確定した実績と将来の約束、この二つを混同させる力は、まさに「何を数えるか」を曖昧にする力でもあります。\n\nそして判断特化型AIの記事。文章を生成せず選択肢と確率で答えるこの設計は、出力を検証可能な形に収める点で、上の三本への静かな処方箋に見えます。ただし選択肢を誰が設計するのかという問いは残ります。問いの設計を誤れば、確率はただの飾りです。\n\nここで賢くなった気分を得るための視点を一つ。これら5本は「AIが賢くなる話」ではなく「人間が何を信じ、何を数えるかを決め直す話」です。Anthropicという固有名詞が三本にまたがる偶然も、資本市場とプロダクト設計と利用制限が同じ企業の同じ判断から出ている以上、偶然ではありません。自動化の完成度より、どこで人を挟むかの設計が勝負になる。その境界線を引く作業は、地図を渡されて方角を忘れないための、地味だが決定的な知性です。"
+      },
+      {
+        "section": "このテーマを深く知る",
+        "text": "- [AI著作権は文化庁の考え方でどう整理？学習と生成の2段階](/blog/ai-copyright-basics)\n- [AIイラストの著作権は誰のもの？商用利用の可否と注意点](/blog/ai-illustration-copyright)\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "ai-copyright-basics",
+      "ai-illustration-copyright",
+      "20261030-083249",
+      "20260602-050159",
+      "20261101-074629",
+      "ai-side-business-beginners-guide",
+      "generative-ai-image-copyright",
       "20260613-050216"
     ]
   },
@@ -11666,9 +11717,9 @@
       "20260503-050251",
       "ai-jobs-disappear-ranking",
       "ai-video-side-business",
+      "ai-side-business-diagnosis",
       "ai-side-job-projects",
-      "20261015-073424",
-      "ai-music-copyright"
+      "20261015-073424"
     ]
   },
   {
@@ -11829,7 +11880,7 @@
       },
       {
         "section": "関連する記録",
-        "text": "- [生成AI画像の著作権は誰のもの？商用利用の可否をケース別に解説](/blog/generative-ai-image-copyright)\n\n- [AIと著作権の考え方 生成AIの著作権問題を整理](/blog/ai-and-copyright-thinking)\n- [AIライティング副業の単価相場と著作権リスク](/blog/ai-writing-translation-side-business)\n- [文化庁のAIと著作権 考え方とガイドラインの要点](/blog/cultural-affairs-ai-copyright)\n- [AI作曲著作権は誰のもの？商用利用の注意点を解説](/blog/ai-music-copyright)\n- [AI学習と著作権はどこまで許される？30条の4を解説｜ai 学習著作権](/blog/ai-training-copyright)\n- [AI動画著作権の基本｜公開前に確認すべき著作物性・侵害・商用利用の注意点](/blog/ai-video-copyright)"
+        "text": "- [生成AI画像の著作権は誰のもの？商用利用の可否をケース別に解説](/blog/generative-ai-image-copyright)\n\n- [AIと著作権の考え方 生成AIの著作権問題を整理](/blog/ai-and-copyright-thinking)\n- [AIライティング副業の単価相場と著作権リスク](/blog/ai-writing-translation-side-business)\n- [文化庁のAIと著作権 考え方とガイドラインの要点](/blog/cultural-affairs-ai-copyright)\n- [AI作曲著作権は誰のもの？商用利用の注意点を解説](/blog/ai-music-copyright)\n- [AI学習と著作権はどこまで許される？30条の4を解説｜ai 学習著作権](/blog/ai-training-copyright)\n- [AI動画著作権の基本｜公開前に確認すべき著作物性・侵害・商用利用の注意点](/blog/ai-video-copyright)\n- [Anthropicの8954億ドル——その数字は誰のための約束か](/blog/20261103-104522)"
       },
       {
         "section": "出典・参考資料",
@@ -12664,9 +12715,9 @@
       "20261005-072915",
       "ai-illustrator-unemployment-reality",
       "product-20261010-pixel-watch-4-ai-watch-face",
-      "20260308-103350",
-      "ai-side-business-experience-monthly-income",
-      "20260420-050152"
+      "20261017-071057",
+      "product-20261024-block-dessa-ai-model",
+      "20260417-050148"
     ]
   },
   {
@@ -13193,7 +13244,7 @@
       },
       {
         "section": "関連する記録",
-        "text": "- [ai amazon 副業とは？やり方と注意点を解説](/blog/ai-amazon-side-business-guide)\n\n- [AI副業をやってみた：月5万円までの現実と収益の出どころ](/blog/ai-side-business-experience-monthly-income)\n- [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)\n- [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)"
+        "text": "- [ai amazon 副業とは？やり方と注意点を解説](/blog/ai-amazon-side-business-guide)\n\n- [AI副業をやってみた：月5万円までの現実と収益の出どころ](/blog/ai-side-business-experience-monthly-income)\n- [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)\n- [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)\n- [AI副業診断の使い方｜自分に合う仕事の選び方](/blog/ai-side-business-diagnosis)"
       },
       {
         "section": "関連する詳しい解説",
@@ -13217,6 +13268,78 @@
       "note-ai-side-business",
       "ai-video-side-business",
       "ai-side-job-projects"
+    ]
+  },
+  {
+    "slug": "ai-side-business-diagnosis",
+    "title": "AI副業診断の使い方｜自分に合う仕事の選び方",
+    "lead": "AI副業を始めたいけれど何から手をつければいいか分からない——そんなとき、診断結果をそのまま信じてよいか迷いませんか。ai副業診断が何を入力に何を返すのか、収入の数字がどんな前提で試算されるのかが分かれば、自分に合う候補を見分けられます。",
+    "preamble": "AI副業という言葉を目にする機会が増え、診断ツールも次々と登場しています。入力する質問に答えるだけで候補を絞ってくれる仕組みは便利ですが、設問も目的も異なるため、同じ人が複数受ければ結果が揃うとは限りません。仕事や暮らしの中で「副業を始めたいけれど、何から手をつければいいのか」と立ち止まったとき、目の前の診断結果をそのまま信じてよいのか迷う場面もあるでしょう。その結果は、あなたの状況にとってどんな意味を持つのか？ この記事を読むと、診断が何を入力に何を返すのか、収入の数字がどんな前提で試算されているのかが分かり、自分に合う候補を見分けられます。さらに、絞った候補を今日から小さく試す手順まで判断できます。\n\n*この記事は、総合解説「[AI副業とは？初心者が最初に押さえる始め方と稼ぎ方](/blog/ai-side-business-beginners-guide)」の詳細編です。全体像はそちらをご覧ください。*\n\n**この記事の要点**\n\n- AI副業診断は性格・状況・時間・予算を入力にし、候補を絞って返す仕組み[3][4][8]。\n- 診断結果は収入や適性を保証せず、候補選びの目安・補助として受け取るもの[3][6]。\n- 時間・初期投資・働き方の3軸で候補を絞り、小さく試してから判断するのが現実的[1][2][3]。\n\n（最終更新：2026年11月4日）",
+    "type": "seo",
+    "layer": "choose",
+    "date": "2026-11-04 02:18",
+    "readTime": "1分",
+    "category": "💰 AI時代のお金・財布・経済格差",
+    "image": "/blog-images/ai-side-business-diagnosis/cover.jpg",
+    "content": [
+      {
+        "section": "AI副業診断は、あなたの何を入力にして何を返すのか",
+        "text": "![AI副業診断の入力から提案までの流れ](/blog-images/ai-side-business-diagnosis/fig-1.svg)\n\n*図：AI副業診断の入力から提案までの流れ（出典：[3][4][8]）*\n\nAI副業診断と一口に言っても、入力する情報と返ってくる内容はツールによって異なります。まずは代表的な仕組みを整理しておきましょう。\n\nクラウドワークスが提供するLINEチャットボット「AI副業診断」は、6つの簡単な質問に答えると、副業マッチングプラットフォーム「クラウドリンクス」に掲載された仕事の中から条件に合った案件を提案するツールです[4]。提案は「総合的なおすすめ」「人物像にピッタリ」「得意なことを活かせる」「新しいことにチャレンジ」の4つのカテゴリで紹介され、リアルタイムで募集している案件が出てくるため、すぐに応募へ進むことも可能とされています[4]。\n\n![AI副業診断は、あなたの何を入力にして何を返すのかのイラスト](/blog-images/ai-side-business-diagnosis/ill-1.jpg)\n\n一方、12問の質問に答える形式の副業適性診断もあります。年齢、現在の状況、経験、目的、使える時間、初期投資、働き方のスタイル、PCやITスキル、収益スタイル、強み、開始スピード、動機といった項目に答えると、各副業の条件（必要な時間・初期費用・働き方など）との重なりから、28種の副業のうち合いそうなものを順に3つ並べる仕組みです[3]。こちらは適性検査や心理検査ではなく、副業選びの目安と位置づけられています[3]。\n\n性格や価値観に着目する診断もあります。全7問で、使える時間のイメージ、ストレスを感じる場面、人とのコミュニケーションの希望、好きな作業プロセス、スキル習得への姿勢、お金の価値観、副業を通じてどうなりたいか、といった質問からタイプを判定する形式です[8]。\n\nいずれも共通しているのは、性格・状況・使える時間・予算といった断片情報を入力にし、候補を絞って返すという構造です。診断は答えを教えてくれる地図というより、選択肢の棚から手に取るものを一緒に絞ってくれる店員のようなものかもしれません。"
+      },
+      {
+        "section": "診断結果はそのまま信じていいのか、保証される範囲はどこまでか",
+        "text": "![副業診断の位置づけと限界](/blog-images/ai-side-business-diagnosis/fig-2.svg)\n\n*図：副業診断の位置づけと限界（出典：[3][4][6]）*\n\n診断結果は、あくまで候補を絞るための補助として受け取るのが適切です。収入や適性そのものを保証するものではありません。\n\nたとえば「副業適性診断テスト」は、12問の答えと各副業の条件（必要な時間・初期費用・働き方など）の重なりから、28種の副業のうち合いそうなものを3つ並べるものです。適性検査・心理検査ではないと明記されています[3]。設問は年齢や使える時間、初期投資など条件確認が中心で、あなたの性格や才能を測定する設計ではありません[3]。\n\n![診断結果はそのまま信じていいのか、保証される範囲はどこまでかのイラスト](/blog-images/ai-side-business-diagnosis/ill-2.jpg)\n\n一方、クラウドワークスの「AI副業診断」は、LINEのチャットボットからの6つの質問に答えると、81カテゴリ・約1万件の仕事から条件に合った案件を提案する仕組みです[4]。こちらは実在する募集案件を示す点が特徴ですが、質問数は6つと少なく、判断材料は限られます[4]。設問数も開発の目的も異なるため、同じ人が複数の診断を受けても結果が一致するとは限りません。\n\nまた「AI副業収入シミュレーション診断」のように、収入を試算する形の診断もあります[6]。ただし、シミュレーションは将来の収入を約束するものではありません[6]。\n\n診断は、選択肢が多すぎて動けないときに視界を整理する地図のようなものです。地図を眺めるだけで目的地に着けるわけではないのと同じで、最後は自分で一歩を選ぶ必要があります。"
+      },
+      {
+        "section": "自分の使える時間と初期投資から、向くAI副業をどう絞るか",
+        "text": "![3つの軸でAI副業の候補を絞る流れ](/blog-images/ai-side-business-diagnosis/fig-3.svg)\n\n*図：3つの軸でAI副業の候補を絞る流れ（出典：[2][3]）*\n\n候補を絞るときの軸は、使える時間・初期投資・求める働き方の3つです。診断の設問もこの3点に対応させると、答えがそのまま候補の絞り込みにつながります。\n\nまず時間です。設問では「副業に使える時間は週どのくらいか」を、週3時間以内・週3〜10時間・週10時間以上という区分で尋ねる形が示されています[3]。使える時間が短いなら、1回あたりの作業が軽く、積み上げで成果が安定するタイプが候補になります。たとえばコツコツ型は、毎日10〜20分なら抵抗がなく、投稿を重ねるほど成果が安定するとされています[2]。\n\n![自分の使える時間と初期投資から、向くAI副業をどう絞るかのイラスト](/blog-images/ai-side-business-diagnosis/ill-3.jpg)\n\n次に初期投資です。設問では「初期投資として使える金額」を、0円・〜3万円・10万円以上という区分で尋ねる形が示されています[3]。元手をかけたくない場合は、AI画像生成のようにスキルゼロから制作できる方法が候補に挙がります[2]。\n\n3つ目は求める働き方です。設問では「完全一人でコツコツ」「人に教える・サポートする」「チームや組織で稼ぐ」から選ぶ形になっています[3]。一人で黙々と進めたいのか、人と関わりながら進めたいのかで、向く候補は変わります。\n\nこれら3つの答えを、各副業の条件と重ね合わせて候補を並べるのが診断の考え方です[3]。条件に合うものを一つに絞り、そこから広げていく進め方が現実的です。副業選びは、道具をそろえてから走り出すというより、自分の持ち時間という靴のサイズに合うものを履く作業に近いのかもしれません。"
+      },
+      {
+        "section": "診断の収入シミュレーション、その数字は何を前提にしているのか",
+        "text": "![診断の収入額とその前提条件](/blog-images/ai-side-business-diagnosis/fig-4.svg)\n\n*図：診断の収入額とその前提条件（出典：[6][7]）*\n\n診断結果に表示される収入の数字は、何をもとに弾き出されているのでしょうか。AI副業の収入シミュレーション診断では、質問に答えると収入の目安が示されます[6]。ただし、その金額がどのような稼働時間や単価を前提にしているかは、結果画面の数字だけでは分かりません。前提が違えば、同じ診断でも導かれる金額は変わります。数字を見たときは、その根拠まで目を向けたいところです。\n\n![診断の収入シミュレーション、その数字は何を前提にしているのかのイラスト](/blog-images/ai-side-business-diagnosis/ill-4.jpg)\n\nAI副業で月5万円に届くまでの期間や稼働時間の目安は、記事によって示される内容が異なります[7]。未経験から初案件までの期間も、一律に決まるものではありません[7]。収入の見通しは、選ぶ副業の種類や作業に充てられる時間によって変わるという見方があります[7]。診断の数字をそのまま自分の未来として受け取るのではなく、どんな条件を置いた試算なのかを確かめる姿勢が役に立ちます。\n\nたとえば、天気予報の降水確率が「降るか降らないか」ではなく「どのくらいの確率か」を示すように、収入の数字も前提があって初めて意味を持ちます。あなたが知りたいのは金額そのものではなく、その金額に近づくための条件ではないでしょうか。"
+      },
+      {
+        "section": "診断で候補を絞ったあと、今日から小さく試すには何をするか",
+        "text": "診断で候補が絞れたら、次は「覚えてから始める」ではなく「試しながら覚える」順番に切り替えると動きやすくなります。診断結果はあくまで目安であり、収益を保証するものではないとされています[1]。まずは候補ごとに、必要になるAIツールと仕事内容を並べて確認します[1]。そのうえで、初月に作るサンプルや提案の下書きを1つだけ用意してみます[1]。提案のたたき台はテンプレートを利用できます[1]。\n\n![診断で候補を絞ったあと、今日から小さく試すには何をするかのイラスト](/blog-images/ai-side-business-diagnosis/ill-5.jpg)\n\n学習は、候補の作業を7日間だけ体験する形が参考になります。たとえば記事系なら、テーマ決定、構成テンプレ作成、AIドラフト、リライト、公開という流れが示されています[2]。画像系なら、テーマ決定からプロンプト作成、画像生成、申請までの手順が例として挙げられています[2]。全部をこなす必要はなく、最初の数日を試すだけでも相性の判断材料になります。\n\n実案件に進む前の確認事項も押さえておきます。案件の条件、事実確認、納品品質は、AIツールが代わりに保証するものではないとされています[1]。応募前に安全確認のポイントを見ておくと安心です[1]。合わないと感じた場合は、早めに別の候補へ移ることも選択肢になります[2]。小さく試すとは、失敗しても痛くない範囲で、現実の反応を先に確かめることなのかもしれません。"
+      },
+      {
+        "section": "編集長の眼",
+        "text": "診断結果を眺めて「自分はこれに向いているのか」と一喜一憂する時間は、案外もったいないのかもしれません。本文が繰り返し示す通り、診断は候補を絞る店員のようなもので、収入や適性を保証するものではありません[3][6]。私たちが受け止めるべきは当たり外れではなく、返ってきた候補をどう扱うかという次の一手です。まず結果画面の数字やタイプ名ではなく、その根拠となった設問——使える時間、初期投資、働き方——を自分の言葉で言い直してみてください。そのうえで、候補の作業を7日間だけ試す[2]。料理本を読んだだけで味が分からないのと同じで、診断は献立の候補であって、味見は自分でするしかありません。皮肉なことに、診断を信じすぎない人ほど早く動けます。合わなければ早めに別の候補へ移る[2]。小さく試す範囲なら失敗も痛くありません。今日できるのは、候補を一つに絞り、初月に作るサンプルを1つだけ用意すること[1]。地図を閉じて、靴のサイズを確かめる時です。"
+      },
+      {
+        "section": "よくある質問",
+        "text": ""
+      },
+      {
+        "section": "Q. AI副業診断は無料で受けられますか？",
+        "text": "本文で紹介されている診断はいずれも無料で受けられる形式として説明されています。クラウドワークスの「AI副業診断」はLINEチャットボットで6つの質問に答える仕組み[4]、副業適性診断テストは12問で28種の副業から候補を3つ並べる形式です[3]。性格から判定する全7問の診断も紹介されています[8]。"
+      },
+      {
+        "section": "Q. 診断結果と実際の収入は関係ありますか？",
+        "text": "診断結果は収入や適性そのものを保証するものではありません。副業適性診断テストは適性検査・心理検査ではないと明記されています[3]。収入シミュレーション診断も将来の収入を約束するものではなく[6]、月5万円までの期間や稼働時間の目安は記事によって内容が異なります[7]。数字は前提を確かめて受け取るのが適切です。"
+      },
+      {
+        "section": "Q. 診断で向いていないと出たら副業は諦めるべき？",
+        "text": "諦める必要はありません。診断は候補を絞るための目安であり、収益を保証するものでも適性を判定するものでもありません[1][3]。設問は時間や初期投資などの条件確認が中心で、性格や才能を測る設計ではありません[3]。合わないと感じた場合は早めに別の候補へ移ることも選択肢とされています[2]。小さく試して判断する進め方が現実的です。"
+      },
+      {
+        "section": "出典・参考資料",
+        "text": "1. [AI副業ラボ | 自分に合うAI副業と最初の行動を整理する](https://ai-fukugyo-labo.net/)（参照日：2026年11月4日）\n2. [Day5:あなたの最適副業診断 AI副業は“相性”で決まる。タイプ別ロードマップ公開](https://note.com/ai_fukugyo_tips/n/n7002130400ad)（参照日：2026年11月4日）\n3. [副業適性診断テスト【無料】12問で合いそうな副業TOP3](https://appadaycreator.com/side-job-aptitude-test/)（参照日：2026年11月4日）\n4. [6つの質問に答えるだけで自分にピッタリの副業がわかる！ LINEチャットボット「AI副業診断」提供開始 ～クラウドワークス社内のAI活用コンテスト「生成AIアワード」グランプリのアイデアが実用化～ | ニュース | 株式会社クラウドワークス](https://crowdworks.co.jp/news/dj8tk2fxia/)（参照日：2026年11月4日）\n6. [AI副業収入シミュレーション診断](http://clientfd.xsrv.jp/gaga-lp/x/lp22/)（参照日：2026年11月4日）\n7. [【月5万の現実】AI副業は本当に稼げる？始め方と12選を解説](https://shift-ai.co.jp/blog/13570/)（参照日：2026年11月4日）\n8. [【副業診断】迷ったらこれ！あなたの性格から「稼げる適職」をAIが判定・ロードマップ付き - AIツールラボ](https://aitool-lab.jp/diagnoses/side-job-check/)（参照日：2026年11月4日）"
+      },
+      {
+        "section": "関連記事",
+        "text": "- [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "ai-side-job-projects",
+      "ai-side-business-experience-monthly-income",
+      "ai-side-business-beginners-guide",
+      "ai-side-business-recommended-methods",
+      "ai-writing-translation-side-business",
+      "ai-video-side-business",
+      "note-ai-side-business",
+      "ai-career-change-consultation-tools"
     ]
   },
   {
@@ -13273,7 +13396,7 @@
       },
       {
         "section": "関連する記録",
-        "text": "- [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)\n\n- [AI動画副業の具体例と収益化の流れ｜数字の出どころと限界](/blog/ai-video-side-business)\n- [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)"
+        "text": "- [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)\n\n- [AI動画副業の具体例と収益化の流れ｜数字の出どころと限界](/blog/ai-video-side-business)\n- [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)\n- [AI副業診断の使い方｜自分に合う仕事の選び方](/blog/ai-side-business-diagnosis)"
       },
       {
         "section": "出典・参考資料",
@@ -13421,7 +13544,7 @@
       },
       {
         "section": "関連する記録",
-        "text": "- [ai副業詐欺の手口と見分け方｜スクールの危険サイン](/blog/ai-side-business-scam-warning)\n\n- [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)"
+        "text": "- [ai副業詐欺の手口と見分け方｜スクールの危険サイン](/blog/ai-side-business-scam-warning)\n\n- [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)\n- [AI副業診断の使い方｜自分に合う仕事の選び方](/blog/ai-side-business-diagnosis)"
       },
       {
         "section": "出典・参考資料",
@@ -13582,13 +13705,13 @@
     ],
     "related": [
       "ai-side-business-recommended-methods",
-      "ai-side-business-experience-monthly-income",
       "ai-amazon-side-business-guide",
       "ai-side-business-beginners-guide",
+      "ai-side-business-experience-monthly-income",
       "ai-writing-translation-side-business",
+      "ai-side-business-diagnosis",
       "ai-video-side-business",
-      "ai-side-business-reality-and-pitfalls",
-      "note-ai-side-business"
+      "ai-side-business-reality-and-pitfalls"
     ]
   },
   {
@@ -14420,8 +14543,8 @@
       "post-06",
       "post-07",
       "20260222-220939",
-      "stability-is-risk-52-strategy",
-      "20260226-175800"
+      "20260226-175800",
+      "stability-is-risk-52-strategy"
     ]
   },
   {
@@ -14533,9 +14656,9 @@
       "ai-regulation-overview",
       "20261029-082855",
       "20260426-050224",
-      "youtube-ai-video-regulation",
       "20261003-081255",
-      "20261004-072349"
+      "20261004-072349",
+      "youtube-ai-video-regulation"
     ]
   },
   {
@@ -14763,7 +14886,7 @@
       "ai-side-business-recommended-methods",
       "ai-video-side-business",
       "ai-side-job-projects",
-      "ai-side-business-reality-and-pitfalls"
+      "ai-side-business-diagnosis"
     ]
   },
   {
@@ -15280,9 +15403,9 @@
       "20260924-164310",
       "product-20261004-meta-muse-charm",
       "ai-jobs-disappear",
-      "product-20261103-xreal-aura-ar-glasses",
-      "ai-copyright-basics",
-      "product-20261025-ainote-2-ai-tablet"
+      "product-20261025-ainote-2-ai-tablet",
+      "product-20261006-tenku-note-pro-ai",
+      "product-20261103-xreal-aura-ar-glasses"
     ]
   },
   {
@@ -15492,10 +15615,10 @@
     ],
     "related": [
       "product-20260930-openai-dots-agents",
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
       "ai-lab-vol1-ai-vs-ai-exam",
-      "20261019-064712",
       "20260417-050148",
+      "product-20261008-chatgpt-gpt6-intelligent-ui",
+      "20261019-064712",
       "20260406-050148",
       "product-20261007-nano-banana-2-1",
       "product-20261031-meta-style-sketch"
@@ -15636,9 +15759,9 @@
       "product-20261002-legato-ai-hearing-glasses",
       "product-20261020-bee-eclipse-frontier",
       "product-20261005-googlebook-gemini-laptop",
-      "product-20261027-fancel-ai-skin-counseling",
-      "product-20260930-openai-dots-agents",
-      "product-20261004-meta-muse-charm"
+      "product-20261021-apple-tv-4k-siri-ai",
+      "product-20261024-block-dessa-ai-model",
+      "product-20261025-ainote-2-ai-tablet"
     ]
   },
   {
@@ -15768,13 +15891,13 @@
     ],
     "related": [
       "product-20261004-meta-muse-charm",
+      "product-20261024-block-dessa-ai-model",
       "product-20261103-xreal-aura-ar-glasses",
       "product-20261023-meta-muse-japan-launch",
-      "product-20261024-block-dessa-ai-model",
       "product-20261012-colorist-ai-romance-chat",
+      "product-20261031-meta-style-sketch",
       "product-20260930-openai-dots-agents",
-      "20260326-050118",
-      "product-20261031-meta-style-sketch"
+      "20260326-050118"
     ]
   },
   {
@@ -15833,11 +15956,11 @@
     "related": [
       "product-20260926-meta-camera-free-ai-glasses",
       "product-20261016-amazon-bee-ai-recorders",
+      "product-20261003-meta-muse-gadgets-sdk",
       "product-20261020-bee-eclipse-frontier",
       "product-20261025-ainote-2-ai-tablet",
       "product-20261101-viture-phantom-beast-glasses",
       "product-20261103-xreal-aura-ar-glasses",
-      "product-20260928-adobe-premiere-android",
       "product-20261019-qwen-glasses-n1"
     ]
   },
@@ -15972,8 +16095,8 @@
     ],
     "related": [
       "product-20261025-ainote-2-ai-tablet",
-      "product-20261020-bee-eclipse-frontier",
       "product-20260926-meta-camera-free-ai-glasses",
+      "product-20261020-bee-eclipse-frontier",
       "product-20261004-meta-muse-charm",
       "product-20261007-nano-banana-2-1",
       "product-20260929-claude-sonnet-5-5",
@@ -16042,11 +16165,11 @@
       "product-20261031-meta-style-sketch",
       "product-20261001-acemagic-f9a-pro-495-mini-pc",
       "product-20260929-claude-sonnet-5-5",
-      "product-20261020-bee-eclipse-frontier",
       "product-20261006-tenku-note-pro-ai",
       "product-20260926-meta-camera-free-ai-glasses",
-      "product-20260930-openai-dots-agents",
-      "product-20261021-apple-tv-4k-siri-ai"
+      "product-20261020-bee-eclipse-frontier",
+      "product-20261025-ainote-2-ai-tablet",
+      "product-20260930-openai-dots-agents"
     ]
   },
   {
@@ -16112,10 +16235,10 @@
     ],
     "related": [
       "product-20260928-adobe-premiere-android",
+      "20260406-050148",
       "product-20260929-claude-sonnet-5-5",
       "20260419-050144",
       "20260417-050148",
-      "20260406-050148",
       "product-20261011-gommari-payroll-ai-agent",
       "20260331-235920",
       "20260331-230054"
@@ -16186,7 +16309,7 @@
       "product-20261020-bee-eclipse-frontier",
       "product-20261011-gommari-payroll-ai-agent",
       "product-20260928-adobe-premiere-android",
-      "20260518-050231"
+      "product-20261024-block-dessa-ai-model"
     ]
   },
   {
@@ -16395,14 +16518,14 @@
       }
     ],
     "related": [
-      "product-20261027-fancel-ai-skin-counseling",
       "product-20261024-block-dessa-ai-model",
       "product-20261003-meta-muse-gadgets-sdk",
-      "product-20260927-honor-robot-phone",
-      "20260518-050231",
-      "20260421-050147",
-      "product-20261008-chatgpt-gpt6-intelligent-ui",
-      "product-20261016-amazon-bee-ai-recorders"
+      "product-20261027-fancel-ai-skin-counseling",
+      "product-20261016-amazon-bee-ai-recorders",
+      "product-20261004-meta-muse-charm",
+      "product-20261026-samurai-app-ai-agent-os",
+      "product-20261025-ainote-2-ai-tablet",
+      "product-20261031-meta-style-sketch"
     ]
   },
   {
@@ -16468,13 +16591,13 @@
     ],
     "related": [
       "20260316-225321",
-      "20260331-235920",
       "20260316-201156",
+      "20260331-235920",
+      "20261023-074207",
       "20261022-074048",
-      "20261018-064121",
       "20260308-103350",
-      "20260318-084916",
-      "product-20261011-gommari-payroll-ai-agent"
+      "20261018-064121",
+      "20260318-084916"
     ]
   },
   {
@@ -16605,12 +16728,12 @@
     "related": [
       "product-20261014-apple-homeview-siri-ai",
       "product-20261002-legato-ai-hearing-glasses",
-      "product-20261020-bee-eclipse-frontier",
       "product-20261021-apple-tv-4k-siri-ai",
-      "20260325-220130",
       "20260316-201156",
-      "product-20260929-claude-sonnet-5-5",
-      "product-20261009-natura-99-ai-smart-ring"
+      "product-20261025-ainote-2-ai-tablet",
+      "product-20261020-bee-eclipse-frontier",
+      "20260325-220130",
+      "product-20260929-claude-sonnet-5-5"
     ]
   },
   {
@@ -16678,7 +16801,7 @@
       "product-20261024-block-dessa-ai-model",
       "product-20261002-legato-ai-hearing-glasses",
       "20260326-050118",
-      "product-20260930-openai-dots-agents"
+      "product-20260926-meta-camera-free-ai-glasses"
     ]
   },
   {
@@ -16877,12 +17000,12 @@
     "related": [
       "product-20261014-apple-homeview-siri-ai",
       "product-20261020-bee-eclipse-frontier",
-      "product-20261005-googlebook-gemini-laptop",
       "product-20261015-apple-homepod-mini-2026",
-      "product-20261026-samurai-app-ai-agent-os",
       "product-20261025-ainote-2-ai-tablet",
-      "product-20260926-meta-camera-free-ai-glasses",
-      "product-20261031-meta-style-sketch"
+      "product-20261103-xreal-aura-ar-glasses",
+      "product-20261024-block-dessa-ai-model",
+      "product-20261005-googlebook-gemini-laptop",
+      "product-20261008-chatgpt-gpt6-intelligent-ui"
     ]
   },
   {
@@ -17014,11 +17137,11 @@
       "product-20260927-honor-robot-phone",
       "product-20261103-xreal-aura-ar-glasses",
       "product-20261031-meta-style-sketch",
+      "product-20261025-ainote-2-ai-tablet",
+      "product-20261026-samurai-app-ai-agent-os",
       "product-20261101-viture-phantom-beast-glasses",
       "product-20261023-meta-muse-japan-launch",
-      "product-20261026-samurai-app-ai-agent-os",
-      "ai-seminar-school-scam-tactics",
-      "product-20261025-ainote-2-ai-tablet"
+      "product-20261016-amazon-bee-ai-recorders"
     ]
   },
   {
@@ -17084,9 +17207,9 @@
       "product-20261016-amazon-bee-ai-recorders",
       "product-20261103-xreal-aura-ar-glasses",
       "product-20261004-meta-muse-charm",
-      "product-20260927-honor-robot-phone",
-      "product-20261023-meta-muse-japan-launch",
-      "product-20260926-meta-camera-free-ai-glasses"
+      "product-20260926-meta-camera-free-ai-glasses",
+      "product-20261006-tenku-note-pro-ai",
+      "product-20260927-honor-robot-phone"
     ]
   },
   {
@@ -17149,12 +17272,12 @@
     "related": [
       "product-20261031-meta-style-sketch",
       "product-20261024-block-dessa-ai-model",
+      "product-20261009-natura-99-ai-smart-ring",
       "20260525-050159",
       "20260317-194054",
       "product-20261103-xreal-aura-ar-glasses",
       "product-20260928-adobe-premiere-android",
-      "20260420-050152",
-      "product-20261009-natura-99-ai-smart-ring"
+      "20260420-050152"
     ]
   },
   {
@@ -17225,8 +17348,8 @@
       "product-20260930-openai-dots-agents",
       "product-20260928-adobe-premiere-android",
       "ai-illustration-copyright",
-      "20260304-051721",
-      "ai-side-business-beginners-guide"
+      "ai-side-business-beginners-guide",
+      "20260304-051721"
     ]
   },
   {
@@ -17293,8 +17416,8 @@
       "product-20260926-meta-camera-free-ai-glasses",
       "20260505-050140",
       "20260927-071031",
-      "product-20261026-samurai-app-ai-agent-os",
-      "20261023-074207"
+      "20261023-074207",
+      "product-20261026-samurai-app-ai-agent-os"
     ]
   },
   {
@@ -17359,10 +17482,10 @@
       "product-20261007-nano-banana-2-1",
       "product-20261024-block-dessa-ai-model",
       "product-20261026-samurai-app-ai-agent-os",
+      "product-20260929-claude-sonnet-5-5",
       "product-20261101-viture-phantom-beast-glasses",
       "20260331-230054",
-      "product-20261011-gommari-payroll-ai-agent",
-      "product-20260929-claude-sonnet-5-5"
+      "product-20261011-gommari-payroll-ai-agent"
     ]
   },
   {
@@ -17497,8 +17620,8 @@
       "product-20261016-amazon-bee-ai-recorders",
       "product-20261004-meta-muse-charm",
       "product-20260927-honor-robot-phone",
-      "product-20260926-meta-camera-free-ai-glasses",
-      "product-20261009-natura-99-ai-smart-ring"
+      "product-20261024-block-dessa-ai-model",
+      "product-20260926-meta-camera-free-ai-glasses"
     ]
   },
   {
