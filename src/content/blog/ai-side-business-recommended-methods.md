@@ -122,6 +122,7 @@ AIの出力をそのまま納品すると、誤情報のチェックなしの納
 - [ai副業詐欺の手口と見分け方｜スクールの危険サイン](/blog/ai-side-business-scam-warning)
 
 - [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)
+- [AI副業診断の使い方｜自分に合う仕事の選び方](/blog/ai-side-business-diagnosis)
 ## 出典・参考資料
 
 1. [副業12個やってみた体験談とリアルな収益｜AI活用法と私の気づき【副業初心者】](https://note.com/makari_5108010/n/nc2255c892260)（参照日：2026年10月3日）

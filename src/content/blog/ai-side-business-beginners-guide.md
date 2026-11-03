@@ -166,6 +166,7 @@ AIツールはプロンプト入力だけで使え、無料版もあるため始
 - [AI副業をやってみた：月5万円までの現実と収益の出どころ](/blog/ai-side-business-experience-monthly-income)
 - [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)
 - [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)
+- [AI副業診断の使い方｜自分に合う仕事の選び方](/blog/ai-side-business-diagnosis)
 ## 関連する詳しい解説
 
 - [AI副業で稼げないのはなぜ？怪しい案件と実態](/blog/ai-side-business-reality-and-pitfalls)
