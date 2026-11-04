@@ -123,6 +123,7 @@ AIの出力をそのまま納品すると、誤情報のチェックなしの納
 
 - [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)
 - [AI副業診断の使い方｜自分に合う仕事の選び方](/blog/ai-side-business-diagnosis)
+- [副業 在宅AIの始め方：種類と手順を一次資料で確認](/blog/work-from-home-ai-side-job)
 ## 出典・参考資料
 
 1. [副業12個やってみた体験談とリアルな収益｜AI活用法と私の気づき【副業初心者】](https://note.com/makari_5108010/n/nc2255c892260)（参照日：2026年10月3日）
