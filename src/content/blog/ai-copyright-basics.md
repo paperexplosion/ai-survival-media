@@ -153,7 +153,6 @@ AIが自律的に生成したものには、原則として著作権が発生し
 
 ## 関連する記録
 
-- [生成AI画像の著作権は誰のもの？商用利用の可否をケース別に解説](/blog/generative-ai-image-copyright)
 
 - [AIと著作権の考え方 生成AIの著作権問題を整理](/blog/ai-and-copyright-thinking)
 - [AIライティング副業の単価相場と著作権リスク](/blog/ai-writing-translation-side-business)
@@ -162,6 +161,7 @@ AIが自律的に生成したものには、原則として著作権が発生し
 - [AI学習と著作権はどこまで許される？30条の4を解説｜ai 学習著作権](/blog/ai-training-copyright)
 - [AI動画著作権の基本｜公開前に確認すべき著作物性・侵害・商用利用の注意点](/blog/ai-video-copyright)
 - [Anthropicの8954億ドル——その数字は誰のための約束か](/blog/20261103-104522)
+- [AI絵著作権は誰のもの？認められる範囲と限界を解説](/blog/ai-art-copyright)
 ## 出典・参考資料
 
 1. [AIと著作権について | 文化庁](https://www.bunka.go.jp/seisaku/chosakuken/aiandcopyright.html)（参照日：2026年9月26日）
