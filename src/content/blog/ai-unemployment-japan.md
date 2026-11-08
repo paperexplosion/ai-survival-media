@@ -165,6 +165,7 @@ AI失業をめぐる議論では、利用データの偏りと因果関係の扱
 - [AI失業率をグラフで読み解く｜日本と世界の雇用はどう変わったか](/blog/ai-unemployment-rate-graph-japan)
 - [「AIで仕事なくなる」は嘘？求人増と49%の誤解をデータ検証](/blog/ai-jobs-disappear-myth-or-truth)
 - [AI失業の対策をどう考える？ベーシックインカムと個人の備え](/blog/ai-unemployment-countermeasures)
+- [冷蔵庫が熱を帯び、偽の核警報が鳴る——60億ドル強奪はハッキング疫病の序章か](/blog/20261109-080532)
 ## 出典・参考資料
 
 1. [Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence - Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/)（参照日：2026年9月25日）
