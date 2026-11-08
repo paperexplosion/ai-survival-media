@@ -125,6 +125,7 @@ AIという言葉は、投資の知識がない人にとって「自分にもで
 
 - [aiセミナー詐欺の手口と見分け方｜被害を避ける5つの視点](/blog/ai-seminar-school-scam-tactics)
 
+- [ai 詐欺広告とは？手口と日本での被害傾向を解説](/blog/ai-scam-ad-cases-japan)
 ## 出典・参考資料
 
 1. [それ詐欺です！SNS上の投資勧誘にご注意ください！](https://www.fsa.go.jp/receipt/toushisagi_koukoku/shuhou.html)（参照日：2026年10月13日）
