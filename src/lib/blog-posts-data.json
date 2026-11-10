@@ -1262,8 +1262,8 @@
       "20260303-192918",
       "20260312-224144",
       "20260225-081907",
-      "ai-regulation-overview",
-      "20260311-223120"
+      "20260311-223120",
+      "ai-regulation-overview"
     ]
   },
   {
@@ -3843,8 +3843,8 @@
       "20260518-050231",
       "20260612-050255",
       "20260404-050252",
-      "ai-music-copyright",
       "20260305-192345",
+      "ai-music-copyright",
       "20260327-164958"
     ]
   },
@@ -4108,8 +4108,8 @@
       "20260317-094429",
       "20260510-050227",
       "20260312-094000",
-      "post-04",
       "20260524-050205",
+      "post-04",
       "ai-use-rules-no-company-policy",
       "20260311-223120"
     ]
@@ -8909,8 +8909,8 @@
       "20260318-052259",
       "ai-scam-tactics",
       "20260422-050150",
-      "20260224-201233",
       "20261021-073533",
+      "20260224-201233",
       "20260302-091323",
       "20260409-003847",
       "20260301-001615"
@@ -9115,9 +9115,9 @@
       "20261027-081755",
       "20261104-091056",
       "20260624-050201",
+      "ai-business-side-job",
       "20260615-050237",
-      "20260609-050244",
-      "20260327-171619"
+      "20260609-050244"
     ]
   },
   {
@@ -10683,8 +10683,8 @@
       "20260928-084331",
       "20260930-080953",
       "20260404-050252",
-      "20260302-091323",
       "20260606-050334",
+      "20260302-091323",
       "20260512-050208"
     ]
   },
@@ -11294,8 +11294,8 @@
     ],
     "related": [
       "20261101-074629",
-      "ai-video-side-business",
       "20261031-080959",
+      "ai-video-side-business",
       "20260223-093844",
       "20260610-050213",
       "20260521-050158",
@@ -12100,7 +12100,7 @@
       "ai-video-side-business",
       "ai-side-job-projects",
       "work-from-home-ai-side-job",
-      "ai-side-business-reality-and-pitfalls"
+      "ai-business-side-job"
     ]
   },
   {
@@ -12243,8 +12243,8 @@
       "work-from-home-ai-side-job",
       "ai-writing-translation-side-business",
       "ai-side-business-reality-and-pitfalls",
-      "ai-regulation-japan",
-      "ai-training-copyright"
+      "ai-business-side-job",
+      "ai-regulation-japan"
     ]
   },
   {
@@ -12320,6 +12320,78 @@
     ]
   },
   {
+    "slug": "ai-business-side-job",
+    "title": "AIビジネス副業の種類と立ち上げ方｜数字の根拠まで解説",
+    "lead": "SNSの「月5万円」という数字を見て、自分の手でも再現できるのかと迷っていませんか。AIを道具にした副業の類型と収益の数字がどこから来ているのかが分かれば、無料ツールで小さく試す際に何を確かめ、どこまで任せるかを判断できます。",
+    "preamble": "生成AIの登場で、文章や画像、動画を個人が効率よく作れるようになり、副業の選択肢はこの数年で確実に広がりました。一方で、SNSには「月5万円」といった収益の数字が並び、どの話を信じればいいのか迷う場面も増えています。同じ「AI副業」でも、ブログのように月数十万円に届く例があれば、AI絵本が月300円ほどだったという記録もあり、ジャンルと続け方で結果は大きく変わります。では、その数字は自分の手元でも再現できるものなのか？ この記事を読むと、AIを道具として使う副業の類型と、収益の数字がどこから来ているのかが分かり、無料ツールで小さく試す際に何を確かめ、どこまで任せるかを判断できます。\n\n*この記事は、総合解説「[AI副業とは？初心者が最初に押さえる始め方と稼ぎ方](/blog/ai-side-business-beginners-guide)」の詳細編です。全体像はそちらをご覧ください。*\n\n**この記事の要点**\n\n- AIはあくまで道具であり、知識やスキル、人間の目による確認が不可欠とされている[5]。\n- AI副業にはコンテンツ制作型、業務効率化型、企業向け受託・支援型などの類型がある[2]。\n- 収益はジャンルや継続期間で桁が変わり、月5万円は一律に断定できる数字ではない[1][2][4]。\n\n（最終更新：2026年11月11日）",
+    "type": "seo",
+    "layer": "choose",
+    "date": "2026-11-11 02:16",
+    "readTime": "1分",
+    "category": "💰 AI時代のお金・財布・経済格差",
+    "image": "/blog-images/ai-business-side-job/cover.jpg",
+    "content": [
+      {
+        "section": "AIビジネス副業は「道具」として使うと何が変わるのか",
+        "text": "![AI副業におけるAIの位置づけ](/blog-images/ai-business-side-job/fig-1.svg)\n\n*図：AI副業におけるAIの位置づけ（出典：[4][5]）*\n\nAI副業とは、AI技術を活用して収入を得る新しいはたらき方です[5]。特にChatGPTのような生成AIの登場により、文章や画像、動画などを効率的に作成できるようになり、副業としての注目度が急速に高まっています[5]。ここで押さえておきたいのは、生成AIを「道具」として使うスタイルです。AIはあくまでツールであり、それを使いこなすための知識やスキル、そして人間の目による確認が不可欠とされています[5]。たとえばWebライティングであれば、AIに構成案を作成させたり文章作成を補助させたりすることで、大幅な時間短縮が可能になります[5]。一方で、AIが生成したコンテンツをそのまま使うのではなく、必ず内容を目視で確認して修正を加え、より高品質な成果物を作り上げることが重要です[5]。AI副業は決して「楽して稼げる」ものではありません[5]。AIに頼りすぎて品質が低下する失敗や、プロンプトを工夫せず低品質な出力で終わる失敗も指摘されています[4]。道具は、使い手の腕があってこそ活きるのかもしれません。"
+      },
+      {
+        "section": "自分の作品づくりにAIを活かす副業には、どんな種類がある？",
+        "text": "![AI副業の3類型と代表例](/blog-images/ai-business-side-job/fig-2.svg)\n\n*図：AI副業の3類型と代表例（出典：[2][5]）*\n\nAIを活用した副業には、大きく分けていくつかの類型があります。まず代表的なのが、自分で作品をつくるコンテンツ制作型です。AI画像生成ツールでイラストを作り、ストックフォトサイトで販売する方法があります[2]。同じく画像生成AIはLINEスタンプの作成にも使われています[2]。文章生成AIを使ったブログ・アフィリエイトもこの類型に含まれます[2]。AI音声生成ツールでナレーションやポッドキャストを制作する例もあります[2]。こうした作品型は、売れるたびに収益が発生するストック型として整理されています[2]。\n\n次に、業務の効率化そのものを活かす型があります。AIライティングでは、文章生成AIで記事の骨子を作り、自分の知識で肉付けして納品します[2]。AI翻訳では、AIで一次翻訳を行い、人間がポストエディットを担当する流れが主流とされています[2]。AI動画制作では、動画生成ツールで短尺動画を作り、企業のSNS動画制作を受注するケースも増えているとされています[2]。\n\n![自分の作品づくりにAIを活かす副業には、どんな種類がある？のイラスト](/blog-images/ai-business-side-job/ill-1.jpg)\n\nさらに、企業向けの受託・支援型もあります。AIコンサルティングは、中小企業の業務活用を提案・導入支援する副業です[2]。AIチャットボット構築は、ノーコードで構築でき、月額保守費用も見込める継続収益型とされています[2]。プロンプトエンジニアリングは、企業向けにプロンプトを設計・販売する副業です[2]。Web制作をコーディング支援AIで行う例もあります[2]。\n\nどの類型も、AIはあくまでツールであり、人間の目による確認が不可欠とされています[5]。自分の生活リズムに合う類型を一つ選ぶところから始めてみてはいかがでしょうか。"
+      },
+      {
+        "section": "月5万円は現実的か、収益の数字はどこから来ているのか",
+        "text": "![AI副業ジャンル別の収益実績・目安](/blog-images/ai-business-side-job/fig-3.svg)\n\n*図：AI副業ジャンル別の収益実績・目安（出典：[1][2][4]）*\n\n「AI副業で月5万円」という言葉をよく見かけますが、この数字の根拠はどこにあるのでしょうか。まず、複数の副業を実践した個人の記録では、ブログアフィリエイトで月5〜30万円ほど、直近では約30万円の収益があったと報告されています[1]。一方で、同じ記録の中では、AI絵本は月300円ほど、AI音楽配信はBGM97曲で約922円、歌詞付き39曲で約6,780円、ストックイラストは半年で2480枚投稿して売上9,132円といった数字も示されています[1]。つまり、同じ「AI副業」でも、ジャンルによって収益の桁は大きく異なります。\n\nメディア側の情報では、AIライティングは月3万〜30万円、AI画像生成は月1万〜20万円、AI動画制作は月5万〜50万円などと、ジャンル別の月収目安が示されています[2]。ただし、これらは記事が提示した目安であり、誰もが同じ金額を得られることを保証するものではありません[2]。また、成功事例としてAIライターの月収30万円超やAI画像クリエイターの月5〜10万円が紹介される一方、低品質記事の量産で契約解除になった失敗例も挙げられています[2]。\n\n![月5万円は現実的か、収益の数字はどこから来ているのかのイラスト](/blog-images/ai-business-side-job/ill-2.jpg)\n\n月5万円という水準については、初心者向けガイドが「正しく取り組めば収入につなげられる可能性がある」としつつ、やり方を間違えると時間とお金を無駄にするリスクがあると述べるにとどまっています[4]。したがって、月5万円が現実的かどうかは、ジャンル・継続期間・改善の取り組み方によって変わるという見方が妥当で、一律に断定できる数字ではないとされています[1][2][4]。\n\n数字は、誰かの実績か、誰かの目安か。同じ「5万円」でも中身はまるで別物です。"
+      },
+      {
+        "section": "無料ツールから始める手順と、日本で押さえるべき注意点は",
+        "text": "![無料ツールで始めるAI副業の手順と注意点](/blog-images/ai-business-side-job/fig-4.svg)\n\n*図：無料ツールで始めるAI副業の手順と注意点（出典：[3][5][6]）*\n\nAI副業は、無料ツールから始められます。生成AIツールには無料で利用できるものが多く、無料版でも十分な機能を備えているものがあり、初期費用を抑えて始められる点が魅力とされています[5]。まずは文章生成や画像生成の無料ツールに触れ、指示文（プロンプト）の作り方に慣れるところから始めるのが現実的です[5]。\n\n手順としては、次の流れが考えられます。第一に、副業の作業効率を高める活用例を一つ選びます。議事録作成の自動化、アイデア出し、リサーチ・情報整理、定型業務のテンプレート作成などが挙げられています[5]。第二に、その作業を無料ツールで試し、どこまで任せられるかを確かめます。第三に、案件を探します。AI関連の副業求人・案件を掲載するサービスもあり、生成AIやデータ分析などのスキルを条件に案件を探せます[6]。\n\n![無料ツールから始める手順と、日本で押さえるべき注意点はのイラスト](/blog-images/ai-business-side-job/ill-3.jpg)\n\n日本で副業を行う際の留意点もあります。AIの出力は誤った情報を含んだり、別記事の内容をそのままコピーしたりしている恐れがあるため、そのまま使わず、必ず目視で確認して修正を加えることが重要とされています[5]。また、AI活用は決して「楽して稼げる」ものではなく、使いこなす知識やスキル、人間の目による確認が不可欠とされています[5]。著作権や利用規約の確認も欠かせません[3]。\n\n道具をそろえることより、任せる範囲と自分が確かめる範囲を線で分けることのほうが、副業の最初の一歩では効いてくるのかもしれません。"
+      },
+      {
+        "section": "体験談の数字には偏りがある。あなたが今日から確かめること",
+        "text": "![体験談の収益と自分の試算の対比](/blog-images/ai-business-side-job/fig-5.svg)\n\n*図：体験談の収益と自分の試算の対比（出典：[1][2][4]）*\n\nSNSやnoteで見かける「AI副業で稼いだ」という体験談は、成功した人の声が目に留まりやすいという偏りを抱えています。ある投稿者は12種類の副業を試し、LINEスタンプの分配金が合計782円、AI絵本11冊の収益が月300円ほどだったと記しています[1]。一方で、別の記事ではAIライターが月収30万円超、AI画像クリエイターが月5〜10万円の不労所得を得たとする事例が紹介されています[2]。どちらも実在の一例にすぎず、同じ手法をなぞって同じ数字に届く保証はありません。収益の幅は手法だけでなく、継続期間や集客の有無によっても変わるとされています[1][2]。\n\n![体験談の数字には偏りがある。あなたが今日から確かめることのイラスト](/blog-images/ai-business-side-job/ill-4.jpg)\n\n再現性を測るには、まず自分の手元で小さく試すのが近道です。無料のAIツールから始め、出力はそのまま納品せず人の手で確認する。この基本は失敗を避けるうえで繰り返し指摘されています[2][4]。作業時間と得られた金額を1週間ほど記録してみると、体験談の数字が自分にとって現実的かどうかが見えてきます。他人の収益額は、あなたの台所事情とは別の物差しで測られた数字なのかもしれません。"
+      },
+      {
+        "section": "編集長の眼",
+        "text": "「AI副業で月5万円」という言葉を見たとき、私たちはつい、その金額だけを受け取りがちです。けれど本文が示すのは、同じ5万円でもブログアフィリエイトの5万円とAI絵本の月300円とでは、そこに至る手間も継続の長さもまるで違うという事実です。台所でいえば、同じ「一食分」でも、下ごしらえから煮込む料理と、レトルトを温めるだけでは、かかる時間も味の深さも別物でしょう。だからこそ読者に確かめてほしいのは、他人の収益額を自分に当てはめることではなく、自分の手元で小さく試し、作業時間と得られた金額を記録するという一手です。成功談は目に留まりやすく、静かに終わった試みは残りにくい。その偏りを前提に置いたうえで、無料ツールで任せる範囲と自分が確認する範囲を線引きし、一週間だけでも数字を手元に積んでみる。稼げるかどうかを先に決めるのではなく、自分の生活リズムに合う類型を一つ選び、確かめながら進むことが、次の一歩になるはずです。"
+      },
+      {
+        "section": "よくある質問",
+        "text": ""
+      },
+      {
+        "section": "Q. AI副業は初心者でも稼げますか？",
+        "text": "初心者向けガイドは、正しく取り組めば収入につなげられる可能性があるとしつつ、やり方を間違えると時間とお金を無駄にするリスクがあると述べるにとどめています[4]。AIはあくまでツールで、使いこなす知識やスキル、人間の目による確認が不可欠とされています[5]。"
+      },
+      {
+        "section": "Q. AI副業を始めるには何から手をつければいいですか？",
+        "text": "生成AIには無料で使えるツールが多く、まずは文章生成や画像生成の無料ツールに触れ、指示文の作り方に慣れるところから始めるのが現実的とされています[5]。副業の作業効率を高める活用例を一つ選び、無料ツールで試してから案件を探す流れが考えられます[5][6]。"
+      },
+      {
+        "section": "Q. AI副業の収益はどのくらいが現実的ですか？",
+        "text": "個人の記録ではブログアフィリエイトで月5〜30万円ほど、AI絵本は月300円ほど、ストックイラストは半年で9,132円など、ジャンルで桁が大きく異なります[1]。メディアの目安もAIライティング月3万〜30万円などと幅があり、保証ではありません[2]。月5万円はジャンルや継続期間で変わるため一律に断定できないとされています[1][2][4]。"
+      },
+      {
+        "section": "出典・参考資料",
+        "text": "1. [副業12個やってみた体験談とリアルな収益｜AI活用法と私の気づき【副業初心者】｜Makari｜AIイラスト](https://note.com/makari_5108010/n/nc2255c892260)（参照日：2026年11月11日）\n2. [生成AIで月5万円稼ぐ副業10選｜初心者でも始められるAI副業の全ガイド【2026年最新】 - MatrixFlow](https://www.matrixflow.net/case-study/162/)（参照日：2026年11月11日）\n3. [【2026年11月最新】AIを使って稼ぐ方法10選｜Claude Codeで副業効率を最大化する実践ガイド](https://genai-ai.co.jp/ai-kanri/blog/cc-ai-earn-money/)（参照日：2026年11月11日）\n4. [AI副業は稼げない？初心者が月5万円を目指すための完全ガイド](https://www.alc.co.jp/programming/sidejob/ai-side-job/)（参照日：2026年11月11日）\n5. [AI活用で副業を効率化する方法は？活用アイデアや始め方・案件例を紹介 | and HiPro [アンド ハイプロ]](https://hipro-job.jp/pro/and_hipro/column/A000000797/)（参照日：2026年11月11日）\n6. [副業・複業求人・案件一覧](https://shuuumatu-worker.jp/projects?skills=ai)（参照日：2026年11月11日）"
+      },
+      {
+        "section": "関連記事",
+        "text": "- [AI副業とは？初心者が最初に押さえる始め方と稼ぎ方](/blog/ai-side-business-beginners-guide)\n- [AI副業をやってみた：月5万円までの現実と収益の出どころ](/blog/ai-side-business-experience-monthly-income)\n- [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)\n- [ai amazon 副業とは？やり方と注意点を解説](/blog/ai-amazon-side-business-guide)\n- [AIライティング副業の単価相場と著作権リスク](/blog/ai-writing-translation-side-business)\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "ai-writing-translation-side-business",
+      "ai-side-business-recommended-methods",
+      "ai-side-business-experience-monthly-income",
+      "ai-amazon-side-business-guide",
+      "ai-side-business-beginners-guide",
+      "work-from-home-ai-side-job",
+      "ai-side-job-projects",
+      "ai-video-side-business"
+    ]
+  },
+  {
     "slug": "ai-career-change-consultation-tools",
     "title": "転職 相談 AI活用ガイド｜診断・面接練習の限界と注意点",
     "lead": "転職相談でAIを使い始めたものの、診断結果を適職の答えと受け取っていいのか迷っていませんか。転職相談AIの使いどころと限界、書類作成で精度を左右する情報の渡し方が分かれば、自分に合うサービスを判断できます。",
@@ -12387,7 +12459,7 @@
       "ai-jobs-disappear-ranking",
       "ai-video-side-business",
       "ai-side-business-diagnosis",
-      "ai-music-copyright",
+      "ai-business-side-job",
       "20261015-073424"
     ]
   },
@@ -13455,8 +13527,8 @@
       "product-20260929-claude-sonnet-5-5",
       "ai-side-business-beginners-guide",
       "20261005-072915",
-      "product-20261010-pixel-watch-4-ai-watch-face",
       "ai-illustrator-unemployment-reality",
+      "product-20261010-pixel-watch-4-ai-watch-face",
       "20260308-103350",
       "20260417-050148"
     ]
@@ -13996,9 +14068,9 @@
       "ai-side-business-scam-warning",
       "ai-scam-tactics",
       "ai-side-business-reality-and-pitfalls",
+      "ai-business-side-job",
       "product-20261031-meta-style-sketch",
-      "ai-side-business-experience-monthly-income",
-      "product-20261024-block-dessa-ai-model"
+      "ai-side-business-experience-monthly-income"
     ]
   },
   {
@@ -14065,7 +14137,7 @@
       },
       {
         "section": "関連する記録",
-        "text": "- [ai amazon 副業とは？やり方と注意点を解説](/blog/ai-amazon-side-business-guide)\n\n- [AI副業をやってみた：月5万円までの現実と収益の出どころ](/blog/ai-side-business-experience-monthly-income)\n- [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)\n- [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)\n- [AI副業診断の使い方｜自分に合う仕事の選び方](/blog/ai-side-business-diagnosis)\n- [副業 在宅AIの始め方：種類と手順を一次資料で確認](/blog/work-from-home-ai-side-job)"
+        "text": "- [ai amazon 副業とは？やり方と注意点を解説](/blog/ai-amazon-side-business-guide)\n\n- [AI副業をやってみた：月5万円までの現実と収益の出どころ](/blog/ai-side-business-experience-monthly-income)\n- [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)\n- [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)\n- [AI副業診断の使い方｜自分に合う仕事の選び方](/blog/ai-side-business-diagnosis)\n- [副業 在宅AIの始め方：種類と手順を一次資料で確認](/blog/work-from-home-ai-side-job)\n- [AIビジネス副業の種類と立ち上げ方｜数字の根拠まで解説](/blog/ai-business-side-job)"
       },
       {
         "section": "関連する詳しい解説",
@@ -14158,9 +14230,9 @@
       "ai-side-business-beginners-guide",
       "ai-side-business-recommended-methods",
       "ai-writing-translation-side-business",
+      "ai-business-side-job",
       "ai-video-side-business",
-      "note-ai-side-business",
-      "ai-career-change-consultation-tools"
+      "note-ai-side-business"
     ]
   },
   {
@@ -14217,7 +14289,7 @@
       },
       {
         "section": "関連する記録",
-        "text": "- [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)\n\n- [AI動画副業の具体例と収益化の流れ｜数字の出どころと限界](/blog/ai-video-side-business)\n- [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)\n- [AI副業診断の使い方｜自分に合う仕事の選び方](/blog/ai-side-business-diagnosis)\n- [副業 在宅AIの始め方：種類と手順を一次資料で確認](/blog/work-from-home-ai-side-job)"
+        "text": "- [AI副業おすすめ比較｜初心者が稼げる種類と選び方](/blog/ai-side-business-recommended-methods)\n\n- [AI動画副業の具体例と収益化の流れ｜数字の出どころと限界](/blog/ai-video-side-business)\n- [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)\n- [AI副業診断の使い方｜自分に合う仕事の選び方](/blog/ai-side-business-diagnosis)\n- [副業 在宅AIの始め方：種類と手順を一次資料で確認](/blog/work-from-home-ai-side-job)\n- [AIビジネス副業の種類と立ち上げ方｜数字の根拠まで解説](/blog/ai-business-side-job)"
       },
       {
         "section": "出典・参考資料",
@@ -14234,9 +14306,9 @@
       "ai-side-business-reality-and-pitfalls",
       "ai-side-business-beginners-guide",
       "note-ai-side-business",
+      "ai-business-side-job",
       "ai-side-job-projects",
-      "work-from-home-ai-side-job",
-      "ai-writing-translation-side-business"
+      "work-from-home-ai-side-job"
     ]
   },
   {
@@ -14365,7 +14437,7 @@
       },
       {
         "section": "関連する記録",
-        "text": "- [ai副業詐欺の手口と見分け方｜スクールの危険サイン](/blog/ai-side-business-scam-warning)\n\n- [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)\n- [AI副業診断の使い方｜自分に合う仕事の選び方](/blog/ai-side-business-diagnosis)\n- [副業 在宅AIの始め方：種類と手順を一次資料で確認](/blog/work-from-home-ai-side-job)"
+        "text": "- [ai副業詐欺の手口と見分け方｜スクールの危険サイン](/blog/ai-side-business-scam-warning)\n\n- [AI副業案件の探し方とクラウドソーシングの注意点](/blog/ai-side-job-projects)\n- [AI副業診断の使い方｜自分に合う仕事の選び方](/blog/ai-side-business-diagnosis)\n- [副業 在宅AIの始め方：種類と手順を一次資料で確認](/blog/work-from-home-ai-side-job)\n- [AIビジネス副業の種類と立ち上げ方｜数字の根拠まで解説](/blog/ai-business-side-job)"
       },
       {
         "section": "出典・参考資料",
@@ -14384,7 +14456,7 @@
       "ai-writing-translation-side-business",
       "ai-side-job-projects",
       "work-from-home-ai-side-job",
-      "ai-video-side-business"
+      "ai-business-side-job"
     ]
   },
   {
@@ -15057,7 +15129,7 @@
       "ai-side-business-experience-monthly-income",
       "ai-side-job-projects",
       "work-from-home-ai-side-job",
-      "note-ai-side-business"
+      "ai-business-side-job"
     ]
   },
   {
@@ -15202,10 +15274,10 @@
       "ai-side-business-beginners-guide",
       "ai-video-side-business",
       "work-from-home-ai-side-job",
-      "ai-side-business-experience-monthly-income",
+      "ai-business-side-job",
       "ai-side-business-reality-and-pitfalls",
-      "ai-side-job-projects",
-      "note-ai-side-business"
+      "ai-side-business-experience-monthly-income",
+      "ai-side-job-projects"
     ]
   },
   {
@@ -15777,9 +15849,9 @@
       "ai-side-business-beginners-guide",
       "ai-writing-translation-side-business",
       "ai-side-business-recommended-methods",
+      "ai-business-side-job",
       "ai-video-side-business",
-      "ai-side-job-projects",
-      "work-from-home-ai-side-job"
+      "ai-side-job-projects"
     ]
   },
   {
@@ -15938,9 +16010,9 @@
     "related": [
       "ai-use-rules-no-company-policy",
       "20260616-050236",
-      "ai-video-side-business",
-      "ai-interview-storytelling",
       "20260222-222228",
+      "ai-interview-storytelling",
+      "ai-video-side-business",
       "ai-side-business-beginners-guide",
       "ai-career-change",
       "20260601-050155"
@@ -16920,8 +16992,8 @@
     ],
     "related": [
       "product-20261110-minisforum-t5-max-388",
-      "20260420-050152",
       "product-20260927-honor-robot-phone",
+      "20260420-050152",
       "product-20261108-claude-personal-finance",
       "20260224-201233",
       "product-20261021-apple-tv-4k-siri-ai",
@@ -18242,7 +18314,7 @@
       "product-20261107-gemini-omni-1-2-flash",
       "product-20260930-openai-dots-agents",
       "product-20261108-claude-personal-finance",
-      "product-20260928-adobe-premiere-android"
+      "ai-art-copyright"
     ]
   },
   {
@@ -18650,8 +18722,8 @@
       "product-20261105-github-copilot-fusion",
       "20260420-050152",
       "product-20260928-adobe-premiere-android",
-      "product-20261027-fancel-ai-skin-counseling",
       "product-20261031-meta-style-sketch",
+      "product-20261027-fancel-ai-skin-counseling",
       "product-20261110-minisforum-t5-max-388",
       "20261023-074207",
       "product-20260929-claude-sonnet-5-5"
@@ -19018,7 +19090,7 @@
       "ai-side-business-experience-monthly-income",
       "ai-side-job-projects",
       "ai-video-side-business",
-      "ai-side-business-reality-and-pitfalls"
+      "ai-business-side-job"
     ]
   },
   {
