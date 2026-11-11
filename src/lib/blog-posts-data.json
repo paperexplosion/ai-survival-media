@@ -325,8 +325,8 @@
       "20260317-094429",
       "20260424-050200",
       "20260224-201233",
-      "20260222-222228",
-      "20260223-103034"
+      "20260223-103034",
+      "20260222-222228"
     ]
   },
   {
@@ -433,8 +433,8 @@
       "20260222-101421",
       "20260309-162600",
       "20260312-224144",
-      "ai-unemployment-japan",
       "20260318-081842",
+      "ai-unemployment-japan",
       "20260310-092331",
       "ai-engineer-job-future"
     ]
@@ -2036,8 +2036,8 @@
       "20260318-084916",
       "ai-unemployment-rate-graph-japan",
       "20260224-194705",
-      "ai-jobs-disappear",
       "20260224-201233",
+      "ai-jobs-disappear",
       "20260306-222035",
       "20260318-052259"
     ]
@@ -3891,8 +3891,8 @@
       "20260325-220130",
       "20260606-050334",
       "20260612-050255",
-      "product-20261016-amazon-bee-ai-recorders",
-      "20260411-213750"
+      "20260411-213750",
+      "product-20261016-amazon-bee-ai-recorders"
     ]
   },
   {
@@ -4741,8 +4741,8 @@
       "20260327-164958",
       "20260326-171555",
       "20260224-090015",
-      "20260305-192345",
-      "20260328-050246"
+      "20260328-050246",
+      "20260305-192345"
     ]
   },
   {
@@ -10164,7 +10164,7 @@
       "20261009-085455",
       "20261007-081253",
       "20261104-091056",
-      "20260316-225321"
+      "20260401-050200"
     ]
   },
   {
@@ -10920,7 +10920,7 @@
       "product-20261013-microsoft-maia-3-ai-chip",
       "20260615-050237",
       "20260327-133407",
-      "20261103-104522"
+      "ai-jobs-disappear-myth-or-truth"
     ]
   },
   {
@@ -12824,8 +12824,8 @@
       }
     ],
     "related": [
-      "ai-career-change-consultation-tools",
       "elite-engineers-thinking-mirror",
+      "ai-career-change-consultation-tools",
       "ai-designer-job-future",
       "ai-jobs-disappear",
       "ai-jobs-disappear-myth-or-truth",
@@ -13196,6 +13196,10 @@
         "text": "職種ごと消えるというより、業務の中身が変わるという見方が近いようです。議事録の整理や定型的な提案文の作成など「翻訳」にあたる工程は外注をやめた例が挙がる一方、何をすべきかの判断や確認、責任を取ることは残ったとされています[6]。日本では人手不足を補う道具としてAIが導入される可能性が高いとされています[2]。"
       },
       {
+        "section": "関連する記録",
+        "text": "- [AIで無くなる仕事の特徴と今から備えること](/blog/jobs-disappearing-by-ai)"
+      },
+      {
         "section": "出典・参考資料",
         "text": "1. [「AIが仕事を奪う」はウソかもしれない｜日経BizGate](https://bizgate.nikkei.com/article/DGXZZO3133203004062018000000)（参照日：2026年10月30日）\n2. [AIで仕事はなくなるは嘘？AI人材不足と2040年の事務職の未来を徹底解説｜フリーランス名鑑](https://freelance-meikan.com/freelance/604/blog/1498)（参照日：2026年10月30日）\n4. [将来「AIでなくなる仕事」の嘘と本当。10年後もなくならない仕事との違いとは？ |  MANA-Biz](https://www.kokuyo-furniture.co.jp/solution/mana-biz/2021/08/ai10.php)（参照日：2026年10月30日）\n5. [将来AIに仕事を奪われるは嘘？人間の仕事がなくならないためには](https://estyle.co.jp/media/beginner/2472/)（参照日：2026年10月30日）\n6. [「AIで仕事がなくなる」は嘘だと思っていた。現場でそれが起きるのを見るまでは](https://note.com/light_clover295/n/nd45b00a6a8d7)（参照日：2026年10月30日）"
       },
@@ -13208,11 +13212,11 @@
       "ai-jobs-disappear",
       "ai-unemployment-japan",
       "ai-jobs-disappear-ranking",
+      "jobs-disappearing-by-ai",
       "ai-jobs-disappear-vs-remaining-difference",
       "ai-designer-job-future",
       "ai-unemployment-rate-graph-japan",
-      "ai-engineer-job-future",
-      "20260407-050153"
+      "ai-engineer-job-future"
     ]
   },
   {
@@ -13284,11 +13288,11 @@
       "ai-jobs-disappear",
       "ai-unemployment-japan",
       "ai-unemployment-rate-graph-japan",
-      "ai-white-collar-unemployment",
-      "ai-designer-job-future",
       "ai-jobs-disappear-myth-or-truth",
+      "ai-white-collar-unemployment",
       "ai-jobs-disappear-vs-remaining-difference",
-      "ai-job-probability-qa"
+      "ai-designer-job-future",
+      "jobs-disappearing-by-ai"
     ]
   },
   {
@@ -13344,6 +13348,10 @@
         "text": "職業名ではなく、仕事の中身をタスクに分けて眺めることが鍵です。日々の業務を書き出し、定型的な処理、感情への対応、判断や責任を伴う場面、身体を使う作業に振り分けてください。手順が決まっていて繰り返しが多く判断の幅が狭い作業ほどAI側に寄り、例外的な事情への対応や感情への対処は人間に残りやすいとされています[3]。"
       },
       {
+        "section": "関連する記録",
+        "text": "- [AIで無くなる仕事の特徴と今から備えること](/blog/jobs-disappearing-by-ai)"
+      },
+      {
         "section": "出典・参考資料",
         "text": "1. [AI時代になくなる仕事・なくならない仕事｜違いや必要スキルも紹介](https://sks.ac.jp/blog/column_jobs-ai-era/)（参照日：2026年11月7日）\n2. [AIによって将来「なくなる仕事」と「なくならない仕事」の違い](https://mba.globis.ac.jp/careernote/1152.html)（参照日：2026年11月7日）\n3. [AI普及で雇用はどうなる？専門家に聞いた、なくなる仕事・増える仕事](https://www.toyo.ac.jp/link-toyo/social/ai_employment/)（参照日：2026年11月7日）\n7. [AIによってなくなる仕事ランキング10選！なくならない仕事の特徴も解説](https://shift-ai.co.jp/blog/21681/)（参照日：2026年11月7日）"
       },
@@ -13354,13 +13362,13 @@
     ],
     "related": [
       "ai-jobs-disappear",
-      "ai-unemployment-countermeasures",
+      "jobs-disappearing-by-ai",
       "ai-white-collar-unemployment",
+      "ai-unemployment-countermeasures",
       "ai-jobs-disappear-myth-or-truth",
       "ai-unemployment-japan",
       "ai-jobs-disappear-ranking",
-      "20260318-052259",
-      "ai-illustrator-unemployment-reality"
+      "20260318-052259"
     ]
   },
   {
@@ -13427,7 +13435,7 @@
       },
       {
         "section": "関連する記録",
-        "text": "- [AIリスキリングは何を学ぶ？仕事のタスク分解で考える](/blog/ai-reskilling)\n- [AIエンジニアの仕事はなくなる？転職前に知る現実](/blog/ai-engineer-job-future)\n- [AIでデザイナーの仕事はなくなる？求められる役割の変化と生き残る道](/blog/ai-designer-job-future)\n- [AIでホワイトカラーは失業する？弁護士・コンサルの実例](/blog/ai-white-collar-unemployment)\n- [AI失業率をグラフで読み解く｜日本と世界の雇用はどう変わったか](/blog/ai-unemployment-rate-graph-japan)\n- [AIでイラストレーターは失業する？仕事の変化と生存戦略](/blog/ai-illustrator-unemployment-reality)\n- [「AIで仕事なくなる」は嘘？求人増と49%の誤解をデータ検証](/blog/ai-jobs-disappear-myth-or-truth)\n- [AIでなくなる仕事・なくならない仕事の違い｜タスク構造で整理](/blog/ai-jobs-disappear-vs-remaining-difference)"
+        "text": "- [AIエンジニアの仕事はなくなる？転職前に知る現実](/blog/ai-engineer-job-future)\n- [AIでデザイナーの仕事はなくなる？求められる役割の変化と生き残る道](/blog/ai-designer-job-future)\n- [AIでホワイトカラーは失業する？弁護士・コンサルの実例](/blog/ai-white-collar-unemployment)\n- [AI失業率をグラフで読み解く｜日本と世界の雇用はどう変わったか](/blog/ai-unemployment-rate-graph-japan)\n- [AIでイラストレーターは失業する？仕事の変化と生存戦略](/blog/ai-illustrator-unemployment-reality)\n- [「AIで仕事なくなる」は嘘？求人増と49%の誤解をデータ検証](/blog/ai-jobs-disappear-myth-or-truth)\n- [AIでなくなる仕事・なくならない仕事の違い｜タスク構造で整理](/blog/ai-jobs-disappear-vs-remaining-difference)\n- [AIで無くなる仕事の特徴と今から備えること](/blog/jobs-disappearing-by-ai)"
       },
       {
         "section": "出典・参考資料",
@@ -13443,10 +13451,10 @@
       "ai-jobs-disappear-ranking",
       "ai-jobs-disappear-myth-or-truth",
       "ai-jobs-disappear-vs-remaining-difference",
+      "jobs-disappearing-by-ai",
       "ai-white-collar-unemployment",
       "ai-unemployment-rate-graph-japan",
-      "ai-designer-job-future",
-      "ai-job-probability-qa"
+      "ai-designer-job-future"
     ]
   },
   {
@@ -13878,14 +13886,14 @@
       }
     ],
     "related": [
-      "ai-jobs-disappear",
       "20260316-225321",
       "20260407-050153",
       "20260303-051013",
       "20260309-162600",
       "20260224-194705",
       "ai-unemployment-countermeasures",
-      "20260404-050252"
+      "20260404-050252",
+      "20260401-050200"
     ]
   },
   {
@@ -14831,9 +14839,9 @@
       "ai-unemployment-rate-graph-japan",
       "ai-jobs-disappear-vs-remaining-difference",
       "ai-jobs-disappear",
+      "jobs-disappearing-by-ai",
       "20260401-050200",
-      "ai-jobs-disappear-myth-or-truth",
-      "20260309-200004"
+      "ai-jobs-disappear-myth-or-truth"
     ]
   },
   {
@@ -14921,7 +14929,7 @@
       "ai-unemployment-rate-graph-japan",
       "20260309-200004",
       "ai-job-probability-qa",
-      "product-20260926-meta-camera-free-ai-glasses"
+      "ai-jobs-disappear-myth-or-truth"
     ]
   },
   {
@@ -14989,11 +14997,11 @@
       "ai-unemployment-japan",
       "ai-unemployment-countermeasures",
       "ai-jobs-disappear",
+      "jobs-disappearing-by-ai",
       "ai-white-collar-unemployment",
       "ai-jobs-disappear-ranking",
       "20260309-200004",
-      "ai-jobs-disappear-myth-or-truth",
-      "20260318-052259"
+      "ai-jobs-disappear-myth-or-truth"
     ]
   },
   {
@@ -15248,9 +15256,9 @@
       "ai-unemployment-japan",
       "ai-unemployment-countermeasures",
       "ai-jobs-disappear",
+      "ai-jobs-disappear-vs-remaining-difference",
       "ai-unemployment-rate-graph-japan",
       "ai-jobs-disappear-ranking",
-      "ai-jobs-disappear-vs-remaining-difference",
       "20260516-050201",
       "20260529-050140"
     ]
@@ -15830,6 +15838,78 @@
     ]
   },
   {
+    "slug": "jobs-disappearing-by-ai",
+    "title": "AIで無くなる仕事の特徴と今から備えること",
+    "lead": "自分の仕事のどこがAIに置き換わるのか、手順書に落とし込める部分はどれくらいかと不安になっていませんか。なくなる可能性が高い仕事の特徴と「49%が代替可能」という予測の前提が分かれば、自分の仕事をどう判断し何から始めるかを決められます。",
+    "preamble": "AIが文章を書き、画像を認識し、データを分析する。その精度は日を追うごとに上がり、事務や接客、運転といった仕事まで代替されうると言われるようになりました。職場では「自分の作業のどこが残るのか」という漠然とした不安が漂い、日々の業務を見る目も変わってきています。いま自分が担っている仕事のうち、手順書に落とし込める部分はどれくらいあるでしょうか。この記事を読むと、なくなる可能性が高いとされる職種の全体像と、AIが得意とする作業の共通点が分かります。さらに、「49%が代替可能」といった予測の数字がどのような前提で弾かれたものかを見分けられ、日本の導入状況を踏まえて自分の仕事をどう判断し、何から始めるかを考えられます。\n\n*この記事は、総合解説「[AIでなくなる仕事は？タスク分解で見る代替と残存](/blog/ai-jobs-disappear)」の詳細編です。全体像はそちらをご覧ください。*\n\n**この記事の要点**\n\n- AIは定型的で反復的な作業やデータ処理を得意とし、一般事務やレジ係などが代替されやすいとされる[1][4]。\n- 「49%の仕事がなくなる」という予測は自動化可能な業務の割合を示す推計で、仕事の消滅を断定したものではない[2][5]。\n- AIスキルの習得や協働意識、変化対応力を磨くことが、仕事を守る対策として挙げられている[1][4]。\n\n（最終更新：2026年11月12日）",
+    "type": "seo",
+    "layer": "think",
+    "date": "2026-11-12 02:26",
+    "readTime": "1分",
+    "category": "💣 AIと雇用・労働の崩壊",
+    "image": "/blog-images/jobs-disappearing-by-ai/cover.jpg",
+    "content": [
+      {
+        "section": "AIの普及で無くなる仕事は何か、先に全体像から確かめる",
+        "text": "![AIで代替されやすい仕事と残る要素](/blog-images/jobs-disappearing-by-ai/fig-1.svg)\n\n*図：AIで代替されやすい仕事と残る要素（出典：[1][2]）*\n\nAIの普及で無くなる仕事を考えるとき、個別の職種名だけを追うと全体像を見失いやすくなります。まずは「どのような性質の仕事が代替されやすいのか」という軸から整理してみましょう。\n\nAIが得意とするのは、大量のデータ処理と分析、ルールに従った定型的で反復的な作業、データを元にした予測や最適化、画像や音声の認識、自然言語を用いた文章の生成などです[1]。こうした特性から、データの収集や分析が中心の仕事、専門性が不要な仕事は代替される可能性が高いとされています[1]。\n\nなくなる可能性が高いと予想される仕事として、一般事務員、コールオペレーター、レジ係、フロントスタッフ、運転手、工場作業員、ライター、翻訳家、証券アナリスト、税理士が挙げられています[1]。一方、窓口業務は「0にはならないけれど限りなく0になる可能性がある」との見方もあります[2]。コールセンター業務などの労働集約型のビジネスも、なくなっていく可能性が考えられるとされています[2]。\n\n![AIの普及で無くなる仕事は何か、先に全体像から確かめるのイラスト](/blog-images/jobs-disappearing-by-ai/ill-1.jpg)\n\nただし、いずれも「なくなる」と断定できるものばかりではありません。運転手は将来的に不要になるとされている一方、現時点の技術ではトラブル時の対応が難しく、法整備の観点からも完全自動化には至っていないとされます[1]。税理士も、税務書類作成は税理士の独占業務として法的に保護されているとされています[1]。代替の度合いは職種ごとに幅がある、という点を押さえておきたいところです。\n\n本記事では、こうした調査や専門家の見解を根拠として扱います。個々の予測は将来の見通しを含むため、断定的な結論ではなく「〜とされています」「〜という見方があります」という形で示します。数字や固有名詞は出典に書かれた範囲にとどめます。\n\n仕事の地図は、消える場所だけでなく、残る場所や新しく生まれる場所も含めて眺めると、見え方が変わってきます。"
+      },
+      {
+        "section": "あなたの作業は大丈夫か、AIに置き換わりやすい仕事の共通点",
+        "text": "![AIに置き換わりやすい仕事の特徴](/blog-images/jobs-disappearing-by-ai/fig-2.svg)\n\n*図：AIに置き換わりやすい仕事の特徴（出典：[1][4][5]）*\n\nAIに置き換わりやすい仕事には、共通する特徴があります。まず挙げられるのは、ルールに従った定型的で反復的な作業です。AIはこうした作業で人間以上の能力を発揮するとされています[1]。単純作業の繰り返しや、条件分岐によるパターン的な回答が可能な業務も、AIに奪われる仕事の特徴とされています[4]。\n\n具体的には、データ入力や書類作成、電話対応といった一般事務の業務が該当します。ルーティンワークが多く、突発的なタスクや柔軟な対応が求められる場面が少ないことから、AIでも代替可能だと考えられています[4]。データ入力や転記業務では、AI-OCRによって既に自動化が進められている例も少なくありません[4]。\n\n![あなたの作業は大丈夫か、AIに置き換わりやすい仕事の共通点のイラスト](/blog-images/jobs-disappearing-by-ai/ill-2.jpg)\n\n大量のデータの処理と分析も、AIが得意とする領域です[1]。データを元にした予測や最適化、画像や音声の認識、自然言語を用いた文章の生成も、AIが人間以上の能力を発揮する仕事として挙げられています[1]。反対に、コミュニケーションや感情理解が必要な仕事、独創性の高いクリエイティブな仕事、臨機応変な対応が必要な仕事は、AIが不得意とされています[1]。\n\nつまり、マニュアル化しやすい業務や、専門性が不要な仕事、人間らしさがいらない仕事は、AIに代替される可能性が高いということです[1]。ただし、こうした仕事がまるごと消えるとは限りません。AIが代替できる部分が多い仕事と捉える視点も示されています[5]。\n\nあなたの日々の作業のうち、手順書に落とし込める部分はどれくらいあるでしょうか。"
+      },
+      {
+        "section": "「無くなる」予測の数字は、どこまで信じて読むべきか",
+        "text": "![「仕事がなくなる」予測の読み方](/blog-images/jobs-disappearing-by-ai/fig-3.svg)\n\n*図：「仕事がなくなる」予測の読み方（出典：[2][5]）*\n\n「AIで49%の仕事がなくなる」という数字を見かけたことはないでしょうか。この数字の元になったのは、オックスフォード大学のマイケル・A・オズボーン教授の研究『雇用の未来』で発表された推計です[2][5]。ただし、この推計は「機械学習などが得意な業務をどれだけ含むか」という観点から職業を分類し、自動化される可能性を機械的に算出したものです[5]。実際にその仕事が消えると断定したものではない点に注意が必要です。\n\n同じ研究を紹介する記事でも、「AIが代替できる部分が多い仕事」という表現にとどめ、完全消滅ではないと補足しています[5]。つまり、予測の数字は「この職業は危ない」と宣告するものではなく、業務のどこが自動化と相性がよいかを示す目安として読むのが実態に近いといえます。\n\n![「無くなる」予測の数字は、どこまで信じて読むべきかのイラスト](/blog-images/jobs-disappearing-by-ai/ill-3.jpg)\n\nさらに、予測の前提そのものも固定的ではありません。東洋大学の小林和馬助教は、シンギュラリティー（AIが人間の能力を超えるとされる転換点）が2045年と言われているものの、実際に社会へ大きな変化をもたらすのはもう少し先になるとの見方を示しています[2]。量子コンピュータの活用にも早くても30〜50年はかかるとされ、技術の実現時期には幅があるのです[2]。\n\n数字は未来の地図ではなく、現在地を測る物差しのようなものです。どの前提で弾かれた数字なのかを確かめる習慣が、予測に振り回されない読み方につながります。"
+      },
+      {
+        "section": "海外の予測どおりに、日本の仕事は無くなるのか",
+        "text": "![海外予測を日本に当てはめる際の留意点](/blog-images/jobs-disappearing-by-ai/fig-4.svg)\n\n*図：海外予測を日本に当てはめる際の留意点（出典：[2][4]）*\n\n海外の予測をそのまま日本の仕事に当てはめるには、いくつか注意すべき点があります。野村総合研究所が2015年に実施した調査では、日本の労働人口の49%が人工知能やロボットなどで代替可能になると試算されています[4]。ただし、この数字はあくまで代替の「可能性」を示したものであり、実際に仕事が失われる時期や規模を保証するものではありません[4]。\n\n日本の企業におけるAI導入は進んでいるものの、導入後の検証が不十分だというデータもあります[4]。AIを実際の業務に役立てるには実証実験の繰り返しが重要であり、それができていない現状では、人間の仕事をAIが本格的に奪っているとまではいえない状態だという見方があります[4]。\n\n![海外の予測どおりに、日本の仕事は無くなるのかのイラスト](/blog-images/jobs-disappearing-by-ai/ill-4.jpg)\n\nまた、AIが人間の知能を超えるとされるシンギュラリティ（技術的特異点）についても、東洋大学の小林和馬助教は、実際にそのような機械が社会へ大きな変化をもたらすのはもう少し先の話になると考えています[2]。現在のコンピュータには技術的な限界があり、量子コンピュータの活用には早くても30〜50年はかかると言われているためです[2]。\n\nさらに、AIの影響を大きく受けるのは、変化を前提とした今の教育を受けて育つ子どもたちよりも、それ以前の教育を受けた社会人だと指摘されています[2]。日本の雇用慣行や人材育成の事情を踏まえると、海外の予測をそのまま当てはめるのではなく、国内の導入状況や労働市場の特徴を合わせて見ていく必要がありそうです。あなたの職場では、AIはすでに隣の席の同僚のような存在になっているでしょうか。"
+      },
+      {
+        "section": "自分の仕事を守るために、今日から何を始めるか",
+        "text": "なくなる仕事に共通するのは、単純作業の繰り返しや、条件によって対応が決まる業務が多いという点です[4]。データ入力や書類作成が中心の事務、定型的な問い合わせ対応、セルフレジで置き換えられるレジ係などが例として挙げられています[1][4]。まずは自分の業務を、この特徴にどれだけ当てはまるかで眺めてみると、対策の糸口が見えます。\n\n対策の一つは、AIやITに関するスキルを身につけることです。AIが仕事を奪うのではなく、AIやITスキルのある人材が多くの仕事を担うようになるとされており、資格は就職時だけでなく昇進や昇給のときにも有利に働くとされています[1]。AIエンジニアやAIトレーナーのように、AIの登場で新たに生まれた仕事もあるとされています[1]。\n\n![自分の仕事を守るために、今日から何を始めるかのイラスト](/blog-images/jobs-disappearing-by-ai/ill-5.jpg)\n\nもう一つは、AIと敵対するのではなく協働する意識を持つことです。介護や医療、建築・土木、行政、コールセンターなどで、AIと人間の協働体制の構築が推進されている事例が紹介されています[4]。AIに任せられる部分を任せ、人は判断や対話に時間を回す形です。\n\n加えて、変化を拒絶せず受け入れて柔軟に対応する「変化対応力」も重要とされています[1]。コミュニケーションや感情理解、独創性、臨機応変な対応はAIが不得意とする領域であり[1]、こうした力を日々の仕事で磨くことも守りにつながります。明日の朝、自分の作業を一つだけAIに任せてみるなら、どれを選びますか。"
+      },
+      {
+        "section": "編集長の眼",
+        "text": "「49%」という数字は、未来の宣告ではなく現在地を測る物差しです。私たちはつい、地図の上で消えそうな地名を探して不安になりますが、実際に必要なのは自分の作業机の上を眺め直すことではないでしょうか。手順書に落とし込める部分がどれくらいあるか、まずそこを確かめる。数字に振り回されず前提を確認する習慣と、明日ひとつの作業をAIに任せてみる小さな実験。この二つを並べるだけでも、見え方は変わります。予測は当てるものではなく、備えの順番を決めるために使うものだと、私たちは考えます。"
+      },
+      {
+        "section": "よくある質問",
+        "text": ""
+      },
+      {
+        "section": "Q. AIで本当に仕事は無くなるのですか？",
+        "text": "断定はできません。なくなる可能性が高いと予想される職種は挙げられていますが[1]、窓口業務は「0にはならないが限りなく0に近づく」との見方もあり[2]、運転手は技術的・法的に完全自動化に至っていないとされます[1]。代替の度合いは職種ごとに幅があると押さえておくのが実態に近いといえます。"
+      },
+      {
+        "section": "Q. AIに置き換わりにくい仕事はどんなものですか？",
+        "text": "コミュニケーションや感情理解が必要な仕事、独創性の高いクリエイティブな仕事、臨機応変な対応が必要な仕事はAIが不得意とされています[1]。また税理士の税務書類作成は独占業務として法的に保護されているとされます[1]。人間らしさが求められる領域や、法制度に守られた業務が残る場所として挙げられます。"
+      },
+      {
+        "section": "Q. AI時代に備えて今から何をすればいいですか？",
+        "text": "AIやITに関するスキルを身につけることが一つです。AIが仕事を奪うのではなく、AIやITスキルのある人材が多くの仕事を担うようになるとされ、資格は就職や昇進・昇給にも有利とされています[1]。加えてAIと協働する意識を持ち、変化を拒絶せず柔軟に対応する変化対応力を磨くことも重要とされています[1][4]。"
+      },
+      {
+        "section": "出典・参考資料",
+        "text": "1. [AI時代になくなる仕事・なくならない仕事｜違いや必要スキルも紹介](https://sks.ac.jp/blog/column_jobs-ai-era/)（参照日：2026年11月12日）\n2. [AI普及で雇用はどうなる？専門家に聞いた、なくなる仕事・増える仕事｜LINK@TOYO｜東洋大学](https://www.toyo.ac.jp/link-toyo/social/ai_employment/)（参照日：2026年11月12日）\n4. [AIの普及でなくなる仕事10選｜理由や対策・協働体制を構築した事例を紹介](https://aismiley.co.jp/ai_news/ai-replace-jobs/)（参照日：2026年11月12日）\n5. [AIによってなくなる15の仕事｜残る仕事とAI時代の動向も解説 | PORTキャリア](https://www.theport.jp/portcareer/article/79267/)（参照日：2026年11月12日）"
+      },
+      {
+        "section": "関連記事",
+        "text": "- [AIでなくなる仕事は？タスク分解で見る代替と残存](/blog/ai-jobs-disappear)\n- [AIでなくなる仕事・なくならない仕事の違い｜タスク構造で整理](/blog/ai-jobs-disappear-vs-remaining-difference)\n- [「AIで仕事なくなる」は嘘？求人増と49%の誤解をデータ検証](/blog/ai-jobs-disappear-myth-or-truth)\n- [AIでなくなる仕事ランキング｜消える理由と残る条件](/blog/ai-jobs-disappear-ranking)\n- [AI失業率をグラフで読み解く｜日本と世界の雇用はどう変わったか](/blog/ai-unemployment-rate-graph-japan)\n\n---\n\n**記事監修：** 鈴木隆文\n\n誤りにお気づきの場合は、お問い合わせフォームからご連絡ください。"
+      }
+    ],
+    "related": [
+      "ai-jobs-disappear",
+      "ai-jobs-disappear-vs-remaining-difference",
+      "ai-unemployment-rate-graph-japan",
+      "ai-jobs-disappear-myth-or-truth",
+      "ai-jobs-disappear-ranking",
+      "ai-unemployment-countermeasures",
+      "ai-white-collar-unemployment",
+      "ai-unemployment-japan"
+    ]
+  },
+  {
     "slug": "note-ai-side-business",
     "title": "note AI 最強の副業の現実解：2億円本と実践レビューから学ぶ",
     "lead": "AIで副業を始めたものの、同じ手順をなぞっても結果がばらつき、どこまで自分に再現できるのか迷っていませんか。note AI 最強の副業でAIに渡す工程と自分に残す工程の線引きが分かれば、規約確認や数字の読み方を含めて今日どこから手を動かすかを判断できます。",
@@ -16061,8 +16141,8 @@
       "20260222-222228",
       "ai-video-side-business",
       "ai-side-business-beginners-guide",
-      "ai-career-change",
-      "20260601-050155"
+      "20260601-050155",
+      "ai-career-change"
     ]
   },
   {
@@ -16483,8 +16563,8 @@
     ],
     "related": [
       "product-20260926-meta-camera-free-ai-glasses",
-      "ai-copyright-basics",
       "product-20261009-natura-99-ai-smart-ring",
+      "ai-copyright-basics",
       "product-20261024-block-dessa-ai-model",
       "product-20261031-meta-style-sketch",
       "product-20261103-xreal-aura-ar-glasses",
@@ -17044,8 +17124,8 @@
       "product-20261108-claude-personal-finance",
       "20260224-201233",
       "product-20261021-apple-tv-4k-siri-ai",
-      "product-20261025-ainote-2-ai-tablet",
-      "post-08"
+      "post-08",
+      "product-20261025-ainote-2-ai-tablet"
     ]
   },
   {
@@ -18151,8 +18231,8 @@
       "product-20261103-xreal-aura-ar-glasses",
       "product-20261101-viture-phantom-beast-glasses",
       "product-20261023-meta-muse-japan-launch",
-      "product-20261111-ring-drone-cam",
       "product-20261026-samurai-app-ai-agent-os",
+      "product-20261111-ring-drone-cam",
       "product-20261025-ainote-2-ai-tablet"
     ]
   },
