@@ -95,6 +95,7 @@ AIの得意・不得意をタスクの性質から整理すると、なくなる
 
 - [AIで無くなる仕事の特徴と今から備えること](/blog/jobs-disappearing-by-ai)
 
+- [銀行員はAIで失業する？構造から読む仕事の変化](/blog/ai-banker-unemployment-impact)
 ## 出典・参考資料
 
 1. [AI時代になくなる仕事・なくならない仕事｜違いや必要スキルも紹介](https://sks.ac.jp/blog/column_jobs-ai-era/)（参照日：2026年11月7日）
