@@ -146,7 +146,6 @@ AIに代替されにくい仕事には、共通するタスクの条件があり
 ## 関連する記録
 
 
-- [AIエンジニアの仕事はなくなる？転職前に知る現実](/blog/ai-engineer-job-future)
 - [AIでデザイナーの仕事はなくなる？求められる役割の変化と生き残る道](/blog/ai-designer-job-future)
 - [AIでホワイトカラーは失業する？弁護士・コンサルの実例](/blog/ai-white-collar-unemployment)
 - [AI失業率をグラフで読み解く｜日本と世界の雇用はどう変わったか](/blog/ai-unemployment-rate-graph-japan)
@@ -154,6 +153,7 @@ AIに代替されにくい仕事には、共通するタスクの条件があり
 - [「AIで仕事なくなる」は嘘？求人増と49%の誤解をデータ検証](/blog/ai-jobs-disappear-myth-or-truth)
 - [AIでなくなる仕事・なくならない仕事の違い｜タスク構造で整理](/blog/ai-jobs-disappear-vs-remaining-difference)
 - [AIで無くなる仕事の特徴と今から備えること](/blog/jobs-disappearing-by-ai)
+- [AI失業で影響が大きい職種は？業種別のリスクを整理](/blog/ai-unemployment-job-types)
 ## 出典・参考資料
 
 1. [The Anthropic Economic Index](https://www.anthropic.com/economic-index)（参照日：2026年9月26日）
