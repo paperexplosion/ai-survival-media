@@ -111,6 +111,7 @@ AIに置き換わりやすいのは、規則的な作業と大量のデータ処
 
 - [AIで無くなる仕事の特徴と今から備えること](/blog/jobs-disappearing-by-ai)
 
+- [AI時代になくなる仕事は？残る仕事を分ける条件](/blog/jobs-lost-in-ai-era)
 ## 出典・参考資料
 
 1. [「AIが仕事を奪う」はウソかもしれない｜日経BizGate](https://bizgate.nikkei.com/article/DGXZZO3133203004062018000000)（参照日：2026年10月30日）
