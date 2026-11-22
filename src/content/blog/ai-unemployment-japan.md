@@ -157,7 +157,6 @@ AI失業をめぐる議論では、利用データの偏りと因果関係の扱
 
 ## 関連する記録
 
-- [AIが安全を叫ぶほど便利さは静かに更新される——OpenAI退職者が核レベルを求めた日](/blog/20261004-072349)
 
 - [AIでなくなる仕事ランキング｜消える理由と残る条件](/blog/ai-jobs-disappear-ranking)
 - [AIエンジニアの仕事はなくなる？転職前に知る現実](/blog/ai-engineer-job-future)
@@ -166,6 +165,7 @@ AI失業をめぐる議論では、利用データの偏りと因果関係の扱
 - [「AIで仕事なくなる」は嘘？求人増と49%の誤解をデータ検証](/blog/ai-jobs-disappear-myth-or-truth)
 - [AI失業の対策をどう考える？ベーシックインカムと個人の備え](/blog/ai-unemployment-countermeasures)
 - [冷蔵庫が熱を帯び、偽の核警報が鳴る——60億ドル強奪はハッキング疫病の序章か](/blog/20261109-080532)
+- [AIで医師は失業する？診断・治療の変化を一次資料で読み解く](/blog/ai-doctor-unemployment-possibility)
 ## 出典・参考資料
 
 1. [Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence - Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/)（参照日：2026年9月25日）
