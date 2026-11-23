@@ -129,6 +129,7 @@ AIに代替されにくい仕事には、共通する特徴があります。ル
 - [AIでホワイトカラーは失業する？弁護士・コンサルの実例](/blog/ai-white-collar-unemployment)
 - [「AIで仕事なくなる」は嘘？求人増と49%の誤解をデータ検証](/blog/ai-jobs-disappear-myth-or-truth)
 - [AIでなくなる仕事・なくならない仕事の違い｜タスク構造で整理](/blog/ai-jobs-disappear-vs-remaining-difference)
+- [AIで無くなる仕事を整理｜理由と残る仕事の条件](/blog/ai-de-nakunaru-shigoto-matome)
 ## 出典・参考資料
 
 1. [AIに奪われる仕事ランキング｜AI時代でも活躍できる職業の共通点を解説](https://www.seigaku.ac.jp/news/ai/6181/)（参照日：2026年10月5日）
