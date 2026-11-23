@@ -95,6 +95,7 @@ AIの得意・不得意をタスクの性質から整理すると、なくなる
 
 - [AIで無くなる仕事の特徴と今から備えること](/blog/jobs-disappearing-by-ai)
 
+- [AIで無くなる仕事を整理｜理由と残る仕事の条件](/blog/ai-de-nakunaru-shigoto-matome)
 ## 出典・参考資料
 
 1. [AI時代になくなる仕事・なくならない仕事｜違いや必要スキルも紹介](https://sks.ac.jp/blog/column_jobs-ai-era/)（参照日：2026年11月7日）
