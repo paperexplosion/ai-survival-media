@@ -169,6 +169,7 @@ AI人材は、モデル開発や実装に取り組むエンジニア・研究者
 
 - [転職 相談 AI活用ガイド｜診断・面接練習の限界と注意点](/blog/ai-career-change-consultation-tools)
 
+- [転職活動のAI活用術：プロンプトと面接練習の実践法](/blog/tenshoku-katsudou-ai-katsuyou)
 ## 出典・参考資料
 
 1. [転職・求人情報なら転職AI｜求人検索・年収・企業情報をAI相談できます](https://tensyokuai.co.jp/)（参照日：2026年10月2日）
